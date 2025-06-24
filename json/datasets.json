@@ -1,0 +1,3125 @@
+{
+  "trec1": {
+    "adhoc": {
+      "corpus": {
+        "TIPSTER Volume 1": "https://catalog.ldc.upenn.edu/LDC93T3B",
+        "TIPSTER Volume 2": "https://catalog.ldc.upenn.edu/LDC93T3C"
+      },
+      "topics": "https://trec.nist.gov/data/topics_eng/topics.51-100.gz",
+      "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.51-100.disk1.disk2.parts1-5.tar.gz",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {
+        "qrels.51-100.disk1.disk2.part1.gz": "https://trec.nist.gov/data/qrels_eng/qrels.51-100.disk1.disk2.part1.gz",
+        "qrels.51-100.disk1.disk2.part2.gz": "https://trec.nist.gov/data/qrels_eng/qrels.51-100.disk1.disk2.part2.gz",
+        "qrels.51-100.disk1.disk2.part3.gz": "https://trec.nist.gov/data/qrels_eng/qrels.51-100.disk1.disk2.part3.gz",
+        "qrels.51-100.disk1.disk2.part4.gz": "https://trec.nist.gov/data/qrels_eng/qrels.51-100.disk1.disk2.part4.gz",
+        "qrels.51-100.disk1.disk2.part5.gz": "https://trec.nist.gov/data/qrels_eng/qrels.51-100.disk1.disk2.part5.gz"
+      }
+    },
+    "routing": {
+      "corpus": "https://catalog.ldc.upenn.edu/LDC93T3C",
+      "topics": "https://trec.nist.gov/data/topics_eng/topics.1-50.gz",
+      "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.1-50.parts1-5.tar.gz",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {
+        "qrels.1-50.part1.gz": "https://trec.nist.gov/data/qrels_eng/qrels.1-50.part1.gz",
+        "qrels.1-50.part2.gz": "https://trec.nist.gov/data/qrels_eng/qrels.1-50.part2.gz",
+        "qrels.1-50.part3.gz": "https://trec.nist.gov/data/qrels_eng/qrels.1-50.part3.gz",
+        "qrels.1-50.part4.gz": "https://trec.nist.gov/data/qrels_eng/qrels.1-50.part4.gz",
+        "qrels.1-50.part5.gz": "https://trec.nist.gov/data/qrels_eng/qrels.1-50.part5.gz"
+      }
+    }
+  },
+  "trec2": {
+    "adhoc": {
+      "corpus": {
+        "TIPSTER Volume 1": "https://catalog.ldc.upenn.edu/LDC93T3B",
+        "TIPSTER Volume 2": "https://catalog.ldc.upenn.edu/LDC93T3C"
+      },
+      "topics": "https://trec.nist.gov/data/topics_eng/topics.101-150.gz",
+      "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.101-150.disk1.disk2.parts1-5.tar.gz",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/results/trec2/index.html",
+      "other": {
+        "qrels.101-150.disk1.disk2.part1.gz": "https://trec.nist.gov/data/qrels_eng/qrels.51-100.disk1.disk2.part1.gz",
+        "qrels.101-150.disk1.disk2.part2.gz": "https://trec.nist.gov/data/qrels_eng/qrels.51-100.disk1.disk2.part2.gz",
+        "qrels.101-150.disk1.disk2.part3.gz": "https://trec.nist.gov/data/qrels_eng/qrels.51-100.disk1.disk2.part3.gz",
+        "qrels.101-150.disk1.disk2.part4.gz": "https://trec.nist.gov/data/qrels_eng/qrels.51-100.disk1.disk2.part4.gz",
+        "qrels.101-150.disk1.disk2.part5.gz": "https://trec.nist.gov/data/qrels_eng/qrels.51-100.disk1.disk2.part5.gz"
+      }
+    },
+    "routing": {
+      "corpus": "https://catalog.ldc.upenn.edu/LDC93T3D",
+      "topics": "https://trec.nist.gov/data/topics_eng/topics.51-100.gz",
+      "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.51-100.disk3.parts1-5.tar.gz",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/results/trec2/index.html",
+      "other": {
+        "qrels.51-100.disk3.part1.gz": "https://trec.nist.gov/data/qrels_eng/qrels.51-100.disk3.part1.gz",
+        "qrels.51-100.disk3.part2.gz": "https://trec.nist.gov/data/qrels_eng/qrels.51-100.disk3.part2.gz",
+        "qrels.51-100.disk3.part3.gz": "https://trec.nist.gov/data/qrels_eng/qrels.51-100.disk3.part3.gz",
+        "qrels.51-100.disk3.part4.gz": "https://trec.nist.gov/data/qrels_eng/qrels.51-100.disk3.part4.gz",
+        "qrels.51-100.disk3.part5.gz": "https://trec.nist.gov/data/qrels_eng/qrels.51-100.disk3.part5.gz"
+      }
+    }
+  },
+  "trec3": {
+    "adhoc": {
+      "corpus": {
+        "TIPSTER Volume 1": "https://catalog.ldc.upenn.edu/LDC93T3B",
+        "TIPSTER Volume 2": "https://catalog.ldc.upenn.edu/LDC93T3C"
+      },
+      "topics": "https://trec.nist.gov/data/topics_eng/topics.151-200.gz",
+      "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.151-200.201-250.disks1-3.all.tar.gz",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/results/trec3/index.html",
+      "other": {
+        "qrels.151-200.disk1.disk2.part1.gz": "https://trec.nist.gov/data/qrels_eng/qrels.151-200.disk1.disk2.part1.gz",
+        "qrels.151-200.disk1.disk2.part2.gz": "https://trec.nist.gov/data/qrels_eng/qrels.151-200.disk1.disk2.part2.gz",
+        "qrels.151-200.disk1.disk2.part3.gz": "https://trec.nist.gov/data/qrels_eng/qrels.151-200.disk1.disk2.part3.gz",
+        "qrels.151-200.disk1.disk2.part4.gz": "https://trec.nist.gov/data/qrels_eng/qrels.151-200.disk1.disk2.part4.gz",
+        "qrels.151-200.disk1.disk2.part5.gz": "https://trec.nist.gov/data/qrels_eng/qrels.151-200.disk1.disk2.part5.gz",
+        "qrels.201-250.disk2.disk3.interactive.part1.gz": "https://trec.nist.gov/data/qrels_eng/qrels.201-250.disk2.disk3.interactive.part1.gz",
+        "qrels.201-250.disk2.disk3.interactive.part2.gz": "https://trec.nist.gov/data/qrels_eng/qrels.201-250.disk2.disk3.interactive.part2.gz",
+        "qrels.201-250.disk2.disk3.interactive.part3.gz": "https://trec.nist.gov/data/qrels_eng/qrels.201-250.disk2.disk3.interactive.part3.gz",
+        "TIPSTER Complete": "https://catalog.ldc.upenn.edu/LDC93T3A"
+      }
+    },
+    "routing": {
+      "corpus": "https://catalog.ldc.upenn.edu/LDC93T3D",
+      "topics": "https://trec.nist.gov/data/topics_eng/topics.101-150.gz",
+      "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.101-150.disk3.parts1-5.tar.gz",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/results/trec3/index.html",
+      "other": {
+        "qrels.101-150.disk3.part1.gz": "https://trec.nist.gov/data/qrels_eng/qrels.101-150.disk3.part1.gz",
+        "qrels.101-150.disk3.part2.gz": "https://trec.nist.gov/data/qrels_eng/qrels.101-150.disk3.part2.gz",
+        "qrels.101-150.disk3.part3.gz": "https://trec.nist.gov/data/qrels_eng/qrels.101-150.disk3.part3.gz",
+        "qrels.101-150.disk3.part4.gz": "https://trec.nist.gov/data/qrels_eng/qrels.101-150.disk3.part4.gz",
+        "qrels.101-150.disk3.part5.gz": "https://trec.nist.gov/data/qrels_eng/qrels.101-150.disk3.part5.gz",
+        "TIPSTER Complete": "https://catalog.ldc.upenn.edu/LDC93T3A"
+      }
+    }
+  },
+  "trec4": {
+    "adhoc": {
+      "corpus": {
+        "TIPSTER Volume 2": "https://catalog.ldc.upenn.edu/LDC93T3C",
+        "TIPSTER Volume 3": "https://catalog.ldc.upenn.edu/LDC93T3D"
+      },
+      "topics": "https://trec.nist.gov/data/topics_eng/topics.201-250.gz",
+      "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.201-250.disk2.disk3.parts1-5.tar.gz",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {
+        "qrels.201-250.disk2.disk3.part1.gz": "https://trec.nist.gov/data/qrels_eng/qrels.201-250.disk2.disk3.part1.gz",
+        "qrels.201-250.disk2.disk3.part2.gz": "https://trec.nist.gov/data/qrels_eng/qrels.201-250.disk2.disk3.part2.gz",
+        "qrels.201-250.disk2.disk3.part3.gz": "https://trec.nist.gov/data/qrels_eng/qrels.201-250.disk2.disk3.part3.gz",
+        "qrels.201-250.disk2.disk3.part4.gz": "https://trec.nist.gov/data/qrels_eng/qrels.201-250.disk2.disk3.part4.gz",
+        "qrels.201-250.disk2.disk3.part5.gz": "https://trec.nist.gov/data/qrels_eng/qrels.201-250.disk2.disk3.part5.gz",
+        "TIPSTER Complete": "https://catalog.ldc.upenn.edu/LDC93T3A"
+      }
+    },
+    "dbmerge": {
+      "corpus": "https://catalog.ldc.upenn.edu/LDC93T3A",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "routing": {
+      "corpus": "https://catalog.ldc.upenn.edu/LDC93T3A",
+      "topics": "https://trec.nist.gov/data/topics_eng/topics.trec4.routing.gz",
+      "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.3-191.parts1-5.tar.gz",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {
+        "qrels.3-191.part1.gz": "https://trec.nist.gov/data/qrels_eng/qrels.3-191.part1.gz",
+        "qrels.3-191.part2.gz": "https://trec.nist.gov/data/qrels_eng/qrels.3-191.part2.gz",
+        "qrels.3-191.part3.gz": "https://trec.nist.gov/data/qrels_eng/qrels.3-191.part3.gz",
+        "qrels.3-191.part4.gz": "https://trec.nist.gov/data/qrels_eng/qrels.3-191.part4.gz",
+        "qrels.3-191.part5.gz": "https://trec.nist.gov/data/qrels_eng/qrels.3-191.part5.gz",
+        "qrels.trec4.routing.training.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec4.routing.training.gz"
+      }
+    },
+    "spanish": {
+      "corpus": "https://catalog.ldc.upenn.edu/LDC2000T51",
+      "topics": {
+        "TREC-4 Spanish topics": "https://trec.nist.gov/data/topics_noneng/topics.SP26-SP50.allspanish.gz",
+        "TREC-4 Spanish with English translations": "https://trec.nist.gov/data/topics_noneng/topics.SP26-SP50.spanish.english.gz"
+      },
+      "qrels": "https://trec.nist.gov/data/qrels_noneng/qrels.26-50.spanish.gz",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "filtering": {
+      "corpus": "https://catalog.ldc.upenn.edu/LDC93T3A",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "confusion": {
+      "corpus": "https://catalog.ldc.upenn.edu/LDC93T3A",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "interactive": {
+      "corpus": "https://catalog.ldc.upenn.edu/LDC93T3A",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    }
+  },
+  "trec5": {
+    "adhoc": {
+      "corpus": {
+        "TIPSTER Volume 2": "https://catalog.ldc.upenn.edu/LDC93T3C",
+        "TREC disk 4": "https://trec.nist.gov/data/cd45/index.html"
+      },
+      "topics": "https://trec.nist.gov/data/topics_eng/topics.251-300.gz",
+      "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.251-300.parts1-5.tar.gz",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {
+        "qrels.251-300.part1.gz": "https://trec.nist.gov/data/qrels_eng/qrels.251-300.part1.gz",
+        "qrels.251-300.part2.gz": "https://trec.nist.gov/data/qrels_eng/qrels.251-300.part2.gz",
+        "qrels.251-300.part3.gz": "https://trec.nist.gov/data/qrels_eng/qrels.251-300.part3.gz",
+        "qrels.251-300.part4.gz": "https://trec.nist.gov/data/qrels_eng/qrels.251-300.part4.gz",
+        "qrels.251-300.part5.gz": "https://trec.nist.gov/data/qrels_eng/qrels.251-300.part5.gz"
+      }
+    },
+    "dbmerge": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "routing": {
+      "corpus": "https://trec.nist.gov/data/cd45/index.html",
+      "topics": "https://trec.nist.gov/data/topics_eng/topics.trec5.routing.gz",
+      "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.1-243.parts1-5.tar.gz",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {
+        "qrels.1-243.part1.gz": "https://trec.nist.gov/data/qrels_eng/qrels.1-243.part1.gz",
+        "qrels.1-243.part2.gz": "https://trec.nist.gov/data/qrels_eng/qrels.1-243.part2.gz",
+        "qrels.1-243.part3.gz": "https://trec.nist.gov/data/qrels_eng/qrels.1-243.part3.gz",
+        "qrels.1-243.part4.gz": "https://trec.nist.gov/data/qrels_eng/qrels.1-243.part4.gz",
+        "qrels.1-243.part5.gz": "https://trec.nist.gov/data/qrels_eng/qrels.1-243.part5.gz"
+      }
+    },
+    "filtering": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "Spanish": {
+      "corpus": "https://catalog.ldc.upenn.edu/LDC2000T51",
+      "topics": "https://trec.nist.gov/data/topics_noneng/topics.SP51-SP75.spanish.english.gz",
+      "qrels": "https://trec.nist.gov/data/qrels_noneng/qrels.51-75.spanish.gz",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "Chinese": {
+      "corpus": "https://catalog.ldc.upenn.edu/LDC2000T52",
+      "topics": "https://trec.nist.gov/data/topics_noneng/topics.CH1-CH28.chinese.english.gz",
+      "qrels": "https://trec.nist.gov/data/qrels_noneng/qrels.1-28.chinese.gz",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "nlp": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "confusion": {
+      "corpus": "",
+      "topics": "https://trec.nist.gov/data/topics_eng/topics.confusion.cf1-cf50.gz",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/t5_confusion.html",
+      "other": {
+        "confusion.known_items.gz": "https://trec.nist.gov/data/qrels_eng/confusion.known_items.gz"
+      }
+    },
+    "interactive": {
+      "corpus": "",
+      "topics": "https://trec.nist.gov/data/topics_eng/topics.interactive.trec5.gz",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    }
+  },
+  "trec6": {
+    "adhoc": {
+      "corpus": "https://trec.nist.gov/data/cd45/index.html",
+      "topics": "https://trec.nist.gov/data/topics_eng/topics.301-350.gz",
+      "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.trec6.adhoc.parts1-5.tar.gz",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {
+        "qrels.trec6.adhoc.part1.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec6.adhoc.part1.gz",
+        "qrels.trec6.adhoc.part2.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec6.adhoc.part2.gz",
+        "qrels.trec6.adhoc.part3.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec6.adhoc.part3.gz",
+        "qrels.trec6.adhoc.part4.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec6.adhoc.part4.gz",
+        "qrels.trec6.adhoc.part5.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec6.adhoc.part5.gz"
+      }
+    },
+    "chinese": {
+      "corpus": "https://catalog.ldc.upenn.edu/LDC2000T52",
+      "topics": "https://trec.nist.gov/data/topics_noneng/topics.CH29-CH54.chinese.english.gz",
+      "qrels": "https://trec.nist.gov/data/qrels_noneng/qrels.trec6.29-54.chinese.gz",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "clir": {
+      "corpus": "",
+      "topics": {
+        "Dutch": "https://trec.nist.gov/data/topics_noneng/CL.topics.dutch.gz",
+        "English": "https://trec.nist.gov/data/topics_noneng/CL.topics.english.gz",
+        "French": "https://trec.nist.gov/data/topics_noneng/CL.topics.french.gz",
+        "German": "https://trec.nist.gov/data/topics_noneng/CL.topics.german.gz",
+        "Spanish": "https://trec.nist.gov/data/topics_noneng/CL.topics.spanish.gz"
+      },
+      "qrels": {
+        "English": "https://trec.nist.gov/data/qrels_noneng/qrels.trec6.clir.english.gz",
+        "French": "https://trec.nist.gov/data/qrels_noneng/qrels.trec6.clir.french.gz",
+        "German": "https://trec.nist.gov/data/qrels_noneng/qrels.trec6.clir.german.gz"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "filtering": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.trec6.filtering.training.gz",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "hp": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "interactive": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/t6i/t6i.html",
+      "other": {}
+    },
+    "nlp": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "sdr": {
+      "corpus": "",
+      "topics": "https://trec.nist.gov/data/topics_eng/topics.SDR1-SDR50.trec6.gz",
+      "qrels": "https://trec.nist.gov/data/qrels_eng/trec6.sdr.known_items.gz",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {
+        "TREC-6 Spoken Document Retrieval answers": "https://trec.nist.gov/data/topics_eng/answers.SDR1-SDR50.trec6.gz"
+      }
+    },
+    "vlc": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "routing": {
+      "corpus": "",
+      "topics": "https://trec.nist.gov/data/topics_eng/trec6.routing.topics.gz",
+      "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.trec6.routing.parts1-5.tar.gz",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {
+        "qrels.trec6.routing.part1.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec6.routing.part1.gz",
+        "qrels.trec6.routing.part2.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec6.routing.part2.gz",
+        "qrels.trec6.routing.part3.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec6.routing.part3.gz",
+        "qrels.trec6.routing.part4.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec6.routing.part4.gz",
+        "qrels.trec6.routing.part5.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec6.routing.part5.gz",
+        "qrels.trec6.routing.training.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec6.routing.training.gz"
+      }
+    }
+  },
+  "trec7": {
+    "adhoc": {
+      "corpus": "https://trec.nist.gov/data/cd45/index.html",
+      "topics": "https://trec.nist.gov/data/topics_eng/topics.351-400.gz",
+      "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.trec7.adhoc.parts1-5.tar.gz",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {
+        "qrels.trec7.adhoc.part1.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec7.adhoc.part1.gz",
+        "qrels.trec7.adhoc.part2.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec7.adhoc.part2.gz",
+        "qrels.trec7.adhoc.part3.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec7.adhoc.part3.gz",
+        "qrels.trec7.adhoc.part4.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec7.adhoc.part4.gz",
+        "qrels.trec7.adhoc.part5.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec7.adhoc.part5.gz"
+      }
+    },
+    "hp": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "filtering": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.trec7.filtering.gz",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "sdr": {
+      "corpus": "https://catalog.ldc.upenn.edu/LDC98S71",
+      "topics": "https://trec.nist.gov/data/sdr/1998/sdr98-topics.sgm",
+      "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.trec7.sdr.gz",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/sdr1998.html",
+      "other": {
+        "Evaluation Specification": "https://trec.nist.gov/data/sdr/1998/sdr98_spec.txt",
+        "Background Notes": "https://trec.nist.gov/data/sdr/1998/sdr98_spec.txt",
+        "Relevance Judgments": "https://trec.nist.gov/data/sdr/1998/sdr98-qrels.txt",
+        "ctm2srt.pl": "https://trec.nist.gov/data/sdr/1998/ctm2srt.pl",
+        "srt2ctm.pl": "https://trec.nist.gov/data/sdr/1998/srt2ctm.pl",
+        "srt2ltt.pl": "https://trec.nist.gov/data/sdr/1998/srt2ltt.pl"
+      }
+    },
+    "xlingual": {
+      "corpus": "",
+      "topics": {
+        "English": "https://trec.nist.gov/data/topics_noneng/CL.topics.026-053.english.gz",
+        "French": "https://trec.nist.gov/data/topics_noneng/CL.topics.026-053.french.gz",
+        "German": "https://trec.nist.gov/data/topics_noneng/CL.topics.026-053.german.gz",
+        "Italian": "https://trec.nist.gov/data/topics_noneng/CL.topics.026-053.italian.gz",
+        "Stemmed topics in Italian": "https://trec.nist.gov/data/topics_noneng/CL.topics.026-053.italian_stemmed"
+      },
+      "qrels": "https://trec.nist.gov/data/qrels_noneng/qrels.trec7.xlingual.gz",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "query": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "interactive": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/t7i/t7i.html",
+      "other": {}
+    }
+  },
+  "trec8": {
+    "adhoc": {
+      "corpus": "https://trec.nist.gov/data/cd45/index.html",
+      "topics": "https://trec.nist.gov/data/topics_eng/topics.401-450.gz",
+      "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.trec8.adhoc.parts1-5.tar.gz",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "filtering": {
+      "corpus": "https://trec.nist.gov/data/cd45/index.html",
+      "topics": "https://trec.nist.gov/data/topics_eng/topics.351-400.gz",
+      "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.trec8.filtering.gz",
+      "ir_datasets": "https://ir-datasets.com/disks45.html#disks45/nocr/trec8",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "web": {
+      "corpus": "http://ir.dcs.gla.ac.uk/test_collections/access_to_data.html",
+      "topics": "https://trec.nist.gov/data/topics_eng/topics.401-450.gz",
+      "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.trec8.small_web.gz",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/t8.web.html",
+      "other": {}
+    },
+    "query": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/t8_query.html",
+      "other": {}
+    },
+    "qa": {
+      "corpus": "https://trec.nist.gov/data/cd45/index.html",
+      "topics": "https://trec.nist.gov/data/topics_eng/topics.qa_questions.txt",
+      "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.trec8.qa.gz",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/qa/t8_qadata.html",
+      "other": {}
+    },
+    "sdr": {
+      "corpus": "https://catalog.ldc.upenn.edu/LDC98T25",
+      "topics": "ftp://jaguar.ncsl.nist.gov/sdr99/SDR99-topics.sgml",
+      "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.trec8.sdr.gz",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/sdr1999.html",
+      "other": {}
+    },
+    "xlingual": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "girt": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "interactive": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/t8i/t8i.html",
+      "other": {}
+    }
+  },
+  "trec9": {
+    "web": {
+      "corpus": "http://ir.dcs.gla.ac.uk/test_collections/wt10g.html",
+      "topics": "https://trec.nist.gov/data/topics_eng/topics.451-500.gz",
+      "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.trec9.main_web.gz",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/t9.web.html",
+      "other": {}
+    },
+    "sdr": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "qa": {
+      "corpus": "",
+      "topics": "https://trec.nist.gov/data/topics_eng/qa_questions_201-893",
+      "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.trec9.qa.gz",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/qa/t9_qadata.html",
+      "other": {
+        "TREC-9 question and answer variant map ": "https://trec.nist.gov/data/topics_eng/variants.qnumbers"
+      }
+    },
+    "xlingual": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "filtering": {
+      "corpus": "https://trec.nist.gov/data/filtering/t9.filtering.tar.gz",
+      "topics": "https://trec.nist.gov/data/filtering/t9.filtering.tar.gz",
+      "qrels": "https://trec.nist.gov/data/filtering/t9.filtering.tar.gz",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/t9_filtering.html",
+      "other": {
+        "ohsu-trec.tar.gz": "https://trec.nist.gov/data/filtering/t9.ohsu-trec.tar.gz",
+        "ohsumed88.tar.gz": "https://trec.nist.gov/data/filtering/t9.ohsumed88.tar.gz",
+        "ohsumed89.tar.gz": "https://trec.nist.gov/data/filtering/t9.ohsumed89.tar.gz",
+        "ohsumed90.tar.gz": "https://trec.nist.gov/data/filtering/t9.ohsumed90.tar.gz",
+        "ohsumed91.tar.gz": "https://trec.nist.gov/data/filtering/t9.ohsumed91.tar.gz"
+      }
+    },
+    "query": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "interactive": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/t9i/t9i.html",
+      "other": {}
+    }
+  },
+  "trec10": {
+    "web": {
+      "corpus": "http://ir.dcs.gla.ac.uk/test_collections/wt10g.html",
+      "topics": {
+        "Adhoc": "https://trec.nist.gov/data/topics_eng/topics.501-550.txt",
+        "Homepage finding": "https://trec.nist.gov/data/topics_eng/entry_page_topics.1-145.txt"
+      },
+      "qrels": {
+        "Adhoc": "https://trec.nist.gov/data/qrels_eng/adhoc_qrels.txt",
+        "Homepage finding": "https://trec.nist.gov/data/qrels_eng/homepage_qrels.txt"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/t10.web.html",
+      "other": {}
+    },
+    "qa": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/qa/t2001_qadata.html",
+      "other": {
+        "TREC 2001 main task test questions": "https://trec.nist.gov/data/qa/2001_qadata/main_task_QAdata/qa_main.894-1393.txt",
+        "TREC 2001 main task top docs ranked list": "https://trec.nist.gov/data/qa/2001_qadata/main_task_QAdata/qa_main.894-1393.txt",
+        "TREC 2001 main task judgment set": "https://trec.nist.gov/data/qa/2001_qadata/main_task_QAdata/main_qrels.txt",
+        "TREC 2001 main task pattern set": "https://trec.nist.gov/data/qa/2001_qadata/main_task_QAdata/patterns.trec10",
+        "TREC 2001 main task original answers": "https://trec.nist.gov/data/qa/2001_qadata/main_task_QAdata/original_answers",
+        "TREC 2001 list task test questions": "https://trec.nist.gov/data/qa/2001_qadata/list_task_QAdata/qa_list.1-25.txt",
+        "TREC 2001 list task top docs ranked list": "https://trec.nist.gov/data/qa/2001_qadata/list_task_QAdata/list.ranked_list.gz",
+        "TREC 2001 list task original answers": "https://trec.nist.gov/data/qa/2001_qadata/list_task_QAdata/assessor_lists"
+      }
+    },
+    "xlingual": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "filtering": {
+      "corpus": "",
+      "topics": "https://trec.nist.gov/data/filtering/T10-filtering-data.tar.gz",
+      "qrels": {
+        "The main rels for the adaptive filtering test set": "https://trec.nist.gov/data/filtering/T10-f-qrels.test.tar.gz",
+        "Revised qrels for training for batch filtering": "https://trec.nist.gov/data/filtering/qrels.train.batch"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/t2001_filtering.html",
+      "other": {
+        "List of document id's in date/id order": "https://trec.nist.gov/data/filtering/T10-f-document-order.tar.gz"
+      }
+    },
+    "video": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "interactive": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/t10i/t10i.html",
+      "other": {}
+    }
+  },
+  "trec11": {
+    "xlingual": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "web": {
+      "corpus": "http://ir.dcs.gla.ac.uk/test_collections/govinfo.html",
+      "topics": {
+        "Topic Distillation": "https://trec.nist.gov/data/topics_eng/webtopics_551-600.txt.gz",
+        "Named-Page": "https://trec.nist.gov/data/topics_eng/webnamed_page_topics.1-150.txt.gz"
+      },
+      "qrels": {
+        "Topic Distillation": "https://trec.nist.gov/data/qrels_eng/qrels.distillation.txt.gz",
+        "Named-Page": "https://trec.nist.gov/data/qrels_eng/qrels.named-page.txt.gz"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/t11.web.html",
+      "other": {}
+    },
+    "qa": {
+      "corpus": "https://catalog.ldc.upenn.edu/LDC2002T31",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/qa/t2002_qadata.html",
+      "other": {}
+    },
+    "filtering": {
+      "corpus": "",
+      "topics": "https://trec.nist.gov/data/filtering/T11filter_T2002-filt-topics.txt",
+      "qrels": {
+        "Training qrels for adaptive runs": "https://trec.nist.gov/data/filtering/T11filter_qrels.train.adapt",
+        "Training qrels for batch and routing runs": "https://trec.nist.gov/data/filtering/T11filter_qrels.train.batch",
+        "Test qrels": "https://trec.nist.gov/data/filtering/T11filter_qrels.test",
+        "Checksums for document-order.gz and qrels": "https://trec.nist.gov/data/filtering/T11filter_MD5SUMS",
+        "Final evaluation qrels": "https://trec.nist.gov/data/filtering/qrels.final.all.newformat"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/t2002_filtering.html",
+      "other": {
+        "Guidelines": "http://trec.nist.gov/act_part/data/T11filter_guide.html",
+        "Check input script": "https://trec.nist.gov/data/filtering/check_filtering.pl",
+        "List of test document id's in date/id order": "https://trec.nist.gov/data/filtering/T11doc-order.gz"
+      }
+    },
+    "novelty": {
+      "corpus": "https://trec.nist.gov/data/cd45/index.html",
+      "topics": "https://trec.nist.gov/data/t11_novelty/novelty_topics.txt",
+      "qrels": {
+        "max_qrels.new": "https://trec.nist.gov/data/t11_novelty/max_qrels.new",
+        "max_qrels.relevant": "https://trec.nist.gov/data/t11_novelty/max_qrels.relevant",
+        "min_qrels.new": "https://trec.nist.gov/data/t11_novelty/min_qrels.new",
+        "min_qrels.relevant": "https://trec.nist.gov/data/t11_novelty/min_qrels.relevant"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/t11_novelty.html",
+      "other": {
+        "README": "https://trec.nist.gov/data/t11_novelty/README",
+        "TREC 2002 Novelty Track Guidelines": "https://trec.nist.gov/data/t11_novelty/novelty_guidelines.html",
+        "eval_novelty_run.pl": "https://trec.nist.gov/data/t11_novelty/eval_novelty_run.pl",
+        "2002 Document Text": "https://trec.nist.gov/novelty.02/index.html"
+      }
+    },
+    "interactive": {
+      "corpus": "http://ir.dcs.gla.ac.uk/test_collections/access_to_data.html",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/t2002_interactive.html",
+      "other": {
+        "Guidelines": "https://trec.nist.gov/data/t11_interactive/guidelines.html"
+      }
+    },
+    "video": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    }
+  },
+  "trec12": {
+    "genomics": {
+      "corpus": "https://dmice.ohsu.edu/trec-gen/data/2003/",
+      "topics": {
+        "Primary Task - Training Topics": "https://trec.nist.gov/data/genomics/03.training-qrels.txt",
+        "Primary Task - Test Relevance Judgments": "https://trec.nist.gov/data/genomics/03.test-qrels.txt"
+      },
+      "qrels": {
+        "Primary Task - Training Relevance Judgments": "https://trec.nist.gov/data/genomics/03.training-qrels.txt",
+        "Primary Task - Test Relevance Judgments": "https://trec.nist.gov/data/genomics/03.test-qrels.txt"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/t12_genomics.html",
+      "other": {
+        "OHSU data page": "https://dmice.ohsu.edu/trec-gen/data.html",
+        "Secondary Task - Data": "https://trec.nist.gov/data/genomics/03.secondary.txt"
+      }
+    },
+    "web": {
+      "corpus": "http://ir.dcs.gla.ac.uk/test_collections/govinfo.html",
+      "topics": {
+        "TREC 2003 Topic Distillation Topics": "https://trec.nist.gov/data/topics_eng/2003.distillation_topics.1-50.txt",
+        "TREC 2003 Named-Page Finding Topics": "https://trec.nist.gov/data/topics_eng/2003.named_page_topics.151-450.txt"
+      },
+      "qrels": {
+        "TREC 2003 Topic Distillation Judgments": "https://trec.nist.gov/data/qrels_eng/qrels.distillation.2003.txt",
+        "TREC 2003 Named-Page Judgments": "https://trec.nist.gov/data/qrels_eng/qrels.named-page.2003.txt",
+        "TREC 2003 Interactive Judgments": "https://trec.nist.gov/data/qrels_eng/qrels.interactive.2003.txt"
+      },
+      "ir_datasets": "https://ir-datasets.com/gov.html",
+      "trec_webpage": "https://trec.nist.gov/data/t12.web.html",
+      "other": {
+        "TREC 2003 Topic Types": "https://trec.nist.gov/data/topics_eng/2003.named-page.topic-types.txt"
+      }
+    },
+    "hard": {
+      "corpus": "https://catalog.ldc.upenn.edu/LDC2002T31",
+      "topics": {
+        "TREC 2003 Topics with metadata": "https://trec.nist.gov/data/hard/03/03.topics.metadata",
+        "TREC 2003 Topics without metadata": "https://trec.nist.gov/data/hard/03/03.topics.nometadata"
+      },
+      "qrels": {
+        "Actual": "https://trec.nist.gov/data/hard/03/03.qrels.actual",
+        "Passage": "https://trec.nist.gov/data/qrels_eng/passage.judgements.03"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/t12_hard.html",
+      "other": {}
+    },
+    "robust": {
+      "corpus": "https://trec.nist.gov/data/cd45/index.html",
+      "topics": "https://trec.nist.gov/data/topics_eng/robust.03.final_100.txt",
+      "qrels": "https://trec.nist.gov/data/qrels_eng/robust03_qrels.txt",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/robust.html",
+      "other": {
+        "Guidelines": "http://web.archive.org/web/20031230204716/https://ciir.cs.umass.edu/research/hard/guidelines.html"
+      }
+    },
+    "qa": {
+      "corpus": "https://catalog.ldc.upenn.edu/LDC2002T31",
+      "topics": {
+        "Main task test set of questions": "https://trec.nist.gov/data/qa/2003_qadata/03QA.tasks/test.set.t12.txt",
+        "Passages task test set of questions": "https://trec.nist.gov/data/qa/2003_qadata/03QA.tasks/passage.set.t12.txt"
+      },
+      "qrels": {
+        "Main task judgements": "https://trec.nist.gov/data/qa/2003_qadata/03QA.tasks/t12.judgments.main.txt",
+        "Passages task judgments": "https://trec.nist.gov/data/qa/2003_qadata/03QA.tasks/t12.judgments.passages.txt"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/qa/t2003_qadata.html",
+      "other": {
+        "Main task: Ranked list of top docs per question": "https://trec.nist.gov/data/qa/2003_qadata/03QA.tasks/ranked.list.t12.txt",
+        "Main task: def answers.txt": "https://trec.nist.gov/data/qa/2003_qadata/03QA.tasks/t12.def_answers.txt",
+        "Main task: list answers.txt": "https://trec.nist.gov/data/qa/2003_qadata/03QA.tasks/t12.list_answers.txt",
+        "Passagest task: Ranked list of top docs per question": "https://trec.nist.gov/data/qa/2003_qadata/03QA.tasks/ranked.list.t12.txt"
+      }
+    },
+    "novelty": {
+      "corpus": "https://trec.nist.gov/novelty.03/index.html",
+      "topics": "https://trec.nist.gov/data/t12_novelty/03.novelty.topics.txt",
+      "qrels": {
+        "Relevant sentences for all documents": "https://trec.nist.gov/data/t12_novelty/qrels.relevant.03.txt",
+        "Novel sentences for all documents": "https://trec.nist.gov/data/t12_novelty/qrels.new.03.txt",
+        "Relevant sentences for first five documents": "https://trec.nist.gov/data/data/t12_novelty/qrels.5.relevant.03.txt",
+        "Relevant sentences for last 20 documents": "https://trec.nist.gov/data/t12_novelty/qrels.last20.relevant.03.txt",
+        "Novel sentences for last 20 documents": "https://trec.nist.gov/data/t12_novelty/qrels.last20.new.03.txt"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/t12_novelty.html",
+      "other": {
+        "Guidelines": "https://trec.nist.gov/data/t12_novelty/novelty03.guidelines.html",
+        "Topic types": "https://trec.nist.gov/data/t12_novelty/03.novelty.topic.types"
+      }
+    }
+  },
+  "trec13": {
+    "genomics": {
+      "corpus": "https://dmice.ohsu.edu/trec-gen/data/2004/",
+      "topics": "https://trec.nist.gov/data/genomics/04.adhoc.topics.txt",
+      "qrels": "https://trec.nist.gov/data/genomics/04.qrels.txt",
+      "ir_datasets": "https://ir-datasets.com/medline.html#medline/2004/trec-genomics-2004",
+      "trec_webpage": "https://trec.nist.gov/data/t13_genomics.html",
+      "other": {
+        "TREC 2004 Sample Topics": "https://trec.nist.gov/data/genomics/04.sample.topics.txt",
+        "TREC 2004 Categorization Task README file": "https://trec.nist.gov/data/genomics/04.readme.txt",
+        "TREC 2004 Categormzation Task Judgement file": "https://trec.nist.gov/data/genomics/04.judgments.txt"
+      }
+    },
+    "HARD": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "robust": {
+      "corpus": "https://trec.nist.gov/data/cd45/index.html",
+      "topics": "https://trec.nist.gov/data/robust/04.testset.gz",
+      "qrels": "https://trec.nist.gov/data/robust/qrels.robust2004.txt",
+      "ir_datasets": "https://ir-datasets.com/disks45.html",
+      "trec_webpage": "https://trec.nist.gov/data/t13_robust.html",
+      "other": {
+        "Guidelines": "https://trec.nist.gov/data/robust/04.guidelines.html",
+        "TREC 2004 version of robust eval perl script": "https://trec.nist.gov/data/robust/robust2004_eval.pl"
+      }
+    },
+    "qa": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/qa/t2004_qadata.html",
+      "other": {
+        "TREC 2004 QA Test Questions": "https://trec.nist.gov/data/qa/2004_qadata/QA2004_testset.xml",
+        "TREC 2004 QA Ranked List (top 1000 documents per target)": "https://trec.nist.gov/data/qa/2004_qadata/04.ranked_list.gz",
+        "TREC 2004 Judgments for TREC 2004 factoid questions": "https://trec.nist.gov/data/qa/2004_qadata/04.factoid_judgments.txt",
+        "TREC 2004 Answer set for TREC 2004 list questions": "https://trec.nist.gov/data/qa/2004_qadata/04.list_answers.txt",
+        "TREC 2004 Answer set for TREC 2004 'other' questions": "https://trec.nist.gov/data/qa/2004_qadata/04.other_answers.txt",
+        "TREC 2004 Patterns README": "https://trec.nist.gov/data/qa/2004_qadata/04.patterns.README.txt",
+        "TREC 2004 QA track patterns": "https://trec.nist.gov/data/qa/2004_qadata/04.patterns.zip",
+        "04.target_type.txt": "https://trec.nist.gov/data/qa/2004_qadata/04.target_type.txt"
+      }
+    },
+    "web": {
+      "corpus": "",
+      "topics": "https://trec.nist.gov/data/web/Web2004.query.stream.trecformat.txt",
+      "qrels": "https://trec.nist.gov/data/web/04.qrels.web.mixed.txt",
+      "ir_datasets": "https://ir-datasets.com/gov.html#gov",
+      "trec_webpage": "https://trec.nist.gov/data/t13.web.html",
+      "other": {
+        "TREC 2004 Web Track topic types": "https://trec.nist.gov/data/web/04.topic-map.official.txt"
+      }
+    },
+    "novelty": {
+      "corpus": "https://catalog.ldc.upenn.edu/LDC2002T31",
+      "topics": "https://trec.nist.gov/data/t13_novelty/novelty04.topics.txt",
+      "qrels": {
+        "TREC 2004 relevant sentences for all documents (task 2)": "https://trec.nist.gov/data/t13_novelty/04.qrels.relevant",
+        "TREC 2004 relevant sentences for the first 5 documents (task 3)": "https://trec.nist.gov/data/t13_novelty/04.qrels.5.relevant",
+        "TREC 2004 novel sentences for the first 5 documents (task 3)": "https://trec.nist.gov/data/t13_novelty/04.qrels.5.new",
+        "TREC 2004 Novel sentences for all documents": "https://trec.nist.gov/data/t13_novelty/04.qrels.new",
+        "TREC 2004 relevant sentences for all but first 5 documents": "https://trec.nist.gov/data/t13_novelty/04.qrels.lastN.relevant",
+        "TREC 2004 novel sentences for all but first 5 documents": "https://trec.nist.gov/data/t13_novelty/04.qrels.lastN.new"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/t13_novelty.html",
+      "other": {
+        "TREC 2004 Novelty Topic Text": "https://trec.nist.gov/data/t13_novelty/novelty04.topics.txt",
+        "TREC 2004 DOCNOs": "https://trec.nist.gov/data/t13_novelty/04.docnos.novelty",
+        "TREC 2004 evaluation script": "https://trec.nist.gov/data/t13_novelty/04.eval_novelty_run.pl"
+      }
+    },
+    "terabyte": {
+      "corpus": "http://ir.dcs.gla.ac.uk/test_collections/gov2-summary.htm",
+      "topics": "https://trec.nist.gov/data/terabyte/04/04topics.701-750.txt",
+      "qrels": "https://trec.nist.gov/data/terabyte/04/04.qrels.12-Nov-04",
+      "ir_datasets": "https://ir-datasets.com/gov2.html#gov2/trec-tb-2004",
+      "trec_webpage": "https://trec.nist.gov/data/terabyte04.html",
+      "other": {}
+    }
+  },
+  "trec14": {
+    "spam": {
+      "corpus": "https://plg.uwaterloo.ca/~gvcormac/treccorpus/",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://plg.uwaterloo.ca/~gvcormac/treccorpus/",
+      "other": {}
+    },
+    "terabyte": {
+      "corpus": "http://ir.dcs.gla.ac.uk/test_collections/gov2-summary.htm",
+      "topics": {
+        "2005 Efficiency task topics (compressed with gzip)": "https://trec.nist.gov/data/terabyte/05/05.efficiency_topics.gz",
+        "2005 Adhoc task topics": "https://trec.nist.gov/data/terabyte/05/05.topics.751-800.txt",
+        "2005 Named-page task topics (final version: 20 topics removed)": "https://trec.nist.gov/data/terabyte/05/05.np_topics.601-872.final.txt"
+      },
+      "qrels": {
+        "2005 Adhoc task relevance judgments": "https://trec.nist.gov/data/terabyte/05/05.adhoc_qrels",
+        "2005 Named-page task relevance judgments": "https://trec.nist.gov/data/terabyte/05/05.np_qrels"
+      },
+      "ir_datasets": "https://ir-datasets.com/gov2.html#gov2/trec-tb-2005",
+      "trec_webpage": "https://trec.nist.gov/data/terabyte05.html",
+      "other": {
+        "List of efficiency topic numbers for adhoc topics": "https://trec.nist.gov/data/terabyte/05/05.efficiency-topic-map",
+        "Named-page task evaluation script": "https://trec.nist.gov/data/terabyte/05/nphp-eval.pl"
+      }
+    },
+    "genomics": {
+      "corpus": "https://dmice.ohsu.edu/trec-gen/data/2005/",
+      "topics": "https://trec.nist.gov/data/genomics/05/genomics.qrels.large.txt",
+      "qrels": "https://trec.nist.gov/data/genomics/05/genomics.qrels.large.txt",
+      "ir_datasets": "https://ir-datasets.com/medline.html#medline/2004/trec-genomics-2004",
+      "trec_webpage": "https://trec.nist.gov/data/t14_genomics.html",
+      "other": {
+        "2005 topics and description": "",
+        "Atrain.txt": "https://trec.nist.gov/data/genomics/05/Atrain.txt",
+        "Atest.txt": "https://trec.nist.gov/data/genomics/05/Atest.txt",
+        "Etrain.txt": "https://trec.nist.gov/data/genomics/05/Etrain.txt",
+        "Etest.txt": "https://trec.nist.gov/data/genomics/05/Etest.txt",
+        "Gtrain.txt": "https://trec.nist.gov/data/genomics/05/Gtrain.txt",
+        "Gtest.txt": "https://trec.nist.gov/data/genomics/05/Gtest.txt",
+        "Ttrain.txt": "https://trec.nist.gov/data/genomics/05/Ttrain.txt",
+        "Ttest.txt": "https://trec.nist.gov/data/genomics/05/Ttest.txt",
+        "Training documents": "https://trec.nist.gov/data/genomics/05/train.crosswalk.txt",
+        "Test documents": "https://trec.nist.gov/data/genomics/05/test.crosswalk.txt"
+      }
+    },
+    "HARD": {
+      "corpus": "https://catalog.ldc.upenn.edu/LDC2002T31",
+      "topics": "https://trec.nist.gov/data/hard/05/05.50.topics.txt",
+      "qrels": "https://trec.nist.gov/data/hard/05/TREC2005.qrels.txt",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/t14_hard.html",
+      "other": {}
+    },
+    "qa": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/qa/t2005_qadata.html",
+      "other": {
+        "TREC 2005 QA Guidelines": "https://trec.nist.gov/data/qa/2005_qadata/qa.05.guidelines.html",
+        "2005 QA Main Task: Questions": "https://trec.nist.gov/data/qa/2005_qadata/QA2005_testset.xml",
+        "2005 QA Main Task: Ranked List of Top Docs": "https://trec.nist.gov/data/qa/2005_qadata/05.ranked_list",
+        "2005 QA Document Ranking Task: Questions List": "https://trec.nist.gov/data/qa/2005_qadata/05.docrank.qid",
+        "2005 QA Relationship Task: Topics": "https://trec.nist.gov/data/qa/2005_qadata/05.relationship_topics",
+        "docrank_qrels.txt": "https://trec.nist.gov/data/qa/2005_qadata/05.qrels.docrank.txt",
+        "factoid_judgments.txt": "https://trec.nist.gov/data/qa/2005_qadata/05.factoid.qrels.txt",
+        "list_answers.txt": "https://trec.nist.gov/data/qa/2005_qadata/05.lists.clean.txt",
+        "other_answers.txt": "https://trec.nist.gov/data/qa/2005_qadata/05.nuggets.other.answers.txt",
+        "README.list+other.results": "https://trec.nist.gov/data/qa/2005_qadata/README.list+other.results",
+        "list+other.results.tar.gz": "https://trec.nist.gov/data/qa/2005_qadata/list+other.results.tar.gz",
+        "05.others.autonuggets.txt": "https://trec.nist.gov/data/qa/2005_qadata/05.others.autonuggets.txt",
+        "Relationship Task Nugget List": "https://trec.nist.gov/data/qa/2005_qadata/05.nuggets.list.txt",
+        "README.relate.results": "https://trec.nist.gov/data/qa/2005_qadata/README.relate.results",
+        "relate.results.tar.gz": "https://trec.nist.gov/data/qa/2005_qadata/relate.results.tar.gz",
+        "05.relate.autonuggets.txt": "https://trec.nist.gov/data/qa/2005_qadata/05.relate.autonuggets.txt",
+        "05.target_type.txt": "https://trec.nist.gov/data/qa/2005_qadata/05.target_type.txt"
+      }
+    },
+    "enterprise": {
+      "corpus": "",
+      "topics": {
+        "Email Known-Item Search topics": "https://trec.nist.gov/data/enterprise/05/ent05.known-item.topics",
+        "Email Discussion Search topics": "https://trec.nist.gov/data/enterprise/05/ent05.discussion-search.topics",
+        "Expert Search training topics": "https://trec.nist.gov/data/enterprise/05/ent05.expert.trainingtopics",
+        "Expert Search topics": "https://trec.nist.gov/data/enterprise/05/ent05.expert.topics"
+      },
+      "qrels": {
+        "Email Known-Item Search training qrels": "https://trec.nist.gov/data/enterprise/05/ent05.known-item.training-qrels",
+        "Email Known-Item Search qrels": "https://trec.nist.gov/data/enterprise/05/ent05.known-item.qrels",
+        "Email Discussion Search official qrels": "https://trec.nist.gov/data/enterprise/05/ent05.discussion.official-qrels",
+        "Expert Search training topic qrels": "https://trec.nist.gov/data/enterprise/05/ent05.expert.trainingqrels",
+        "Expert Search qrels": "https://trec.nist.gov/data/enterprise/05/ent05.expert.qrels"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/t14_enterprise.html",
+      "other": {
+        "Expert Search list of candidates": "https://trec.nist.gov/data/enterprise/05/ent05.expert.candidates",
+        "Expert Search task guidelines": "https://trec.nist.gov/data/enterprise/05/ent05.expert.guidelines.final",
+        "Known-item search evaluation script": "https://trec.nist.gov/data/enterprise/05/ki-eval.pl"
+      }
+    },
+    "robust": {
+      "corpus": "https://catalog.ldc.upenn.edu/LDC2002T31",
+      "topics": "https://trec.nist.gov/data/robust/05/05.50.topics.txt",
+      "qrels": "https://trec.nist.gov/data/robust/05/TREC2005.qrels.txt",
+      "ir_datasets": "https://ir-datasets.com/aquaint.html",
+      "trec_webpage": "https://trec.nist.gov/data/t14_robust.html",
+      "other": {
+        "Guidelines": "https://trec.nist.gov/data/robust/05/05.guidelines.html"
+      }
+    }
+  },
+  "trec15": {
+    "terabyte": {
+      "corpus": "http://ir.dcs.gla.ac.uk/test_collections/gov2-summary.htm",
+      "topics": {
+        "Efficiency task topics": "https://trec.nist.gov/data/terabyte/06/06.efficiency_topics.tar.gz",
+        "Adhoc task topics": "https://trec.nist.gov/data/terabyte/06/06.topics.801-850.txt",
+        "2004-2006 Adhoc topics": "https://trec.nist.gov/data/terabyte/06/06.topics.701-850.txt"
+      },
+      "qrels": {
+        "adhoc top-50 qrels for MAP, P@10, and other traditional measures": "https://trec.nist.gov/data/terabyte/06/qrels.tb06.top50",
+        "adhoc sampled qrels for infAP": "https://trec.nist.gov/data/terabyte/06/qrels.tb06.infAP.gz",
+        "Named-page topics": "https://trec.nist.gov/data/terabyte/06/06.np_topics.901-1081.txt",
+        "Named-page qrels": "https://trec.nist.gov/data/terabyte/06/qrels.tb06.np"
+      },
+      "ir_datasets": "https://ir-datasets.com/gov2.html#gov2/trec-tb-2006",
+      "trec_webpage": "https://trec.nist.gov/data/terabyte06.html",
+      "other": {
+        "Description of inferred AP measure": "https://trec.nist.gov/data/terabyte/06/inferredAP.pdf"
+      }
+    },
+    "spam": {
+      "corpus": "https://plg.uwaterloo.ca/~gvcormac/treccorpus06/",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://plg.uwaterloo.ca/~gvcormac/treccorpus06/",
+      "other": {}
+    },
+    "genomics": {
+      "corpus": "https://dmice.ohsu.edu/trec-gen/data/2006/",
+      "topics": "https://dmice.ohsu.edu/trec-gen/data/2006/topics/2006topics.txt",
+      "qrels": "https://dmice.ohsu.edu/trec-gen/data/2006/final.goldstd.tsv.txt",
+      "ir_datasets": "https://ir-datasets.com/highwire.html#highwire/trec-genomics-2006",
+      "trec_webpage": "https://trec.nist.gov/data/t2006_genomics.html",
+      "other": {}
+    },
+    "enterprise": {
+      "corpus": "",
+      "topics": {
+        "Expert search topics (EX51 - EX105)": "https://trec.nist.gov/data/enterprise/06/ent06.expert.topics",
+        "Discussion search topics (DS61 - DS110)": "https://trec.nist.gov/data/enterprise/06/ent06.discussion-search.topics"
+      },
+      "qrels": {
+        "Discussion search qrels": "https://trec.nist.gov/data/enterprise/06/ent06.discussion.qrels",
+        "Expert search qrels": "https://trec.nist.gov/data/enterprise/06/ent06.qrels.expert",
+        "Expert search support document qrels": "https://trec.nist.gov/data/enterprise/06/ent06.qrels.expert-docs"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/t15_enterprise.html",
+      "other": {}
+    },
+    "blog": {
+      "corpus": "https://ir.dcs.gla.ac.uk/test_collections/blogs06info.html",
+      "topics": "https://trec.nist.gov/data/blog/06/06.topics.851-900.txt",
+      "qrels": "https://trec.nist.gov/data/blog/06/qrels.blog06.txt",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/blog06.html",
+      "other": {}
+    },
+    "qa": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "https://ir-datasets.com/gov2.html#gov2/trec-tb-2006",
+      "trec_webpage": "https://trec.nist.gov/data/qa/t2006_qadata.html",
+      "other": {
+        "TREC 2006 QA Guidelines": "https://trec.nist.gov/data/qa/2006_qadata/qa.06.guidelines.html",
+        "ciQA test topics": "https://trec.nist.gov/data/qa/2006_qadata/ciqa2006-questions.xml",
+        "ciQA answers": "https://trec.nist.gov/data/qa/2006_qadata/06.ciqa_answers.txt",
+        "anonymized ciQA judgments": "https://trec.nist.gov/data/qa/2006_qadata/06.ciqa_judgments.tar.gz",
+        "Main QA task: Questions": "https://trec.nist.gov/data/qa/2006_qadata/QA2006_testset.xml",
+        "Main QA task: Ranked list of top docs": "https://trec.nist.gov/data/qa/2006_qadata/06.ranked_list",
+        "factoid judgments": "https://trec.nist.gov/data/qa/2006_qadata/06.factoid_judgments.txt",
+        "list answers": "https://trec.nist.gov/data/qa/2006_qadata/06.list_answers.txt",
+        "anonymized list judgments": "https://trec.nist.gov/data/qa/2006_qadata/06.list_judgments.tar.gz",
+        "other answers": "https://trec.nist.gov/data/qa/2006_qadata/06.other_answers.txt",
+        "anonymized other judgments": "https://trec.nist.gov/data/qa/2006_qadata/06.other_judgments.tar.gz",
+        "other pyramid judgments": "https://trec.nist.gov/data/qa/2006_qadata/06.other-pyramid-judgments.tar.gz",
+        "ciqa pyramid judgments": "https://trec.nist.gov/data/qa/2006_qadata/06.ciqa-pyramid-judgments.tar.gz",
+        "06.target_type.txt": "https://trec.nist.gov/data/qa/2006_qadata/06.target_type.txt"
+      }
+    },
+    "legal": {
+      "corpus": "https://trec-legal.umiacs.umd.edu/#2006",
+      "topics": "http://trec-legal.umiacs.umd.edu/topics/trec_legal_eval_topics.v1.3.zip",
+      "qrels": "https://trec.nist.gov/data/legal/06/qrels.legal06",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/legal06.html",
+      "other": {}
+    }
+  },
+  "trec16": {
+    "million-query": {
+      "corpus": "http://ir.dcs.gla.ac.uk/test_collections/gov2-summary.htm",
+      "topics": "https://trec.nist.gov/data/million.query/07/07-million-query-topics.1-10000.gz",
+      "qrels": "https://trec.nist.gov/data/million.query/07/07.prels",
+      "ir_datasets": "https://ir-datasets.com/gov2.html#gov2/trec-mq-2007",
+      "trec_webpage": "https://trec.nist.gov/data/million.query07.html",
+      "other": {
+        "Check script for million query track runs": "https://trec.nist.gov/data/million.query/07/check_mq.pl",
+        "statAP_MQ_eval_v3.pl evaluation tool from NEU": "https://trec.nist.gov/data/million.query/07/statAP_MQ_eval_v3.pl"
+      }
+    },
+    "genomics": {
+      "corpus": "https://dmice.ohsu.edu/trec-gen/data/2006/",
+      "topics": "https://dmice.ohsu.edu/trec-gen/data/2007/2007topics.txt",
+      "qrels": "https://trec.nist.gov/data/genomics/07/trecgen2007-qrels.txt",
+      "ir_datasets": "https://ir-datasets.com/highwire.html#highwire/trec-genomics-2007",
+      "trec_webpage": "https://trec.nist.gov/data/t2007_genomics.html",
+      "other": {
+        "2007 evaluation script": "https://trec.nist.gov/data/genomics/07/trecgen2007_score.py"
+      }
+    },
+    "spam": {
+      "corpus": "https://plg.uwaterloo.ca/~gvcormac/treccorpus07/",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://plg.uwaterloo.ca/~gvcormac/treccorpus07/",
+      "other": {}
+    },
+    "legal": {
+      "corpus": "https://trec-legal.umiacs.umd.edu/#2007",
+      "topics": "https://trec.nist.gov/data/legal/07/topicsL07_v1.zip",
+      "qrels": {
+        "Main task qrels": "https://trec.nist.gov/data/legal/07/qrelsL07.normal",
+        "Main task qrels with probabilities": "https://trec.nist.gov/data/legal/07/qrelsL07.probs",
+        "Relevance Feedback task qrels": "https://trec.nist.gov/data/legal/07/qrelsL07.rf",
+        "Relevance Feedback task qrels with probabilities": "https://trec.nist.gov/data/legal/07/qrelsL07.rf_probs",
+        "Interactive challenge task qrels": "https://trec.nist.gov/data/legal/07/qrelsL07.interactive"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/legal07.html",
+      "other": {
+        "Reference Boolean run for 2006 topics": "https://trec.nist.gov/data/legal/07/input.refL06B.gz",
+        "Reference Boolean run for 2007 topics": "https://trec.nist.gov/data/legal/07/refL07B.gz",
+        "2007 topics file": "https://trec.nist.gov/data/legal/07/topicsL07_v1.zip",
+        "Glossary": "https://trec.nist.gov/data/legal/07/glossaryL07.html",
+        "Evaluation of Reference Run": "https://trec.nist.gov/data/legal/07/refL07B.eval",
+        "2007 evaluation script": "https://trec.nist.gov/data/legal/07/l07_eval_v10.zip",
+        "Min, max, median scores for all eval measures": "https://trec.nist.gov/data/legal/07/mediansL07.zip",
+        "Evaluation of reference run": "https://trec.nist.gov/data/legal/07/refL06B-resid.eval",
+        "Evaluation of random reference run": "https://trec.nist.gov/data/legal/07/randomRF07-resid.eval",
+        "reference run evaluation": "https://trec.nist.gov/data/legal/07/refL06B.ieval",
+        "random reference run evaluation": "https://trec.nist.gov/data/legal/07/randomRF07.ieval"
+      }
+    },
+    "qa": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/qa/t2007_qadata.html",
+      "other": {
+        "TREC 2007 QA Track Guidelines": "https://trec.nist.gov/data/qa/2007_qadata/qa.07.guidelines.html",
+        "Factoid judgments for all responses": "https://trec.nist.gov/data/qa/2007_qadata/factoid_judgments.txt",
+        "List judgments for all responses": "https://trec.nist.gov/data/qa/2007_qadata/list_judgments.txt",
+        "Other nugget pyramid": "https://trec.nist.gov/data/qa/2007_qadata/other_nugget_pyramid.txt",
+        "Other nuggets retrieved": "https://trec.nist.gov/data/qa/2007_qadata/other_retrieved_nuggets.txt",
+        "Anonymized Other judgments": "https://trec.nist.gov/data/qa/2007_qadata/2007_other_judgments.tar.gz",
+        "07.target_type.txt": "https://trec.nist.gov/data/qa/2007_qadata/07.target_type.txt",
+        "Test questions": "https://trec.nist.gov/data/qa/2007_qadata/QA2007_testset.xml.txt",
+        "Ranking of top 1000 AQUAINT-2 documents per target": "https://trec.nist.gov/data/qa/2007_qadata/main.AQUAINT2.1000docs",
+        "Ranking of top 1000 Blog06 documents per target": "https://trec.nist.gov/data/qa/2007_qadata/main.Blog06.1000docs",
+        "ciQA nuggets": "https://trec.nist.gov/data/qa/2007_qadata/ciqa_nuggets.txt",
+        "ciQA nugget pyramid": "https://trec.nist.gov/data/qa/2007_qadata/ciqa_nugget_pyramid.txt",
+        "ciQA nuggets retrieved": "https://trec.nist.gov/data/qa/2007_qadata/ciqa_retrieved_nuggets.txt",
+        "Anonymized ciQA judgments": "https://trec.nist.gov/data/qa/2007_qadata/2007_ciqa_judgments.tar.gz",
+        "ciQA test questions": "https://trec.nist.gov/data/qa/2007_qadata/ciqa2007-questions.xml",
+        "Ranking of top 100 AQUAINT-2 documents per topic": "https://trec.nist.gov/data/qa/2007_qadata/ciqa.AQUAINT2.100docs",
+        "Mapping between assessors and topics": "https://trec.nist.gov/data/qa/2007_qadata/ciqa.assessorcode-topic"
+      }
+    },
+    "blog": {
+      "corpus": "https://ir.dcs.gla.ac.uk/test_collections/blogs06info.html",
+      "topics": {
+        "Opinion task topics (901-950)": "https://trec.nist.gov/data/blog/07/07.topics.901-950",
+        "Feed distillation task topics (951-995)": "https://trec.nist.gov/data/blog/07/07.feed-distillation-topics.951-995"
+      },
+      "qrels": {
+        "Opinion task qrels": "https://trec.nist.gov/data/blog/07/07.qrels.opinion",
+        "Distillation qrels": "https://trec.nist.gov/data/blog/07/07.blog.feeddist.qrels.txt"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/blog07.html",
+      "other": {
+        "Script for evaluating polarity subtask runs": "https://trec.nist.gov/data/blog/07/eval-polarity.pl"
+      }
+    },
+    "enterprise": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/enterprise.html",
+      "other": {}
+    }
+  },
+  "trec17": {
+    "blog": {
+      "corpus": "https://ir.dcs.gla.ac.uk/test_collections/blogs06info.html",
+      "topics": {
+        "Topics for opinion search and polarity task": "https://trec.nist.gov/data/blog/08/06-08.all-blog-topics",
+        "Topics for blog distillation task": "https://trec.nist.gov/data/blog/08/08.distillation-topics.1051-1100"
+      },
+      "qrels": {
+        "Qrels for positive polarity runs": "https://trec.nist.gov/data/blog/08/08.qrels.positive.all-topics",
+        "Qrels for negative polarity runs": "https://trec.nist.gov/data/blog/08/08.qrels.negative.all-topics",
+        "Qrels for opinion task": "https://trec.nist.gov/data/blog/08/08.qrels.opinion.all-topics",
+        "Qrels for blog distillation task": "https://trec.nist.gov/data/blog/08/08.blog.blogdist.qrels"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/blog08.html",
+      "other": {
+        "Tar archive containing 5 baseline runs for opinion and polarity tasks": "https://trec.nist.gov/data/blog/08/baselines.tar",
+        "Evaluation outputs for baselines": "https://trec.nist.gov/data/blog/08/baseline-eval.tar.gz"
+      }
+    },
+    "million-query": {
+      "corpus": "http://ir.dcs.gla.ac.uk/test_collections/gov2-summary.htm",
+      "topics": "https://trec.nist.gov/data/million.query/08/08.million-query-topics.10001-20000.gz",
+      "qrels": "https://trec.nist.gov/data/million.query/08/2008.RC1.tgz",
+      "ir_datasets": "https://ir-datasets.com/gov2.html#gov2/trec-mq-2008",
+      "trec_webpage": "https://trec.nist.gov/data/million.query08.html",
+      "other": {}
+    },
+    "legal": {
+      "corpus": "https://trec-legal.umiacs.umd.edu/#2008",
+      "topics": {
+        "Topics for the ad hoc task": "https://trec.nist.gov/data/legal/08/topicsL08_v3.zip",
+        "Topics for the relevance feedback task": "https://trec.nist.gov/data/legal/08/topicsRF08.zip"
+      },
+      "qrels": {
+        "Ad hoc task relevance judgments": "https://trec.nist.gov/data/legal/08/resultsL08.zip",
+        "Relevance feedback task relevance judgments": "https://trec.nist.gov/data/legal/08/resultsRF08.zip",
+        "Final adjudicated relevance judgments for the interactive task": "https://trec.nist.gov/data/legal/08/LT_Int_FinalAssessments.txt"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/legal08.html",
+      "other": {
+        "Reference Boolean run for the ad hoc task": "https://trec.nist.gov/data/legal/08/refL08B.gz",
+        "Reference Boolean run for the relevance feedback task": "https://trec.nist.gov/data/legal/08/refRF08B.gz",
+        "Additional median scores for the standard condition ad hoc runs": "https://trec.nist.gov/data/legal/08/mediansL08.zip",
+        "Additional median scores for the relevance feedback task": "https://trec.nist.gov/data/legal/08/mediansRF08.zip",
+        "Topic-specific guidelines for the interactive task topics": "https://trec.nist.gov/data/legal/08/LegalInteractive_TopicGuidelines_2008.pdf"
+      }
+    },
+    "relfdbk": {
+      "corpus": "",
+      "topics": "",
+      "qrels": {
+        "Relevance judgments from depth-10 pools": "https://trec.nist.gov/data/relevance.feedback/08/08.qrels.top10",
+        "Prels sampled relevance judgments": "https://trec.nist.gov/data/relevance.feedback/08/08.rf-prels.tgz"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/relevance.feedback08.html",
+      "other": {}
+    },
+    "enterprise": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/enterprise.html",
+      "other": {}
+    }
+  },
+  "trec18": {
+    "relfdbk": {
+      "corpus": "",
+      "topics": "https://trec.nist.gov/data/relevance.feedback/09/rf09.topics.queries-only",
+      "qrels": {
+        "Phase 1 runs and relevance judgments": "https://trec.nist.gov/data/relevance.feedback/09/rf09_phase1.tar.gz",
+        "prels relevance judgments for category A": "https://trec.nist.gov/data/relevance.feedback/09/prels.catA.1-50.gz",
+        "prels relevance judgments for category B": "https://trec.nist.gov/data/relevance.feedback/09/prels.catB.1-50.gz",
+        "erels 'expert' file for MTC.": "https://trec.nist.gov/data/relevance.feedback/09/erels.catAB.1-50.gz"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/relevance.feedback09.html",
+      "other": {}
+    },
+    "chemical": {
+      "corpus": "https://trec.nist.gov/data/chemical09.html",
+      "topics": "https://trec.nist.gov/data/chemical09.html",
+      "qrels": "https://trec.nist.gov/data/chemical09.html",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/chemical09.html",
+      "other": {}
+    },
+    "legal": {
+      "corpus": "https://trec-legal.umiacs.umd.edu/",
+      "topics": "https://trec.nist.gov/data/legal/09/BatchTopics2009.zip",
+      "qrels": {
+        "Relevance judgments, evaluation tools, and min/med/max scores for the batch task": "https://trec.nist.gov/data/legal/09/resultsL09.zip",
+        "Relevance Judgments and Evaluation Tools for the Interactive Task": "https://trec.nist.gov/data/legal/09/evalInt09.zip"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/legal09.html",
+      "other": {
+        "Reference Boolean run for the batch task": "https://trec.nist.gov/data/legal/09/refL09B.gz"
+      }
+    },
+    "web": {
+      "corpus": "http://lemurproject.org/clueweb09/",
+      "topics": {
+        "Web track topics (query only)": "https://trec.nist.gov/data/web/09/wt09.topics.queries-only",
+        "Web track topics (full, XML format)": "https://trec.nist.gov/data/web/09/wt09.topics.full.xml"
+      },
+      "qrels": {
+        "prels relevance judgments for the adhoc task.": "https://trec.nist.gov/data/web/09/prels.1-50.gz",
+        "prels relevance judgments for the adhoc task, category A runs only": "https://trec.nist.gov/data/web/09/prels.catA.1-50.gz",
+        "prels relevance judgments for the adhoc task, category B runs only": "https://trec.nist.gov/data/web/09/prels.catB.1-50.gz",
+        "Diversity task relevance judgments": "https://trec.nist.gov/data/web/09/qrels.diversity.gz"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/web09.html",
+      "other": {
+        "mtc-eval.tgz evaluation tool": "https://trec.nist.gov/data/web/09/mtc-eval.tgz",
+        "statAP_MQ_eval_v3.pl evaluation tool": "https://trec.nist.gov/data/web/09/statAP_MQ_eval_v3.pl",
+        "ndeval.c (v1.3): source code for diversity task evaluation.": "https://trec.nist.gov/data/web/09/ndeval.c"
+      }
+    },
+    "million-query": {
+      "corpus": "http://lemurproject.org/clueweb09/",
+      "topics": "https://trec.nist.gov/data/million.query/09/09.mq.topics.20001-60000.gz",
+      "qrels": {
+        "prels relevance judgments": "https://trec.nist.gov/data/million.query/09/prels.20001-60000.gz",
+        "erels file for MTC tool": "https://trec.nist.gov/data/million.query/09/erels_docsim.20001-60000.gz"
+      },
+      "ir_datasets": "https://ir-datasets.com/clueweb09.html#clueweb09/trec-mq-2009",
+      "trec_webpage": "https://trec.nist.gov/data/million.query09.html",
+      "other": {
+        "query classes": "https://trec.nist.gov/data/million.query/09/queryclasses.gz",
+        "million query track tools page": "https://web.archive.org/web/20221113171327/http://ir.cis.udel.edu/million/data.html"
+      }
+    },
+    "blog": {
+      "corpus": "https://ir.dcs.gla.ac.uk/test_collections/blogs08info.html",
+      "topics": {
+        "Topics for the faceted blog distillation task": "https://trec.nist.gov/data/blog/09/09.distillation-topics.1101-1150",
+        "Topics for the top stories identification task": "https://trec.nist.gov/data/blog/09/09.topstories-topics.1-55"
+      },
+      "qrels": {
+        "Distillation task qrels, all 50 topics less 1139": "https://trec.nist.gov/data/blog/09/09.distillation-qrels.full",
+        "Distillation task qrels, 39 official evaluation topics": "https://trec.nist.gov/data/blog/09/09.distillation-qrels.official",
+        "Headline relevance judgments for the top stories identification task.": "https://trec.nist.gov/data/blog/09/09.topstories-topics.1-55",
+        "Blog-post relevance judgments for top stories task": "https://trec.nist.gov/data/blog/09/blog09.topnews-blogpost.qrels"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/blog09.html",
+      "other": {
+        "Headline corpus for top stories identification task": "https://trec.nist.gov/data/blog/09/09.nytimes-headline-corpus.gz",
+        "Headline-only evaluation min/med/max score summary table.": "https://trec.nist.gov/data/blog/09/blog.topstories.headlines",
+        "Blog-post aspect mapping for top stories task (maps to column 2 of the qrels file).": "https://trec.nist.gov/data/blog/09/blog09.topnews-blogpost.aspects",
+        "ndeval_blog_tns.pl": "https://trec.nist.gov/data/blog/09/ndeval_blog_tns.pl",
+        "Perl wrapper for the web track ndeval.c evaluation tool": "https://trec.nist.gov/data/blog/09/ndeval.c"
+      }
+    },
+    "entity": {
+      "corpus": "https://lemurproject.org/clueweb09/",
+      "topics": "https://trec.nist.gov/data/entity/09/09.entity-topics",
+      "qrels": "https://trec.nist.gov/data/entity/09/09.entity.qrels",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/entity09.html",
+      "other": {
+        "Entity track evaluation script": "https://trec.nist.gov/data/entity/09/eval-entity.pl"
+      }
+    }
+  },
+  "trec19": {
+    "blog": {
+      "corpus": "https://trec.nist.gov/data/reuters/reuters.html",
+      "topics": {
+        "Faceted distillation topics": "https://trec.nist.gov/data/blog/10/10.blog.distillation-topics.xml",
+        "Topics for phase 2 top stories task.": "https://trec.nist.gov/data/blog/10/10.top-stories.blog.topics.1-68"
+      },
+      "qrels": {
+        "Relevance judgments for baseline and faceted distillation task (final)": "https://trec.nist.gov/data/blog/10/10.distillation-qrels.final",
+        "Qrels for the Top Stories News Blog Post ranking task": "https://trec.nist.gov/data/blog/10/10.top-stories.blog.qrels",
+        "Prels relevance judgments for the story ranking task": "https://trec.nist.gov/data/blog/10/TS10_Binary.prels"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/blog10.html",
+      "other": {
+        "Standard baselines for distillation task": "https://trec.nist.gov/data/blog/10/baselines.tar.gz",
+        "evaluation driver script (use this to score a run)": "https://trec.nist.gov/data/blog/10/eval-TS-treceval.pl",
+        "statMAP evaluation script (used by eval-TS-treceval.pl)": "https://trec.nist.gov/data/blog/10/statAP_MQ_eval_v4.pl",
+        "ndeval.c program for diversity evaluation": "https://trec.nist.gov/data/web/10/ndeval.c",
+        "Wrapper script for ndeval.c, for Top Stories NBP Task": "https://trec.nist.gov/data/blog/10/ndeval_blog2010_nbprt.pl",
+        "Mapping of Top Stories NBP Task subtopics": "https://trec.nist.gov/data/blog/10/newsblogpost.attributes",
+        "list of near-duplicate news stories in TRC2": "https://trec.nist.gov/data/blog/10/TS10_eqclasses"
+      }
+    },
+    "web": {
+      "corpus": "https://lemurproject.org/clueweb09/",
+      "topics": {
+        "Web Track Topics": "https://trec.nist.gov/data/web/10/wt2010-topics.queries-only",
+        "Full adhoc/diversity task topic descriptions (XML)": "https://trec.nist.gov/data/web/10/wt2010-topics.xml"
+      },
+      "qrels": {
+        "Relevance judgments for adhoc task (v2, final)": "https://trec.nist.gov/data/web/10/10.diversity-qrels.final",
+        "Relevance judgments for diversity task (v2, final)": "https://trec.nist.gov/data/web/10/10.diversity-qrels.final"
+      },
+      "ir_datasets": "https://ir-datasets.com/clueweb09.html",
+      "trec_webpage": "https://trec.nist.gov/data/web10.html",
+      "other": {
+        "Web Track Guidelines": "http://plg.uwaterloo.ca/~trecweb/2010.html",
+        "ndeval.c program for diversity evaluation": "",
+        "gdeval.pl program for adhoc evaluation (nDCG, ERR)": ""
+      }
+    },
+    "chemical": {
+      "corpus": "https://trec.nist.gov/data/chemical10.html",
+      "topics": "https://trec.nist.gov/data/chemical10.html",
+      "qrels": "https://trec.nist.gov/data/chemical10.html",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/chemical10.html",
+      "other": {}
+    },
+    "relfdbk": {
+      "corpus": "https://lemurproject.org/clueweb09/",
+      "topics": "https://trec.nist.gov/data/million.query/09/09.mq.topics.20001-60000.gz",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/relevance.feedback10.html",
+      "other": {
+        "Relevance Feedback Track Guidelines": "https://trec.nist.gov/data/relevance.feedback/10/Guidelines10-final.pdf",
+        "Relevance Feedback Track Input Files": "https://trec.nist.gov/data/relevance.feedback/10/RF2010.inputfiles.tar"
+      }
+    },
+    "legal": {
+      "corpus": "https://trec-legal.umiacs.umd.edu/",
+      "topics": "https://trec-legal.umiacs.umd.edu/",
+      "qrels": {
+        "Relevance judgments for the learning task": "https://trec.nist.gov/data/legal/10/qrels.t10legallearn.gz",
+        "qrel_leg_int_2010_doc_post": "https://trec.nist.gov/data/legal/10/qrel_leg_int_2010_doc_post.txt",
+        "qrel_leg_int_2010_doc_pre": "https://trec.nist.gov/data/legal/10/qrel_leg_int_2010_doc_pre.txt",
+        "qrel_leg_int_2010_msg_post": "https://trec.nist.gov/data/legal/10/qrel_leg_int_2010_msg_post.txt",
+        "qrel_leg_int_2010_msg_pre": "https://trec.nist.gov/data/legal/10/qrel_leg_int_2010_msg_pre.txt"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/legal10.html",
+      "other": {
+        "readme.txt explaining how to run the learning task evaluation tool": "https://trec.nist.gov/data/legal/10/readme.txt",
+        "calc1.c": "https://trec.nist.gov/data/legal/10/calc1.c",
+        "calc2.c": "https://trec.nist.gov/data/legal/10/calc2.c",
+        "dolegal10eval.sh evaluation tool for learing task": "https://trec.nist.gov/data/legal/10/dolegal10eval.sh",
+        "Assessment Guidelines": "https://trec.nist.gov/data/legal/10/AssessmentGuidelines_leg_int_2010.pdf"
+      }
+    },
+    "session": {
+      "corpus": "https://lemurproject.org/clueweb09/",
+      "topics": {
+        "Session Track Topics": "https://trec.nist.gov/data/session/10/st10.topics.queries.only.txt",
+        "Full topic descriptions (XML)": "https://trec.nist.gov/data/session/10/st10.topics.full.xml"
+      },
+      "qrels": "https://trec.nist.gov/data/session/10/10.session-qrels",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/session10.html",
+      "other": {
+        "snDGC evaluation script": "https://trec.nist.gov/data/session/10/sndcg_v0.pl"
+      }
+    },
+    "entity": {
+      "corpus": "https://lemurproject.org/clueweb09/",
+      "topics": {
+        "2010 Entity track topics": "https://trec.nist.gov/data/entity/10/10.entity_topics",
+        "2010 Entity List Completion track topics": ""
+      },
+      "qrels": {
+        "Entity List Completion qrels": "https://trec.nist.gov/data/entity/10/ent-elc10.qrels",
+        "REF task relevance judgments": "https://trec.nist.gov/data/entity/10/ent-ref10.qrels"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/entity10.html",
+      "other": {
+        "Entity List Completion evaluation script": "https://trec.nist.gov/data/entity/10/eval-entity-elc.pl",
+        "REF task evaluation script": "https://trec.nist.gov/data/entity/10/eval-entity.pl"
+      }
+    }
+  },
+  "trec20": {
+    "entity": {
+      "corpus": "https://lemurproject.org/clueweb09/",
+      "topics": {
+        "2011 REF Task Topics": "https://trec.nist.gov/data/entity/11/11.topics-2.txt",
+        "2011 ELC Task Topics": "https://trec.nist.gov/data/entity/11/11.elc.topics.txt"
+      },
+      "qrels": {
+        "REF qrels file for trec_eval": "https://trec.nist.gov/data/entity/11/refqrels.txt",
+        "REF judgments for name strings": "https://trec.nist.gov/data/entity/11/refjudgments.txt"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/entity2011.html",
+      "other": {
+        "REF task evaluation README": "https://trec.nist.gov/data/entity/11/refeval-README.txt"
+      }
+    },
+    "microblog": {
+      "corpus": "https://trec.nist.gov/data/tweets/",
+      "topics": "https://trec.nist.gov/data/microblog/11/topics.MB1-50.txt",
+      "qrels": "https://trec.nist.gov/data/microblog/11/microblog11-qrels",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/microblog2011.html",
+      "other": {
+        "eval-microblog.pl": "https://trec.nist.gov/data/microblog/11/eval-microblog.pl",
+        "lucene-baseline.gz": "https://trec.nist.gov/data/microblog/11/lucene-baseline.gz",
+        "eval.lucene-baseline": "https://trec.nist.gov/data/microblog/11/eval.lucene-baseline"
+      }
+    },
+    "web": {
+      "corpus": "http://lemurproject.org/clueweb09/",
+      "topics": {
+        "2011 Web Track topics (query field only)": "https://trec.nist.gov/data/web/11/queries.101-150.txt",
+        "Full topic statements for 2011 topics": "https://trec.nist.gov/data/web/11/full-topics.xml"
+      },
+      "qrels": {
+        "qrels.adhoc": "https://trec.nist.gov/data/web/11/qrels.adhoc",
+        "qrels.diversity": "https://trec.nist.gov/data/web/11/qrels.diversity",
+        "qrels-for-ndeval": "https://trec.nist.gov/data/web/11/qrels-for-ndeval"
+      },
+      "ir_datasets": "https://ir-datasets.com/clueweb09.html",
+      "trec_webpage": "https://trec.nist.gov/data/web2011.html",
+      "other": {
+        "README file about the evaluation": "https://trec.nist.gov/data/web/11/eval-README.txt",
+        "gdeval.pl (compute nDCG and ERR)": "https://trec.nist.gov/data/web/11/gdeval.pl",
+        "ndeval.c (diversity eval)": "https://trec.nist.gov/data/web/11/ndeval.c"
+      }
+    },
+    "legal": {
+      "corpus": "https://trec-legal.umiacs.umd.edu/",
+      "topics": "https://trec-legal.umiacs.umd.edu/",
+      "qrels": "https://trec.nist.gov/data/legal/11/qrels.gz",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/legal11.html",
+      "other": {
+        "evaluation script": "https://trec.nist.gov/data/legal/11/dolegal10eval",
+        "calc1.c": "https://trec.nist.gov/data/legal/11/calc1.c",
+        "calc2.c": "https://trec.nist.gov/data/legal/11/calc2.c"
+      }
+    },
+    "chemical": {
+      "corpus": "https://trec.nist.gov/data/chemical10.html",
+      "topics": "https://trec.nist.gov/data/chemical10.html",
+      "qrels": "https://trec.nist.gov/data/chemical10.html",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/chemical11.html",
+      "other": {
+        "PATopics2011.tar.gz": "http://ir.nist.gov/TREC2010-CHEM/trec/2011/PATopics2011.tar.gz",
+        "TSTopics2011.zip": "http://ir.nist.gov/TREC2010-CHEM/trec/2011/TSTopics2011.zip",
+        "I2STopics2011.tar.gz": "http://ir.nist.gov/TREC2010-CHEM/trec/2011/I2STopics2011.tar.gz",
+        "I2STraining2011.tar.gz": "http://ir.nist.gov/TREC2010-CHEM/trec/2011/I2STraining2011.tar.gz"
+      }
+    },
+    "medical": {
+      "corpus": "",
+      "topics": "https://trec.nist.gov/data/medical/11/topics101-135.txt",
+      "qrels": {
+        "Judgment file suitable for computing extended inferred measures": "https://trec.nist.gov/data/medical/11/fullsample-qrels.gz",
+        "trec_eval qrels file": "https://trec.nist.gov/data/medical/11/qrels.txt"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/medical2011.html",
+      "other": {
+        "README file": "https://trec.nist.gov/data/medical/11/evalREADME.txt",
+        "report-visit mapping file": "https://trec.nist.gov/data/medical/11/UnivOfPittReportMappingToVisit.txt"
+      }
+    },
+    "session": {
+      "corpus": "http://lemurproject.org/clueweb09/",
+      "topics": "",
+      "qrels": "https://trec.nist.gov/data/session/11/judgments.txt",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/session2011.html",
+      "other": {
+        "Session data for RL1": "https://trec.nist.gov/data/session/11/sessiontrack2011.RL1.xml",
+        "Session data for RL2": "https://trec.nist.gov/data/session/11/sessiontrack2011.RL2.xml",
+        "Session data for RL3": "https://trec.nist.gov/data/session/11/sessiontrack2011.RL3.xml",
+        "Session data for RL4": "https://trec.nist.gov/data/session/11/sessiontrack2011.RL4.xml",
+        "README file for Session track evaluation": "https://trec.nist.gov/data/session/11/evalREADME.txt",
+        "Subtopic mapping file": "https://trec.nist.gov/data/session/11/sessionlastquery_subtopic_map.txt",
+        "Evaluation script": "https://trec.nist.gov/data/session/11/session_eval.pl"
+      }
+    },
+    "crowd": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    }
+  },
+  "trec21": {
+    "microblog": {
+      "corpus": "",
+      "topics": {
+        "Microblog 2012 adhoc task test topics": "https://trec.nist.gov/data/microblog/12/2012.topics.MB51-110.txt",
+        "Microblog 2012 filtering task test topics": "https://trec.nist.gov/data/microblog/12/2012.topics.MB1-50.filtering.txt"
+      },
+      "qrels": {
+        "Relevance judgments for the adhoc task": "https://trec.nist.gov/data/microblog/12/adhoc-qrels",
+        "Relevance judgments for the filtering task": "https://trec.nist.gov/data/microblog/12/filtering-qrels"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/microblog2012.html",
+      "other": {
+        "EvalJig.py (adhoc task)": "https://trec.nist.gov/data/microblog/12/EvalJig.py",
+        "mb12-eval.py (adhoc task)": "https://trec.nist.gov/data/microblog/12/mb12-eval.py",
+        "EvalJig.py (filtering task)": "https://trec.nist.gov/data/microblog/12/EvalJig.py",
+        "mb12-filteval.py (filtering task)": "https://trec.nist.gov/data/microblog/12/mb12-filteval.py"
+      }
+    },
+    "web": {
+      "corpus": "http://lemurproject.org/clueweb09/",
+      "topics": {
+        "TREC 2012 test queries": "https://trec.nist.gov/data/web/12/queries.151-200.txt",
+        "full version of TREC 2012 test topics": "https://trec.nist.gov/data/web/12/full-topics.xml"
+      },
+      "qrels": {
+        "qrels.diversity": "https://trec.nist.gov/data/web/12/qrels.diversity",
+        "qrels.adhoc": "https://trec.nist.gov/data/web/12/qrels.adhoc",
+        "qrels for ndeval": "https://trec.nist.gov/data/web/12/qrels-for-ndeval"
+      },
+      "ir_datasets": "https://ir-datasets.com/clueweb09.html",
+      "trec_webpage": "https://trec.nist.gov/data/web2012.html",
+      "other": {
+        "README for web track evaluation": "https://trec.nist.gov/data/web/12/eval-README.txt",
+        "source code for ndeval program (diversity measures)": "https://trec.nist.gov/data/web/12/ndeval.c",
+        "perl script for gdeval (NDCG and ERR)": "https://trec.nist.gov/data/web/12/gdeval.pl"
+      }
+    },
+    "context": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "https://trec.nist.gov/data/context/2012/website_judgements.csv.gz",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/context2012.html",
+      "other": {
+        "contexts-examples-profiles.tar.gz": "https://trec.nist.gov/data/context/2012/contexts-examples-profiles.tar.gz",
+        "Contextual Suggestion Judgments README": "https://trec.nist.gov/data/context/2012/context.README.txt"
+      }
+    },
+    "medical": {
+      "corpus": "",
+      "topics": "https://trec.nist.gov/data/medical/12/topics136-185.txt",
+      "qrels": "https://trec.nist.gov/data/medical/12/2012-treceval-qrels.txt",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/medical2012.html",
+      "other": {
+        "TREC 2012 qrels file suitable for use with trec_eval": "https://trec.nist.gov/data/medical/12/2012-sampleval-qrels.txt",
+        "sample_eval.pl evaluation script": "https://trec.nist.gov/data/medical/12/sample_eval.pl",
+        "Report to Visit Map": "https://trec.nist.gov/data/medical/12/UnivOfPittReportMappingToVisit.txt"
+      }
+    },
+    "session": {
+      "corpus": "http://lemurproject.org/clueweb09/",
+      "topics": "https://trec.nist.gov/data/session/12/topics.txt",
+      "qrels": "https://trec.nist.gov/data/session/12/qrels.txt",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/session2012.html",
+      "other": {
+        "Original XML session data": "https://trec.nist.gov/data/session/12/sessiontrack2012.txt",
+        "Session-topic mapping file": "https://trec.nist.gov/data/session/12/sessiontopicmap.txt",
+        "Main evaluation script": "https://trec.nist.gov/data/session/12/session_eval_main.py",
+        "Component code for the evaluation script": "https://trec.nist.gov/data/session/12/session_eval.py"
+      }
+    },
+    "crowd": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "kba": {
+      "corpus": "https://s3.amazonaws.com/aws-publicdatasets/trec/kba/index.html",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/kba.html",
+      "other": {}
+    }
+  },
+  "trec22": {
+    "context": {
+      "corpus": "",
+      "topics": "https://trec.nist.gov/data/context/2013/topics.csv.txt",
+      "qrels": {
+        "geo-user judgments": "https://trec.nist.gov/data/context/2013/geo-user.qrels.txt",
+        "geo-NIST judgments": "https://trec.nist.gov/data/context/2013/geo-nist.qrels.txt",
+        "desc-doc judgments": "https://trec.nist.gov/data/context/2013/desc-doc.qrels.txt"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/context2013.html",
+      "other": {
+        "profiles": "https://trec.nist.gov/data/context/2013/profiles2013.csv.txt",
+        "contexts": "https://trec.nist.gov/data/context/2013/contexts.csv.txt",
+        "examples": "https://trec.nist.gov/data/context/2013/examples.csv.txt",
+        "README for eval script and judgments": "https://trec.nist.gov/data/context/2013/README.txt",
+        "evaluation script": "https://trec.nist.gov/data/context/2013/eval.py"
+      }
+    },
+    "kba": {
+      "corpus": "https://s3.amazonaws.com/aws-publicdatasets/trec/kba/index.html",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/kba.html",
+      "other": {}
+    },
+    "web": {
+      "corpus": "http://lemurproject.org/clueweb12/",
+      "topics": "https://trec.nist.gov/data/web/2013/web2013.topics.txt",
+      "qrels": {
+        "file containing all judgments": "https://trec.nist.gov/data/web/2013/qrels.all.txt",
+        "judgment file containing one aspect per topic": "https://trec.nist.gov/data/web/2013/qrels.adhoc.txt"
+      },
+      "ir_datasets": "https://ir-datasets.com/clueweb12.html",
+      "trec_webpage": "https://trec.nist.gov/data/web2013.html",
+      "other": {
+        "judgment file suitable for use with ndeval": "https://trec.nist.gov/data/web/2013/qrels.ndeval.txt",
+        "github repository with evaluation code and baselines": "http://github.com/trec-web/trec-web-2013"
+      }
+    },
+    "federated": {
+      "corpus": "",
+      "topics": "https://trec.nist.gov/data/federated/2013/fedweb13_50topics.xml",
+      "qrels": {
+        "Relevance Judgments for Resource Selection Task": "https://trec.nist.gov/data/federated/2013/FW13-QRELS-RS.txt",
+        "Relevance Judgments for Results Merging task": "https://trec.nist.gov/data/federated/2013/FW13-QRELS-RM.txt"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/federated2013.html",
+      "other": {
+        "Duplicate document classes (for result merging task evaluation)": "https://trec.nist.gov/data/federated/2013/duplicates.txt"
+      }
+    },
+    "microblog": {
+      "corpus": "",
+      "topics": "https://trec.nist.gov/data/microblog/2013/topics.MB111-170.txt",
+      "qrels": "https://trec.nist.gov/data/microblog/2013/qrels.txt",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/microblog2013.html",
+      "other": {}
+    },
+    "tempsumm": {
+      "corpus": "",
+      "topics": "https://trec.nist.gov/data/tempsumm/2013/testTopics.xml",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/tempsumm2013.html",
+      "other": {
+        "Evaluation script for Temporal Summarization Runs": "https://trec.nist.gov/data/tempsumm/2013/tseval.py",
+        "Scoring Data: set of pooled updates": "https://trec.nist.gov/data/tempsumm/2013/pooled_updates.tsv",
+        "Scoring Data: nuggets": "https://trec.nist.gov/data/tempsumm/2013/nuggets.tsv",
+        "Scoring Data: found matches": "https://trec.nist.gov/data/tempsumm/2013/matches.tsv"
+      }
+    },
+    "session": {
+      "corpus": "http://lemurproject.org/clueweb12/",
+      "topics": "https://trec.nist.gov/data/session/2013/topics.txt",
+      "qrels": "https://trec.nist.gov/data/session/2013/qrels.txt",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/session2013.html",
+      "other": {
+        "Session data": "https://trec.nist.gov/data/session/2013/sessiontrack2013.xml.gz"
+      }
+    },
+    "crowd": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    }
+  },
+  "trec23": {
+    "clinical": {
+      "corpus": {
+        "pmc-text-00.tar.gz": "http://ceb.nlm.nih.gov/~simpsonmatt/pmc-text-00.tar.gz",
+        "pmc-text-01.tar.gz": "http://ceb.nlm.nih.gov/~simpsonmatt/pmc-text-01.tar.gz",
+        "pmc-text-02.tar.gz": "http://ceb.nlm.nih.gov/~simpsonmatt/pmc-text-02.tar.gz",
+        "pmc-text-03.tar.gz": "http://ceb.nlm.nih.gov/~simpsonmatt/pmc-text-03.tar.gz"
+      },
+      "topics": "https://www.trec-cds.org/topics2014.xml",
+      "qrels": "https://trec.nist.gov/data/clinical/qrels-treceval-2014.txt",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/clinical2014.html",
+      "other": {
+        "Set of valid doc IDs in the collection": "https://trec.nist.gov/data/clinical/docnos-2014.txt",
+        "Relevance judgment file suitable for computing inferred measures": "https://trec.nist.gov/data/clinical/qrels-sampleval-2014.txt",
+        "Evaluation script for computing inferred measures": "https://trec.nist.gov/data/clinical/sample_eval.pl",
+        "Retro-fitted 'answers' for the topics as produced by one physician": "https://trec.nist.gov/data/clinical/answers-2014.xlsx"
+      }
+    },
+    "context": {
+      "corpus": "",
+      "topics": "https://trec.nist.gov/data/context/2014/topics.csv.txt",
+      "qrels": {
+        "geo-user judgments": "https://trec.nist.gov/data/context/2014/geo-user.qrels.txt",
+        "geo-NIST judgments": "https://trec.nist.gov/data/context/2014/geo-nist.qrels.txt",
+        "desc-doc judgments": "https://trec.nist.gov/data/context/2014/desc-doc.qrels.txt"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/context2014.html",
+      "other": {
+        "profiles": "https://trec.nist.gov/data/context/2014/profiles2014-70.csv.txt",
+        "contexts": "https://trec.nist.gov/data/context/2014/contexts2014.csv.txt",
+        "examples": "https://trec.nist.gov/data/context/2014/examples2014.csv.txt",
+        "README for eval script and judgments": "https://trec.nist.gov/data/context/2014/README.txt",
+        "evaluation script": "https://trec.nist.gov/data/context/2014/eval.py"
+      }
+    },
+    "microblog": {
+      "corpus": "",
+      "topics": {
+        "TREC 2014 test topics": "https://trec.nist.gov/data/microblog/2014/topics.MB171-225.txt",
+        "TREC 2014 topics with added description field": "https://trec.nist.gov/data/microblog/2014/topics.desc.MB171-225.txt"
+      },
+      "qrels": "https://trec.nist.gov/data/microblog/2014/qrels2014.txt",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/microblog2014.html",
+      "other": {
+        "Cluster annotations for the TTG task": "https://trec.nist.gov/data/microblog/2014/trec2014_mb_ttg_clusters.json",
+        "Evaluation script for the TTG task": "https://trec.nist.gov/data/microblog/2014/ttg_eval.py"
+      }
+    },
+    "web": {
+      "corpus": "http://lemurproject.org/clueweb12/",
+      "topics": {
+        "TREC 2014 test queries": "https://trec.nist.gov/data/web/2014/web2014.topics.txt",
+        "full topic statements of TREC 2014 test queries": "https://trec.nist.gov/data/web/2014/trec2014-topics.xml"
+      },
+      "qrels": {
+        "file containing all judgments": "https://trec.nist.gov/data/web/2014/qrels.all.txt",
+        "judgment file containing one aspect per topic": "https://trec.nist.gov/data/web/2014/qrels.adhoc.txt",
+        "judgment file suitable for use with ndeval": "https://trec.nist.gov/data/web/2014/qrels.ndeval.txt"
+      },
+      "ir_datasets": "https://ir-datasets.com/clueweb12.html",
+      "trec_webpage": "https://trec.nist.gov/data/web2014.html",
+      "other": {
+        "github repository with evaluation code and baselines": "http://github.com/trec-web/trec-web-2014"
+      }
+    },
+    "federated": {
+      "corpus": "",
+      "topics": "https://trec.nist.gov/data/federated/2014/queryterms_fedweb2014.txt",
+      "qrels": {
+        "Vertical Selection task judgments file": "https://trec.nist.gov/data/federated/2014/vertical-qrels.txt",
+        "Resource Selection task judgments file": "https://trec.nist.gov/data/federated/2014/resource-qrels.txt",
+        "Results Merging task judgments file": "https://trec.nist.gov/data/federated/2014/merging-qrels.txt"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/federated2014.html",
+      "other": {
+        "Vertical Selection Task - TREC 2014 Verticals definition": "https://trec.nist.gov/data/federated/2014/verticals_fedweb2014.txt",
+        "Vertical Selection Task - README file for Vertical Selection task evaluation": "https://trec.nist.gov/data/federated/2014/README-VS.txt",
+        "Vertical Selection Task - Evaluation script for Vertical Selection task": "https://trec.nist.gov/data/federated/2014/evalVS.pl",
+        "Resource Selection Task - TREC 2014 Resources list": "https://trec.nist.gov/data/federated/2014/resources_fedweb2014.txt",
+        "Resource Selection Task - README file for Resource Selection task evaluation": "https://trec.nist.gov/data/federated/2014/README-RS.txt",
+        "Results Merging Task - README file for Results Merging task evaluation": "https://trec.nist.gov/data/federated/2014/README-RM.txt",
+        "Results Merging Task - Duplicate page sets": "https://trec.nist.gov/data/federated/2014/merging-duplicates.txt",
+        "Results Merging Task - Intent probabilities per topic": "https://trec.nist.gov/data/federated/2014/fedweb-50test-vr4rm.txt",
+        "Results Merging Task - Evaluation script for intent aware measures": "https://trec.nist.gov/data/federated/2014/calc-nDCG-IA.py"
+      }
+    },
+    "kba": {
+      "corpus": "https://s3.amazonaws.com/aws-publicdatasets/trec/kba/index.html",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/kba.html",
+      "other": {}
+    },
+    "tempsumm": {
+      "corpus": "",
+      "topics": "https://trec.nist.gov/data/tempsumm/2014/trec2014-ts-topics-test.xml",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/tempsumm2014.html",
+      "other": {
+        "Evaluation script for Temporal Summarization Runs": "https://trec.nist.gov/data/tempsumm/2014/tseval.py",
+        "Scoring Data: nuggets": "https://trec.nist.gov/data/tempsumm/2014/nuggets.tsv",
+        "Scoring Data: found matches": "https://trec.nist.gov/data/tempsumm/2014/matches.tsv",
+        "Scoring Data: set of pooled updates": "https://trec.nist.gov/data/tempsumm/2014/updates_sampled.tsv",
+        "Scoring Data: set of pooled updates (extended)": "https://trec.nist.gov/data/tempsumm/2014/updates_sampled.extended.tsv"
+      }
+    },
+    "session": {
+      "corpus": "http://lemurproject.org/clueweb12/",
+      "topics": "https://trec.nist.gov/data/session/2014/topictext-890.txt",
+      "qrels": "https://trec.nist.gov/data/session/2014/judgments.txt",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/session2014.html",
+      "other": {
+        "Session data": "https://trec.nist.gov/data/session/2014/sessiontrack2014.xml.gz",
+        "README file for Session track evaluation": "https://trec.nist.gov/data/session/2014/README.txt",
+        "Session->topic mapping file": "https://trec.nist.gov/data/session/2014/session-topic-mapping.txt"
+      }
+    }
+  },
+  "trec24": {
+    "clinical": {
+      "corpus": {
+        "pmc-text-00.tar.gz": "http://ceb.nlm.nih.gov/~simpsonmatt/pmc-text-00.tar.gz",
+        "pmc-text-01.tar.gz": "http://ceb.nlm.nih.gov/~simpsonmatt/pmc-text-01.tar.gz",
+        "pmc-text-02.tar.gz": "http://ceb.nlm.nih.gov/~simpsonmatt/pmc-text-02.tar.gz",
+        "pmc-text-03.tar.gz": "http://ceb.nlm.nih.gov/~simpsonmatt/pmc-text-03.tar.gz"
+      },
+      "topics": {
+        "Task A": "https://trec.nist.gov/data/clinical/topics-2015-A.xml",
+        "Task B": "https://trec.nist.gov/data/clinical/topics-2015-B.xml"
+      },
+      "qrels": "https://trec.nist.gov/data/clinical/qrels-treceval-2015.txt",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/clinical2015.html",
+      "other": {
+        "Relevance judgment file suitable for computing inferred measures": "https://trec.nist.gov/data/clinical/qrels-sampleval-2015.txt",
+        "Evaluation script for computing inferred measures": "https://trec.nist.gov/data/clinical/sample_eval.pl"
+      }
+    },
+    "microblog": {
+      "corpus": "",
+      "topics": "https://trec.nist.gov/data/microblog/2015/TREC2015-MB-testtopics.txt",
+      "qrels": "https://trec.nist.gov/data/microblog/2015/qrels.txt",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/microblog2015.html",
+      "other": {
+        "Tweet identifiers from the evaluation (161MB, 40M ids)": "https://ir.nist.gov/microblog/2015-ids-filtered.gz",
+        "README file for evaluation": "https://trec.nist.gov/data/microblog/2015/eval-README.txt",
+        "Evaluation script for Task A": "https://trec.nist.gov/data/microblog/2015/real-time-filtering-modelA-eval.py",
+        "Evaluation script for Task B": "https://trec.nist.gov/data/microblog/2015/real-time-filtering-modelB-eval.py",
+        "Clusters file": "https://trec.nist.gov/data/microblog/2015/clusters-2015.json",
+        "Tweet to day epoch": "https://trec.nist.gov/data/microblog/2015/tweet2dayepoch.txt"
+      }
+    },
+    "context": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "https://trec.nist.gov/data/context/2015/qrels-batch.txt",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/context2015.html",
+      "other": {}
+    },
+    "tempsumm": {
+      "corpus": "",
+      "topics": "https://trec.nist.gov/data/tempsumm/2015/trec2015-ts-topics-test.xml",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/tempsumm2015.html",
+      "other": {
+        "README file for eval tar file": "https://trec.nist.gov/data/tempsumm/2015/README.txt",
+        "Evaluation tar file": "https://trec.nist.gov/data/tempsumm/2015/ts15eval.tgz"
+      }
+    },
+    "task": {
+      "corpus": "",
+      "topics": {
+        "Test queries": "https://trec.nist.gov/data/tasks/final_tasks.xml",
+        "Elaborated topics (with subtasks)": "https://trec.nist.gov/data/tasks/subtasks.txt"
+      },
+      "qrels": {
+        "Keyphrase qrels": "https://trec.nist.gov/data/tasks/qrels-keyphrases.txt",
+        "Document qrels": "https://trec.nist.gov/data/tasks/qrels-docs.txt"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/tasks2015.html",
+      "other": {}
+    },
+    "recall": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "domain": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/domain2015.html",
+      "other": {
+        "Truth Data": "https://trec.nist.gov/data/domain/2015/dynamic-domain-2015-truth-data-v5.xml.gz",
+        "Cube Test qrels file": "https://trec.nist.gov/data/domain/2015/cubetest-qrels-v5.gz"
+      }
+    },
+    "qa": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/qa/2015_LiveQA.html",
+      "other": {
+        "Questions used in TREC 2015 test set": "https://trec.nist.gov/data/qa/2015_LiveQA/questions.txt",
+        "Map from Yahoo question ids to TREC question numbers": "https://trec.nist.gov/data/qa/2015_LiveQA/qids.txt",
+        "2015 Judgments for submitted strings (version 2)": "https://trec.nist.gov/data/qa/2015_LiveQA/LiveQA2015-qrels-ver2.txt.gz"
+      }
+    }
+  },
+  "trec25": {
+    "clinical": {
+      "corpus": {
+        "pmc-00.tar.gz": "http://ceb.nlm.nih.gov/~robertske/pmc-00.tar.gz",
+        "pmc-01.tar.gz": "http://ceb.nlm.nih.gov/~robertske/pmc-01.tar.gz",
+        "pmc-02.tar.gz": "http://ceb.nlm.nih.gov/~robertske/pmc-02.tar.gz",
+        "pmc-03.tar.gz": "http://ceb.nlm.nih.gov/~robertske/pmc-03.tar.gz"
+      },
+      "topics": "https://trec.nist.gov/data/clinical/topics2016.xml",
+      "qrels": "https://trec.nist.gov/data/clinical/qrels-treceval-2016.txt",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/clinical2016.html",
+      "other": {
+        "Relevance judgment file suitable for computing inferred measures": "https://trec.nist.gov/data/clinical/qrels-sampleval-2016.txt",
+        "Evaluation script for computing inferred measures": "https://trec.nist.gov/data/clinical/sample_eval.pl"
+      }
+    },
+    "qa": {
+      "corpus": "",
+      "topics": {
+        "Questions used in TREC 2016 test set": "https://trec.nist.gov/data/qa/2016_LiveQA/questions.txt",
+        "Map from Yahoo question ids to TREC question numbers": "https://trec.nist.gov/data/qa/2016_LiveQA/qids.txt",
+        "Question Categories": "https://trec.nist.gov/data/qa/2016_LiveQA/categories.txt"
+      },
+      "qrels": {
+        "Assessors' succint paraphrase of each question": "https://trec.nist.gov/data/qa/2016_LiveQA/interpretations.xml",
+        "2016 judgments for all submitted strings ": "https://trec.nist.gov/data/qa/2016_LiveQA/anon-qrels.txt.gz"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/qa/2016_LiveQA.html",
+      "other": {
+        "Resources associated with given responses": "https://trec.nist.gov/data/qa/2016_LiveQA/resources.xml"
+      }
+    },
+    "context": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "https://trec.nist.gov/data/context/2016/qrels.txt",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/context2016.html",
+      "other": {}
+    },
+    "realtime": {
+      "corpus": "",
+      "topics": "",
+      "qrels": {
+        "Relevance judgments from NIST assessors for evaluation set (used by batch evaluation)": "https://trec.nist.gov/data/rts/rts2016-qrels.txt",
+        "Scenario A mobile assessor judgments": "https://trec.nist.gov/data/rts/rts2016-mobileA-qrels.txt"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/rts2016.html",
+      "other": {
+        "Clusters of equivalent relevant tweets as created by assessors (format is topic-id cluster-id tweet-id)": "https://trec.nist.gov/data/rts/rts2016-clusters.txt",
+        "Clusters of equivalent relevant tweets in JSON format": "https://trec.nist.gov/data/rts/rts2016-batch-clusters.json",
+        "Gloss of cluster intent (format is topic-id cluster-id gloss)": "https://trec.nist.gov/data/rts/rts2016-glosses.txt",
+        "Epoch time file": "https://trec.nist.gov/data/rts/rts2016-batch-tweets2dayepoch.txt",
+        "Evaluation script for Scenario A runs using mobile assessors": "https://trec.nist.gov/data/rts/rts2016-mobileA-eval.py",
+        "Evaluation script for Scenario A batch evaluation": "https://trec.nist.gov/data/rts/rts2016-batchA-eval.py",
+        "Evaluation script for Scenario B batch evaluation": "https://trec.nist.gov/data/rts/rts2016-batchB-eval.py"
+      }
+    },
+    "recall": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    },
+    "task": {
+      "corpus": "",
+      "topics": {
+        "Test queries": "https://trec.nist.gov/data/tasks/tasks_track_queries_2016.xml",
+        "Elaborated topics (with subtasks)": "https://trec.nist.gov/data/tasks/2016-subtasks.txt"
+      },
+      "qrels": {
+        "Keyphrase judgments per subtask": "https://trec.nist.gov/data/tasks/2016-qrels-keywords.txt",
+        "Document judgments (relevance and utility) per subtask": "https://trec.nist.gov/data/tasks/2016-qrels-docs.txt"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/tasks2016.html",
+      "other": {}
+    },
+    "domain": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/domain2016.html",
+      "other": {
+        "Truth Data": "https://trec.nist.gov/data/domain/2016/dynamic-domain-2016-truth-data.xml.gz",
+        "Cube Test qrels file": "https://trec.nist.gov/data/domain/2016/cubetest-qrels-2016.gz"
+      }
+    },
+    "open": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    }
+  },
+  "trec26": {
+    "core": {
+      "corpus": "https://catalog.ldc.upenn.edu/LDC2008T19",
+      "topics": {
+        "Complete set of test topics": "https://trec.nist.gov/data/core/core_crowd.txt",
+        "50 test topics that were assessed by NIST assessors": "https://trec.nist.gov/data/core/core_nist.txt"
+      },
+      "qrels": "https://trec.nist.gov/data/core/qrels.txt",
+      "ir_datasets": "https://ir-datasets.com/nyt.html",
+      "trec_webpage": "https://trec.nist.gov/data/core2017.html",
+      "other": {}
+    },
+    "pm": {
+      "corpus": {
+        "medline_xml.part1.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/medline_xml.part1.tar.gz",
+        "medline_xml.part2.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/medline_xml.part2.tar.gz",
+        "medline_xml.part3.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/medline_xml.part3.tar.gz",
+        "medline_xml.part4.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/medline_xml.part4.tar.gz",
+        "medline_xml.part5.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/medline_xml.part5.tar.gz",
+        "medline_txt.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/medline_txt.tar.gz",
+        "extra_abstracts.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/extra_abstracts.tar.gz",
+        "clinicaltrials_xml.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/clinicaltrials_xml.tar.gz",
+        "clinicaltrials_txt.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/clinicaltrials_txt.tar.gz"
+      },
+      "topics": "https://trec.nist.gov/data/precmed/topics2017.xml",
+      "qrels": {
+        "Relevance judgment file suitable for trec_eval for Scientific Abstracts task": "https://trec.nist.gov/data/precmed/qrels-final-abstracts.txt",
+        "Relevance judgment file suitable for computing inferred measures for Scientific Abstracts task": "https://trec.nist.gov/data/precmed/sample-qrels-final-abstracts.txt",
+        "Raw judgments for Scientific Abstracts task": "https://trec.nist.gov/data/precmed/abstracts.judgments.2017.csv",
+        "Relevance judgment file suitable for trec_eval for Clinical Trials task": "https://trec.nist.gov/data/precmed/qrels-final-trials.txt",
+        "Raw judgments for Clinical Trials task": "https://trec.nist.gov/data/precmed/clinical_trials.judgments.2017.csv"
+      },
+      "ir_datasets": "https://ir-datasets.com/clinicaltrials.html",
+      "trec_webpage": "https://trec.nist.gov/data/precmed2017.html",
+      "other": {
+        "Evaluation script for computing inferred measures": "https://trec.nist.gov/data/clinical/sample_eval.pl"
+      }
+    },
+    "qa": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/qa/2017_LiveQA.html",
+      "other": {
+        "Description of the data released here": "https://trec.nist.gov/data/qa/2017_LiveQA/README.txt",
+        "Non-medical questions used in TREC 2017 test set": "https://trec.nist.gov/data/qa/2017_LiveQA/questions.txt",
+        "Mapping between Yahoo question ids and NIST-assigned ids": "https://trec.nist.gov/data/qa/2017_LiveQA/qids.txt",
+        "Assessors' succint paraphrase of each question": "https://trec.nist.gov/data/qa/2017_LiveQA/questionParaphrases.xml",
+        "2017 judgments": "https://trec.nist.gov/data/qa/2017_LiveQA/anon-qrels.txt.gz",
+        "Medical questions with their reference answers": "https://trec.nist.gov/data/qa/2017_LiveQA/med-qs-and-reference-answers.xml",
+        "Relevance judgments for medical questions": "https://trec.nist.gov/data/qa/2017_LiveQA/med-anon-qrels.txt",
+        "Assessors' paraphrases of the medical questions": "https://trec.nist.gov/data/qa/2017_LiveQA/med-interpretations.xml"
+      }
+    },
+    "rts": {
+      "corpus": "",
+      "topics": "https://trec.nist.gov/data/rts/TREC2017-RTS-topics-final.json",
+      "qrels": "https://trec.nist.gov/data/rts/rts2017-batch-qrels.txt",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/rts2017.html",
+      "other": {
+        "Clusters of equivalent relevant tweets": "https://trec.nist.gov/data/rts/rts2017-batch-clusters.json",
+        "Batch eval epoch time file": "https://trec.nist.gov/data/rts/rts2017-batch-tweets2dayepoch.txt",
+        "Mobile assessor judgments": "https://trec.nist.gov/data/rts/rts2017-mobile-qrels.txt",
+        "Mobile eval epoch time file": "https://trec.nist.gov/data/rts/rts2017-batch-tweets2dayepoch.txt",
+        "Evaluation script for Scenario A, Batch evaluation": "https://trec.nist.gov/data/rts/rts2017-batchA-eval.py",
+        "Evaluation script for Scenario B, Batch evaluation": "https://trec.nist.gov/data/rts/rts2017-batchB-eval.py",
+        "Evaluation script for Mobile evaluation": "https://trec.nist.gov/data/rts/rts2017-mobile-eval.py"
+      }
+    },
+    "car": {
+      "corpus": "https://trec-car.cs.unh.edu/datareleases/v1.5-release.html",
+      "topics": "https://trec-car.cs.unh.edu/datareleases/v1.5-release.html",
+      "qrels": "https://trec-car.cs.unh.edu/datareleases/v1.5-release.html",
+      "ir_datasets": "https://ir-datasets.com/car.html",
+      "trec_webpage": "https://trec-car.cs.unh.edu/",
+      "other": {}
+    },
+    "task": {
+      "corpus": "http://www.cs.ucl.ac.uk/tasks-track-2017/data.html",
+      "topics": {
+        "Test queries": "https://trec.nist.gov/data/tasks/Task-Queries-2017.xml",
+        "Elaborated topics (with subtasks)": "https://trec.nist.gov/data/tasks/2017-subtasks.txt"
+      },
+      "qrels": "https://trec.nist.gov/data/tasks/2017-qrels-keywords.txt",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/tasks2017.html",
+      "other": {}
+    },
+    "domain": {
+      "corpus": "https://catalog.ldc.upenn.edu/LDC2008T19",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/domain2017.html",
+      "other": {
+        "Truth Data": "https://trec.nist.gov/data/domain/2017/truth_data_nyt_2017_v2.3.xml"
+      }
+    },
+    "open": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    }
+  },
+  "trec27": {
+    "pm": {
+      "corpus": {
+        "medline_xml.part1.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/medline_xml.part1.tar.gz",
+        "medline_xml.part2.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/medline_xml.part2.tar.gz",
+        "medline_xml.part3.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/medline_xml.part3.tar.gz",
+        "medline_xml.part4.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/medline_xml.part4.tar.gz",
+        "medline_xml.part5.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/medline_xml.part5.tar.gz",
+        "medline_txt.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/medline_txt.tar.gz",
+        "extra_abstracts.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/extra_abstracts.tar.gz",
+        "clinicaltrials_xml.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/clinicaltrials_xml.tar.gz",
+        "clinicaltrials_txt.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/clinicaltrials_txt.tar.gz"
+      },
+      "topics": "https://trec.nist.gov/data/precmed/topics2018.xml",
+      "qrels": {
+        "Relevance judgment file suitable for trec_eval for Scientific Abstracts task": "https://trec.nist.gov/data/precmed/qrels-treceval-abstracts-2018-v2.txt",
+        "Relevance judgment file suitable for computing inferred measures for Scientific Abstracts task": "https://trec.nist.gov/data/precmed/qrels-sample-abstracts-v2.txt",
+        "Raw judgments for Scientific Abstracts task": "https://trec.nist.gov/data/precmed/abstracts.judgments.2018-v2.csv",
+        "Relevance judgment file suitable for trec_eval for Clinical Trials task": "https://trec.nist.gov/data/precmed/qrels-treceval-clinical_trials-2018-v2.txt",
+        "Relevance judgment file suitable for computing inferred measures for Clinical Trials task": "https://trec.nist.gov/data/precmed/qrels-sample-trials-v2.txt",
+        "Raw judgments for Clinical Trials task": "https://trec.nist.gov/data/precmed/clinical_trials.judgments.2018-v2.csv"
+      },
+      "ir_datasets": "https://ir-datasets.com/clinicaltrials.html",
+      "trec_webpage": "https://trec.nist.gov/data/precmed2018.html",
+      "other": {
+        "Evaluation script for computing inferred measures": "https://trec.nist.gov/data/clinical/sample_eval.pl"
+      }
+    },
+    "core": {
+      "corpus": "https://trec.nist.gov/data/wapost/",
+      "topics": "https://trec.nist.gov/data/core/topics2018.txt",
+      "qrels": "https://trec.nist.gov/data/core/qrels2018.txt",
+      "ir_datasets": "https://ir-datasets.com/wapo.html",
+      "trec_webpage": "https://trec.nist.gov/data/core2018.html",
+      "other": {}
+    },
+    "rts": {
+      "corpus": "",
+      "topics": {
+        "TREC 2018 RTS Final Interest Profiles (Topics)": "https://trecrts.github.io/RTS18_test_profiles.json",
+        "TREC 2018 RTS Crowd Interest Profiles (Topics)": "https://trecrts.github.io/RTS18_crowd_profiles.json"
+      },
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/rts.html",
+      "other": {}
+    },
+    "car": {
+      "corpus": "https://trec-car.cs.unh.edu/datareleases/index.html",
+      "topics": "https://trec-car.cs.unh.edu/datareleases/index.html",
+      "qrels": "https://trec-car.cs.unh.edu/datareleases/index.html",
+      "ir_datasets": "https://ir-datasets.com/car.html",
+      "trec_webpage": "https://trec-car.cs.unh.edu/",
+      "other": {}
+    },
+    "news": {
+      "corpus": "https://trec.nist.gov/data/wapost/",
+      "topics": {
+        "Background Linking": "https://trec.nist.gov/data/news/2018/newsir18-topics.txt",
+        "Entity Ranking": "https://trec.nist.gov/data/news/2018/newsir18-entities.txt"
+      },
+      "qrels": {
+        "Background Linking": "https://trec.nist.gov/data/news/2018/bqrels.exp-gains.txt",
+        "Entity Ranking": "https://trec.nist.gov/data/news/2018/eqrels.txt"
+      },
+      "ir_datasets": "https://ir-datasets.com/wapo.html",
+      "trec_webpage": "https://trec.nist.gov/data/news2018.html",
+      "other": {}
+    },
+    "incident": {
+      "corpus": "https://www.dcs.gla.ac.uk/~richardm/TREC_IS/",
+      "topics": "https://www.dcs.gla.ac.uk/~richardm/TREC_IS/",
+      "qrels": "https://www.dcs.gla.ac.uk/~richardm/TREC_IS/",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/incident.html",
+      "other": {}
+    },
+    "centre": {
+      "corpus": "",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "",
+      "other": {}
+    }
+  },
+  "trec28": {
+    "car": {
+      "corpus": "https://trec-car.cs.unh.edu/datareleases/index.html",
+      "topics": "https://trec-car.cs.unh.edu/datareleases/index.html",
+      "qrels": "https://trec-car.cs.unh.edu/datareleases/index.html",
+      "ir_datasets": "https://ir-datasets.com/car.html",
+      "trec_webpage": "https://trec-car.cs.unh.edu/",
+      "other": {}
+    },
+    "deep": {
+      "corpus": {
+        "Passage Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2019#passage-ranking-dataset",
+        "Document Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2019#document-ranking-dataset"
+      },
+      "topics": {
+        "Passage Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2019#passage-ranking-dataset",
+        "Document Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2019#document-ranking-dataset"
+      },
+      "qrels": {
+        "Passage Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2019#passage-ranking-dataset",
+        "Document Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2019#document-ranking-dataset"
+      },
+      "ir_datasets": {
+        "Passage Ranking": "https://ir-datasets.com/msmarco-passage-v2.html#msmarco-passage-v2/trec-dl-2019",
+        "Document Ranking": "https://ir-datasets.com/msmarco-document-v2.html#msmarco-document-v2/trec-dl-2019"
+      },
+      "trec_webpage": "https://trec.nist.gov/data/deep2019.html",
+      "other": {
+        "Paper": "https://arxiv.org/abs/1611.09268",
+        "NIST judgments for the Document Ranking task": "https://trec.nist.gov/data/deep/2019qrels-docs.txt",
+        "NIST judgments for the Passage Ranking task": "https://trec.nist.gov/data/deep/2019qrels-pass.txt"
+      }
+    },
+    "pm": {
+      "corpus": {
+        "Scientific Abstracts (baseline)": "ftp://ftp.ncbi.nlm.nih.gov/pubmed/baseline/",
+        "clinicaltrials.0.tar.gz": "https://www.trec-cds.org/clinical_trials.0.tar.gz",
+        "clinicaltrials.1.tar.gz": "https://www.trec-cds.org/clinical_trials.1.tar.gz",
+        "clinicaltrials.2.tar.gz": "https://www.trec-cds.org/clinical_trials.2.tar.gz",
+        "clinicaltrials.3.tar.gz": "https://www.trec-cds.org/clinical_trials.3.tar.gz"
+      },
+      "topics": "https://trec.nist.gov/data/precmed/topics2019.xml",
+      "qrels": {
+        "Scientific Abstracts task raw judgments": "https://trec.nist.gov/data/precmed/abstracts.judgments.2019.csv",
+        "Scientific Abstracts task qrels suitable for trec-eval": "https://trec.nist.gov/data/precmed/qrels-treceval-abstracts.2019.txt",
+        "Scientific Abstracts task qrels suitable for sample-eval": "https://trec.nist.gov/data/precmed/qrels-sampleval-abstracts.2019.txt",
+        "Clinical Trials task raw judgments": "https://trec.nist.gov/data/precmed/clinical_trials.judgments.2019.csv",
+        "Clinical Trials task qrels suitable for trec-eval": "https://trec.nist.gov/data/precmed/qrels-treceval-trials.38.txt",
+        "Clinical Trials task qrels suitable for sample-eval": "https://trec.nist.gov/data/precmed/qrels-sampleval-trials.38.txt"
+      },
+      "ir_datasets": "https://ir-datasets.com/clinicaltrials.html",
+      "trec_webpage": "https://trec.nist.gov/data/precmed2019.html",
+      "other": {
+        "Evaluation script for computing inferred measures": "https://trec.nist.gov/data/clinical/sample_eval.pl"
+      }
+    },
+    "cast": {
+      "corpus": {
+        "MS MARCO Passage Ranking collection": "https://msmarco.blob.core.windows.net/msmarcoranking/collection.tar.gz",
+        "TREC CAR paragraph collection v2.0": "http://trec-car.cs.unh.edu/datareleases/v2.0/paragraphCorpus.v2.0.tar.xz",
+        "TREC Washington Post Corpus version 2": "https://ir.nist.gov/wapo/WashingtonPost.v2.tar.gz"
+      },
+      "topics": "https://github.com/daltonj/treccastweb/blob/master/2019/data/test_topics.query",
+      "qrels": "https://trec.nist.gov/data/cast/2019qrels.txt",
+      "ir_datasets": "https://ir-datasets.com/trec-cast.html",
+      "trec_webpage": "https://trec.nist.gov/data/cast2019.html",
+      "other": {
+        "Indri search interface": "http://boston.lti.cs.cmu.edu/Services/treccast19",
+        "Interactive web UI": "http://boston.lti.cs.cmu.edu/boston-2-25/",
+        "Washington Post duplicate file": "http://boston.lti.cs.cmu.edu/Services/treccast19/wapo_duplicate_list_v1.0.txt",
+        "MS MARCO duplicate file": "http://boston.lti.cs.cmu.edu/Services/treccast19/duplicate_list_v1.0.txt",
+        "train queries": "https://github.com/daltonj/treccastweb/blob/master/2019/data/training/train_topics.query",
+        "train run file": "http://boston.lti.cs.cmu.edu/vaibhav2/cast/train_topics.teIn",
+        "test queries": "https://github.com/daltonj/treccastweb/blob/master/2019/data/test_topics.query",
+        "test run file": "http://boston.lti.cs.cmu.edu/vaibhav2/cast/test_topics.teIn"
+      }
+    },
+    "news": {
+      "corpus": "https://trec.nist.gov/data/wapost/",
+      "topics": {
+        "Background Linking": "https://trec.nist.gov/data/news/2019/newsir19-background-linking-topics.xml",
+        "Entity Ranking": "https://trec.nist.gov/data/news/2019/newsir19-entity-ranking-topics.xml"
+      },
+      "qrels": {
+        "Background Linking": "https://trec.nist.gov/data/news/2019/newsir19-qrels-background.txt",
+        "Entity Ranking": "https://trec.nist.gov/data/news/2019/newsir19-qrels-entity.txt"
+      },
+      "ir_datasets": "https://ir-datasets.com/wapo.html",
+      "trec_webpage": "https://trec.nist.gov/data/news2019.html",
+      "other": {
+        "Background linking eval script": "https://trec.nist.gov/data/news/2019/eval-background.py",
+        "Entity ranking eval script": "https://trec.nist.gov/data/news/2019/eval-entity.py",
+        "WaPo near-duplicate clusters": "https://trec.nist.gov/data/news/2019/wapo-duplicate-hashes.gz"
+      }
+    },
+    "decisions": {
+      "corpus": "https://lemurproject.org/clueweb12/",
+      "topics": "https://trec.nist.gov/data/misinfo/2019topics.xml",
+      "qrels": "https://trec.nist.gov/data/misinfo/2019qrels_relevance.txt",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/misinfo2019.html",
+      "other": {
+        "file containing raw judgments (3 judgments per doc)": "https://trec.nist.gov/data/misinfo/2019qrels_raw.txt",
+        "file containing three judgments where efficacy is mapped to correctness ": "https://trec.nist.gov/data/misinfo/2019qrels_correctness.txt",
+        "accepted medical opinion regarding efficacy of treatments": "https://trec.nist.gov/data/misinfo/2019topics_efficacy.txt"
+      }
+    },
+    "fair": {
+      "corpus": "https://fair-trec.github.io/2019/index.html",
+      "topics": "https://fair-trec.github.io/2019/index.html",
+      "qrels": "https://fair-trec.github.io/2019/index.html",
+      "ir_datasets": "https://ir-datasets.com/trec-fair.html",
+      "trec_webpage": "https://trec.nist.gov/data/fair2019.html",
+      "other": {}
+    },
+    "incident": {
+      "corpus": "https://www.dcs.gla.ac.uk/~richardm/TREC_IS/",
+      "topics": "https://www.dcs.gla.ac.uk/~richardm/TREC_IS/",
+      "qrels": "https://www.dcs.gla.ac.uk/~richardm/TREC_IS/",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/incident.html",
+      "other": {}
+    }
+  },
+  "trec29": {
+    "news": {
+      "corpus": "https://trec.nist.gov/data/wapost/",
+      "topics": "https://trec.nist.gov/data/news/2020/newsir20-topics.txt",
+      "qrels": {
+        "Background Linking": "https://trec.nist.gov/data/news/2020/qrels.background",
+        "Wikification": "https://trec.nist.gov/data/news/2020/qrels.wikification"
+      },
+      "ir_datasets": "https://ir-datasets.com/wapo.html",
+      "trec_webpage": "https://trec.nist.gov/data/news2020.html",
+      "other": {}
+    },
+    "deep": {
+      "corpus": {
+        "Passage Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2020#passage-ranking-dataset",
+        "Document Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2020#document-ranking-dataset"
+      },
+      "topics": {
+        "Passage Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2020#passage-ranking-dataset",
+        "Document Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2020#document-ranking-dataset"
+      },
+      "qrels": {
+        "Passage Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2020#passage-ranking-dataset",
+        "Document Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2020#document-ranking-dataset"
+      },
+      "ir_datasets": {
+        "Passage Ranking": "https://ir-datasets.com/msmarco-passage-v2.html#msmarco-passage-v2/trec-dl-2020",
+        "Document Ranking": "https://ir-datasets.com/msmarco-document-v2.html#msmarco-document-v2/trec-dl-2020"
+      },
+      "trec_webpage": "https://trec.nist.gov/data/deep2020.html",
+      "other": {
+        "Paper": "https://arxiv.org/abs/1611.09268",
+        "NIST judgments for the Document Ranking task": "https://trec.nist.gov/data/deep/2020qrels-docs.txt",
+        "NIST judgments for the Passage Ranking task": "https://trec.nist.gov/data/deep/2020qrels-pass.txt"
+      }
+    },
+    "incident": {
+      "corpus": "https://www.dcs.gla.ac.uk/~richardm/TREC_IS/",
+      "topics": "https://www.dcs.gla.ac.uk/~richardm/TREC_IS/",
+      "qrels": "https://www.dcs.gla.ac.uk/~richardm/TREC_IS/",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/incident.html",
+      "other": {}
+    },
+    "misinfo": {
+      "corpus": "https://trec-health-misinfo.github.io/",
+      "topics": "https://trec.nist.gov/data/misinfo/2020resources.tar.gz",
+      "qrels": "https://trec.nist.gov/data/misinfo/2020resources.tar.gz",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/misinfo2020.html",
+      "other": {}
+    },
+    "cast": {
+      "corpus": {
+        "MS MARCO Passage Ranking collection": "https://msmarco.blob.core.windows.net/msmarcoranking/collection.tar.gz",
+        "TREC CAR paragraph collection v2.0": "http://trec-car.cs.unh.edu/datareleases/v2.0/paragraphCorpus.v2.0.tar.xz"
+      },
+      "topics": "https://github.com/daltonj/treccastweb/tree/master/2020",
+      "qrels": "https://trec.nist.gov/data/cast/2020qrels.txt",
+      "ir_datasets": "https://ir-datasets.com/trec-cast.html",
+      "trec_webpage": "https://trec.nist.gov/data/cast2020.html",
+      "other": {
+        "BM25 + BERT baseline": "https://github.com/daltonj/treccastweb/tree/master/2020/baselines",
+        "Interactive web UI": "http://boston.lti.cs.cmu.edu/boston-2-25/"
+      }
+    },
+    "pm": {
+      "corpus": "https://www.trec-cds.org/2020.html#documents",
+      "topics": "https://trec.nist.gov/data/precmed/topics2020.xml",
+      "qrels": {
+        "Qrels file suitable for use with treceval For Phase 1 eval": "https://trec.nist.gov/data/precmed/qrels-reduced-phase1-treceval-2020.txt",
+        "Qrels file suitable for use with sampleval for Phase 1 eval": "https://trec.nist.gov/data/precmed/qrels-reduced-phase1-sample-2020.txt",
+        "Qrels file for Phase 2, with exponential gain values as judgment": "https://trec.nist.gov/data/precmed/qrels-expgains-phase2.txt"
+      },
+      "ir_datasets": "https://ir-datasets.com/clinicaltrials.html",
+      "trec_webpage": "https://trec.nist.gov/data/precmed2020.html",
+      "other": {
+        "Evaluation script for computing inferred measures": "https://trec.nist.gov/data/clinical/sample_eval.pl"
+      }
+    },
+    "podcast": {
+      "corpus": "https://podcastsdataset.byspotify.com/",
+      "topics": {
+        "Training topics for Segment Retrieval task": "https://trec.nist.gov/data/podcast/podcasts_2020_topics_train.xml",
+        "Test topics for Segment Retrieval task": "https://trec.nist.gov/data/podcast/podcasts_2020_topics_test.xml"
+      },
+      "qrels": {
+        "Judgment file for training topics for Segment Retrieval task": "https://trec.nist.gov/data/podcast/podcasts_2020_train.1-8.qrels",
+        "Judgment file for test topics for Segment Retrieval task": "https://trec.nist.gov/data/podcast/podcasts_2020_test.qrels"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/podcast2020.html"
+    },
+    "fair": {
+      "corpus": "https://fair-trec.github.io/2020/index.html",
+      "topics": "https://fair-trec.github.io/2020/index.html",
+      "qrels": "https://fair-trec.github.io/2020/index.html",
+      "ir_datasets": "https://ir-datasets.com/trec-fair.html",
+      "trec_webpage": "https://trec.nist.gov/data/fair2020.html",
+      "other": {
+        "Test set evaluation sequences": "https://trec.nist.gov/data/fair/2020-eval-seq.csv",
+        "Document annotations": "https://trec.nist.gov/data/fair/2020-doc-annotations.csv",
+        "Full meta-data per document": "https://trec.nist.gov/data/fair/2020-merged-annotations.json"
+      }
+    }
+  },
+  "trec30": {
+    "incident": {
+      "corpus": "https://www.dcs.gla.ac.uk/~richardm/TREC_IS/",
+      "topics": "https://www.dcs.gla.ac.uk/~richardm/TREC_IS/",
+      "qrels": "https://www.dcs.gla.ac.uk/~richardm/TREC_IS/",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/incident.html"
+    },
+    "news": {
+      "corpus": "https://trec.nist.gov/data/wapost/",
+      "topics": "https://trec.nist.gov/data/news/2021/newsir21-topics.txt",
+      "qrels": {
+        "Background Linking": "https://trec.nist.gov/data/news/2021/qrels.background",
+        "Wikification": "https://trec.nist.gov/data/news/2021/qrels.wikification"
+      },
+      "ir_datasets": "https://ir-datasets.com/wapo.html",
+      "trec_webpage": "https://trec.nist.gov/data/news2021.html"
+    },
+    "fair": {
+      "corpus": "https://trec.nist.gov/data/fair/2021_trec_corpus.json.gz",
+      "topics": "https://trec.nist.gov/data/fair/2021-eval-topics.json.gz",
+      "qrels": {
+        "WikiProject Coordinators": "https://trec.nist.gov/data/fair/2021-eval-topics-with-qrels.json.gz",
+        "Wikipedia Editors": "https://trec.nist.gov/data/fair/2021-eval-topics-with-qrels.json.gz"
+      },
+      "ir_datasets": "https://ir-datasets.com/trec-fair.html",
+      "trec_webpage": "https://trec.nist.gov/data/fair2021.html",
+      "other": {
+        "Training topics file": "https://trec.nist.gov/data/fair/2021_training_topics.json.gz",
+        "Metadata file": "https://trec.nist.gov/data/fair/2021_trec_metadata.json.gz"
+      }
+    },
+    "deep": {
+      "corpus": {
+        "Passage Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2021#passage-ranking-dataset",
+        "Document Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2021#document-ranking-dataset"
+      },
+      "topics": {
+        "Passage Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2021#passage-ranking-dataset",
+        "Document Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2021#document-ranking-dataset"
+      },
+      "qrels": {
+        "Passage Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2021#passage-ranking-dataset",
+        "Document Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2021#document-ranking-dataset"
+      },
+      "ir_datasets": {
+        "Passage Ranking": "https://ir-datasets.com/msmarco-passage-v2.html#msmarco-passage-v2/trec-dl-2021",
+        "Document Ranking": "https://ir-datasets.com/msmarco-document-v2.html#msmarco-document-v2/trec-dl-2021"
+      },
+      "trec_webpage": "https://trec.nist.gov/data/deep2021.html",
+      "other": {
+        "Paper": "https://arxiv.org/abs/1611.09268",
+        "NIST judgments for the Document Ranking task": "https://trec.nist.gov/data/deep/2021.qrels.docs.final.txt",
+        "NIST judgments for the Passage Ranking task": "https://trec.nist.gov/data/deep/2021.qrels.pass.final.txt",
+        "Modified NIST judgments for the Passage Ranking task": "https://trec.nist.gov/data/deep/2021.qrels.pass.final-no1.txt",
+        "Expanded judgments for the Document Ranking task": "https://trec.nist.gov/data/deep/2021.qrels.docs.expanded.txt",
+        "Expanded judgments for the Passage Ranking task": "https://trec.nist.gov/data/deep/2021.qrels.pass.expanded.txt",
+        "Modified expanded judgments for the Passage Ranking task": "https://trec.nist.gov/data/deep/2021.qrels.pass.expanded-no1.txt"
+      }
+    },
+    "trials": {
+      "corpus": "https://www.trec-cds.org/2021.html#documents",
+      "topics": "https://trec.nist.gov/data/trials/topics2021.xml",
+      "qrels": "https://trec.nist.gov/data/trials/qrels2021.txt",
+      "ir_datasets": "https://ir-datasets.com/clinicaltrials.html",
+      "trec_webpage": "https://trec.nist.gov/data/trials2021.html"
+    },
+    "cast": {
+      "corpus": {
+        "Washington Post 2020": "https://trec.nist.gov/data/wapost/",
+        "KILT Wikipedia": "https://github.com/facebookresearch/KILT/",
+        "MS MARCO V2 (Documents)": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2021#document-ranking-dataset"
+      },
+      "topics": {
+        "Automatic topics": "https://trec.nist.gov/data/cast/2021_automatic_evaluation_topics_v1.0.json",
+        "Manual topics": "https://trec.nist.gov/data/cast/2021_manual_evaluation_topics_v1.0.json"
+      },
+      "qrels": "https://trec.nist.gov/data/cast/trec-cast-qrels-docs.2021.qrel",
+      "ir_datasets": "https://ir-datasets.com/trec-cast.html",
+      "trec_webpage": "https://trec.nist.gov/data/cast2021.html"
+    },
+    "misinfo": {
+      "corpus": "https://huggingface.co/datasets/allenai/c4",
+      "topics": "https://trec.nist.gov/data/misinfo/misinfo-2021-topics.xml",
+      "qrels": "https://trec.nist.gov/data/misinfo/misinfo-resources-2021.tar.gz",
+      "ir_datasets": "https://ir-datasets.com/c4.html",
+      "trec_webpage": "https://trec.nist.gov/data/misinfo2021.html"
+    },
+    "podcast": {
+      "corpus": "https://podcastsdataset.byspotify.com/",
+      "topics": "https://trec.nist.gov/data/podcast/podcasts_2021_topics_test.xml",
+      "qrels": "https://trec.nist.gov/data/podcast/podcasts2021-segments.qrels",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/podcast2021.html",
+      "other": {
+        "Evaluation script for Segment Retrieval task": "https://trec.nist.gov/data/podcast/eval-podcast.py"
+      }
+    }
+  },
+  "trec31": {
+    "neuclir": {
+      "corpus": "https://ir.nist.gov/neuclir/neuclir1.tar.gz",
+      "topics": "https://trec.nist.gov/data/neuclir/topics.0720.utf8.jsonl",
+      "qrels": {
+        "qrels (all)": "https://trec.nist.gov/data/neuclir/2022-qrels.all",
+        "qrels (farsi)": "https://trec.nist.gov/data/neuclir/2022-qrels.fas",
+        "qrels (russian)": "https://trec.nist.gov/data/neuclir/2022-qrels.rus",
+        "qrels (chinese)": "https://trec.nist.gov/data/neuclir/2022-qrels.zho"
+      },
+      "ir_datasets": "https://ir-datasets.com/neuclir.html",
+      "trec_webpage": "https://trec.nist.gov/data/neuclir2022.html",
+      "other": {
+        "Machine Translation": "https://ir.nist.gov/neuclir/neuCLIR-translations.tar.gz",
+        "HC4 Training Corpus": "https://ir.nist.gov/neuclir/hc4-docs.tar.gz",
+        "Farsi Baseline": "https://trec.nist.gov/data/neuclir/fas-base-run-results.txt",
+        "Russian Baseline": "https://trec.nist.gov/data/neuclir/rus-base-run-results.txt",
+        "Chinese Baseline": "https://trec.nist.gov/data/neuclir/zho-base-run-results.txt"
+      }
+    },
+    "misinfo": {
+      "corpus": "https://huggingface.co/datasets/allenai/c4",
+      "topics": "https://trec.nist.gov/data/misinfo/misinfo-2022-topics.xml",
+      "qrels": "https://trec.nist.gov/data/misinfo/trec2022-health-misinfo-resources.tar.gz",
+      "ir_datasets": "https://ir-datasets.com/c4.html",
+      "trec_webpage": "https://trec.nist.gov/data/misinfo2022.html",
+      "other": {}
+    },
+    "deep": {
+      "corpus": {
+        "Passage Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2022#passage-ranking-dataset",
+        "Document Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2022#document-ranking-dataset"
+      },
+      "topics": {
+        "Passage Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2022#passage-ranking-dataset",
+        "Document Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2022#document-ranking-dataset"
+      },
+      "qrels": {
+        "Passage Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2022#passage-ranking-dataset",
+        "Document Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2022#document-ranking-dataset"
+      },
+      "ir_datasets": {
+        "Passage Ranking": "https://ir-datasets.com/msmarco-passage-v2.html#msmarco-passage-v2/trec-dl-2022",
+        "Document Ranking": "https://ir-datasets.com/msmarco-document-v2.html#msmarco-document-v2/trec-dl-2022"
+      },
+      "trec_webpage": "https://trec.nist.gov/data/deep2022.html",
+      "other": {
+        "Paper": "https://arxiv.org/abs/1611.09268",
+        "Additional resources": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2022#additional-resources"
+      }
+    },
+    "cast": {
+      "corpus": {
+        "Washington Post 2020": "https://trec.nist.gov/data/wapost/",
+        "KILT Wikipedia": "https://github.com/facebookresearch/KILT/",
+        "MS MARCO V2 (Documents)": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2021#document-ranking-dataset"
+      },
+      "topics": "https://www.treccast.ai/2022/",
+      "qrels": "https://trec.nist.gov/data/cast/qrels-2022.txt",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/cast2022.html",
+      "other": {}
+    },
+    "trials": {
+      "corpus": "https://www.trec-cds.org/2022.html#documents",
+      "topics": "https://trec.nist.gov/data/trials/topics2022.xml",
+      "qrels": "https://trec.nist.gov/data/trials/qrels2022.txt",
+      "ir_datasets": "https://ir-datasets.com/clinicaltrials.html",
+      "trec_webpage": "https://trec.nist.gov/data/trials2022.html",
+      "other": {}
+    },
+    "fair": {
+      "corpus": "https://data.boisestate.edu/library/Ekstrand/TRECFairRanking/corpus/",
+      "topics": "https://trec.nist.gov/data/fair/trec_2022_eval_reldocs.jsonl.gz",
+      "qrels": "https://trec.nist.gov/data/fair/trec_2022_eval_reldocs.jsonl.gz",
+      "ir_datasets": "https://ir-datasets.com/trec-fair.html#trec-fair/2022",
+      "trec_webpage": "https://trec.nist.gov/data/fair2022.html",
+      "other": {}
+    },
+    "crisis": {
+      "corpus": "https://crisisfacts.github.io/#datasets",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/crisis2022.html",
+      "other": {}
+    }
+  },
+  "trec32": {
+    "trials": {
+      "corpus": "http://www.trec-cds.org/2023.html#documents",
+      "topics": "https://trec.nist.gov/data/trials/topics2023.xml",
+      "qrels": "https://trec.nist.gov/data/trials/qrels2023.txt",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/trials2023.html",
+      "other": {}
+    },
+    "crisis": {
+      "corpus": "https://crisisfacts.github.io/#datasets",
+      "topics": "",
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/crisis2023.html",
+      "other": {
+        "CrisisFACTs utilities Github, for use with ir_datasets": "https://github.com/crisisfacts",
+        "Snapshot of CrisisFACTs utilities github as of November 30, 2023 (commit 128c94e9).": "https://trec.nist.gov/data/2023-CrisisFACTs-utilities.tar.gz"
+      }
+    },
+    "deep": {
+      "corpus": {
+        "Passage Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning#passage-ranking-dataset",
+        "Document Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning#document-ranking-dataset"
+      },
+      "topics": {
+        "Passage Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning#passage-ranking-dataset",
+        "Document Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning#document-ranking-dataset"
+      },
+      "qrels": {
+        "Passage Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning#passage-ranking-dataset",
+        "Document Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning#document-ranking-dataset",
+        "Passage Ranking (NIST)": "https://trec.nist.gov/data/deep/2023.qrels.pass.withDupes.txt",
+        "Passage Ranking (NIST, 1 judgments mapped to 0)": "https://trec.nist.gov/data/deep/2023.qrels.pass.withDupes.no1.txt",
+        "Document Ranking (NIST)": "https://trec.nist.gov/data/deep/2023.qrels.docs.wihDupes.txt",
+        "Document Ranking (NIST, 1 judgments mapped to 0)": "https://trec.nist.gov/data/deep/2023.qrels.docs.wihDupes.no1.txt"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/deep2023.html",
+      "other": {
+        "Equivalence classes of duplicate passages": "https://ir.nist.gov/msmarco-v2-passage-neardupes.txt.gz"
+      }
+    },
+    "ikat": {
+      "corpus": "https://lemurproject.org/clueweb22/obtain.php",
+      "topics": {
+        "2023_train_topics.json": "https://drive.google.com/file/d/1sNHmVYO9PVG2kFxLscPGhN-uCCUuDAu9/view?usp=sharing",
+        "2023_test_topics.json": "https://drive.google.com/file/d/1zPSiAqLmbx9QFGm6walnuMUl7xoJmRB7/view?usp=sharing"
+      },
+      "qrels": {
+        "Relevance judgments": "https://trec.nist.gov/data/ikat/2023-qrels.all-turns.txt",
+        "PTKB relevance judgments": "https://trec.nist.gov/data/ikat/2023-ptkb-qrels.txt"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/ikat2023.html",
+      "other": {
+        "Datasets and Resources (www.trecikat.com)": "https://www.trecikat.com/data/"
+      }
+    },
+    "neuclir": {
+      "corpus": "https://ir.nist.gov/neuclir/neuclir1.tar.gz",
+      "topics": {
+        "Topics": "https://trec.nist.gov/data/neuclir/2023/neuclir-2023-topics.0605.jsonl",
+        "Technical topics": "https://trec.nist.gov/data/neuclir/2023/neuclir-2023-technical_topics.0719.jsonl"
+      },
+      "qrels": "https://trec.nist.gov/data/neuclir/2023/neuclir-2023-qrels.final.tar.gz",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/neuclir2023.html",
+      "other": {
+        "Machine translations": "https://ir.nist.gov/neuclir/neuCLIR-translations.tar.gz",
+        "Technical documents collection": "https://ir.nist.gov/neuclir/csl_data.release.jsonl.gz",
+        "Google Translate MT of the tech documents collection": "https://ir.nist.gov/neuclir/csl_data.google_translate.063023.release.jsonl.gz",
+        "HC4 training corpus": "https://ir.nist.gov/neuclir/hc4-docs.tar.gz"
+      }
+    },
+    "atomic": {
+      "corpus": "https://huggingface.co/TREC-AToMiC",
+      "topics": {
+        "Text-to-image topics": "https://trec.nist.gov/data/atomic/TREC-2023-Text-to-Image.json",
+        "Image-to-text topics": "https://trec.nist.gov/data/atomic/TREC-2023-Image-to-Text.json"
+      },
+      "qrels": {
+        "Text-to-image relevance judgments": "https://trec.nist.gov/data/atomic/qrels.2023.t2i",
+        "Image-to-text relevance judgments": "https://trec.nist.gov/data/atomic/qrels.2023.i2t"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/atomic.html",
+      "other": {}
+    },
+    "product": {
+      "corpus": "https://trec-product-search.github.io/#datasets",
+      "topics": "https://trec.nist.gov/data/product/2023-test-queries.tsv",
+      "qrels": "https://trec.nist.gov/data/product/2023-product-qrels.txt",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/product2023.html",
+      "other": {
+        "Other resources on the track's website": "https://trec-product-search.github.io/#datasets"
+      }
+    },
+    "tot": {
+      "corpus": "",
+      "topics": {
+        "training": "https://trec.nist.gov/data/tot/2023-train.zip",
+        "development": "https://trec.nist.gov/data/tot/2023-dev.zip",
+        "test": "https://trec.nist.gov/data/tot/2023-test.zip"
+      },
+      "qrels": "https://trec.nist.gov/data/tot/2023-qrels.txt",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/tot2023.html",
+      "other": {}
+    }
+  },
+  "trec33": {
+    "avs": {
+      "corpus": "https://www-nlpir.nist.gov/projects/tv2024/data.html#V3C2",
+      "topics": "https://www-nlpir.nist.gov/projects/tv2024/pastdata/ad.hoc.search/tv24.avs.topics.txt",
+      "qrels": "http://www-nlpir.nist.gov/projects/tv2024/pastdata/ad.hoc.search/avs.qrels.main.tv24",
+      "ir_datasets": "",
+      "trec_webpage": "https://www-nlpir.nist.gov/projects/tv2024/avs.html",
+      "other": {}
+    },
+    "atomic": {
+      "corpus": "https://huggingface.co/TREC-AToMiC",
+      "topics": {
+        "vital-lvl3": "https://trec.nist.gov/data/atomic/vital_test.jsonl",
+        "image-needed": "https://trec.nist.gov/data/atomic/wpwp_test-2.jsonl"
+      },
+      "qrels": "https://trec.nist.gov/data/atomic/2024-qrels.txt",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/atomic.html",
+      "other": {}
+    },
+    "biogen": {
+      "corpus": "https://ftp.ncbi.nlm.nih.gov/pubmed/baseline/",
+      "topics": {
+        "json": "https://trec.nist.gov/data/biogen/BioGen2024topics-json.txt",
+        "xml": "https://trec.nist.gov/data/biogen/BioGen2024topics-xml.txt"
+      },
+      "qrels": {
+        "Assessments": "https://trec.nist.gov/data/biogen/biogen_collection_v3.json",
+        "SIMCSE clusters": "https://trec.nist.gov/data/biogen/question_to_clustered_answer_sentences_sim_cse_kmeans_4_biogen_transformed.json",
+        "ST clusters": "https://trec.nist.gov/data/biogen/question_to_clustered_answer_sentences_sentence_transformers_kmeans_4_biogen_transformed.json"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/biogen2024.html",
+      "other": {
+        "Track Homepage": "https://dmice.ohsu.edu/trec-biogen"
+      }
+    },
+    "ikat": {
+      "corpus": "https://www.trecikat.com/data/",
+      "topics": "https://drive.google.com/file/d/1pIu_kSn6YHQRX74DFknmjUJA34-JY67M/view?usp=sharingg",
+      "qrels": {
+        "Relevance judgments": "https://trec.nist.gov/data/ikat/2024-qrels.txt",
+        "PTKB relevance judgments": "https://trec.nist.gov/data/ikat/2024-ptkb-qrels.txt"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/ikat2024.html",
+      "other": {
+        "Datasets and Resources (www.trecikat.com)": "https://www.trecikat.com/data/"
+      }
+    },
+    "lateral": {
+      "corpus": "https://www.lemurproject.org/clueweb22.php/",
+      "topics": "https://trec.nist.gov/data/lateral/trec-2024-lateral-reading-task1-articles.txt",
+      "qrels": {
+        "Question generation": "https://trec.nist.gov/data/lateral/2024-question-assessment.txt",
+        "Answer retrieval": "https://trec.nist.gov/data/lateral/2024-retrieval-qrels.txt"
+      },
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/lateral2024.html",
+      "other": {
+        "Track homepage": "https://trec-lateral-reading.github.io",
+        "Assessor questions": "https://trec.nist.gov/data/lateral/assessor_questions.csv",
+        "README": "https://trec.nist.gov/data/lateral/README.txt"
+      }
+    },
+    "medvidqa": {
+      "corpus": {
+        "task A": "https://osf.io/pc594/files/osfstorage",
+        "task B": "https://github.com/j-min/HiREST/tree/main/data/splits"
+      },
+      "topics": {
+        "task A": "https://trec.nist.gov/data/medvidqa/MedVidQA-VCVAL.zip",
+        "task B": "https://trec.nist.gov/data/medvidqa/MedVidQA-QFISC.zip"
+      },
+      "qrels": {
+        "task A VAL": "https://trec.nist.gov/data/medvidqa/trec-vcval-judgement-segments.json",
+        "task A VR": "https://trec.nist.gov/data/medvidqa/trec-vcval-judgement.json",
+        "tasb B QFISC": "https://trec.nist.gov/data/medvidqa/qfisc-test-segments-with-gold-steps.json"
+      },
+      "ir_datasets": "",
+      "trec_webpage": {
+        "track": "https://medvidqa.github.io/index.html",
+        "trec": "https://trec.nist.gov/data/medvidqa2024.htmll"
+      },
+      "other": {}
+    },
+    "neuclir": {
+      "corpus": "https://ir.nist.gov/neuclir/neuclir1.tar.gz",
+      "topics": {
+        "Topics": "https://trec.nist.gov/data/neuclir24.topics.0614.jsonl",
+        "Technical topics": "https://trec.nist.gov/data/technical_topics.0703.jsonl",
+        "Report requests": "https://trec.nist.gov/data/requests-test-all.jsonl"
+      },
+      "qrels": {
+        "MLIR relevance judgments": "https://trec.nist.gov/data/neuclir/2024-qrels.mlir",
+        "CLIR Farsi relevance judgments": "https://trec.nist.gov/data/neuclir/2024-qrels.fas.with-gains",
+        "CLIR Russian relevance judgments": "https://trec.nist.gov/data/neuclir/2024-qrels.rus.with-gains",
+        "CLIR Chinese relevance judgments": "https://trec.nist.gov/data/neuclir/2024-qrels.zho.with-gains",
+        "Technical documents relevance judgments": "https://trec.nist.gov/data/neuclir/2024.technical_qrels.txt"
+      },
+      "ir_datasets": "https://ir-datasets.com/neuclir.html",
+      "trec_webpage": "https://trec.nist.gov/data/neuclir2024.html",
+      "other": {
+        "Machine translations": "https://ir.nist.gov/neuclir/neuCLIR-translations.tar.gz",
+        "Technical documents collection": "https://ir.nist.gov/neuclir/csl_data.release.jsonl.gz",
+        "Google Translate MT of the tech documents collection": "https://ir.nist.gov/neuclir/csl_data.google_translate.063023.release.jsonl.gz"
+      }
+    },
+    "plaba": {
+      "corpus": {
+        "task 1": "https://trec.nist.gov/data/plaba/PLABA_2024-Task_1.zip",
+        "task 2": "https://trec.nist.gov/data/plaba/PLABA_2024-Task_2.zip"
+      },
+      "topics": {
+        "task 1": "https://trec.nist.gov/data/plaba/PLABA_2024-Task_1.zip",
+        "task 2": "https://trec.nist.gov/data/plaba/PLABA_2024-Task_2.zip"
+      },
+      "qrels": "",
+      "ir_datasets": "",
+      "trec_webpage": {
+        "trec": "https://trec.nist.gov/data/product2024.html",
+        "track": "https://bionlp.nlm.nih.gov/plaba2024/"
+      },
+      "other": {}
+    },
+    "product": {
+      "corpus": "https://trec-product-search.github.io/#datasets",
+      "topics": "https://trec.nist.gov/data/product/2024-test-queries.tsv",
+      "qrels": "https://trec.nist.gov/data/product/2024-qrels.txt",
+      "ir_datasets": "",
+      "trec_webpage": "https://trec.nist.gov/data/product2024.html",
+      "other": {
+        "Other resources on the track's website": "https://trec-product-search.github.io/#datasets"
+      }
+    },
+    "rag": {
+      "corpus": "https://trec-rag.github.io/annoucements/2025-rag25-corpus/",
+      "topics": "https://trec.nist.gov/data/rag/topics.rag24.test.txt",
+      "qrels": {
+        "retrieval": "https://trec.nist.gov/data/rag/2024-retrieval-conditions-qrels.txt",
+        "umbrela": "https://trec-rag.github.io/annoucements/umbrela-qrels/"
+      },
+      "ir_datasets": "https://ir-datasets.com/msmarco-passage-v2.html",
+      "trec_webpage": "https://trec-rag.github.io",
+      "other": {}
+    },
+    "tot": {
+      "corpus": "https://ir-datasets.com/trec-tot.html",
+      "topics": "https://trec.nist.gov/data/tot/2024-queries.jsonl",
+      "qrels": "https://trec.nist.gov/data/tot/2024-qrels.txt",
+      "ir_datasets": "https://ir-datasets.com/trec-tot.html",
+      "trec_webpage": "https://trec.nist.gov/data/tot2024.html",
+      "other": {}
+    },
+    "vtt": {
+      "corpus": "https://www-nlpir.nist.gov/projects/tv2024/data.html",
+      "topics": "https://www-nlpir.nist.gov/projects/tv2024/pastdata/video.to.text/",
+      "qrels": "https://www-nlpir.nist.gov/projects/tv2024/pastdata/video.to.text/ground.truth/",
+      "ir_datasets": "",
+      "trec_webpage": "https://www-nlpir.nist.gov/projects/tv2024/vtt.html",
+      "other": {}
+    }
+  },
+  "trec-covid": {
+    "round1": {
+      "corpus": "https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases/cord-19_2020-04-10.tar.gz",
+      "topics": "https://ir.nist.gov/trec-covid/data/topics-rnd1.xml",
+      "qrels": "https://ir.nist.gov/trec-covid/data/qrels-rnd1.txt",
+      "ir_datasets": "https://ir-datasets.com/cord19.html#cord19/trec-covid/round1",
+      "trec_webpage": "https://ir.nist.gov/trec-covid/data.html",
+      "other": {
+        "Data page at allenai.org": "https://allenai.org/data/cord-19",
+        "GitHub (CORD-19)": "https://github.com/allenai/cord19",
+        "List of valid doc-ids": "https://ir.nist.gov/trec-covid/data/docids-rnd1.txt",
+        "Cumulative qrels for Round 1 documents and judgments": "https://ir.nist.gov/trec-covid/data/qrels-covid_d1_j0.5-1.txt",
+        "Chronological qrels for Round 1 documents and topics": "https://ir.nist.gov/trec-covid/data/qrels-covid_d1_j0.5-5.txt"
+      }
+    },
+    "round2": {
+      "corpus": "https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases/cord-19_2020-05-01.tar.gz",
+      "topics": "https://ir.nist.gov/trec-covid/data/topics-rnd2.xml",
+      "qrels": "https://ir.nist.gov/trec-covid/data/qrels-rnd2.txt",
+      "ir_datasets": "https://ir-datasets.com/cord19.html#cord19/trec-covid/round2",
+      "trec_webpage": "https://ir.nist.gov/trec-covid/data.html",
+      "other": {
+        "Data page at allenai.org": "https://allenai.org/data/cord-19",
+        "GitHub (CORD-19)": "https://github.com/allenai/cord19",
+        "List of valid doc-ids": "https://ir.nist.gov/trec-covid/data/docids-rnd2.txt",
+        "Cumulative qrels for Round 2 documents and judgments": "https://ir.nist.gov/trec-covid/data/qrels-covid_d2_j0.5-2.txt",
+        "Chronological qrels for Round 2 documents and topics": "https://ir.nist.gov/trec-covid/data/qrels-covid_d2_j0.5-5.txt"
+      }
+    },
+    "round3": {
+      "corpus": "https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases/cord-19_2020-05-19.tar.gz",
+      "topics": "https://ir.nist.gov/trec-covid/data/topics-rnd3.xml",
+      "qrels": "https://ir.nist.gov/trec-covid/data/qrels-covid_d3_j2.5-3.txt",
+      "ir_datasets": "https://ir-datasets.com/cord19.html#cord19/trec-covid/round3",
+      "trec_webpage": "https://ir.nist.gov/trec-covid/data.html",
+      "other": {
+        "Data page at allenai.org": "https://allenai.org/data/cord-19",
+        "GitHub (CORD-19)": "https://github.com/allenai/cord19",
+        "List of valid doc-ids": "https://ir.nist.gov/trec-covid/data/docids-rnd3.txt",
+        "Qrels page for round 3 at ir.nist.gov": "https://ir.nist.gov/trec-covid/qrels3.html",
+        "Round 3 changed id map": "https://ir.nist.gov/trec-covid/data/changedIds-May19.csv",
+        "Cumulative qrels for Round 3 documents and judgments": "https://ir.nist.gov/trec-covid/data/qrels-covid_d3_j0.5-3.txt",
+        "Chronological qrels for Round 3 documents and topics": "https://ir.nist.gov/trec-covid/data/qrels-covid_d3_j0.5-5.txt"
+      }
+    },
+    "round4": {
+      "corpus": "https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases/cord-19_2020-06-19.tar.gz",
+      "topics": "https://ir.nist.gov/trec-covid/data/topics-rnd4.xml",
+      "qrels": "https://ir.nist.gov/trec-covid/data/qrels-covid_d4_j3.5-4.txt",
+      "ir_datasets": "https://ir-datasets.com/cord19.html#cord19/trec-covid/round4",
+      "trec_webpage": "https://ir.nist.gov/trec-covid/data.html",
+      "other": {
+        "Data page at allenai.org": "https://allenai.org/data/cord-19",
+        "GitHub (CORD-19)": "https://github.com/allenai/cord19",
+        "List of valid doc-ids": "https://ir.nist.gov/trec-covid/data/docids-rnd4.txt",
+        "Qrels page for round 4 at ir.nist.gov": "https://ir.nist.gov/trec-covid/qrels4.html",
+        "Round 4 changed id map": "https://ir.nist.gov/trec-covid/data/changedIds-Jun19.csv",
+        "Cumulative qrels for Round 4 documents and judgments": "https://ir.nist.gov/trec-covid/data/qrels-covid_d4_j0.5-4.txt",
+        "Chronological qrels for Round 4 documents and topics": "https://ir.nist.gov/trec-covid/data/qrels-covid_d4_j0.5-5.txt"
+      }
+    },
+    "round5": {
+      "corpus": "https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases/cord-19_2020-07-16.tar.gz",
+      "topics": "https://ir.nist.gov/trec-covid/data/topics-rnd5.xml",
+      "qrels": "https://ir.nist.gov/trec-covid/data/qrels-covid_d5_j4.5-5.txt",
+      "ir_datasets": "https://ir-datasets.com/cord19.html#cord19/trec-covid/round5",
+      "trec_webpage": "https://ir.nist.gov/trec-covid/data.html",
+      "other": {
+        "Data page at allenai.org": "https://allenai.org/data/cord-19",
+        "GitHub (CORD-19)": "https://github.com/allenai/cord19",
+        "List of valid doc-ids": "https://ir.nist.gov/trec-covid/data/docids-rnd5.txt",
+        "Qrels page for round 5 at ir.nist.gov": "https://ir.nist.gov/trec-covid/qrels5.html",
+        "Round 5 changed id map": "https://ir.nist.gov/trec-covid/data/changedIds-Jul16.csv",
+        "Cumulative qrels for Round 5 documents and judgments": "https://ir.nist.gov/trec-covid/data/qrels-covid_d5_j0.5-5.txt",
+        "Chronological qrels for Round 5 documents and topics": "https://ir.nist.gov/trec-covid/data/qrels-covid_d5_j0.5-5.txt"
+      }
+    }
+  }
+}
