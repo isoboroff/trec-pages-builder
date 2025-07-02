@@ -2,7 +2,7 @@ from pathlib import Path
 from builders import PageBuilder
 
 
-base_path = Path("metadata")
+base_path = Path("./metadata")
 
 
 def main():
