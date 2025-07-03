@@ -1,6 +1,7 @@
 import os
 import re 
 import json
+from typing import List, Tuple
 import pandas as pd
 from tqdm import tqdm
 import yaml
@@ -201,9 +202,11 @@ class DBBuilder:
 
 
 class PageBuilder:
-    def __init__(self, base_path=Path("./metadata"), build_path=Path("./browser/src/docs")):
+    def __init__(self, base_path: Path = Path("./metadata"), build_path: Path = Path("./browser/src/docs")):
         self.base_path=base_path
         self.build_path=build_path
+
+        # Load metadata
         self.runs = load_all_runs(self.base_path)
         self.participants = load_all_participants(self.base_path)
         self.publications = load_all_publications(self.base_path)
@@ -211,14 +214,111 @@ class PageBuilder:
         self.tracks = load_all_tracks(self.base_path)
         self.results = load_all_results(self.base_path)
 
-        # Initialize containers
-        self.no_input = []
-        self.no_summary = []
-        self.no_appendix = []
-        self.no_proceedings = []
-        self.no_runs = []
-        self.no_participants = []
-        self.no_data = []
+        # Initialize missing metadata
+        self.no_input = self._init_missing_input()
+        self.no_appendix = self._init_missing_appendix()
+        self.no_proceedings = self._init_missing_proceedings()
+        self.no_runs = self._init_missing_runs()
+        self.no_participants = self._init_missing_participants()
+        self.no_data = self._init_missing_data()
+        self.no_summary = self._init_missing_summary()
+
+
+    def _get_trec_track_pairs(self) -> List[Tuple[str, str]]:
+        return [(row.trec, row.track) for row in self.tracks.itertuples(index=False)]
+
+
+    def _init_missing_input(self) -> List[Tuple[str, str]]:
+        no_input = []
+        for trec, track in self._get_trec_track_pairs():
+            r = self.runs[(self.runs['trec'] == trec) & (self.runs['track'] == track)]
+            if r['input_url'].isna().all():
+                no_input.append((trec, track))
+        return no_input
+
+
+    def _init_missing_appendix(self) -> List[Tuple[str, str]]:
+        no_appendix = []
+        for trec, track in self._get_trec_track_pairs():
+            r = self.runs[(self.runs['trec'] == trec) & (self.runs['track'] == track)]
+            if r['appendix_url'].isna().all():
+                no_appendix.append((trec, track))
+        return no_appendix
+
+
+    def _init_missing_participants(self) -> List[Tuple[str, str]]:
+        no_participants = []
+        for trec, track in self._get_trec_track_pairs():
+            r = self.runs[(self.runs['trec'] == trec) & (self.runs['track'] == track)]
+            if r.empty:
+                no_participants.append((trec, track))
+        return no_participants
+
+
+    def _init_missing_runs(self) -> List[Tuple[str, str]]:
+        no_runs = []
+        for trec, track in self._get_trec_track_pairs():
+            r = self.runs[(self.runs['trec'] == trec) & (self.runs['track'] == track)]
+            if r.empty:
+                no_runs.append((trec, track))
+        return no_runs
+
+
+    def _init_missing_proceedings(self) -> List[Tuple[str, str]]:
+        no_proceedings = []
+        for trec, track in self._get_trec_track_pairs():
+            p = self.publications[(self.publications['trec'] == trec) & (self.publications['track'] == track)]
+            if p.empty:
+                no_proceedings.append((trec, track))
+        return no_proceedings
+
+
+    def _init_missing_data(self) -> List[Tuple[str, str]]:
+        no_data = []
+        nd = self.datasets[
+            self.datasets[['corpus', 'topics', 'qrels', 'ir_datasets', 'trec_webpage', 'other']].isna().all(axis=1)
+        ]
+        no_data = [(row.trec, row.track) for row in nd.itertuples(index=False)]
+        return no_data
+
+
+    def _init_missing_summary(self) -> List[Tuple[str, str]]:
+
+        no_summary = []
+
+        # Tracks with online summaries but no implemented parser
+        no_parsing = [ 
+            ('trec32', 'crisis'), ('trec32', 'trials'), ('trec32', 'deep'), 
+            ('trec32', 'ikat'), ('trec32', 'neuclir'), ('trec32', 'atomic'), 
+            ('trec32', 'product'), ('trec32', 'tot'), ('trec31', 'crisis'), 
+            ('trec31', 'fair'), ('trec30', 'fair'), ('trec29', 'fair'), 
+            ('trec28', 'fair'), ('trec27', 'incident'), ('trec26', 'rts'), 
+            ('trec25', 'realtime'), ('trec24', 'domain'), ('trec24', 'tempsumm'), 
+            ('trec21', 'crowd'), ('trec19', 'session'), ('trec17', 'relfdbk'), 
+            ('trec17', 'million-query'), ('trec16', 'qa'), ('trec15', 'qa'), 
+            ('trec14', 'qa'), ('trec13', 'qa'), ('trec12', 'qa'), 
+            ('trec11', 'qa'), ('trec10', 'qa'), ('trec9', 'qa'), 
+            ('trec8', 'qa'), ('trec8', 'xlingual'), ('trec7', 'filtering'), 
+            ('trec4', 'filtering')
+        ]
+
+        # Known exceptions that should not be flagged as missing summaries
+        summary_exceptions = {
+            ('trec-covid', f'round{i}') for i in range(1, 6)
+        }.union({
+            ('trec19', 'chemical'),
+            ('trec11', 'xlingual'),
+            ('trec5', 'dbmerge')
+        })
+
+        for trec, track in self._get_trec_track_pairs():
+            r = self.runs[(self.runs['trec'] == trec) & (self.runs['track'] == track)]
+            if r['summary_url'].isna().all() and (trec, track) not in summary_exceptions:
+                no_summary.append((trec, track))
+
+        no_summary += no_parsing
+
+        return no_summary
 
 
     def metadata_to_json(self, json_input, db_input):
@@ -844,7 +944,7 @@ class PageBuilder:
 
     def filter_by_trec(self, df, trec):
         return df[df['trec'] == trec]
-    
+
 
     def build(self, trec, build_path, overwrite=False):
 
@@ -893,8 +993,8 @@ class PageBuilder:
                     datasets=datasets,
                     build_path=build_path
                 )
-    
-    
+
+
     def build_all(self, build_path, overwrite=False):
 
         trecs = []
