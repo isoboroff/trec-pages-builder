@@ -48,25 +48,12 @@ def dump_columns(df, cols):
     return df.replace(r"", np.nan, regex=True)
 
 
-# ---> PageBuilder utitility functions <---
-def is_json(data: str) -> bool:
-    """Return True if the string is valid JSON, otherwise False."""
-    if not data:
-        return False
-    try:
-        json.loads(data)
-        return True
-    except (ValueError, TypeError):
-        return False
-
-
 def convert(json_data: str, bold: bool = False, single_key: str = None) -> str:
     """Convert JSON-formatted or plain string into markdown-formatted reference(s)."""
-    if is_json(json_data):
-        entries = json.loads(json_data)
+    if isinstance(json_data, dict):
         return ' | '.join(
             f"[{'**`' + k + '`**' if bold else '`' + k + '`'}]({v})"
-            for k, v in entries.items()
+            for k, v in json_data.items()
         )
 
     key = single_key or json_data
@@ -90,7 +77,14 @@ def track_map(tracks) -> dict:
             row.track: row.fullname
             for row in group.drop_duplicates(subset=['track']).itertuples()
         }
+    return result
 
+
+def trec_sort_key(x):
+    if x == 'trec-covid':
+        return (0, 0)  # Highest priority
+    match = re.search(r'(\d+)', x)
+    return (1, -int(match.group(1)) if match else float('-inf'))  # Reverse numeric sort
 # ---> end: utility functions <---
 
 
@@ -165,7 +159,6 @@ def load_all_results(base_path):
         return records
 
     return load_from_files(base_path, 'trec*/results.json', parse)
-
 # ---> end: table loaders <---
 
 
@@ -288,6 +281,10 @@ class PageBuilder:
 
         # Tracks with online summaries but no implemented parser
         no_parsing = [ 
+            ('trec33', 'avs'), ('trec33', 'atomic'), ('trec33', 'biogen'), 
+            ('trec33', 'ikat'), ('trec33', 'lateral'), ('trec33', 'medvidqa'), 
+            ('trec33', 'neuclir'), ('trec33', 'plaba'), ('trec33', 'product'), 
+            ('trec33', 'rag'), ('trec33', 'tot'), ('trec33', 'vtt'), 
             ('trec32', 'crisis'), ('trec32', 'trials'), ('trec32', 'deep'), 
             ('trec32', 'ikat'), ('trec32', 'neuclir'), ('trec32', 'atomic'), 
             ('trec32', 'product'), ('trec32', 'tot'), ('trec31', 'crisis'), 
@@ -306,9 +303,7 @@ class PageBuilder:
         summary_exceptions = {
             ('trec-covid', f'round{i}') for i in range(1, 6)
         }.union({
-            ('trec19', 'chemical'),
-            ('trec11', 'xlingual'),
-            ('trec5', 'dbmerge')
+            ('trec19', 'chemical'), ('trec11', 'xlingual'), ('trec5', 'dbmerge')
         })
 
         for trec, track in self._get_trec_track_pairs():
@@ -574,13 +569,13 @@ class PageBuilder:
 
             # Metadata block
             content += f"""#### {run.runid}  
-    {ref}  
+{ref}  
 
-    - :material-rename: **Run ID:** {run.runid}  
-    - :fontawesome-solid-user-group: **Participant:** {run.pid}  
-    - :material-format-text: **Track:** {track_fullname}  
-    - :material-calendar: **Year:** {run.year}  
-    """
+- :material-rename: **Run ID:** {run.runid}  
+- :fontawesome-solid-user-group: **Participant:** {run.pid}  
+- :material-format-text: **Track:** {track_fullname}  
+- :material-calendar: **Year:** {run.year}  
+"""
             if run.date:
                 content += f"- :material-upload: **Submission:** {run.date}  \n"
             if run.type:
@@ -946,6 +941,208 @@ class PageBuilder:
         return df[df['trec'] == trec]
 
 
+    def create_index_page(self):
+        # Initial HTML content
+        html_header = """<center>
+<h1>Text REtrieval Conference (TREC)</h1>
+<img src="./assets/logo.png" alt="logo" width="50%"/>
+<p>
+    <code><a href="./proceedings">Proceedings</a></code> <b>|</b> 
+    <code><a href="./data">Data</a></code> <b>|</b> 
+    <code><a href="https://trec.nist.gov/">trec.nist.gov</a></code> 
+</p>
+<img src="./assets/tracks.png" alt="tracks"/>
+</center>
+
+"""
+
+        # Dictionary to collect track overviews
+        track_overview = {}
+
+        # Populate track overview dictionary
+        for _, row in self.tracks.iterrows():
+            fullname = row.fullname
+            trec = row.trec
+            track = row.track
+
+            # Skip special cases
+            if trec == 'trec-covid':
+                continue
+
+            # Construct the relative overview path
+            overview_path = f'./{trec}/overview' if trec == 'trec1' else f'./{trec}/{track}/overview'
+
+            # Create a formatted reference link
+            year_label = trec[:4].upper() + '-' + trec[4:]
+            ref_label = f"{year_label} ({trec_year(trec)})"
+            ref_link = f"[`{ref_label}`]({overview_path})"
+
+            # Append the link to the appropriate track
+            track_overview.setdefault(fullname, []).append(ref_link)
+
+        # Sort tracks alphabetically (case-insensitive)
+        sorted_tracks = dict(sorted(track_overview.items(), key=lambda item: item[0].lower()))
+
+        # Build markdown content for each track
+        track_sections = []
+        for track_name, trec_links in sorted_tracks.items():
+            links = ' | '.join(trec_links)
+            section = f"#### {track_name}\n{links}\n"
+            track_sections.append(section)
+
+        # Combine everything
+        content = html_header + '\n'.join(track_sections)
+
+        # Make index file path
+        index_file_path = os.path.join(self.build_path, 'index.md')
+
+        # Write to markdown file
+        Path(index_file_path).write_text(content, encoding='utf-8')
+
+
+    def create_data_page(self):
+        # Intro section
+        content = (
+            "# Data\n\n"
+            ":fontawesome-solid-globe: **`trec.nist.gov`:** "
+            "[`https://trec.nist.gov/data.html`](https://trec.nist.gov/data.html)\n\n"
+        )
+
+        # Collect track overviews
+        track_overview = {}
+
+        for _, row in self.tracks.iterrows():
+            fullname = row.fullname
+            trec = row.trec
+            track = row.track
+
+            # Skip TREC-COVID (handled separately)
+            if trec == 'trec-covid':
+                continue
+
+            # Construct label and file path
+            trec_label = f"{trec[:4].upper()}-{trec[4:]} ({trec_year(trec)})"
+            overview_path = Path('.', trec, 'overview.md') if trec == 'trec1' else Path('.', trec, track, 'data.md')
+
+            # Only include if data is available
+            if (trec, track) not in self.no_data:
+                ref_link = f"[`{trec_label}`]({overview_path.as_posix()})"
+                track_overview.setdefault(fullname, []).append(ref_link)
+
+        # Add TREC-COVID manually
+        track_overview['TREC-COVID'] = [
+            f"[`Round {i}`](trec-covid/round{i}/data.md)" for i in range(1, 6)
+        ]
+
+        # Sort alphabetically (case-insensitive)
+        sorted_tracks = dict(sorted(track_overview.items(), key=lambda x: x[0].lower()))
+
+        # Build markdown blocks
+        track_sections = [
+            f"#### {track_name}\n{' | '.join(trec_links)}\n"
+            for track_name, trec_links in sorted_tracks.items()
+        ]
+
+        # Final content
+        content += "\n".join(track_sections)
+
+        # Make index file path
+        data_file_path = os.path.join(self.build_path, 'data.md')
+
+        # Write to file
+        Path(data_file_path).write_text(content, encoding='utf-8')
+
+
+    def create_mkdocs_config(self):
+        tm = track_map(self.tracks)
+        trecs = list(self.runs['trec'].unique())
+        trecs = sorted(trecs, key=trec_sort_key)
+        _trecs = []
+
+        for trec in trecs:
+            _tracks = []
+            for key, full_name in tm.get(trec).items():
+                track_menu = [{'Overview': os.path.join(trec, key, 'overview.md')}]
+                if (trec, key) not in self.no_data:
+                    track_menu.append({'Data': os.path.join(trec, key, 'data.md')})
+                if (trec, key) not in self.no_participants:
+                    track_menu.append({'Participants': os.path.join(trec, key, 'participants.md')})
+                if (trec, key) not in self.no_runs:
+                    track_menu.append({'Runs': os.path.join(trec, key, 'runs.md')})
+                if (trec, key) not in self.no_summary:
+                    track_menu.append({'Results': os.path.join(trec, key, 'results.md')})
+                if (trec, key) not in self.no_proceedings:
+                    track_menu.append({'Proceedings': os.path.join(trec, key, 'proceedings.md')})
+                _tracks.append({full_name: track_menu})
+            trec_key = '{} ({})'.format('-'.join([trec[:4].upper(), trec[4:]]), str(trec_year(trec)))
+            if trec == 'trec-covid':
+                trec_key = trec.upper()
+            if trec != 'trec-covid':
+                _trecs.append({trec_key: [{'Overview': os.path.join(trec, 'overview.md')},
+                                        {'Proceedings': os.path.join(trec, 'proceedings.md')}] + _tracks})
+            else:
+                _trecs.append({trec_key: [{'Overview': os.path.join(trec, 'overview.md')}] + _tracks})
+
+        # TREC-1 has only an overview
+        _trecs.append({'TREC-1 (1992)': [{'Overview': 'trec1/overview.md'}]})
+
+        nav = [{'Home': 'index.md'}] + _trecs  
+
+        content = {'site_name': 'TREC Browser',
+                    'site_url': 'https://pages.nist.gov/trec-browser',
+                    'theme': {'name': 'material',
+                            'logo': 'assets/search.svg',
+                            'icon': {'repo': 'fontawesome/brands/git-alt'},
+                            'palette': [{'scheme': 'default',
+                                        'primary': 'light blue',
+                                        'accent': 'light blue',
+                                        'toggle': {'icon': 'material/toggle-switch',
+                                                    'name': 'Switch to dark mode'}},
+                                        {'scheme': 'slate',
+                                        'primary': 'light blue',
+                                        'accent': 'light blue',
+                                        'toggle': {'icon': 'material/toggle-switch-off-outline',
+                                                    'name': 'Switch to light mode'}}],
+                            'features': ['content.code.copy', 'navigation.instant']},
+                    'repo_url': 'https://github.com/usnistgov/trec-browser',
+                    'repo_name': 'usnistgov/trec-browser',
+                    'markdown_extensions': [
+                        'def_list',
+                        'attr_list',
+                        'admonition',
+                        'pymdownx.details',
+                        'pymdownx.superfences',
+                        {'pymdownx.emoji': {
+                            'emoji_index': '!!python/name:material.extensions.emoji.twemoji',
+                            'emoji_generator': '!!python/name:material.extensions.emoji.to_svg'
+                        }},
+                        'pymdownx.critic',
+                        'pymdownx.caret',
+                        'pymdownx.keys',
+                        'pymdownx.mark',
+                        'pymdownx.tilde',
+                        {'toc': {'permalink': 'true'}}
+                        ],
+                    'extra_css': [
+                        'https://pages.nist.gov/nist-header-footer/css/nist-combined.css'
+                    ],
+                    'extra_javascript': [
+                        'https://code.jquery.com/jquery-3.6.2.min.js',
+                        'https://pages.nist.gov/nist-header-footer/js/nist-header-footer.js'
+                    ],
+                    'nav': nav,
+                    'not_in_nav': '\n/proceedings.md\n/data.md'                               
+                }
+
+        # Write to mkdocs.yml with cleaned output
+        output = yaml.dump(content, sort_keys=False, allow_unicode=True)
+        output = output.replace("'", "")  # Clean up single quotes around paths
+
+        mkdocs_path = os.path.join(self.build_path.parent, 'mkdocs.yml')
+
+        Path(mkdocs_path).write_text(output, encoding='utf-8')
+
+
     def build(self, trec, build_path, overwrite=False):
 
         runs = self.filter_by_trec(self.runs, trec)
@@ -971,7 +1168,7 @@ class PageBuilder:
         self.write_page(trec=trec, tracks=tracks, type='overview', build_path=build_path)
 
         # Write proceedings if allowed
-        if trec not in ['trec-covid', 'trec32']:
+        if trec != 'trec-covid':
             self.write_page(trec=trec, tracks=tracks, publications=publications, runs=runs, type='proceedings', build_path=build_path)
 
         tracks_for_trec = tracks[tracks['trec'] == trec].track.unique()
@@ -1003,4 +1200,3 @@ class PageBuilder:
 
         for trec in tqdm(trecs):
             self.build(trec=trec, build_path=build_path, overwrite=overwrite)
-    
