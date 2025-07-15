@@ -1,13 +1,18 @@
 from pathlib import Path
-from builders import PageBuilder
+from builders import metadata_to_json
 
 
 base_path = Path("./metadata")
+json_input = Path("./json")
+db_input = Path("./sample-db.sqlite")
+bibtex_input = Path("./bibtex")
 
 
 def main():
-    page_builder = PageBuilder(base_path=base_path)
-    page_builder.metadata_to_json(json_input=Path("./json"), db_input=Path("./sample-db.sqlite"))
+    metadata_to_json(base_path=base_path, 
+                     json_input=json_input, 
+                     db_input=db_input,
+                     bibtex_input=bibtex_input)
 
 
 if __name__ == '__main__':
