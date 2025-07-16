@@ -1,5 +1,5 @@
 from pathlib import Path
-from builders import metadata_to_json
+from builders import MetadataWriter
 
 
 base_path = Path("./metadata")
@@ -9,10 +9,12 @@ bibtex_input = Path("./bibtex")
 
 
 def main():
-    metadata_to_json(base_path=base_path, 
-                     json_input=json_input, 
-                     db_input=db_input,
-                     bibtex_input=bibtex_input)
+    metadata_writer = MetadataWriter(base_path=base_path,
+                                    json_input=json_input,
+                                    db_input=db_input,
+                                    bibtex_input=bibtex_input)
+
+    metadata_writer.to_json()
 
 
 if __name__ == '__main__':

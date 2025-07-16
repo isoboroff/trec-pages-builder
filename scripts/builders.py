@@ -87,164 +87,7 @@ def trec_sort_key(x):
         return (0, 0)  # Highest priority
     match = re.search(r'(\d+)', x)
     return (1, -int(match.group(1)) if match else float('-inf'))  # Reverse numeric sort
-
-# Function to split and write JSON metadata by TREC conference
-def split_json(base_path, json_path):
-    with open(json_path) as f:
-        json_data = json.load(f)
-        file_name = json_path.name
-        for trec_conf, track_data in json_data.items():
-            output_path = base_path / trec_conf / file_name
-            with open(output_path, 'w') as f_out:
-                json.dump(track_data, f_out, indent=4)
-
-
-# Function to write JSON data
-def write_json(base_path, data, trec_conf, filename):
-    path = base_path / trec_conf / filename
-    with open(path, 'w') as f:
-        json.dump(data, f, indent=4)
-
-
-def load_bibtex_files(doi_file, regular_file):
-    """Load and merge two BibTeX files into a dictionary."""
-    bib_dict = {}
-    bib_doi_database = bibtexparser.parse_file(doi_file)
-    bib_database = bibtexparser.parse_file(regular_file)
-    
-    bib_dict.update({entry.key: entry for entry in bib_doi_database.entries})
-    bib_dict.update({entry.key: entry for entry in bib_database.entries if entry.key not in bib_dict})
-    
-    return bib_dict
-
-
-def parse_publications(base_path, bibtex_input, json_input):
-    bib_dict = load_bibtex_files(
-        Path(bibtex_input) / 'trec-with-doi.bib', 
-        Path(bibtex_input) / 'trec.bib')
-    abstracts_database = load_json(Path(json_input) / 'abstracts.json')
-    latex_to_text = LatexNodes2Text()
-
-    for trec, tracks in abstracts_database.items():
-        
-        metadata_dict = {}
-        
-        for track, papers in tracks.items():
-
-            metadata_track = {}
-
-            for key, metadata in papers.items():
-                metadata['key'] = key
-                bib_entry = bib_dict.get(key)
-                fields = bib_entry.fields_dict
-
-                if 'url' in fields:
-                    url = bib_entry['url']
-                    metadata['url'] = latex_to_text.latex_to_text(url)
-                if 'biburl' in fields:
-                    metadata['biburl'] = bib_entry['biburl']
-                if 'doi' in fields:
-                    metadata['doi'] = bib_entry['doi']
-
-                if metadata['pid'] == 'coordinators':
-                    metadata['pid'] = 'overview'
-
-                # Parse title
-                title = bib_entry['title']
-                title = latex_to_text.latex_to_text(title)
-                title = title.replace(18*' ', ' ')
-                title = title.replace('\n', ' ')
-                metadata['title'] = title
-
-                # Parse author(s)
-                author = bib_entry['author']
-                author = author.replace('\n','')
-                author = author.replace(18*' ',' ')
-                author = latex_to_text.latex_to_text(author)
-                author = author.replace(' and', ', ')
-                metadata['author'] = author
-
-                # Parse bibtex string
-                bibtex_str = bib_dict[key]
-                bibtex_str = bibtexparser.write_string(bibtexparser.Library(bibtex_str))
-                bibtex_str = bibtex_str.replace('\n' + 18*' ', ' ')
-                metadata['bibtex'] = bibtex_str
-
-                metadata_track[key] = metadata
-            metadata_dict[track] = metadata_track
-        write_json(base_path, metadata_dict, trec, 'publications.json')
-
-
-def metadata_to_json(base_path, json_input, db_input, bibtex_input):
-    # Create database engine
-    engine = create_engine(f"sqlite:///{db_input}")
-
-    # Load tables
-    tables = {
-        'runs': pd.read_sql_table('runs', engine),
-        'participants': pd.read_sql_table('participants', engine),
-        'publications': pd.read_sql_table('publications', engine),
-        'tracks': pd.read_sql_table('tracks', engine),
-        'datasets': pd.read_sql_table('datasets', engine),
-        'results': pd.read_sql_table('results', engine)
-    }
-
-    # Create output directories per TREC conference
-    for trec_conf in tables['tracks']['trec'].unique():
-        (base_path / trec_conf).mkdir(parents=True, exist_ok=True)
-
-    # Process metadata JSON files
-    for metadata_file in ['abstracts', 'datasets', 'tracks']:
-        split_json(base_path, json_input / f'{metadata_file}.json')
-
-    # Process runs
-    for trec_conf in tables['runs']['trec'].unique():
-        df_runs = tables['runs'][tables['runs']['trec'] == trec_conf]
-        output = {}
-        for track, group in df_runs.groupby('track'):
-            output[track] = []
-            for row in group.to_dict(orient='records'):
-                if row.get('other'):
-                    row['other'] = json.loads(row['other'])
-                row.pop('index', None)
-                output[track].append(row)
-        write_json(base_path, output, trec_conf, 'runs.json')
-
-    # Process participants
-    for trec_conf in tables['participants']['trec'].unique():
-        df_participants = tables['participants'][tables['participants']['trec'] == trec_conf]
-        output = {
-            row['pid']: {k: v for k, v in row.items() if k != 'index'}
-            for row in df_participants.to_dict(orient='records')
-        }
-        write_json(base_path, output, trec_conf, 'participants.json')
-
-    # Process results
-    for trec_conf in tables['results']['trec'].unique():
-        df_results = tables['results'][tables['results']['trec'] == trec_conf]
-        output = {}
-        for track, track_df in df_results.groupby('track'):
-            runs_output = {}
-            for runid, run_df in track_df.groupby('runid'):
-                evals_output = {}
-                for eval_name, eval_df in run_df.groupby('eval'):
-                    topics_output = {}
-                    for topic, topic_df in eval_df.groupby('topic'):
-                        measures_scores = {
-                            row['measure']: row['score']
-                            for _, row in topic_df.iterrows()
-                        }
-                        topics_output[topic] = measures_scores
-                    evals_output[eval_name] = topics_output
-                runs_output[runid] = evals_output
-            output[track] = runs_output
-        write_json(base_path, output, trec_conf, 'results.json')
-
-    # Process publications 
-    parse_publications(base_path, bibtex_input, json_input)
-
 # ---> end: utility functions <---
-
 
 # ---> begin: table loaders <---
 def load_all_runs(base_path):
@@ -318,6 +161,171 @@ def load_all_results(base_path):
 
     return load_from_files(base_path, 'trec*/results.json', parse)
 # ---> end: table loaders <---
+
+
+class MetadataWriter:
+    def __init__(self, base_path, json_input, db_input, bibtex_input):
+        self.base_path = base_path
+        self.bib_dict = self.load_bibtex_files(
+            Path(bibtex_input) / 'trec-with-doi.bib', 
+            Path(bibtex_input) / 'trec.bib')
+        self.engine = create_engine(f"sqlite:///{db_input}")
+        self.abstracts = load_json(Path(json_input) / 'abstracts.json')
+        self.json_input = json_input
+
+
+    def split_json(self, json_path):
+        """Function to split and write JSON metadata by TREC conference"""
+        with open(json_path) as f:
+            json_data = json.load(f)
+            file_name = json_path.name
+            for trec_conf, track_data in json_data.items():
+                output_path = self.base_path / trec_conf / file_name
+                with open(output_path, 'w') as f_out:
+                    json.dump(track_data, f_out, indent=4)
+
+
+    def write_json(self, data, trec_conf, filename):
+        """Function to write JSON data"""
+        path = self.base_path / trec_conf / filename
+        with open(path, 'w') as f:
+            json.dump(data, f, indent=4)
+
+
+    def load_bibtex_files(self, doi_file, regular_file):
+        """Load and merge two BibTeX files into a dictionary."""
+        bib_dict = {}
+        bib_doi_database = bibtexparser.parse_file(doi_file)
+        bib_database = bibtexparser.parse_file(regular_file)
+        
+        bib_dict.update({entry.key: entry for entry in bib_doi_database.entries})
+        bib_dict.update({entry.key: entry for entry in bib_database.entries if entry.key not in bib_dict})
+        
+        return bib_dict
+
+
+    def parse_publications(self):
+        """Parse bibliographic metadata from BibTeX files."""
+
+        latex_to_text = LatexNodes2Text()
+
+        for trec, tracks in self.abstracts.items():
+            
+            metadata_dict = {}
+            
+            for track, papers in tracks.items():
+
+                metadata_track = {}
+
+                for key, metadata in papers.items():
+                    metadata['key'] = key
+                    bib_entry = self.bib_dict.get(key)
+                    if bib_entry:
+                        fields = bib_entry.fields_dict
+
+                        if 'url' in fields:
+                            url = bib_entry['url']
+                            metadata['url'] = latex_to_text.latex_to_text(url)
+                        if 'biburl' in fields:
+                            metadata['biburl'] = bib_entry['biburl']
+                        if 'doi' in fields:
+                            metadata['doi'] = bib_entry['doi']
+
+                        if metadata['pid'] == 'coordinators':
+                            metadata['pid'] = 'overview'
+
+                        # Parse title
+                        title = bib_entry['title']
+                        title = latex_to_text.latex_to_text(title)
+                        title = title.replace(18*' ', ' ')
+                        title = title.replace('\n', ' ')
+                        metadata['title'] = title
+
+                        # Parse author(s)
+                        author = bib_entry['author']
+                        author = author.replace('\n','')
+                        author = author.replace(18*' ',' ')
+                        author = latex_to_text.latex_to_text(author)
+                        author = author.replace(' and', ', ')
+                        metadata['author'] = author
+
+                        # Parse bibtex string
+                        bibtex_str = self.bib_dict[key]
+                        bibtex_str = bibtexparser.write_string(bibtexparser.Library(bibtex_str))
+                        bibtex_str = bibtex_str.replace('\n' + 18*' ', ' ')
+                        metadata['bibtex'] = bibtex_str
+
+                        metadata_track[key] = metadata
+                metadata_dict[track] = metadata_track
+            self.write_json(metadata_dict, trec, 'publications.json')
+
+
+    def to_json(self):
+        """Write metadata to separate JSON files."""
+
+        # Load tables
+        tables = {
+            'runs': pd.read_sql_table('runs', self.engine),
+            'participants': pd.read_sql_table('participants', self.engine),
+            'publications': pd.read_sql_table('publications', self.engine),
+            'tracks': pd.read_sql_table('tracks', self.engine),
+            'datasets': pd.read_sql_table('datasets', self.engine),
+            'results': pd.read_sql_table('results', self.engine)
+        }
+
+        # Create output directories per TREC conference
+        for trec_conf in tables['tracks']['trec'].unique():
+            (self.base_path / trec_conf).mkdir(parents=True, exist_ok=True)
+
+        # Process metadata JSON files
+        for metadata_file in ['abstracts', 'datasets', 'tracks']:
+            self.split_json(self.json_input / f'{metadata_file}.json')
+
+        # Process runs
+        for trec_conf in tables['runs']['trec'].unique():
+            df_runs = tables['runs'][tables['runs']['trec'] == trec_conf]
+            output = {}
+            for track, group in df_runs.groupby('track'):
+                output[track] = []
+                for row in group.to_dict(orient='records'):
+                    if row.get('other'):
+                        row['other'] = json.loads(row['other'])
+                    row.pop('index', None)
+                    output[track].append(row)
+            self.write_json(output, trec_conf, 'runs.json')
+
+        # Process participants
+        for trec_conf in tables['participants']['trec'].unique():
+            df_participants = tables['participants'][tables['participants']['trec'] == trec_conf]
+            output = {
+                row['pid']: {k: v for k, v in row.items() if k != 'index'}
+                for row in df_participants.to_dict(orient='records')
+            }
+            self.write_json(output, trec_conf, 'participants.json')
+
+        # Process results
+        for trec_conf in tables['results']['trec'].unique():
+            df_results = tables['results'][tables['results']['trec'] == trec_conf]
+            output = {}
+            for track, track_df in df_results.groupby('track'):
+                runs_output = {}
+                for runid, run_df in track_df.groupby('runid'):
+                    evals_output = {}
+                    for eval_name, eval_df in run_df.groupby('eval'):
+                        topics_output = {}
+                        for topic, topic_df in eval_df.groupby('topic'):
+                            measures_scores = {
+                                row['measure']: row['score']
+                                for _, row in topic_df.iterrows()
+                            }
+                            topics_output[topic] = measures_scores
+                        evals_output[eval_name] = topics_output
+                    runs_output[runid] = evals_output
+                output[track] = runs_output
+            self.write_json(output, trec_conf, 'results.json')
+
+        # Process publications 
+        self.parse_publications()
 
 
 class DBBuilder:
@@ -472,12 +480,6 @@ class PageBuilder:
         no_summary += no_parsing
 
         return no_summary
-
-
-
-
-        # Process publications
-        self._parse_publications(bibtex_input, json_input)
 
 
     def format_bibtex(self, bibtex: str) -> str:
