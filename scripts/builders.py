@@ -507,7 +507,10 @@ class PageBuilder:
             o = overview.iloc[0]
             content += f"#### {o.title}\n\n"
             content += f"_{o.author}_\n\n"
-            content += f"- :material-file-pdf-box: **Paper:** [{o.url}]({o.url})\n"
+            if pd.notna(o.doi) and o.doi != '':
+                content += f"- :material-file-pdf-box: **Paper:** [{o.doi}](https://doi.org/{o.doi})\n"
+            else:
+                content += f"- :material-file-pdf-box: **Paper:** [{o.url}]({o.url})\n"
             content += self.format_abstract(o.abstract)
             content += self.format_bibtex_block(self.format_bibtex(o.bibtex), o.get('biburl', ''))
 
@@ -524,7 +527,10 @@ class PageBuilder:
                 content += f"- :fontawesome-solid-user-group: **Participant:** [{pub.pid}](./participants.md#{pub.pid.lower()})\n"
 
             # Link to paper
-            content += f"- :material-file-pdf-box: **Paper:** [{pub.url}]({pub.url})\n"
+            if pd.notna(pub.doi) and pub.doi != '':
+                content += f"- :material-file-pdf-box: **Paper:** [{pub.doi}](https://doi.org/{pub.doi})\n"
+            else:
+                content += f"- :material-file-pdf-box: **Paper:** [{pub.url}]({pub.url})\n"
 
             # Link to runs
             track_runs = runs[(runs['trec'] == trec) & (runs['track'] == track) & (runs['pid'] == pub.pid)]
@@ -923,12 +929,16 @@ class PageBuilder:
         title = pub.title
         author = pub.author
         url = pub.url
+        doi = pub.doi
         abstract = pub.abstract
         bibtex = pub.bibtex.strip().replace('\n', '\n\t')
         biburl = pub.biburl or ''
 
         section = f'#### {title}\n\n_{author}_\n\n'
-        section += f'- :material-file-pdf-box: **Paper:** [{url}]({url})\n'
+        if pd.notna(doi) and doi != '':
+            section += f'- :material-file-pdf-box: **Paper:** [{doi}](https://doi.org/{doi})\n'
+        else:
+            section += f'- :material-file-pdf-box: **Paper:** [{url}]({url})\n'
 
         if track and (trec, track) not in self.no_participants:
             section += f'- :fontawesome-solid-user-group: **Participant:** [{pub.pid}](./{track}/participants.md#{pub.pid.lower()})\n'
