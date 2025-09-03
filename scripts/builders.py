@@ -6,12 +6,12 @@ import pandas as pd
 from tqdm import tqdm
 import yaml
 from sqlalchemy import create_engine
-from docutils.nodes import make_id
 import numpy as np
 from pathlib import Path
 from sqlalchemy.orm import declarative_base
 import bibtexparser
 from pylatexenc.latex2text import LatexNodes2Text
+from markdown.extensions.toc import slugify_unicode
 
 
 # ---> begin: utility functions <---
@@ -525,7 +525,7 @@ class PageBuilder:
             content += f"_{pub.author}_\n\n"
 
             # Link to participants page
-            if (trec, track) not in self.no_participants:
+            if (trec, track) not in self.no_participants and pub.pid != 'overview':
                 content += f"- :fontawesome-solid-user-group: **Participant:** [{pub.pid}](./participants.md#{pub.pid.lower()})\n"
 
             # Link to paper
@@ -564,7 +564,7 @@ class PageBuilder:
             (publications['pid'] == run_row.pid)
         ]
         if not pub_match.empty:
-            title_id = make_id(pub_match.iloc[0].title)
+            title_id = slugify_unicode(pub_match.iloc[0].title, separator='-')
             links.append(f'[**`Proceedings`**](./proceedings.md#{title_id})')
 
         if run_row.input_url:
@@ -649,7 +649,8 @@ class PageBuilder:
                 (publications['pid'] == run.pid)
             ]
             if not pub.empty:
-                title_id = make_id(pub.iloc[0].title)
+
+                title_id = slugify_unicode(pub.iloc[0].title, separator='-')
                 ref += f" | [**`Proceedings`**](./proceedings.md#{title_id})"
 
             # Input/Summary/Appendix links
@@ -942,7 +943,7 @@ class PageBuilder:
         else:
             section += f'- :material-file-pdf-box: **Paper:** [{url}]({url})\n'
 
-        if track and (trec, track) not in self.no_participants:
+        if track and (trec, track) not in self.no_participants and pub.pid != 'overview':
             section += f'- :fontawesome-solid-user-group: **Participant:** [{pub.pid}](./{track}/participants.md#{pub.pid.lower()})\n'
 
         if track:
