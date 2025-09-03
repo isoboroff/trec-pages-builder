@@ -50,17 +50,18 @@ def dump_columns(df, cols):
     return df.replace(r"", np.nan, regex=True)
 
 
-def convert(json_data: str, bold: bool = False, single_key: str = None) -> str:
+def convert(json_str: str, bold: bool = False, single_key: str = None) -> str:
     """Convert JSON-formatted or plain string into markdown-formatted reference(s)."""
-    if isinstance(json_data, dict):
+    try:
+        json_dict = json.loads(json_str)
         return ' | '.join(
             f"[{'**`' + k + '`**' if bold else '`' + k + '`'}]({v})"
-            for k, v in json_data.items()
+            for k, v in json_dict.items()
         )
-
-    key = single_key or json_data
-    label = f"**`{key}`**" if bold else f"`{key}`"
-    return f"[{label}]({json_data})"
+    except (json.JSONDecodeError, TypeError):
+        key = single_key or json_str
+        label = f"**`{key}`**" if bold else f"`{key}`"
+        return f"[{label}]({json_str})"
 
 
 def trec_year(trec_name: str) -> int:
