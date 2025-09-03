@@ -50,18 +50,27 @@ def dump_columns(df, cols):
     return df.replace(r"", np.nan, regex=True)
 
 
-def convert(json_str: str, bold: bool = False, single_key: str = None) -> str:
+def convert(json_data, bold: bool = False, single_key: str = None) -> str:
     """Convert JSON-formatted or plain string into markdown-formatted reference(s)."""
+    
+    # check if it is a dictionary already
+    if isinstance(json_data, dict):
+        return ' | '.join(
+            f"[{'**' + k + '**' if bold else '' + k + ''}]({v})"
+            for k, v in json_data.items()
+        )
+    
+    # in case it is a string, it could be dictionary
     try:
-        json_dict = json.loads(json_str)
+        json_dict = json.loads(json_data)
         return ' | '.join(
             f"[{'**`' + k + '`**' if bold else '`' + k + '`'}]({v})"
             for k, v in json_dict.items()
         )
     except (json.JSONDecodeError, TypeError):
-        key = single_key or json_str
+        key = single_key or json_data
         label = f"**`{key}`**" if bold else f"`{key}`"
-        return f"[{label}]({json_str})"
+        return f"[{label}]({json_data})"
 
 
 def trec_year(trec_name: str) -> int:
@@ -902,7 +911,7 @@ class PageBuilder:
         # Add TREC webpage if available
         trec_webpage = dataset_row.trec_webpage
         if trec_webpage:
-            content += f":fontawesome-solid-globe: **`trec.nist.gov`**: [`{trec_webpage}`]({trec_webpage})\n\n"
+            content += f":fontawesome-solid-globe: **`trec.nist.gov`**: {convert(trec_webpage)}\n\n"
 
         content += "---\n\n"
 
@@ -923,7 +932,7 @@ class PageBuilder:
 
         # Add "Other" resources if available
         if dataset_row.other:
-            content += f"**Other:** {convert(dataset_row.other)}\n"
+            content += f"**Other:** {convert(dataset_row.other)}\n"  
 
         return content
 
