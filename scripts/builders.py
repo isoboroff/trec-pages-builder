@@ -453,43 +453,29 @@ class PageBuilder:
 
     def _init_missing_summary(self) -> List[Tuple[str, str]]:
 
-        no_summary = []
+        missing_summaries = {('trec1', 'adhoc'), ('trec1', 'routing')}
 
-        # Tracks with online summaries but no implemented parser
-        no_parsing = [ 
-            ('trec33', 'avs'), ('trec33', 'atomic'), ('trec33', 'biogen'), 
-            ('trec33', 'ikat'), ('trec33', 'lateral'), ('trec33', 'medvidqa'), 
-            ('trec33', 'neuclir'), ('trec33', 'plaba'), ('trec33', 'product'), 
-            ('trec33', 'rag'), ('trec33', 'tot'), ('trec33', 'vtt'), 
-            ('trec32', 'crisis'), ('trec32', 'trials'), ('trec32', 'deep'), 
-            ('trec32', 'ikat'), ('trec32', 'neuclir'), ('trec32', 'atomic'), 
-            ('trec32', 'product'), ('trec32', 'tot'), ('trec31', 'crisis'), 
-            ('trec31', 'fair'), ('trec30', 'fair'), ('trec29', 'fair'), 
-            ('trec28', 'fair'), ('trec27', 'incident'), ('trec26', 'rts'), 
-            ('trec25', 'realtime'), ('trec24', 'domain'), ('trec24', 'tempsumm'), 
-            ('trec21', 'crowd'), ('trec19', 'session'), ('trec17', 'relfdbk'), 
-            ('trec17', 'million-query'), ('trec16', 'qa'), ('trec15', 'qa'), 
-            ('trec14', 'qa'), ('trec13', 'qa'), ('trec12', 'qa'), 
-            ('trec11', 'qa'), ('trec10', 'qa'), ('trec9', 'qa'), 
-            ('trec8', 'qa'), ('trec8', 'xlingual'), ('trec7', 'filtering'), 
-            ('trec4', 'filtering')
-        ]
+        merged = self.runs.merge(
+            self.results[['trec', 'track']], 
+            on=['trec', 'track'], 
+            how='left', 
+            indicator=True
+        )
+        tracks_without_results = merged.loc[merged['_merge'] == 'left_only', ['trec', 'track']]
+        tracks_without_results = set(tracks_without_results.itertuples(index=False, name=None))
+        missing_summaries = missing_summaries.union(tracks_without_results)
 
-        # Known exceptions that should not be flagged as missing summaries
-        summary_exceptions = {
-            ('trec-covid', f'round{i}') for i in range(1, 6)
-        }.union({
-            ('trec19', 'chemical'), ('trec11', 'xlingual'), ('trec5', 'dbmerge')
-        })
+        merged = self.runs.merge(
+            self.results[['runid', 'trec', 'track']], 
+            on=['runid', 'trec', 'track'], 
+            how='left', 
+            indicator=True
+        )
+        runs_without_results = merged.loc[merged['_merge'] == 'left_only', ['trec', 'track', 'runid']]
+        runs_without_results = set(runs_without_results.itertuples(index=False, name=None))
+        missing_summaries = missing_summaries.union(runs_without_results)
 
-        for trec, track in self._get_trec_track_pairs():
-            r = self.runs[(self.runs['trec'] == trec) & (self.runs['track'] == track)]
-            if r['summary_url'].isna().all() and (trec, track) not in summary_exceptions:
-                no_summary.append((trec, track))
-
-        no_summary += no_parsing
-
-        return no_summary
+        return missing_summaries
 
 
     def format_bibtex(self, bibtex: str) -> str:
@@ -501,6 +487,8 @@ class PageBuilder:
 
 
     def format_bibtex_block(self, bibtex: str, biburl: str) -> str:
+        if pd.isna(biburl):
+            return f'??? quote "Bibtex"\n\t```\n\t{bibtex}\n\t```\n\n'
         return f'??? quote "Bibtex [:material-link-variant:]({biburl}) "\n\t```\n\t{bibtex}\n\t```\n\n'
 
 
@@ -536,7 +524,7 @@ class PageBuilder:
 
             # Link to participants page
             if (trec, track) not in self.no_participants and pub.pid != 'overview':
-                content += f"- :fontawesome-solid-user-group: **Participant:** [{pub.pid}](./participants.md#{pub.pid.lower()})\n"
+                content += f"- :fontawesome-solid-user-group: **Participant:** [{pub.pid}](./participants.md#{slugify_unicode(pub.pid, separator='-')})\n"
 
             # Link to paper
             if pd.notna(pub.doi) and pub.doi != '':
@@ -548,7 +536,7 @@ class PageBuilder:
             track_runs = runs[(runs['trec'] == trec) & (runs['track'] == track) & (runs['pid'] == pub.pid)]
             if not track_runs.empty:
                 run_links = ' | '.join(
-                    f"[{r.runid}](./runs.md#{r.runid.lower()})" for r in track_runs.itertuples()
+                    f"[{r.runid}](./runs.md#{slugify_unicode(r.runid.lower(), separator='-')})" for r in track_runs.itertuples()
                 )
                 content += f"- :material-file-search: **Runs:** {run_links}\n\n"
             else:
@@ -562,10 +550,9 @@ class PageBuilder:
 
     def get_run_metadata_links(self, run_row, trec, track, publications):
         links = []
-        run_url_id = run_row.runid.lower().replace('.', '')
-        links.append(f'[**`Metadata`**](./runs.md#{run_url_id})')
+        links.append(f'[**`Metadata`**](./runs.md#{slugify_unicode(run_row.runid, separator="-")})')
 
-        participant_id = run_row.pid.lower().replace('.', '')
+        participant_id = slugify_unicode(run_row.pid, separator='-')
         links.append(f'[**`Participants`**](./participants.md#{participant_id})')
 
         pub_match = publications[
@@ -644,12 +631,13 @@ class PageBuilder:
 
         for run in _runs.itertuples():
             # Base reference to participant
-            participant_url_id = run.pid.lower().replace('.', '')
+            participant_url_id = slugify_unicode(run.pid, separator='-')
             # if (trec, track) in no_summary or runid not in results[(results['trec'] == trec) & (results['track'] == track)]['runid']:
-            if (trec, track) in self.no_summary:
+            if (trec, track) in self.no_summary or (trec, track, run.runid) in self.no_summary:
                 ref = f"[**`Participants`**](./participants.md#{participant_url_id})"
             else:
-                result_url_id = ''.join(run.runid.lower().split('.')[:-1]) if track == 'session' else run.runid.lower().replace('.', '')
+                result_url_id = ''.join(run.runid.lower().split('.')[:-1]) if track == 'session' else slugify_unicode(run.runid, separator='-')
+
                 ref = f"[**`Results`**](./results.md#{result_url_id}) | [**`Participants`**](./participants.md#{participant_url_id})"
 
             # Reference to proceeding paper
@@ -734,7 +722,7 @@ class PageBuilder:
 
             # Format run references
             run_refs = [
-                f"[{row.runid}](./runs.md#{row.runid.lower().replace('.', '')})"
+                f"[{row.runid}](./runs.md#{slugify_unicode(row.runid, separator='-')})"
                 for row in p_runs.itertuples()
             ]
             run_list = " | ".join(run_refs)
@@ -797,7 +785,7 @@ class PageBuilder:
                 pass  # Silently skip malformed JSON
 
         # Web page
-        if track_row.webpage:
+        if track_row.webpage and not pd.isna(track_row.webpage):
             content += f":fontawesome-solid-globe: **Track Web Page:** [`{track_row.webpage}`]({track_row.webpage})\n\n"
 
         content += "---\n\n"
@@ -843,7 +831,7 @@ class PageBuilder:
             content += f":fontawesome-solid-user-group: **Track coordinator(s):**\n\n{coordinators_md}\n\n"
 
         # Webpage
-        if base_row.webpage:
+        if base_row.webpage and not pd.isna(base_row.webpage):
             content += f":fontawesome-solid-globe: **Track Web Page:** [`{base_row.webpage}`]({base_row.webpage})\n\n"
 
         content += "---\n\n"
@@ -888,7 +876,7 @@ class PageBuilder:
                 content += f":fontawesome-solid-user-group: **Track coordinator(s):**\n\n{coordinators_md}\n\n"
 
             # Web page
-            if row.webpage:
+            if row.webpage and not pd.isna(row.webpage):
                 content += f":fontawesome-solid-globe: **Track Web Page:** [`{row.webpage}`]({row.webpage})\n\n"
 
             content += "---\n\n"
@@ -931,7 +919,7 @@ class PageBuilder:
             content += ''.join(task_content) + "\n---\n\n"
 
         # Add "Other" resources if available
-        if dataset_row.other:
+        if dataset_row.other and not pd.isna(dataset_row.other):
             content += f"**Other:** {convert(dataset_row.other)}\n"  
 
         return content
@@ -954,18 +942,21 @@ class PageBuilder:
             section += f'- :material-file-pdf-box: **Paper:** [{url}]({url})\n'
 
         if track and (trec, track) not in self.no_participants and pub.pid != 'overview':
-            section += f'- :fontawesome-solid-user-group: **Participant:** [{pub.pid}](./{track}/participants.md#{pub.pid.lower()})\n'
+            section += f'- :fontawesome-solid-user-group: **Participant:** [{pub.pid}](./{track}/participants.md#{slugify_unicode(pub.pid, separator="-")})\n'
 
         if track:
             _runs = runs[(runs['trec'] == trec) & (runs['track'] == track) & (runs['pid'] == pub.pid)]
             if len(_runs):
-                run_links = [f"[{r.runid}](./{track}/runs.md#{r.runid.lower()})" for _, r in _runs.iterrows()]
+                run_links = [f"[{r.runid}](./{track}/runs.md#{slugify_unicode(r.runid, separator='-')})" for _, r in _runs.iterrows()]
                 section += f'- :material-file-search: **Runs:** {" | ".join(run_links)}\n'
 
         if abstract:
             section += f'??? abstract "Abstract"\n\t\n\t{abstract}\n\t\n\n'
 
-        section += f'??? quote "Bibtex [:material-link-variant:]({biburl})"\n\t```\n\t{bibtex}\n\t```\n\n'
+        if pd.isna(biburl):
+            section += f'??? quote "Bibtex"\n\t```\n\t{bibtex}\n\t```\n\n'
+        else:
+            section += f'??? quote "Bibtex [:material-link-variant:]({biburl})"\n\t```\n\t{bibtex}\n\t```\n\n'
         return section
 
 
@@ -1006,6 +997,10 @@ class PageBuilder:
 
     def write_page(self, type, **args):
         """Generate browser pages of different types."""
+
+        # skipe proceedings page generation for TREC-1
+        if type == 'proceedings' and args['trec'] == 'trec1':
+            return
 
         page_config = {
             'overview': ('overview.md', lambda a: self.overview_page_content(a['trec'], a['tracks'])),
@@ -1075,7 +1070,7 @@ class PageBuilder:
                 continue
 
             # Construct the relative overview path
-            overview_path = f'./{trec}/overview' if trec == 'trec1' else f'./{trec}/{track}/overview'
+            overview_path = f'./{trec}/overview.md' if trec == 'trec1' else f'./{trec}/{track}/overview.md'
 
             # Create a formatted reference link
             year_label = trec[:4].upper() + '-' + trec[4:]
@@ -1188,8 +1183,12 @@ class PageBuilder:
             else:
                 _trecs.append({trec_key: [{'Overview': os.path.join(trec, 'overview.md')}] + _tracks})
 
-        # TREC-1 has only an overview
-        _trecs.append({'TREC-1 (1992)': [{'Overview': 'trec1/overview.md'}]})
+        # TREC-1 only has overview and data pages
+        _trecs.append({'TREC-1 (1992)': [{'Overview': 'trec1/overview.md'}, 
+                                         {'Adhoc': [ {'Overview': 'trec1/adhoc/overview.md'},
+                                                     {'Data': 'trec1/adhoc/data.md'}]},
+                                         {'Routing': [ {'Overview': 'trec1/routing/overview.md'},
+                                                       {'Data': 'trec1/routing/data.md'}]}]})
 
         nav = [{'Home': 'index.md'}] + _trecs  
 
