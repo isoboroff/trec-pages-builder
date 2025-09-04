@@ -3,9 +3,9 @@ from builders import MetadataWriter
 
 
 base_path = Path("./metadata")
-json_input = Path("./json")
-db_input = Path("./sample-db.sqlite")
-bibtex_input = Path("./bibtex")
+json_input = Path("./resources/input/json")
+db_input = Path("./resources/input/sample-db.sqlite")
+bibtex_input = Path("./resources/input/bibtex")
 
 
 def main():
