@@ -688,12 +688,18 @@ class PageBuilder:
         return content
 
 
-    def participants_page_content(self, trec, track, participants, runs, tracks):
+    def participants_page_content(self, trec, track, participants, runs, tracks, publications):
         """Generate the participants page of a track."""
 
         # Filter relevant runs
-        _runs = runs[(runs['trec'] == trec)]
+        _runs = runs[(runs['trec'] == trec) & (runs['track'] == track)]
         pids = _runs.sort_values(by='pid', key=lambda col: col.str.lower()).pid.unique()
+        # add also participants that do not have runs
+        _publications = publications[(publications['trec'] == trec) & (publications['track'] == track)]
+        pids_without_runs = _publications.sort_values(by='pid', key=lambda col: col.str.lower()).pid.unique()
+
+        pids = list(pids) + list(pids_without_runs)
+        pids = set(pids)
 
         # Track title and year
         track_fullname = tracks[
@@ -703,14 +709,15 @@ class PageBuilder:
         content = f"# Participants - {track_fullname} {trec_year(trec)}\n\n"
 
         for pid in pids:
+
+            if pid == 'overview':
+                continue
+
             p_runs = runs[
                 (runs['pid'] == pid) & 
                 (runs['trec'] == trec) & 
                 (runs['track'] == track)
             ]
-
-            if p_runs.empty:
-                continue
 
             # Get participant metadata
             part_info = participants[
@@ -720,6 +727,17 @@ class PageBuilder:
             name = part_info.name.iloc[0] if not part_info.empty else ""
             organization = part_info.organization.iloc[0] if not part_info.empty else ""
 
+            # Add participant section
+            content += f"#### {pid}\n"
+
+            if p_runs.empty:
+                if name:
+                    content += f"- :fontawesome-solid-user-group: **Name:** {name}\n"
+                if organization:
+                    content += f"- :octicons-organization-16: **Organization:** {organization}\n"
+                content += "\n---\n"
+                continue
+
             # Format run references
             run_refs = [
                 f"[{row.runid}](./runs.md#{slugify_unicode(row.runid, separator='-')})"
@@ -727,8 +745,6 @@ class PageBuilder:
             ]
             run_list = " | ".join(run_refs)
 
-            # Add participant section
-            content += f"#### {pid}\n"
             if name:
                 content += f"- :fontawesome-solid-user-group: **Name:** {name}\n"
             if organization:
@@ -1013,7 +1029,7 @@ class PageBuilder:
             'runs': ('runs.md', lambda a: self.runs_page_content(
                 a['trec'], a['track'], a['publications'], a['runs'], a['tracks'])),
             'participants': ('participants.md', lambda a: self.participants_page_content(
-                a['trec'], a['track'], a['participants'], a['runs'], a['tracks'])),
+                a['trec'], a['track'], a['participants'], a['runs'], a['tracks'],  a['publications'])),
             'track_overview': ('overview.md', lambda a: self.track_overview_page_content(
                 a['trec'], a['track'], a['tracks'])),
             'data': ('data.md', lambda a: self.data_page_content(
