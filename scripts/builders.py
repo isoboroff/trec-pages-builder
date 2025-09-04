@@ -11,7 +11,7 @@ from pathlib import Path
 from sqlalchemy.orm import declarative_base
 import bibtexparser
 from pylatexenc.latex2text import LatexNodes2Text
-from markdown.extensions.toc import slugify_unicode
+from markdown.extensions.toc import slugify, slugify_unicode
 
 
 # ---> begin: utility functions <---
@@ -561,7 +561,7 @@ class PageBuilder:
             (publications['pid'] == run_row.pid)
         ]
         if not pub_match.empty:
-            title_id = slugify_unicode(pub_match.iloc[0].title, separator='-')
+            title_id = slugify(pub_match.iloc[0].title, separator='-')
             links.append(f'[**`Proceedings`**](./proceedings.md#{title_id})')
 
         if run_row.input_url:
@@ -648,7 +648,7 @@ class PageBuilder:
             ]
             if not pub.empty:
 
-                title_id = slugify_unicode(pub.iloc[0].title, separator='-')
+                title_id = slugify(pub.iloc[0].title, separator='-')
                 ref += f" | [**`Proceedings`**](./proceedings.md#{title_id})"
 
             # Input/Summary/Appendix links
