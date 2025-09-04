@@ -1,0 +1,77 @@
+{
+    "adhoc": {
+        "corpus": "https://trec.nist.gov/data/cd45/index.html",
+        "topics": "https://trec.nist.gov/data/topics_eng/topics.351-400.gz",
+        "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.trec7.adhoc.parts1-5.tar.gz",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {
+            "qrels.trec7.adhoc.part1.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec7.adhoc.part1.gz",
+            "qrels.trec7.adhoc.part2.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec7.adhoc.part2.gz",
+            "qrels.trec7.adhoc.part3.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec7.adhoc.part3.gz",
+            "qrels.trec7.adhoc.part4.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec7.adhoc.part4.gz",
+            "qrels.trec7.adhoc.part5.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec7.adhoc.part5.gz"
+        }
+    },
+    "hp": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {}
+    },
+    "filtering": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.trec7.filtering.gz",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {}
+    },
+    "sdr": {
+        "corpus": "https://catalog.ldc.upenn.edu/LDC98S71",
+        "topics": "https://trec.nist.gov/data/sdr/1998/sdr98-topics.sgm",
+        "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.trec7.sdr.gz",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/sdr1998.html",
+        "other": {
+            "Evaluation Specification": "https://trec.nist.gov/data/sdr/1998/sdr98_spec.txt",
+            "Background Notes": "https://trec.nist.gov/data/sdr/1998/sdr98_spec.txt",
+            "Relevance Judgments": "https://trec.nist.gov/data/sdr/1998/sdr98-qrels.txt",
+            "ctm2srt.pl": "https://trec.nist.gov/data/sdr/1998/ctm2srt.pl",
+            "srt2ctm.pl": "https://trec.nist.gov/data/sdr/1998/srt2ctm.pl",
+            "srt2ltt.pl": "https://trec.nist.gov/data/sdr/1998/srt2ltt.pl"
+        }
+    },
+    "xlingual": {
+        "corpus": "",
+        "topics": {
+            "English": "https://trec.nist.gov/data/topics_noneng/CL.topics.026-053.english.gz",
+            "French": "https://trec.nist.gov/data/topics_noneng/CL.topics.026-053.french.gz",
+            "German": "https://trec.nist.gov/data/topics_noneng/CL.topics.026-053.german.gz",
+            "Italian": "https://trec.nist.gov/data/topics_noneng/CL.topics.026-053.italian.gz",
+            "Stemmed topics in Italian": "https://trec.nist.gov/data/topics_noneng/CL.topics.026-053.italian_stemmed"
+        },
+        "qrels": "https://trec.nist.gov/data/qrels_noneng/qrels.trec7.xlingual.gz",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {}
+    },
+    "query": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {}
+    },
+    "interactive": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/t7i/t7i.html",
+        "other": {}
+    }
+}

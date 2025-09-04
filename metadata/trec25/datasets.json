@@ -1,0 +1,103 @@
+{
+    "clinical": {
+        "corpus": {
+            "pmc-00.tar.gz": "http://ceb.nlm.nih.gov/~robertske/pmc-00.tar.gz",
+            "pmc-01.tar.gz": "http://ceb.nlm.nih.gov/~robertske/pmc-01.tar.gz",
+            "pmc-02.tar.gz": "http://ceb.nlm.nih.gov/~robertske/pmc-02.tar.gz",
+            "pmc-03.tar.gz": "http://ceb.nlm.nih.gov/~robertske/pmc-03.tar.gz"
+        },
+        "topics": "https://trec.nist.gov/data/clinical/topics2016.xml",
+        "qrels": "https://trec.nist.gov/data/clinical/qrels-treceval-2016.txt",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/clinical2016.html",
+        "other": {
+            "Relevance judgment file suitable for computing inferred measures": "https://trec.nist.gov/data/clinical/qrels-sampleval-2016.txt",
+            "Evaluation script for computing inferred measures": "https://trec.nist.gov/data/clinical/sample_eval.pl"
+        }
+    },
+    "qa": {
+        "corpus": "",
+        "topics": {
+            "Questions used in TREC 2016 test set": "https://trec.nist.gov/data/qa/2016_LiveQA/questions.txt",
+            "Map from Yahoo question ids to TREC question numbers": "https://trec.nist.gov/data/qa/2016_LiveQA/qids.txt",
+            "Question Categories": "https://trec.nist.gov/data/qa/2016_LiveQA/categories.txt"
+        },
+        "qrels": {
+            "Assessors' succint paraphrase of each question": "https://trec.nist.gov/data/qa/2016_LiveQA/interpretations.xml",
+            "2016 judgments for all submitted strings ": "https://trec.nist.gov/data/qa/2016_LiveQA/anon-qrels.txt.gz"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/qa/2016_LiveQA.html",
+        "other": {
+            "Resources associated with given responses": "https://trec.nist.gov/data/qa/2016_LiveQA/resources.xml"
+        }
+    },
+    "context": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "https://trec.nist.gov/data/context/2016/qrels.txt",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/context2016.html",
+        "other": {}
+    },
+    "realtime": {
+        "corpus": "",
+        "topics": "",
+        "qrels": {
+            "Relevance judgments from NIST assessors for evaluation set (used by batch evaluation)": "https://trec.nist.gov/data/rts/rts2016-qrels.txt",
+            "Scenario A mobile assessor judgments": "https://trec.nist.gov/data/rts/rts2016-mobileA-qrels.txt"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/rts2016.html",
+        "other": {
+            "Clusters of equivalent relevant tweets as created by assessors (format is topic-id cluster-id tweet-id)": "https://trec.nist.gov/data/rts/rts2016-clusters.txt",
+            "Clusters of equivalent relevant tweets in JSON format": "https://trec.nist.gov/data/rts/rts2016-batch-clusters.json",
+            "Gloss of cluster intent (format is topic-id cluster-id gloss)": "https://trec.nist.gov/data/rts/rts2016-glosses.txt",
+            "Epoch time file": "https://trec.nist.gov/data/rts/rts2016-batch-tweets2dayepoch.txt",
+            "Evaluation script for Scenario A runs using mobile assessors": "https://trec.nist.gov/data/rts/rts2016-mobileA-eval.py",
+            "Evaluation script for Scenario A batch evaluation": "https://trec.nist.gov/data/rts/rts2016-batchA-eval.py",
+            "Evaluation script for Scenario B batch evaluation": "https://trec.nist.gov/data/rts/rts2016-batchB-eval.py"
+        }
+    },
+    "recall": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {}
+    },
+    "task": {
+        "corpus": "",
+        "topics": {
+            "Test queries": "https://trec.nist.gov/data/tasks/tasks_track_queries_2016.xml",
+            "Elaborated topics (with subtasks)": "https://trec.nist.gov/data/tasks/2016-subtasks.txt"
+        },
+        "qrels": {
+            "Keyphrase judgments per subtask": "https://trec.nist.gov/data/tasks/2016-qrels-keywords.txt",
+            "Document judgments (relevance and utility) per subtask": "https://trec.nist.gov/data/tasks/2016-qrels-docs.txt"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/tasks2016.html",
+        "other": {}
+    },
+    "domain": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/domain2016.html",
+        "other": {
+            "Truth Data": "https://trec.nist.gov/data/domain/2016/dynamic-domain-2016-truth-data.xml.gz",
+            "Cube Test qrels file": "https://trec.nist.gov/data/domain/2016/cubetest-qrels-2016.gz"
+        }
+    },
+    "open": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {}
+    }
+}

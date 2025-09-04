@@ -1,0 +1,94 @@
+{
+    "context": {
+        "corpus": "",
+        "topics": "https://trec.nist.gov/data/context/2013/topics.csv.txt",
+        "qrels": {
+            "geo-user judgments": "https://trec.nist.gov/data/context/2013/geo-user.qrels.txt",
+            "geo-NIST judgments": "https://trec.nist.gov/data/context/2013/geo-nist.qrels.txt",
+            "desc-doc judgments": "https://trec.nist.gov/data/context/2013/desc-doc.qrels.txt"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/context2013.html",
+        "other": {
+            "profiles": "https://trec.nist.gov/data/context/2013/profiles2013.csv.txt",
+            "contexts": "https://trec.nist.gov/data/context/2013/contexts.csv.txt",
+            "examples": "https://trec.nist.gov/data/context/2013/examples.csv.txt",
+            "README for eval script and judgments": "https://trec.nist.gov/data/context/2013/README.txt",
+            "evaluation script": "https://trec.nist.gov/data/context/2013/eval.py"
+        }
+    },
+    "kba": {
+        "corpus": "https://s3.amazonaws.com/aws-publicdatasets/trec/kba/index.html",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/kba.html",
+        "other": {}
+    },
+    "web": {
+        "corpus": "http://lemurproject.org/clueweb12/",
+        "topics": "https://trec.nist.gov/data/web/2013/web2013.topics.txt",
+        "qrels": {
+            "file containing all judgments": "https://trec.nist.gov/data/web/2013/qrels.all.txt",
+            "judgment file containing one aspect per topic": "https://trec.nist.gov/data/web/2013/qrels.adhoc.txt"
+        },
+        "ir_datasets": "https://ir-datasets.com/clueweb12.html",
+        "trec_webpage": "https://trec.nist.gov/data/web2013.html",
+        "other": {
+            "judgment file suitable for use with ndeval": "https://trec.nist.gov/data/web/2013/qrels.ndeval.txt",
+            "github repository with evaluation code and baselines": "http://github.com/trec-web/trec-web-2013"
+        }
+    },
+    "federated": {
+        "corpus": "",
+        "topics": "https://trec.nist.gov/data/federated/2013/fedweb13_50topics.xml",
+        "qrels": {
+            "Relevance Judgments for Resource Selection Task": "https://trec.nist.gov/data/federated/2013/FW13-QRELS-RS.txt",
+            "Relevance Judgments for Results Merging task": "https://trec.nist.gov/data/federated/2013/FW13-QRELS-RM.txt"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/federated2013.html",
+        "other": {
+            "Duplicate document classes (for result merging task evaluation)": "https://trec.nist.gov/data/federated/2013/duplicates.txt"
+        }
+    },
+    "microblog": {
+        "corpus": "",
+        "topics": "https://trec.nist.gov/data/microblog/2013/topics.MB111-170.txt",
+        "qrels": "https://trec.nist.gov/data/microblog/2013/qrels.txt",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/microblog2013.html",
+        "other": {}
+    },
+    "tempsumm": {
+        "corpus": "",
+        "topics": "https://trec.nist.gov/data/tempsumm/2013/testTopics.xml",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/tempsumm2013.html",
+        "other": {
+            "Evaluation script for Temporal Summarization Runs": "https://trec.nist.gov/data/tempsumm/2013/tseval.py",
+            "Scoring Data: set of pooled updates": "https://trec.nist.gov/data/tempsumm/2013/pooled_updates.tsv",
+            "Scoring Data: nuggets": "https://trec.nist.gov/data/tempsumm/2013/nuggets.tsv",
+            "Scoring Data: found matches": "https://trec.nist.gov/data/tempsumm/2013/matches.tsv"
+        }
+    },
+    "session": {
+        "corpus": "http://lemurproject.org/clueweb12/",
+        "topics": "https://trec.nist.gov/data/session/2013/topics.txt",
+        "qrels": "https://trec.nist.gov/data/session/2013/qrels.txt",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/session2013.html",
+        "other": {
+            "Session data": "https://trec.nist.gov/data/session/2013/sessiontrack2013.xml.gz"
+        }
+    },
+    "crowd": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {}
+    }
+}

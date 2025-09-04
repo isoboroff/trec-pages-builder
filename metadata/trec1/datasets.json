@@ -1,0 +1,33 @@
+{
+    "adhoc": {
+        "corpus": {
+            "TIPSTER Volume 1": "https://catalog.ldc.upenn.edu/LDC93T3B",
+            "TIPSTER Volume 2": "https://catalog.ldc.upenn.edu/LDC93T3C"
+        },
+        "topics": "https://trec.nist.gov/data/topics_eng/topics.51-100.gz",
+        "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.51-100.disk1.disk2.parts1-5.tar.gz",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {
+            "qrels.51-100.disk1.disk2.part1.gz": "https://trec.nist.gov/data/qrels_eng/qrels.51-100.disk1.disk2.part1.gz",
+            "qrels.51-100.disk1.disk2.part2.gz": "https://trec.nist.gov/data/qrels_eng/qrels.51-100.disk1.disk2.part2.gz",
+            "qrels.51-100.disk1.disk2.part3.gz": "https://trec.nist.gov/data/qrels_eng/qrels.51-100.disk1.disk2.part3.gz",
+            "qrels.51-100.disk1.disk2.part4.gz": "https://trec.nist.gov/data/qrels_eng/qrels.51-100.disk1.disk2.part4.gz",
+            "qrels.51-100.disk1.disk2.part5.gz": "https://trec.nist.gov/data/qrels_eng/qrels.51-100.disk1.disk2.part5.gz"
+        }
+    },
+    "routing": {
+        "corpus": "https://catalog.ldc.upenn.edu/LDC93T3C",
+        "topics": "https://trec.nist.gov/data/topics_eng/topics.1-50.gz",
+        "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.1-50.parts1-5.tar.gz",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {
+            "qrels.1-50.part1.gz": "https://trec.nist.gov/data/qrels_eng/qrels.1-50.part1.gz",
+            "qrels.1-50.part2.gz": "https://trec.nist.gov/data/qrels_eng/qrels.1-50.part2.gz",
+            "qrels.1-50.part3.gz": "https://trec.nist.gov/data/qrels_eng/qrels.1-50.part3.gz",
+            "qrels.1-50.part4.gz": "https://trec.nist.gov/data/qrels_eng/qrels.1-50.part4.gz",
+            "qrels.1-50.part5.gz": "https://trec.nist.gov/data/qrels_eng/qrels.1-50.part5.gz"
+        }
+    }
+}

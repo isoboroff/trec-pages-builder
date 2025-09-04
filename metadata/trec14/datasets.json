@@ -1,0 +1,115 @@
+{
+    "spam": {
+        "corpus": "https://plg.uwaterloo.ca/~gvcormac/treccorpus/",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "https://plg.uwaterloo.ca/~gvcormac/treccorpus/",
+        "other": {}
+    },
+    "terabyte": {
+        "corpus": "http://ir.dcs.gla.ac.uk/test_collections/gov2-summary.htm",
+        "topics": {
+            "2005 Efficiency task topics (compressed with gzip)": "https://trec.nist.gov/data/terabyte/05/05.efficiency_topics.gz",
+            "2005 Adhoc task topics": "https://trec.nist.gov/data/terabyte/05/05.topics.751-800.txt",
+            "2005 Named-page task topics (final version: 20 topics removed)": "https://trec.nist.gov/data/terabyte/05/05.np_topics.601-872.final.txt"
+        },
+        "qrels": {
+            "2005 Adhoc task relevance judgments": "https://trec.nist.gov/data/terabyte/05/05.adhoc_qrels",
+            "2005 Named-page task relevance judgments": "https://trec.nist.gov/data/terabyte/05/05.np_qrels"
+        },
+        "ir_datasets": "https://ir-datasets.com/gov2.html#gov2/trec-tb-2005",
+        "trec_webpage": "https://trec.nist.gov/data/terabyte05.html",
+        "other": {
+            "List of efficiency topic numbers for adhoc topics": "https://trec.nist.gov/data/terabyte/05/05.efficiency-topic-map",
+            "Named-page task evaluation script": "https://trec.nist.gov/data/terabyte/05/nphp-eval.pl"
+        }
+    },
+    "genomics": {
+        "corpus": "https://dmice.ohsu.edu/trec-gen/data/2005/",
+        "topics": "https://trec.nist.gov/data/genomics/05/genomics.qrels.large.txt",
+        "qrels": "https://trec.nist.gov/data/genomics/05/genomics.qrels.large.txt",
+        "ir_datasets": "https://ir-datasets.com/medline.html#medline/2004/trec-genomics-2004",
+        "trec_webpage": "https://trec.nist.gov/data/t14_genomics.html",
+        "other": {
+            "2005 topics and description": "",
+            "Atrain.txt": "https://trec.nist.gov/data/genomics/05/Atrain.txt",
+            "Atest.txt": "https://trec.nist.gov/data/genomics/05/Atest.txt",
+            "Etrain.txt": "https://trec.nist.gov/data/genomics/05/Etrain.txt",
+            "Etest.txt": "https://trec.nist.gov/data/genomics/05/Etest.txt",
+            "Gtrain.txt": "https://trec.nist.gov/data/genomics/05/Gtrain.txt",
+            "Gtest.txt": "https://trec.nist.gov/data/genomics/05/Gtest.txt",
+            "Ttrain.txt": "https://trec.nist.gov/data/genomics/05/Ttrain.txt",
+            "Ttest.txt": "https://trec.nist.gov/data/genomics/05/Ttest.txt",
+            "Training documents": "https://trec.nist.gov/data/genomics/05/train.crosswalk.txt",
+            "Test documents": "https://trec.nist.gov/data/genomics/05/test.crosswalk.txt"
+        }
+    },
+    "HARD": {
+        "corpus": "https://catalog.ldc.upenn.edu/LDC2002T31",
+        "topics": "https://trec.nist.gov/data/hard/05/05.50.topics.txt",
+        "qrels": "https://trec.nist.gov/data/hard/05/TREC2005.qrels.txt",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/t14_hard.html",
+        "other": {}
+    },
+    "qa": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/qa/t2005_qadata.html",
+        "other": {
+            "TREC 2005 QA Guidelines": "https://trec.nist.gov/data/qa/2005_qadata/qa.05.guidelines.html",
+            "2005 QA Main Task: Questions": "https://trec.nist.gov/data/qa/2005_qadata/QA2005_testset.xml",
+            "2005 QA Main Task: Ranked List of Top Docs": "https://trec.nist.gov/data/qa/2005_qadata/05.ranked_list",
+            "2005 QA Document Ranking Task: Questions List": "https://trec.nist.gov/data/qa/2005_qadata/05.docrank.qid",
+            "2005 QA Relationship Task: Topics": "https://trec.nist.gov/data/qa/2005_qadata/05.relationship_topics",
+            "docrank_qrels.txt": "https://trec.nist.gov/data/qa/2005_qadata/05.qrels.docrank.txt",
+            "factoid_judgments.txt": "https://trec.nist.gov/data/qa/2005_qadata/05.factoid.qrels.txt",
+            "list_answers.txt": "https://trec.nist.gov/data/qa/2005_qadata/05.lists.clean.txt",
+            "other_answers.txt": "https://trec.nist.gov/data/qa/2005_qadata/05.nuggets.other.answers.txt",
+            "README.list+other.results": "https://trec.nist.gov/data/qa/2005_qadata/README.list+other.results",
+            "list+other.results.tar.gz": "https://trec.nist.gov/data/qa/2005_qadata/list+other.results.tar.gz",
+            "05.others.autonuggets.txt": "https://trec.nist.gov/data/qa/2005_qadata/05.others.autonuggets.txt",
+            "Relationship Task Nugget List": "https://trec.nist.gov/data/qa/2005_qadata/05.nuggets.list.txt",
+            "README.relate.results": "https://trec.nist.gov/data/qa/2005_qadata/README.relate.results",
+            "relate.results.tar.gz": "https://trec.nist.gov/data/qa/2005_qadata/relate.results.tar.gz",
+            "05.relate.autonuggets.txt": "https://trec.nist.gov/data/qa/2005_qadata/05.relate.autonuggets.txt",
+            "05.target_type.txt": "https://trec.nist.gov/data/qa/2005_qadata/05.target_type.txt"
+        }
+    },
+    "enterprise": {
+        "corpus": "",
+        "topics": {
+            "Email Known-Item Search topics": "https://trec.nist.gov/data/enterprise/05/ent05.known-item.topics",
+            "Email Discussion Search topics": "https://trec.nist.gov/data/enterprise/05/ent05.discussion-search.topics",
+            "Expert Search training topics": "https://trec.nist.gov/data/enterprise/05/ent05.expert.trainingtopics",
+            "Expert Search topics": "https://trec.nist.gov/data/enterprise/05/ent05.expert.topics"
+        },
+        "qrels": {
+            "Email Known-Item Search training qrels": "https://trec.nist.gov/data/enterprise/05/ent05.known-item.training-qrels",
+            "Email Known-Item Search qrels": "https://trec.nist.gov/data/enterprise/05/ent05.known-item.qrels",
+            "Email Discussion Search official qrels": "https://trec.nist.gov/data/enterprise/05/ent05.discussion.official-qrels",
+            "Expert Search training topic qrels": "https://trec.nist.gov/data/enterprise/05/ent05.expert.trainingqrels",
+            "Expert Search qrels": "https://trec.nist.gov/data/enterprise/05/ent05.expert.qrels"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/t14_enterprise.html",
+        "other": {
+            "Expert Search list of candidates": "https://trec.nist.gov/data/enterprise/05/ent05.expert.candidates",
+            "Expert Search task guidelines": "https://trec.nist.gov/data/enterprise/05/ent05.expert.guidelines.final",
+            "Known-item search evaluation script": "https://trec.nist.gov/data/enterprise/05/ki-eval.pl"
+        }
+    },
+    "robust": {
+        "corpus": "https://catalog.ldc.upenn.edu/LDC2002T31",
+        "topics": "https://trec.nist.gov/data/robust/05/05.50.topics.txt",
+        "qrels": "https://trec.nist.gov/data/robust/05/TREC2005.qrels.txt",
+        "ir_datasets": "https://ir-datasets.com/aquaint.html",
+        "trec_webpage": "https://trec.nist.gov/data/t14_robust.html",
+        "other": {
+            "Guidelines": "https://trec.nist.gov/data/robust/05/05.guidelines.html"
+        }
+    }
+}

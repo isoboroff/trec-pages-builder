@@ -1,0 +1,1948 @@
+{
+    "AEHRC": {
+        "pid": "AEHRC",
+        "organization": "Australian e-Health Research Center",
+        "name": "Bevan Koopman",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "AHRQ": {
+        "pid": "AHRQ",
+        "organization": "Agency for Healthcare Research and Quality",
+        "name": "P. Jon White, MD",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "ARSC_UAF": {
+        "pid": "ARSC_UAF",
+        "organization": "University of Alaska Fairbanks",
+        "name": "Greg Newby",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "ASU_BMI": {
+        "pid": "ASU_BMI",
+        "organization": "Arizona State University - Department of Biomedical Informatics",
+        "name": "Graciela Gonzalez",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "BJTU": {
+        "pid": "BJTU",
+        "organization": "Beijing Jiaotong University",
+        "name": "Junsan Zhang",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "BUPT_WILDCAT": {
+        "pid": "BUPT_WILDCAT",
+        "organization": "Beijing University of Posts and Telecommunications (BUPT). P.R.China",
+        "name": "Chuang Zhang",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "Backstop": {
+        "pid": "Backstop",
+        "organization": "Backstop LLP",
+        "name": "Bruce Ellis Fein",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "Beijing": {
+        "pid": "Beijing",
+        "organization": "Data and Information Management Group, Peking University, P.R.China",
+        "name": "Junjie Yao",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "BiTeM": {
+        "pid": "BiTeM",
+        "organization": "Bibliomics and Text Mining Group",
+        "name": "GOBEILL",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "CAAT": {
+        "pid": "CAAT",
+        "organization": "Content Analyst Company",
+        "name": "Rich Turner",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "CARD.UALR": {
+        "pid": "CARD.UALR",
+        "organization": "University of Arkansas at Little Rock",
+        "name": "Xiaowei Xu",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "CIIR": {
+        "pid": "CIIR",
+        "organization": "University of Massachusetts Amherst",
+        "name": "James Allan",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "CLARITY_DCU": {
+        "pid": "CLARITY_DCU",
+        "organization": "CLARITY Centre For Sensor Web Technologies",
+        "name": "James Lanagan",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "CMU.LIRA": {
+        "pid": "CMU.LIRA",
+        "organization": "Carnegie Mellon University",
+        "name": "Jamie Callan",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "CMU_LADS": {
+        "pid": "CMU_LADS",
+        "organization": "Carnegie Mellon University",
+        "name": "Bo Lin",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "COMMIT": {
+        "pid": "COMMIT",
+        "organization": "Team COMMIT",
+        "name": "Maarten de Rijke",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "CSIRO": {
+        "pid": "CSIRO",
+        "organization": "Commonwealth Scientific and Industrial Research Organisation (CSIRO)",
+        "name": "Paul Thomas",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "CTGU_CS_2011": {
+        "pid": "CTGU_CS_2011",
+        "organization": "College of Computer and Information,China Three Gorges University",
+        "name": "Tian Weixin",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "CUBLDStudent": {
+        "pid": "CUBLDStudent",
+        "organization": "University of CO - Boulder",
+        "name": "Daryl Lonnon",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "CWI": {
+        "pid": "CWI",
+        "organization": "Centrum Wiskunde & Informatica",
+        "name": "Arjen P. de Vries",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "CardiffU": {
+        "pid": "CardiffU",
+        "organization": "Cardiff University",
+        "name": "Dr Irena Spasic",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "Cengage": {
+        "pid": "Cengage",
+        "organization": "Cengage Learning",
+        "name": "Ivan Provalov",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "ChemReader": {
+        "pid": "ChemReader",
+        "organization": "The University of Michigan, Ann Arbor",
+        "name": "Kazuhiro Saitou",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "Clearwell10": {
+        "pid": "Clearwell10",
+        "organization": "Clearwell Systems Inc.",
+        "name": "Venkat Rangan",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "DEUCENG": {
+        "pid": "DEUCENG",
+        "organization": "Dokuz Eylul University, Department of Computer Engineering",
+        "name": "Adil Alpkocak",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "DLDE": {
+        "pid": "DLDE",
+        "organization": "Beijing Institute of Technology",
+        "name": "ChunXia Zhang",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "DMIRTREC": {
+        "pid": "DMIRTREC",
+        "organization": "Data Management and IR group - Instituto Superior T\u00e9cnico / INESC-ID",
+        "name": "Bruno Emanuel Martins",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "DUTCHHATTRICK": {
+        "pid": "DUTCHHATTRICK",
+        "organization": "U. Amsterdam, U. Twente, Erasmus U. Medical Center",
+        "name": "Martijn Schuemie",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "DUTH": {
+        "pid": "DUTH",
+        "organization": "Democritus University of Thrace",
+        "name": "Avi Arampatzis",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "DUTIR": {
+        "pid": "DUTIR",
+        "organization": "Information Retrieval Laboratory of Dalian University of Technology",
+        "name": "Zhihao Yang",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "DiscoverReady": {
+        "pid": "DiscoverReady",
+        "organization": "*DROPOUT-2/24/11*DiscoverReady LLC",
+        "name": "David Shub",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "EBAYSS": {
+        "pid": "EBAYSS",
+        "organization": "Search Science Group, eBay, Inc.",
+        "name": "Sunil Mohan",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "ENSM.SE": {
+        "pid": "ENSM.SE",
+        "organization": "Ecole des Mines de Saint-Etienne",
+        "name": "Michel Beigbeder",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "Elly": {
+        "pid": "Elly",
+        "organization": "Queensland University of Technology",
+        "name": "Huizhi Liang",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "FASILKOMUI": {
+        "pid": "FASILKOMUI",
+        "organization": "University of Indonesia",
+        "name": "Mirna Adriani",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "FDUMED": {
+        "pid": "FDUMED",
+        "organization": "Computer Science School, Fudan University",
+        "name": "Bingqing Wang",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "FEUP": {
+        "pid": "FEUP",
+        "organization": "Faculdade de Engenharia da Universidade do Porto",
+        "name": "S\u00e9rgio Nunes",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "FITLABSWANSEA": {
+        "pid": "FITLABSWANSEA",
+        "organization": "Swansea University",
+        "name": "Max L. Wilson",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "FUB": {
+        "pid": "FUB",
+        "organization": "FUB-Iasi-Univaq",
+        "name": "Giambattista Amati",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "FordhamCIS": {
+        "pid": "FordhamCIS",
+        "organization": "**DROPOUT-7-14-11**Fordham University",
+        "name": "Elena Filatova",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "GGA": {
+        "pid": "GGA",
+        "organization": "GGA Software Services LLC",
+        "name": "Dmitry Sigaev",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "GKgroup": {
+        "pid": "GKgroup",
+        "organization": "University of Minnesota, Twin Cities",
+        "name": "Xia Ning",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "GPLSI_UA_MBT": {
+        "pid": "GPLSI_UA_MBT",
+        "organization": "University of Alicante",
+        "name": "David Tom\u00e1s",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "GUCAS": {
+        "pid": "GUCAS",
+        "organization": "Graduate University of Chinese Academy of Sciences",
+        "name": "Ben He",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "GeAnn": {
+        "pid": "GeAnn",
+        "organization": "Delft University of Technology / The University of Iowa",
+        "name": "Carsten Eickhoff",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "HIEB": {
+        "pid": "HIEB",
+        "organization": "The Higher institute of Electronics",
+        "name": "Rahman Mukras",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "HITRL": {
+        "pid": "HITRL",
+        "organization": "the University of Sydney",
+        "name": "Ying Ou",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "HITWI": {
+        "pid": "HITWI",
+        "organization": "Web Intelligence Lab of Harbin Institute of Techonology ",
+        "name": "Web Intelligence Lab",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "HIT_LTRC": {
+        "pid": "HIT_LTRC",
+        "organization": "Language Technology Research Center of Harbin Institute of Technology",
+        "name": "Language Technology Research Center",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "HKUST": {
+        "pid": "HKUST",
+        "organization": "Hong Kong Unviersity of Science and Technology",
+        "name": "Nathan Liu",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "HUWBI": {
+        "pid": "HUWBI",
+        "organization": "Humboldt-Universit\u00e4t zu Berlin, Knowledge Management in Bioinformatics",
+        "name": "Tim Rockt\u00e4schel",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "Hydralisk": {
+        "pid": "Hydralisk",
+        "organization": "National University of Defense Technology Information Retrieval Group",
+        "name": "NUDT IR Group",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "IASI": {
+        "pid": "IASI",
+        "organization": "IASI-CNR",
+        "name": "Giorgio Gambosi",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "IBM_Haifa": {
+        "pid": "IBM_Haifa",
+        "organization": "IBM Research - Haifa Lab",
+        "name": "David Carmel",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "ICSTPKU": {
+        "pid": "ICSTPKU",
+        "organization": "Institute of Computer Science and Technology of Peking University",
+        "name": "Jiang Yichen",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "ICTIR": {
+        "pid": "ICTIR",
+        "organization": "IR group Institute of Computing Technology Chinese Academy of Sciences",
+        "name": "IR Group of CASICT",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "ICTNET": {
+        "pid": "ICTNET",
+        "organization": "Institute of Computing Technology,Chinese Academy of Sciences",
+        "name": "Liu Yue",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "IIITD": {
+        "pid": "IIITD",
+        "organization": "Indraprastha Institute of Information Technology, Delhi",
+        "name": "Denzil Correa",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "IIRG": {
+        "pid": "IIRG",
+        "organization": "University College Dublin",
+        "name": "Lorna Byrne",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "IITB": {
+        "pid": "IITB",
+        "organization": "Indian Institute of Technology Bombay",
+        "name": "Ganesh Ramakrishnan",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "IITB_crwdsrc": {
+        "pid": "IITB_crwdsrc",
+        "organization": "IIT Bombay",
+        "name": "Ganesh Ramakrishnan",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "IITD": {
+        "pid": "IITD",
+        "organization": "Indian Institute of Technology, Delhi",
+        "name": "Maya Ramanath",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "ILS_UAlbany": {
+        "pid": "ILS_UAlbany",
+        "organization": "The Institute for Informatics, Logics and Security Studies, UAlbany",
+        "name": "Ting Liu",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "INRIA": {
+        "pid": "INRIA",
+        "organization": "INRIA-HUB-IDSL",
+        "name": "Patrice Lopez",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "IRISICAL": {
+        "pid": "IRISICAL",
+        "organization": "INDIAN STATISTICAL INSTITUTE, KOLKATA",
+        "name": "Kripabandhu Ghosh",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "IRIT": {
+        "pid": "IRIT",
+        "organization": "Institute for Research in Informatics of Toulouse",
+        "name": "IRIT",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "IRIT_SIG": {
+        "pid": "IRIT_SIG",
+        "organization": "Institut de Recherche en Informatique de Toulouse",
+        "name": "Boughanem Mohand",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "IRRA": {
+        "pid": "IRRA",
+        "organization": "Mugla University",
+        "name": "Bekir Taner Dincer",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "IRSI": {
+        "pid": "IRSI",
+        "organization": "Indian Statistical Institute Kolkata",
+        "name": "Ayan Bandyopadhyay",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "ISSEL": {
+        "pid": "ISSEL",
+        "organization": "Intelligent Systems and Software Engineering Labgroup",
+        "name": "Konstantinos Vavliakis",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "IWUJKATOFU": {
+        "pid": "IWUJKATOFU",
+        "organization": "Austrian Team%3A JKU Linz, OFAI Vienna, TU Vienna",
+        "name": "Markus Schedl",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "JU_CSE_TREC": {
+        "pid": "JU_CSE_TREC",
+        "organization": "Jadavpur University",
+        "name": "Partha Pakray",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "KAIST_ONE": {
+        "pid": "KAIST_ONE",
+        "organization": "Korean Advanced Institute of Science and Technology (KAIST)",
+        "name": "Hendra Bunyamin",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "KAUST": {
+        "pid": "KAUST",
+        "organization": "King Abdullah University of Science and Technology",
+        "name": "Tamer Elsayed",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "KUNLP": {
+        "pid": "KUNLP",
+        "organization": "Korea University, Natural Language Processing Laboratory",
+        "name": "KUNLP",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "KanopeReunion": {
+        "pid": "KanopeReunion",
+        "organization": "Kanope Software",
+        "name": "Yann Vigile Hoareau",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "KobeU": {
+        "pid": "KobeU",
+        "organization": "Kobe University",
+        "name": "Kazuhiro Seki",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "L3S": {
+        "pid": "L3S",
+        "organization": "L3S Research Center",
+        "name": "Ernesto Diaz-Aviles",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "LHC": {
+        "pid": "LHC",
+        "organization": "US National Library of Medicine",
+        "name": "Alan R Aronson",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "LIA": {
+        "pid": "LIA",
+        "organization": "Laboratoire d'informatique d'Avignon",
+        "name": "Eric SANJUAN",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "LaHC": {
+        "pid": "LaHC",
+        "organization": "Laboratoire Hubert Curien - Universit\u00e9 de Lyon",
+        "name": "Mathias GERY",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "LingPipe": {
+        "pid": "LingPipe",
+        "organization": "Alias-i, Inc",
+        "name": "Bob Carpenter",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "MERCKKGAA": {
+        "pid": "MERCKKGAA",
+        "organization": "Merck KGaA",
+        "name": "Luca Toldo",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "MIPT_CCAS": {
+        "pid": "MIPT_CCAS",
+        "organization": "Moscow institute of Physics and Technology, CCAS",
+        "name": "Alexander Frey",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "MMCI": {
+        "pid": "MMCI",
+        "organization": "Cluster of Excellence \"Multimodal Computing and Interaction\" (MMCI) ",
+        "name": "Andreas Broschart",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "MML": {
+        "pid": "MML",
+        "organization": "Universit\u00e9 Fran\u00e7oise Rabelais de Tours France",
+        "name": "Muhammad Muzzamil Luqman",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "MSOE": {
+        "pid": "MSOE",
+        "organization": "Milwaukee School of Engineering",
+        "name": "Jay F Urbain",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "MSRA_NLC": {
+        "pid": "MSRA_NLC",
+        "organization": "Microsoft Research Asia",
+        "name": "Furu Wei",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "MSRC": {
+        "pid": "MSRC",
+        "organization": "Microsoft Research Cambridge",
+        "name": "Emine Yilmaz",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "MSRCambridge": {
+        "pid": "MSRCambridge",
+        "organization": "Microsoft Research",
+        "name": "Gabriella Kazai",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "MS_ASs": {
+        "pid": "MS_ASs",
+        "organization": "artificial solutions",
+        "name": "Marina Santini",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "MailMeter": {
+        "pid": "MailMeter",
+        "organization": "Waterford Technologies",
+        "name": "Ron Gutfinger",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "MayoClinicNLP": {
+        "pid": "MayoClinicNLP",
+        "organization": "Mayo Clinic",
+        "name": "Stephen Wu",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "MedicalMiner": {
+        "pid": "MedicalMiner",
+        "organization": "Universities of Huelva, Europea de Madrid and Vigo",
+        "name": " Manuel J. Ma\u00f1a L\u00f3pez",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "MiPACQ": {
+        "pid": "MiPACQ",
+        "organization": "Collaboration%3A CU Boulder, Mayo Clinic, Harvard Medical School",
+        "name": "Rodney Nielsen",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "Michigan": {
+        "pid": "Michigan",
+        "organization": "University of Michigan",
+        "name": "Qiaozhu Mei",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "Morpheus": {
+        "pid": "Morpheus",
+        "organization": "University of Florida Morpheus Group",
+        "name": "Joseph N. Wilson",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "NEMIS_ISTI_CNR": {
+        "pid": "NEMIS_ISTI_CNR",
+        "organization": "ISTI-CNR, NeMIS lab",
+        "name": "Andrea Esuli",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "NEU": {
+        "pid": "NEU",
+        "organization": "Northeastern University",
+        "name": "Virgil Pavlu",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "NICTA_BioTALA": {
+        "pid": "NICTA_BioTALA",
+        "organization": "NICTA - National ICT Australia",
+        "name": "Lawrence Cavedon",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "NIRAJIIITH": {
+        "pid": "NIRAJIIITH",
+        "organization": "CSTAR-Lab; IIIT-Hyderabad",
+        "name": "Niraj Kumar",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "NLM": {
+        "pid": "NLM",
+        "organization": "Lister Hill National Center for Biomedical Communications, NLM/NIH/HHS",
+        "name": "Mehmet Kayaalp",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "NLPLDLUT": {
+        "pid": "NLPLDLUT",
+        "organization": "Natural Language Processing Laboratory,Dalian University of Technology",
+        "name": "Huiwei Zhou",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "NLPR_TREC": {
+        "pid": "NLPR_TREC",
+        "organization": "Institute of Automation, Chinese Academy of Sciences",
+        "name": "Tao Zhang",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "NRC_IIT": {
+        "pid": "NRC_IIT",
+        "organization": "National Research Council Canada, Institute for Information Technology",
+        "name": "Berry de Bruijn",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "NTNU": {
+        "pid": "NTNU",
+        "organization": "Norwegian University of Science and Technology",
+        "name": "Kjetil Norvag",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "NUSIS": {
+        "pid": "NUSIS",
+        "organization": "Department of Information Systems, National University of Singapore",
+        "name": "FANG FANG",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "OHSU": {
+        "pid": "OHSU",
+        "organization": "Oregon Health & Science University",
+        "name": "William Hersh",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "One": {
+        "pid": "One",
+        "organization": "Philips Research Europe",
+        "name": "Zharko Aleksovski",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "Otago": {
+        "pid": "Otago",
+        "organization": "University of OTago",
+        "name": "Andrew Trotman",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "PITTSIS": {
+        "pid": "PITTSIS",
+        "organization": "School of Information Sciences, University of Pittsburgh",
+        "name": "JIEPU JIANG",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "PKU_ICST": {
+        "pid": "PKU_ICST",
+        "organization": "Peking University",
+        "name": "Peking University",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "PNNL": {
+        "pid": "PNNL",
+        "organization": "Pacific Northwest National Laboratory",
+        "name": "Liam McGrath",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "POSTECH_KLE": {
+        "pid": "POSTECH_KLE",
+        "organization": "KLE, Pohang University of Science and Technology ",
+        "name": "Yeha Lee",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "PRIS": {
+        "pid": "PRIS",
+        "organization": "Beijing University of Posts and Telecommunications",
+        "name": "BUPT",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "PRJC": {
+        "pid": "PRJC",
+        "organization": "JJJ",
+        "name": "Jannette Cabardo",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "PennState": {
+        "pid": "PennState",
+        "organization": "The Pennsylvania State University",
+        "name": "Sumit Bhatia",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "PolyCom": {
+        "pid": "PolyCom",
+        "organization": "Department of Computing, The Hong Kong Polytechnic University",
+        "name": "Wenjie Li",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "PolyU": {
+        "pid": "PolyU",
+        "organization": "Department of Computing, The Hong Kong Polytechnic University",
+        "name": "Wenjie Li",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "ProSearch": {
+        "pid": "ProSearch",
+        "organization": "ProSearch Strategies Inc",
+        "name": "Dan Kinney",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "PurdueRVL": {
+        "pid": "PurdueRVL",
+        "organization": "Purdue University",
+        "name": "Shivani Rao",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "Purdue_IR": {
+        "pid": "Purdue_IR",
+        "organization": "Purdue University",
+        "name": "Luo Si",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "QCRI": {
+        "pid": "QCRI",
+        "organization": "Qatar Computing Research Institute",
+        "name": "Kareem Darwish",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "QIAU": {
+        "pid": "QIAU",
+        "organization": "Qazvin Islamic Azad University (QIAU)",
+        "name": "Amir Hossein Jadidinejad",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "QUT1": {
+        "pid": "QUT1",
+        "organization": "Queensland University of Technology",
+        "name": "Cher Han Lau",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "QUT": {
+        "pid": "QUT",
+        "organization": "Queensland University of Technology",
+        "name": "Cher Han Lau",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "QUT_IR": {
+        "pid": "QUT_IR",
+        "organization": "Queensland University of Technology",
+        "name": "Timothy Chappell",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "QUT_WIDM": {
+        "pid": "QUT_WIDM",
+        "organization": "Queensland University of Technology",
+        "name": "Yuefeng Li",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "RGU_AutoAdapt": {
+        "pid": "RGU_AutoAdapt",
+        "organization": "The Robert Gordon University",
+        "name": "Ibrahim Adeyanju",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "RMIT": {
+        "pid": "RMIT",
+        "organization": "RMIT University",
+        "name": "Falk Scholer",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "Reaction": {
+        "pid": "Reaction",
+        "organization": "University of Lisbon (Faculty of Sciences, LaSIGE research unit)",
+        "name": "M\u00e1rio J. Silva",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "Recommind": {
+        "pid": "Recommind",
+        "organization": "Recommind",
+        "name": "Howard Sklar",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "SAIC_Frederick": {
+        "pid": "SAIC_Frederick",
+        "organization": "SAIC-Frederick, Inc.",
+        "name": "Igor Filippov",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "SCI_TREC_2011": {
+        "pid": "SCI_TREC_2011",
+        "organization": "School of Communication & Information, Rutgers University",
+        "name": "Nicholas Belkin",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "SEEM": {
+        "pid": "SEEM",
+        "organization": "**DROPOUT-7-7-11**Seemla",
+        "name": "Cesar de Pablo S\u00e1nchez",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "SEEM_CUHK": {
+        "pid": "SEEM_CUHK",
+        "organization": "The Chinese University of Hong Kong",
+        "name": "Wei Zhongyu",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "SIEL_IIITH": {
+        "pid": "SIEL_IIITH",
+        "organization": "International Institute of Information Technology, Hyderabad India",
+        "name": "Ajay Dubey",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "SIFTUCD": {
+        "pid": "SIFTUCD",
+        "organization": "Segmented Information Fusion Techniques of University College Dublin",
+        "name": "Zhang Lusheng",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "SLT11": {
+        "pid": "SLT11",
+        "organization": "Servient, inc.",
+        "name": "Ian Wilson",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "SMILE_ES": {
+        "pid": "SMILE_ES",
+        "organization": "University of Castilla La Mancha",
+        "name": "Francisco P. Romero",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "SMRFoundation": {
+        "pid": "SMRFoundation",
+        "organization": "Social Media Network Research",
+        "name": "Marc A. Smith",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "SienaCLTeam": {
+        "pid": "SienaCLTeam",
+        "organization": "Siena College",
+        "name": "Shaorn G Small",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "Siena_CL_Team": {
+        "pid": "Siena_CL_Team",
+        "organization": "Siena College",
+        "name": "Sharon G Small",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "SmithCCB": {
+        "pid": "SmithCCB",
+        "organization": "University of Maryland's Center for Complexity in Business",
+        "name": "William Rand",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "Syracuse": {
+        "pid": "Syracuse",
+        "organization": "School of Information Studies, Syracuse University",
+        "name": "Howard Turtle",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "TCDI": {
+        "pid": "TCDI",
+        "organization": "TCDI",
+        "name": "Cody Bennett",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "THUIR": {
+        "pid": "THUIR",
+        "organization": "Tsinghua University (IR group)",
+        "name": "Min Zhang",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "TUD": {
+        "pid": "TUD",
+        "organization": "Technische Universit\u00e4t Dresden",
+        "name": "Klemens Muthmann",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "TUD_DMIR": {
+        "pid": "TUD_DMIR",
+        "organization": "Delft University of Technology",
+        "name": "Arjen P. de Vries",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "Tarragon2011": {
+        "pid": "Tarragon2011",
+        "organization": "Tarragon Consulting Corporation",
+        "name": "Richard Tong",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "TongKey": {
+        "pid": "TongKey",
+        "organization": "Shanghai TongKey Network Technology Co., Ltd",
+        "name": "TongKy",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "TopSig": {
+        "pid": "TopSig",
+        "organization": "Queensland University of Technology",
+        "name": "Shlomo Geva",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UAB_NLP_BMI": {
+        "pid": "UAB_NLP_BMI",
+        "organization": "University of Alabama at Birmingham CCTS BMI and NLP Lab Group",
+        "name": "John Osborne",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UAB_NLP_Group": {
+        "pid": "UAB_NLP_Group",
+        "organization": "The University of Alabama at Birmingham ",
+        "name": "Thamar Solorio",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UAmsterdam": {
+        "pid": "UAmsterdam",
+        "organization": "University of Amsterdam (Kamps)",
+        "name": "Jaap Kamps",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UCDSIFT": {
+        "pid": "UCDSIFT",
+        "organization": "SIFT Project",
+        "name": "David Leonard",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UCD_CSI": {
+        "pid": "UCD_CSI",
+        "organization": "School of Computer Science and Informatics, University College Dublin",
+        "name": "Mr. James Cogley",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UCSC": {
+        "pid": "UCSC",
+        "organization": "University of California Santa Cruz",
+        "name": "Yi Zhang",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UCSCTIM": {
+        "pid": "UCSCTIM",
+        "organization": "Univ. of California Santa Cruz,  Tech.&Info. Systems Management dept.",
+        "name": "Mohan Bollapragada",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UCSOM_BTMG": {
+        "pid": "UCSOM_BTMG",
+        "organization": "Biomedical Text Mining Group, U. Colorado School of Medicine",
+        "name": "Kevin Bretonnel Cohen",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UGLA_D": {
+        "pid": "UGLA_D",
+        "organization": "University of Glasgow",
+        "name": "Iraklis Klampanos",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UGlasgow": {
+        "pid": "UGlasgow",
+        "organization": "University of Glasgow",
+        "name": "Ingo Frommholz",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UICIR": {
+        "pid": "UICIR",
+        "organization": "University of Illinois at Chicago",
+        "name": "Lifeng Jia",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UI_ICTS": {
+        "pid": "UI_ICTS",
+        "organization": "Institute from Clinical and Translational Science, U. of Iowa",
+        "name": "David Eichmann",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UIowaS": {
+        "pid": "UIowaS",
+        "organization": "The University of Iowa",
+        "name": "Padmini Srinivasan",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "ULugano": {
+        "pid": "ULugano",
+        "organization": "University of Lugano",
+        "name": "Giacomo Inches",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UMD": {
+        "pid": "UMD",
+        "organization": "UMD",
+        "name": "Jimmy Lin",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UMINHO": {
+        "pid": "UMINHO",
+        "organization": "Universidade do Minho",
+        "name": "Joaquim Macedo",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UMSPHSIMED": {
+        "pid": "UMSPHSIMED",
+        "organization": "The University of Michigan",
+        "name": "Qiaozhu Mei / Kai Zheng",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UNIVAQ": {
+        "pid": "UNIVAQ",
+        "organization": "University of L'Aquila",
+        "name": "Michele Flammini",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UNTCOI": {
+        "pid": "UNTCOI",
+        "organization": "University of North Texas",
+        "name": "Miguel Ruiz",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UPD": {
+        "pid": "UPD",
+        "organization": "University of Padova",
+        "name": "Emanuele Di Buccio",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UPorto": {
+        "pid": "UPorto",
+        "organization": "Universidade do Porto",
+        "name": "Gustavo Laboreiro",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "URSINUS": {
+        "pid": "URSINUS",
+        "organization": "Ursinus College",
+        "name": "April Kontostathis",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "USFD": {
+        "pid": "USFD",
+        "organization": "University of Sheffield",
+        "name": "Evangelos Kanoulas",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "USF_ISDS": {
+        "pid": "USF_ISDS",
+        "organization": "University of South Florida",
+        "name": "Harvey Hyman",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UT": {
+        "pid": "UT",
+        "organization": "University of Twente",
+        "name": "Mena B. Habib",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UTAustin": {
+        "pid": "UTAustin",
+        "organization": "University of Texas at Austin",
+        "name": "Matt Lease",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UTD_HLT": {
+        "pid": "UTD_HLT",
+        "organization": "University of Texas at Dallas",
+        "name": "bryan@hlt.utdallas.edu",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UTKAL_UNIV": {
+        "pid": "UTKAL_UNIV",
+        "organization": "UTKAL UNIVERSITY",
+        "name": "SOHAG SUNDAR NANDA",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UWS_SCM": {
+        "pid": "UWS_SCM",
+        "organization": "University of Western Sydney",
+        "name": "Laurence Park",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UWaterlooEng": {
+        "pid": "UWaterlooEng",
+        "organization": "University of Waterloo",
+        "name": "Olga Vechtomova",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UWaterlooMDS": {
+        "pid": "UWaterlooMDS",
+        "organization": "University of Waterloo",
+        "name": "Mark Smucker",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "Ucsc": {
+        "pid": "Ucsc",
+        "organization": "University of California Santa Cruz",
+        "name": "Yi Zhang",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "Udel_Fang": {
+        "pid": "Udel_Fang",
+        "organization": "University of Delaware",
+        "name": "Hui Fang",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UniMelbLT": {
+        "pid": "UniMelbLT",
+        "organization": "University of Melbourne",
+        "name": "Timothy Baldwin",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UniOviSPAIN": {
+        "pid": "UniOviSPAIN",
+        "organization": "University of Oviedo",
+        "name": "Daniel Gayo-Avello",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UniPi": {
+        "pid": "UniPi",
+        "organization": "Universit\u00e0 di Pisa",
+        "name": "Giuseppe Attardi",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UoB": {
+        "pid": "UoB",
+        "organization": "University of Birmingham, UK",
+        "name": "Noureddin Sadawi",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UoU": {
+        "pid": "UoU",
+        "organization": "School of Computing, University of Utah",
+        "name": "Youngjun Kim",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UoW": {
+        "pid": "UoW",
+        "organization": "University of Wolverhampton",
+        "name": "Georgios Paltoglou",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "UvA": {
+        "pid": "UvA",
+        "organization": "University of Amsterdam",
+        "name": "Maarten de Rijke",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "Vitalie_Scurtu": {
+        "pid": "Vitalie_Scurtu",
+        "organization": "R.G.B. Banzai Group",
+        "name": "Vitalie Scurtu",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "WDS_UWT": {
+        "pid": "WDS_UWT",
+        "organization": "Web & Data Science Lab, Institute of Technology, UWT",
+        "name": "Ashish Bindra",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "WEbTlab": {
+        "pid": "WEbTlab",
+        "organization": "Carlos III University",
+        "name": "M. Luz Congosto",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "WMMKS": {
+        "pid": "WMMKS",
+        "organization": "National Cheng Kung University",
+        "name": "Chia-Ming, Tung",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "WUME": {
+        "pid": "WUME",
+        "organization": "Lehigh University Computer Science and Engineering",
+        "name": "Brian Davison",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "WeST": {
+        "pid": "WeST",
+        "organization": "University of Koblenz-Ldndau",
+        "name": "Nasir Naveed",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "WebinforCisPku": {
+        "pid": "WebinforCisPku",
+        "organization": "Department of Machine Intelligence, Peking University",
+        "name": "Shan Jiang",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "Webis": {
+        "pid": "Webis",
+        "organization": "Web Technology & Information Systems at Bauhaus University Weimar",
+        "name": "Matthias Hagen",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "YAHOO": {
+        "pid": "YAHOO",
+        "organization": "Yahoo! Labs",
+        "name": "Fernando Diaz",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "Zealot": {
+        "pid": "Zealot",
+        "organization": "National University of Defense Technology Information Retrieval Group",
+        "name": "NUDT IR Group",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "abkawale": {
+        "pid": "abkawale",
+        "organization": "Abhay Kawale",
+        "name": "Abhay Kawale",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "apex": {
+        "pid": "apex",
+        "organization": "Apex Data&Knowledge Management Lab, Shang Hai Jiao Tong University",
+        "name": "SJTU Apex Lab",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "bminfo": {
+        "pid": "bminfo",
+        "organization": "University of Wisconsin, Milwaukee",
+        "name": "bminfo",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "budapest_acad": {
+        "pid": "budapest_acad",
+        "organization": "Institue for Computer Science and Control, Hungarian Academy of Sci",
+        "name": "Andras A. Benczur",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "cardiff": {
+        "pid": "cardiff",
+        "organization": "Cardiff University",
+        "name": "Dr Irena Spasic",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "chemoCR": {
+        "pid": "chemoCR",
+        "organization": "Fraunhofer-Institute for Algorithms and Scientific Computing (SCAI)",
+        "name": "Dr. Marc Zimmermann",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "csidm": {
+        "pid": "csidm",
+        "organization": "The China-Singapore Institute of Digital Media",
+        "name": "tianmomoan",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "cube": {
+        "pid": "cube",
+        "organization": "National Institute of Technology",
+        "name": "Janet Barnabas",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "cubwan": {
+        "pid": "cubwan",
+        "organization": "Weikang Wan",
+        "name": "Weikang Wan",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "cutextmine": {
+        "pid": "cutextmine",
+        "organization": "The Chinese University of Hong Kong",
+        "name": "Wai Lam",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "dartmouth": {
+        "pid": "dartmouth",
+        "organization": "Dartmouth College",
+        "name": "Paul Thompson",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "dblab": {
+        "pid": "dblab",
+        "organization": "Database Lab, Peking University",
+        "name": "zonglang",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "deri": {
+        "pid": "deri",
+        "organization": "Digital Enterprise Research Institute",
+        "name": "Orla Roche",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "digitpa": {
+        "pid": "digitpa",
+        "organization": "DigitPA",
+        "name": "Mauro Draoli",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "dioileh": {
+        "pid": "dioileh",
+        "organization": "Helioid",
+        "name": "Peter Lubell-Doughtie",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "dx415": {
+        "pid": "dx415",
+        "organization": "Tongji University",
+        "name": "Di Lu",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "eBaySMetrics": {
+        "pid": "eBaySMetrics",
+        "organization": "eBay Search Science",
+        "name": "Wei (Wilson) Pang",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "elly": {
+        "pid": "elly",
+        "organization": "Queensland University of Technology",
+        "name": "Huizhi Liang",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "emc": {
+        "pid": "emc",
+        "organization": "Erasmus Medical Center",
+        "name": "Zubair Afzal",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "essexuni": {
+        "pid": "essexuni",
+        "organization": "University of Essex",
+        "name": "M-Dyaa Albakour",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "fraunhofer.scai": {
+        "pid": "fraunhofer.scai",
+        "organization": "Fraunhofer SCAI",
+        "name": "Harsha Gurulingappa",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "gap": {
+        "pid": "gap",
+        "organization": "Vrije Universiteit",
+        "name": "Krystyna Milian",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "gegrc": {
+        "pid": "gegrc",
+        "organization": "GE Global Research",
+        "name": "Steven Gustafson",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "gslisUIUC": {
+        "pid": "gslisUIUC",
+        "organization": "School of Library and Information Science, University of Illinois",
+        "name": "Miles Efron",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "ikm101": {
+        "pid": "ikm101",
+        "organization": "NCKU-CSIE-IKMLAB",
+        "name": "NCKU-IKM",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "inoid": {
+        "pid": "inoid",
+        "organization": "INOID",
+        "name": "Dionis",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "irlabwhu2011": {
+        "pid": "irlabwhu2011",
+        "organization": "Center for Studies of Information Resources, Wuhan University,China",
+        "name": "Lu Wei",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "isi": {
+        "pid": "isi",
+        "organization": "University of Southern California / Information Sciences Institute",
+        "name": "Donald Metzler",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "izenesoft": {
+        "pid": "izenesoft",
+        "organization": "iZENEsoft Inc",
+        "name": "Yingfeng Zhang",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "knowcenter": {
+        "pid": "knowcenter",
+        "organization": "Know-Center Graz",
+        "name": "Elisabeth Lex",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "lexiclone": {
+        "pid": "lexiclone",
+        "organization": "LexiClone Inc.",
+        "name": "Ilya Geller",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "linqs": {
+        "pid": "linqs",
+        "organization": "LINQs research group - UMD",
+        "name": "Hossam Sharara",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "microBlogUCD": {
+        "pid": "microBlogUCD",
+        "organization": "School of Computer Science and Informatics, University College Dublin",
+        "name": "Dr Martina Naughton",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "mobide": {
+        "pid": "mobide",
+        "organization": "Korea University",
+        "name": "Md Hijbul Alam",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "monash": {
+        "pid": "monash",
+        "organization": "Monash University",
+        "name": "Mark Carman",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "msrsv": {
+        "pid": "msrsv",
+        "organization": "Microsoft Research",
+        "name": "Dennis Fetterly",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "netcerto": {
+        "pid": "netcerto",
+        "organization": "NetCerto, Inc.",
+        "name": "David Kovar",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "njitmingzhu": {
+        "pid": "njitmingzhu",
+        "organization": "New Jersey Institute of Technology",
+        "name": "Mingzhu Zhu",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "oakShef": {
+        "pid": "oakShef",
+        "organization": "University of Sheffield",
+        "name": "Anna Lisa Gentile",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "ot": {
+        "pid": "ot",
+        "organization": "OpenText",
+        "name": "Stephen Tomlinson",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "qirdcsuog": {
+        "pid": "qirdcsuog",
+        "organization": "University of Glasgow",
+        "name": "Guido Zuccon",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "ruc11": {
+        "pid": "ruc11",
+        "organization": "Renmin University of China",
+        "name": "Yueguo Chen",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "ruc": {
+        "pid": "ruc",
+        "organization": "Renmin University of China",
+        "name": "Data Search Lab",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "sabir": {
+        "pid": "sabir",
+        "organization": "Sabir Research",
+        "name": "Chris Buckley",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "scbit": {
+        "pid": "scbit",
+        "organization": "Shanghai Center for Bioinformation Technology",
+        "name": "Zuofeng Li",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "self": {
+        "pid": "self",
+        "organization": "self",
+        "name": "Mohan",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "semanticweb": {
+        "pid": "semanticweb",
+        "organization": "Renmin University of China",
+        "name": "He Hu",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "sheffield": {
+        "pid": "sheffield",
+        "organization": "University of Sheffield",
+        "name": "Judita Preiss",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "shwetapuneet": {
+        "pid": "shwetapuneet",
+        "organization": "ICFAI Business School",
+        "name": "IBS",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "sjonnal3": {
+        "pid": "sjonnal3",
+        "organization": "Independent",
+        "name": "Siddhartha Jonnalagadda",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "softLabTrec": {
+        "pid": "softLabTrec",
+        "organization": "Virginia Tech",
+        "name": "Sheng Guo",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "srchvrs": {
+        "pid": "srchvrs",
+        "organization": "srchvrs",
+        "name": "Leonid Boytsov",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "syles": {
+        "pid": "syles",
+        "organization": "Syllabs & LIMSI-CNRS",
+        "name": "Cl\u00e9ment de Groc",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "tamu_infolab": {
+        "pid": "tamu_infolab",
+        "organization": "Infolab at Texas A&M University",
+        "name": "Infolab-TAMU",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "thunlp": {
+        "pid": "thunlp",
+        "organization": "Tsinghua University",
+        "name": "Zhiyuan Liu",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "uc3m": {
+        "pid": "uc3m",
+        "organization": "University Carlos III of Madrid",
+        "name": "Juli\u00e1n Urbano",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "uclmedia": {
+        "pid": "uclmedia",
+        "organization": "University College London",
+        "name": "Jagadeesh Gorla",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "udel": {
+        "pid": "udel",
+        "organization": "University of Delaware",
+        "name": "Ben Carterette",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "uiuc": {
+        "pid": "uiuc",
+        "organization": "Semantic Frontiers @ UIUC",
+        "name": "David Lundgren",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "umichsi": {
+        "pid": "umichsi",
+        "organization": "University of Michigan",
+        "name": "Eytan Adar",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "unimelb": {
+        "pid": "unimelb",
+        "organization": "The University of Melbourne",
+        "name": "Anh Vo",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "unimelb_plus": {
+        "pid": "unimelb_plus",
+        "organization": "University of Melbourne",
+        "name": "William Webber",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "uogTr": {
+        "pid": "uogTr",
+        "organization": "University of Glasgow  (Terrier Team)",
+        "name": "Iadh Ounis",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "uottawa": {
+        "pid": "uottawa",
+        "organization": "University of Ottawa",
+        "name": "Diana Inkpen",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "ustrath": {
+        "pid": "ustrath",
+        "organization": "University of Strathclyde",
+        "name": "Ian Ruthven",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "utaustin": {
+        "pid": "utaustin",
+        "organization": "University of Texas at Austin",
+        "name": "Matt Lease",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "utwente": {
+        "pid": "utwente",
+        "organization": "University of Twente",
+        "name": "Djoerd Hiemstra",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "vjcbb": {
+        "pid": "vjcbb",
+        "organization": "Yale University",
+        "name": "Vijay Garla",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "w": {
+        "pid": "w",
+        "organization": "KONGU ENGINEERING COLLEGE",
+        "name": "THANGAMAINI",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "waterloo": {
+        "pid": "waterloo",
+        "organization": "University of Waterloo",
+        "name": "Gordon V. Cormack",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "websci_iba": {
+        "pid": "websci_iba",
+        "organization": "Institute of Business Administration",
+        "name": "Arjumand Younus",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "wis_tudelft": {
+        "pid": "wis_tudelft",
+        "organization": "Web Information Systems, Delft University of Technology",
+        "name": "Fabian Abel",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "xmuPRC": {
+        "pid": "xmuPRC",
+        "organization": "Xiamen University",
+        "name": "chen LIN",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "xsongx": {
+        "pid": "xsongx",
+        "organization": "National University of Defense Technology",
+        "name": "XieSongxian",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "yandex": {
+        "pid": "yandex",
+        "organization": "Yandex LLC",
+        "name": "pavser@yandex-team.ru",
+        "trec": "trec20",
+        "year": 2011
+    },
+    "york": {
+        "pid": "york",
+        "organization": "York University ",
+        "name": "Jimmy Huang",
+        "trec": "trec20",
+        "year": 2011
+    }
+}

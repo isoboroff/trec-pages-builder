@@ -1,0 +1,107 @@
+{
+    "adhoc": {
+        "corpus": "https://trec.nist.gov/data/cd45/index.html",
+        "topics": "https://trec.nist.gov/data/topics_eng/topics.301-350.gz",
+        "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.trec6.adhoc.parts1-5.tar.gz",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {
+            "qrels.trec6.adhoc.part1.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec6.adhoc.part1.gz",
+            "qrels.trec6.adhoc.part2.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec6.adhoc.part2.gz",
+            "qrels.trec6.adhoc.part3.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec6.adhoc.part3.gz",
+            "qrels.trec6.adhoc.part4.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec6.adhoc.part4.gz",
+            "qrels.trec6.adhoc.part5.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec6.adhoc.part5.gz"
+        }
+    },
+    "chinese": {
+        "corpus": "https://catalog.ldc.upenn.edu/LDC2000T52",
+        "topics": "https://trec.nist.gov/data/topics_noneng/topics.CH29-CH54.chinese.english.gz",
+        "qrels": "https://trec.nist.gov/data/qrels_noneng/qrels.trec6.29-54.chinese.gz",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {}
+    },
+    "clir": {
+        "corpus": "",
+        "topics": {
+            "Dutch": "https://trec.nist.gov/data/topics_noneng/CL.topics.dutch.gz",
+            "English": "https://trec.nist.gov/data/topics_noneng/CL.topics.english.gz",
+            "French": "https://trec.nist.gov/data/topics_noneng/CL.topics.french.gz",
+            "German": "https://trec.nist.gov/data/topics_noneng/CL.topics.german.gz",
+            "Spanish": "https://trec.nist.gov/data/topics_noneng/CL.topics.spanish.gz"
+        },
+        "qrels": {
+            "English": "https://trec.nist.gov/data/qrels_noneng/qrels.trec6.clir.english.gz",
+            "French": "https://trec.nist.gov/data/qrels_noneng/qrels.trec6.clir.french.gz",
+            "German": "https://trec.nist.gov/data/qrels_noneng/qrels.trec6.clir.german.gz"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {}
+    },
+    "filtering": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.trec6.filtering.training.gz",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {}
+    },
+    "hp": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {}
+    },
+    "interactive": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/t6i/t6i.html",
+        "other": {}
+    },
+    "nlp": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {}
+    },
+    "sdr": {
+        "corpus": "",
+        "topics": "https://trec.nist.gov/data/topics_eng/topics.SDR1-SDR50.trec6.gz",
+        "qrels": "https://trec.nist.gov/data/qrels_eng/trec6.sdr.known_items.gz",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {
+            "TREC-6 Spoken Document Retrieval answers": "https://trec.nist.gov/data/topics_eng/answers.SDR1-SDR50.trec6.gz"
+        }
+    },
+    "vlc": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {}
+    },
+    "routing": {
+        "corpus": "",
+        "topics": "https://trec.nist.gov/data/topics_eng/trec6.routing.topics.gz",
+        "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.trec6.routing.parts1-5.tar.gz",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {
+            "qrels.trec6.routing.part1.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec6.routing.part1.gz",
+            "qrels.trec6.routing.part2.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec6.routing.part2.gz",
+            "qrels.trec6.routing.part3.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec6.routing.part3.gz",
+            "qrels.trec6.routing.part4.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec6.routing.part4.gz",
+            "qrels.trec6.routing.part5.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec6.routing.part5.gz",
+            "qrels.trec6.routing.training.gz": "https://trec.nist.gov/data/qrels_eng/qrels.trec6.routing.training.gz"
+        }
+    }
+}

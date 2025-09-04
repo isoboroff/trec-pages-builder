@@ -1,0 +1,88 @@
+{
+    "neuclir": {
+        "corpus": "https://ir.nist.gov/neuclir/neuclir1.tar.gz",
+        "topics": "https://trec.nist.gov/data/neuclir/topics.0720.utf8.jsonl",
+        "qrels": {
+            "qrels (all)": "https://trec.nist.gov/data/neuclir/2022-qrels.all",
+            "qrels (farsi)": "https://trec.nist.gov/data/neuclir/2022-qrels.fas",
+            "qrels (russian)": "https://trec.nist.gov/data/neuclir/2022-qrels.rus",
+            "qrels (chinese)": "https://trec.nist.gov/data/neuclir/2022-qrels.zho"
+        },
+        "ir_datasets": "https://ir-datasets.com/neuclir.html",
+        "trec_webpage": "https://trec.nist.gov/data/neuclir2022.html",
+        "other": {
+            "Machine Translation": "https://ir.nist.gov/neuclir/neuCLIR-translations.tar.gz",
+            "HC4 Training Corpus": "https://ir.nist.gov/neuclir/hc4-docs.tar.gz",
+            "Farsi Baseline": "https://trec.nist.gov/data/neuclir/fas-base-run-results.txt",
+            "Russian Baseline": "https://trec.nist.gov/data/neuclir/rus-base-run-results.txt",
+            "Chinese Baseline": "https://trec.nist.gov/data/neuclir/zho-base-run-results.txt"
+        }
+    },
+    "misinfo": {
+        "corpus": "https://huggingface.co/datasets/allenai/c4",
+        "topics": "https://trec.nist.gov/data/misinfo/misinfo-2022-topics.xml",
+        "qrels": "https://trec.nist.gov/data/misinfo/trec2022-health-misinfo-resources.tar.gz",
+        "ir_datasets": "https://ir-datasets.com/c4.html",
+        "trec_webpage": "https://trec.nist.gov/data/misinfo2022.html",
+        "other": {}
+    },
+    "deep": {
+        "corpus": {
+            "Passage Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2022#passage-ranking-dataset",
+            "Document Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2022#document-ranking-dataset"
+        },
+        "topics": {
+            "Passage Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2022#passage-ranking-dataset",
+            "Document Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2022#document-ranking-dataset"
+        },
+        "qrels": {
+            "Passage Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2022#passage-ranking-dataset",
+            "Document Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2022#document-ranking-dataset"
+        },
+        "ir_datasets": {
+            "Passage Ranking": "https://ir-datasets.com/msmarco-passage-v2.html#msmarco-passage-v2/trec-dl-2022",
+            "Document Ranking": "https://ir-datasets.com/msmarco-document-v2.html#msmarco-document-v2/trec-dl-2022"
+        },
+        "trec_webpage": "https://trec.nist.gov/data/deep2022.html",
+        "other": {
+            "Paper": "https://arxiv.org/abs/1611.09268",
+            "Additional resources": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2022#additional-resources"
+        }
+    },
+    "cast": {
+        "corpus": {
+            "Washington Post 2020": "https://trec.nist.gov/data/wapost/",
+            "KILT Wikipedia": "https://github.com/facebookresearch/KILT/",
+            "MS MARCO V2 (Documents)": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2021#document-ranking-dataset"
+        },
+        "topics": "https://www.treccast.ai/2022/",
+        "qrels": "https://trec.nist.gov/data/cast/qrels-2022.txt",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/cast2022.html",
+        "other": {}
+    },
+    "trials": {
+        "corpus": "https://www.trec-cds.org/2022.html#documents",
+        "topics": "https://trec.nist.gov/data/trials/topics2022.xml",
+        "qrels": "https://trec.nist.gov/data/trials/qrels2022.txt",
+        "ir_datasets": "https://ir-datasets.com/clinicaltrials.html",
+        "trec_webpage": "https://trec.nist.gov/data/trials2022.html",
+        "other": {}
+    },
+    "fair": {
+        "corpus": "https://data.boisestate.edu/library/Ekstrand/TRECFairRanking/corpus/",
+        "topics": "https://trec.nist.gov/data/fair/trec_2022_eval_reldocs.jsonl.gz",
+        "qrels": "https://trec.nist.gov/data/fair/trec_2022_eval_reldocs.jsonl.gz",
+        "ir_datasets": "https://ir-datasets.com/trec-fair.html#trec-fair/2022",
+        "trec_webpage": "https://trec.nist.gov/data/fair2022.html",
+        "other": {}
+    },
+    "crisis": {
+        "corpus": "https://crisisfacts.github.io/#datasets",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/crisis2022.html",
+        "other": {}
+    }
+}

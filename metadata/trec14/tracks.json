@@ -1,0 +1,77 @@
+{
+    "spam": {
+        "fullname": "Spam",
+        "tasks": "",
+        "webpage": "https://plg.uwaterloo.ca/~gvcormac/spam/",
+        "coordinators": "G. Cormack, University of Waterloo:T. Lynam, University of Waterloo",
+        "description": "An automatic spam filter classifies a chronological sequence of email messages as SPAM or HAM (non-spam). The subject filter is run on several email sequences, some public and some private. The performance of the filter is measured with respect to gold standard judgements by a human assessor.",
+        "year": 2005
+    },
+    "terabyte": {
+        "fullname": "Terabyte",
+        "tasks": {
+            "adhoc": "Adhoc retrieval",
+            "namedpage": "Named page finding",
+            "efficiency": "Efficiency"
+        },
+        "webpage": "https://plg.uwaterloo.ca/~claclark/TB05.html",
+        "coordinators": "C.L.A. Clarke, University of Waterloo:F. Scholer, Royal Melbourne Institute of Technology (RMIT University):I. Soboroff, National Institute of Standards and Technology (NIST)",
+        "description": "The primary goal of the Terabyte Track is to develop an evaluation methodology for terabyte-scale document collections. In addition, we are interested in efficiency and scalability issues, which can be studied more easily in the context of a larger collection. Again this year, we are using a 426GB collection of Web data from the gov domain for all tasks. While this collection is less than a full terabyte in size, it is considerably larger than the collections used in previous TREC tracks. In future years, we hope to expand the collection using data from other sources.",
+        "year": 2005
+    },
+    "genomics": {
+        "fullname": "Genomics",
+        "tasks": {
+            "adhoc": "Adhoc Task",
+            "categorization": "Categorization Task"
+        },
+        "webpage": "https://dmice.ohsu.edu/trec-gen/",
+        "coordinators": "W. Hersh, Oregon Health & Science University:A. Cohen, Oregon Health & Science University:J. Yang, Oregon Health & Science University:R.T. Bhupatiraju, Oregon Health & Science University:P. Roberts, Biogen Idec Corporation:M. Hearst, University of California, Berkeley",
+        "description": "The TREC 2005 Genomics Track featured two tasks, an ad hoc retrieval task and four subtasks in text categorization. The ad hoc retrieval task utilized a 10-year, 4.5-million document subset of the MEDLINE bibliographic database, with 50 topics conforming to five generic topic types. The categorization task used a full-text document collection with training and test sets consisting of about 6,000 biomedical journal articles each. Participants aimed to triage the documents into categories representing data resources in the Mouse Genome Informatics database, with performance assessed via a utility measure.",
+        "year": 2005
+    },
+    "HARD": {
+        "fullname": "HARD",
+        "tasks": {
+            "baseline": "Baseline submission",
+            "clarification": "Clarification from",
+            "final": "Final submission"
+        },
+        "webpage": "https://web.archive.org/web/20051201144933/https://ciir.cs.umass.edu/research/hard/guidelines.html/",
+        "coordinators": "J. Allan, University of Massachusetts Amherst",
+        "description": "TREC 2005 saw the third year of the High Accuracy Retrieval from Documents (HARD) track. The HARD track explores methods for improving the accuracy of document retrieval systems, with particular attention paid to the start of the ranked list.",
+        "year": 2005
+    },
+    "qa": {
+        "fullname": "Question Answering",
+        "tasks": {
+            "main": "Main Task",
+            "document": "Document Ranking Task",
+            "relationship": "Relationship Task"
+        },
+        "webpage": "https://trec.nist.gov/data/qa/t2005_qadata.html",
+        "coordinators": "E.M. Voorhees, National Institute of Standards and Technology (NIST):H.T. Dang, National Institute of Standards and Technology (NIST)",
+        "description": "The goal of the TREC QA track is to foster research on systems that retrieve answers rather than documents in response to a question. The focus is on systems that can function in unrestricted domains.",
+        "year": 2005
+    },
+    "enterprise": {
+        "fullname": "Enterprise",
+        "tasks": {
+            "discussion": "Email search (Discussion search)",
+            "knownitem": "Email search (Known item)",
+            "expert": "Expert search"
+        },
+        "webpage": "https://trec.nist.gov/data/enterprise.html",
+        "coordinators": "N. Craswell, Microsoft Research Cambridge:A.P. de Vries, CWI:I. Soboroff, National Institute of Standards and Technology (NIST)",
+        "description": "The goal of the enterprise track is to conduct experiments with enterprise data \u2014 intranet pages, email archives, document repositories \u2014 that reflect the experiences of users in real organisations, such that for example, an email ranking technique that is effective here would be a good choice for deployment in a real multi-user email search application. This involves both understanding user needs in enterprise search and development of appropriate IR techniques.",
+        "year": 2005
+    },
+    "robust": {
+        "fullname": "Robust",
+        "tasks": "",
+        "webpage": "https://trec.nist.gov/data/robust/05/05.guidelines.html",
+        "coordinators": "E.M. Voorhees, National Institute of Standards and Technology (NIST)",
+        "description": "The goal of the Robust track is to improve the consistency of retrieval technology by focusing on poorly performing topics. This year, the track will investigate the effectiveness obtainable on a new document set for topics that are known to be difficult on a separate document set. For each topic, participants create a query and submit a ranking of the top 1000 documents for that topic.",
+        "year": 2005
+    }
+}

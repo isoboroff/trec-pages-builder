@@ -1,0 +1,665 @@
+{
+    "pm": {
+        "DBLP:conf/trec/AgostiN018": {
+            "pid": "ims_unipd",
+            "abstract": "We report on the participation of the Information Management System (IMS) Research Group of the University of Padua in the second task of the Precision Medicine Track at TREC 2018: the Clinical Trials task. We designed a procedure to: i) expand query terms iteratively, based on knowledge bases, to increase the probability of finding relevant trials by adding neoplasm, gene, and protein term variants to the initial query; ii) filter out trials based on demographic data. We submitted three runs: a plain BM25 using the provided textual fields <gene> and <disease> as query, a BM25 with a first knowledge-based query expansion, and another BM25 with an additional knowledge-based query expansion. This initial set of experiments lays the ground for a deeper study on the effectiveness of (automatic) knowledge-based expansion techniques in the context of precision medicine.",
+            "key": "DBLP:conf/trec/AgostiN018",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/ims_unipd-PM.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/AgostiN018.bib",
+            "doi": "10.6028/NIST.SP.500-331.pm-ims_unipd",
+            "title": "The University of Padua IMS Research Group at TREC 2018 Precision  Medicine Track",
+            "author": "Maristella Agosti,  Giorgio Maria Di Nunzio,  Stefano Marchesin",
+            "bibtex": "@inproceedings{DBLP:conf/trec/AgostiN018,\n\tauthor = {Maristella Agosti and Giorgio Maria Di Nunzio and Stefano Marchesin},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {The University of Padua {IMS} Research Group at {TREC} 2018 Precision Medicine Track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/ims\\_unipd-PM.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/AgostiN018.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.pm-ims_unipd}\n}\n"
+        },
+        "DBLP:conf/trec/AraujoMM18": {
+            "pid": "NOVASearch",
+            "abstract": "This report describes the NOVASearch retrieval system for the TREC 2018 Precision Medicine Track in the Clinical Trials matching task. The parsing of queries and documents in the Clinical Trials task were structured into multiple fields according to the details about inclusion and exclusion criteria. We also considered multiple text processing filters on the largest text fields.",
+            "key": "DBLP:conf/trec/AraujoMM18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/NOVASearch-PM.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/AraujoMM18.bib",
+            "doi": "10.6028/NIST.SP.500-331.pm-NOVASearch",
+            "title": "Learning to rank clinical trials with rule-based criteria",
+            "author": "Gon\u00e7alo Ara\u00fajo,  Andr\u00e9 Mour\u00e3o,  Jo\u00e3o Magalh\u00e3es",
+            "bibtex": "@inproceedings{DBLP:conf/trec/AraujoMM18,\n\tauthor = {Gon{\\c{c}}alo Ara{\\'{u}}jo and Andr{\\'{e}} Mour{\\~{a}}o and Jo{\\~{a}}o Magalh{\\~{a}}es},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {Learning to rank clinical trials with rule-based criteria},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/NOVASearch-PM.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/AraujoMM18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.pm-NOVASearch}\n}\n"
+        },
+        "DBLP:conf/trec/BampoulidisL18": {
+            "pid": "RSA_DSC",
+            "abstract": "In this paper, we describe our approach to TREC's 2018 Precision Medicine challenge. We describe how we developed a system that semantically enriches the text documents and the disease part of the topic and issues extensive and detailed boolean queries to the Information Retrieval system and we present its results.",
+            "key": "DBLP:conf/trec/BampoulidisL18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/RSA_DSC-PM.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/BampoulidisL18.bib",
+            "doi": "10.6028/NIST.SP.500-331.pm-RSA_DSC",
+            "title": "RSA DSc on TREC's 2018 Precision Medicine Track",
+            "author": "Alexandros Bampoulidis,  Mihai Lupu",
+            "bibtex": "@inproceedings{DBLP:conf/trec/BampoulidisL18,\n\tauthor = {Alexandros Bampoulidis and Mihai Lupu},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {{RSA} DSc on TREC's 2018 Precision Medicine Track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/RSA\\_DSC-PM.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/BampoulidisL18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.pm-RSA_DSC}\n}\n"
+        },
+        "DBLP:conf/trec/BaruahDQE18": {
+            "pid": "Brown",
+            "abstract": "This paper describes Brown University's submission to the TREC 2018 Precision Medicine (PM) track. This report details our efforts to query processing and retrieval modeling. As a key difference to last year's edition of the task, we are able to include supervised rankers based on existing patient-document relevance labels. We use this information in the form of cubic rank transformations between initial weak rankers and the final ranking. The empirical evaluation is based on 50 synthetic precision oncology patients and shows solid retrieval performance.",
+            "key": "DBLP:conf/trec/BaruahDQE18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/Brown-PM.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/BaruahDQE18.bib",
+            "doi": "10.6028/NIST.SP.500-331.pm-Brown",
+            "title": "Brown University at TREC Precision Medicine 2018",
+            "author": "Prakrit Baruah,  Riya Dulepet,  Kyle Qian,  Carsten Eickhoff",
+            "bibtex": "@inproceedings{DBLP:conf/trec/BaruahDQE18,\n\tauthor = {Prakrit Baruah and Riya Dulepet and Kyle Qian and Carsten Eickhoff},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {Brown University at {TREC} Precision Medicine 2018},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/Brown-PM.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/BaruahDQE18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.pm-Brown}\n}\n"
+        },
+        "DBLP:conf/trec/CieslewiczDJ18": {
+            "pid": "Poznan",
+            "abstract": "This work describes the medical information retrieval systems designed by the Poznan Consortium for TREC PM, personalized medicine track, which was submitted to the TREC 2018. The baseline is the Terrier BB2. For Clinical Trials this work uses the following options: Terrier BB2_simple_noprf: query without extension (sq_nprf); Terrier BB2_simple_w2v_prf: query extended with w2v and terrier prf (sqw2vprf); Terrier BB2 _variant_noprf: query + gene variant; without extension (vq_noprf); BB2_variant_w2v_prf: query + gene variant extended with w2v and terrier prf (vqw2vprf); SQ_results: experimental search of the sql database using keywords from query (sq). Our best result is vq_noprf which is significantly better (approximately 0.08 for evaluated measures). With suitable word2method the results are better compared to query extension using Mesh and disease taxonomy. For Medline abstracts the documents are placed in the SQL database. For each document templates of diseases, genes, and applicability as Precision Medicine vs research objects are matched. Patterns are saved using regular expressions. The pattern association with the document is stored in the SQL database. For Medline abstracts our results are little worse than the TREC 2018 median.",
+            "key": "DBLP:conf/trec/CieslewiczDJ18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/Poznan-PM.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/CieslewiczDJ18.bib",
+            "doi": "10.6028/NIST.SP.500-331.pm-Poznan",
+            "title": "POZNAN Contribution to TREC PM 2018 (Notebook Paper)",
+            "author": "Artur Cieslewicz,  Jakub Dutkiewicz,  Czeslaw Jedrzejek",
+            "bibtex": "@inproceedings{DBLP:conf/trec/CieslewiczDJ18,\n\tauthor = {Artur Cieslewicz and Jakub Dutkiewicz and Czeslaw Jedrzejek},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {{POZNAN} Contribution to {TREC} {PM} 2018 (Notebook Paper)},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/Poznan-PM.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/CieslewiczDJ18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.pm-Poznan}\n}\n"
+        },
+        "DBLP:conf/trec/FerreiraL18": {
+            "pid": "InfoLabPM",
+            "abstract": "This paper reports the participation of the InfoLab at the TREC Precision Medicine Track 2018. InfoLab is an informal group that brings together researchers with interest in the information area and is located at Faculty of Engineering of University of Porto. The experiments made in this participation include query expansion approaches for the disease and gene concepts. The expansion of the disease terms was done using Unified Medical Language System (UMLS). UMLS is a repository that provides the mapping between a large number of vocabularies. The gene terms were expanded using Ensembl. Ensembl provides a genome browser that maps genes to their synonyms. An additional layer was developed on top of Terrier to provide the execution of a large batch of experiments. Multiple runs were evaluated in order to measure the influence of each expansion approach.",
+            "key": "DBLP:conf/trec/FerreiraL18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/InfoLabPM-PM.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/FerreiraL18.bib",
+            "doi": "10.6028/NIST.SP.500-331.pm-InfoLabPM",
+            "title": "InfoLabPM at TREC 2018 Precision Medicine Track",
+            "author": "Jo\u00e3o Ferreira,  Carla Teixeira Lopes",
+            "bibtex": "@inproceedings{DBLP:conf/trec/FerreiraL18,\n\tauthor = {Jo{\\~{a}}o Ferreira and Carla Teixeira Lopes},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {InfoLabPM at {TREC} 2018 Precision Medicine Track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/InfoLabPM-PM.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/FerreiraL18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.pm-InfoLabPM}\n}\n"
+        },
+        "DBLP:conf/trec/JoCL18": {
+            "pid": "cbnu",
+            "abstract": "This paper describes the participation of the CBNU team at the TREC Precision Medicine Track 2018. We propose construction of cancer-centered document clusters using gene information. Documents are retrieved by re-ranking documents and pseudo-relevance feedback based on cancer-centered document clusters.",
+            "key": "DBLP:conf/trec/JoCL18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/cbnu-PM.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/JoCL18.bib",
+            "doi": "10.6028/NIST.SP.500-331.pm-cbnu",
+            "title": "CBNU at TREC 2018 Precision Medicine Track",
+            "author": "Seung-Hyeon Jo,  Won-Kyu Choi,  Kyung-Soon Lee",
+            "bibtex": "@inproceedings{DBLP:conf/trec/JoCL18,\n\tauthor = {Seung{-}Hyeon Jo and Won{-}Kyu Choi and Kyung{-}Soon Lee},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {{CBNU} at {TREC} 2018 Precision Medicine Track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/cbnu-PM.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/JoCL18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.pm-cbnu}\n}\n"
+        },
+        "DBLP:conf/trec/LiuVKSWV18": {
+            "pid": "MedIER",
+            "abstract": "This paper describes the approach developed by the MedIER team - a collaboration between the University of Michigan and the University of Cincinnati - for the TREC 2018 Precision Medicine Track. We implement an iterative approach of document retrieval with modified queries, and combine the results by formulating re-ranking as a text classification task. We evaluate our proposed framework to retrieve biomedical research abstracts. Our experiments show that the iterative re-retrieval approach is effective in retrieving higher number of relevant scientific abstracts.",
+            "key": "DBLP:conf/trec/LiuVKSWV18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/MedIER-PM.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/LiuVKSWV18.bib",
+            "doi": "10.6028/NIST.SP.500-331.pm-MedIER",
+            "title": "Retrieving scientific abstracts iteratively: MedIER at TREC 2018  Precision Medicine Track",
+            "author": "Jinghui Liu,  Clair A. Kronk,  Wu-Chen Su,  Danny T. Y. Wu,  V. G. Vinod Vydiswaran",
+            "bibtex": "@inproceedings{DBLP:conf/trec/LiuVKSWV18,\n\tauthor = {Jinghui Liu and Clair A. Kronk and Wu{-}Chen Su and Danny T. Y. Wu and V. G. Vinod Vydiswaran},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {Retrieving scientific abstracts iteratively: MedIER at {TREC} 2018 Precision Medicine Track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/MedIER-PM.pdf},\n\ttimestamp = {Tue, 01 Sep 2020 01:00:00 +0200},\n\tbiburl = {https://dblp.org/rec/conf/trec/LiuVKSWV18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.pm-MedIER}\n}\n"
+        },
+        "DBLP:conf/trec/Lopez-Garcia18": {
+            "pid": "imi_mug",
+            "abstract": "In this paper we report on our participation in the TREC 2018 Precision Medicine track (team name: imi_mug). We submitted 5 fully automatic runs to both the biomedical articles and clinical trials subtasks. Our system was based on Elasticsearch, templates, and parameter grid search query generation, building heavily on our previous participation and the reference standard from 2017. Our results were well above the median for the biomedical articles subtask and median/below median for the clinical trials subtask.",
+            "key": "DBLP:conf/trec/Lopez-Garcia18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/imi_mug-PM.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/Lopez-Garcia18.bib",
+            "doi": "10.6028/NIST.SP.500-331.pm-imi_mug",
+            "title": "TREC 2018 Precision Medicine - Medical University of Graz",
+            "author": "Pablo L\u00f3pez-Garc\u00eda",
+            "bibtex": "@inproceedings{DBLP:conf/trec/Lopez-Garcia18,\n\tauthor = {Pablo L{\\'{o}}pez{-}Garc{\\'{\\i}}a},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {{TREC} 2018 Precision Medicine - Medical University of Graz},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/imi\\_mug-PM.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/Lopez-Garcia18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.pm-imi_mug}\n}\n"
+        },
+        "DBLP:conf/trec/Lopez-UbedaDVL18a": {
+            "pid": "SINAI",
+            "abstract": "In this paper we present our participation as SINAI research group from the Universidad of Ja\u00b4en at Text REtrieval Conference (TREC), specifically in sub-task Precision Medicine. The main objective of the task is to locate relevant information for a patient using information retrieval technologies. Our group applies one of the techniques of Natural Language Processing: Named Entities Recognition. For this task we have used MetaMap. This recognizer provide UMLS concepts from a given text. In addition, we have applied the document ranking technique to sort the final list of relevant documents using the common concepts found in the query and each document. The results obtained are not as expected because not all the concepts detected by MetaMap are relevant in the queries. However, our results are above the average of the runs sent by participants.",
+            "key": "DBLP:conf/trec/Lopez-UbedaDVL18a",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/SINAI-PM.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/Lopez-UbedaDVL18a.bib",
+            "doi": "10.6028/NIST.SP.500-331.pm-SINAI",
+            "title": "Filtering and reranking using MetaMap named entities recognizer",
+            "author": "Pilar L\u00f3pez-\u00dabeda,  Manuel Carlos D\u00edaz-Galiano,  Mar\u00eda Teresa Mart\u00edn Valdivia,  Luis Alfonso Ure\u00f1a L\u00f3pez",
+            "bibtex": "@inproceedings{DBLP:conf/trec/Lopez-UbedaDVL18a,\n\tauthor = {Pilar L{\\'{o}}pez{-}{\\'{U}}beda and Manuel Carlos D{\\'{\\i}}az{-}Galiano and Mar{\\'{\\i}}a Teresa Mart{\\'{\\i}}n Valdivia and Luis Alfonso Ure{\\~{n}}a L{\\'{o}}pez},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {Filtering and reranking using MetaMap named entities recognizer},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/SINAI-PM.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/Lopez-UbedaDVL18a.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.pm-SINAI}\n}\n"
+        },
+        "DBLP:conf/trec/MullaneVB18": {
+            "pid": "UVA_ART",
+            "abstract": "This paper describes the UVA_ART* team entries in the TREC 2018 workshop series Precision Medicine Track. We submitted 5 runs for the Scientific Abstracts task. Our approach used an exclusivity-based relatedness measure defined on the UMLS Metathesaurus ontologies to add context to our queries. We combined this with natural language processing using cTAKES for concept annotation to effect a graph-based query expansion on an enriched document corpus. We used Elasticsearch as our ranking and query engine with different query templates for each run. Our efforts demonstrate that the existing medical ontologies can be leveraged to achieve moderate results with little to no other clinical input.",
+            "key": "DBLP:conf/trec/MullaneVB18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/UVA_ART-PM.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/MullaneVB18.bib",
+            "doi": "10.6028/NIST.SP.500-331.pm-UVA_ART",
+            "title": "Team UVA_ART at TREC 2018 Precision Medicine Track: Graph-based  Concept Expansion and NLP for Document Relevance Boosting",
+            "author": "Sean Mullane,  Kasi Vegesana,  Valentina Baljak",
+            "bibtex": "@inproceedings{DBLP:conf/trec/MullaneVB18,\n\tauthor = {Sean Mullane and Kasi Vegesana and Valentina Baljak},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {Team UVA{\\_}ART at {TREC} 2018 Precision Medicine Track: Graph-based Concept Expansion and {NLP} for Document Relevance Boosting},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/UVA\\_ART-PM.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/MullaneVB18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.pm-UVA_ART}\n}\n"
+        },
+        "DBLP:conf/trec/NishaniKB18": {
+            "pid": "KlickLabs",
+            "abstract": "Precision medicine aims to provide the most accurate course of treatment, personalized for each patient. The 2018 Precision Medicine (PM) track aims to build systems, that sift through biomedical articles to find relevant cancer treatments for patients, as well as search for clinical trials for which a patient might be eligible. Cancer, as a disease, can occur in various forms, be of different types, and affect multiple organs as well as bodily systems. Additionally, every patient-cancer combination presents with slight variations depending on genetics, age, sex, and other factors. As of 2017, 16% of PubMed articles related to cancer [5], and over 500,000 articles are added to PubMed each year, thereby, making quality information retrieval for PM an important problem to tackle, for the benefit of doctors and patients alike. In this work, we develop query-expansion methods, with an aim to compare their performance over the 2018 PM task. Our experiments indicate that medical ontology (NCIt) based expansion performs well for retrieving scientific abstracts from PubMed. Utilizing demographic information in queries improves the performance for clinical trial retrieval.",
+            "key": "DBLP:conf/trec/NishaniKB18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/KlickLabs-PM.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/NishaniKB18.bib",
+            "doi": "10.6028/NIST.SP.500-331.pm-KlickLabs",
+            "title": "KlickLabs at TREC 2018 Precision Medicine track",
+            "author": "Lediona Nishani,  Maheedhar Kolla,  Gaurav Baruah",
+            "bibtex": "@inproceedings{DBLP:conf/trec/NishaniKB18,\n\tauthor = {Lediona Nishani and Maheedhar Kolla and Gaurav Baruah},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {KlickLabs at {TREC} 2018 Precision Medicine track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/KlickLabs-PM.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/NishaniKB18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.pm-KlickLabs}\n}\n"
+        },
+        "DBLP:conf/trec/OleynikFSKBCSDB18": {
+            "pid": "hpi-dhc",
+            "abstract": "The TREC-PM challenge aims for advances in the field of information retrieval applied to precision medicine. Here we describe our experimental setup and the achieved results in its 2018 edition. We explored the use of unsupervised topic models, supervised document classification, and rule-based query-time search term boosting and expansion. We participated in the biomedical articles and clinical trials subtasks and were among the three highest-scoring teams. Our results showed that query expansion associated with hand-crafted rules contribute to better values of information retrieval metrics. However, the use of a precision medicine classifier did not show the expected improvement for the biomedical abstracts subtask. In the future, we plan to add different terminologies to replace hand-crafted rules and experiment with negation detection.",
+            "key": "DBLP:conf/trec/OleynikFSKBCSDB18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/hpi-dhc-PM.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/OleynikFSKBCSDB18.bib",
+            "doi": "10.6028/NIST.SP.500-331.pm-hpi-dhc",
+            "title": "HPI-DHC at TREC 2018 Precision Medicine Track",
+            "author": "Michel Oleynik,  Erik Faessler,  Ariane Morassi Sasso,  Arpita Kappattanavar,  Benjamin Bergner,  Harry Freitas Da Cruz,  Jan-Philipp Sachs,  Suparno Datta,  Erwin P. B\u00f6ttinger",
+            "bibtex": "@inproceedings{DBLP:conf/trec/OleynikFSKBCSDB18,\n\tauthor = {Michel Oleynik and Erik Faessler and Ariane Morassi Sasso and Arpita Kappattanavar and Benjamin Bergner and Harry Freitas Da Cruz and Jan{-}Philipp Sachs and Suparno Datta and Erwin P. B{\\\"{o}}ttinger},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {{HPI-DHC} at {TREC} 2018 Precision Medicine Track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/hpi-dhc-PM.pdf},\n\ttimestamp = {Thu, 21 Jan 2021 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/OleynikFSKBCSDB18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.pm-hpi-dhc}\n}\n"
+        },
+        "DBLP:conf/trec/RobertsDVHBL18": {
+            "pid": "overview",
+            "abstract": "The fundamental philosophy behind precision medicine is that for many complex diseases, there is no \u201cone size fits all\u201d solutions for patients with a particular diagnosis. The proper treatment for a patient depends upon genetic, environmental, and lifestyle choices. The ability to personalize treatment in a scientifically rigorous manner based on these factors is thus the hallmark of the emerging precision medicine paradigm. Nowhere is the potential impact of precision medicine more closely focused at the moment than in cancer, where lifesaving treatments for particular patients could prove ineffective or even deadly for other patients based entirely upon the particular genetic mutations in the patient's tumor(s). Significant effort, therefore, has been devoted to deepening the scientific research surrounding precision medicine. This includes the Precision Medicine Initiative (Collins and Varmus, 2015) launched by former President Barack Obama in 2015, now known as the All of Us Research Program. A fundamental difficulty with putting the findings of precision medicine into practice is that-by its very nature-precision medicine creates a huge space of treatment options (Frey et al., 2016). These can easily overwhelm clinicians attempting to stay up-to-date with the latest findings, and can easily inhibit a clinician's attempts to determine the best possible treatment for a particular patient. However, the ability to quickly locate relevant evidence is the hallmark of information retrieval (IR). [...]",
+            "key": "DBLP:conf/trec/RobertsDVHBL18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/Overview-PM.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/RobertsDVHBL18.bib",
+            "doi": "10.6028/NIST.SP.500-331.pm-overview",
+            "title": "Overview of the TREC 2018 Precision Medicine Track",
+            "author": "Kirk Roberts,  Dina Demner-Fushman,  Ellen M. Voorhees,  William R. Hersh,  Steven Bedrick,  Alexander J. Lazar",
+            "bibtex": "@inproceedings{DBLP:conf/trec/RobertsDVHBL18,\n\tauthor = {Kirk Roberts and Dina Demner{-}Fushman and Ellen M. Voorhees and William R. Hersh and Steven Bedrick and Alexander J. Lazar},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {Overview of the {TREC} 2018 Precision Medicine Track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/Overview-PM.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/RobertsDVHBL18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.pm-overview}\n}\n"
+        },
+        "DBLP:conf/trec/RonzanoCPF18": {
+            "pid": "PM_IBI",
+            "abstract": "Nowadays, the growing amount of biomedical scientific literature that can be accessed online represents a valuable source of information useful to tailor medical decisions to a specific clinical case. With this respect, Information Retrieval tools play an essential role in enabling physicians to automatically analyze huge amounts of publications so as to retrieve relevant recent information related to the treatment, prevention or prognosis of specific clinical conditions and traits. In this paper, we present and discuss the biomedical scientific Information Retrieval strategy we developed in the context of our participation to the Precision Medicine Track of the Text Retrieval Conference 2018. Given the description of a clinical case, we describe how we retrieve from PubMed a ranked list of scientific abstracts that discuss medical care that may be relevant for the patient under consideration. To this purpose we rely on the query formulation capabilities provided by Elasticsearch, a full-text search engine, complemented by data processing steps useful both to properly build search queries and to refine the ranking of search results proposed by Elasticsearch.",
+            "key": "DBLP:conf/trec/RonzanoCPF18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/PM_IBI-PM.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/RonzanoCPF18.bib",
+            "doi": "10.6028/NIST.SP.500-331.pm-PM_IBI",
+            "title": "IBI at TREC 2018: Precision Medicine Track",
+            "author": "Francesco Ronzano,  Emilio Centeno,  Judith P\u00e9rez-Granado,  Laura I. Furlong",
+            "bibtex": "@inproceedings{DBLP:conf/trec/RonzanoCPF18,\n\tauthor = {Francesco Ronzano and Emilio Centeno and Judith P{\\'{e}}rez{-}Granado and Laura I. Furlong},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {{IBI} at {TREC} 2018: Precision Medicine Track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/PM\\_IBI-PM.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/RonzanoCPF18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.pm-PM_IBI}\n}\n"
+        },
+        "DBLP:conf/trec/TaylorHG18": {
+            "pid": "UTDHLTRI",
+            "abstract": "In this paper, we describe the system designed for the TREC 2018 Precision Medicine track by the University of Texas at Dallas (UTD) Human Language Technology Research Institute (HLTRI). Our system extends the system submitted for the 2017 track which incorporates an aspect-based retrieval paradigm wherein each of the four structured components of the topic is cast as a separate aspect, along with two \u201chidden\u201d aspects encoding the need that retrieved documents be within the domain of precision medicine and that retrieved documents have a focus on treatment. For the 2018 system, in addition to the aspect-based retrieval, we incorporated learning-to-rank (L2R). Our experiments show that our L2R approach leads to improved quality of retrieved clinical trials, but degrades performance for scientific articles.",
+            "key": "DBLP:conf/trec/TaylorHG18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/UTDHLTRI-PM.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/TaylorHG18.bib",
+            "doi": "10.6028/NIST.SP.500-331.pm-UTDHLTRI",
+            "title": "UTD HLTRI at TREC 2018: Precision Medicine Track",
+            "author": "Stuart J. Taylor,  Sanda M. Harabagiu,  Travis R. Goodwin",
+            "bibtex": "@inproceedings{DBLP:conf/trec/TaylorHG18,\n\tauthor = {Stuart J. Taylor and Sanda M. Harabagiu and Travis R. Goodwin},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {{UTD} {HLTRI} at {TREC} 2018: Precision Medicine Track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/UTDHLTRI-PM.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/TaylorHG18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.pm-UTDHLTRI}\n}\n"
+        },
+        "DBLP:conf/trec/Wang018": {
+            "pid": "udel_fang",
+            "abstract": "Retrieval is a common way to access the huge data collection in bio-medical domain. For instance, the physicians would need to retrieve relevant documents to treat cancer for the patients. With the huge number of documents in the collection, a reliable retrieval system is critical for a satisfying performance. This year's TREC Precision Medicine track continues the same procedure as last year by providing us the platform for testing different methods for biomedical retrieval. For this year, we used similar methods as we used in TREC PM17, i.e., term based representation and concept based representation. In addition, we also tried to combine the different representation with results filtering and two-round retrieval. The results show that the modification on the methods, i.e., results filtering and two round retrieval, did not outperform the baseline methods.",
+            "key": "DBLP:conf/trec/Wang018",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/udel_fang-PM.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/Wang018.bib",
+            "doi": "10.6028/NIST.SP.500-331.pm-udel_fang",
+            "title": "Exploring post retrieval techniques for bio-medical domain retrieval",
+            "author": "Yue Wang,  Hui Fang",
+            "bibtex": "@inproceedings{DBLP:conf/trec/Wang018,\n\tauthor = {Yue Wang and Hui Fang},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {Exploring post retrieval techniques for bio-medical domain retrieval},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/udel\\_fang-PM.pdf},\n\ttimestamp = {Thu, 17 Sep 2020 01:00:00 +0200},\n\tbiburl = {https://dblp.org/rec/conf/trec/Wang018.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.pm-udel_fang}\n}\n"
+        },
+        "DBLP:conf/trec/WangW0L18": {
+            "pid": "MayoNLPTeam",
+            "abstract": "This paper describes the participation of the Mayo Clinic NLP team in the Text REtrieval Conference (TREC) 2018 Precision Medicine (PM) track. The TREC 2018 PM track repeats the TREC 2017 PM track on retrieving relevant biomedical articles or clinical trials to cancer-related topics. We tested three information retrieval (IR) approaches in our official submission, including a simple approach of matching keywords and MeSH terms, an approach of matching extracted and normalized medical concepts, and a Learning-To-Rank approach based on TREC 2017 PM training data. In our systems, we used the NCI thesaurus and COSMIC to expand disease and gene terms with synonyms, respectively. Submissions were evaluated by the standard TREC test collections. Evaluation results show that our submissions using the simple IR approach have the best performance for both biomedical article and clinical trial retrieval subtasks. Recalling that our submissions using pseudo relevance feedback and Markov Random Field information retrieval models are also inferior to those using simple IR approaches in the TREC 2017 PM track, we conclude that the IR approaches shown effective in the general domain are not generalizable whilst retaining good performance for this medical track and the simple IR approach using keyword matching has the best record for consistent performance.",
+            "key": "DBLP:conf/trec/WangW0L18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/MayoNLPTeam-PM.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/WangW0L18.bib",
+            "doi": "10.6028/NIST.SP.500-331.pm-MayoNLPTeam",
+            "title": "MayoNLPTeam at the TREC 2018 Precision Medicine Track: Simple Information  Retrieval Approach Is the Best",
+            "author": "Yanshan Wang,  Andrew Wen,  Sijia Liu,  Hongfang Liu",
+            "bibtex": "@inproceedings{DBLP:conf/trec/WangW0L18,\n\tauthor = {Yanshan Wang and Andrew Wen and Sijia Liu and Hongfang Liu},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {MayoNLPTeam at the {TREC} 2018 Precision Medicine Track: Simple Information Retrieval Approach Is the Best},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/MayoNLPTeam-PM.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/WangW0L18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.pm-MayoNLPTeam}\n}\n"
+        },
+        "DBLP:conf/trec/ZhengLHX18": {
+            "pid": "UCAS",
+            "abstract": "This paper describes the system developed for the TREC 2018 Precision Medicine track. We adopt BM25F model with query expansion to retrieve clinical trials. For scientific abstract task, we use BM25 model to generate an initial ranking list and then adopt two methods to re-rank. Experimental results show that a new model that penalizes the articles unrelated to treatment, prevention, and prognosis improves the performance for scientific abstracts task.",
+            "key": "DBLP:conf/trec/ZhengLHX18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/UCAS-PM.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/ZhengLHX18.bib",
+            "doi": "10.6028/NIST.SP.500-331.pm-UCAS",
+            "title": "UCAS at TREC-2018 Precision Medicine Track",
+            "author": "Zhi Zheng,  Canjia Li,  Ben He,  Jungang Xu",
+            "bibtex": "@inproceedings{DBLP:conf/trec/ZhengLHX18,\n\tauthor = {Zhi Zheng and Canjia Li and Ben He and Jungang Xu},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {{UCAS} at {TREC-2018} Precision Medicine Track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/UCAS-PM.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/ZhengLHX18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.pm-UCAS}\n}\n"
+        },
+        "DBLP:conf/trec/ZhouCSZW18": {
+            "pid": "Cat_Garfield",
+            "abstract": "This paper describes the system designed for the TREC 2018 Precision Medicine Track by the Team Cat-Garfield from Tsinghua University. Our system is composed of two parts: the retrieval part aiming at high recall metric and the re-ranking part aiming at boosting infNDCG, P@10 and R-prec metrics via a heuristic scoring scheme. In order to introduce more external information into our systems, we developed a knowledge graph named TREC-KG, which plays a significant role in both the query expansion and the re-ranking part, and we utilized the qrels of TREC 2017 Precision Medicine Track as annotated data to train a classifier for precision medicine-relatedness of biomedical articles, named PM Classifier. In particular, we employed a hybrid method to score the precision medicine-relatedness of each retrieved article, combining the data-driven PM Classifier and a rule-based scoring scheme. The final results demonstrate that our systems are effective in both the biomedical article retrieval task and the clinical trial retrieval task, and the usage of the PM Classifier would bring performance improvement on R-prec metric in the biomedical article retrieval task.",
+            "key": "DBLP:conf/trec/ZhouCSZW18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/Cat_Garfield-PM.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/ZhouCSZW18.bib",
+            "doi": "10.6028/NIST.SP.500-331.pm-Cat_Garfield",
+            "title": "Team Cat-Garfield at TREC 2018 Precision Medicine Track",
+            "author": "Xuesi Zhou,  Xin Chen,  Jian Song,  Gang Zhao,  Ji Wu",
+            "bibtex": "@inproceedings{DBLP:conf/trec/ZhouCSZW18,\n\tauthor = {Xuesi Zhou and Xin Chen and Jian Song and Gang Zhao and Ji Wu},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {Team Cat-Garfield at {TREC} 2018 Precision Medicine Track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/Cat\\_Garfield-PM.pdf},\n\ttimestamp = {Tue, 16 Aug 2022 01:00:00 +0200},\n\tbiburl = {https://dblp.org/rec/conf/trec/ZhouCSZW18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.pm-Cat_Garfield}\n}\n"
+        }
+    },
+    "core": {
+        "DBLP:conf/trec/AbualsaudCGGGRZ18": {
+            "pid": "UWaterlooMDS",
+            "abstract": "This year we applied dynamic sampling (DS) [ 4] to create a sampled set of relevance judgments. One goal was to test the effectiveness and efficiency of this technique with a set of non-expert, secondary relevance assessors. We consider NIST assessors to be the experts and the primary assessors. Another goal was to make available to other researchers a sampled set of relevance judgments (prels) and thus allow the estimation of retrieval metrics that have the potential to be more robust than the standard NIST provided relevance judgments (qrels). In addition to creating the prels, we also submi\u008bed several runs based on our manual judging and the models produced by our HiCAL system [1, 6].",
+            "key": "DBLP:conf/trec/AbualsaudCGGGRZ18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/UWaterlooMDS-CC.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/AbualsaudCGGGRZ18.bib",
+            "doi": "10.6028/NIST.SP.500-331.core-UWaterlooMDS",
+            "title": "UWaterlooMDS at the TREC 2018 Common Core Track",
+            "author": "Mustafa Abualsaud,  Gordon V. Cormack,  Nimesh Ghelani,  Amira Ghenai,  Maura R. Grossman,  Shahin Rahbariasl,  Haotian Zhang,  Mark D. Smucker",
+            "bibtex": "@inproceedings{DBLP:conf/trec/AbualsaudCGGGRZ18,\n\tauthor = {Mustafa Abualsaud and Gordon V. Cormack and Nimesh Ghelani and Amira Ghenai and Maura R. Grossman and Shahin Rahbariasl and Haotian Zhang and Mark D. Smucker},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {UWaterlooMDS at the {TREC} 2018 Common Core Track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/UWaterlooMDS-CC.pdf},\n\ttimestamp = {Wed, 03 Feb 2021 08:31:25 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/AbualsaudCGGGRZ18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.core-UWaterlooMDS}\n}\n"
+        },
+        "DBLP:conf/trec/AkloucheBSABSAB18": {
+            "pid": "JARIR",
+            "abstract": "Query Expansion is an important process in information retrieval, which consists in adding new related terms to the original query in order to better identify relevant documents. In this paper, we discuss the participation of the JARIR research group to the TREC 2018 Common Core Track. We present different Query Expansion methods, which are based on Natural Language Pre-processing (NLP) tools and Word2Vec embedding models. Using the title of TREC topics, we select semantically related terms to the query. Our approach is composed of four steps: (1) Data Pre-processing, (2) Model Training, (3) Query Expansion and (4) Documents Ranking. For our best runs, results show that most of our topics scores are above the published median scores with some topics having the best scores.",
+            "key": "DBLP:conf/trec/AkloucheBSABSAB18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/JARIR-CC.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/AkloucheBSABSAB18.bib",
+            "doi": "10.6028/NIST.SP.500-331.core-JARIR",
+            "title": "Query Expansion Based on NLP and Word Embeddings",
+            "author": "Billel Aklouche,  Ibrahim Bounhas,  Yahya Slimani",
+            "bibtex": "@inproceedings{DBLP:conf/trec/AkloucheBSABSAB18,\n\tauthor = {Billel Aklouche and Ibrahim Bounhas and Yahya Slimani},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {Query Expansion Based on {NLP} and Word Embeddings},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/JARIR-CC.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/AkloucheBSABSAB18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.core-JARIR}\n}\n"
+        },
+        "DBLP:conf/trec/BenhamGML0SCM18": {
+            "pid": "RMIT",
+            "abstract": "Ad-hoc retrieval is an important problem with many practical applications. It forms the basis of web search, question-answering, and a new generation of virtual assistants being developed by several of the largest software companies in the world. In this report, we continue our exploration of the importance of multiple expressions of information needs. Our thesis is that over-reliance on a single query can lead to suboptimal performance, and that by creating multiple query representations for an information need and combining the relevance signals through fusion and relevance modeling, highly effective systems can be produced. This approach may form the basis for more complex multi-stage retrieval systems in a variety of applications.",
+            "key": "DBLP:conf/trec/BenhamGML0SCM18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/RMIT-CC.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/BenhamGML0SCM18.bib",
+            "doi": "10.6028/NIST.SP.500-331.core-RMIT",
+            "title": "RMIT at the 2018 TREC CORE Track",
+            "author": "Rodger Benham,  Luke Gallagher,  Joel M. Mackenzie,  Binsheng Liu,  Xiaolu Lu,  Falk Scholer,  J. Shane Culpepper,  Alistair Moffat",
+            "bibtex": "@inproceedings{DBLP:conf/trec/BenhamGML0SCM18,\n\tauthor = {Rodger Benham and Luke Gallagher and Joel M. Mackenzie and Binsheng Liu and Xiaolu Lu and Falk Scholer and J. Shane Culpepper and Alistair Moffat},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {{RMIT} at the 2018 {TREC} {CORE} Track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/RMIT-CC.pdf},\n\ttimestamp = {Mon, 26 Apr 2021 01:00:00 +0200},\n\tbiburl = {https://dblp.org/rec/conf/trec/BenhamGML0SCM18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.core-RMIT}\n}\n"
+        },
+        "DBLP:conf/trec/BondarenkoHVSPB18": {
+            "pid": "Webis",
+            "abstract": "This paper gives a brief overview of the Webis network's participation in the TREC 2018 Common Core track. The basic idea applied in our approach is to axiomatically re-rank the top-50 results of BM25F for those topics that seem to be argumentative. To this end, we use three axioms with the goal of covering some aspects of argumentativeness in text documents. If all three argumentative axioms favor a re-ordering of two documents, they \u201coverrule\u201d the initial ranking and the documents change their ranks.",
+            "key": "DBLP:conf/trec/BondarenkoHVSPB18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/Webis-CC.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/BondarenkoHVSPB18.bib",
+            "doi": "10.6028/NIST.SP.500-331.core-Webis",
+            "title": "Webis at TREC 2018: Common Core Track",
+            "author": "Alexander Bondarenko,  Matthias Hagen,  Michael V\u00f6lske,  Benno Stein,  Alexander Panchenko,  Chris Biemann",
+            "bibtex": "@inproceedings{DBLP:conf/trec/BondarenkoHVSPB18,\n\tauthor = {Alexander Bondarenko and Matthias Hagen and Michael V{\\\"{o}}lske and Benno Stein and Alexander Panchenko and Chris Biemann},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {Webis at {TREC} 2018: Common Core Track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/Webis-CC.pdf},\n\ttimestamp = {Fri, 19 Aug 2022 01:00:00 +0200},\n\tbiburl = {https://dblp.org/rec/conf/trec/BondarenkoHVSPB18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.core-Webis}\n}\n"
+        },
+        "DBLP:conf/trec/DevezasNGGM18": {
+            "pid": "FEUP",
+            "abstract": "We describe our participation in the TREC 2018 Common Core track, where we experimented with hyperedge-based document ranking, over the hypergraph-of-entity. We compared a text-only implementation (feup-run1) with a different implementation that also included entities and triples from DBpedia (feup-run2). We also experimented with reranking for diversity, based on the maximal marginal relevance and document profiling, in order to find a balance between relevance and the dissimilarity of neighboring documents. This resulted in six additional runs (3 to 8), using feup-run1 and feup-run2 as the base runs for reranking. We then assessed the impact in effectiveness, along with the changes in diversity, particularly over the top-ranked documents. We evaluated retrieval effectiveness based on the mean average precision, over the relevance judgments provided by TREC. We also proposed a weighted diversity metric, based on the cosine distance between each document and all others, within results for the same topic. Documents with a lower rank were assigned a higher weight, more strongly contributing to the weighted diversity. Our best results were for feup-run1 and feup-run7, both with a MAP score of 0.0070 and a P@10 of 0.0680, as well as a weighted diversity of 0.1197 and 0.1218, respectively.",
+            "key": "DBLP:conf/trec/DevezasNGGM18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/FEUP-CC.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/DevezasNGGM18.bib",
+            "doi": "10.6028/NIST.SP.500-331.core-FEUP",
+            "title": "FEUP at TREC 2018 Common Core Track - Reranking for Diversity  using Hypergraph-of-Entity and Document Profiling",
+            "author": "Jos\u00e9 Lu\u00eds Devezas,  S\u00e9rgio Nunes,  Antonio Guill\u00e9n,  Yoan Guti\u00e9rrez,  Rafael Mu\u00f1oz",
+            "bibtex": "@inproceedings{DBLP:conf/trec/DevezasNGGM18,\n\tauthor = {Jos{\\'{e}} Lu{\\'{\\i}}s Devezas and S{\\'{e}}rgio Nunes and Antonio Guill{\\'{e}}n and Yoan Guti{\\'{e}}rrez and Rafael Mu{\\~{n}}oz},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {{FEUP} at {TREC} 2018 Common Core Track - Reranking for Diversity using Hypergraph-of-Entity and Document Profiling},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/FEUP-CC.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/DevezasNGGM18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.core-FEUP}\n}\n"
+        },
+        "DBLP:conf/trec/GoncalvesMXC18": {
+            "pid": "NOVASearch",
+            "abstract": "This work explores the value of entity information for improving a feature-based learning-to-rank search engine.",
+            "key": "DBLP:conf/trec/GoncalvesMXC18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/NOVASearch-CC.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/GoncalvesMXC18.bib",
+            "doi": "10.6028/NIST.SP.500-331.core-NOVASearch",
+            "title": "Improving Ad Hoc Retrieval With Bag Of Entities",
+            "author": "Gustavo Gon\u00e7alves,  Jo\u00e3o Magalh\u00e3es,  Chenyan Xiong,  Jamie Callan",
+            "bibtex": "@inproceedings{DBLP:conf/trec/GoncalvesMXC18,\n\tauthor = {Gustavo Gon{\\c{c}}alves and Jo{\\~{a}}o Magalh{\\~{a}}es and Chenyan Xiong and Jamie Callan},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {Improving Ad Hoc Retrieval With Bag Of Entities},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/NOVASearch-CC.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/GoncalvesMXC18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.core-NOVASearch}\n}\n"
+        },
+        "DBLP:conf/trec/GrossmanC18": {
+            "pid": "MRG_UWaterloo",
+            "abstract": "The MRG_UWaterloo team from the University of Waterloo participated in the TREC 2018 Common Core Track. We used logistic regression to score and rank all documents from the Washington Post dataset, using pseudo-relevant and pseudo-nonrelevant training documents fetched from the Web using Google search. [...]",
+            "key": "DBLP:conf/trec/GrossmanC18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/MRG_UWaterloo-CC.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/GrossmanC18.bib",
+            "doi": "10.6028/NIST.SP.500-331.core-MRG_UWaterloo",
+            "title": "MRG_UWaterloo Participation in the TREC 2018 Common Core Track",
+            "author": "Maura R. Grossman,  Gordon V. Cormack",
+            "bibtex": "@inproceedings{DBLP:conf/trec/GrossmanC18,\n\tauthor = {Maura R. Grossman and Gordon V. Cormack},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {MRG{\\_}UWaterloo Participation in the {TREC} 2018 Common Core Track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/MRG\\_UWaterloo-CC.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/GrossmanC18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.core-MRG_UWaterloo}\n}\n"
+        },
+        "DBLP:conf/trec/YuXL18": {
+            "pid": "h2oloo",
+            "abstract": "The h2oloo team at the University of Waterloo participated in the Common Core Track in TREC 2018. Our main effort involved reproducing the cross-collection relevance transfer technique of Grossman and Cormack [ 8 ] from the TREC 2017 Common Core Track, as captured in their WCrobust0405 run. Their idea was relatively simple: for information needs (topics) that are shared across more than one test collection, it is possible to train (per topic) relevance classifiers using one or more test collections (in their case, from the TREC 2004 and 2005 Robust Tracks) and apply the classifiers to a new document collection (in their case, the New York Times collection used in the TREC 2017 Common Core Track) to improve ranking effectiveness. Each classifier, in essence, learns a relevance model for a specific information need, and the experiments of Grossman and Cormack demonstrate that such models can generalize across document collections. According to the TREC 2017 Common Core Track overview paper [ 2 ], WCrobust0405 ranked third in terms of average precision of runs that contributed to the judgment pools. The two runs that were more effective than WCrobust0405 involved humans who interactively searched the target collection to find relevant documents. In other words, the relevance transfer technique yielded effectiveness levels that approach human searchers. Not only is the technique of Grossman and Cormack effective, it is also simple: According to their paper, a logistic regression classifier for each topic was trained on the union of relevance judgments from the TREC 2004 and 2005 Robust Tracks. Documents were represented using word-level tf-idf features and each logistic regression classifier was learned using Sofia-ML1 and then applied to the entire Common Core collection. The top 10000 scoring documents (per topic), in decreasing order of classifier score, was submitted as the final run. [...]",
+            "key": "DBLP:conf/trec/YuXL18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/h2oloo-CC.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/YuXL18.bib",
+            "doi": "10.6028/NIST.SP.500-331.core-h2oloo",
+            "title": "H2oloo at TREC 2018: Cross-Collection Relevance Transfer for the  Common Core Track",
+            "author": "Ruifan Yu,  Yuhao Xie,  Jimmy Lin",
+            "bibtex": "@inproceedings{DBLP:conf/trec/YuXL18,\n\tauthor = {Ruifan Yu and Yuhao Xie and Jimmy Lin},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {H2oloo at {TREC} 2018: Cross-Collection Relevance Transfer for the Common Core Track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/h2oloo-CC.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/YuXL18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.core-h2oloo}\n}\n"
+        },
+        "yang2018anserini": {
+            "pid": "Anserini",
+            "abstract": "Anserini is an open-source information retrieval toolkit built on Lucene [3, 4]. The goal of our effort is to support information retrieval research using the popular open-source Lucene search library by allowing researchers to easily replicate results with modern ranking models on diverse test collections. Although there are many open-source search engines developed and maintained by academic research groups, most of them are designed primarily to facilitate the publication of research papers, and as such, they often suffer from poor usability, incomplete documentation, and a host of other issues. The growing complexity of modern software ecosystems and the diverse capabilities that are required to build useful end-to-end search applications places academic research groups at a huge disadvantage relative to Lucene. Except for a handful of commercial web search engines that deploy custom infrastructure, Lucene has become the de facto platform in industry for building production search applications\u2014used by organizations as diverse as Twitter, Reddit, Bloomberg, and Target. It has an active developer base, diverse features and capabilities, and lies at the center of a vibrant ecosystem. However, Lucene lacks systematic support for information retrieval research\u2014in particu- lar, ad hoc experimentation using standard test collections. This is where Anserini comes in: we enable cutting-edge information retrieval research using Lucene. At TREC 2018, we participated in the CENTRE, Common Core, and News Tracks. Each is described in its own section below. Our development efforts centered around the v0.1.0 release of Anserini, which is based on Lucene 6.3.0 (not the latest release).",
+            "key": "yang2018anserini",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/anserini-CTR-CC-N.pdf",
+            "biburl": "https://dblp.org/",
+            "doi": "10.6028/NIST.SP.500-331.centre-Anserini",
+            "title": "Anserini at trec 2018: Centre, Common Core, and News Tracks",
+            "author": "Yang, Peilin,  Lin, Jimmy",
+            "bibtex": "@inproceedings{yang2018anserini,\n\ttitle = {Anserini at trec 2018: Centre, Common Core, and News Tracks},\n\tauthor = {Yang, Peilin and Lin, Jimmy},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference (TREC 2018), Gaithersburg, MD},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/anserini-CTR-CC-N.pdf},\n\tbiburl = {https://dblp.org/},\n\tdoi = {10.6028/NIST.SP.500-331.centre-Anserini}\n}\n"
+        },
+        "DBLP:conf/trec/NaseriFA18": {
+            "pid": "UMass",
+            "abstract": "UMass participated in three TREC tasks in 2018: the TREC CAR, TREC Core tasks and TREC News (Background Linking). In this paper we detail the contents of our submissions and our lessons learned from this year's participation.",
+            "key": "DBLP:conf/trec/NaseriFA18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/UMass-CAR-CC-N.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/NaseriFA18.bib",
+            "doi": "10.6028/NIST.SP.500-331.news-UMass",
+            "title": "UMass at TREC 2018: CAR, Common Core and News Tracks",
+            "author": "Shahrzad Naseri,  John Foley,  James Allan",
+            "bibtex": "@inproceedings{DBLP:conf/trec/NaseriFA18,\n\tauthor = {Shahrzad Naseri and John Foley and James Allan},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {UMass at {TREC} 2018: CAR, Common Core and News Tracks},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/UMass-CAR-CC-N.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/NaseriFA18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.news-UMass}\n}\n"
+        }
+    },
+    "rts": {
+        "DBLP:conf/trec/SequieraTL18": {
+            "pid": "overview",
+            "abstract": "The TREC 2018 Real-Time Summarization (RTS) Track is the third iteration of a community effort to explore techniques, algorithms, and systems that automatically monitor streams of social media posts such as tweets on Twi\u008ber to address users' prospective information needs. These needs are articulated as \u201cinterest profiles\u201d, akin to topics in ad hoc retrieval. In our formulation of real-time summarization, the goal is for a system to deliver relevant and novel content to users in a timely fashion. We refer to these messages generically as \u201cupdates\u201d. As with previous iterations of the evaluation, the task setup required participating systems to monitor the live Twi\u008ber sample stream during a pre-defined evaluation period, this year beginning Monday July 23, 2018 00:00:00 UTC and ending Friday August 3, 2018 23:59:59 UTC. The interest profiles were distributed to participants ahead of time. [...]",
+            "key": "DBLP:conf/trec/SequieraTL18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/Overview-RTS.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/SequieraTL18.bib",
+            "doi": "10.6028/NIST.SP.500-331.rts-overview",
+            "title": "Overview of the TREC 2018 Real-Time Summarization Track",
+            "author": "Royal Sequiera,  Luchen Tan,  Jimmy Lin",
+            "bibtex": "@inproceedings{DBLP:conf/trec/SequieraTL18,\n\tauthor = {Royal Sequiera and Luchen Tan and Jimmy Lin},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {Overview of the {TREC} 2018 Real-Time Summarization Track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/Overview-RTS.pdf},\n\ttimestamp = {Wed, 03 Feb 2021 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/SequieraTL18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.rts-overview}\n}\n"
+        },
+        "DBLP:conf/trec/ChellalB18": {
+            "pid": "IRIT",
+            "abstract": "This paper presents the participation of the IRIT laboratory (University of Toulouse) to the Real-Time Summarization track of TREC RTS 2018. This track is consisting of two scenarios ( A: push notification and B: Email digest) which tackle the challenge of fulfilling the prospective and the retrospection information needs repressively. We submitted three runs for both scenarios A and B. For scenario A, we propose to use a supervised learning approach to build a binary classifier that predicts the relevance of an incoming tweet with respect to the topic of interest. The proposed approach leverages social signals as well as query dependent features to enhance the detection of relevant tweets. Additionally, we investigate the impact of the use of live relevance feedback to re-train the classier each time new relevance assessments are made available. For scenario B, the daily digest is generated by iteratively selecting the top tweets that pass the relevance filter with discarding the redundant ones.",
+            "key": "DBLP:conf/trec/ChellalB18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/IRIT-RT.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/ChellalB18.bib",
+            "doi": "10.6028/NIST.SP.500-331.rts-IRIT",
+            "title": "IRIT at TREC Real-Time Summarization 2018",
+            "author": "Abdelhamid Chellal,  Mohand Boughanem",
+            "bibtex": "@inproceedings{DBLP:conf/trec/ChellalB18,\n\tauthor = {Abdelhamid Chellal and Mohand Boughanem},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {{IRIT} at {TREC} Real-Time Summarization 2018},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/IRIT-RT.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/ChellalB18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.rts-IRIT}\n}\n"
+        },
+        "DBLP:conf/trec/FernandezLGMG018": {
+            "pid": "UA-Gplsi",
+            "abstract": "n this paper we present our contribution for the TREC 2018 Real-Time Summarization track. This task contains two scenarios: push notifications, and email digest. We participated in both, submitting three runs on each one. Our main goal was to evaluate the effectiveness the techniques employed in Social Analytics, a reputation analysis platform, which finds relevant tweets for specific topics. Here, we describe these techniques, and discuss the results obtained",
+            "key": "DBLP:conf/trec/FernandezLGMG018",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/UA-GPLSI-RT.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/FernandezLGMG018.bib",
+            "doi": "10.6028/NIST.SP.500-331.rts-UA-Gplsi",
+            "title": "GPLSI at TREC 2018 RTS Track",
+            "author": "Javi Fern\u00e1ndez,  Fernando Llopis,  Yoan Guti\u00e9rrez,  Patricio Mart\u00ednez-Barco,  Jos\u00e9 M. G\u00f3mez,  Rafael Mu\u00f1oz",
+            "bibtex": "@inproceedings{DBLP:conf/trec/FernandezLGMG018,\n\tauthor = {Javi Fern{\\'{a}}ndez and Fernando Llopis and Yoan Guti{\\'{e}}rrez and Patricio Mart{\\'{\\i}}nez{-}Barco and Jos{\\'{e}} M. G{\\'{o}}mez and Rafael Mu{\\~{n}}oz},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {{GPLSI} at {TREC} 2018 {RTS} Track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/UA-GPLSI-RT.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/FernandezLGMG018.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.rts-UA-Gplsi}\n}\n"
+        }
+    },
+    "car": {
+        "DBLP:conf/trec/DietzG0C18": {
+            "pid": "overview",
+            "abstract": "This notebook gives an overview of activities, datasets, and results of the second year of TREC Complex Answer Retrieval. We lay out the tasks offered and how provided datasets are automatically derived from Wikipedia and TQA. Manual relevance assessments are created by NIST. We describe the details of the assessment procedures, inter-annotator agreement, and statistics. Nine teams submitted runs exploring interactions of entities and passages, neural as well as traditional retrieval methods. We see that combining traditional methods with learning-to-rank can outperform neural methods, even when many training queries are available.",
+            "key": "DBLP:conf/trec/DietzG0C18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/Overview-CAR.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/DietzG0C18.bib",
+            "doi": "10.6028/NIST.SP.500-331.car-overview",
+            "title": "TREC Complex Answer Retrieval Overview",
+            "author": "Laura Dietz,  Ben Gamari,  Jeff Dalton,  Nick Craswell",
+            "bibtex": "@inproceedings{DBLP:conf/trec/DietzG0C18,\n\tauthor = {Laura Dietz and Ben Gamari and Jeff Dalton and Nick Craswell},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {{TREC} Complex Answer Retrieval Overview},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/Overview-CAR.pdf},\n\ttimestamp = {Tue, 21 Mar 2023 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/DietzG0C18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.car-overview}\n}\n"
+        },
+        "DBLP:conf/trec/LinL18": {
+            "pid": "CUIS",
+            "abstract": "We participated in the Complex Answer Retrieval(CAR) Track at TREC 2018. We propose a Markov random field based framework concerning unigrams, bigrams and concepts from differnt query sections. Besides, we employ a language modelling framework facilitating the Wikipedia article information and query entity mentions. Our best passage run achieves NDCG@5 of 0.3503 and MAP of 0.1715.",
+            "key": "DBLP:conf/trec/LinL18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/CUIS-CAR.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/LinL18.bib",
+            "doi": "10.6028/NIST.SP.500-331.car-CUIS",
+            "title": "CUIS Team at TREC 2018 CAR Track",
+            "author": "Xinshi Lin,  Wai Lam",
+            "bibtex": "@inproceedings{DBLP:conf/trec/LinL18,\n\tauthor = {Xinshi Lin and Wai Lam},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {{CUIS} Team at {TREC} 2018 {CAR} Track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/CUIS-CAR.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/LinL18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.car-CUIS}\n}\n"
+        },
+        "DBLP:conf/trec/LitschkoNG18": {
+            "pid": "DWS-UMA",
+            "abstract": "In this summary we present a simple and unsupervised Semantic Query Expansion model (SemQueryExp) for Complex Answer Retrieval (CAR). TREC CAR is a large-scale information retrieval shared evaluation task based on Wikipedia content. We have participated in the Passage Ranking Task of TREC CAR. Queries are provided as hierarchical section outlines and the goal is to retrieve the relevant paragraph, i.e., the original Wikipedia paragraphs of the respective section. The queries consist of the page title in which the section appears, the name of the main section and one or more sub-level sections (e.g., Thompson Capper // Early career // South African service). A section in turn contains a number of terms that we want to use in order to expand the query with semantically related terms. Here we rely on 300-dimensional GloVe [1] word embeddings, pre-trained on Wikipedia. For each word in the query we lookup its embedding, search for the k-nearest-neighbors and add the corresponding words to the query. Distances between word embeddings are measured with the cosine similarity. The final query consists now of its original query terms as well as the words added during query expansion. We assume that words appearing in lower sub-section levels, i.e. more specific sections, capture more relevance for the query than words appearing on higher levels such as the page title, which only describe the surrounding theme. This is encoded by assigning each query term a weight according to it's level in the hierarchical outline. If a word is in the title it receives a weight of 1, if it is in the main section it receives a weight of 2, etc. Expanded query terms are assumed to be noisy and scored with a value ranging between 0 and 1, depending on their cosine similarity. The final query consists of the union of all terms appearing in the outline and the expanded query terms, coupled with respective weights. All data is normalized by removing stop words and applying lemmatization. We execute the query on a Lucene index as a BoostedQuery using the BM25 retrieval model. We used no external data and we tuned the value of the parameter k on the benchmarkY1-train portion of the TREC CAR dataset.",
+            "key": "DBLP:conf/trec/LitschkoNG18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/DWS-UMA-CAR.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/LitschkoNG18.bib",
+            "doi": "10.6028/NIST.SP.500-331.car-DWS-UMA",
+            "title": "Trec-CAR 2018: A Simple Unsupervised Semantic Query Expansion Model",
+            "author": "Robert Litschko,  Federico Nanni,  Goran Glavas",
+            "bibtex": "@inproceedings{DBLP:conf/trec/LitschkoNG18,\n\tauthor = {Robert Litschko and Federico Nanni and Goran Glavas},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {Trec-CAR 2018: {A} Simple Unsupervised Semantic Query Expansion Model},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/DWS-UMA-CAR.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/LitschkoNG18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.car-DWS-UMA}\n}\n"
+        },
+        "DBLP:conf/trec/MacAvaneyGFY18": {
+            "pid": "GUIR",
+            "abstract": "In this work, we present our approach to the 2018 TREC Complex Answer Retrieval (CAR) task. We submitted two passage retrieval runs. The first uses the state-of-the-art technique from TREC CAR 2017: a modified neural ranker modified to incorporate query heading frequency information while performing term matching on each heading independently. The second run incorporates a novel gated technique for incorporating query expansion terms in a neural ranker. Our TREC runs indicate significant performance improvements can be achieved when using the expansion approach.",
+            "key": "DBLP:conf/trec/MacAvaneyGFY18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/GUIR-CAR.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/MacAvaneyGFY18.bib",
+            "doi": "10.6028/NIST.SP.500-331.car-GUIR",
+            "title": "PACRR Gated Expansion for TREC CAR 2018",
+            "author": "Sean MacAvaney,  Nazli Goharian,  Ophir Frieder,  Andrew Yates",
+            "bibtex": "@inproceedings{DBLP:conf/trec/MacAvaneyGFY18,\n\tauthor = {Sean MacAvaney and Nazli Goharian and Ophir Frieder and Andrew Yates},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {{PACRR} Gated Expansion for {TREC} {CAR} 2018},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/GUIR-CAR.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/MacAvaneyGFY18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.car-GUIR}\n}\n"
+        },
+        "DBLP:conf/trec/MaldonadoH18": {
+            "pid": "UTDHLTRI",
+            "abstract": "Finding answers to complex questions within a corpus of Wikipedia paragraphs needs to account for (a) the similarity between questions and paragraphs as well as (b) their shared semantics. In our participation in the 2018 TREC CAR track, we focused on developing a novel neural paragraph ranking model in our existing CAPAR system, developed for the 2017 TREC CAR track. The new system TRANS-CAPAR, takes advantage of the recently introduced Transformer architecture to encode information from the question and to semantically decode it in each paragraph. The results obtained during the official evaluations indicate that TRANSCAPAR makes good use of both discourse context and similarity when ranking paragraphs.",
+            "key": "DBLP:conf/trec/MaldonadoH18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/UTDHLTRI-CAR.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/MaldonadoH18.bib",
+            "doi": "10.6028/NIST.SP.500-331.car-UTDHLTRI",
+            "title": "UTD HLTRI at TREC 2018: Complex Answer Retrieval Track",
+            "author": "Ram\u00f3n Maldonado,  Sanda M. Harabagiu",
+            "bibtex": "@inproceedings{DBLP:conf/trec/MaldonadoH18,\n\tauthor = {Ram{\\'{o}}n Maldonado and Sanda M. Harabagiu},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {{UTD} {HLTRI} at {TREC} 2018: Complex Answer Retrieval Track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/UTDHLTRI-CAR.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/MaldonadoH18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.car-UTDHLTRI}\n}\n"
+        },
+        "DBLP:conf/trec/NogueiraC18": {
+            "pid": "NYU-DL",
+            "abstract": "In this paper, we describe our submission to the TREC-CAR 2018. We use a method introduced by Nogueira et al. (2018) to efficiently learn diverse strategies in reinforcement learning for query reformulation and focus minimally on the ranking function. In this framework, an agent consists of multiple specialized sub-agents and a meta-agent that learns to aggregate the answers from sub-agents to produce a final answer. Sub-agents are trained on disjoint partitions of the training data, while the meta-agent is trained on the full training set. Our method makes learning faster, because it is highly parallelizable, and has better generalization performance than strong baselines, such as an ensemble of agents trained on the full data.",
+            "key": "DBLP:conf/trec/NogueiraC18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/NYU-DL-CAR.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/NogueiraC18.bib",
+            "doi": "10.6028/NIST.SP.500-331.car-NYU-DL",
+            "title": "New York University at TREC 2018 Complex Answer Retrieval Track",
+            "author": "Rodrigo Frassetto Nogueira,  Kyunghyun Cho",
+            "bibtex": "@inproceedings{DBLP:conf/trec/NogueiraC18,\n\tauthor = {Rodrigo Frassetto Nogueira and Kyunghyun Cho},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {New York University at {TREC} 2018 Complex Answer Retrieval Track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/NYU-DL-CAR.pdf},\n\ttimestamp = {Fri, 20 May 2022 01:00:00 +0200},\n\tbiburl = {https://dblp.org/rec/conf/trec/NogueiraC18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.car-NYU-DL}\n}\n"
+        },
+        "DBLP:conf/trec/KashyapiCRD18": {
+            "pid": "trema-unh",
+            "abstract": "This notebook describes the submission of team TREMA-UNH to the TREC Complex Answer Retrieval track and the TREC News track in 2018. Our methods focus on passage retrieval, entity-aware passage retrieval, and entity retrieval.",
+            "key": "DBLP:conf/trec/KashyapiCRD18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/TREMA-UNH-CAR-N.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/KashyapiCRD18.bib",
+            "doi": "10.6028/NIST.SP.500-331.news-trema-unh",
+            "title": "TREMA-UNH at TREC 2018: Complex Answer Retrieval and News Track",
+            "author": "Sumanta Kashyapi,  Shubham Chatterjee,  Jordan Ramsdell,  Laura Dietz",
+            "bibtex": "@inproceedings{DBLP:conf/trec/KashyapiCRD18,\n\tauthor = {Sumanta Kashyapi and Shubham Chatterjee and Jordan Ramsdell and Laura Dietz},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {{TREMA-UNH} at {TREC} 2018: Complex Answer Retrieval and News Track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/TREMA-UNH-CAR-N.pdf},\n\ttimestamp = {Tue, 21 Mar 2023 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/KashyapiCRD18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.news-trema-unh}\n}\n"
+        },
+        "DBLP:conf/trec/NaseriFA18": {
+            "pid": "UMass",
+            "abstract": "UMass participated in three TREC tasks in 2018: the TREC CAR, TREC Core tasks and TREC News (Background Linking). In this paper we detail the contents of our submissions and our lessons learned from this year's participation.",
+            "key": "DBLP:conf/trec/NaseriFA18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/UMass-CAR-CC-N.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/NaseriFA18.bib",
+            "doi": "10.6028/NIST.SP.500-331.news-UMass",
+            "title": "UMass at TREC 2018: CAR, Common Core and News Tracks",
+            "author": "Shahrzad Naseri,  John Foley,  James Allan",
+            "bibtex": "@inproceedings{DBLP:conf/trec/NaseriFA18,\n\tauthor = {Shahrzad Naseri and John Foley and James Allan},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {UMass at {TREC} 2018: CAR, Common Core and News Tracks},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/UMass-CAR-CC-N.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/NaseriFA18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.news-UMass}\n}\n"
+        }
+    },
+    "news": {
+        "DBLP:conf/trec/BimantaraBEGGLP18": {
+            "pid": "htwsaar",
+            "abstract": "This paper describes our participation in the background linking task of the TREC 2018 News Track. We explored four different methods to address the task. All of our methods largely rely on off-the-shelf open-source components (e.g., Apache Lucene for indexing the documents). The methods differ in how they analyze the given input document to obtain a query (e.g., by keyword extraction or named entity recognition) and to what extent the returned results are re-ranked taking meta data of the documents (e.g., publication dates) into account.",
+            "key": "DBLP:conf/trec/BimantaraBEGGLP18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/htwsaar-N.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/BimantaraBEGGLP18.bib",
+            "doi": "10.6028/NIST.SP.500-331.news-htwsaar",
+            "title": "htw saar @ TREC 2018 News Track",
+            "author": "Agra Bimantara,  Michelle Blau,  Kevin Engelhardt,  Johannes Gerwert,  Tobias Gottschalk,  Philipp Lukosz,  Shenna Piri,  Nima Saken Shaft,  Klaus Berberich",
+            "bibtex": "@inproceedings{DBLP:conf/trec/BimantaraBEGGLP18,\n\tauthor = {Agra Bimantara and Michelle Blau and Kevin Engelhardt and Johannes Gerwert and Tobias Gottschalk and Philipp Lukosz and Shenna Piri and Nima Saken Shaft and Klaus Berberich},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {htw saar @ {TREC} 2018 News Track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/htwsaar-N.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/BimantaraBEGGLP18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.news-htwsaar}\n}\n"
+        },
+        "DBLP:conf/trec/KashyapiCRD18": {
+            "pid": "trema-unh",
+            "abstract": "This notebook describes the submission of team TREMA-UNH to the TREC Complex Answer Retrieval track and the TREC News track in 2018. Our methods focus on passage retrieval, entity-aware passage retrieval, and entity retrieval.",
+            "key": "DBLP:conf/trec/KashyapiCRD18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/TREMA-UNH-CAR-N.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/KashyapiCRD18.bib",
+            "doi": "10.6028/NIST.SP.500-331.news-trema-unh",
+            "title": "TREMA-UNH at TREC 2018: Complex Answer Retrieval and News Track",
+            "author": "Sumanta Kashyapi,  Shubham Chatterjee,  Jordan Ramsdell,  Laura Dietz",
+            "bibtex": "@inproceedings{DBLP:conf/trec/KashyapiCRD18,\n\tauthor = {Sumanta Kashyapi and Shubham Chatterjee and Jordan Ramsdell and Laura Dietz},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {{TREMA-UNH} at {TREC} 2018: Complex Answer Retrieval and News Track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/TREMA-UNH-CAR-N.pdf},\n\ttimestamp = {Tue, 21 Mar 2023 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/KashyapiCRD18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.news-trema-unh}\n}\n"
+        },
+        "DBLP:conf/trec/Lopez-UbedaDVL18": {
+            "pid": "SINAI",
+            "abstract": "In this paper we present our participation as SINAI research group from the Universidad de Ja\u00b4en at Text REtrieval Conceference (TREC) in the News task. Specifically we have participated in sub-task 1 called Background Linking. In this task we try to apply K-means clustering algorithms to obtain related news from different domains and topics. We also use document reordering techniques to obtain a new ordered list of relevant articles. For text processing we use the popular TF-IDF technique. The results obtained have not overcome the proposed baseline, although we are usually above average, improving in some cases 78% the average",
+            "key": "DBLP:conf/trec/Lopez-UbedaDVL18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/SINAI-N.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/Lopez-UbedaDVL18.bib",
+            "doi": "10.6028/NIST.SP.500-331.news-SINAI",
+            "title": "Using clustering to filter results of an Information Retrieval system",
+            "author": "Pilar L\u00f3pez-\u00dabeda,  Manuel Carlos D\u00edaz-Galiano,  Mar\u00eda Teresa Mart\u00edn Valdivia,  Luis Alfonso Ure\u00f1a L\u00f3pez",
+            "bibtex": "@inproceedings{DBLP:conf/trec/Lopez-UbedaDVL18,\n\tauthor = {Pilar L{\\'{o}}pez{-}{\\'{U}}beda and Manuel Carlos D{\\'{\\i}}az{-}Galiano and Mar{\\'{\\i}}a Teresa Mart{\\'{\\i}}n Valdivia and Luis Alfonso Ure{\\~{n}}a L{\\'{o}}pez},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {Using clustering to filter results of an Information Retrieval system},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/SINAI-N.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/Lopez-UbedaDVL18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.news-SINAI}\n}\n"
+        },
+        "DBLP:conf/trec/Lu018": {
+            "pid": "udel_fang",
+            "abstract": "When reading a news article, it is very useful that articles about the background of various aspects of the story are provided so that the readers can better understand the story. In this year's News Track, we tried to use paragraphs as leads to find background articles since they tend to cover different aspects of the main story [3]. More specifically, the keywords in the paragraphs were extracted and used as queries to find background articles. Entities were also leveraged to improve the retrieval performances of the keyword queries.",
+            "key": "DBLP:conf/trec/Lu018",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/udel_fang-N.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/Lu018.bib",
+            "doi": "10.6028/NIST.SP.500-331.news-udel_fang",
+            "title": "Paragraph as Lead - Finding Background Documents for News Articles",
+            "author": "Kuang Lu,  Hui Fang",
+            "bibtex": "@inproceedings{DBLP:conf/trec/Lu018,\n\tauthor = {Kuang Lu and Hui Fang},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {Paragraph as Lead - Finding Background Documents for News Articles},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/udel\\_fang-N.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/Lu018.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.news-udel_fang}\n}\n"
+        },
+        "DBLP:conf/trec/NaseriFA18": {
+            "pid": "UMass",
+            "abstract": "UMass participated in three TREC tasks in 2018: the TREC CAR, TREC Core tasks and TREC News (Background Linking). In this paper we detail the contents of our submissions and our lessons learned from this year's participation.",
+            "key": "DBLP:conf/trec/NaseriFA18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/UMass-CAR-CC-N.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/NaseriFA18.bib",
+            "doi": "10.6028/NIST.SP.500-331.news-UMass",
+            "title": "UMass at TREC 2018: CAR, Common Core and News Tracks",
+            "author": "Shahrzad Naseri,  John Foley,  James Allan",
+            "bibtex": "@inproceedings{DBLP:conf/trec/NaseriFA18,\n\tauthor = {Shahrzad Naseri and John Foley and James Allan},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {UMass at {TREC} 2018: CAR, Common Core and News Tracks},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/UMass-CAR-CC-N.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/NaseriFA18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.news-UMass}\n}\n"
+        },
+        "DBLP:conf/trec/SluisAM18": {
+            "pid": "signal",
+            "abstract": "This paper provides an overview of the experiments we carried out for the entity ranking task at the TREC 2018 News Track. In particular, we experimented with adapting the supervised salience component of Salient Entity Linking (SEL), a state-of-the-art unified framework for entity linking and salience ranking. In our adaptation, we assume perfect entity linking performance and rank the entities using the salience components of SEL. Furthermore, in this adaptation, we aim to enhance the efficiency of the supervised salience ranking, and also to introduce sentiment-based features for entity salience.",
+            "key": "DBLP:conf/trec/SluisAM18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/signal.N.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/SluisAM18.bib",
+            "doi": "10.6028/NIST.SP.500-331.news-signal",
+            "title": "Signal at TREC 2018 News Track",
+            "author": "Dwane van der Sluis,  Dyaa Albakour,  Miguel Martinez",
+            "bibtex": "@inproceedings{DBLP:conf/trec/SluisAM18,\n\tauthor = {Dwane van der Sluis and Dyaa Albakour and Miguel Martinez},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {Signal at {TREC} 2018 News Track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/signal.N.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/SluisAM18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.news-signal}\n}\n"
+        },
+        "DBLP:conf/trec/SoboroffHH18": {
+            "pid": "overview",
+            "abstract": "The News track is a new track for TREC 2019, focused on information retrieval in the service of helping people read the news. In cooperation with the Washington Post1, we released a new collection of 600,000 news articles, and crafted two tasks related to how news is presented on the web.",
+            "key": "DBLP:conf/trec/SoboroffHH18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/Overview-News.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/SoboroffHH18.bib",
+            "doi": "10.6028/NIST.SP.500-331.news-overview",
+            "title": "TREC 2018 News Track Overview",
+            "author": "Ian Soboroff,  Shudong Huang,  Donna Harman",
+            "bibtex": "@inproceedings{DBLP:conf/trec/SoboroffHH18,\n\tauthor = {Ian Soboroff and Shudong Huang and Donna Harman},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {{TREC} 2018 News Track Overview},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/Overview-News.pdf},\n\ttimestamp = {Wed, 03 Feb 2021 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/SoboroffHH18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.news-overview}\n}\n"
+        },
+        "yang2018anserini": {
+            "pid": "Anserini",
+            "abstract": "Anserini is an open-source information retrieval toolkit built on Lucene [3, 4]. The goal of our effort is to support information retrieval research using the popular open-source Lucene search library by allowing researchers to easily replicate results with modern ranking models on diverse test collections. Although there are many open-source search engines developed and maintained by academic research groups, most of them are designed primarily to facilitate the publication of research papers, and as such, they often suffer from poor usability, incomplete documentation, and a host of other issues. The growing complexity of modern software ecosystems and the diverse capabilities that are required to build useful end-to-end search applications places academic research groups at a huge disadvantage relative to Lucene. Except for a handful of commercial web search engines that deploy custom infrastructure, Lucene has become the de facto platform in industry for building production search applications\u2014used by organizations as diverse as Twitter, Reddit, Bloomberg, and Target. It has an active developer base, diverse features and capabilities, and lies at the center of a vibrant ecosystem. However, Lucene lacks systematic support for information retrieval research\u2014in particular, ad hoc experimentation using standard test collections. This is where Anserini comes in: we enable cutting-edge information retrieval research using Lucene. At TREC 2018, we participated in the CENTRE, Common Core, and News Tracks. Each is described in its own section below. Our development efforts centered around the v0.1.0 release of Anserini, which is based on Lucene 6.3.0 (not the latest release).",
+            "key": "yang2018anserini",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/anserini-CTR-CC-N.pdf",
+            "biburl": "https://dblp.org/",
+            "doi": "10.6028/NIST.SP.500-331.centre-Anserini",
+            "title": "Anserini at trec 2018: Centre, Common Core, and News Tracks",
+            "author": "Yang, Peilin,  Lin, Jimmy",
+            "bibtex": "@inproceedings{yang2018anserini,\n\ttitle = {Anserini at trec 2018: Centre, Common Core, and News Tracks},\n\tauthor = {Yang, Peilin and Lin, Jimmy},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference (TREC 2018), Gaithersburg, MD},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/anserini-CTR-CC-N.pdf},\n\tbiburl = {https://dblp.org/},\n\tdoi = {10.6028/NIST.SP.500-331.centre-Anserini}\n}\n"
+        }
+    },
+    "incident": {
+        "DBLP:conf/trec/ChoiJL18": {
+            "pid": "cbnu",
+            "abstract": "This paper describes the participation of the CBNU team at the TREC Incident Streams Track 2018. For tweet representation, crisis-related terms are represented as conceptual entities. For tweet classification, we have compared support vector machines and our deep learning model which combines class activation mapping with one-shot learning in convolutional neural networks.",
+            "key": "DBLP:conf/trec/ChoiJL18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/cbnu-IS.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/ChoiJL18.bib",
+            "doi": "10.6028/NIST.SP.500-331.incident-cbnu",
+            "title": "CBNU at TREC 2018 Incident Streams Track",
+            "author": "Won-Gyu Choi,  Seung-Hyeon Jo,  Kyung-Soon Lee",
+            "bibtex": "@inproceedings{DBLP:conf/trec/ChoiJL18,\n\tauthor = {Won{-}Gyu Choi and Seung{-}Hyeon Jo and Kyung{-}Soon Lee},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {{CBNU} at {TREC} 2018 Incident Streams Track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/cbnu-IS.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/ChoiJL18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.incident-cbnu}\n}\n"
+        },
+        "DBLP:conf/trec/ChungL18": {
+            "pid": "EPIC_MR",
+            "abstract": "This paper describes our participation of the EPIC_MR group to the TREC 2018 Incident Streams Track. The target of the track is to monitor the social media and classify different type of information to help different response agencies. This paper describes our approach to use the words with Wikipedia articles to build the training vector, and also the result and comments of our runs.",
+            "key": "DBLP:conf/trec/ChungL18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/EPIC_MR-IS.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/ChungL18.bib",
+            "doi": "10.6028/NIST.SP.500-331.incident-EPIC_MR",
+            "title": "EPIC_MR Participation in the TREC 2018 Incidence Stream Track",
+            "author": "Simon W. Y. Chung,  K. K. Lo",
+            "bibtex": "@inproceedings{DBLP:conf/trec/ChungL18,\n\tauthor = {Simon W. Y. Chung and K. K. Lo},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {EPIC{\\_}MR Participation in the {TREC} 2018 Incidence Stream Track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/EPIC\\_MR-IS.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/ChungL18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.incident-EPIC_MR}\n}\n"
+        },
+        "DBLP:conf/trec/ChySA18": {
+            "pid": "KDEIS",
+            "abstract": "Microblog, especially twitter, is treated as an important source to serve the situational information needs during a disaster period. Monitoring and producing the curated tweets based on different information types from massive twitter posts provide enormous opportunities to different public safety personnel or used for post-incident analysis. In this paper, we present our approach to addressing the problem defined in the TREC 2018 incident streams (TREC-IS) task. The task is to classify the tweets in each event/incident's stream into different high-level information types within the incident ontology. In our approach, we employ different deep neural network (DNN) classifiers in combination with a multi-class support vector machine (SVM) classifier and a rule-based classifier. We consider a rich set of hand-crafted features to train our multi-class SVM classifier, whereas a pre-trained word2vec model is used for the DNN based classifiers. Moreover, we introduce a set of rules based on the language of tweets, exploiting indicator terms, and WH-orientation of tweets for our rule-based classifier. Experimental results showed that our proposed KDEIS4 DM method obtained the second position among the participants in TREC-IS task and outperforms the participant median by more than 8% and 5% in terms of F1 Score and accuracy, respectively",
+            "key": "DBLP:conf/trec/ChySA18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/KDEIS-IS.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/ChySA18.bib",
+            "doi": "10.6028/NIST.SP.500-331.incident-KDEIS",
+            "title": "Neural Networks and Support Vector Machine based Approach for Classifying  Tweets by Information Types at TREC 2018 Incident Streams Task",
+            "author": "Abu Nowshed Chy,  Umme Aymun Siddiqua,  Masaki Aono",
+            "bibtex": "@inproceedings{DBLP:conf/trec/ChySA18,\n\tauthor = {Abu Nowshed Chy and Umme Aymun Siddiqua and Masaki Aono},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {Neural Networks and Support Vector Machine based Approach for Classifying Tweets by Information Types at {TREC} 2018 Incident Streams Task},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/KDEIS-IS.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/ChySA18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.incident-KDEIS}\n}\n"
+        },
+        "DBLP:conf/trec/CumbrerasDVZ18": {
+            "pid": "SINAI",
+            "abstract": "This paper describes the system architecture of the University of Ja\u00e9n - SINAI team's for the TREC 2018 Incident Streams Track. The goal of the challenge is to automatically process social media streams during emergency situations with the aim of categorizing information and aid requests made on social media for emergency service operators. We explored four alternatives: baseline experimentation, WordNet synonyms, spelling correction and word embeddings. All of them use Support Vector Machine (SVM) as machine learning method. Our experiments reveal that the last approach leads to improve the baseline result.",
+            "key": "DBLP:conf/trec/CumbrerasDVZ18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/SINAI-IS.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/CumbrerasDVZ18.bib",
+            "doi": "10.6028/NIST.SP.500-331.incident-SINAI",
+            "title": "SINAI at TREC 2018: Experiments in Incident Streams",
+            "author": "Miguel \u00c1ngel Garc\u00eda Cumbreras,  Manuel Carlos D\u00edaz-Galiano,  Manuel Garc\u00eda Vega,  Salud Mar\u00eda Jim\u00e9nez Zafra",
+            "bibtex": "@inproceedings{DBLP:conf/trec/CumbrerasDVZ18,\n\tauthor = {Miguel {\\'{A}}ngel Garc{\\'{\\i}}a Cumbreras and Manuel Carlos D{\\'{\\i}}az{-}Galiano and Manuel Garc{\\'{\\i}}a Vega and Salud Mar{\\'{\\i}}a Jim{\\'{e}}nez Zafra},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {{SINAI} at {TREC} 2018: Experiments in Incident Streams},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/SINAI-IS.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/CumbrerasDVZ18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.incident-SINAI}\n}\n"
+        },
+        "DBLP:conf/trec/LuW018": {
+            "pid": "BJUT",
+            "abstract": "In this paper we will introduce our work on the 2018 TREC real-time event flow test task. With the development of social media, more and more people choose to use social media to share their lives. Similarly, when encountering unexpected situations such as fires, earthquakes, flash floods, tsunamis, mudslides and other natural disasters or shootings, robberies and other emergencies, people like to release the progress of the disaster situation or event through social media. This task is to filter the information of such natural disasters or emergencies through text detection, and to classify the information, and finally to report the marked information to relevant staff according to different priorities. Let the staff know about the progress of the incident and the local real-time situation in case of rescue. This article will introduce the framework and methods of the classification system, as well as the experimental results.",
+            "key": "DBLP:conf/trec/LuW018",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/BJUT-IS.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/LuW018.bib",
+            "doi": "10.6028/NIST.SP.500-331.incident-BJUT",
+            "title": "BJUT at TREC 2018: Incident Streams Track",
+            "author": "Ning Lu,  Hesong Wang,  Zhen Yang",
+            "bibtex": "@inproceedings{DBLP:conf/trec/LuW018,\n\tauthor = {Ning Lu and Hesong Wang and Zhen Yang},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {{BJUT} at {TREC} 2018: Incident Streams Track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/BJUT-IS.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/LuW018.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.incident-BJUT}\n}\n"
+        },
+        "DBLP:conf/trec/MehrotraP18": {
+            "pid": "IIT-BHU",
+            "abstract": "This paper presents details of the work done by the team of IIT (BHU) Varanasi for the Incidents Stream track in TREC 2018. The task involved classifying tweets posted during a disaster into a number of categories, which are useful for relief work purposes at such a time. The data given was in the form of tweets from one earthquake, tornado, wildfire, flood, shooting and bombing incident.",
+            "key": "DBLP:conf/trec/MehrotraP18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/IIT-BHU-IS.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/MehrotraP18.bib",
+            "doi": "10.6028/NIST.SP.500-331.incident-IIT-BHU",
+            "title": "IIT-BHU In TREC 2018 Incidents Stream Track",
+            "author": "Harshit Mehrotra,  Sukomal Pal",
+            "bibtex": "@inproceedings{DBLP:conf/trec/MehrotraP18,\n\tauthor = {Harshit Mehrotra and Sukomal Pal},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {{IIT-BHU} In {TREC} 2018 Incidents Stream Track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/IIT-BHU-IS.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/MehrotraP18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.incident-IIT-BHU}\n}\n"
+        },
+        "DBLP:conf/trec/MiyazakiMTOG18": {
+            "pid": "NHK",
+            "abstract": "We describe NHK STRL's models for the TREC 2018 Incident Streams track. The goal of this track is classifying incident related Tweets into information types such as InformationWanted and EmergingThreats. The number of provided pieces of training data is about 2,000, which is not enough for current machine learning methods. We propose two models to overcome this small amount of data scenario: a knowledge base-based model and a model that considers meta-information. In addition, we used two bag-of-words baseline models, a multi-layer perceptron-based one and a support vector machine-based one, for comparison. Evaluation results show that our models can classify Tweets with a rather high F1 score.",
+            "key": "DBLP:conf/trec/MiyazakiMTOG18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/NHK-IS.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/MiyazakiMTOG18.bib",
+            "doi": "10.6028/NIST.SP.500-331.incident-NHK",
+            "title": "NHK STRL at TREC 2018 Incident Streams track",
+            "author": "Taro Miyazaki,  Kiminobu Makino,  Yuka Takei,  Hiroki Okamoto,  Jun Goto",
+            "bibtex": "@inproceedings{DBLP:conf/trec/MiyazakiMTOG18,\n\tauthor = {Taro Miyazaki and Kiminobu Makino and Yuka Takei and Hiroki Okamoto and Jun Goto},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {{NHK} {STRL} at {TREC} 2018 Incident Streams track},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/NHK-IS.pdf},\n\ttimestamp = {Sun, 02 Oct 2022 01:00:00 +0200},\n\tbiburl = {https://dblp.org/rec/conf/trec/MiyazakiMTOG18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.incident-NHK}\n}\n"
+        },
+        "DBLP:conf/trec/ZaheraJU18": {
+            "pid": "DICE-UPB",
+            "abstract": "In this paper, we describe our submissions to the TREC Incident Stream (TREC-IS) challenge 2018. We investigated different machine learning approaches to classify crisis-related tweets into different information types. We incorporated knowledge graphs as features into this social media analysis, in addition to bag of words, word embeddings, time data, and event-types. Further, we evaluate state-of-the-art classification models on 31 generated features sets. Our TREC-IS results indicate that a model based on combining knowledge graphs (i.e., Babelfy), word embeddings and textual features outperformes classical machine learning models",
+            "key": "DBLP:conf/trec/ZaheraJU18",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/DICE-UPB-IS.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/ZaheraJU18.bib",
+            "doi": "10.6028/NIST.SP.500-331.incident-DICE-UPB",
+            "title": "DICE @ TREC-IS 2018: Combining Knowledge Graphs and Deep Learning  to Identify Crisis-Relevant Tweets",
+            "author": "Hamada M. Zahera,  Rricha Jalota,  Ricardo Usbeck",
+            "bibtex": "@inproceedings{DBLP:conf/trec/ZaheraJU18,\n\tauthor = {Hamada M. Zahera and Rricha Jalota and Ricardo Usbeck},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {{DICE} @ {TREC-IS} 2018: Combining Knowledge Graphs and Deep Learning to Identify Crisis-Relevant Tweets},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/DICE-UPB-IS.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/ZaheraJU18.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.incident-DICE-UPB}\n}\n"
+        }
+    },
+    "centre": {
+        "DBLP:conf/trec/Nunzio018": {
+            "pid": "ims_unipd",
+            "abstract": "In this paper, we present our participation in one of the tasks of the CENTRE@TREC 2018 Track: the Clinical Decision Support task. We describe the steps of the original paper we wanted to reproduce, identifying the elements of ambiguity that may affect the reproducibility of the results. The experimental results we obtained follow a similar trend to those presented in the original paper: using clinical trials' \u201cnote\u201d field decreases the retrieval performances significantly, while the pseudo-relevance feedback approach together with query expansion achieves the best results across different measures. In the experimental results we find out that the choice of the stoplist is fundamental to achieve a reasonable level of reproducibility. However, stoplist creation is not described sufficiently well in the original paper.",
+            "key": "DBLP:conf/trec/Nunzio018",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/ims_unipd-C.pdf",
+            "biburl": "https://dblp.org/rec/conf/trec/Nunzio018.bib",
+            "doi": "10.6028/NIST.SP.500-331.centre-ims_unipd",
+            "title": "The University of Padua IMS Research Group at CENTRE@TREC 2018",
+            "author": "Giorgio Maria Di Nunzio,  Stefano Marchesin",
+            "bibtex": "@inproceedings{DBLP:conf/trec/Nunzio018,\n\tauthor = {Giorgio Maria Di Nunzio and Stefano Marchesin},\n\teditor = {Ellen M. Voorhees and Angela Ellis},\n\ttitle = {The University of Padua {IMS} Research Group at CENTRE@TREC 2018},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference, {TREC} 2018, Gaithersburg, Maryland, USA, November 14-16, 2018},\n\tseries = {{NIST} Special Publication},\n\tvolume = {500-331},\n\tpublisher = {National Institute of Standards and Technology {(NIST)}},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/ims\\_unipd-C.pdf},\n\ttimestamp = {Thu, 12 Mar 2020 00:00:00 +0100},\n\tbiburl = {https://dblp.org/rec/conf/trec/Nunzio018.bib},\n\tbibsource = {dblp computer science bibliography, https://dblp.org},\n\tdoi = {10.6028/NIST.SP.500-331.centre-ims_unipd}\n}\n"
+        },
+        "yang2018anserini": {
+            "pid": "Anserini",
+            "abstract": "Anserini is an open-source information retrieval toolkit built on Lucene [3, 4]. The goal of our effort is to support information retrieval research using the popular open-source Lucene search library by allowing researchers to easily replicate results with modern ranking models on diverse test collections. Although there are many open-source search engines developed and maintained by academic research groups, most of them are designed primarily to facilitate the publication of research papers, and as such, they often suffer from poor usability, incomplete documentation, and a host of other issues. The growing complexity of modern software ecosystems and the diverse capabilities that are required to build useful end-to-end search applications places academic research groups at a huge disadvantage relative to Lucene. Except for a handful of commercial web search engines that deploy custom infrastructure, Lucene has become the de facto platform in industry for building production search applications\u2014used by organizations as diverse as Twitter, Reddit, Bloomberg, and Target. It has an active developer base, diverse features and capabilities, and lies at the center of a vibrant ecosystem. However, Lucene lacks systematic support for information retrieval research\u2014in particular, ad hoc experimentation using standard test collections. This is where Anserini comes in: we enable cutting-edge information retrieval research using Lucene. At TREC 2018, we participated in the CENTRE, Common Core, and News Tracks. Each is described in its own section below. Our development efforts centered around the v0.1.0 release of Anserini, which is based on Lucene 6.3.0 (not the latest release).",
+            "key": "yang2018anserini",
+            "url": "https://trec.nist.gov/pubs/trec27/papers/anserini-CTR-CC-N.pdf",
+            "biburl": "https://dblp.org/",
+            "doi": "10.6028/NIST.SP.500-331.centre-Anserini",
+            "title": "Anserini at trec 2018: Centre, Common Core, and News Tracks",
+            "author": "Yang, Peilin,  Lin, Jimmy",
+            "bibtex": "@inproceedings{yang2018anserini,\n\ttitle = {Anserini at trec 2018: Centre, Common Core, and News Tracks},\n\tauthor = {Yang, Peilin and Lin, Jimmy},\n\tbooktitle = {Proceedings of the Twenty-Seventh Text REtrieval Conference (TREC 2018), Gaithersburg, MD},\n\tyear = {2018},\n\turl = {https://trec.nist.gov/pubs/trec27/papers/anserini-CTR-CC-N.pdf},\n\tbiburl = {https://dblp.org/},\n\tdoi = {10.6028/NIST.SP.500-331.centre-Anserini}\n}\n"
+        }
+    }
+}

@@ -1,0 +1,443 @@
+{
+    "BAU": {
+        "pid": "BAU",
+        "organization": "Albalqa' Applied University",
+        "name": "Muath Alzghool",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "BIT": {
+        "pid": "BIT",
+        "organization": "Beijing Institute of Technology",
+        "name": "Jingang Wang",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "BJUT": {
+        "pid": "BJUT",
+        "organization": "Beijing University of Technology",
+        "name": "Zhen YANG",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "CIRG_IRDISCO": {
+        "pid": "CIRG_IRDISCO",
+        "organization": "NUIG",
+        "name": "Arjumand Younus",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "CWI": {
+        "pid": "CWI",
+        "organization": "Centrum Wiskunde & Informatica",
+        "name": "Arjen P. de Vries",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "CompInsights": {
+        "pid": "CompInsights",
+        "organization": "Computable Insights",
+        "name": "John R. Frank",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "DLDE": {
+        "pid": "DLDE",
+        "organization": "Digital Library Digital Education in Beijing Institute of Technolog ",
+        "name": "BIT-DLDE",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "DuTH": {
+        "pid": "DuTH",
+        "organization": "Democritus University of Thrace",
+        "name": "George Drosatos",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "Foreseer": {
+        "pid": "Foreseer",
+        "organization": "The University of Michigan",
+        "name": "Yue Wang",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "GeorgetownYang": {
+        "pid": "GeorgetownYang",
+        "organization": "Georgetown University (Yang)",
+        "name": "Grace Hui Yang",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "Hrbust": {
+        "pid": "Hrbust",
+        "organization": "Harbin University of Science and Technology",
+        "name": "Sun Boyu",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "ICMC_USP": {
+        "pid": "ICMC_USP",
+        "organization": "University of Sao Paulo",
+        "name": "Marcelo Manzato",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "ICTNET": {
+        "pid": "ICTNET",
+        "organization": "Institute of Computing Technology, Chinese Academy of Sciences",
+        "name": "Liu Yue",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "IIIT_Hyderabad": {
+        "pid": "IIIT_Hyderabad",
+        "organization": "International Institute of Information Technology",
+        "name": "Aditya Joshi",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "IRIT": {
+        "pid": "IRIT",
+        "organization": "Institt de Recherche en Informatique de Toulouse",
+        "name": "Mohand BOUGHANEM",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "ISIKol": {
+        "pid": "ISIKol",
+        "organization": "Indian Statistical Institute, Kolkata, India",
+        "name": "Ayan Bandyopadhyay",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "ISIatTREC": {
+        "pid": "ISIatTREC",
+        "organization": "Indian Statistical Institute",
+        "name": "Dwaipayan Roy",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "KobeU": {
+        "pid": "KobeU",
+        "organization": "Kobe University",
+        "name": "Kazuhiro Seki",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "LSIS_LIA": {
+        "pid": "LSIS_LIA",
+        "organization": "LSIS/LIA",
+        "name": "Vincent Bouvier",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "MSR_Redmond": {
+        "pid": "MSR_Redmond",
+        "organization": "Microsoft Research Redmond",
+        "name": "Jaime Teevan",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "NEUIR": {
+        "pid": "NEUIR",
+        "organization": "Northeastern University",
+        "name": "Virgil Pavlu",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "NOVASEARCH": {
+        "pid": "NOVASEARCH",
+        "organization": "Universidade Nova de Lisboa",
+        "name": "Joao Magalhaes",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "PITT": {
+        "pid": "PITT",
+        "organization": "School of Information Sciences, University of Pittsburgh",
+        "name": "Jiepu Jiang",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "PKUICST": {
+        "pid": "PKUICST",
+        "organization": "Peking University",
+        "name": "PKUICST",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "PRIS": {
+        "pid": "PRIS",
+        "organization": "Pattern Recognition and Intelligent System laboratory",
+        "name": "Chunyun Zhang",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "QCRI": {
+        "pid": "QCRI",
+        "organization": "Qatar Computing Research Institute",
+        "name": "Wei Gao",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "QU": {
+        "pid": "QU",
+        "organization": "Qatar University",
+        "name": "Tamer Elsayed",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "RMIT": {
+        "pid": "RMIT",
+        "organization": "RMIT University",
+        "name": "J. Shane Culpepper",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "RetrieWin": {
+        "pid": "RetrieWin",
+        "organization": "Stanford University",
+        "name": "Aju Thalappillil Scaria",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "SCU": {
+        "pid": "SCU",
+        "organization": "Santa Clara University",
+        "name": "Yi Fang",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "StanfordEIG": {
+        "pid": "StanfordEIG",
+        "organization": "Stanford University ",
+        "name": "Lewis John McGibbney",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "Technion": {
+        "pid": "Technion",
+        "organization": "Technion - Israel Institute of Technology",
+        "name": "Fiana Raiber",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "UAmsterdam": {
+        "pid": "UAmsterdam",
+        "organization": "University of Amsterdam",
+        "name": "Jaap Kamps",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "UCAS": {
+        "pid": "UCAS",
+        "organization": "University of Chinese Academy of Sciences",
+        "name": "Ben He",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "UJS": {
+        "pid": "UJS",
+        "organization": "Jiangsu University",
+        "name": "Sengli Wu",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "ULugano": {
+        "pid": "ULugano",
+        "organization": "University of Lugano",
+        "name": "Ilya Markov",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "UMass_CIIR": {
+        "pid": "UMass_CIIR",
+        "organization": "CIIR, School of Computer Science, Univ. of Massachusetts Amherst",
+        "name": "James Allan",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "UNC_SILS": {
+        "pid": "UNC_SILS",
+        "organization": "School of Information and Library Science, UNC-CH",
+        "name": "Jaime Arguello",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "UPD": {
+        "pid": "UPD",
+        "organization": "University of Padova",
+        "name": "Emanuele Di Buccio",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "UWaterlooCLAC": {
+        "pid": "UWaterlooCLAC",
+        "organization": "University of Waterloo",
+        "name": "Charles Clarke",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "UWaterlooMDS": {
+        "pid": "UWaterlooMDS",
+        "organization": "University of Waterloo",
+        "name": "Mark Smucker",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "UiS": {
+        "pid": "UiS",
+        "organization": "University of Stavanger",
+        "name": "Krisztian Balog",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "UoG_TwTeam": {
+        "pid": "UoG_TwTeam",
+        "organization": "The University of Glasgow",
+        "name": "Jesus Alberto Rodriguez Perez",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "UvAILPS": {
+        "pid": "UvAILPS",
+        "organization": "University of Amsterdam",
+        "name": "Manos Tsagkias",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "WiscDEFT": {
+        "pid": "WiscDEFT",
+        "organization": "Wisconsin DEFT Research Group",
+        "name": "Jude Shavlik",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "YORK": {
+        "pid": "YORK",
+        "organization": "Department of ITEC, YORK University, Toronto ",
+        "name": "Sushma Yalamarti",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "csiro": {
+        "pid": "csiro",
+        "organization": "CSIRO",
+        "name": "Paul Thomas",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "diffeo": {
+        "pid": "diffeo",
+        "organization": "Diffeo",
+        "name": "John R. Frank",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "diro_web_13": {
+        "pid": "diro_web_13",
+        "organization": "Universit\u00e9 de Montr\u00e9al",
+        "name": "Alessandro Sordoni",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "fasilkomui": {
+        "pid": "fasilkomui",
+        "organization": "University of Indonesia",
+        "name": "Mirna Adriani",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "gatordsr": {
+        "pid": "gatordsr",
+        "organization": "University of Floria CISE Dept",
+        "name": "Christan Grant",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "hltcoe": {
+        "pid": "hltcoe",
+        "organization": "Johns Hopkins University Human Language Technology Center of Excellenc",
+        "name": "Paul McNamee",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "isi_pal": {
+        "pid": "isi_pal",
+        "organization": "Indian Statistical Institute",
+        "name": "Dipasree Pal",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "scunce": {
+        "pid": "scunce",
+        "organization": "East China Normal University",
+        "name": "Lan Man",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "scwhu": {
+        "pid": "scwhu",
+        "organization": "Social Computing Lab, Computer School, Wuhan University",
+        "name": "SUN Song-tao",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "udel": {
+        "pid": "udel",
+        "organization": "University of Delaware",
+        "name": "Ben Carterette",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "udel_fang": {
+        "pid": "udel_fang",
+        "organization": "InfoLab at University of Delaware",
+        "name": "Hui Fang",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "uiucGSLIS": {
+        "pid": "uiucGSLIS",
+        "organization": "Grad. School of Lib. & Info Sci; Univ. of Illinois, Urbana-Champaign",
+        "name": "Miles Efron",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "uogTr": {
+        "pid": "uogTr",
+        "organization": "University of Glasgow (Terrier Team)",
+        "name": "Iadh Ounis",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "ut": {
+        "pid": "ut",
+        "organization": "University of Twente",
+        "name": "Djoerd Hiemstra",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "webis": {
+        "pid": "webis",
+        "organization": "Web Technology & Information Systems at Bauhaus University Weimar",
+        "name": "Matthias Hagen",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "wim_GY_2013": {
+        "pid": "wim_GY_2013",
+        "organization": "Zhengzhou Information Technology Institute",
+        "name": "ZZITI",
+        "trec": "trec22",
+        "year": 2013
+    },
+    "wistud": {
+        "pid": "wistud",
+        "organization": "Web Information Systems group, TU Delft",
+        "name": "Claudia Hauff",
+        "trec": "trec22",
+        "year": 2013
+    }
+}

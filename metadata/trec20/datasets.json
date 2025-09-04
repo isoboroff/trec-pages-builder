@@ -1,0 +1,112 @@
+{
+    "entity": {
+        "corpus": "https://lemurproject.org/clueweb09/",
+        "topics": {
+            "2011 REF Task Topics": "https://trec.nist.gov/data/entity/11/11.topics-2.txt",
+            "2011 ELC Task Topics": "https://trec.nist.gov/data/entity/11/11.elc.topics.txt"
+        },
+        "qrels": {
+            "REF qrels file for trec_eval": "https://trec.nist.gov/data/entity/11/refqrels.txt",
+            "REF judgments for name strings": "https://trec.nist.gov/data/entity/11/refjudgments.txt"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/entity2011.html",
+        "other": {
+            "REF task evaluation README": "https://trec.nist.gov/data/entity/11/refeval-README.txt"
+        }
+    },
+    "microblog": {
+        "corpus": "https://trec.nist.gov/data/tweets/",
+        "topics": "https://trec.nist.gov/data/microblog/11/topics.MB1-50.txt",
+        "qrels": "https://trec.nist.gov/data/microblog/11/microblog11-qrels",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/microblog2011.html",
+        "other": {
+            "eval-microblog.pl": "https://trec.nist.gov/data/microblog/11/eval-microblog.pl",
+            "lucene-baseline.gz": "https://trec.nist.gov/data/microblog/11/lucene-baseline.gz",
+            "eval.lucene-baseline": "https://trec.nist.gov/data/microblog/11/eval.lucene-baseline"
+        }
+    },
+    "web": {
+        "corpus": "http://lemurproject.org/clueweb09/",
+        "topics": {
+            "2011 Web Track topics (query field only)": "https://trec.nist.gov/data/web/11/queries.101-150.txt",
+            "Full topic statements for 2011 topics": "https://trec.nist.gov/data/web/11/full-topics.xml"
+        },
+        "qrels": {
+            "qrels.adhoc": "https://trec.nist.gov/data/web/11/qrels.adhoc",
+            "qrels.diversity": "https://trec.nist.gov/data/web/11/qrels.diversity",
+            "qrels-for-ndeval": "https://trec.nist.gov/data/web/11/qrels-for-ndeval"
+        },
+        "ir_datasets": "https://ir-datasets.com/clueweb09.html",
+        "trec_webpage": "https://trec.nist.gov/data/web2011.html",
+        "other": {
+            "README file about the evaluation": "https://trec.nist.gov/data/web/11/eval-README.txt",
+            "gdeval.pl (compute nDCG and ERR)": "https://trec.nist.gov/data/web/11/gdeval.pl",
+            "ndeval.c (diversity eval)": "https://trec.nist.gov/data/web/11/ndeval.c"
+        }
+    },
+    "legal": {
+        "corpus": "https://trec-legal.umiacs.umd.edu/",
+        "topics": "https://trec-legal.umiacs.umd.edu/",
+        "qrels": "https://trec.nist.gov/data/legal/11/qrels.gz",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/legal11.html",
+        "other": {
+            "evaluation script": "https://trec.nist.gov/data/legal/11/dolegal10eval",
+            "calc1.c": "https://trec.nist.gov/data/legal/11/calc1.c",
+            "calc2.c": "https://trec.nist.gov/data/legal/11/calc2.c"
+        }
+    },
+    "chemical": {
+        "corpus": "https://trec.nist.gov/data/chemical10.html",
+        "topics": "https://trec.nist.gov/data/chemical10.html",
+        "qrels": "https://trec.nist.gov/data/chemical10.html",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/chemical11.html",
+        "other": {
+            "PATopics2011.tar.gz": "http://ir.nist.gov/TREC2010-CHEM/trec/2011/PATopics2011.tar.gz",
+            "TSTopics2011.zip": "http://ir.nist.gov/TREC2010-CHEM/trec/2011/TSTopics2011.zip",
+            "I2STopics2011.tar.gz": "http://ir.nist.gov/TREC2010-CHEM/trec/2011/I2STopics2011.tar.gz",
+            "I2STraining2011.tar.gz": "http://ir.nist.gov/TREC2010-CHEM/trec/2011/I2STraining2011.tar.gz"
+        }
+    },
+    "medical": {
+        "corpus": "",
+        "topics": "https://trec.nist.gov/data/medical/11/topics101-135.txt",
+        "qrels": {
+            "Judgment file suitable for computing extended inferred measures": "https://trec.nist.gov/data/medical/11/fullsample-qrels.gz",
+            "trec_eval qrels file": "https://trec.nist.gov/data/medical/11/qrels.txt"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/medical2011.html",
+        "other": {
+            "README file": "https://trec.nist.gov/data/medical/11/evalREADME.txt",
+            "report-visit mapping file": "https://trec.nist.gov/data/medical/11/UnivOfPittReportMappingToVisit.txt"
+        }
+    },
+    "session": {
+        "corpus": "http://lemurproject.org/clueweb09/",
+        "topics": "",
+        "qrels": "https://trec.nist.gov/data/session/11/judgments.txt",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/session2011.html",
+        "other": {
+            "Session data for RL1": "https://trec.nist.gov/data/session/11/sessiontrack2011.RL1.xml",
+            "Session data for RL2": "https://trec.nist.gov/data/session/11/sessiontrack2011.RL2.xml",
+            "Session data for RL3": "https://trec.nist.gov/data/session/11/sessiontrack2011.RL3.xml",
+            "Session data for RL4": "https://trec.nist.gov/data/session/11/sessiontrack2011.RL4.xml",
+            "README file for Session track evaluation": "https://trec.nist.gov/data/session/11/evalREADME.txt",
+            "Subtopic mapping file": "https://trec.nist.gov/data/session/11/sessionlastquery_subtopic_map.txt",
+            "Evaluation script": "https://trec.nist.gov/data/session/11/session_eval.pl"
+        }
+    },
+    "crowd": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {}
+    }
+}

@@ -1,0 +1,124 @@
+{
+    "car": {
+        "corpus": "https://trec-car.cs.unh.edu/datareleases/index.html",
+        "topics": "https://trec-car.cs.unh.edu/datareleases/index.html",
+        "qrels": "https://trec-car.cs.unh.edu/datareleases/index.html",
+        "ir_datasets": "https://ir-datasets.com/car.html",
+        "trec_webpage": "https://trec-car.cs.unh.edu/",
+        "other": {}
+    },
+    "deep": {
+        "corpus": {
+            "Passage Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2019#passage-ranking-dataset",
+            "Document Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2019#document-ranking-dataset"
+        },
+        "topics": {
+            "Passage Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2019#passage-ranking-dataset",
+            "Document Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2019#document-ranking-dataset"
+        },
+        "qrels": {
+            "Passage Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2019#passage-ranking-dataset",
+            "Document Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2019#document-ranking-dataset"
+        },
+        "ir_datasets": {
+            "Passage Ranking": "https://ir-datasets.com/msmarco-passage-v2.html#msmarco-passage-v2/trec-dl-2019",
+            "Document Ranking": "https://ir-datasets.com/msmarco-document-v2.html#msmarco-document-v2/trec-dl-2019"
+        },
+        "trec_webpage": "https://trec.nist.gov/data/deep2019.html",
+        "other": {
+            "Paper": "https://arxiv.org/abs/1611.09268",
+            "NIST judgments for the Document Ranking task": "https://trec.nist.gov/data/deep/2019qrels-docs.txt",
+            "NIST judgments for the Passage Ranking task": "https://trec.nist.gov/data/deep/2019qrels-pass.txt"
+        }
+    },
+    "pm": {
+        "corpus": {
+            "Scientific Abstracts (baseline)": "ftp://ftp.ncbi.nlm.nih.gov/pubmed/baseline/",
+            "clinicaltrials.0.tar.gz": "https://www.trec-cds.org/clinical_trials.0.tar.gz",
+            "clinicaltrials.1.tar.gz": "https://www.trec-cds.org/clinical_trials.1.tar.gz",
+            "clinicaltrials.2.tar.gz": "https://www.trec-cds.org/clinical_trials.2.tar.gz",
+            "clinicaltrials.3.tar.gz": "https://www.trec-cds.org/clinical_trials.3.tar.gz"
+        },
+        "topics": "https://trec.nist.gov/data/precmed/topics2019.xml",
+        "qrels": {
+            "Scientific Abstracts task raw judgments": "https://trec.nist.gov/data/precmed/abstracts.judgments.2019.csv",
+            "Scientific Abstracts task qrels suitable for trec-eval": "https://trec.nist.gov/data/precmed/qrels-treceval-abstracts.2019.txt",
+            "Scientific Abstracts task qrels suitable for sample-eval": "https://trec.nist.gov/data/precmed/qrels-sampleval-abstracts.2019.txt",
+            "Clinical Trials task raw judgments": "https://trec.nist.gov/data/precmed/clinical_trials.judgments.2019.csv",
+            "Clinical Trials task qrels suitable for trec-eval": "https://trec.nist.gov/data/precmed/qrels-treceval-trials.38.txt",
+            "Clinical Trials task qrels suitable for sample-eval": "https://trec.nist.gov/data/precmed/qrels-sampleval-trials.38.txt"
+        },
+        "ir_datasets": "https://ir-datasets.com/clinicaltrials.html",
+        "trec_webpage": "https://trec.nist.gov/data/precmed2019.html",
+        "other": {
+            "Evaluation script for computing inferred measures": "https://trec.nist.gov/data/clinical/sample_eval.pl"
+        }
+    },
+    "cast": {
+        "corpus": {
+            "MS MARCO Passage Ranking collection": "https://msmarco.blob.core.windows.net/msmarcoranking/collection.tar.gz",
+            "TREC CAR paragraph collection v2.0": "http://trec-car.cs.unh.edu/datareleases/v2.0/paragraphCorpus.v2.0.tar.xz",
+            "TREC Washington Post Corpus version 2": "https://ir.nist.gov/wapo/WashingtonPost.v2.tar.gz"
+        },
+        "topics": "https://github.com/daltonj/treccastweb/blob/master/2019/data/test_topics.query",
+        "qrels": "https://trec.nist.gov/data/cast/2019qrels.txt",
+        "ir_datasets": "https://ir-datasets.com/trec-cast.html",
+        "trec_webpage": "https://trec.nist.gov/data/cast2019.html",
+        "other": {
+            "Indri search interface": "http://boston.lti.cs.cmu.edu/Services/treccast19",
+            "Interactive web UI": "http://boston.lti.cs.cmu.edu/boston-2-25/",
+            "Washington Post duplicate file": "http://boston.lti.cs.cmu.edu/Services/treccast19/wapo_duplicate_list_v1.0.txt",
+            "MS MARCO duplicate file": "http://boston.lti.cs.cmu.edu/Services/treccast19/duplicate_list_v1.0.txt",
+            "train queries": "https://github.com/daltonj/treccastweb/blob/master/2019/data/training/train_topics.query",
+            "train run file": "http://boston.lti.cs.cmu.edu/vaibhav2/cast/train_topics.teIn",
+            "test queries": "https://github.com/daltonj/treccastweb/blob/master/2019/data/test_topics.query",
+            "test run file": "http://boston.lti.cs.cmu.edu/vaibhav2/cast/test_topics.teIn"
+        }
+    },
+    "news": {
+        "corpus": "https://trec.nist.gov/data/wapost/",
+        "topics": {
+            "Background Linking": "https://trec.nist.gov/data/news/2019/newsir19-background-linking-topics.xml",
+            "Entity Ranking": "https://trec.nist.gov/data/news/2019/newsir19-entity-ranking-topics.xml"
+        },
+        "qrels": {
+            "Background Linking": "https://trec.nist.gov/data/news/2019/newsir19-qrels-background.txt",
+            "Entity Ranking": "https://trec.nist.gov/data/news/2019/newsir19-qrels-entity.txt"
+        },
+        "ir_datasets": "https://ir-datasets.com/wapo.html",
+        "trec_webpage": "https://trec.nist.gov/data/news2019.html",
+        "other": {
+            "Background linking eval script": "https://trec.nist.gov/data/news/2019/eval-background.py",
+            "Entity ranking eval script": "https://trec.nist.gov/data/news/2019/eval-entity.py",
+            "WaPo near-duplicate clusters": "https://trec.nist.gov/data/news/2019/wapo-duplicate-hashes.gz"
+        }
+    },
+    "decisions": {
+        "corpus": "https://lemurproject.org/clueweb12/",
+        "topics": "https://trec.nist.gov/data/misinfo/2019topics.xml",
+        "qrels": "https://trec.nist.gov/data/misinfo/2019qrels_relevance.txt",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/misinfo2019.html",
+        "other": {
+            "file containing raw judgments (3 judgments per doc)": "https://trec.nist.gov/data/misinfo/2019qrels_raw.txt",
+            "file containing three judgments where efficacy is mapped to correctness ": "https://trec.nist.gov/data/misinfo/2019qrels_correctness.txt",
+            "accepted medical opinion regarding efficacy of treatments": "https://trec.nist.gov/data/misinfo/2019topics_efficacy.txt"
+        }
+    },
+    "fair": {
+        "corpus": "https://fair-trec.github.io/2019/index.html",
+        "topics": "https://fair-trec.github.io/2019/index.html",
+        "qrels": "https://fair-trec.github.io/2019/index.html",
+        "ir_datasets": "https://ir-datasets.com/trec-fair.html",
+        "trec_webpage": "https://trec.nist.gov/data/fair2019.html",
+        "other": {}
+    },
+    "incident": {
+        "corpus": "https://www.dcs.gla.ac.uk/~richardm/TREC_IS/",
+        "topics": "https://www.dcs.gla.ac.uk/~richardm/TREC_IS/",
+        "qrels": "https://www.dcs.gla.ac.uk/~richardm/TREC_IS/",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/incident.html",
+        "other": {}
+    }
+}

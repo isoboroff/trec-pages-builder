@@ -1,0 +1,779 @@
+{
+    "arizona-stateu.gonzalez": {
+        "pid": "arizona-stateu.gonzalez",
+        "organization": "Arizona State University (Gonzalez)",
+        "name": "Graciela Gonzalez",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "csiro-ict.mcarthur": {
+        "pid": "csiro-ict.mcarthur",
+        "organization": "Australian National University (CSIRO ICT Centre)",
+        "name": null,
+        "trec": "trec15",
+        "year": 2006
+    },
+    "fidelis.assis": {
+        "pid": "fidelis.assis",
+        "organization": "Fidelis Assis",
+        "name": null,
+        "trec": "trec15",
+        "year": 2006
+    },
+    "beijingu-posts-tele.weiran": {
+        "pid": "beijingu-posts-tele.weiran",
+        "organization": "Beijing University of Posts and Telecommunications",
+        "name": "Weiran Xu",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "cmu.dir.callan": {
+        "pid": "cmu.dir.callan",
+        "organization": "Carnegie Mellon University (Callan)",
+        "name": "Jamie Callan",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "case-western.ru.troy": {
+        "pid": "case-western.ru.troy",
+        "organization": "Case Western Reserve University",
+        "name": "Adam Troy, C/O GQ Zhang",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "cas-ict.wang": {
+        "pid": "cas-ict.wang",
+        "organization": "Chinese Academy of Sciences (ICT)",
+        "name": "Bin Wang",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "cas-iiis.tan": {
+        "pid": "cas-iiis.tan",
+        "organization": "Chinese Academy of Sciences (IIIS)",
+        "name": "Songbo Tan",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "chineseu-hongkong.kan": {
+        "pid": "chineseu-hongkong.kan",
+        "organization": "The Chinese University of Hong Kong",
+        "name": "Lo Ka Kan",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "cityu.macfarlane": {
+        "pid": "cityu.macfarlane",
+        "organization": "City University London",
+        "name": "Andy MacFarlane",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "clresearch": {
+        "pid": "clresearch",
+        "organization": "CL Research",
+        "name": null,
+        "trec": "trec15",
+        "year": 2006
+    },
+    "concordiau.bergler": {
+        "pid": "concordiau.bergler",
+        "organization": "Concordia University (Bergler)",
+        "name": "Sabine Bergler",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "concordiau.kosseim": {
+        "pid": "concordiau.kosseim",
+        "organization": "Concordia University (Kosseim)",
+        "name": "Leila Kosseim",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "coveo.soucy": {
+        "pid": "coveo.soucy",
+        "organization": "Coveo Solutions Inc.",
+        "name": null,
+        "trec": "trec15",
+        "year": 2006
+    },
+    "dalhousieu.keselj": {
+        "pid": "dalhousieu.keselj",
+        "organization": "Dalhousie University",
+        "name": "Vlado Keselj",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "dalianu.yang": {
+        "pid": "dalianu.yang",
+        "organization": "DaLian University of Technology",
+        "name": "ZhiHao Yang",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "dublincityu.gurrin": {
+        "pid": "dublincityu.gurrin",
+        "organization": "Dublin City University",
+        "name": "Cathal Gurrin",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "ecole-des-mines.beigbeder": {
+        "pid": "ecole-des-mines.beigbeder",
+        "organization": "Ecole des Mines de Saint-Etienne",
+        "name": "Michel BEIGBEDER",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "erasmus.schuemie": {
+        "pid": "erasmus.schuemie",
+        "organization": "ErasmusMC, TNO and the University of Twente",
+        "name": "Martijn Schuemie",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "fudanu.niu": {
+        "pid": "fudanu.niu",
+        "organization": "Fudan University (Niu)",
+        "name": "Junyu Niu",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "fudan.wu": {
+        "pid": "fudan.wu",
+        "organization": "Fudan University (Wu)",
+        "name": "Lide Wu",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "harbin.zhao": {
+        "pid": "harbin.zhao",
+        "organization": "Harbin Institute of Technology (HIT)",
+        "name": "Zhao",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "humboldtu.haider": {
+        "pid": "humboldtu.haider",
+        "organization": "Humboldt University, Berlin & Strato AG",
+        "name": "Peter Haider",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "hummingbird.tomlinson": {
+        "pid": "hummingbird.tomlinson",
+        "organization": "Hummingbird",
+        "name": "Stephen Tomlinson",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "ibm.carmel": {
+        "pid": "ibm.carmel",
+        "organization": "IBM Research Lab (Haifa)",
+        "name": "David Carmel",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "ibm.prager": {
+        "pid": "ibm.prager",
+        "organization": "IBM T.J. Watson Research Center, 1S-D56",
+        "name": null,
+        "trec": "trec15",
+        "year": 2006
+    },
+    "iit.urbain": {
+        "pid": "iit.urbain",
+        "organization": "Illinois Institute of Technology",
+        "name": "Jay Urbain",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "indianau.yang": {
+        "pid": "indianau.yang",
+        "organization": "Indiana University (Yang)",
+        "name": "Kiduk Yang",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "inst-infocomm-res.yu": {
+        "pid": "inst-infocomm-res.yu",
+        "organization": "Institute for Infocomm Research",
+        "name": null,
+        "trec": "trec15",
+        "year": 2006
+    },
+    "itc-irst.negri": {
+        "pid": "itc-irst.negri",
+        "organization": "ITC-irst",
+        "name": "Matteo Negri",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "jozef-stefan-inst.bratko": {
+        "pid": "jozef-stefan-inst.bratko",
+        "organization": "Jozef Stefan Institute (Bratko)",
+        "name": "Andrej Bratko",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "kyotou.wan": {
+        "pid": "kyotou.wan",
+        "organization": "Kyoto University",
+        "name": "Ray",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "lcc.harabagiu": {
+        "pid": "lcc.harabagiu",
+        "organization": "Language Computer Corporation (LCC-Harabagiu)",
+        "name": null,
+        "trec": "trec15",
+        "year": 2006
+    },
+    "lcc.moldovan": {
+        "pid": "lcc.moldovan",
+        "organization": "Language Computer Corporation (LCC-Moldovan)",
+        "name": null,
+        "trec": "trec15",
+        "year": 2006
+    },
+    "lewis.dave": {
+        "pid": "lewis.dave",
+        "organization": "David D. Lewis Consulting",
+        "name": null,
+        "trec": "trec15",
+        "year": 2006
+    },
+    "lexiclone.geller": {
+        "pid": "lexiclone.geller",
+        "organization": "LexiClone Inc.",
+        "name": null,
+        "trec": "trec15",
+        "year": 2006
+    },
+    "lowlands-team.deVries": {
+        "pid": "lowlands-team.deVries",
+        "organization": "LowLands Team (LL6, consisting of CWI and Twente)",
+        "name": "Arjen P. de Vries",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "macquarieu.molla": {
+        "pid": "macquarieu.molla",
+        "organization": "Macquarie University",
+        "name": "Diego Molla",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "masseyu.meyer": {
+        "pid": "masseyu.meyer",
+        "organization": "Massey University",
+        "name": null,
+        "trec": "trec15",
+        "year": 2006
+    },
+    "mit.katz": {
+        "pid": "mit.katz",
+        "organization": "Massachusetts Institute of Technology (MIT)",
+        "name": "Boris Katz",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "max-planck.theobald": {
+        "pid": "max-planck.theobald",
+        "organization": "Max-Planck Institute for Informatics",
+        "name": null,
+        "trec": "trec15",
+        "year": 2006
+    },
+    "microsoft.roberston": {
+        "pid": "microsoft.roberston",
+        "organization": "Microsoft Research Cambridge",
+        "name": null,
+        "trec": "trec15",
+        "year": 2006
+    },
+    "mitre-corp.burger": {
+        "pid": "mitre-corp.burger",
+        "organization": "The MITRE Corp. (Burger)",
+        "name": null,
+        "trec": "trec15",
+        "year": 2006
+    },
+    "mitsubhishi.yerazunis": {
+        "pid": "mitsubhishi.yerazunis",
+        "organization": "Mitsubishi Electric Research Laboratories",
+        "name": null,
+        "trec": "trec15",
+        "year": 2006
+    },
+    "nec-labs.tseng": {
+        "pid": "nec-labs.tseng",
+        "organization": "NEC Laboratories America, Inc.",
+        "name": null,
+        "trec": "trec15",
+        "year": 2006
+    },
+    "nii-eguchi": {
+        "pid": "nii-eguchi",
+        "organization": "National Institute of Informatics",
+        "name": "Koji Eguchi",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "nlm.aronson": {
+        "pid": "nlm.aronson",
+        "organization": "National Library of Medicine",
+        "name": null,
+        "trec": "trec15",
+        "year": 2006
+    },
+    "nsa.schone": {
+        "pid": "nsa.schone",
+        "organization": "National Security Agency (NSA)",
+        "name": null,
+        "trec": "trec15",
+        "year": 2006
+    },
+    "ntu.chen": {
+        "pid": "ntu.chen",
+        "organization": "National Taiwan University",
+        "name": "Hsin-Hsi Chen",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "nih.kayaalp": {
+        "pid": "nih.kayaalp",
+        "organization": "NIH - Lister Hill National Center for Biomedical Communications",
+        "name": null,
+        "trec": "trec15",
+        "year": 2006
+    },
+    "nus.kor": {
+        "pid": "nus.kor",
+        "organization": "National University of Singapore",
+        "name": "Dave (Kian Wei) Kor",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "northeasternu.aslam": {
+        "pid": "northeasternu.aslam",
+        "organization": "Northeastern University",
+        "name": "Javed A. Aslam",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "ohsu.hersh": {
+        "pid": "ohsu.hersh",
+        "organization": "Oregon Health & Science University",
+        "name": "William Hersh",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "openu.zhu": {
+        "pid": "openu.zhu",
+        "organization": "The Open University",
+        "name": "Jianhan Zhu",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "pekingu.yan": {
+        "pid": "pekingu.yan",
+        "organization": "Peking University, China (Yan)",
+        "name": "Hongfei Yan",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "polytechnicu.suel": {
+        "pid": "polytechnicu.suel",
+        "organization": "Polytechnic University (Suel)",
+        "name": "Torsten Suel",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "purdueu.si": {
+        "pid": "purdueu.si",
+        "organization": "Purdue University and Carnegie Mellon University",
+        "name": "Luo Si",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "queen-mary-ulondon.forst": {
+        "pid": "queen-mary-ulondon.forst",
+        "organization": "Queen Mary, University of London",
+        "name": "Frederik Forst",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "queenslandu.geva": {
+        "pid": "queenslandu.geva",
+        "organization": "Queensland University of Technology",
+        "name": "Shlomo Geva",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "ricoh.you": {
+        "pid": "ricoh.you",
+        "organization": "Ricoh Software Research Center Beijing Co., Ltd",
+        "name": null,
+        "trec": "trec15",
+        "year": 2006
+    },
+    "robert-gordonu.harper": {
+        "pid": "robert-gordonu.harper",
+        "organization": "Robert Gordon University",
+        "name": "David J Harper",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "rmit.scholer": {
+        "pid": "rmit.scholer",
+        "organization": "RMIT University",
+        "name": "Falk Scholer",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "saarlandu.leidner": {
+        "pid": "saarlandu.leidner",
+        "organization": "Saarland University",
+        "name": "Jochen Leidner",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "sabir.buckley": {
+        "pid": "sabir.buckley",
+        "organization": "Sabir Research, Inc.",
+        "name": null,
+        "trec": "trec15",
+        "year": 2006
+    },
+    "sjtu-apex-lab.bao": {
+        "pid": "sjtu-apex-lab.bao",
+        "organization": "Shanghai Jiao Tong University (SJTU Team)",
+        "name": "Shenghua Bao",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "suny-buffalo.ruiz": {
+        "pid": "suny-buffalo.ruiz",
+        "organization": "State University of New York at Buffalo",
+        "name": "Miguel E Ruiz",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "tarragon.tong": {
+        "pid": "tarragon.tong",
+        "organization": "Tarragon Consulting Corporation",
+        "name": null,
+        "trec": "trec15",
+        "year": 2006
+    },
+    "technion.gabrilovich": {
+        "pid": "technion.gabrilovich",
+        "organization": "Technion - Israel Institute of Technology",
+        "name": "Evgeniy Gabrilovich",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "tokyo-it.whittaker": {
+        "pid": "tokyo-it.whittaker",
+        "organization": "Tokyo Institute of Technology",
+        "name": "Edward Whittaker",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "tomlinson.stan": {
+        "pid": "tomlinson.stan",
+        "organization": "Stan Tomlinson",
+        "name": null,
+        "trec": "trec15",
+        "year": 2006
+    },
+    "trulyintelligent.satish": {
+        "pid": "trulyintelligent.satish",
+        "organization": "TrulyIntelligent Technologies Pvt. Ltd.",
+        "name": null,
+        "trec": "trec15",
+        "year": 2006
+    },
+    "tsinghuau.zhang": {
+        "pid": "tsinghuau.zhang",
+        "organization": "Tsinghua University (State Key Lab)",
+        "name": "Min Zhang",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "tufts.sculley": {
+        "pid": "tufts.sculley",
+        "organization": "Tufts Univ.",
+        "name": "D. Sculley",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "ualaska.fairbanks.newby": {
+        "pid": "ualaska.fairbanks.newby",
+        "organization": "University of Alaska Fairbanks",
+        "name": "Greg Newby",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "ualbany.min": {
+        "pid": "ualbany.min",
+        "organization": "University of Albany",
+        "name": "Min Wu",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "uamsterdam.ilps": {
+        "pid": "uamsterdam.ilps",
+        "organization": "University of Amsterdam (ILPS)",
+        "name": null,
+        "trec": "trec15",
+        "year": 2006
+    },
+    "uamsterdam.meij": {
+        "pid": "uamsterdam.meij",
+        "organization": "University of Amsterdam, AID Team",
+        "name": null,
+        "trec": "trec15",
+        "year": 2006
+    },
+    "uarkansas-littlerock.joshi": {
+        "pid": "uarkansas-littlerock.joshi",
+        "organization": "University of Arkansas at Little Rock (Joshi)",
+        "name": "Hemant Joshi",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "ucalifornia.sc.zhang": {
+        "pid": "ucalifornia.sc.zhang",
+        "organization": "University of California, Santa Cruz",
+        "name": "Yi Zhang",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "ucal-berkeley.larso": {
+        "pid": "ucal-berkeley.larso",
+        "organization": "University of California, Berkeley",
+        "name": "Ray R. Larson",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "ucolorado.cohen": {
+        "pid": "ucolorado.cohen",
+        "organization": "UCHSC at Fitzsimons",
+        "name": "Kevin Bretonnel Cohen",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "uedinburgh.webber": {
+        "pid": "uedinburgh.webber",
+        "organization": "University of Edinburgh",
+        "name": "Bonnie Webber",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "uglasgow.ounis": {
+        "pid": "uglasgow.ounis",
+        "organization": "University of Glasgow",
+        "name": "Iadh Ounis\t",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "uguelph.song": {
+        "pid": "uguelph.song",
+        "organization": "University of Guelph",
+        "name": "Fei Song",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "uhannover.chernov": {
+        "pid": "uhannover.chernov",
+        "organization": "University of Hannover (L3S Research Ctr.)",
+        "name": null,
+        "trec": "trec15",
+        "year": 2006
+    },
+    "uhosp-geneva.ruch": {
+        "pid": "uhosp-geneva.ruch",
+        "organization": "University and Hospitals of Geneva",
+        "name": null,
+        "trec": "trec15",
+        "year": 2006
+    },
+    "uiuc.zhai": {
+        "pid": "uiuc.zhai",
+        "organization": "University of Illinois at Urbana-Champaign",
+        "name": "ChengXiang Zhai",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "uillinois.chicago.zhou": {
+        "pid": "uillinois.chicago.zhou",
+        "organization": "University of Illinois at Chicago (Zhou)",
+        "name": "Wei Zhou",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "uillinois.chicago.zhang": {
+        "pid": "uillinois.chicago.zhang",
+        "organization": "University of Illinois at Chicago (Zhang)",
+        "name": "Wei Zhang",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "uiowa.eichmann": {
+        "pid": "uiowa.eichmann",
+        "organization": "University of Iowa",
+        "name": "David Eichmann",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "ukarlsruhe-cmu.schlaefer": {
+        "pid": "ukarlsruhe-cmu.schlaefer",
+        "organization": "University of Karlsruhe & Carnegie Mellon University",
+        "name": "Nico Schlaefer",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "ulimerick.sutcliffe": {
+        "pid": "ulimerick.sutcliffe",
+        "organization": "University of Limerick",
+        "name": "Richard Sutcliffe",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "umaryland-bc.finin": {
+        "pid": "umaryland-bc.finin",
+        "organization": "U. Maryland, Baltimore County and APL, Johns Hopkins U.",
+        "name": "Tim Finin",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "umaryland.oard": {
+        "pid": "umaryland.oard",
+        "organization": "University of Maryland (College Park)",
+        "name": "Doug Oard",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "umass.allan": {
+        "pid": "umass.allan",
+        "organization": "University of Massachusetts (Allan)",
+        "name": "James Allan",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "umelbourne.ngoc-anh": {
+        "pid": "umelbourne.ngoc-anh",
+        "organization": "The University of Melbourne",
+        "name": "Vo Ngoc Anh",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "umilano.vigna": {
+        "pid": "umilano.vigna",
+        "organization": "Universit degli Studi di Milano",
+        "name": "Sebastiano Vigna",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "umkc.zhao": {
+        "pid": "umkc.zhao",
+        "organization": "University of Missouri-Kansas City (SCE - UMKC)",
+        "name": null,
+        "trec": "trec15",
+        "year": 2006
+    },
+    "uneuchatel.savoy": {
+        "pid": "uneuchatel.savoy",
+        "organization": "Universite de Neuchatel",
+        "name": "Jacques Savoy",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "upisa.attardi": {
+        "pid": "upisa.attardi",
+        "organization": "University of Pisa",
+        "name": "Giuseppe Attardi",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "upittsburgh.he": {
+        "pid": "upittsburgh.he",
+        "organization": "University of Pittsburgh",
+        "name": "Daqing He",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "uroma.bos": {
+        "pid": "uroma.bos",
+        "organization": "University of Rome \"La Sapienza\"",
+        "name": "Johan Bos",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "usheffield.greenwood": {
+        "pid": "usheffield.greenwood",
+        "organization": "The University of Sheffield",
+        "name": "Mark Greenwood",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "ustrathclyde.baillie": {
+        "pid": "ustrathclyde.baillie",
+        "organization": "University of Strathclyde",
+        "name": "Mark Baillie",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "utokyo.ishii": {
+        "pid": "utokyo.ishii",
+        "organization": "University of Tokyo",
+        "name": "Natsu ISHII",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "uulster.patterson": {
+        "pid": "uulster.patterson",
+        "organization": "University of Ulster & Saint-Petersburg State University",
+        "name": "David Patterson",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "uwash.lewis": {
+        "pid": "uwash.lewis",
+        "organization": "University of Washington (UW CLMA group)",
+        "name": "William Lewis",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "uwaterloo-clarke": {
+        "pid": "uwaterloo-clarke",
+        "organization": "University of Waterloo",
+        "name": "Charles Clarke",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "uwisconsin.craven": {
+        "pid": "uwisconsin.craven",
+        "organization": "University of Wisconsin Madison",
+        "name": "Mark Craven, Xiaojin \"Jerry\" Zhu",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "weill-med-cornellu": {
+        "pid": "weill-med-cornellu",
+        "organization": "Weill Medical College of Cornell University",
+        "name": "Fabien Campagne",
+        "trec": "trec15",
+        "year": 2006
+    },
+    "yorku.huang": {
+        "pid": "yorku.huang",
+        "organization": "York University",
+        "name": "Jimmy Huang",
+        "trec": "trec15",
+        "year": 2006
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "xlingual": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {}
+    },
+    "web": {
+        "corpus": "http://ir.dcs.gla.ac.uk/test_collections/govinfo.html",
+        "topics": {
+            "Topic Distillation": "https://trec.nist.gov/data/topics_eng/webtopics_551-600.txt.gz",
+            "Named-Page": "https://trec.nist.gov/data/topics_eng/webnamed_page_topics.1-150.txt.gz"
+        },
+        "qrels": {
+            "Topic Distillation": "https://trec.nist.gov/data/qrels_eng/qrels.distillation.txt.gz",
+            "Named-Page": "https://trec.nist.gov/data/qrels_eng/qrels.named-page.txt.gz"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/t11.web.html",
+        "other": {}
+    },
+    "qa": {
+        "corpus": "https://catalog.ldc.upenn.edu/LDC2002T31",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/qa/t2002_qadata.html",
+        "other": {}
+    },
+    "filtering": {
+        "corpus": "",
+        "topics": "https://trec.nist.gov/data/filtering/T11filter_T2002-filt-topics.txt",
+        "qrels": {
+            "Training qrels for adaptive runs": "https://trec.nist.gov/data/filtering/T11filter_qrels.train.adapt",
+            "Training qrels for batch and routing runs": "https://trec.nist.gov/data/filtering/T11filter_qrels.train.batch",
+            "Test qrels": "https://trec.nist.gov/data/filtering/T11filter_qrels.test",
+            "Checksums for document-order.gz and qrels": "https://trec.nist.gov/data/filtering/T11filter_MD5SUMS",
+            "Final evaluation qrels": "https://trec.nist.gov/data/filtering/qrels.final.all.newformat"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/t2002_filtering.html",
+        "other": {
+            "Guidelines": "http://trec.nist.gov/act_part/data/T11filter_guide.html",
+            "Check input script": "https://trec.nist.gov/data/filtering/check_filtering.pl",
+            "List of test document id's in date/id order": "https://trec.nist.gov/data/filtering/T11doc-order.gz"
+        }
+    },
+    "novelty": {
+        "corpus": "https://trec.nist.gov/data/cd45/index.html",
+        "topics": "https://trec.nist.gov/data/t11_novelty/novelty_topics.txt",
+        "qrels": {
+            "max_qrels.new": "https://trec.nist.gov/data/t11_novelty/max_qrels.new",
+            "max_qrels.relevant": "https://trec.nist.gov/data/t11_novelty/max_qrels.relevant",
+            "min_qrels.new": "https://trec.nist.gov/data/t11_novelty/min_qrels.new",
+            "min_qrels.relevant": "https://trec.nist.gov/data/t11_novelty/min_qrels.relevant"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/t11_novelty.html",
+        "other": {
+            "README": "https://trec.nist.gov/data/t11_novelty/README",
+            "TREC 2002 Novelty Track Guidelines": "https://trec.nist.gov/data/t11_novelty/novelty_guidelines.html",
+            "eval_novelty_run.pl": "https://trec.nist.gov/data/t11_novelty/eval_novelty_run.pl",
+            "2002 Document Text": "https://trec.nist.gov/novelty.02/index.html"
+        }
+    },
+    "interactive": {
+        "corpus": "http://ir.dcs.gla.ac.uk/test_collections/access_to_data.html",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/t2002_interactive.html",
+        "other": {
+            "Guidelines": "https://trec.nist.gov/data/t11_interactive/guidelines.html"
+        }
+    },
+    "video": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {}
+    }
+}

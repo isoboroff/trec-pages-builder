@@ -1,0 +1,74 @@
+{
+    "neuclir": {
+        "fullname": "NeuCLIR",
+        "tasks": {
+            "fas": "Farsi Retrieval",
+            "rus": "Russian Retrieval",
+            "zho": "Chinese Retrieval"
+        },
+        "webpage": "https://neuclir.github.io/",
+        "coordinators": "Dawn Lawrie, Johns Hopkins University:Sean MacAvaney, University of Glasgow:James Mayfield, Johns Hopkins University:Paul McNamee, Johns Hopkins University:Douglas W. Oard, University of Maryland:Luca Soldaini, Amazon Alexa AI:Eugene Yang, Johns Hopkins University",
+        "description": "Cross-language Information Retrieval (CLIR) has been studied at TREC and subsequent evaluation forums for more than twenty years, but recent advances in the application of deep learning to information retrieval (IR) warrant a new, large-scale effort that will enable exploration of classical and modern IR techniques for this task.",
+        "year": 2022
+    },
+    "misinfo": {
+        "fullname": "Health Misinformation",
+        "tasks": {
+            "retrieval": "Retrieval",
+            "prediction": "Prediction"
+        },
+        "webpage": "https://trec-health-misinfo.github.io/",
+        "coordinators": "Charlie Clarke, University of Waterloo:Maria Maistro, University of Copenhagen:Mark Smucker, University of Waterloo",
+        "description": "The Health Misinformation track aims to (1) provide a venue for research on retrieval methods that promote better decision making with search engines, and (2) develop new online and offline evaluation methods to predict the decision making quality induced by search results. Consumer health information is used as the domain of interest in the track.",
+        "year": 2022
+    },
+    "deep": {
+        "fullname": "Deep Learning",
+        "tasks": {
+            "docs": "Document Ranking",
+            "passages": "Passage Ranking"
+        },
+        "webpage": "https://microsoft.github.io/msmarco/TREC-Deep-Learning",
+        "coordinators": "Daniel Campos, University of Illinois at Urbana-Champaign:Nick Craswell, Microsoft:Jimmy Lin, University of Waterloo:Bhaskar Mitra, Microsoft:Emine Yilmaz, University College London",
+        "description": "The Deep Learning track focuses on IR tasks where a large training set is available, allowing us to compare a variety of retrieval approaches including deep neural networks and strong non-neural approaches, to see what works best in a large-data regime.",
+        "year": 2022
+    },
+    "cast": {
+        "fullname": "Conversational Assistance",
+        "tasks": {
+            "mixed": "Mixed Initiative",
+            "primary": "Primary"
+        },
+        "webpage": "https://www.treccast.ai/",
+        "coordinators": "Leif Azzopardi, University of Strathclyde:Jeff Dalton, University of Glasgow:Mohammed Alian Nejadi, University of Amsterdam:Paul Ogbonoko, University of Glasgow:Johanne Trippas, University of Melbourne:Svitlana Vakulenko, University of Amsterdam",
+        "description": "The main aim of Conversational Assistance Track (CAsT) is to advance research on conversational search systems. The goal of the track is to create reusable benchmarks for open-domain information centric conversational dialogues.",
+        "year": 2022
+    },
+    "trials": {
+        "fullname": "Clinical Trials",
+        "tasks": "",
+        "webpage": "http://www.trec-cds.org/",
+        "coordinators": "Dina Demner-Fushman, U.S. National Library of Medicine:William Hersh, Oregon Health and Science University:Kirk Roberts, University of Texas Health Science Center",
+        "description": "The goal of the Clinical Trials track is to focus research on the clinical trials matching problem: given a free text summary of a patient health record, find suitable clinical trials for that patient.",
+        "year": 2022
+    },
+    "fair": {
+        "fullname": "Fair Ranking",
+        "tasks": {
+            "editors": "Editors",
+            "coordinators": "Coordinators"
+        },
+        "webpage": "https://fair-trec.github.io/",
+        "coordinators": "Michael Ekstrand, Boise State University:Isaac Johnson, Wikimedia Foundation:Graham McDonald, University of Glasgow:Amifa Raj, Boise State University",
+        "description": "The Fair Ranking track focuses on building two-sided systems that offer fair exposure to ranked content producers while ensuring high results quality for ranking consumers.",
+        "year": 2022
+    },
+    "crisis": {
+        "fullname": "CrisisFACTs",
+        "tasks": "",
+        "webpage": "https://crisisfacts.github.io/",
+        "coordinators": "Cody Buntain, University of Maryland:Richard McCreadie, University of Glasgow",
+        "description": "The CrisisFACTS track focuses on temporal summarization for first responders in emergency situations. These summaries differ from traditional summarization in that they order information by time and produce a series of short updates instead of a longer narrative.",
+        "year": 2022
+    }
+}

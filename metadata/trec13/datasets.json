@@ -1,0 +1,87 @@
+{
+    "genomics": {
+        "corpus": "https://dmice.ohsu.edu/trec-gen/data/2004/",
+        "topics": "https://trec.nist.gov/data/genomics/04.adhoc.topics.txt",
+        "qrels": "https://trec.nist.gov/data/genomics/04.qrels.txt",
+        "ir_datasets": "https://ir-datasets.com/medline.html#medline/2004/trec-genomics-2004",
+        "trec_webpage": "https://trec.nist.gov/data/t13_genomics.html",
+        "other": {
+            "TREC 2004 Sample Topics": "https://trec.nist.gov/data/genomics/04.sample.topics.txt",
+            "TREC 2004 Categorization Task README file": "https://trec.nist.gov/data/genomics/04.readme.txt",
+            "TREC 2004 Categormzation Task Judgement file": "https://trec.nist.gov/data/genomics/04.judgments.txt"
+        }
+    },
+    "HARD": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {}
+    },
+    "robust": {
+        "corpus": "https://trec.nist.gov/data/cd45/index.html",
+        "topics": "https://trec.nist.gov/data/robust/04.testset.gz",
+        "qrels": "https://trec.nist.gov/data/robust/qrels.robust2004.txt",
+        "ir_datasets": "https://ir-datasets.com/disks45.html",
+        "trec_webpage": "https://trec.nist.gov/data/t13_robust.html",
+        "other": {
+            "Guidelines": "https://trec.nist.gov/data/robust/04.guidelines.html",
+            "TREC 2004 version of robust eval perl script": "https://trec.nist.gov/data/robust/robust2004_eval.pl"
+        }
+    },
+    "qa": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/qa/t2004_qadata.html",
+        "other": {
+            "TREC 2004 QA Test Questions": "https://trec.nist.gov/data/qa/2004_qadata/QA2004_testset.xml",
+            "TREC 2004 QA Ranked List (top 1000 documents per target)": "https://trec.nist.gov/data/qa/2004_qadata/04.ranked_list.gz",
+            "TREC 2004 Judgments for TREC 2004 factoid questions": "https://trec.nist.gov/data/qa/2004_qadata/04.factoid_judgments.txt",
+            "TREC 2004 Answer set for TREC 2004 list questions": "https://trec.nist.gov/data/qa/2004_qadata/04.list_answers.txt",
+            "TREC 2004 Answer set for TREC 2004 'other' questions": "https://trec.nist.gov/data/qa/2004_qadata/04.other_answers.txt",
+            "TREC 2004 Patterns README": "https://trec.nist.gov/data/qa/2004_qadata/04.patterns.README.txt",
+            "TREC 2004 QA track patterns": "https://trec.nist.gov/data/qa/2004_qadata/04.patterns.zip",
+            "04.target_type.txt": "https://trec.nist.gov/data/qa/2004_qadata/04.target_type.txt"
+        }
+    },
+    "web": {
+        "corpus": "",
+        "topics": "https://trec.nist.gov/data/web/Web2004.query.stream.trecformat.txt",
+        "qrels": "https://trec.nist.gov/data/web/04.qrels.web.mixed.txt",
+        "ir_datasets": "https://ir-datasets.com/gov.html#gov",
+        "trec_webpage": "https://trec.nist.gov/data/t13.web.html",
+        "other": {
+            "TREC 2004 Web Track topic types": "https://trec.nist.gov/data/web/04.topic-map.official.txt"
+        }
+    },
+    "novelty": {
+        "corpus": "https://catalog.ldc.upenn.edu/LDC2002T31",
+        "topics": "https://trec.nist.gov/data/t13_novelty/novelty04.topics.txt",
+        "qrels": {
+            "TREC 2004 relevant sentences for all documents (task 2)": "https://trec.nist.gov/data/t13_novelty/04.qrels.relevant",
+            "TREC 2004 relevant sentences for the first 5 documents (task 3)": "https://trec.nist.gov/data/t13_novelty/04.qrels.5.relevant",
+            "TREC 2004 novel sentences for the first 5 documents (task 3)": "https://trec.nist.gov/data/t13_novelty/04.qrels.5.new",
+            "TREC 2004 Novel sentences for all documents": "https://trec.nist.gov/data/t13_novelty/04.qrels.new",
+            "TREC 2004 relevant sentences for all but first 5 documents": "https://trec.nist.gov/data/t13_novelty/04.qrels.lastN.relevant",
+            "TREC 2004 novel sentences for all but first 5 documents": "https://trec.nist.gov/data/t13_novelty/04.qrels.lastN.new"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/t13_novelty.html",
+        "other": {
+            "TREC 2004 Novelty Topic Text": "https://trec.nist.gov/data/t13_novelty/novelty04.topics.txt",
+            "TREC 2004 DOCNOs": "https://trec.nist.gov/data/t13_novelty/04.docnos.novelty",
+            "TREC 2004 evaluation script": "https://trec.nist.gov/data/t13_novelty/04.eval_novelty_run.pl"
+        }
+    },
+    "terabyte": {
+        "corpus": "http://ir.dcs.gla.ac.uk/test_collections/gov2-summary.htm",
+        "topics": "https://trec.nist.gov/data/terabyte/04/04topics.701-750.txt",
+        "qrels": "https://trec.nist.gov/data/terabyte/04/04.qrels.12-Nov-04",
+        "ir_datasets": "https://ir-datasets.com/gov2.html#gov2/trec-tb-2004",
+        "trec_webpage": "https://trec.nist.gov/data/terabyte04.html",
+        "other": {}
+    }
+}

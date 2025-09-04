@@ -1,0 +1,112 @@
+{
+    "trials": {
+        "corpus": "http://www.trec-cds.org/2023.html#documents",
+        "topics": "https://trec.nist.gov/data/trials/topics2023.xml",
+        "qrels": "https://trec.nist.gov/data/trials/qrels2023.txt",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/trials2023.html",
+        "other": {}
+    },
+    "crisis": {
+        "corpus": "https://crisisfacts.github.io/#datasets",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/crisis2023.html",
+        "other": {
+            "CrisisFACTs utilities Github, for use with ir_datasets": "https://github.com/crisisfacts",
+            "Snapshot of CrisisFACTs utilities github as of November 30, 2023 (commit 128c94e9).": "https://trec.nist.gov/data/2023-CrisisFACTs-utilities.tar.gz"
+        }
+    },
+    "deep": {
+        "corpus": {
+            "Passage Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning#passage-ranking-dataset",
+            "Document Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning#document-ranking-dataset"
+        },
+        "topics": {
+            "Passage Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning#passage-ranking-dataset",
+            "Document Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning#document-ranking-dataset"
+        },
+        "qrels": {
+            "Passage Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning#passage-ranking-dataset",
+            "Document Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning#document-ranking-dataset",
+            "Passage Ranking (NIST)": "https://trec.nist.gov/data/deep/2023.qrels.pass.withDupes.txt",
+            "Passage Ranking (NIST, 1 judgments mapped to 0)": "https://trec.nist.gov/data/deep/2023.qrels.pass.withDupes.no1.txt",
+            "Document Ranking (NIST)": "https://trec.nist.gov/data/deep/2023.qrels.docs.wihDupes.txt",
+            "Document Ranking (NIST, 1 judgments mapped to 0)": "https://trec.nist.gov/data/deep/2023.qrels.docs.wihDupes.no1.txt"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/deep2023.html",
+        "other": {
+            "Equivalence classes of duplicate passages": "https://ir.nist.gov/msmarco-v2-passage-neardupes.txt.gz"
+        }
+    },
+    "ikat": {
+        "corpus": "https://lemurproject.org/clueweb22/obtain.php",
+        "topics": {
+            "2023_train_topics.json": "https://drive.google.com/file/d/1sNHmVYO9PVG2kFxLscPGhN-uCCUuDAu9/view?usp=sharing",
+            "2023_test_topics.json": "https://drive.google.com/file/d/1zPSiAqLmbx9QFGm6walnuMUl7xoJmRB7/view?usp=sharing"
+        },
+        "qrels": {
+            "Relevance judgments": "https://trec.nist.gov/data/ikat/2023-qrels.all-turns.txt",
+            "PTKB relevance judgments": "https://trec.nist.gov/data/ikat/2023-ptkb-qrels.txt"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/ikat2023.html",
+        "other": {
+            "Datasets and Resources (www.trecikat.com)": "https://www.trecikat.com/data/"
+        }
+    },
+    "neuclir": {
+        "corpus": "https://ir.nist.gov/neuclir/neuclir1.tar.gz",
+        "topics": {
+            "Topics": "https://trec.nist.gov/data/neuclir/2023/neuclir-2023-topics.0605.jsonl",
+            "Technical topics": "https://trec.nist.gov/data/neuclir/2023/neuclir-2023-technical_topics.0719.jsonl"
+        },
+        "qrels": "https://trec.nist.gov/data/neuclir/2023/neuclir-2023-qrels.final.tar.gz",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/neuclir2023.html",
+        "other": {
+            "Machine translations": "https://ir.nist.gov/neuclir/neuCLIR-translations.tar.gz",
+            "Technical documents collection": "https://ir.nist.gov/neuclir/csl_data.release.jsonl.gz",
+            "Google Translate MT of the tech documents collection": "https://ir.nist.gov/neuclir/csl_data.google_translate.063023.release.jsonl.gz",
+            "HC4 training corpus": "https://ir.nist.gov/neuclir/hc4-docs.tar.gz"
+        }
+    },
+    "atomic": {
+        "corpus": "https://huggingface.co/TREC-AToMiC",
+        "topics": {
+            "Text-to-image topics": "https://trec.nist.gov/data/atomic/TREC-2023-Text-to-Image.json",
+            "Image-to-text topics": "https://trec.nist.gov/data/atomic/TREC-2023-Image-to-Text.json"
+        },
+        "qrels": {
+            "Text-to-image relevance judgments": "https://trec.nist.gov/data/atomic/qrels.2023.t2i",
+            "Image-to-text relevance judgments": "https://trec.nist.gov/data/atomic/qrels.2023.i2t"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/atomic.html",
+        "other": {}
+    },
+    "product": {
+        "corpus": "https://trec-product-search.github.io/#datasets",
+        "topics": "https://trec.nist.gov/data/product/2023-test-queries.tsv",
+        "qrels": "https://trec.nist.gov/data/product/2023-product-qrels.txt",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/product2023.html",
+        "other": {
+            "Other resources on the track's website": "https://trec-product-search.github.io/#datasets"
+        }
+    },
+    "tot": {
+        "corpus": "",
+        "topics": {
+            "training": "https://trec.nist.gov/data/tot/2023-train.zip",
+            "development": "https://trec.nist.gov/data/tot/2023-dev.zip",
+            "test": "https://trec.nist.gov/data/tot/2023-test.zip"
+        },
+        "qrels": "https://trec.nist.gov/data/tot/2023-qrels.txt",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/tot2023.html",
+        "other": {}
+    }
+}

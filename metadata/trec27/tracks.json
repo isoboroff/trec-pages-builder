@@ -1,0 +1,70 @@
+{
+    "pm": {
+        "fullname": "Precision Medicine",
+        "tasks": {
+            "trials": "Clinical Trials",
+            "abstracts": "Scientific Abstracts"
+        },
+        "webpage": "https://www.trec-cds.org/",
+        "coordinators": "Kirk Roberts, The University of Texas Health Science Center:Dina Demner-Fushman, U.S. National Library of Medicine:Ellen M. Voorhees, National Institute of Standards and Technology (NIST):William R. Hersh, Oregon Health & Science University:Steven Bedrick, Oregon Health & Science University:Alexander J. Lazar, The University of Texas MD Anderson Cancer Center",
+        "description": "The fundamental philosophy behind precision medicine is that for many complex diseases, there is no \u201cone size fits all\u201d solutions for patients with a particular diagnosis. The proper treatment for a patient depends upon genetic, environmental, and lifestyle choices. The ability to personalize treatment in a scientifically rigorous manner based on these factors is thus the hallmark of the emerging precision medicine paradigm. Nowhere is the potential impact of precision medicine more closely focused at the moment than in cancer, where lifesaving treatments for particular patients could prove ineffective or even deadly for other patients based entirely upon the particular genetic mutations in the patient\u2019s tumor(s). Significant effort, therefore, has been devoted to deepening the scientific research surrounding precision medicine. This includes the Precision Medicine Initiative launched by former President Barack Obama in 2015, now known as the All of Us Research Program.",
+        "year": 2018
+    },
+    "core": {
+        "fullname": "Common Core",
+        "tasks": "",
+        "webpage": "https://trec-core.github.io/2018/",
+        "coordinators": "Evangelos Kanoulas, University of Amsterdam:James Allan, University of Massachusetts:Donna Harman, National Institute of Standards and Technology (NIST)",
+        "description": "The primary goals of the proposed core track are three-fold: (a) to bring together the community in a common track that could lead to a diverse set of participating runs, (b) to build one or more new test collections using more recently created documents, and (c) to establish a (new) test collection construction methodology that avoids the pitfalls of depth-k pooling.",
+        "year": 2018
+    },
+    "rts": {
+        "fullname": "Real-time Summarization",
+        "tasks": {
+            "a": "Real-time updates",
+            "b": "Email digests"
+        },
+        "webpage": "https://trecrts.github.io/",
+        "coordinators": "Royal Sequiera, University of Waterloo:Luchen Tan, University of Waterloo:Jimmy Lin, University of Waterloo",
+        "description": "The TREC 2018 Real-Time Summarization (RTS) Track is the third iteration of a community e\u0082ort to explore techniques, algorithms, and systems that automatically monitor streams of social media posts such as tweets on Twi\u008ber to address users\u2019 prospective information needs. \u0091ese needs are articulated as \u201cinterest pro\u0080les\u201d, akin to topics in ad hoc retrieval. In our formulation of real-time summarization, the goal is for a system to deliver relevant and novel content to users in a timely fashion. We refer to these messages generically as \u201cupdates\u201d.",
+        "year": 2018
+    },
+    "car": {
+        "fullname": "Complex Answer Retrieval",
+        "tasks": {
+            "passages": "Passage Task",
+            "entities": "Entity Task"
+        },
+        "webpage": "https://trec-car.cs.unh.edu/",
+        "coordinators": "Laura Dietz:Ben Gamari:Jeff Dalton:Nick Craswell",
+        "description": "Current retrieval systems provide good solutions towards phrase-level retrieval for simple fact and entity-centric needs. This track encourages research for answering more complex information needs with longer answers. Much like Wikipedia pages synthesize knowledge that is globally distributed, we envision systems that collect relevant information from an entire corpus, creating synthetically structured documents by collating retrieved results.",
+        "year": 2018
+    },
+    "news": {
+        "fullname": "News",
+        "tasks": {
+            "background": "Background Linking",
+            "entity": "Entity Ranking"
+        },
+        "webpage": "http://trec-news.org/",
+        "coordinators": "Ian Soboroff, National Institute of Standards and Technology (NIST):Shudong Huang, National Institute of Standards and Technology (NIST):Donna Harman, National Institute of Standards and Technology (NIST)",
+        "description": "The News track is a new track for TREC 2019, focused on information retrieval in the service of helping people read the news. In cooperation with the Washington Post, we released a new collection of 600,000 news articles, and crafted two tasks related to how news is presented on the web.",
+        "year": 2018
+    },
+    "incident": {
+        "fullname": "Incident Streams",
+        "tasks": "",
+        "webpage": "http://trecis.org/",
+        "coordinators": "Richard McCreadie, University of Glasgow:Cody Buntain, New York University:Ian Soborof, National Institute of Standards and Technology (NIST)",
+        "description": "The Text Retrieval Conference (TREC) Incident Streams track is a new initiative that aims to mature social media-based emergency response technology. This initiative advances the state of the art in this area through an evaluation challenge, which attracts researchers and developers from across the globe. The 2018 edition of the track provides a standardized evaluation methodology, an ontology of emergency-relevant social media information types, proposes a scale for information criticality, and releases a dataset containing fifteen test events and approximately 20,000 labeled tweets. Analysis of this dataset reveals a significant amount of actionable information on social media during emergencies (> 10%). While this data is valuable for emergency response efforts, analysis of the 39 state-of-the-art systems demonstrate a performance gap in identifying this data. We therefore find the current state-of-the-art is insufficient for emergency responders\u2019 requirements, particularly for rare actionable information for which there is little prior training data available.",
+        "year": 2018
+    },
+    "centre": {
+        "fullname": "CENTRE",
+        "tasks": "",
+        "webpage": "https://www.centre-eval.org/trec2018/index.html",
+        "coordinators": "Ian Soboroff, National Institute of Standards and Technology (NIST):Nicola Ferro, University of Padua:Maria Maistro, University of Padua:Tetsuya Sakai, Waseda University",
+        "description": "The CLEF-NTCIR-TREC Reproducibility track (CENTRE) is a research replication and reproduction effort spanning three major information retrieval evaluation venues. In the TREC edition, CENTRE participants were asked to reproduce runs from either the TREC 2016 clinical decision support track, the 2013 web track, or the 2014 web track. Only one group participated in the track, and unfortunately the track will not continue in 2019.",
+        "year": 2018
+    }
+}

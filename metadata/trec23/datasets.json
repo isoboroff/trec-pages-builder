@@ -1,0 +1,125 @@
+{
+    "clinical": {
+        "corpus": {
+            "pmc-text-00.tar.gz": "http://ceb.nlm.nih.gov/~simpsonmatt/pmc-text-00.tar.gz",
+            "pmc-text-01.tar.gz": "http://ceb.nlm.nih.gov/~simpsonmatt/pmc-text-01.tar.gz",
+            "pmc-text-02.tar.gz": "http://ceb.nlm.nih.gov/~simpsonmatt/pmc-text-02.tar.gz",
+            "pmc-text-03.tar.gz": "http://ceb.nlm.nih.gov/~simpsonmatt/pmc-text-03.tar.gz"
+        },
+        "topics": "https://www.trec-cds.org/topics2014.xml",
+        "qrels": "https://trec.nist.gov/data/clinical/qrels-treceval-2014.txt",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/clinical2014.html",
+        "other": {
+            "Set of valid doc IDs in the collection": "https://trec.nist.gov/data/clinical/docnos-2014.txt",
+            "Relevance judgment file suitable for computing inferred measures": "https://trec.nist.gov/data/clinical/qrels-sampleval-2014.txt",
+            "Evaluation script for computing inferred measures": "https://trec.nist.gov/data/clinical/sample_eval.pl",
+            "Retro-fitted 'answers' for the topics as produced by one physician": "https://trec.nist.gov/data/clinical/answers-2014.xlsx"
+        }
+    },
+    "context": {
+        "corpus": "",
+        "topics": "https://trec.nist.gov/data/context/2014/topics.csv.txt",
+        "qrels": {
+            "geo-user judgments": "https://trec.nist.gov/data/context/2014/geo-user.qrels.txt",
+            "geo-NIST judgments": "https://trec.nist.gov/data/context/2014/geo-nist.qrels.txt",
+            "desc-doc judgments": "https://trec.nist.gov/data/context/2014/desc-doc.qrels.txt"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/context2014.html",
+        "other": {
+            "profiles": "https://trec.nist.gov/data/context/2014/profiles2014-70.csv.txt",
+            "contexts": "https://trec.nist.gov/data/context/2014/contexts2014.csv.txt",
+            "examples": "https://trec.nist.gov/data/context/2014/examples2014.csv.txt",
+            "README for eval script and judgments": "https://trec.nist.gov/data/context/2014/README.txt",
+            "evaluation script": "https://trec.nist.gov/data/context/2014/eval.py"
+        }
+    },
+    "microblog": {
+        "corpus": "",
+        "topics": {
+            "TREC 2014 test topics": "https://trec.nist.gov/data/microblog/2014/topics.MB171-225.txt",
+            "TREC 2014 topics with added description field": "https://trec.nist.gov/data/microblog/2014/topics.desc.MB171-225.txt"
+        },
+        "qrels": "https://trec.nist.gov/data/microblog/2014/qrels2014.txt",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/microblog2014.html",
+        "other": {
+            "Cluster annotations for the TTG task": "https://trec.nist.gov/data/microblog/2014/trec2014_mb_ttg_clusters.json",
+            "Evaluation script for the TTG task": "https://trec.nist.gov/data/microblog/2014/ttg_eval.py"
+        }
+    },
+    "web": {
+        "corpus": "http://lemurproject.org/clueweb12/",
+        "topics": {
+            "TREC 2014 test queries": "https://trec.nist.gov/data/web/2014/web2014.topics.txt",
+            "full topic statements of TREC 2014 test queries": "https://trec.nist.gov/data/web/2014/trec2014-topics.xml"
+        },
+        "qrels": {
+            "file containing all judgments": "https://trec.nist.gov/data/web/2014/qrels.all.txt",
+            "judgment file containing one aspect per topic": "https://trec.nist.gov/data/web/2014/qrels.adhoc.txt",
+            "judgment file suitable for use with ndeval": "https://trec.nist.gov/data/web/2014/qrels.ndeval.txt"
+        },
+        "ir_datasets": "https://ir-datasets.com/clueweb12.html",
+        "trec_webpage": "https://trec.nist.gov/data/web2014.html",
+        "other": {
+            "github repository with evaluation code and baselines": "http://github.com/trec-web/trec-web-2014"
+        }
+    },
+    "federated": {
+        "corpus": "",
+        "topics": "https://trec.nist.gov/data/federated/2014/queryterms_fedweb2014.txt",
+        "qrels": {
+            "Vertical Selection task judgments file": "https://trec.nist.gov/data/federated/2014/vertical-qrels.txt",
+            "Resource Selection task judgments file": "https://trec.nist.gov/data/federated/2014/resource-qrels.txt",
+            "Results Merging task judgments file": "https://trec.nist.gov/data/federated/2014/merging-qrels.txt"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/federated2014.html",
+        "other": {
+            "Vertical Selection Task - TREC 2014 Verticals definition": "https://trec.nist.gov/data/federated/2014/verticals_fedweb2014.txt",
+            "Vertical Selection Task - README file for Vertical Selection task evaluation": "https://trec.nist.gov/data/federated/2014/README-VS.txt",
+            "Vertical Selection Task - Evaluation script for Vertical Selection task": "https://trec.nist.gov/data/federated/2014/evalVS.pl",
+            "Resource Selection Task - TREC 2014 Resources list": "https://trec.nist.gov/data/federated/2014/resources_fedweb2014.txt",
+            "Resource Selection Task - README file for Resource Selection task evaluation": "https://trec.nist.gov/data/federated/2014/README-RS.txt",
+            "Results Merging Task - README file for Results Merging task evaluation": "https://trec.nist.gov/data/federated/2014/README-RM.txt",
+            "Results Merging Task - Duplicate page sets": "https://trec.nist.gov/data/federated/2014/merging-duplicates.txt",
+            "Results Merging Task - Intent probabilities per topic": "https://trec.nist.gov/data/federated/2014/fedweb-50test-vr4rm.txt",
+            "Results Merging Task - Evaluation script for intent aware measures": "https://trec.nist.gov/data/federated/2014/calc-nDCG-IA.py"
+        }
+    },
+    "kba": {
+        "corpus": "https://s3.amazonaws.com/aws-publicdatasets/trec/kba/index.html",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/kba.html",
+        "other": {}
+    },
+    "tempsumm": {
+        "corpus": "",
+        "topics": "https://trec.nist.gov/data/tempsumm/2014/trec2014-ts-topics-test.xml",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/tempsumm2014.html",
+        "other": {
+            "Evaluation script for Temporal Summarization Runs": "https://trec.nist.gov/data/tempsumm/2014/tseval.py",
+            "Scoring Data: nuggets": "https://trec.nist.gov/data/tempsumm/2014/nuggets.tsv",
+            "Scoring Data: found matches": "https://trec.nist.gov/data/tempsumm/2014/matches.tsv",
+            "Scoring Data: set of pooled updates": "https://trec.nist.gov/data/tempsumm/2014/updates_sampled.tsv",
+            "Scoring Data: set of pooled updates (extended)": "https://trec.nist.gov/data/tempsumm/2014/updates_sampled.extended.tsv"
+        }
+    },
+    "session": {
+        "corpus": "http://lemurproject.org/clueweb12/",
+        "topics": "https://trec.nist.gov/data/session/2014/topictext-890.txt",
+        "qrels": "https://trec.nist.gov/data/session/2014/judgments.txt",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/session2014.html",
+        "other": {
+            "Session data": "https://trec.nist.gov/data/session/2014/sessiontrack2014.xml.gz",
+            "README file for Session track evaluation": "https://trec.nist.gov/data/session/2014/README.txt",
+            "Session->topic mapping file": "https://trec.nist.gov/data/session/2014/session-topic-mapping.txt"
+        }
+    }
+}

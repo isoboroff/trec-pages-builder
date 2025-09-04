@@ -1,0 +1,85 @@
+{
+    "kba": {
+        "fullname": "Knowledge Base Acceleration",
+        "tasks": {
+            "kba-ssf-2013": "Streaming Slot Filling",
+            "kba-ccr-2013": "Cumulative Citation Recommendation"
+        },
+        "webpage": "https://trec-kba.org/",
+        "coordinators": "John R. Frank, Massachusetts Institute of Technology:Steven J. Bauer, Massachusetts Institute of Technology:Max Kleiman Weinre, Massachusetts Institute of Technology:Daniel A. Roberts, Massachusetts Institute of Technology:Nilesh Tripuraneni, Massachusetts Institute of Technology:Ce Zhang, Stanford University:Christopher Re, University of Wisconsin:Ellen Voorhees, Ian Soboroff, National Institute of Standards and Technology (NIST)",
+        "description": "The Knowledge Base Acceleration (KBA) track in TREC 2013 expanded the entity-centric filtering evaluation from TREC KBA 2012. This track evaluates systems that filter a time-ordered corpus for documents and slot fills that would change an entity profile in a predefined list of entities. We doubled the size of the KBA streamcorpus to twelve thousand contiguous hours and a billion documents from blogs, news, and Web content",
+        "year": 2013
+    },
+    "context": {
+        "fullname": "Contextual Suggestion",
+        "tasks": "",
+        "webpage": "https://sites.google.com/site/treccontext/",
+        "coordinators": "Adriel Dean-Hall, University of Waterloo:Charles L.A. Clarke, University of Waterloo:Nicole Simone, University of Waterloo:Jaap Kamps, University of Amsterdam:Paul Thomas, CSIRO:Ellen Voorhees, National Institute of Standards and Technology (NIST)",
+        "description": "The contextual suggestion track investigates search techniques for complex information needs that are highly dependent on context and user interests. For example, imagine an information retrieval researcher with a November evening to spend in Gaithersburg, Maryland. A contextual suggestion system might recommend a beer at the Dogfish Head Alehouse, dinner at the Flaming Pit, or even a trip into Washington on the metro to see the National Mall. The primary goal of this track is to develop evaluation methodologies for such systems.",
+        "year": 2013
+    },
+    "web": {
+        "fullname": "Web",
+        "tasks": {
+            "adhoc": "Adhoc Retrieval",
+            "risk": "Risk-sensitive Retrieval"
+        },
+        "webpage": "https://www.microsoft.com/en-us/research/project/trec-web-track-2013/",
+        "coordinators": "Kevyn Collins-Thompson, University of Michigan:Paul Bennett, Fernando Diaz, Microsoft Research:Charlie Clarke, University of Waterloo:Ellen M. Voorhees, National Institute of Standards and Technology (NIST)",
+        "description": "The goal of the TREC Web track is to explore and evaluate retrieval approaches over large-scale subsets of the Web \u2013 currently on the order of one billion pages.",
+        "year": 2013
+    },
+    "federated": {
+        "fullname": "Federated Web Search",
+        "tasks": {
+            "selection": "Resource Selection",
+            "merging": "Results Merging"
+        },
+        "webpage": "http://sites.google.com/site/trecfedweb",
+        "coordinators": "Thomas Demeester, Ghent Univesity:Dolf Trieschnigg, University of Twente:Dong Nguyen, University of Twente:Djoerd Hiemstra, University of Twente",
+        "description": "The TREC Federated Web Search track is intended to promote research related to federated search in a realistic web setting, and hereto provides a large data collection gathered from a series of online search engines. This overview paper discusses the results of the first edition of the track, FedWeb 2013. The focus was on basic challenges in federated search: (1) resource selection, and (2) results merging.",
+        "year": 2013
+    },
+    "microblog": {
+        "fullname": "Microblog",
+        "tasks": "",
+        "webpage": "https://github.com/lintool/twitter-tools/wiki",
+        "coordinators": "Jimmy Lin, University of Maryland:Miles Efron, University of Illinois",
+        "description": "This year represents the third iteration of the TREC Microblog track, which began in 2011. There was no substantive change in the task definition, which remains nominally real-time search, best summarized as \u201cAt time T, give me the most relevant tweets about topic X.\u201d However, we introduced a radically different evaluation methodology, dubbed \u201cevaluation as a service\u201d, which attempted to address deficiencies in how the document collection was distributed in previous years. This is the first time such an approach has been deployed at TREC. Overall, we believe that the evaluation methodology was successful, drawing participation from twenty groups around the world.",
+        "year": 2013
+    },
+    "tempsumm": {
+        "fullname": "Temporal Summarization",
+        "tasks": {
+            "sus": "Sequential Update Summarization",
+            "vt": "Value Tracking"
+        },
+        "webpage": "https://web.archive.org/web/20170618023232/http://www.trec-ts.org/",
+        "coordinators": "Javed Aslam, Northeastern University:Matthew Ekstrand-Abueg, Northeastern University:Virgil Pavlu, Northeastern University:Fernando Diaz, Microsoft Research:Tetsuya Sakai, Waseda University",
+        "description": "Unexpected news events such as earthquakes or natural disasters represent a unique information access problem where traditional approaches fail. For example, immediately after an event, the corpus may be sparsely populated with relevant content. Even when, after a few hours, relevant content is available, it is often inaccurate or highly redundant. At the same time, crisis events demonstrate a scenario where users urgently need information, especially if they are directly affected by the event. The goal of this track is to develop systems for efficiently monitoring the information associated with an event over time. Specifically, we are interested in developing systems which (1) can broadcast short, relevant, and reliable sentence-length updates about a developing event and (2) can track the value of important event-related attributes (e.g. number of fatalities).",
+        "year": 2013
+    },
+    "session": {
+        "fullname": "Session",
+        "tasks": {
+            "RL1": "RL1",
+            "RL2": "RL2",
+            "RL3": "RL3"
+        },
+        "webpage": "http://ir.cis.udel.edu/sessions",
+        "coordinators": "Ben Carterette, University of Delaware:Ashraf Bah, University of Delaware:Evangelos Kanoulas, Google:Mark Hall, Edge Hill University:Paul Clough, University of Sheffield",
+        "description": "The TREC Session track ran for the fourth time in 2013. The track has the primary goal of providing test collections and evaluation measures for studying information retrieval over user sessions rather than one-time queries. These test collections are meant to be portable, reusable, statistically powerful, and open to anyone that wishes to work on the problem of retrieval over sessions.",
+        "year": 2013
+    },
+    "crowd": {
+        "fullname": "Crowdsourcing",
+        "tasks": {
+            "standard": "Standard",
+            "basic": "Basic"
+        },
+        "webpage": "",
+        "coordinators": "Mark D. Smucker, University of Waterloo:Gabriella Kazai, Microsoft Research:Matthew Lease, University of Texas at Austin",
+        "description": "In 2013, the Crowdsourcing track partnered with the TREC Web Track and had a single task to crowdsource relevance judgments for a set of Web pages and search topics shared by the Web Track.",
+        "year": 2013
+    }
+}

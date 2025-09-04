@@ -1,0 +1,86 @@
+{
+    "pm": {
+        "corpus": {
+            "medline_xml.part1.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/medline_xml.part1.tar.gz",
+            "medline_xml.part2.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/medline_xml.part2.tar.gz",
+            "medline_xml.part3.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/medline_xml.part3.tar.gz",
+            "medline_xml.part4.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/medline_xml.part4.tar.gz",
+            "medline_xml.part5.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/medline_xml.part5.tar.gz",
+            "medline_txt.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/medline_txt.tar.gz",
+            "extra_abstracts.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/extra_abstracts.tar.gz",
+            "clinicaltrials_xml.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/clinicaltrials_xml.tar.gz",
+            "clinicaltrials_txt.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/clinicaltrials_txt.tar.gz"
+        },
+        "topics": "https://trec.nist.gov/data/precmed/topics2018.xml",
+        "qrels": {
+            "Relevance judgment file suitable for trec_eval for Scientific Abstracts task": "https://trec.nist.gov/data/precmed/qrels-treceval-abstracts-2018-v2.txt",
+            "Relevance judgment file suitable for computing inferred measures for Scientific Abstracts task": "https://trec.nist.gov/data/precmed/qrels-sample-abstracts-v2.txt",
+            "Raw judgments for Scientific Abstracts task": "https://trec.nist.gov/data/precmed/abstracts.judgments.2018-v2.csv",
+            "Relevance judgment file suitable for trec_eval for Clinical Trials task": "https://trec.nist.gov/data/precmed/qrels-treceval-clinical_trials-2018-v2.txt",
+            "Relevance judgment file suitable for computing inferred measures for Clinical Trials task": "https://trec.nist.gov/data/precmed/qrels-sample-trials-v2.txt",
+            "Raw judgments for Clinical Trials task": "https://trec.nist.gov/data/precmed/clinical_trials.judgments.2018-v2.csv"
+        },
+        "ir_datasets": "https://ir-datasets.com/clinicaltrials.html",
+        "trec_webpage": "https://trec.nist.gov/data/precmed2018.html",
+        "other": {
+            "Evaluation script for computing inferred measures": "https://trec.nist.gov/data/clinical/sample_eval.pl"
+        }
+    },
+    "core": {
+        "corpus": "https://trec.nist.gov/data/wapost/",
+        "topics": "https://trec.nist.gov/data/core/topics2018.txt",
+        "qrels": "https://trec.nist.gov/data/core/qrels2018.txt",
+        "ir_datasets": "https://ir-datasets.com/wapo.html",
+        "trec_webpage": "https://trec.nist.gov/data/core2018.html",
+        "other": {}
+    },
+    "rts": {
+        "corpus": "",
+        "topics": {
+            "TREC 2018 RTS Final Interest Profiles (Topics)": "https://trecrts.github.io/RTS18_test_profiles.json",
+            "TREC 2018 RTS Crowd Interest Profiles (Topics)": "https://trecrts.github.io/RTS18_crowd_profiles.json"
+        },
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/rts.html",
+        "other": {}
+    },
+    "car": {
+        "corpus": "https://trec-car.cs.unh.edu/datareleases/index.html",
+        "topics": "https://trec-car.cs.unh.edu/datareleases/index.html",
+        "qrels": "https://trec-car.cs.unh.edu/datareleases/index.html",
+        "ir_datasets": "https://ir-datasets.com/car.html",
+        "trec_webpage": "https://trec-car.cs.unh.edu/",
+        "other": {}
+    },
+    "news": {
+        "corpus": "https://trec.nist.gov/data/wapost/",
+        "topics": {
+            "Background Linking": "https://trec.nist.gov/data/news/2018/newsir18-topics.txt",
+            "Entity Ranking": "https://trec.nist.gov/data/news/2018/newsir18-entities.txt"
+        },
+        "qrels": {
+            "Background Linking": "https://trec.nist.gov/data/news/2018/bqrels.exp-gains.txt",
+            "Entity Ranking": "https://trec.nist.gov/data/news/2018/eqrels.txt"
+        },
+        "ir_datasets": "https://ir-datasets.com/wapo.html",
+        "trec_webpage": "https://trec.nist.gov/data/news2018.html",
+        "other": {}
+    },
+    "incident": {
+        "corpus": "https://www.dcs.gla.ac.uk/~richardm/TREC_IS/",
+        "topics": "https://www.dcs.gla.ac.uk/~richardm/TREC_IS/",
+        "qrels": "https://www.dcs.gla.ac.uk/~richardm/TREC_IS/",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/incident.html",
+        "other": {}
+    },
+    "centre": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {}
+    }
+}

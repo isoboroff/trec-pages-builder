@@ -1,0 +1,100 @@
+{
+    "clinical": {
+        "corpus": {
+            "pmc-text-00.tar.gz": "http://ceb.nlm.nih.gov/~simpsonmatt/pmc-text-00.tar.gz",
+            "pmc-text-01.tar.gz": "http://ceb.nlm.nih.gov/~simpsonmatt/pmc-text-01.tar.gz",
+            "pmc-text-02.tar.gz": "http://ceb.nlm.nih.gov/~simpsonmatt/pmc-text-02.tar.gz",
+            "pmc-text-03.tar.gz": "http://ceb.nlm.nih.gov/~simpsonmatt/pmc-text-03.tar.gz"
+        },
+        "topics": {
+            "Task A": "https://trec.nist.gov/data/clinical/topics-2015-A.xml",
+            "Task B": "https://trec.nist.gov/data/clinical/topics-2015-B.xml"
+        },
+        "qrels": "https://trec.nist.gov/data/clinical/qrels-treceval-2015.txt",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/clinical2015.html",
+        "other": {
+            "Relevance judgment file suitable for computing inferred measures": "https://trec.nist.gov/data/clinical/qrels-sampleval-2015.txt",
+            "Evaluation script for computing inferred measures": "https://trec.nist.gov/data/clinical/sample_eval.pl"
+        }
+    },
+    "microblog": {
+        "corpus": "",
+        "topics": "https://trec.nist.gov/data/microblog/2015/TREC2015-MB-testtopics.txt",
+        "qrels": "https://trec.nist.gov/data/microblog/2015/qrels.txt",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/microblog2015.html",
+        "other": {
+            "Tweet identifiers from the evaluation (161MB, 40M ids)": "https://ir.nist.gov/microblog/2015-ids-filtered.gz",
+            "README file for evaluation": "https://trec.nist.gov/data/microblog/2015/eval-README.txt",
+            "Evaluation script for Task A": "https://trec.nist.gov/data/microblog/2015/real-time-filtering-modelA-eval.py",
+            "Evaluation script for Task B": "https://trec.nist.gov/data/microblog/2015/real-time-filtering-modelB-eval.py",
+            "Clusters file": "https://trec.nist.gov/data/microblog/2015/clusters-2015.json",
+            "Tweet to day epoch": "https://trec.nist.gov/data/microblog/2015/tweet2dayepoch.txt"
+        }
+    },
+    "context": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "https://trec.nist.gov/data/context/2015/qrels-batch.txt",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/context2015.html",
+        "other": {}
+    },
+    "tempsumm": {
+        "corpus": "",
+        "topics": "https://trec.nist.gov/data/tempsumm/2015/trec2015-ts-topics-test.xml",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/tempsumm2015.html",
+        "other": {
+            "README file for eval tar file": "https://trec.nist.gov/data/tempsumm/2015/README.txt",
+            "Evaluation tar file": "https://trec.nist.gov/data/tempsumm/2015/ts15eval.tgz"
+        }
+    },
+    "task": {
+        "corpus": "",
+        "topics": {
+            "Test queries": "https://trec.nist.gov/data/tasks/final_tasks.xml",
+            "Elaborated topics (with subtasks)": "https://trec.nist.gov/data/tasks/subtasks.txt"
+        },
+        "qrels": {
+            "Keyphrase qrels": "https://trec.nist.gov/data/tasks/qrels-keyphrases.txt",
+            "Document qrels": "https://trec.nist.gov/data/tasks/qrels-docs.txt"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/tasks2015.html",
+        "other": {}
+    },
+    "recall": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {}
+    },
+    "domain": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/domain2015.html",
+        "other": {
+            "Truth Data": "https://trec.nist.gov/data/domain/2015/dynamic-domain-2015-truth-data-v5.xml.gz",
+            "Cube Test qrels file": "https://trec.nist.gov/data/domain/2015/cubetest-qrels-v5.gz"
+        }
+    },
+    "qa": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/qa/2015_LiveQA.html",
+        "other": {
+            "Questions used in TREC 2015 test set": "https://trec.nist.gov/data/qa/2015_LiveQA/questions.txt",
+            "Map from Yahoo question ids to TREC question numbers": "https://trec.nist.gov/data/qa/2015_LiveQA/qids.txt",
+            "2015 Judgments for submitted strings (version 2)": "https://trec.nist.gov/data/qa/2015_LiveQA/LiveQA2015-qrels-ver2.txt.gz"
+        }
+    }
+}

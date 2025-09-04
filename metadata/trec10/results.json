@@ -1,0 +1,2090 @@
+{
+    "web": {
+        "ARCJ0": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2360",
+                    "P_100": "0.1194",
+                    "P_1000": "0.0314",
+                    "Rprec": "0.1850",
+                    "map": "0.1497",
+                    "summary": "\tP_10\t\tall\t0.2360\n\tP_100\t\tall\t0.1194\n\tP_1000\t\tall\t0.0314\n\tRprec\t\tall\t0.1850\n\tmap\t\t\tall\t0.1497\n"
+                }
+            }
+        },
+        "ARCJ5": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2360",
+                    "P_100": "0.1188",
+                    "P_1000": "0.0314",
+                    "Rprec": "0.1767",
+                    "map": "0.1439",
+                    "summary": "\tP_10\t\tall\t0.2360\n\tP_100\t\tall\t0.1188\n\tP_1000\t\tall\t0.0314\n\tRprec\t\tall\t0.1767\n\tmap\t\t\tall\t0.1439\n"
+                }
+            }
+        },
+        "IBMHOMENR": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.382",
+                    "summary": "\tmrr\t\t\tall\t0.382\n"
+                }
+            }
+        },
+        "IBMHOMER": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.611",
+                    "summary": "\tmrr\t\t\tall\t0.611\n"
+                }
+            }
+        },
+        "JuruFull": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.3373",
+                    "P_100": "0.1722",
+                    "P_1000": "0.0456",
+                    "Rprec": "0.2474",
+                    "map": "0.2105",
+                    "summary": "\tP_10\t\tall\t0.3373\n\tP_100\t\tall\t0.1722\n\tP_1000\t\tall\t0.0456\n\tRprec\t\tall\t0.2474\n\tmap\t\t\tall\t0.2105\n"
+                }
+            }
+        },
+        "JuruFullQE": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.3360",
+                    "P_100": "0.1692",
+                    "P_1000": "0.0426",
+                    "Rprec": "0.2368",
+                    "map": "0.2091",
+                    "summary": "\tP_10\t\tall\t0.3360\n\tP_100\t\tall\t0.1692\n\tP_1000\t\tall\t0.0426\n\tRprec\t\tall\t0.2368\n\tmap\t\t\tall\t0.2091\n"
+                }
+            }
+        },
+        "JuruPrune005": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.3400",
+                    "P_100": "0.1730",
+                    "P_1000": "0.0441",
+                    "Rprec": "0.2465",
+                    "map": "0.2065",
+                    "summary": "\tP_10\t\tall\t0.3400\n\tP_100\t\tall\t0.1730\n\tP_1000\t\tall\t0.0441\n\tRprec\t\tall\t0.2465\n\tmap\t\t\tall\t0.2065\n"
+                }
+            }
+        },
+        "JuruPruned01": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.3307",
+                    "P_100": "0.1748",
+                    "P_1000": "0.0431",
+                    "Rprec": "0.2519",
+                    "map": "0.2066",
+                    "summary": "\tP_10\t\tall\t0.3307\n\tP_100\t\tall\t0.1748\n\tP_1000\t\tall\t0.0431\n\tRprec\t\tall\t0.2519\n\tmap\t\t\tall\t0.2066\n"
+                }
+            }
+        },
+        "Lemur": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.3093",
+                    "P_100": "0.1758",
+                    "P_1000": "0.0480",
+                    "Rprec": "0.2299",
+                    "map": "0.1985",
+                    "summary": "\tP_10\t\tall\t0.3093\n\tP_100\t\tall\t0.1758\n\tP_1000\t\tall\t0.0480\n\tRprec\t\tall\t0.2299\n\tmap\t\t\tall\t0.1985\n"
+                }
+            }
+        },
+        "Merxt": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2653",
+                    "P_100": "0.1376",
+                    "P_1000": "0.0399",
+                    "Rprec": "0.1969",
+                    "map": "0.1438",
+                    "summary": "\tP_10\t\tall\t0.2653\n\tP_100\t\tall\t0.1376\n\tP_1000\t\tall\t0.0399\n\tRprec\t\tall\t0.1969\n\tmap\t\t\tall\t0.1438\n"
+                }
+            }
+        },
+        "Merxtd": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.3320",
+                    "P_100": "0.1558",
+                    "P_1000": "0.0424",
+                    "Rprec": "0.2002",
+                    "map": "0.1729",
+                    "summary": "\tP_10\t\tall\t0.3320\n\tP_100\t\tall\t0.1558\n\tP_1000\t\tall\t0.0424\n\tRprec\t\tall\t0.2002\n\tmap\t\t\tall\t0.1729\n"
+                }
+            }
+        },
+        "Ntvenx1": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2240",
+                    "P_100": "0.1176",
+                    "P_1000": "0.0355",
+                    "Rprec": "0.1511",
+                    "map": "0.1273",
+                    "summary": "\tP_10\t\tall\t0.2240\n\tP_100\t\tall\t0.1176\n\tP_1000\t\tall\t0.0355\n\tRprec\t\tall\t0.1511\n\tmap\t\t\tall\t0.1273\n"
+                }
+            }
+        },
+        "Ntvenx2": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2240",
+                    "P_100": "0.1194",
+                    "P_1000": "0.0333",
+                    "Rprec": "0.1555",
+                    "map": "0.1313",
+                    "summary": "\tP_10\t\tall\t0.2240\n\tP_100\t\tall\t0.1194\n\tP_1000\t\tall\t0.0333\n\tRprec\t\tall\t0.1555\n\tmap\t\t\tall\t0.1313\n"
+                }
+            }
+        },
+        "Ntvfnx3": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.1933",
+                    "P_100": "0.1194",
+                    "P_1000": "0.0301",
+                    "Rprec": "0.1405",
+                    "map": "0.1128",
+                    "summary": "\tP_10\t\tall\t0.1933\n\tP_100\t\tall\t0.1194\n\tP_1000\t\tall\t0.0301\n\tRprec\t\tall\t0.1405\n\tmap\t\t\tall\t0.1128\n"
+                }
+            }
+        },
+        "Ntvfnx4": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.1893",
+                    "P_100": "0.1008",
+                    "P_1000": "0.0258",
+                    "Rprec": "0.1249",
+                    "map": "0.0978",
+                    "summary": "\tP_10\t\tall\t0.1893\n\tP_100\t\tall\t0.1008\n\tP_1000\t\tall\t0.0258\n\tRprec\t\tall\t0.1249\n\tmap\t\t\tall\t0.0978\n"
+                }
+            }
+        },
+        "PDWTAHDR": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2373",
+                    "P_100": "0.1274",
+                    "P_1000": "0.0378",
+                    "Rprec": "0.1501",
+                    "map": "0.1332",
+                    "summary": "\tP_10\t\tall\t0.2373\n\tP_100\t\tall\t0.1274\n\tP_1000\t\tall\t0.0378\n\tRprec\t\tall\t0.1501\n\tmap\t\t\tall\t0.1332\n"
+                }
+            }
+        },
+        "PDWTAHPR": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.1453",
+                    "P_100": "0.1014",
+                    "P_1000": "0.0367",
+                    "Rprec": "0.1048",
+                    "map": "0.0842",
+                    "summary": "\tP_10\t\tall\t0.1453\n\tP_100\t\tall\t0.1014\n\tP_1000\t\tall\t0.0367\n\tRprec\t\tall\t0.1048\n\tmap\t\t\tall\t0.0842\n"
+                }
+            }
+        },
+        "PDWTAHTL": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.0973",
+                    "P_100": "0.0682",
+                    "P_1000": "0.0378",
+                    "Rprec": "0.0762",
+                    "map": "0.0601",
+                    "summary": "\tP_10\t\tall\t0.0973\n\tP_100\t\tall\t0.0682\n\tP_1000\t\tall\t0.0378\n\tRprec\t\tall\t0.0762\n\tmap\t\t\tall\t0.0601\n"
+                }
+            }
+        },
+        "PDWTAHWL": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2227",
+                    "P_100": "0.1156",
+                    "P_1000": "0.0378",
+                    "Rprec": "0.1396",
+                    "map": "0.1209",
+                    "summary": "\tP_10\t\tall\t0.2227\n\tP_100\t\tall\t0.1156\n\tP_1000\t\tall\t0.0378\n\tRprec\t\tall\t0.1396\n\tmap\t\t\tall\t0.1209\n"
+                }
+            }
+        },
+        "PDWTEPDR": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.189",
+                    "summary": "\tmrr\t\t\tall\t0.189\n"
+                }
+            }
+        },
+        "PDWTEPPR": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.054",
+                    "summary": "\tmrr\t\t\tall\t0.054\n"
+                }
+            }
+        },
+        "PDWTEPTL": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.099",
+                    "summary": "\tmrr\t\t\tall\t0.099\n"
+                }
+            }
+        },
+        "PDWTEPWL": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.178",
+                    "summary": "\tmrr\t\t\tall\t0.178\n"
+                }
+            }
+        },
+        "UniNEep1": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.637",
+                    "summary": "\tmrr\t\t\tall\t0.637\n"
+                }
+            }
+        },
+        "UniNEep2": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.637",
+                    "summary": "\tmrr\t\t\tall\t0.637\n"
+                }
+            }
+        },
+        "UniNEep3": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.530",
+                    "summary": "\tmrr\t\t\tall\t0.530\n"
+                }
+            }
+        },
+        "UniNEep4": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.477",
+                    "summary": "\tmrr\t\t\tall\t0.477\n"
+                }
+            }
+        },
+        "UniNEn7d": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.3493",
+                    "P_100": "0.1752",
+                    "P_1000": "0.0488",
+                    "Rprec": "0.2429",
+                    "map": "0.2242",
+                    "summary": "\tP_10\t\tall\t0.3493\n\tP_100\t\tall\t0.1752\n\tP_1000\t\tall\t0.0488\n\tRprec\t\tall\t0.2429\n\tmap\t\t\tall\t0.2242\n"
+                }
+            }
+        },
+        "UniNEt7dL": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2547",
+                    "P_100": "0.1466",
+                    "P_1000": "0.0440",
+                    "Rprec": "0.2023",
+                    "map": "0.1699",
+                    "summary": "\tP_10\t\tall\t0.2547\n\tP_100\t\tall\t0.1466\n\tP_1000\t\tall\t0.0440\n\tRprec\t\tall\t0.2023\n\tmap\t\t\tall\t0.1699\n"
+                }
+            }
+        },
+        "UniNEtd": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2547",
+                    "P_100": "0.1434",
+                    "P_1000": "0.0433",
+                    "Rprec": "0.1974",
+                    "map": "0.1659",
+                    "summary": "\tP_10\t\tall\t0.2547\n\tP_100\t\tall\t0.1434\n\tP_1000\t\tall\t0.0433\n\tRprec\t\tall\t0.1974\n\tmap\t\t\tall\t0.1659\n"
+                }
+            }
+        },
+        "UniNEtdL": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2547",
+                    "P_100": "0.1458",
+                    "P_1000": "0.0432",
+                    "Rprec": "0.1990",
+                    "map": "0.1715",
+                    "summary": "\tP_10\t\tall\t0.2547\n\tP_100\t\tall\t0.1458\n\tP_1000\t\tall\t0.0432\n\tRprec\t\tall\t0.1990\n\tmap\t\t\tall\t0.1715\n"
+                }
+            }
+        },
+        "VTBASE": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.126",
+                    "summary": "\tmrr\t\t\tall\t0.126\n"
+                }
+            }
+        },
+        "VTEP": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.506",
+                    "summary": "\tmrr\t\t\tall\t0.506\n"
+                }
+            }
+        },
+        "ajouai0101": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.1693",
+                    "P_100": "0.1074",
+                    "P_1000": "0.0371",
+                    "Rprec": "0.1256",
+                    "map": "0.1114",
+                    "summary": "\tP_10\t\tall\t0.1693\n\tP_100\t\tall\t0.1074\n\tP_1000\t\tall\t0.0371\n\tRprec\t\tall\t0.1256\n\tmap\t\t\tall\t0.1114\n"
+                }
+            }
+        },
+        "ajouai0102": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.101",
+                    "summary": "\tmrr\t\t\tall\t0.101\n"
+                }
+            }
+        },
+        "ajouai0103": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.1693",
+                    "P_100": "0.1072",
+                    "P_1000": "0.0371",
+                    "Rprec": "0.1271",
+                    "map": "0.1116",
+                    "summary": "\tP_10\t\tall\t0.1693\n\tP_100\t\tall\t0.1072\n\tP_1000\t\tall\t0.0371\n\tRprec\t\tall\t0.1271\n\tmap\t\t\tall\t0.1116\n"
+                }
+            }
+        },
+        "ajouai0104": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.100",
+                    "summary": "\tmrr\t\t\tall\t0.100\n"
+                }
+            }
+        },
+        "apl10ha": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.238",
+                    "summary": "\tmrr\t\t\tall\t0.238\n"
+                }
+            }
+        },
+        "apl10hb": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.220",
+                    "summary": "\tmrr\t\t\tall\t0.220\n"
+                }
+            }
+        },
+        "apl10wa": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.1427",
+                    "P_100": "0.0972",
+                    "P_1000": "0.0340",
+                    "Rprec": "0.1189",
+                    "map": "0.0805",
+                    "summary": "\tP_10\t\tall\t0.1427\n\tP_100\t\tall\t0.0972\n\tP_1000\t\tall\t0.0340\n\tRprec\t\tall\t0.1189\n\tmap\t\t\tall\t0.0805\n"
+                }
+            }
+        },
+        "apl10wb": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.1720",
+                    "P_100": "0.0696",
+                    "P_1000": "0.0120",
+                    "Rprec": "0.1073",
+                    "map": "0.0671",
+                    "summary": "\tP_10\t\tall\t0.1720\n\tP_100\t\tall\t0.0696\n\tP_1000\t\tall\t0.0120\n\tRprec\t\tall\t0.1073\n\tmap\t\t\tall\t0.0671\n"
+                }
+            }
+        },
+        "apl10wc": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2227",
+                    "P_100": "0.1412",
+                    "P_1000": "0.0421",
+                    "Rprec": "0.1972",
+                    "map": "0.1567",
+                    "summary": "\tP_10\t\tall\t0.2227\n\tP_100\t\tall\t0.1412\n\tP_1000\t\tall\t0.0421\n\tRprec\t\tall\t0.1972\n\tmap\t\t\tall\t0.1567\n"
+                }
+            }
+        },
+        "apl10wd": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.3213",
+                    "P_100": "0.1956",
+                    "P_1000": "0.0505",
+                    "Rprec": "0.2286",
+                    "map": "0.2035",
+                    "summary": "\tP_10\t\tall\t0.3213\n\tP_100\t\tall\t0.1956\n\tP_1000\t\tall\t0.0505\n\tRprec\t\tall\t0.2286\n\tmap\t\t\tall\t0.2035\n"
+                }
+            }
+        },
+        "csiro0awa1": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2227",
+                    "P_100": "0.1058",
+                    "P_1000": "0.0343",
+                    "Rprec": "0.1541",
+                    "map": "0.1085",
+                    "summary": "\tP_10\t\tall\t0.2227\n\tP_100\t\tall\t0.1058\n\tP_1000\t\tall\t0.0343\n\tRprec\t\tall\t0.1541\n\tmap\t\t\tall\t0.1085\n"
+                }
+            }
+        },
+        "csiro0awa2": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.1893",
+                    "P_100": "0.0948",
+                    "P_1000": "0.0279",
+                    "Rprec": "0.1257",
+                    "map": "0.0789",
+                    "summary": "\tP_10\t\tall\t0.1893\n\tP_100\t\tall\t0.0948\n\tP_1000\t\tall\t0.0279\n\tRprec\t\tall\t0.1257\n\tmap\t\t\tall\t0.0789\n"
+                }
+            }
+        },
+        "csiro0awa3": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2093",
+                    "P_100": "0.1076",
+                    "P_1000": "0.0298",
+                    "Rprec": "0.1454",
+                    "map": "0.0946",
+                    "summary": "\tP_10\t\tall\t0.2093\n\tP_100\t\tall\t0.1076\n\tP_1000\t\tall\t0.0298\n\tRprec\t\tall\t0.1454\n\tmap\t\t\tall\t0.0946\n"
+                }
+            }
+        },
+        "csiro0awh1": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.498",
+                    "summary": "\tmrr\t\t\tall\t0.498\n"
+                }
+            }
+        },
+        "csiro0awh2": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.593",
+                    "summary": "\tmrr\t\t\tall\t0.593\n"
+                }
+            }
+        },
+        "csiro0mwa1": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.4520",
+                    "P_100": "0.1968",
+                    "P_1000": "0.0420",
+                    "Rprec": "0.3259",
+                    "map": "0.2817",
+                    "summary": "\tP_10\t\tall\t0.4520\n\tP_100\t\tall\t0.1968\n\tP_1000\t\tall\t0.0420\n\tRprec\t\tall\t0.3259\n\tmap\t\t\tall\t0.2817\n"
+                }
+            }
+        },
+        "fdut10wac01": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2653",
+                    "P_100": "0.1510",
+                    "P_1000": "0.0347",
+                    "Rprec": "0.2061",
+                    "map": "0.1661",
+                    "summary": "\tP_10\t\tall\t0.2653\n\tP_100\t\tall\t0.1510\n\tP_1000\t\tall\t0.0347\n\tRprec\t\tall\t0.2061\n\tmap\t\t\tall\t0.1661\n"
+                }
+            }
+        },
+        "fdut10wal01": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2093",
+                    "P_100": "0.1272",
+                    "P_1000": "0.0347",
+                    "Rprec": "0.1607",
+                    "map": "0.1248",
+                    "summary": "\tP_10\t\tall\t0.2093\n\tP_100\t\tall\t0.1272\n\tP_1000\t\tall\t0.0347\n\tRprec\t\tall\t0.1607\n\tmap\t\t\tall\t0.1248\n"
+                }
+            }
+        },
+        "fdut10wtc01": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2653",
+                    "P_100": "0.1510",
+                    "P_1000": "0.0347",
+                    "Rprec": "0.2061",
+                    "map": "0.1661",
+                    "summary": "\tP_10\t\tall\t0.2653\n\tP_100\t\tall\t0.1510\n\tP_1000\t\tall\t0.0347\n\tRprec\t\tall\t0.2061\n\tmap\t\t\tall\t0.1661\n"
+                }
+            }
+        },
+        "fdut10wtl01": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2667",
+                    "P_100": "0.1456",
+                    "P_1000": "0.0347",
+                    "Rprec": "0.1939",
+                    "map": "0.1544",
+                    "summary": "\tP_10\t\tall\t0.2667\n\tP_100\t\tall\t0.1456\n\tP_1000\t\tall\t0.0347\n\tRprec\t\tall\t0.1939\n\tmap\t\t\tall\t0.1544\n"
+                }
+            }
+        },
+        "flabxe75a": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.399",
+                    "summary": "\tmrr\t\t\tall\t0.399\n"
+                }
+            }
+        },
+        "flabxeall": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.599",
+                    "summary": "\tmrr\t\t\tall\t0.599\n"
+                }
+            }
+        },
+        "flabxemerge": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.365",
+                    "summary": "\tmrr\t\t\tall\t0.365\n"
+                }
+            }
+        },
+        "flabxet256": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.363",
+                    "summary": "\tmrr\t\t\tall\t0.363\n"
+                }
+            }
+        },
+        "flabxt": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.3000",
+                    "P_100": "0.1640",
+                    "P_1000": "0.0431",
+                    "Rprec": "0.2182",
+                    "map": "0.1719",
+                    "summary": "\tP_10\t\tall\t0.3000\n\tP_100\t\tall\t0.1640\n\tP_1000\t\tall\t0.0431\n\tRprec\t\tall\t0.2182\n\tmap\t\t\tall\t0.1719\n"
+                }
+            }
+        },
+        "flabxtd": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.3973",
+                    "P_100": "0.1988",
+                    "P_1000": "0.0490",
+                    "Rprec": "0.2617",
+                    "map": "0.2332",
+                    "summary": "\tP_10\t\tall\t0.3973\n\tP_100\t\tall\t0.1988\n\tP_1000\t\tall\t0.0490\n\tRprec\t\tall\t0.2617\n\tmap\t\t\tall\t0.2332\n"
+                }
+            }
+        },
+        "flabxtdn": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.3547",
+                    "P_100": "0.1732",
+                    "P_1000": "0.0434",
+                    "Rprec": "0.2244",
+                    "map": "0.1843",
+                    "summary": "\tP_10\t\tall\t0.3547\n\tP_100\t\tall\t0.1732\n\tP_1000\t\tall\t0.0434\n\tRprec\t\tall\t0.2244\n\tmap\t\t\tall\t0.1843\n"
+                }
+            }
+        },
+        "flabxtl": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.3000",
+                    "P_100": "0.1606",
+                    "P_1000": "0.0430",
+                    "Rprec": "0.2083",
+                    "map": "0.1705",
+                    "summary": "\tP_10\t\tall\t0.3000\n\tP_100\t\tall\t0.1606\n\tP_1000\t\tall\t0.0430\n\tRprec\t\tall\t0.2083\n\tmap\t\t\tall\t0.1705\n"
+                }
+            }
+        },
+        "fub01be2": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.3227",
+                    "P_100": "0.1738",
+                    "P_1000": "0.0461",
+                    "Rprec": "0.2461",
+                    "map": "0.2226",
+                    "summary": "\tP_10\t\tall\t0.3227\n\tP_100\t\tall\t0.1738\n\tP_1000\t\tall\t0.0461\n\tRprec\t\tall\t0.2461\n\tmap\t\t\tall\t0.2226\n"
+                }
+            }
+        },
+        "fub01idf": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2987",
+                    "P_100": "0.1644",
+                    "P_1000": "0.0424",
+                    "Rprec": "0.2275",
+                    "map": "0.1900",
+                    "summary": "\tP_10\t\tall\t0.2987\n\tP_100\t\tall\t0.1644\n\tP_1000\t\tall\t0.0424\n\tRprec\t\tall\t0.2275\n\tmap\t\t\tall\t0.1900\n"
+                }
+            }
+        },
+        "fub01ne": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2880",
+                    "P_100": "0.1498",
+                    "P_1000": "0.0412",
+                    "Rprec": "0.2140",
+                    "map": "0.1790",
+                    "summary": "\tP_10\t\tall\t0.2880\n\tP_100\t\tall\t0.1498\n\tP_1000\t\tall\t0.0412\n\tRprec\t\tall\t0.2140\n\tmap\t\t\tall\t0.1790\n"
+                }
+            }
+        },
+        "fub01ne2": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2920",
+                    "P_100": "0.1642",
+                    "P_1000": "0.0429",
+                    "Rprec": "0.2343",
+                    "map": "0.1962",
+                    "summary": "\tP_10\t\tall\t0.2920\n\tP_100\t\tall\t0.1642\n\tP_1000\t\tall\t0.0429\n\tRprec\t\tall\t0.2343\n\tmap\t\t\tall\t0.1962\n"
+                }
+            }
+        },
+        "hum01t": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2813",
+                    "P_100": "0.1442",
+                    "P_1000": "0.0408",
+                    "Rprec": "0.1948",
+                    "map": "0.1582",
+                    "summary": "\tP_10\t\tall\t0.2813\n\tP_100\t\tall\t0.1442\n\tP_1000\t\tall\t0.0408\n\tRprec\t\tall\t0.1948\n\tmap\t\t\tall\t0.1582\n"
+                }
+            }
+        },
+        "hum01tdlx": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.3373",
+                    "P_100": "0.1862",
+                    "P_1000": "0.0494",
+                    "Rprec": "0.2466",
+                    "map": "0.2201",
+                    "summary": "\tP_10\t\tall\t0.3373\n\tP_100\t\tall\t0.1862\n\tP_1000\t\tall\t0.0494\n\tRprec\t\tall\t0.2466\n\tmap\t\t\tall\t0.2201\n"
+                }
+            }
+        },
+        "hum01tl": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2893",
+                    "P_100": "0.1510",
+                    "P_1000": "0.0437",
+                    "Rprec": "0.2094",
+                    "map": "0.1784",
+                    "summary": "\tP_10\t\tall\t0.2893\n\tP_100\t\tall\t0.1510\n\tP_1000\t\tall\t0.0437\n\tRprec\t\tall\t0.2094\n\tmap\t\t\tall\t0.1784\n"
+                }
+            }
+        },
+        "hum01tlx": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.3053",
+                    "P_100": "0.1648",
+                    "P_1000": "0.0458",
+                    "Rprec": "0.2228",
+                    "map": "0.1949",
+                    "summary": "\tP_10\t\tall\t0.3053\n\tP_100\t\tall\t0.1648\n\tP_1000\t\tall\t0.0458\n\tRprec\t\tall\t0.2228\n\tmap\t\t\tall\t0.1949\n"
+                }
+            }
+        },
+        "icadhoc1": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.1227",
+                    "P_100": "0.0796",
+                    "P_1000": "0.0245",
+                    "Rprec": "0.0993",
+                    "map": "0.0537",
+                    "summary": "\tP_10\t\tall\t0.1227\n\tP_100\t\tall\t0.0796\n\tP_1000\t\tall\t0.0245\n\tRprec\t\tall\t0.0993\n\tmap\t\t\tall\t0.0537\n"
+                }
+            }
+        },
+        "icadhoc2": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.1373",
+                    "P_100": "0.0828",
+                    "P_1000": "0.0230",
+                    "Rprec": "0.0855",
+                    "map": "0.0458",
+                    "summary": "\tP_10\t\tall\t0.1373\n\tP_100\t\tall\t0.0828\n\tP_1000\t\tall\t0.0230\n\tRprec\t\tall\t0.0855\n\tmap\t\t\tall\t0.0458\n"
+                }
+            }
+        },
+        "icadhoc3": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.1773",
+                    "P_100": "0.0988",
+                    "P_1000": "0.0269",
+                    "Rprec": "0.1360",
+                    "map": "0.0883",
+                    "summary": "\tP_10\t\tall\t0.1773\n\tP_100\t\tall\t0.0988\n\tP_1000\t\tall\t0.0269\n\tRprec\t\tall\t0.1360\n\tmap\t\t\tall\t0.0883\n"
+                }
+            }
+        },
+        "ichp1": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.208",
+                    "summary": "\tmrr\t\t\tall\t0.208\n"
+                }
+            }
+        },
+        "ichp2": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.237",
+                    "summary": "\tmrr\t\t\tall\t0.237\n"
+                }
+            }
+        },
+        "ictweb10n": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.1480",
+                    "P_100": "0.0942",
+                    "P_1000": "0.0285",
+                    "Rprec": "0.1138",
+                    "map": "0.0860",
+                    "summary": "\tP_10\t\tall\t0.1480\n\tP_100\t\tall\t0.0942\n\tP_1000\t\tall\t0.0285\n\tRprec\t\tall\t0.1138\n\tmap\t\t\tall\t0.0860\n"
+                }
+            }
+        },
+        "ictweb10nf": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.0693",
+                    "P_100": "0.0568",
+                    "P_1000": "0.0284",
+                    "Rprec": "0.0657",
+                    "map": "0.0464",
+                    "summary": "\tP_10\t\tall\t0.0693\n\tP_100\t\tall\t0.0568\n\tP_1000\t\tall\t0.0284\n\tRprec\t\tall\t0.0657\n\tmap\t\t\tall\t0.0464\n"
+                }
+            }
+        },
+        "ictweb10nfl": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.0693",
+                    "P_100": "0.0568",
+                    "P_1000": "0.0284",
+                    "Rprec": "0.0657",
+                    "map": "0.0463",
+                    "summary": "\tP_10\t\tall\t0.0693\n\tP_100\t\tall\t0.0568\n\tP_1000\t\tall\t0.0284\n\tRprec\t\tall\t0.0657\n\tmap\t\t\tall\t0.0463\n"
+                }
+            }
+        },
+        "ictweb10nl": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.1480",
+                    "P_100": "0.0954",
+                    "P_1000": "0.0285",
+                    "Rprec": "0.1147",
+                    "map": "0.0860",
+                    "summary": "\tP_10\t\tall\t0.1480\n\tP_100\t\tall\t0.0954\n\tP_1000\t\tall\t0.0285\n\tRprec\t\tall\t0.1147\n\tmap\t\t\tall\t0.0860\n"
+                }
+            }
+        },
+        "iit01m": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.5373",
+                    "P_100": "0.2080",
+                    "P_1000": "0.0432",
+                    "Rprec": "0.3517",
+                    "map": "0.3324",
+                    "summary": "\tP_10\t\tall\t0.5373\n\tP_100\t\tall\t0.2080\n\tP_1000\t\tall\t0.0432\n\tRprec\t\tall\t0.3517\n\tmap\t\t\tall\t0.3324\n"
+                }
+            }
+        },
+        "iit01st": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.559",
+                    "summary": "\tmrr\t\t\tall\t0.559\n"
+                }
+            }
+        },
+        "iit01stb": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.578",
+                    "summary": "\tmrr\t\t\tall\t0.578\n"
+                }
+            }
+        },
+        "iit01t": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2760",
+                    "P_100": "0.1392",
+                    "P_1000": "0.0401",
+                    "Rprec": "0.1792",
+                    "map": "0.1509",
+                    "summary": "\tP_10\t\tall\t0.2760\n\tP_100\t\tall\t0.1392\n\tP_1000\t\tall\t0.0401\n\tRprec\t\tall\t0.1792\n\tmap\t\t\tall\t0.1509\n"
+                }
+            }
+        },
+        "iit01tde": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.3027",
+                    "P_100": "0.1690",
+                    "P_1000": "0.0450",
+                    "Rprec": "0.2125",
+                    "map": "0.1791",
+                    "summary": "\tP_10\t\tall\t0.3027\n\tP_100\t\tall\t0.1690\n\tP_1000\t\tall\t0.0450\n\tRprec\t\tall\t0.2125\n\tmap\t\t\tall\t0.1791\n"
+                }
+            }
+        },
+        "iit01tfc": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2707",
+                    "P_100": "0.1692",
+                    "P_1000": "0.0476",
+                    "Rprec": "0.2260",
+                    "map": "0.1890",
+                    "summary": "\tP_10\t\tall\t0.2707\n\tP_100\t\tall\t0.1692\n\tP_1000\t\tall\t0.0476\n\tRprec\t\tall\t0.2260\n\tmap\t\t\tall\t0.1890\n"
+                }
+            }
+        },
+        "irtLnua": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.0000",
+                    "P_100": "0.0006",
+                    "P_1000": "0.0006",
+                    "Rprec": "0.0004",
+                    "map": "0.0002",
+                    "summary": "\tP_10\t\tall\t0.0000\n\tP_100\t\tall\t0.0006\n\tP_1000\t\tall\t0.0006\n\tRprec\t\tall\t0.0004\n\tmap\t\t\tall\t0.0002\n"
+                }
+            }
+        },
+        "irtLnut": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.0453",
+                    "P_100": "0.0336",
+                    "P_1000": "0.0168",
+                    "Rprec": "0.0321",
+                    "map": "0.0221",
+                    "summary": "\tP_10\t\tall\t0.0453\n\tP_100\t\tall\t0.0336\n\tP_1000\t\tall\t0.0168\n\tRprec\t\tall\t0.0321\n\tmap\t\t\tall\t0.0221\n"
+                }
+            }
+        },
+        "jscbtawep1": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.754",
+                    "summary": "\tmrr\t\t\tall\t0.754\n"
+                }
+            }
+        },
+        "jscbtawep2": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.769",
+                    "summary": "\tmrr\t\t\tall\t0.769\n"
+                }
+            }
+        },
+        "jscbtawep3": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.746",
+                    "summary": "\tmrr\t\t\tall\t0.746\n"
+                }
+            }
+        },
+        "jscbtawep4": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.752",
+                    "summary": "\tmrr\t\t\tall\t0.752\n"
+                }
+            }
+        },
+        "jscbtawtl1": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2733",
+                    "P_100": "0.1584",
+                    "P_1000": "0.0446",
+                    "Rprec": "0.2020",
+                    "map": "0.1890",
+                    "summary": "\tP_10\t\tall\t0.2733\n\tP_100\t\tall\t0.1584\n\tP_1000\t\tall\t0.0446\n\tRprec\t\tall\t0.2020\n\tmap\t\t\tall\t0.1890\n"
+                }
+            }
+        },
+        "jscbtawtl2": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2867",
+                    "P_100": "0.1630",
+                    "P_1000": "0.0452",
+                    "Rprec": "0.2150",
+                    "map": "0.1954",
+                    "summary": "\tP_10\t\tall\t0.2867\n\tP_100\t\tall\t0.1630\n\tP_1000\t\tall\t0.0452\n\tRprec\t\tall\t0.2150\n\tmap\t\t\tall\t0.1954\n"
+                }
+            }
+        },
+        "jscbtawtl3": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2960",
+                    "P_100": "0.1690",
+                    "P_1000": "0.0459",
+                    "Rprec": "0.2226",
+                    "map": "0.2003",
+                    "summary": "\tP_10\t\tall\t0.2960\n\tP_100\t\tall\t0.1690\n\tP_1000\t\tall\t0.0459\n\tRprec\t\tall\t0.2226\n\tmap\t\t\tall\t0.2003\n"
+                }
+            }
+        },
+        "jscbtawtl4": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2920",
+                    "P_100": "0.1688",
+                    "P_1000": "0.0469",
+                    "Rprec": "0.2308",
+                    "map": "0.2060",
+                    "summary": "\tP_10\t\tall\t0.2920\n\tP_100\t\tall\t0.1688\n\tP_1000\t\tall\t0.0469\n\tRprec\t\tall\t0.2308\n\tmap\t\t\tall\t0.2060\n"
+                }
+            }
+        },
+        "kuadhoc2001": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.3760",
+                    "P_100": "0.1770",
+                    "P_1000": "0.0449",
+                    "Rprec": "0.2374",
+                    "map": "0.2088",
+                    "summary": "\tP_10\t\tall\t0.3760\n\tP_100\t\tall\t0.1770\n\tP_1000\t\tall\t0.0449\n\tRprec\t\tall\t0.2374\n\tmap\t\t\tall\t0.2088\n"
+                }
+            }
+        },
+        "kuhpf2001": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.191",
+                    "summary": "\tmrr\t\t\tall\t0.191\n"
+                }
+            }
+        },
+        "msrcn1": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2880",
+                    "P_100": "0.1590",
+                    "P_1000": "0.0451",
+                    "Rprec": "0.2263",
+                    "map": "0.1913",
+                    "summary": "\tP_10\t\tall\t0.2880\n\tP_100\t\tall\t0.1590\n\tP_1000\t\tall\t0.0451\n\tRprec\t\tall\t0.2263\n\tmap\t\t\tall\t0.1913\n"
+                }
+            }
+        },
+        "msrcn2": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2973",
+                    "P_100": "0.1414",
+                    "P_1000": "0.0436",
+                    "Rprec": "0.2095",
+                    "map": "0.1864",
+                    "summary": "\tP_10\t\tall\t0.2973\n\tP_100\t\tall\t0.1414\n\tP_1000\t\tall\t0.0436\n\tRprec\t\tall\t0.2095\n\tmap\t\t\tall\t0.1864\n"
+                }
+            }
+        },
+        "msrcn3": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2827",
+                    "P_100": "0.1430",
+                    "P_1000": "0.0399",
+                    "Rprec": "0.2152",
+                    "map": "0.1779",
+                    "summary": "\tP_10\t\tall\t0.2827\n\tP_100\t\tall\t0.1430\n\tP_1000\t\tall\t0.0399\n\tRprec\t\tall\t0.2152\n\tmap\t\t\tall\t0.1779\n"
+                }
+            }
+        },
+        "msrcn4": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2987",
+                    "P_100": "0.1412",
+                    "P_1000": "0.0436",
+                    "Rprec": "0.2193",
+                    "map": "0.1880",
+                    "summary": "\tP_10\t\tall\t0.2987\n\tP_100\t\tall\t0.1412\n\tP_1000\t\tall\t0.0436\n\tRprec\t\tall\t0.2193\n\tmap\t\t\tall\t0.1880\n"
+                }
+            }
+        },
+        "msrcnp1": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.424",
+                    "summary": "\tmrr\t\t\tall\t0.424\n"
+                }
+            }
+        },
+        "msrcnp2": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.505",
+                    "summary": "\tmrr\t\t\tall\t0.505\n"
+                }
+            }
+        },
+        "ok10wahd0": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.362",
+                    "summary": "\tmrr\t\t\tall\t0.362\n"
+                }
+            }
+        },
+        "ok10wahd1": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.387",
+                    "summary": "\tmrr\t\t\tall\t0.387\n"
+                }
+            }
+        },
+        "ok10whd0": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.312",
+                    "summary": "\tmrr\t\t\tall\t0.312\n"
+                }
+            }
+        },
+        "ok10whd1": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.340",
+                    "summary": "\tmrr\t\t\tall\t0.340\n"
+                }
+            }
+        },
+        "ok10wt1": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.3080",
+                    "P_100": "0.1678",
+                    "P_1000": "0.0467",
+                    "Rprec": "0.2235",
+                    "map": "0.1908",
+                    "summary": "\tP_10\t\tall\t0.3080\n\tP_100\t\tall\t0.1678\n\tP_1000\t\tall\t0.0467\n\tRprec\t\tall\t0.2235\n\tmap\t\t\tall\t0.1908\n"
+                }
+            }
+        },
+        "ok10wt3": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.3213",
+                    "P_100": "0.1686",
+                    "P_1000": "0.0472",
+                    "Rprec": "0.2196",
+                    "map": "0.1952",
+                    "summary": "\tP_10\t\tall\t0.3213\n\tP_100\t\tall\t0.1686\n\tP_1000\t\tall\t0.0472\n\tRprec\t\tall\t0.2196\n\tmap\t\t\tall\t0.1952\n"
+                }
+            }
+        },
+        "ok10wtnd0": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.3960",
+                    "P_100": "0.2042",
+                    "P_1000": "0.0517",
+                    "Rprec": "0.2806",
+                    "map": "0.2512",
+                    "summary": "\tP_10\t\tall\t0.3960\n\tP_100\t\tall\t0.2042\n\tP_1000\t\tall\t0.0517\n\tRprec\t\tall\t0.2806\n\tmap\t\t\tall\t0.2512\n"
+                }
+            }
+        },
+        "ok10wtnd1": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.4427",
+                    "P_100": "0.2236",
+                    "P_1000": "0.0538",
+                    "Rprec": "0.3023",
+                    "map": "0.2831",
+                    "summary": "\tP_10\t\tall\t0.4427\n\tP_100\t\tall\t0.2236\n\tP_1000\t\tall\t0.0538\n\tRprec\t\tall\t0.3023\n\tmap\t\t\tall\t0.2831\n"
+                }
+            }
+        },
+        "pir1Wa": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2493",
+                    "P_100": "0.1488",
+                    "P_1000": "0.0457",
+                    "Rprec": "0.1968",
+                    "map": "0.1715",
+                    "summary": "\tP_10\t\tall\t0.2493\n\tP_100\t\tall\t0.1488\n\tP_1000\t\tall\t0.0457\n\tRprec\t\tall\t0.1968\n\tmap\t\t\tall\t0.1715\n"
+                }
+            }
+        },
+        "pir1Wt1": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2227",
+                    "P_100": "0.1468",
+                    "P_1000": "0.0453",
+                    "Rprec": "0.1700",
+                    "map": "0.1660",
+                    "summary": "\tP_10\t\tall\t0.2227\n\tP_100\t\tall\t0.1468\n\tP_1000\t\tall\t0.0453\n\tRprec\t\tall\t0.1700\n\tmap\t\t\tall\t0.1660\n"
+                }
+            }
+        },
+        "pir1Wt2": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2227",
+                    "P_100": "0.1520",
+                    "P_1000": "0.0455",
+                    "Rprec": "0.1894",
+                    "map": "0.1742",
+                    "summary": "\tP_10\t\tall\t0.2227\n\tP_100\t\tall\t0.1520\n\tP_1000\t\tall\t0.0455\n\tRprec\t\tall\t0.1894\n\tmap\t\t\tall\t0.1742\n"
+                }
+            }
+        },
+        "posnir01pt": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2293",
+                    "P_100": "0.1396",
+                    "P_1000": "0.0422",
+                    "Rprec": "0.1760",
+                    "map": "0.1521",
+                    "summary": "\tP_10\t\tall\t0.2293\n\tP_100\t\tall\t0.1396\n\tP_1000\t\tall\t0.0422\n\tRprec\t\tall\t0.1760\n\tmap\t\t\tall\t0.1521\n"
+                }
+            }
+        },
+        "posnir01ptd": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.3160",
+                    "P_100": "0.1762",
+                    "P_1000": "0.0445",
+                    "Rprec": "0.2240",
+                    "map": "0.1877",
+                    "summary": "\tP_10\t\tall\t0.3160\n\tP_100\t\tall\t0.1762\n\tP_1000\t\tall\t0.0445\n\tRprec\t\tall\t0.2240\n\tmap\t\t\tall\t0.1877\n"
+                }
+            }
+        },
+        "posnir01rpt": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2627",
+                    "P_100": "0.1470",
+                    "P_1000": "0.0421",
+                    "Rprec": "0.2081",
+                    "map": "0.1771",
+                    "summary": "\tP_10\t\tall\t0.2627\n\tP_100\t\tall\t0.1470\n\tP_1000\t\tall\t0.0421\n\tRprec\t\tall\t0.2081\n\tmap\t\t\tall\t0.1771\n"
+                }
+            }
+        },
+        "posnir01st": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2387",
+                    "P_100": "0.1370",
+                    "P_1000": "0.0420",
+                    "Rprec": "0.1853",
+                    "map": "0.1535",
+                    "summary": "\tP_10\t\tall\t0.2387\n\tP_100\t\tall\t0.1370\n\tP_1000\t\tall\t0.0420\n\tRprec\t\tall\t0.1853\n\tmap\t\t\tall\t0.1535\n"
+                }
+            }
+        },
+        "ricAP": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.3053",
+                    "P_100": "0.1762",
+                    "P_1000": "0.0490",
+                    "Rprec": "0.2420",
+                    "map": "0.2077",
+                    "summary": "\tP_10\t\tall\t0.3053\n\tP_100\t\tall\t0.1762\n\tP_1000\t\tall\t0.0490\n\tRprec\t\tall\t0.2420\n\tmap\t\t\tall\t0.2077\n"
+                }
+            }
+        },
+        "ricMM": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.3040",
+                    "P_100": "0.1684",
+                    "P_1000": "0.0474",
+                    "Rprec": "0.2334",
+                    "map": "0.2084",
+                    "summary": "\tP_10\t\tall\t0.3040\n\tP_100\t\tall\t0.1684\n\tP_1000\t\tall\t0.0474\n\tRprec\t\tall\t0.2334\n\tmap\t\t\tall\t0.2084\n"
+                }
+            }
+        },
+        "ricMS": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.3107",
+                    "P_100": "0.1684",
+                    "P_1000": "0.0474",
+                    "Rprec": "0.2343",
+                    "map": "0.2068",
+                    "summary": "\tP_10\t\tall\t0.3107\n\tP_100\t\tall\t0.1684\n\tP_1000\t\tall\t0.0474\n\tRprec\t\tall\t0.2343\n\tmap\t\t\tall\t0.2068\n"
+                }
+            }
+        },
+        "ricST": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2947",
+                    "P_100": "0.1620",
+                    "P_1000": "0.0463",
+                    "Rprec": "0.2028",
+                    "map": "0.1933",
+                    "summary": "\tP_10\t\tall\t0.2947\n\tP_100\t\tall\t0.1620\n\tP_1000\t\tall\t0.0463\n\tRprec\t\tall\t0.2028\n\tmap\t\t\tall\t0.1933\n"
+                }
+            }
+        },
+        "tnout10epA": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.331",
+                    "summary": "\tmrr\t\t\tall\t0.331\n"
+                }
+            }
+        },
+        "tnout10epC": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.338",
+                    "summary": "\tmrr\t\t\tall\t0.338\n"
+                }
+            }
+        },
+        "tnout10epCAU": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.774",
+                    "summary": "\tmrr\t\t\tall\t0.774\n"
+                }
+            }
+        },
+        "tnout10epCU": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.772",
+                    "summary": "\tmrr\t\t\tall\t0.772\n"
+                }
+            }
+        },
+        "tnout10t1": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2573",
+                    "P_100": "0.1462",
+                    "P_1000": "0.0436",
+                    "Rprec": "0.1988",
+                    "map": "0.1652",
+                    "summary": "\tP_10\t\tall\t0.2573\n\tP_100\t\tall\t0.1462\n\tP_1000\t\tall\t0.0436\n\tRprec\t\tall\t0.1988\n\tmap\t\t\tall\t0.1652\n"
+                }
+            }
+        },
+        "tnout10t2": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.3027",
+                    "P_100": "0.1666",
+                    "P_1000": "0.0471",
+                    "Rprec": "0.2092",
+                    "map": "0.1891",
+                    "summary": "\tP_10\t\tall\t0.3027\n\tP_100\t\tall\t0.1666\n\tP_1000\t\tall\t0.0471\n\tRprec\t\tall\t0.2092\n\tmap\t\t\tall\t0.1891\n"
+                }
+            }
+        },
+        "uncfslm": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.1373",
+                    "P_100": "0.1346",
+                    "P_1000": "0.0358",
+                    "Rprec": "0.1420",
+                    "map": "0.0781",
+                    "summary": "\tP_10\t\tall\t0.1373\n\tP_100\t\tall\t0.1346\n\tP_1000\t\tall\t0.0358\n\tRprec\t\tall\t0.1420\n\tmap\t\t\tall\t0.0781\n"
+                }
+            }
+        },
+        "uncfsls": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.1200",
+                    "P_100": "0.1162",
+                    "P_1000": "0.0333",
+                    "Rprec": "0.1206",
+                    "map": "0.0663",
+                    "summary": "\tP_10\t\tall\t0.1200\n\tP_100\t\tall\t0.1162\n\tP_1000\t\tall\t0.0333\n\tRprec\t\tall\t0.1206\n\tmap\t\t\tall\t0.0663\n"
+                }
+            }
+        },
+        "uncvsmm": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2573",
+                    "P_100": "0.1440",
+                    "P_1000": "0.0359",
+                    "Rprec": "0.1761",
+                    "map": "0.1269",
+                    "summary": "\tP_10\t\tall\t0.2573\n\tP_100\t\tall\t0.1440\n\tP_1000\t\tall\t0.0359\n\tRprec\t\tall\t0.1761\n\tmap\t\t\tall\t0.1269\n"
+                }
+            }
+        },
+        "uncvsms": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2000",
+                    "P_100": "0.1226",
+                    "P_1000": "0.0334",
+                    "Rprec": "0.1578",
+                    "map": "0.1069",
+                    "summary": "\tP_10\t\tall\t0.2000\n\tP_100\t\tall\t0.1226\n\tP_1000\t\tall\t0.0334\n\tRprec\t\tall\t0.1578\n\tmap\t\t\tall\t0.1069\n"
+                }
+            }
+        },
+        "uwmtaw0": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.1787",
+                    "P_100": "0.1130",
+                    "P_1000": "0.0272",
+                    "Rprec": "0.1267",
+                    "map": "0.0951",
+                    "summary": "\tP_10\t\tall\t0.1787\n\tP_100\t\tall\t0.1130\n\tP_1000\t\tall\t0.0272\n\tRprec\t\tall\t0.1267\n\tmap\t\t\tall\t0.0951\n"
+                }
+            }
+        },
+        "uwmtaw1": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2293",
+                    "P_100": "0.1284",
+                    "P_1000": "0.0390",
+                    "Rprec": "0.1645",
+                    "map": "0.1416",
+                    "summary": "\tP_10\t\tall\t0.2293\n\tP_100\t\tall\t0.1284\n\tP_1000\t\tall\t0.0390\n\tRprec\t\tall\t0.1645\n\tmap\t\t\tall\t0.1416\n"
+                }
+            }
+        },
+        "uwmtaw2": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2187",
+                    "P_100": "0.1388",
+                    "P_1000": "0.0399",
+                    "Rprec": "0.1726",
+                    "map": "0.1420",
+                    "summary": "\tP_10\t\tall\t0.2187\n\tP_100\t\tall\t0.1388\n\tP_1000\t\tall\t0.0399\n\tRprec\t\tall\t0.1726\n\tmap\t\t\tall\t0.1420\n"
+                }
+            }
+        },
+        "yeahdb01": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2307",
+                    "P_100": "0.1152",
+                    "P_1000": "0.0235",
+                    "Rprec": "0.1564",
+                    "map": "0.1094",
+                    "summary": "\tP_10\t\tall\t0.2307\n\tP_100\t\tall\t0.1152\n\tP_1000\t\tall\t0.0235\n\tRprec\t\tall\t0.1564\n\tmap\t\t\tall\t0.1094\n"
+                }
+            }
+        },
+        "yeaht01": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2800",
+                    "P_100": "0.1282",
+                    "P_1000": "0.0267",
+                    "Rprec": "0.1796",
+                    "map": "0.1286",
+                    "summary": "\tP_10\t\tall\t0.2800\n\tP_100\t\tall\t0.1282\n\tP_1000\t\tall\t0.0267\n\tRprec\t\tall\t0.1796\n\tmap\t\t\tall\t0.1286\n"
+                }
+            }
+        },
+        "yeahtb01": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2800",
+                    "P_100": "0.1284",
+                    "P_1000": "0.0268",
+                    "Rprec": "0.1811",
+                    "map": "0.1287",
+                    "summary": "\tP_10\t\tall\t0.2800\n\tP_100\t\tall\t0.1284\n\tP_1000\t\tall\t0.0268\n\tRprec\t\tall\t0.1811\n\tmap\t\t\tall\t0.1287\n"
+                }
+            }
+        },
+        "yeahtd01": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2320",
+                    "P_100": "0.1148",
+                    "P_1000": "0.0235",
+                    "Rprec": "0.1584",
+                    "map": "0.1092",
+                    "summary": "\tP_10\t\tall\t0.2320\n\tP_100\t\tall\t0.1148\n\tP_1000\t\tall\t0.0235\n\tRprec\t\tall\t0.1584\n\tmap\t\t\tall\t0.1092\n"
+                }
+            }
+        },
+        "yehp01": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.669",
+                    "summary": "\tmrr\t\t\tall\t0.669\n"
+                }
+            }
+        },
+        "yehpb01": {
+            "trec_eval": {
+                "all": {
+                    "mrr": "0.659",
+                    "summary": "\tmrr\t\t\tall\t0.659\n"
+                }
+            }
+        }
+    },
+    "xlingual": {
+        "BBN10MON": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.6933",
+                    "P_100": "0.4860",
+                    "P_1000": "0.1328",
+                    "Rprec": "0.4528",
+                    "map": "0.4537",
+                    "summary": "\tP_10\t\tall\t0.6933\n\tP_100\t\tall\t0.4860\n\tP_1000\t\tall\t0.1328\n\tRprec\t\tall\t0.4528\n\tmap\t\t\tall\t0.4537\n"
+                }
+            }
+        },
+        "BBN10XLA": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.6560",
+                    "P_100": "0.4860",
+                    "P_1000": "0.1255",
+                    "Rprec": "0.4446",
+                    "map": "0.4382",
+                    "summary": "\tP_10\t\tall\t0.6560\n\tP_100\t\tall\t0.4860\n\tP_1000\t\tall\t0.1255\n\tRprec\t\tall\t0.4446\n\tmap\t\t\tall\t0.4382\n"
+                }
+            }
+        },
+        "BBN10XLB": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.6720",
+                    "P_100": "0.4752",
+                    "P_1000": "0.1264",
+                    "Rprec": "0.4646",
+                    "map": "0.4639",
+                    "summary": "\tP_10\t\tall\t0.6720\n\tP_100\t\tall\t0.4752\n\tP_1000\t\tall\t0.1264\n\tRprec\t\tall\t0.4646\n\tmap\t\t\tall\t0.4639\n"
+                }
+            }
+        },
+        "BBN10XLC": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.5680",
+                    "P_100": "0.3940",
+                    "P_1000": "0.1100",
+                    "Rprec": "0.3820",
+                    "map": "0.3604",
+                    "summary": "\tP_10\t\tall\t0.5680\n\tP_100\t\tall\t0.3940\n\tP_1000\t\tall\t0.1100\n\tRprec\t\tall\t0.3820\n\tmap\t\t\tall\t0.3604\n"
+                }
+            }
+        },
+        "BBN10XLD": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.6587",
+                    "P_100": "0.4660",
+                    "P_1000": "0.1247",
+                    "Rprec": "0.4593",
+                    "map": "0.4453",
+                    "summary": "\tP_10\t\tall\t0.6587\n\tP_100\t\tall\t0.4660\n\tP_1000\t\tall\t0.1247\n\tRprec\t\tall\t0.4593\n\tmap\t\t\tall\t0.4453\n"
+                }
+            }
+        },
+        "BKYAAA1": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.5573",
+                    "P_100": "0.3576",
+                    "P_1000": "0.0957",
+                    "Rprec": "0.3430",
+                    "map": "0.2877",
+                    "summary": "\tP_10\t\tall\t0.5573\n\tP_100\t\tall\t0.3576\n\tP_1000\t\tall\t0.0957\n\tRprec\t\tall\t0.3430\n\tmap\t\t\tall\t0.2877\n"
+                }
+            }
+        },
+        "BKYEAA1": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.4907",
+                    "P_100": "0.3624",
+                    "P_1000": "0.1032",
+                    "Rprec": "0.2887",
+                    "map": "0.2337",
+                    "summary": "\tP_10\t\tall\t0.4907\n\tP_100\t\tall\t0.3624\n\tP_1000\t\tall\t0.1032\n\tRprec\t\tall\t0.2887\n\tmap\t\t\tall\t0.2337\n"
+                }
+            }
+        },
+        "BKYEAA2": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.4347",
+                    "P_100": "0.3104",
+                    "P_1000": "0.0994",
+                    "Rprec": "0.2644",
+                    "map": "0.2006",
+                    "summary": "\tP_10\t\tall\t0.4347\n\tP_100\t\tall\t0.3104\n\tP_1000\t\tall\t0.0994\n\tRprec\t\tall\t0.2644\n\tmap\t\t\tall\t0.2006\n"
+                }
+            }
+        },
+        "BKYEAA3": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.4907",
+                    "P_100": "0.3312",
+                    "P_1000": "0.0996",
+                    "Rprec": "0.2870",
+                    "map": "0.2465",
+                    "summary": "\tP_10\t\tall\t0.4907\n\tP_100\t\tall\t0.3312\n\tP_1000\t\tall\t0.0996\n\tRprec\t\tall\t0.2870\n\tmap\t\t\tall\t0.2465\n"
+                }
+            }
+        },
+        "BKYEAA4": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.4613",
+                    "P_100": "0.3236",
+                    "P_1000": "0.0920",
+                    "Rprec": "0.2783",
+                    "map": "0.2316",
+                    "summary": "\tP_10\t\tall\t0.4613\n\tP_100\t\tall\t0.3236\n\tP_1000\t\tall\t0.0920\n\tRprec\t\tall\t0.2783\n\tmap\t\t\tall\t0.2316\n"
+                }
+            }
+        },
+        "NMCLDS": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.1253",
+                    "P_100": "0.0936",
+                    "P_1000": "0.0338",
+                    "Rprec": "0.0760",
+                    "map": "0.0370",
+                    "summary": "\tP_10\t\tall\t0.1253\n\tP_100\t\tall\t0.0936\n\tP_1000\t\tall\t0.0338\n\tRprec\t\tall\t0.0760\n\tmap\t\t\tall\t0.0370\n"
+                }
+            }
+        },
+        "NMCLMN": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2347",
+                    "P_100": "0.1420",
+                    "P_1000": "0.0398",
+                    "Rprec": "0.1228",
+                    "map": "0.0950",
+                    "summary": "\tP_10\t\tall\t0.2347\n\tP_100\t\tall\t0.1420\n\tP_1000\t\tall\t0.0398\n\tRprec\t\tall\t0.1228\n\tmap\t\t\tall\t0.0950\n"
+                }
+            }
+        },
+        "NMCLTNv1": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.0080",
+                    "P_100": "0.0112",
+                    "P_1000": "0.0064",
+                    "Rprec": "0.0106",
+                    "map": "0.0019",
+                    "summary": "\tP_10\t\tall\t0.0080\n\tP_100\t\tall\t0.0112\n\tP_1000\t\tall\t0.0064\n\tRprec\t\tall\t0.0106\n\tmap\t\t\tall\t0.0019\n"
+                }
+            }
+        },
+        "NMCLTS": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.0187",
+                    "P_100": "0.0092",
+                    "P_1000": "0.0046",
+                    "Rprec": "0.0067",
+                    "map": "0.0013",
+                    "summary": "\tP_10\t\tall\t0.0187\n\tP_100\t\tall\t0.0092\n\tP_1000\t\tall\t0.0046\n\tRprec\t\tall\t0.0067\n\tmap\t\t\tall\t0.0013\n"
+                }
+            }
+        },
+        "NMMLTN": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.3387",
+                    "P_100": "0.1840",
+                    "P_1000": "0.0606",
+                    "Rprec": "0.1946",
+                    "map": "0.1353",
+                    "summary": "\tP_10\t\tall\t0.3387\n\tP_100\t\tall\t0.1840\n\tP_1000\t\tall\t0.0606\n\tRprec\t\tall\t0.1946\n\tmap\t\t\tall\t0.1353\n"
+                }
+            }
+        },
+        "UMass1": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.5253",
+                    "P_100": "0.3544",
+                    "P_1000": "0.1112",
+                    "Rprec": "0.3773",
+                    "map": "0.3129",
+                    "summary": "\tP_10\t\tall\t0.5253\n\tP_100\t\tall\t0.3544\n\tP_1000\t\tall\t0.1112\n\tRprec\t\tall\t0.3773\n\tmap\t\t\tall\t0.3129\n"
+                }
+            }
+        },
+        "UMass2": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.4560",
+                    "P_100": "0.3124",
+                    "P_1000": "0.0994",
+                    "Rprec": "0.3109",
+                    "map": "0.2597",
+                    "summary": "\tP_10\t\tall\t0.4560\n\tP_100\t\tall\t0.3124\n\tP_1000\t\tall\t0.0994\n\tRprec\t\tall\t0.3109\n\tmap\t\t\tall\t0.2597\n"
+                }
+            }
+        },
+        "UMass3": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.4853",
+                    "P_100": "0.3820",
+                    "P_1000": "0.1100",
+                    "Rprec": "0.3197",
+                    "map": "0.2795",
+                    "summary": "\tP_10\t\tall\t0.4853\n\tP_100\t\tall\t0.3820\n\tP_1000\t\tall\t0.1100\n\tRprec\t\tall\t0.3197\n\tmap\t\t\tall\t0.2795\n"
+                }
+            }
+        },
+        "UMass4": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.4613",
+                    "P_100": "0.2716",
+                    "P_1000": "0.0789",
+                    "Rprec": "0.2663",
+                    "map": "0.2104",
+                    "summary": "\tP_10\t\tall\t0.4613\n\tP_100\t\tall\t0.2716\n\tP_1000\t\tall\t0.0789\n\tRprec\t\tall\t0.2663\n\tmap\t\t\tall\t0.2104\n"
+                }
+            }
+        },
+        "UMclirAutoFL": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.4933",
+                    "P_100": "0.3132",
+                    "P_1000": "0.0762",
+                    "Rprec": "0.2628",
+                    "map": "0.1974",
+                    "summary": "\tP_10\t\tall\t0.4933\n\tP_100\t\tall\t0.3132\n\tP_1000\t\tall\t0.0762\n\tRprec\t\tall\t0.2628\n\tmap\t\t\tall\t0.1974\n"
+                }
+            }
+        },
+        "UMclirAutoTJ": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.4587",
+                    "P_100": "0.2900",
+                    "P_1000": "0.0757",
+                    "Rprec": "0.2603",
+                    "map": "0.1879",
+                    "summary": "\tP_10\t\tall\t0.4587\n\tP_100\t\tall\t0.2900\n\tP_1000\t\tall\t0.0757\n\tRprec\t\tall\t0.2603\n\tmap\t\t\tall\t0.1879\n"
+                }
+            }
+        },
+        "UMclirAutoXP": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.5200",
+                    "P_100": "0.3456",
+                    "P_1000": "0.0689",
+                    "Rprec": "0.2889",
+                    "map": "0.2340",
+                    "summary": "\tP_10\t\tall\t0.5200\n\tP_100\t\tall\t0.3456\n\tP_1000\t\tall\t0.0689\n\tRprec\t\tall\t0.2889\n\tmap\t\t\tall\t0.2340\n"
+                }
+            }
+        },
+        "UMmanual": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.6747",
+                    "P_100": "0.4004",
+                    "P_1000": "0.0808",
+                    "Rprec": "0.3613",
+                    "map": "0.2898",
+                    "summary": "\tP_10\t\tall\t0.6747\n\tP_100\t\tall\t0.4004\n\tP_1000\t\tall\t0.0808\n\tRprec\t\tall\t0.3613\n\tmap\t\t\tall\t0.2898\n"
+                }
+            }
+        },
+        "UMmonoAuto": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.5387",
+                    "P_100": "0.3216",
+                    "P_1000": "0.0756",
+                    "Rprec": "0.2930",
+                    "map": "0.2209",
+                    "summary": "\tP_10\t\tall\t0.5387\n\tP_100\t\tall\t0.3216\n\tP_1000\t\tall\t0.0756\n\tRprec\t\tall\t0.2930\n\tmap\t\t\tall\t0.2209\n"
+                }
+            }
+        },
+        "apl10ca1": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.5493",
+                    "P_100": "0.3608",
+                    "P_1000": "0.1068",
+                    "Rprec": "0.3387",
+                    "map": "0.3064",
+                    "summary": "\tP_10\t\tall\t0.5493\n\tP_100\t\tall\t0.3608\n\tP_1000\t\tall\t0.1068\n\tRprec\t\tall\t0.3387\n\tmap\t\t\tall\t0.3064\n"
+                }
+            }
+        },
+        "apl10ce1": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.5280",
+                    "P_100": "0.3800",
+                    "P_1000": "0.1128",
+                    "Rprec": "0.3316",
+                    "map": "0.2891",
+                    "summary": "\tP_10\t\tall\t0.5280\n\tP_100\t\tall\t0.3800\n\tP_1000\t\tall\t0.1128\n\tRprec\t\tall\t0.3316\n\tmap\t\t\tall\t0.2891\n"
+                }
+            }
+        },
+        "apl10ce2": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.4800",
+                    "P_100": "0.3184",
+                    "P_1000": "0.1037",
+                    "Rprec": "0.2602",
+                    "map": "0.2250",
+                    "summary": "\tP_10\t\tall\t0.4800\n\tP_100\t\tall\t0.3184\n\tP_1000\t\tall\t0.1037\n\tRprec\t\tall\t0.2602\n\tmap\t\t\tall\t0.2250\n"
+                }
+            }
+        },
+        "apl10ce3": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.4267",
+                    "P_100": "0.2900",
+                    "P_1000": "0.0940",
+                    "Rprec": "0.2224",
+                    "map": "0.1914",
+                    "summary": "\tP_10\t\tall\t0.4267\n\tP_100\t\tall\t0.2900\n\tP_1000\t\tall\t0.0940\n\tRprec\t\tall\t0.2224\n\tmap\t\t\tall\t0.1914\n"
+                }
+            }
+        },
+        "apl10cf1": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.4880",
+                    "P_100": "0.3200",
+                    "P_1000": "0.1030",
+                    "Rprec": "0.2891",
+                    "map": "0.2415",
+                    "summary": "\tP_10\t\tall\t0.4880\n\tP_100\t\tall\t0.3200\n\tP_1000\t\tall\t0.1030\n\tRprec\t\tall\t0.2891\n\tmap\t\t\tall\t0.2415\n"
+                }
+            }
+        },
+        "humAR01t": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.4800",
+                    "P_100": "0.2908",
+                    "P_1000": "0.0748",
+                    "Rprec": "0.3263",
+                    "map": "0.2663",
+                    "summary": "\tP_10\t\tall\t0.4800\n\tP_100\t\tall\t0.2908\n\tP_1000\t\tall\t0.0748\n\tRprec\t\tall\t0.3263\n\tmap\t\t\tall\t0.2663\n"
+                }
+            }
+        },
+        "humAR01td": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.4773",
+                    "P_100": "0.2924",
+                    "P_1000": "0.0738",
+                    "Rprec": "0.3087",
+                    "map": "0.2441",
+                    "summary": "\tP_10\t\tall\t0.4773\n\tP_100\t\tall\t0.2924\n\tP_1000\t\tall\t0.0738\n\tRprec\t\tall\t0.3087\n\tmap\t\t\tall\t0.2441\n"
+                }
+            }
+        },
+        "humAR01tdm": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.4827",
+                    "P_100": "0.2800",
+                    "P_1000": "0.0704",
+                    "Rprec": "0.2709",
+                    "map": "0.2087",
+                    "summary": "\tP_10\t\tall\t0.4827\n\tP_100\t\tall\t0.2800\n\tP_1000\t\tall\t0.0704\n\tRprec\t\tall\t0.2709\n\tmap\t\t\tall\t0.2087\n"
+                }
+            }
+        },
+        "humAR01tdn": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.4933",
+                    "P_100": "0.2716",
+                    "P_1000": "0.0706",
+                    "Rprec": "0.2914",
+                    "map": "0.2395",
+                    "summary": "\tP_10\t\tall\t0.4933\n\tP_100\t\tall\t0.2716\n\tP_1000\t\tall\t0.0706\n\tRprec\t\tall\t0.2914\n\tmap\t\t\tall\t0.2395\n"
+                }
+            }
+        },
+        "humAR01tdx": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.4613",
+                    "P_100": "0.2844",
+                    "P_1000": "0.0688",
+                    "Rprec": "0.3126",
+                    "map": "0.2465",
+                    "summary": "\tP_10\t\tall\t0.4613\n\tP_100\t\tall\t0.2844\n\tP_1000\t\tall\t0.0688\n\tRprec\t\tall\t0.3126\n\tmap\t\t\tall\t0.2465\n"
+                }
+            }
+        },
+        "iit01md": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.4853",
+                    "P_100": "0.2996",
+                    "P_1000": "0.0962",
+                    "Rprec": "0.3362",
+                    "map": "0.2987",
+                    "summary": "\tP_10\t\tall\t0.4853\n\tP_100\t\tall\t0.2996\n\tP_1000\t\tall\t0.0962\n\tRprec\t\tall\t0.3362\n\tmap\t\t\tall\t0.2987\n"
+                }
+            }
+        },
+        "iit01ml": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.5653",
+                    "P_100": "0.3928",
+                    "P_1000": "0.1088",
+                    "Rprec": "0.4112",
+                    "map": "0.3709",
+                    "summary": "\tP_10\t\tall\t0.5653\n\tP_100\t\tall\t0.3928\n\tP_1000\t\tall\t0.1088\n\tRprec\t\tall\t0.4112\n\tmap\t\t\tall\t0.3709\n"
+                }
+            }
+        },
+        "iit01mlr": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.6533",
+                    "P_100": "0.4380",
+                    "P_1000": "0.1180",
+                    "Rprec": "0.4615",
+                    "map": "0.4288",
+                    "summary": "\tP_10\t\tall\t0.6533\n\tP_100\t\tall\t0.4380\n\tP_1000\t\tall\t0.1180\n\tRprec\t\tall\t0.4615\n\tmap\t\t\tall\t0.4288\n"
+                }
+            }
+        },
+        "iit01xdi": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.3013",
+                    "P_100": "0.2272",
+                    "P_1000": "0.0810",
+                    "Rprec": "0.2425",
+                    "map": "0.2237",
+                    "summary": "\tP_10\t\tall\t0.3013\n\tP_100\t\tall\t0.2272\n\tP_1000\t\tall\t0.0810\n\tRprec\t\tall\t0.2425\n\tmap\t\t\tall\t0.2237\n"
+                }
+            }
+        },
+        "iit01xma": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.5013",
+                    "P_100": "0.3396",
+                    "P_1000": "0.1004",
+                    "Rprec": "0.3376",
+                    "map": "0.3119",
+                    "summary": "\tP_10\t\tall\t0.5013\n\tP_100\t\tall\t0.3396\n\tP_1000\t\tall\t0.1004\n\tRprec\t\tall\t0.3376\n\tmap\t\t\tall\t0.3119\n"
+                }
+            }
+        },
+        "pir1XAtd": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.1653",
+                    "P_100": "0.1052",
+                    "P_1000": "0.0390",
+                    "Rprec": "0.1405",
+                    "map": "0.0852",
+                    "summary": "\tP_10\t\tall\t0.1653\n\tP_100\t\tall\t0.1052\n\tP_1000\t\tall\t0.0390\n\tRprec\t\tall\t0.1405\n\tmap\t\t\tall\t0.0852\n"
+                }
+            }
+        },
+        "pir1XAtdn": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2187",
+                    "P_100": "0.1320",
+                    "P_1000": "0.0502",
+                    "Rprec": "0.1602",
+                    "map": "0.1036",
+                    "summary": "\tP_10\t\tall\t0.2187\n\tP_100\t\tall\t0.1320\n\tP_1000\t\tall\t0.0502\n\tRprec\t\tall\t0.1602\n\tmap\t\t\tall\t0.1036\n"
+                }
+            }
+        },
+        "pir1XEtd": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.0933",
+                    "P_100": "0.0812",
+                    "P_1000": "0.0321",
+                    "Rprec": "0.0647",
+                    "map": "0.0360",
+                    "summary": "\tP_10\t\tall\t0.0933\n\tP_100\t\tall\t0.0812\n\tP_1000\t\tall\t0.0321\n\tRprec\t\tall\t0.0647\n\tmap\t\t\tall\t0.0360\n"
+                }
+            }
+        },
+        "pir1XEtdn": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.1200",
+                    "P_100": "0.1028",
+                    "P_1000": "0.0360",
+                    "Rprec": "0.0768",
+                    "map": "0.0440",
+                    "summary": "\tP_10\t\tall\t0.1200\n\tP_100\t\tall\t0.1028\n\tP_1000\t\tall\t0.0360\n\tRprec\t\tall\t0.0768\n\tmap\t\t\tall\t0.0440\n"
+                }
+            }
+        },
+        "shefea": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2453",
+                    "P_100": "0.1492",
+                    "P_1000": "0.0443",
+                    "Rprec": "0.1175",
+                    "map": "0.0698",
+                    "summary": "\tP_10\t\tall\t0.2453\n\tP_100\t\tall\t0.1492\n\tP_1000\t\tall\t0.0443\n\tRprec\t\tall\t0.1175\n\tmap\t\t\tall\t0.0698\n"
+                }
+            }
+        },
+        "shefeaa": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.1840",
+                    "P_100": "0.1016",
+                    "P_1000": "0.0369",
+                    "Rprec": "0.0850",
+                    "map": "0.0408",
+                    "summary": "\tP_10\t\tall\t0.1840\n\tP_100\t\tall\t0.1016\n\tP_1000\t\tall\t0.0369\n\tRprec\t\tall\t0.0850\n\tmap\t\t\tall\t0.0408\n"
+                }
+            }
+        },
+        "sheffea": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.2240",
+                    "P_100": "0.1344",
+                    "P_1000": "0.0393",
+                    "Rprec": "0.0974",
+                    "map": "0.0551",
+                    "summary": "\tP_10\t\tall\t0.2240\n\tP_100\t\tall\t0.1344\n\tP_1000\t\tall\t0.0393\n\tRprec\t\tall\t0.0974\n\tmap\t\t\tall\t0.0551\n"
+                }
+            }
+        },
+        "sheffeaa": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.1920",
+                    "P_100": "0.1024",
+                    "P_1000": "0.0292",
+                    "Rprec": "0.0687",
+                    "map": "0.0367",
+                    "summary": "\tP_10\t\tall\t0.1920\n\tP_100\t\tall\t0.1024\n\tP_1000\t\tall\t0.0292\n\tRprec\t\tall\t0.0687\n\tmap\t\t\tall\t0.0367\n"
+                }
+            }
+        },
+        "shefma": {
+            "trec_eval": {
+                "all": {
+                    "P_10": "0.3573",
+                    "P_100": "0.2128",
+                    "P_1000": "0.0587",
+                    "Rprec": "0.1846",
+                    "map": "0.1226",
+                    "summary": "\tP_10\t\tall\t0.3573\n\tP_100\t\tall\t0.2128\n\tP_1000\t\tall\t0.0587\n\tRprec\t\tall\t0.1846\n\tmap\t\t\tall\t0.1226\n"
+                }
+            }
+        }
+    }
+}

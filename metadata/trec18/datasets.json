@@ -1,0 +1,102 @@
+{
+    "relfdbk": {
+        "corpus": "",
+        "topics": "https://trec.nist.gov/data/relevance.feedback/09/rf09.topics.queries-only",
+        "qrels": {
+            "Phase 1 runs and relevance judgments": "https://trec.nist.gov/data/relevance.feedback/09/rf09_phase1.tar.gz",
+            "prels relevance judgments for category A": "https://trec.nist.gov/data/relevance.feedback/09/prels.catA.1-50.gz",
+            "prels relevance judgments for category B": "https://trec.nist.gov/data/relevance.feedback/09/prels.catB.1-50.gz",
+            "erels 'expert' file for MTC.": "https://trec.nist.gov/data/relevance.feedback/09/erels.catAB.1-50.gz"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/relevance.feedback09.html",
+        "other": {}
+    },
+    "chemical": {
+        "corpus": "https://trec.nist.gov/data/chemical09.html",
+        "topics": "https://trec.nist.gov/data/chemical09.html",
+        "qrels": "https://trec.nist.gov/data/chemical09.html",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/chemical09.html",
+        "other": {}
+    },
+    "legal": {
+        "corpus": "https://trec-legal.umiacs.umd.edu/",
+        "topics": "https://trec.nist.gov/data/legal/09/BatchTopics2009.zip",
+        "qrels": {
+            "Relevance judgments, evaluation tools, and min/med/max scores for the batch task": "https://trec.nist.gov/data/legal/09/resultsL09.zip",
+            "Relevance Judgments and Evaluation Tools for the Interactive Task": "https://trec.nist.gov/data/legal/09/evalInt09.zip"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/legal09.html",
+        "other": {
+            "Reference Boolean run for the batch task": "https://trec.nist.gov/data/legal/09/refL09B.gz"
+        }
+    },
+    "web": {
+        "corpus": "http://lemurproject.org/clueweb09/",
+        "topics": {
+            "Web track topics (query only)": "https://trec.nist.gov/data/web/09/wt09.topics.queries-only",
+            "Web track topics (full, XML format)": "https://trec.nist.gov/data/web/09/wt09.topics.full.xml"
+        },
+        "qrels": {
+            "prels relevance judgments for the adhoc task.": "https://trec.nist.gov/data/web/09/prels.1-50.gz",
+            "prels relevance judgments for the adhoc task, category A runs only": "https://trec.nist.gov/data/web/09/prels.catA.1-50.gz",
+            "prels relevance judgments for the adhoc task, category B runs only": "https://trec.nist.gov/data/web/09/prels.catB.1-50.gz",
+            "Diversity task relevance judgments": "https://trec.nist.gov/data/web/09/qrels.diversity.gz"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/web09.html",
+        "other": {
+            "mtc-eval.tgz evaluation tool": "https://trec.nist.gov/data/web/09/mtc-eval.tgz",
+            "statAP_MQ_eval_v3.pl evaluation tool": "https://trec.nist.gov/data/web/09/statAP_MQ_eval_v3.pl",
+            "ndeval.c (v1.3): source code for diversity task evaluation.": "https://trec.nist.gov/data/web/09/ndeval.c"
+        }
+    },
+    "million-query": {
+        "corpus": "http://lemurproject.org/clueweb09/",
+        "topics": "https://trec.nist.gov/data/million.query/09/09.mq.topics.20001-60000.gz",
+        "qrels": {
+            "prels relevance judgments": "https://trec.nist.gov/data/million.query/09/prels.20001-60000.gz",
+            "erels file for MTC tool": "https://trec.nist.gov/data/million.query/09/erels_docsim.20001-60000.gz"
+        },
+        "ir_datasets": "https://ir-datasets.com/clueweb09.html#clueweb09/trec-mq-2009",
+        "trec_webpage": "https://trec.nist.gov/data/million.query09.html",
+        "other": {
+            "query classes": "https://trec.nist.gov/data/million.query/09/queryclasses.gz",
+            "million query track tools page": "https://web.archive.org/web/20221113171327/http://ir.cis.udel.edu/million/data.html"
+        }
+    },
+    "blog": {
+        "corpus": "https://ir.dcs.gla.ac.uk/test_collections/blogs08info.html",
+        "topics": {
+            "Topics for the faceted blog distillation task": "https://trec.nist.gov/data/blog/09/09.distillation-topics.1101-1150",
+            "Topics for the top stories identification task": "https://trec.nist.gov/data/blog/09/09.topstories-topics.1-55"
+        },
+        "qrels": {
+            "Distillation task qrels, all 50 topics less 1139": "https://trec.nist.gov/data/blog/09/09.distillation-qrels.full",
+            "Distillation task qrels, 39 official evaluation topics": "https://trec.nist.gov/data/blog/09/09.distillation-qrels.official",
+            "Headline relevance judgments for the top stories identification task.": "https://trec.nist.gov/data/blog/09/09.topstories-topics.1-55",
+            "Blog-post relevance judgments for top stories task": "https://trec.nist.gov/data/blog/09/blog09.topnews-blogpost.qrels"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/blog09.html",
+        "other": {
+            "Headline corpus for top stories identification task": "https://trec.nist.gov/data/blog/09/09.nytimes-headline-corpus.gz",
+            "Headline-only evaluation min/med/max score summary table.": "https://trec.nist.gov/data/blog/09/blog.topstories.headlines",
+            "Blog-post aspect mapping for top stories task (maps to column 2 of the qrels file).": "https://trec.nist.gov/data/blog/09/blog09.topnews-blogpost.aspects",
+            "ndeval_blog_tns.pl": "https://trec.nist.gov/data/blog/09/ndeval_blog_tns.pl",
+            "Perl wrapper for the web track ndeval.c evaluation tool": "https://trec.nist.gov/data/blog/09/ndeval.c"
+        }
+    },
+    "entity": {
+        "corpus": "https://lemurproject.org/clueweb09/",
+        "topics": "https://trec.nist.gov/data/entity/09/09.entity-topics",
+        "qrels": "https://trec.nist.gov/data/entity/09/09.entity.qrels",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/entity09.html",
+        "other": {
+            "Entity track evaluation script": "https://trec.nist.gov/data/entity/09/eval-entity.pl"
+        }
+    }
+}

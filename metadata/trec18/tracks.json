@@ -1,0 +1,73 @@
+{
+    "relfdbk": {
+        "fullname": "Relevance Feedback",
+        "tasks": {
+            "phase1": "Phase 1",
+            "phase2": "Phase 2"
+        },
+        "webpage": "https://groups.google.com/g/trec-relfeed",
+        "coordinators": "",
+        "description": "In the second year, the concentration shifted to finding good sets of docs to base their retrieval on. Each participant submitted one or two sets of 5 docs for each topic, and 3-5 other participants ran with those docs, thus getting a nonsystem dependent score on how good those docs were.",
+        "year": 2009
+    },
+    "chemical": {
+        "fullname": "Chemical",
+        "tasks": {
+            "priorart": "Prior Art Task",
+            "techsurv": "Technology Survey Task"
+        },
+        "webpage": "https://trec.nist.gov/data/chemical09.html",
+        "coordinators": "M. Lupu, Information Retrieval Facility (IRF):F. Piroi, Information Retrieval Facility (IRF):J. Tait, Information Retrieval Facility (IRF):J. Huang, York University:J. Zhu, University College London",
+        "description": "TREC 2009 was the first year of the Chemical IR Track, which focuses on evaluation of search techniques for discovery of digitally stored information on chemical patents and academic journal articles. The track included two tasks: Prior Art (PA) and Technical Survey (TS) tasks.",
+        "year": 2009
+    },
+    "legal": {
+        "fullname": "Legal",
+        "tasks": {
+            "batch": "Batch",
+            "interactive": "Interactive"
+        },
+        "webpage": "http://trec-legal.umiacs.umd.edu/",
+        "coordinators": "B. Hedin, H5:S. Tomlinson, Open Text Corporation:J. R. Baron, National Archives and Records Administration:D. W. Oard, University of Maryland, College Park",
+        "description": "TREC 2009 was the fourth year of the Legal Track, which focuses on evaluation of search technology for \u201cdiscovery\u201d (i.e., responsive review) of electronically stored information in litigation and regulatory settings. The track included two tasks: an Interactive task (in which real users could iteratively refine their queries and/or engage in multi-pass relevance feedback) and a Batch task (two-pass search in a controlled setting with some relevant and nonrelevant documents manually marked after the first pass).",
+        "year": 2009
+    },
+    "web": {
+        "fullname": "Web",
+        "tasks": {
+            "adhoc": "Adhoc",
+            "diversity": "Diversity"
+        },
+        "webpage": "https://plg.uwaterloo.ca/~trecweb/2009.html",
+        "coordinators": "C.L.A. Clarke, University of Waterloo:N. Craswell, Microsoft:I. Soboroff, National Institute of Standards and Technology (NIST)",
+        "description": "The TREC Web Track explores and evaluates Web retrieval technologies. Currently, the Web Track conducts experiments using the new billion-page ClueWeb09 collection. The TREC 2009 track is the successor to the Terabyte Retrieval Track, which ran from 2004 to 2006, and to the older Web Track, which ran from 1999 to 2003. The TREC 2009 Web Track includes both a traditional adhoc retrieval task and a new diversity task.",
+        "year": 2009
+    },
+    "million-query": {
+        "fullname": "Million Query",
+        "tasks": "",
+        "webpage": "https://web.archive.org/web/20100610074201/https://udel.edu/mailman/listinfo/trec-million09",
+        "coordinators": "B. Carterette, University of Delaware:H. Fang, University of Delaware:V. Pavlu, Northeastern University:E. Kanoulas, University of Sheffield",
+        "description": "The Million Query Track ran for the third time in 2009. The track is designed to serve two purposes: first, it is an exploration of ad hoc retrieval over a large set of queries and a large collection of documents; second, it investigates questions of system evaluation, in particular whether it is better to evaluate using many queries judged shallowly or fewer queries judged thoroughly",
+        "year": 2009
+    },
+    "blog": {
+        "fullname": "Blog",
+        "tasks": {
+            "topstories": "Top Stories Identification",
+            "feed": "Faceted Blog Distillation"
+        },
+        "webpage": "https://www.dcs.gla.ac.uk/wiki/TREC-BLOG",
+        "coordinators": "C. Macdonald, University of Glasgow:I. Ounis, University of Glasgow:I. Soboroff, National Institute of Standards and Technology (NIST)",
+        "description": "The Blog track explores the information seeking behaviour in the blogosphere. Thus far, since its inception in 2006, the Blog track addressed two main search tasks based on the analysis of a commercial blog search engine: the opinion-finding task (i.e. \u201cWhat do people think about X?\u201d) and the blog distillation task (i.e. \u201cFind me a blog with a principal, recurring interest in X.\u201d)",
+        "year": 2009
+    },
+    "entity": {
+        "fullname": "Entity",
+        "tasks": "",
+        "webpage": "https://web.archive.org/web/20110811014305/http://ilps.science.uva.nl/trec-entity/",
+        "coordinators": "K. Balog, University of Amsterdam:A. de Vries, CWI:P. Serdyukov, TU Delft:P. Thomas, CSIRO:T. Westerveld, Teezir",
+        "description": "The goal of the entity track is to perform entity-oriented search tasks on the World Wide Web. Many user information needs would be better answered by specific entities instead of just any type of documents.",
+        "year": 2009
+    }
+}

@@ -1,0 +1,268 @@
+{
+    "RutgersB": {
+        "pid": "RutgersB",
+        "organization": "Rutgers University",
+        "name": "Nicholas J. Belkin",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "Cornell": {
+        "pid": "Cornell",
+        "organization": "Cornell University",
+        "name": "Chris Buckley",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "MITRE": {
+        "pid": "MITRE",
+        "organization": "MITRE",
+        "name": "John D. Burger",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "UMass": {
+        "pid": "UMass",
+        "organization": "University of Massachusetts",
+        "name": "James P. Callan",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "Waterloo": {
+        "pid": "Waterloo",
+        "organization": "University of Waterloo",
+        "name": "Charles Clarke",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "UCSD": {
+        "pid": "UCSD",
+        "organization": "University of California, San Diego",
+        "name": "Dr. Garrison Cottrell",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "NMSU-C": {
+        "pid": "NMSU-C",
+        "organization": "New Mexico State University",
+        "name": "Jim Cowie",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "Apple": {
+        "pid": "Apple",
+        "organization": "Apple Computer",
+        "name": "Dan Rose",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "NMSU-D": {
+        "pid": "NMSU-D",
+        "organization": "New Mexico State University",
+        "name": "Mark Davis",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "CLARITECH": {
+        "pid": "CLARITECH",
+        "organization": "CLARITECH Corporation",
+        "name": "David A. Evans",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "OpenText": {
+        "pid": "OpenText",
+        "organization": "Open Text Corporation",
+        "name": "Larry Fitzpatrick",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "UKans": {
+        "pid": "UKans",
+        "organization": "University of Kansas",
+        "name": "Prof. Susan Gauch",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "Berkeley": {
+        "pid": "Berkeley",
+        "organization": "University of California, Berkeley",
+        "name": "Fredric C. Gey",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "GMU": {
+        "pid": "GMU",
+        "organization": "George Mason University",
+        "name": "David Grossman",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "ANU": {
+        "pid": "ANU",
+        "organization": "Australian National University",
+        "name": "David Hawking",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "Monash": {
+        "pid": "Monash",
+        "organization": "Monash University",
+        "name": "Maria T. Indrawan",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "Intext": {
+        "pid": "Intext",
+        "organization": "Intext Systems",
+        "name": "Dr. Richard L. Jones",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "RutgersK": {
+        "pid": "RutgersK",
+        "organization": "Rutgers University",
+        "name": "Paul Kantor",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "CUNY": {
+        "pid": "CUNY",
+        "organization": "Queens College, CUNY",
+        "name": "K.L. Kwok",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "ITI-SG": {
+        "pid": "ITI-SG",
+        "organization": "Information Technology Institute",
+        "name": "Kok F. Lai",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "Lexis-Nexis": {
+        "pid": "Lexis-Nexis",
+        "organization": "Lexis-Nexis",
+        "name": "Alan Lu",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "CTI-GR": {
+        "pid": "CTI-GR",
+        "organization": "Computer Technology Institute",
+        "name": "Basilis Mamalis",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "ETH": {
+        "pid": "ETH",
+        "organization": "Swiss Federal Institute of Technology (ETH)",
+        "name": "Elke Mittendorf",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "UIUC": {
+        "pid": "UIUC",
+        "organization": "University of Illinois",
+        "name": "Gregory B. Newby",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "ERLI": {
+        "pid": "ERLI",
+        "organization": "GSI-Erli",
+        "name": "Etienne Normier",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "UMd": {
+        "pid": "UMd",
+        "organization": "University of Maryland",
+        "name": "Douglas Oard",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "Xerox": {
+        "pid": "Xerox",
+        "organization": "Xerox",
+        "name": "Jan Pedersen",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "IBM-Y": {
+        "pid": "IBM-Y",
+        "organization": "IBM",
+        "name": "Yael Ravin",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "City": {
+        "pid": "City",
+        "organization": "City University",
+        "name": "S.E. Robertson",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "IBM-S": {
+        "pid": "IBM-S",
+        "organization": "IBM",
+        "name": "Salim Roukos",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "Glasgow": {
+        "pid": "Glasgow",
+        "organization": "University of Glasgow",
+        "name": "Mark Sanderson",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "Neuchatel": {
+        "pid": "Neuchatel",
+        "organization": "Universite de Neuchatel",
+        "name": "Jacques Savoy",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "FS": {
+        "pid": "FS",
+        "organization": "FS Consulting",
+        "name": "Francois Schiettecatte",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "Dublin": {
+        "pid": "Dublin",
+        "organization": "Dublin City University",
+        "name": "Alan Smeaton",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "IRIT": {
+        "pid": "IRIT",
+        "organization": "Institut de Recherche en Informatique de Toulouse",
+        "name": "C. Soule-Dupuy",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "GE-NYU": {
+        "pid": "GE-NYU",
+        "organization": "GE",
+        "name": "Tomek Strzalkowski",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "UNC": {
+        "pid": "UNC",
+        "organization": "University of North Carolina",
+        "name": "R.G. Sumner, Jr.",
+        "trec": "trec5",
+        "year": 1996
+    },
+    "CITRI": {
+        "pid": "CITRI",
+        "organization": "Royal Melbourne Institute of Technology",
+        "name": "Dr. Justin Zobel",
+        "trec": "trec5",
+        "year": 1996
+    }
+}

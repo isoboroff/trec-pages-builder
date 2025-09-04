@@ -1,0 +1,64 @@
+{
+    "genomics": {
+        "fullname": "Genomics",
+        "tasks": {
+            "primary": "Primary Task",
+            "secondary": "Secondary Task"
+        },
+        "webpage": "https://dmice.ohsu.edu/trec-gen/",
+        "coordinators": "W. Hersh Oregon Health and Science University:R.T. Bhupatiraju, Oregon Health and Science University",
+        "description": "The first year of TREC Genomics Track featured two tasks: ad hoc retrieval and information extraction. Both tasks centered around the Gene Reference into Function (GeneRIF) resource of the National Library of Medicine, which was used as both pseudorelevance judgments for ad hoc document retrieval as well as target text for information extraction. The track attracted 29 groups who participated in one or both tasks.",
+        "year": 2003
+    },
+    "web": {
+        "fullname": "Web",
+        "tasks": {
+            "distillation": "Topic distillation",
+            "knownitem": "Navigational"
+        },
+        "webpage": "https://trec.nist.gov/data/t12.web.html",
+        "coordinators": "N. Craswell, CSIRO ICT Centre:D. Hawking, CSIRO ICT Centre",
+        "description": "The TREC 2003 web track consisted of both a non-interactive stream and an interactive stream. Both streams worked with the .GOV test collection. The non-interactive stream continued an investigation into the importance of homepages in Web ranking, via both a Topic Distillation task and a Navigational task. In the topic distillation task, systems were expected to return a list of the homepages of sites relevant to each of a series of broad queries. This differs from previous homepage experiments in that queries may have multiple correct answers. The navigational task required systems to return a particular desired web page as early as possible in the ranking in response to queries. In half of the queries, the target answer was the homepage of a site and the query was derived from the name of the site (Homepage finding) while in the other half, the target answers were not homepages and the queries were derived from the name of the page (Named page finding). The two types of query were arbitrarily mixed and not identified. The interactive stream focused on human participation in a topic distillation task over the .GOV collection. Studies conducted by the two participating groups compared a search engine using automatic topic distillation features with the same engine with those features disabled in order to determine whether the automatic topic distillation features assisted the users in the performance of their tasks and whether humans could achieve better results than the automatic system.",
+        "year": 2003
+    },
+    "hard": {
+        "fullname": "HARD",
+        "tasks": "",
+        "webpage": "https://web.archive.org/web/20031230204716/https://ciir.cs.umass.edu/research/hard/guidelines.html/",
+        "coordinators": "J. Allan, University of Massachusetts Amherst",
+        "description": "The goal of this track is to bring the user out of hiding, making him or her an integral part of both the search process and the evaluation. Systems do not have just a query to chew on, but also have as much information as possible about the person making the request, ranging from biographical data, through information seeking context, to expected type of result. The HARD track is a variant of the ad-hoc retrieval task from the past. It was a \u201cpilot\u201d track in 2003 because of the substantial extension on past evaluation\u2014i.e., it is not clear how best to evaluate some of the aspects of the track, so at least for this year it was intended to be very open ended.",
+        "year": 2003
+    },
+    "robust": {
+        "fullname": "Robust",
+        "tasks": "",
+        "webpage": "https://trec.nist.gov/data/robust.html",
+        "coordinators": "E.M. Voorhees, National Institute of Standards and Technology (NIST)",
+        "description": "The robust retrieval track is a new track in TREC 2003. The goal of the track is to improve the consistency of retrieval technology by focusing on poorly performing topics. In addition, the track brings back a classic, ad hoc retrieval task to TREC that provides a natural home for new participants.",
+        "year": 2003
+    },
+    "qa": {
+        "fullname": "Question Answering",
+        "tasks": {
+            "main": "Main task",
+            "passages": "Passages"
+        },
+        "webpage": "https://trec.nist.gov/data/qamain.html",
+        "coordinators": "E.M. Voorhees, National Institute of Standards and Technology (NIST)",
+        "description": "The TREC 2003 question answering track contained two tasks, the passages task and the main task. In the passages task, systems returned a single text snippet in response to factoid questions; the evaluation metric was the number of snippets that contained a correct answer. The main task contained three separate types of questions, factoid questions, list questions, and definition questions. Each of the questions was tagged as to its type and the different question types were evaluated separately. The final score for a main task run was a combination of the scores for the separate question types.",
+        "year": 2003
+    },
+    "novelty": {
+        "fullname": "Novelty",
+        "tasks": {
+            "task1": "Task 1",
+            "task2": "Task 2",
+            "task3": "Task 3",
+            "task4": "Task 4"
+        },
+        "webpage": "https://trec.nist.gov/data/t12_novelty/novelty03.guidelines.html",
+        "coordinators": "I. Soboroff, National Institute of Standards and Technology (NIST):D. Harman, National Institute of Standards and Technology (NIST)",
+        "description": "The Novelty Track is designed to investigate systems' abilities to locate relevant AND new information within a set of documents relevant to a TREC topic. Systems are given the topic and a set of relevant documents ordered by date, and must identify sentences containing relevant and/or new information in those documents.",
+        "year": 2003
+    }
+}

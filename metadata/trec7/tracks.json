@@ -1,0 +1,62 @@
+{
+    "adhoc": {
+        "fullname": "Adhoc",
+        "tasks": "",
+        "webpage": "https://trec.nist.gov/data/test_coll.html",
+        "coordinators": "E. Voorhees, National Institute of Standards and Technology (NIST):D. Harman, National Institute of Standards and Technology (NIST)",
+        "description": "The ad hoc task investigates the performance of systems that search a static set of documents using new questions (called topics in TREC). This task is similar to how a researcher might use a library\u2014the collection is known but the questions likely to be asked are not known. NIST provides the participants approximately 2 gigabytes worth of documents and a set of 50 natural language topic statements. The participants produce a set of queries from the topic statements and run those queries against the documents. The output from this run is the official test result for the ad hoc task. Participants return the best 1000 documents retrieved for each topic to NIST for evaluation.",
+        "year": 1998
+    },
+    "hp": {
+        "fullname": "High-Precision",
+        "tasks": "",
+        "webpage": "",
+        "coordinators": "C. Buckley, SabIR Research, Inc.",
+        "description": "TREC 7 is the second year the High-Precision (HP) track has been run. It is an attempt to perform a task that is much more closely related to real-world user interactions than the ad-hoc or routing task. The goal is simple: a user is asked to find 15 relevant documents in 5 minutes. No other restrictions are put on the user (other than no prior knowledge of the query, and no asking other users for help). Official evaluation is simply how many actual relevant documents were found among the 15 documents supplied by the user, modified slightly for those queries with fewer than 15 relevant documents in the collection (Relative Precision at 15 documents).",
+        "year": 1998
+    },
+    "filtering": {
+        "fullname": "Filtering",
+        "tasks": {
+            "adaptive": "Adaptive filtering",
+            "batch": "Batch filtering",
+            "routing": "Routing"
+        },
+        "webpage": "",
+        "coordinators": "D.A. Hull, Xerox Research Centre Europe",
+        "description": "Given a topic description, build a filtering profile which will select the most relevant examples from an incoming stream of documents. As the document stream is processed, the system may be provided with a binary judgement of relevance for some of the retrieved documents. This information can be used to adaptively update the filtering profile.",
+        "year": 1998
+    },
+    "sdr": {
+        "fullname": "Spoken Document Retrieval",
+        "tasks": "",
+        "webpage": "https://trec.nist.gov/data/sdr.html",
+        "coordinators": "J. Garofolo, National Institute of Standards and Technology (NIST):E. Voorhees, National Institute of Standards and Technology (NIST): C. Auzanne, National Institute of Standards and Technology (NIST):V. Stanford, National Institute of Standards and Technology (NIST):B. Lund, National Institute of Standards and Technology (NIST)",
+        "description": "Spoken Document Retrieval (SDR) involves the search and retrieval of excerpts from recordings of speech using a combination of automatic speech recognition and information retrieval techniques. In performing SDR, a speech recognition engine is applied to an audio input stream and generates a time-marked textual representation (transcription) of the speech. The transcription is then indexed and may be searched using an information retrieval engine. In traditional information retrieval, a topic (or query) results in a rank-ordered list of documents. In SDR, a topic results in a rank-ordered list of temporal pointers to potentially relevant excerpts. In an operational SDR system, these excerpts could be topical sections of a recording of a conference or radio or television broadcasts.",
+        "year": 1998
+    },
+    "xlingual": {
+        "fullname": "Cross-Language",
+        "tasks": "",
+        "webpage": "",
+        "coordinators": "M. Braschler, Eurospider Information Technology:J. Krause, Informationszentrum Sozialwissenschaften:C. Peters, Istituto di Elaborazione della Informazione (IEI-CNR):P. Sch\u00e4uble, Swiss Federal Institute of Technology (ETH)",
+        "description": "This year, the TREC cross-language retrieval track took place for the second time. In TREC-7, we extended the task presented to the participants. The goal was for groups to use queries written in a single language in order to retrieve documents from a multilingual pool of documents written in many different languages. This is also a more comprehensive task than the usual definition of cross-language information retrieval, where systems work with a language pair, retrieving documents in a language L1 using queries in language L2.",
+        "year": 1998
+    },
+    "query": {
+        "fullname": "Query",
+        "tasks": "",
+        "webpage": "",
+        "coordinators": "C. Buckley, SabIR Research, Inc.",
+        "description": "General IR research is being held up because we don't have enough queries of various types to investigate advanced retrieval techniques that are query dependent. There's no way we can get enough relevance judgements on new queries to form a good query pool. The Query track looks at multiple query variations of past TREC topics to get a large number of query formulations.",
+        "year": 1998
+    },
+    "interactive": {
+        "fullname": "Interactive",
+        "tasks": "",
+        "webpage": "https://trec.nist.gov/data/t7i/t7i.html",
+        "coordinators": "P. Over, National Institute of Standards and Technology (NIST)",
+        "description": "For TREC-7 the high-level goal of the Interactive Track remained the investigation of searching as an interactive task by examining the process as well as the outcome.",
+        "year": 1998
+    }
+}

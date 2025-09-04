@@ -1,0 +1,163 @@
+{
+    "avs": {
+        "corpus": "https://www-nlpir.nist.gov/projects/tv2024/data.html#V3C2",
+        "topics": "https://www-nlpir.nist.gov/projects/tv2024/pastdata/ad.hoc.search/tv24.avs.topics.txt",
+        "qrels": "http://www-nlpir.nist.gov/projects/tv2024/pastdata/ad.hoc.search/avs.qrels.main.tv24",
+        "ir_datasets": "",
+        "trec_webpage": "https://www-nlpir.nist.gov/projects/tv2024/avs.html",
+        "other": {}
+    },
+    "atomic": {
+        "corpus": "https://huggingface.co/TREC-AToMiC",
+        "topics": {
+            "vital-lvl3": "https://trec.nist.gov/data/atomic/vital_test.jsonl",
+            "image-needed": "https://trec.nist.gov/data/atomic/wpwp_test-2.jsonl"
+        },
+        "qrels": "https://trec.nist.gov/data/atomic/2024-qrels.txt",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/atomic.html",
+        "other": {}
+    },
+    "biogen": {
+        "corpus": "https://ftp.ncbi.nlm.nih.gov/pubmed/baseline/",
+        "topics": {
+            "json": "https://trec.nist.gov/data/biogen/BioGen2024topics-json.txt",
+            "xml": "https://trec.nist.gov/data/biogen/BioGen2024topics-xml.txt"
+        },
+        "qrels": {
+            "Assessments": "https://trec.nist.gov/data/biogen/biogen_collection_v3.json",
+            "SIMCSE clusters": "https://trec.nist.gov/data/biogen/question_to_clustered_answer_sentences_sim_cse_kmeans_4_biogen_transformed.json",
+            "ST clusters": "https://trec.nist.gov/data/biogen/question_to_clustered_answer_sentences_sentence_transformers_kmeans_4_biogen_transformed.json"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/biogen2024.html",
+        "other": {
+            "Track Homepage": "https://dmice.ohsu.edu/trec-biogen"
+        }
+    },
+    "ikat": {
+        "corpus": "https://www.trecikat.com/data/",
+        "topics": "https://drive.google.com/file/d/1pIu_kSn6YHQRX74DFknmjUJA34-JY67M/view?usp=sharingg",
+        "qrels": {
+            "Relevance judgments": "https://trec.nist.gov/data/ikat/2024-qrels.txt",
+            "PTKB relevance judgments": "https://trec.nist.gov/data/ikat/2024-ptkb-qrels.txt"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/ikat2024.html",
+        "other": {
+            "Datasets and Resources (www.trecikat.com)": "https://www.trecikat.com/data/"
+        }
+    },
+    "lateral": {
+        "corpus": "https://www.lemurproject.org/clueweb22.php/",
+        "topics": "https://trec.nist.gov/data/lateral/trec-2024-lateral-reading-task1-articles.txt",
+        "qrels": {
+            "Question generation": "https://trec.nist.gov/data/lateral/2024-question-assessment.txt",
+            "Answer retrieval": "https://trec.nist.gov/data/lateral/2024-retrieval-qrels.txt"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/lateral2024.html",
+        "other": {
+            "Track homepage": "https://trec-lateral-reading.github.io",
+            "Assessor questions": "https://trec.nist.gov/data/lateral/assessor_questions.csv",
+            "README": "https://trec.nist.gov/data/lateral/README.txt"
+        }
+    },
+    "medvidqa": {
+        "corpus": {
+            "task A": "https://osf.io/pc594/files/osfstorage",
+            "task B": "https://github.com/j-min/HiREST/tree/main/data/splits"
+        },
+        "topics": {
+            "task A": "https://trec.nist.gov/data/medvidqa/MedVidQA-VCVAL.zip",
+            "task B": "https://trec.nist.gov/data/medvidqa/MedVidQA-QFISC.zip"
+        },
+        "qrels": {
+            "task A VAL": "https://trec.nist.gov/data/medvidqa/trec-vcval-judgement-segments.json",
+            "task A VR": "https://trec.nist.gov/data/medvidqa/trec-vcval-judgement.json",
+            "tasb B QFISC": "https://trec.nist.gov/data/medvidqa/qfisc-test-segments-with-gold-steps.json"
+        },
+        "ir_datasets": "",
+        "trec_webpage": {
+            "track": "https://medvidqa.github.io/index.html",
+            "trec": "https://trec.nist.gov/data/medvidqa2024.htmll"
+        },
+        "other": {}
+    },
+    "neuclir": {
+        "corpus": "https://ir.nist.gov/neuclir/neuclir1.tar.gz",
+        "topics": {
+            "Topics": "https://trec.nist.gov/data/neuclir24.topics.0614.jsonl",
+            "Technical topics": "https://trec.nist.gov/data/technical_topics.0703.jsonl",
+            "Report requests": "https://trec.nist.gov/data/requests-test-all.jsonl"
+        },
+        "qrels": {
+            "MLIR relevance judgments": "https://trec.nist.gov/data/neuclir/2024-qrels.mlir",
+            "CLIR Farsi relevance judgments": "https://trec.nist.gov/data/neuclir/2024-qrels.fas.with-gains",
+            "CLIR Russian relevance judgments": "https://trec.nist.gov/data/neuclir/2024-qrels.rus.with-gains",
+            "CLIR Chinese relevance judgments": "https://trec.nist.gov/data/neuclir/2024-qrels.zho.with-gains",
+            "Technical documents relevance judgments": "https://trec.nist.gov/data/neuclir/2024.technical_qrels.txt"
+        },
+        "ir_datasets": "https://ir-datasets.com/neuclir.html",
+        "trec_webpage": "https://trec.nist.gov/data/neuclir2024.html",
+        "other": {
+            "Machine translations": "https://ir.nist.gov/neuclir/neuCLIR-translations.tar.gz",
+            "Technical documents collection": "https://ir.nist.gov/neuclir/csl_data.release.jsonl.gz",
+            "Google Translate MT of the tech documents collection": "https://ir.nist.gov/neuclir/csl_data.google_translate.063023.release.jsonl.gz"
+        }
+    },
+    "plaba": {
+        "corpus": {
+            "task 1": "https://trec.nist.gov/data/plaba/PLABA_2024-Task_1.zip",
+            "task 2": "https://trec.nist.gov/data/plaba/PLABA_2024-Task_2.zip"
+        },
+        "topics": {
+            "task 1": "https://trec.nist.gov/data/plaba/PLABA_2024-Task_1.zip",
+            "task 2": "https://trec.nist.gov/data/plaba/PLABA_2024-Task_2.zip"
+        },
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": {
+            "trec": "https://trec.nist.gov/data/product2024.html",
+            "track": "https://bionlp.nlm.nih.gov/plaba2024/"
+        },
+        "other": {}
+    },
+    "product": {
+        "corpus": "https://trec-product-search.github.io/#datasets",
+        "topics": "https://trec.nist.gov/data/product/2024-test-queries.tsv",
+        "qrels": "https://trec.nist.gov/data/product/2024-qrels.txt",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/product2024.html",
+        "other": {
+            "Other resources on the track's website": "https://trec-product-search.github.io/#datasets"
+        }
+    },
+    "rag": {
+        "corpus": "https://trec-rag.github.io/annoucements/2025-rag25-corpus/",
+        "topics": "https://trec.nist.gov/data/rag/topics.rag24.test.txt",
+        "qrels": {
+            "retrieval": "https://trec.nist.gov/data/rag/2024-retrieval-conditions-qrels.txt",
+            "umbrela": "https://trec-rag.github.io/annoucements/umbrela-qrels/"
+        },
+        "ir_datasets": "https://ir-datasets.com/msmarco-passage-v2.html",
+        "trec_webpage": "https://trec-rag.github.io",
+        "other": {}
+    },
+    "tot": {
+        "corpus": "https://ir-datasets.com/trec-tot.html",
+        "topics": "https://trec.nist.gov/data/tot/2024-queries.jsonl",
+        "qrels": "https://trec.nist.gov/data/tot/2024-qrels.txt",
+        "ir_datasets": "https://ir-datasets.com/trec-tot.html",
+        "trec_webpage": "https://trec.nist.gov/data/tot2024.html",
+        "other": {}
+    },
+    "vtt": {
+        "corpus": "https://www-nlpir.nist.gov/projects/tv2024/data.html",
+        "topics": "https://www-nlpir.nist.gov/projects/tv2024/pastdata/video.to.text/",
+        "qrels": "https://www-nlpir.nist.gov/projects/tv2024/pastdata/video.to.text/ground.truth/",
+        "ir_datasets": "",
+        "trec_webpage": "https://www-nlpir.nist.gov/projects/tv2024/vtt.html",
+        "other": {}
+    }
+}

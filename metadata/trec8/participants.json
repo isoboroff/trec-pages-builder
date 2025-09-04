@@ -1,0 +1,464 @@
+{
+    "ACSys": {
+        "pid": "ACSys",
+        "organization": "ACSys",
+        "name": "David Hawking",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "ATT": {
+        "pid": "ATT",
+        "organization": "AT&T Labs Research",
+        "name": "Amit Singhal",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "berkeley_gey": {
+        "pid": "berkeley_gey",
+        "organization": "University of California, Berkeley",
+        "name": "Fredric Gey",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "buffalo": {
+        "pid": "buffalo",
+        "organization": "State University of New York at Buffalo",
+        "name": "Srikanth Munirathnam",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "cambridge": {
+        "pid": "cambridge",
+        "organization": "Cambridge University",
+        "name": "Karen Sparck Jones",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "cir": {
+        "pid": "cir",
+        "organization": "Center for Information Research, Russia",
+        "name": "Tatyana Yudina",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "city-pliers": {
+        "pid": "city-pliers",
+        "organization": "City University/Microsoft",
+        "name": "Andy MacFarlane",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "claritech": {
+        "pid": "claritech",
+        "organization": "CLARITECH Corporation",
+        "name": "Dr. David A. Evans",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "clresearch": {
+        "pid": "clresearch",
+        "organization": "CL Research",
+        "name": "Ken Litkowski",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "cmu": {
+        "pid": "cmu",
+        "organization": "Carnegie Mellon University",
+        "name": "Alex Hauptmann",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "cornell": {
+        "pid": "cornell",
+        "organization": "SabIR Research/Cornell University",
+        "name": "Chris Buckley",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "cuny": {
+        "pid": "cuny",
+        "organization": "Queens College, CUNY",
+        "name": "K.L. Kwok",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "cymfony": {
+        "pid": "cymfony",
+        "organization": "Cymfony Inc.",
+        "name": "Rohini Srihari",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "dartmouth": {
+        "pid": "dartmouth",
+        "organization": "Dartmouth College",
+        "name": "Javed A. Aslam",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "dso": {
+        "pid": "dso",
+        "organization": "DSO National Laboratories, Singapore",
+        "name": "Dr. Hwee Tou Ng",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "dublin": {
+        "pid": "dublin",
+        "organization": "Dublin City University",
+        "name": "Cathal Gurrin",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "eurospider": {
+        "pid": "eurospider",
+        "organization": "Eurospider Information Technology",
+        "name": "Peter Schauble",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "fub": {
+        "pid": "fub",
+        "organization": "Fondazione Ugo Bordoni",
+        "name": "Claudio Carpineto",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "fujitsu": {
+        "pid": "fujitsu",
+        "organization": "Fujitsu Laboratories. Ltd.",
+        "name": "Isao Namba",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "ge": {
+        "pid": "ge",
+        "organization": "GE/Rutgers/SICS/UHelsinki/UPenn",
+        "name": "Tomek Strzalkowski",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "ibm-chong": {
+        "pid": "ibm-chong",
+        "organization": "IBM T. J. Watson Research Center (Chong)",
+        "name": "Herb Chong",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "ibm-franz": {
+        "pid": "ibm-franz",
+        "organization": "IBM T.J. Watson Research Center (Franz)",
+        "name": "Martin Franz",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "icdc": {
+        "pid": "icdc",
+        "organization": "Informatique-CDC",
+        "name": "Mathieu Stricker",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "iit": {
+        "pid": "iit",
+        "organization": "IIT/AAT/NCR",
+        "name": "David Grossman",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "imperial": {
+        "pid": "imperial",
+        "organization": "Imperial College",
+        "name": "Dr Stefan Rueger",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "iowa": {
+        "pid": "iowa",
+        "organization": "University of Iowa",
+        "name": "David Eichmann",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "irit": {
+        "pid": "irit",
+        "organization": "IRIT/SIG",
+        "name": "Chantal Soule-Dupuy",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "jhu": {
+        "pid": "jhu",
+        "organization": "Johns Hopkins University",
+        "name": "James Mayfield",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "kasetsart": {
+        "pid": "kasetsart",
+        "organization": "Kasetsart University",
+        "name": "Dr. Arnon RUNGSAWANG",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "kdd": {
+        "pid": "kdd",
+        "organization": "KDD R\\&D Laboratories",
+        "name": "Keiichiro Hoashi",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "limsi": {
+        "pid": "limsi",
+        "organization": "LIMSI-CNRS",
+        "name": "Christian Jacquemin",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "limsi-tlp": {
+        "pid": "limsi-tlp",
+        "organization": "LIMSI-CNRS",
+        "name": "Jean-Luc Gauvain",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "microsoft": {
+        "pid": "microsoft",
+        "organization": "Microsoft Research Ltd",
+        "name": "Steve Robertson",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "MIT": {
+        "pid": "MIT",
+        "organization": "MIT Laboratory for Computer Science",
+        "name": "Kenney NG",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "miti": {
+        "pid": "miti",
+        "organization": "Management Information Technologies, Inc.",
+        "name": "Ken Ewell",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "mitre": {
+        "pid": "mitre",
+        "organization": "MITRE",
+        "name": "John D. Burger",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "montreal": {
+        "pid": "montreal",
+        "organization": "Universite de Montreal",
+        "name": "Jian-Yun Nie",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "UNC": {
+        "pid": "UNC",
+        "organization": "University of North Carolina (Yang)",
+        "name": "Kiduk Yang",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "Newby": {
+        "pid": "Newby",
+        "organization": "University of North Carolina (Newby)",
+        "name": "Greg Newby",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "nmsu": {
+        "pid": "nmsu",
+        "organization": "New Mexico State University",
+        "name": "Bill Ogden",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "ntexas": {
+        "pid": "ntexas",
+        "organization": "University of North Texas",
+        "name": "Mark Rorvig",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "ntt": {
+        "pid": "ntt",
+        "organization": "NTT DATA Corporation",
+        "name": "Toru Takaki",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "ntu": {
+        "pid": "ntu",
+        "organization": "National Taiwan University",
+        "name": "Professor Hsin-Hsi Chen",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "OHSU": {
+        "pid": "OHSU",
+        "organization": "Oregon Health Sciences University",
+        "name": "William Hersh",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "oracle": {
+        "pid": "oracle",
+        "organization": "Oracle",
+        "name": "Jackie Kud",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "oslo": {
+        "pid": "oslo",
+        "organization": "Oslo College",
+        "name": "Ragnar Nordlie",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "ottawa": {
+        "pid": "ottawa",
+        "organization": "University of Ottawa",
+        "name": "Yllias Chali",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "ricoh": {
+        "pid": "ricoh",
+        "organization": "RICOH Co., Ltd.",
+        "name": "Yasushi OGAWA",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "rmit": {
+        "pid": "rmit",
+        "organization": "RMIT",
+        "name": "Justin Zobel",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "rutgersb": {
+        "pid": "rutgersb",
+        "organization": "Rutgers University",
+        "name": "Nicholas J. Belkin",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "rutgers-davison": {
+        "pid": "rutgers-davison",
+        "organization": "Rutgers University",
+        "name": "Brian D. Davison",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "rutgers-kantor": {
+        "pid": "rutgers-kantor",
+        "organization": "Rutgers University",
+        "name": "Paul Kantor",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "savoy": {
+        "pid": "savoy",
+        "organization": "Universite de Neuchatel",
+        "name": "Jacques Savoy",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "seoul": {
+        "pid": "seoul",
+        "organization": "Seoul National University",
+        "name": "Dong-Ho Shin",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "sharp": {
+        "pid": "sharp",
+        "organization": "Sharp Laboratories of Europe Ltd.",
+        "name": "Jan J. Ijdens",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "sheffield": {
+        "pid": "sheffield",
+        "organization": "The University of Sheffield, UK",
+        "name": "Micheline Beaulieu",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "smu": {
+        "pid": "smu",
+        "organization": "Southern Methodist University",
+        "name": "Sanda Harabagiu",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "surrey": {
+        "pid": "surrey",
+        "organization": "University of Surrey",
+        "name": "Dr. Khurshid Ahmad",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "textwise": {
+        "pid": "textwise",
+        "organization": "TextWise, Inc.",
+        "name": "Anne Diekema",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "thisl": {
+        "pid": "thisl",
+        "organization": "USheffield/CambridgeU/SoftSound/ICSI Berkeley",
+        "name": "Steve Renals",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "twentyone": {
+        "pid": "twentyone",
+        "organization": "TwentyOne",
+        "name": "Wessel Kraaij",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "umass": {
+        "pid": "umass",
+        "organization": "University of Massachusetts",
+        "name": "James Allan",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "umd": {
+        "pid": "umd",
+        "organization": "University of Maryland, College Park",
+        "name": "Dr. Douglas Oard",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "utwente": {
+        "pid": "utwente",
+        "organization": "University of Twente",
+        "name": "Djoerd Hiemstra",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "waterloo": {
+        "pid": "waterloo",
+        "organization": "MuliText Project",
+        "name": "Gordon Cormack",
+        "trec": "trec8",
+        "year": 1999
+    },
+    "xerox": {
+        "pid": "xerox",
+        "organization": "Xerox Research Centre Europe",
+        "name": "David Hull",
+        "trec": "trec8",
+        "year": 1999
+    }
+}

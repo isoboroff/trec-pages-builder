@@ -1,0 +1,92 @@
+{
+    "microblog": {
+        "corpus": "",
+        "topics": {
+            "Microblog 2012 adhoc task test topics": "https://trec.nist.gov/data/microblog/12/2012.topics.MB51-110.txt",
+            "Microblog 2012 filtering task test topics": "https://trec.nist.gov/data/microblog/12/2012.topics.MB1-50.filtering.txt"
+        },
+        "qrels": {
+            "Relevance judgments for the adhoc task": "https://trec.nist.gov/data/microblog/12/adhoc-qrels",
+            "Relevance judgments for the filtering task": "https://trec.nist.gov/data/microblog/12/filtering-qrels"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/microblog2012.html",
+        "other": {
+            "EvalJig.py (adhoc task)": "https://trec.nist.gov/data/microblog/12/EvalJig.py",
+            "mb12-eval.py (adhoc task)": "https://trec.nist.gov/data/microblog/12/mb12-eval.py",
+            "EvalJig.py (filtering task)": "https://trec.nist.gov/data/microblog/12/EvalJig.py",
+            "mb12-filteval.py (filtering task)": "https://trec.nist.gov/data/microblog/12/mb12-filteval.py"
+        }
+    },
+    "web": {
+        "corpus": "http://lemurproject.org/clueweb09/",
+        "topics": {
+            "TREC 2012 test queries": "https://trec.nist.gov/data/web/12/queries.151-200.txt",
+            "full version of TREC 2012 test topics": "https://trec.nist.gov/data/web/12/full-topics.xml"
+        },
+        "qrels": {
+            "qrels.diversity": "https://trec.nist.gov/data/web/12/qrels.diversity",
+            "qrels.adhoc": "https://trec.nist.gov/data/web/12/qrels.adhoc",
+            "qrels for ndeval": "https://trec.nist.gov/data/web/12/qrels-for-ndeval"
+        },
+        "ir_datasets": "https://ir-datasets.com/clueweb09.html",
+        "trec_webpage": "https://trec.nist.gov/data/web2012.html",
+        "other": {
+            "README for web track evaluation": "https://trec.nist.gov/data/web/12/eval-README.txt",
+            "source code for ndeval program (diversity measures)": "https://trec.nist.gov/data/web/12/ndeval.c",
+            "perl script for gdeval (NDCG and ERR)": "https://trec.nist.gov/data/web/12/gdeval.pl"
+        }
+    },
+    "context": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "https://trec.nist.gov/data/context/2012/website_judgements.csv.gz",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/context2012.html",
+        "other": {
+            "contexts-examples-profiles.tar.gz": "https://trec.nist.gov/data/context/2012/contexts-examples-profiles.tar.gz",
+            "Contextual Suggestion Judgments README": "https://trec.nist.gov/data/context/2012/context.README.txt"
+        }
+    },
+    "medical": {
+        "corpus": "",
+        "topics": "https://trec.nist.gov/data/medical/12/topics136-185.txt",
+        "qrels": "https://trec.nist.gov/data/medical/12/2012-treceval-qrels.txt",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/medical2012.html",
+        "other": {
+            "TREC 2012 qrels file suitable for use with trec_eval": "https://trec.nist.gov/data/medical/12/2012-sampleval-qrels.txt",
+            "sample_eval.pl evaluation script": "https://trec.nist.gov/data/medical/12/sample_eval.pl",
+            "Report to Visit Map": "https://trec.nist.gov/data/medical/12/UnivOfPittReportMappingToVisit.txt"
+        }
+    },
+    "session": {
+        "corpus": "http://lemurproject.org/clueweb09/",
+        "topics": "https://trec.nist.gov/data/session/12/topics.txt",
+        "qrels": "https://trec.nist.gov/data/session/12/qrels.txt",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/session2012.html",
+        "other": {
+            "Original XML session data": "https://trec.nist.gov/data/session/12/sessiontrack2012.txt",
+            "Session-topic mapping file": "https://trec.nist.gov/data/session/12/sessiontopicmap.txt",
+            "Main evaluation script": "https://trec.nist.gov/data/session/12/session_eval_main.py",
+            "Component code for the evaluation script": "https://trec.nist.gov/data/session/12/session_eval.py"
+        }
+    },
+    "crowd": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {}
+    },
+    "kba": {
+        "corpus": "https://s3.amazonaws.com/aws-publicdatasets/trec/kba/index.html",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/kba.html",
+        "other": {}
+    }
+}

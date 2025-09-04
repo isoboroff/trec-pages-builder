@@ -1,0 +1,99 @@
+{
+    "incident": {
+        "corpus": "https://www.dcs.gla.ac.uk/~richardm/TREC_IS/",
+        "topics": "https://www.dcs.gla.ac.uk/~richardm/TREC_IS/",
+        "qrels": "https://www.dcs.gla.ac.uk/~richardm/TREC_IS/",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/incident.html"
+    },
+    "news": {
+        "corpus": "https://trec.nist.gov/data/wapost/",
+        "topics": "https://trec.nist.gov/data/news/2021/newsir21-topics.txt",
+        "qrels": {
+            "Background Linking": "https://trec.nist.gov/data/news/2021/qrels.background",
+            "Wikification": "https://trec.nist.gov/data/news/2021/qrels.wikification"
+        },
+        "ir_datasets": "https://ir-datasets.com/wapo.html",
+        "trec_webpage": "https://trec.nist.gov/data/news2021.html"
+    },
+    "fair": {
+        "corpus": "https://trec.nist.gov/data/fair/2021_trec_corpus.json.gz",
+        "topics": "https://trec.nist.gov/data/fair/2021-eval-topics.json.gz",
+        "qrels": {
+            "WikiProject Coordinators": "https://trec.nist.gov/data/fair/2021-eval-topics-with-qrels.json.gz",
+            "Wikipedia Editors": "https://trec.nist.gov/data/fair/2021-eval-topics-with-qrels.json.gz"
+        },
+        "ir_datasets": "https://ir-datasets.com/trec-fair.html",
+        "trec_webpage": "https://trec.nist.gov/data/fair2021.html",
+        "other": {
+            "Training topics file": "https://trec.nist.gov/data/fair/2021_training_topics.json.gz",
+            "Metadata file": "https://trec.nist.gov/data/fair/2021_trec_metadata.json.gz"
+        }
+    },
+    "deep": {
+        "corpus": {
+            "Passage Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2021#passage-ranking-dataset",
+            "Document Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2021#document-ranking-dataset"
+        },
+        "topics": {
+            "Passage Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2021#passage-ranking-dataset",
+            "Document Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2021#document-ranking-dataset"
+        },
+        "qrels": {
+            "Passage Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2021#passage-ranking-dataset",
+            "Document Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2021#document-ranking-dataset"
+        },
+        "ir_datasets": {
+            "Passage Ranking": "https://ir-datasets.com/msmarco-passage-v2.html#msmarco-passage-v2/trec-dl-2021",
+            "Document Ranking": "https://ir-datasets.com/msmarco-document-v2.html#msmarco-document-v2/trec-dl-2021"
+        },
+        "trec_webpage": "https://trec.nist.gov/data/deep2021.html",
+        "other": {
+            "Paper": "https://arxiv.org/abs/1611.09268",
+            "NIST judgments for the Document Ranking task": "https://trec.nist.gov/data/deep/2021.qrels.docs.final.txt",
+            "NIST judgments for the Passage Ranking task": "https://trec.nist.gov/data/deep/2021.qrels.pass.final.txt",
+            "Modified NIST judgments for the Passage Ranking task": "https://trec.nist.gov/data/deep/2021.qrels.pass.final-no1.txt",
+            "Expanded judgments for the Document Ranking task": "https://trec.nist.gov/data/deep/2021.qrels.docs.expanded.txt",
+            "Expanded judgments for the Passage Ranking task": "https://trec.nist.gov/data/deep/2021.qrels.pass.expanded.txt",
+            "Modified expanded judgments for the Passage Ranking task": "https://trec.nist.gov/data/deep/2021.qrels.pass.expanded-no1.txt"
+        }
+    },
+    "trials": {
+        "corpus": "https://www.trec-cds.org/2021.html#documents",
+        "topics": "https://trec.nist.gov/data/trials/topics2021.xml",
+        "qrels": "https://trec.nist.gov/data/trials/qrels2021.txt",
+        "ir_datasets": "https://ir-datasets.com/clinicaltrials.html",
+        "trec_webpage": "https://trec.nist.gov/data/trials2021.html"
+    },
+    "cast": {
+        "corpus": {
+            "Washington Post 2020": "https://trec.nist.gov/data/wapost/",
+            "KILT Wikipedia": "https://github.com/facebookresearch/KILT/",
+            "MS MARCO V2 (Documents)": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2021#document-ranking-dataset"
+        },
+        "topics": {
+            "Automatic topics": "https://trec.nist.gov/data/cast/2021_automatic_evaluation_topics_v1.0.json",
+            "Manual topics": "https://trec.nist.gov/data/cast/2021_manual_evaluation_topics_v1.0.json"
+        },
+        "qrels": "https://trec.nist.gov/data/cast/trec-cast-qrels-docs.2021.qrel",
+        "ir_datasets": "https://ir-datasets.com/trec-cast.html",
+        "trec_webpage": "https://trec.nist.gov/data/cast2021.html"
+    },
+    "misinfo": {
+        "corpus": "https://huggingface.co/datasets/allenai/c4",
+        "topics": "https://trec.nist.gov/data/misinfo/misinfo-2021-topics.xml",
+        "qrels": "https://trec.nist.gov/data/misinfo/misinfo-resources-2021.tar.gz",
+        "ir_datasets": "https://ir-datasets.com/c4.html",
+        "trec_webpage": "https://trec.nist.gov/data/misinfo2021.html"
+    },
+    "podcast": {
+        "corpus": "https://podcastsdataset.byspotify.com/",
+        "topics": "https://trec.nist.gov/data/podcast/podcasts_2021_topics_test.xml",
+        "qrels": "https://trec.nist.gov/data/podcast/podcasts2021-segments.qrels",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/podcast2021.html",
+        "other": {
+            "Evaluation script for Segment Retrieval task": "https://trec.nist.gov/data/podcast/eval-podcast.py"
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "nsa": {
+        "pid": "nsa",
+        "organization": "National Security Agency",
+        "name": null,
+        "trec": "trec3",
+        "year": 1994
+    },
+    "berkeley": {
+        "pid": "berkeley",
+        "organization": "University of California",
+        "name": "William Cooper",
+        "trec": "trec3",
+        "year": 1994
+    },
+    "citri": {
+        "pid": "citri",
+        "organization": "Royal Melbourne Institute of Technology",
+        "name": "Justin Zobel",
+        "trec": "trec3",
+        "year": 1994
+    },
+    "city": {
+        "pid": "city",
+        "organization": "City University",
+        "name": "S. E. Robertson",
+        "trec": "trec3",
+        "year": 1994
+    },
+    "clarit": {
+        "pid": "clarit",
+        "organization": "Carnegie Mellon University",
+        "name": "David A. Evans",
+        "trec": "trec3",
+        "year": 1994
+    },
+    "cornell": {
+        "pid": "cornell",
+        "organization": "Cornell University",
+        "name": "Chris Buckley",
+        "trec": "trec3",
+        "year": 1994
+    },
+    "dortmund": {
+        "pid": "dortmund",
+        "organization": "Universitaet Dortmund",
+        "name": "Norbert Fuhr",
+        "trec": "trec3",
+        "year": 1994
+    },
+    "eth": {
+        "pid": "eth",
+        "organization": "ETH-Zentrum",
+        "name": "Peter Schauble",
+        "trec": "trec3",
+        "year": 1994
+    },
+    "umass": {
+        "pid": "umass",
+        "organization": "University of Massachusetts Amherst",
+        "name": "W. B. Croft",
+        "trec": "trec3",
+        "year": 1994
+    },
+    "lsi": {
+        "pid": "lsi",
+        "organization": "Bellcore",
+        "name": "Susan T. Dumais",
+        "trec": "trec3",
+        "year": 1994
+    },
+    "nyu": {
+        "pid": "nyu",
+        "organization": "New York University",
+        "name": "Tomek Strzalkowski",
+        "trec": "trec3",
+        "year": 1994
+    },
+    "hawking": {
+        "pid": "hawking",
+        "organization": "Australian National University",
+        "name": "David Hawking",
+        "trec": "trec3",
+        "year": 1994
+    },
+    "queens": {
+        "pid": "queens",
+        "organization": "Queens College CUNY",
+        "name": "K. L. Kwok",
+        "trec": "trec3",
+        "year": 1994
+    },
+    "kantor": {
+        "pid": "kantor",
+        "organization": "Rutgers University",
+        "name": "Paul B. Kantor",
+        "trec": "trec3",
+        "year": 1994
+    },
+    "siemens": {
+        "pid": "siemens",
+        "organization": "Siemens Corporate Research Inc.",
+        "name": "Ellen Voorhees",
+        "trec": "trec3",
+        "year": 1994
+    },
+    "verity": {
+        "pid": "verity",
+        "organization": "Verity Inc.",
+        "name": "John Lehman",
+        "trec": "trec3",
+        "year": 1994
+    },
+    "nec": {
+        "pid": "nec",
+        "organization": "NEC Corporation",
+        "name": "Muraki Kazunori",
+        "trec": "trec3",
+        "year": 1994
+    },
+    "vpi": {
+        "pid": "vpi",
+        "organization": "VPI&SU (Virginia Tech)",
+        "name": "Edward A. Fox",
+        "trec": "trec3",
+        "year": 1994
+    },
+    "westlaw": {
+        "pid": "westlaw",
+        "organization": "West Publishing Company",
+        "name": "Howard Turtle",
+        "trec": "trec3",
+        "year": 1994
+    },
+    "xerox": {
+        "pid": "xerox",
+        "organization": "Rank Xerox Research Centre",
+        "name": "Gregory Grefenstette",
+        "trec": "trec3",
+        "year": 1994
+    },
+    "trw": {
+        "pid": "trw",
+        "organization": "TRW Systems Development Division",
+        "name": "Matt Mettler",
+        "trec": "trec3",
+        "year": 1994
+    },
+    "logicon": {
+        "pid": "logicon",
+        "organization": "Logicon Operating Systems",
+        "name": "Julian Yochum",
+        "trec": "trec3",
+        "year": 1994
+    },
+    "rutgers": {
+        "pid": "rutgers",
+        "organization": "Rutgers University",
+        "name": "Nicholas J. Belkin",
+        "trec": "trec3",
+        "year": 1994
+    },
+    "ucf": {
+        "pid": "ucf",
+        "organization": "University of Central Florida",
+        "name": "James R. Driscoll",
+        "trec": "trec3",
+        "year": 1994
+    }
+}

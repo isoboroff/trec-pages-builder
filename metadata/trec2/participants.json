@@ -1,0 +1,149 @@
+{
+    "berkeley": {
+        "pid": "berkeley",
+        "organization": "University of California Berkeley",
+        "name": "W. Cooper",
+        "trec": "trec2",
+        "year": 1993
+    },
+    "clarit": {
+        "pid": "clarit",
+        "organization": "Carnegie Mellon University",
+        "name": "D. Evans",
+        "trec": "trec2",
+        "year": 1993
+    },
+    "cnq": {
+        "pid": "cnq",
+        "organization": "ConQuest Software Inc.",
+        "name": "P. Nelson",
+        "trec": "trec2",
+        "year": 1993
+    },
+    "hnc": {
+        "pid": "hnc",
+        "organization": "HNC Inc.",
+        "name": "S. Gallan",
+        "trec": "trec2",
+        "year": 1993
+    },
+    "umass": {
+        "pid": "umass",
+        "organization": "University of Massachusetts Amherst",
+        "name": "W. Croft",
+        "trec": "trec2",
+        "year": 1993
+    },
+    "tmc": {
+        "pid": "tmc",
+        "organization": "Thinking Machines Corporation",
+        "name": "B. Massand",
+        "trec": "trec2",
+        "year": 1993
+    },
+    "verity": {
+        "pid": "verity",
+        "organization": "Verity Inc.",
+        "name": "J. Lehman",
+        "trec": "trec2",
+        "year": 1993
+    },
+    "vt": {
+        "pid": "vt",
+        "organization": "Virginia Tech",
+        "name": "E. Fox",
+        "trec": "trec2",
+        "year": 1993
+    },
+    "citri": {
+        "pid": "citri",
+        "organization": "CITRI Royal Melbourne Institute of Technology",
+        "name": "A. Moffat",
+        "trec": "trec2",
+        "year": 1993
+    },
+    "city": {
+        "pid": "city",
+        "organization": "City University London",
+        "name": "S. Robertson",
+        "trec": "trec2",
+        "year": 1993
+    },
+    "cornell": {
+        "pid": "cornell",
+        "organization": "Cornell University",
+        "name": "C. Buckley",
+        "trec": "trec2",
+        "year": 1993
+    },
+    "dortmund": {
+        "pid": "dortmund",
+        "organization": "University of Dortmund",
+        "name": "N. Fuhr",
+        "trec": "trec2",
+        "year": 1993
+    },
+    "erim": {
+        "pid": "erim",
+        "organization": "Environmental Research Institute of Michigan",
+        "name": "W. Cavnar",
+        "trec": "trec2",
+        "year": 1993
+    },
+    "ge": {
+        "pid": "ge",
+        "organization": "GE Research and Development Center",
+        "name": "P. Jacobs",
+        "trec": "trec2",
+        "year": 1993
+    },
+    "lsi": {
+        "pid": "lsi",
+        "organization": "Bellcore",
+        "name": "S. Dumais",
+        "trec": "trec2",
+        "year": 1993
+    },
+    "queens": {
+        "pid": "queens",
+        "organization": "Queens College",
+        "name": "K. Kwok",
+        "trec": "trec2",
+        "year": 1993
+    },
+    "prc": {
+        "pid": "prc",
+        "organization": "PRC Inc.",
+        "name": "P. Thompson",
+        "trec": "trec2",
+        "year": 1993
+    },
+    "rutgers": {
+        "pid": "rutgers",
+        "organization": "Rutgers University",
+        "name": "N. Belkin",
+        "trec": "trec2",
+        "year": 1993
+    },
+    "eth": {
+        "pid": "eth",
+        "organization": "Swiss Federal Institute of Technology",
+        "name": "P. Schauble",
+        "trec": "trec2",
+        "year": 1993
+    },
+    "siemens": {
+        "pid": "siemens",
+        "organization": "Siemens Corporate Research Inc.",
+        "name": "E. Voorhees",
+        "trec": "trec2",
+        "year": 1993
+    },
+    "trw": {
+        "pid": "trw",
+        "organization": "TRW Systems Development Division",
+        "name": "M. Mettler",
+        "trec": "trec2",
+        "year": 1993
+    }
+}

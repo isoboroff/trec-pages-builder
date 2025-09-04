@@ -1,0 +1,83 @@
+{
+    "clinical": {
+        "fullname": "Clinical Decision Support",
+        "tasks": "",
+        "webpage": "http://www.trec-cds.org/",
+        "coordinators": "Matthew S. Simpson, U.S. National Library of Medicine:Ellen M. Voorhees, National Institute of Standards and Technology (NIST):William Hersh, Oregon Health and Science University",
+        "description": "To make biomedical information more accessible and to meet the requirements for the meaningful use of electronic health records, a goal of modern clinical decision support systems is to anticipate the needs of physicians by linking electronic health records with information relevant for patient care. The Clinical Decision Support Track aims to simulate the requirements of such systems and to encourage the creation of tools and resources necessary for their implementation. The focus of the 2014 track was the retrieval of biomedical articles relevant for answering generic clinical questions about medical records. In the absence of a reusable, de-identified collection of medical records, we used short case reports, such as those published in biomedical articles, as idealized representations of actual medical records. A case report typically describes a challenging medical case, and it is often organized as a well-formed narrative summarizing the portions of a patient\u2019s medical record that are pertinent to the case.",
+        "year": 2014
+    },
+    "context": {
+        "fullname": "Contextual Suggestion",
+        "tasks": "",
+        "webpage": "https://sites.google.com/site/treccontext/",
+        "coordinators": "Adriel Dean-Hall, University of Waterloo:Charles L. A. Clarke, University of Waterloo:Jaap Kamps, University of Amsterdam:Paul Thomas, CSIRO:Ellen M. Voorhees, National Institute of Standards and Technology (NIST)",
+        "description": "The contextual suggestion track investigates search techniques for complex information needs that are highly dependent on context and user interests. For example, imagine an information retrieval researcher with a November evening to spend in Gaithersburg, Maryland. A contextual suggestion system might recommend a beer at the Dogfish Head Alehouse, dinner at the Flaming Pit, or even a trip into Washington on the metro to see the National Mall. The primary goal of this track is to develop evaluation methodologies for such systems.",
+        "year": 2014
+    },
+    "microblog": {
+        "fullname": "Microblog",
+        "tasks": {
+            "adhoc": "Adhoc",
+            "ttg": "Timeline"
+        },
+        "webpage": "https://github.com/lintool/twitter-tools/wiki",
+        "coordinators": "Jimmy Lin, University of Maryland:Yulu Wang, University of Maryland:Miles Efron- University of Illinois:Garrick Sherman, University of Illinois",
+        "description": "This year represents the fourth iteration of the TREC Microblog track, which has been running since 2011. The track continued using the \u201cevaluation as a service\u201d model, in which participants had access to the document collection only through an API. In addition to the temporallyanchored ad hoc retrieval task, which has been running since the inception of the track, we introduced a new task called tweet timeline generation (TTG), where the goal is to produce concise \u201csummaries\u201d about a particular topic for human consumption.",
+        "year": 2014
+    },
+    "web": {
+        "fullname": "Web",
+        "tasks": {
+            "adhoc": "Adhoc Retrieval",
+            "risk": "Risk-sensitive Retrieval"
+        },
+        "webpage": "https://www-personal.umich.edu/~kevynct/trec-web-2014/",
+        "coordinators": "Kevyn Collins-Thompson, University of Michigan:Craig Macdonald, University of Glasgow:Paul Bennett, Microsoft Research:Fernando Diaz, Microsoft Research:Ellen M. Voorhees, National Institute of Standards and Technology (NIST)",
+        "description": "The goal of the TREC Web track over the past few years has been to explore and evaluate innovative retrieval approaches over large-scale subsets of the Web \u2013 currently using ClueWeb12, on the order of one billion pages. For TREC 2014, the sixth year of the Web track, we implemented the following significant updates compared to 2013. First, the risk-sensitive retrieval task was modified to assess the ability of systems to adaptively perform risk-sensitive retrieval against multiple baselines, including an optional selfprovided baseline. In general, the risk-sensitive task explores the tradeoffs that systems can achieve between effectiveness (overall gains across queries) and robustness (minimizing the probability of significant failure, relative to a particular provided baseline). Second, we added query performance prediction as an optional aspect of the risk-sensitive task. The Adhoc task continued as for TREC 2013, evaluated using both adhoc and diversity relevance criteria.",
+        "year": 2014
+    },
+    "federated": {
+        "fullname": "Federated Web Search",
+        "tasks": {
+            "resource": "Resource Selection",
+            "vertical": "Vertical Selection",
+            "merging": "Results Merging"
+        },
+        "webpage": "http://sites.google.com/site/trecfedweb",
+        "coordinators": "Thomas Demeester, Ghent University:Dolf Trieschnigg, University of Twente:Dong Nguyen, University of Twente:Djoerd Hiemstra, University of Twente:Ke Zhou, Yahoo Labs London",
+        "description": "The TREC Federated Web Search track facilitates research on federated web search, by providing a large realistic data collection sampled from a multitude of online search engines. The FedWeb 2013 Resource Selection and Results Merging tasks are again included in FedWeb 2014, and we additionally introduced the task of vertical selection. Other new aspects are the required link between the Resource Selection and Results Merging tasks, and the importance of diversity in the merged results. After an overview of the new data collection and relevance judgments, the individual participants\u2019 results for the tasks are introduced, analyzed, and compared.",
+        "year": 2014
+    },
+    "kba": {
+        "fullname": "Knowledge Base Acceleration",
+        "tasks": {
+            "kba-ccr-2014": "Cumulative Citation Recommendation",
+            "kba-ssf-2014": "Streaming Slot Filling"
+        },
+        "webpage": "https://trec-kba.org/",
+        "coordinators": "John R. Frank, Diffeo:Max Kleiman-Weiner, Diffeo:Daniel A. Roberts, Diffeo:Ellen M. Voorhees, National Institute of Standards and Technology (NIST):Ian Soboroff, National Institute of Standards and Technology (NIST)",
+        "description": "The Knowledge Base Acceleration (KBA) track ran in TREC 2012, 2013, and 2014 as an entitycentric filtering evaluation. This track evaluates systems that filter a time-ordered corpus for documents and slot fills that would change an entity profile in a predefined list of entities. Compared with the 2012 and 2013 evaluations, the 2014 evaluation introduced several refinements, including high-quality community metadata from running Raytheon/BBN\u2019s Serif named entity recognizer, sentence parser, and relation extractor on 579,838,246 English documents in the corpus.",
+        "year": 2014
+    },
+    "tempsumm": {
+        "fullname": "Temporal Summarization",
+        "tasks": "",
+        "webpage": "https://web.archive.org/web/20170618023232/http://www.trec-ts.org/",
+        "coordinators": "Javed Aslam, Northeastern University:Matthew Ekstrand-Abueg, Northeastern University:Virgil Pavlu, Northeastern University:Fernando Diaz, Microsoft Research:Richard McCreadie, University of Glasgow:Tetsuya Sakai, Waseda University",
+        "description": "News events such as protests, accidents or natural disasters represent a unique information access problem where traditional approaches fail. For example, immediately after an event, the corpus may be sparsely populated with relevant content. Even when, after a few hours, relevant content becomes available, it is often inaccurate or highly redundant. At the same time, crisis events demonstrate a scenario where users urgently need information, especially if they are directly affected by the event. The goal of this track is to develop systems for efficiently monitoring the information associated with an event over time. Specifically, we are interested in developing systems which can broadcast short, relevant, and reliable sentencelength updates about a developing event.",
+        "year": 2014
+    },
+    "session": {
+        "fullname": "Session",
+        "tasks": {
+            "RL1": "RL1",
+            "RL2": "RL2",
+            "RL3": "RL3"
+        },
+        "webpage": "http://ir.cis.udel.edu/sessions",
+        "coordinators": "Ben Carterette, University of Delaware:Evangelos Kanoulas, Google:Mark Hall, Edge Hill University:Paul Clough, University of Sheffield",
+        "description": "The TREC Session track ran for the fourth time in 2014. The track has the primary goal of providing test collections and evaluation measures for studying information retrieval over user sessions rather than one-time queries. These test collections are meant to be portable, reusable, statistically powerful, and open to anyone that wishes to work on the problem of retrieval over sessions.",
+        "year": 2014
+    }
+}

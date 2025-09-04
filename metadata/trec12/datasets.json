@@ -1,0 +1,96 @@
+{
+    "genomics": {
+        "corpus": "https://dmice.ohsu.edu/trec-gen/data/2003/",
+        "topics": {
+            "Primary Task - Training Topics": "https://trec.nist.gov/data/genomics/03.training-qrels.txt",
+            "Primary Task - Test Relevance Judgments": "https://trec.nist.gov/data/genomics/03.test-qrels.txt"
+        },
+        "qrels": {
+            "Primary Task - Training Relevance Judgments": "https://trec.nist.gov/data/genomics/03.training-qrels.txt",
+            "Primary Task - Test Relevance Judgments": "https://trec.nist.gov/data/genomics/03.test-qrels.txt"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/t12_genomics.html",
+        "other": {
+            "OHSU data page": "https://dmice.ohsu.edu/trec-gen/data.html",
+            "Secondary Task - Data": "https://trec.nist.gov/data/genomics/03.secondary.txt"
+        }
+    },
+    "web": {
+        "corpus": "http://ir.dcs.gla.ac.uk/test_collections/govinfo.html",
+        "topics": {
+            "TREC 2003 Topic Distillation Topics": "https://trec.nist.gov/data/topics_eng/2003.distillation_topics.1-50.txt",
+            "TREC 2003 Named-Page Finding Topics": "https://trec.nist.gov/data/topics_eng/2003.named_page_topics.151-450.txt"
+        },
+        "qrels": {
+            "TREC 2003 Topic Distillation Judgments": "https://trec.nist.gov/data/qrels_eng/qrels.distillation.2003.txt",
+            "TREC 2003 Named-Page Judgments": "https://trec.nist.gov/data/qrels_eng/qrels.named-page.2003.txt",
+            "TREC 2003 Interactive Judgments": "https://trec.nist.gov/data/qrels_eng/qrels.interactive.2003.txt"
+        },
+        "ir_datasets": "https://ir-datasets.com/gov.html",
+        "trec_webpage": "https://trec.nist.gov/data/t12.web.html",
+        "other": {
+            "TREC 2003 Topic Types": "https://trec.nist.gov/data/topics_eng/2003.named-page.topic-types.txt"
+        }
+    },
+    "hard": {
+        "corpus": "https://catalog.ldc.upenn.edu/LDC2002T31",
+        "topics": {
+            "TREC 2003 Topics with metadata": "https://trec.nist.gov/data/hard/03/03.topics.metadata",
+            "TREC 2003 Topics without metadata": "https://trec.nist.gov/data/hard/03/03.topics.nometadata"
+        },
+        "qrels": {
+            "Actual": "https://trec.nist.gov/data/hard/03/03.qrels.actual",
+            "Passage": "https://trec.nist.gov/data/qrels_eng/passage.judgements.03"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/t12_hard.html",
+        "other": {}
+    },
+    "robust": {
+        "corpus": "https://trec.nist.gov/data/cd45/index.html",
+        "topics": "https://trec.nist.gov/data/topics_eng/robust.03.final_100.txt",
+        "qrels": "https://trec.nist.gov/data/qrels_eng/robust03_qrels.txt",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/robust.html",
+        "other": {
+            "Guidelines": "http://web.archive.org/web/20031230204716/https://ciir.cs.umass.edu/research/hard/guidelines.html"
+        }
+    },
+    "qa": {
+        "corpus": "https://catalog.ldc.upenn.edu/LDC2002T31",
+        "topics": {
+            "Main task test set of questions": "https://trec.nist.gov/data/qa/2003_qadata/03QA.tasks/test.set.t12.txt",
+            "Passages task test set of questions": "https://trec.nist.gov/data/qa/2003_qadata/03QA.tasks/passage.set.t12.txt"
+        },
+        "qrels": {
+            "Main task judgements": "https://trec.nist.gov/data/qa/2003_qadata/03QA.tasks/t12.judgments.main.txt",
+            "Passages task judgments": "https://trec.nist.gov/data/qa/2003_qadata/03QA.tasks/t12.judgments.passages.txt"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/qa/t2003_qadata.html",
+        "other": {
+            "Main task: Ranked list of top docs per question": "https://trec.nist.gov/data/qa/2003_qadata/03QA.tasks/ranked.list.t12.txt",
+            "Main task: def answers.txt": "https://trec.nist.gov/data/qa/2003_qadata/03QA.tasks/t12.def_answers.txt",
+            "Main task: list answers.txt": "https://trec.nist.gov/data/qa/2003_qadata/03QA.tasks/t12.list_answers.txt",
+            "Passagest task: Ranked list of top docs per question": "https://trec.nist.gov/data/qa/2003_qadata/03QA.tasks/ranked.list.t12.txt"
+        }
+    },
+    "novelty": {
+        "corpus": "https://trec.nist.gov/novelty.03/index.html",
+        "topics": "https://trec.nist.gov/data/t12_novelty/03.novelty.topics.txt",
+        "qrels": {
+            "Relevant sentences for all documents": "https://trec.nist.gov/data/t12_novelty/qrels.relevant.03.txt",
+            "Novel sentences for all documents": "https://trec.nist.gov/data/t12_novelty/qrels.new.03.txt",
+            "Relevant sentences for first five documents": "https://trec.nist.gov/data/data/t12_novelty/qrels.5.relevant.03.txt",
+            "Relevant sentences for last 20 documents": "https://trec.nist.gov/data/t12_novelty/qrels.last20.relevant.03.txt",
+            "Novel sentences for last 20 documents": "https://trec.nist.gov/data/t12_novelty/qrels.last20.new.03.txt"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/t12_novelty.html",
+        "other": {
+            "Guidelines": "https://trec.nist.gov/data/t12_novelty/novelty03.guidelines.html",
+            "Topic types": "https://trec.nist.gov/data/t12_novelty/03.novelty.topic.types"
+        }
+    }
+}

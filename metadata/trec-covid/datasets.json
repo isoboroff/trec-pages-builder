@@ -1,0 +1,78 @@
+{
+    "round1": {
+        "corpus": "https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases/cord-19_2020-04-10.tar.gz",
+        "topics": "https://ir.nist.gov/trec-covid/data/topics-rnd1.xml",
+        "qrels": "https://ir.nist.gov/trec-covid/data/qrels-rnd1.txt",
+        "ir_datasets": "https://ir-datasets.com/cord19.html#cord19/trec-covid/round1",
+        "trec_webpage": "https://ir.nist.gov/trec-covid/data.html",
+        "other": {
+            "Data page at allenai.org": "https://allenai.org/data/cord-19",
+            "GitHub (CORD-19)": "https://github.com/allenai/cord19",
+            "List of valid doc-ids": "https://ir.nist.gov/trec-covid/data/docids-rnd1.txt",
+            "Cumulative qrels for Round 1 documents and judgments": "https://ir.nist.gov/trec-covid/data/qrels-covid_d1_j0.5-1.txt",
+            "Chronological qrels for Round 1 documents and topics": "https://ir.nist.gov/trec-covid/data/qrels-covid_d1_j0.5-5.txt"
+        }
+    },
+    "round2": {
+        "corpus": "https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases/cord-19_2020-05-01.tar.gz",
+        "topics": "https://ir.nist.gov/trec-covid/data/topics-rnd2.xml",
+        "qrels": "https://ir.nist.gov/trec-covid/data/qrels-rnd2.txt",
+        "ir_datasets": "https://ir-datasets.com/cord19.html#cord19/trec-covid/round2",
+        "trec_webpage": "https://ir.nist.gov/trec-covid/data.html",
+        "other": {
+            "Data page at allenai.org": "https://allenai.org/data/cord-19",
+            "GitHub (CORD-19)": "https://github.com/allenai/cord19",
+            "List of valid doc-ids": "https://ir.nist.gov/trec-covid/data/docids-rnd2.txt",
+            "Cumulative qrels for Round 2 documents and judgments": "https://ir.nist.gov/trec-covid/data/qrels-covid_d2_j0.5-2.txt",
+            "Chronological qrels for Round 2 documents and topics": "https://ir.nist.gov/trec-covid/data/qrels-covid_d2_j0.5-5.txt"
+        }
+    },
+    "round3": {
+        "corpus": "https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases/cord-19_2020-05-19.tar.gz",
+        "topics": "https://ir.nist.gov/trec-covid/data/topics-rnd3.xml",
+        "qrels": "https://ir.nist.gov/trec-covid/data/qrels-covid_d3_j2.5-3.txt",
+        "ir_datasets": "https://ir-datasets.com/cord19.html#cord19/trec-covid/round3",
+        "trec_webpage": "https://ir.nist.gov/trec-covid/data.html",
+        "other": {
+            "Data page at allenai.org": "https://allenai.org/data/cord-19",
+            "GitHub (CORD-19)": "https://github.com/allenai/cord19",
+            "List of valid doc-ids": "https://ir.nist.gov/trec-covid/data/docids-rnd3.txt",
+            "Qrels page for round 3 at ir.nist.gov": "https://ir.nist.gov/trec-covid/qrels3.html",
+            "Round 3 changed id map": "https://ir.nist.gov/trec-covid/data/changedIds-May19.csv",
+            "Cumulative qrels for Round 3 documents and judgments": "https://ir.nist.gov/trec-covid/data/qrels-covid_d3_j0.5-3.txt",
+            "Chronological qrels for Round 3 documents and topics": "https://ir.nist.gov/trec-covid/data/qrels-covid_d3_j0.5-5.txt"
+        }
+    },
+    "round4": {
+        "corpus": "https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases/cord-19_2020-06-19.tar.gz",
+        "topics": "https://ir.nist.gov/trec-covid/data/topics-rnd4.xml",
+        "qrels": "https://ir.nist.gov/trec-covid/data/qrels-covid_d4_j3.5-4.txt",
+        "ir_datasets": "https://ir-datasets.com/cord19.html#cord19/trec-covid/round4",
+        "trec_webpage": "https://ir.nist.gov/trec-covid/data.html",
+        "other": {
+            "Data page at allenai.org": "https://allenai.org/data/cord-19",
+            "GitHub (CORD-19)": "https://github.com/allenai/cord19",
+            "List of valid doc-ids": "https://ir.nist.gov/trec-covid/data/docids-rnd4.txt",
+            "Qrels page for round 4 at ir.nist.gov": "https://ir.nist.gov/trec-covid/qrels4.html",
+            "Round 4 changed id map": "https://ir.nist.gov/trec-covid/data/changedIds-Jun19.csv",
+            "Cumulative qrels for Round 4 documents and judgments": "https://ir.nist.gov/trec-covid/data/qrels-covid_d4_j0.5-4.txt",
+            "Chronological qrels for Round 4 documents and topics": "https://ir.nist.gov/trec-covid/data/qrels-covid_d4_j0.5-5.txt"
+        }
+    },
+    "round5": {
+        "corpus": "https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases/cord-19_2020-07-16.tar.gz",
+        "topics": "https://ir.nist.gov/trec-covid/data/topics-rnd5.xml",
+        "qrels": "https://ir.nist.gov/trec-covid/data/qrels-covid_d5_j4.5-5.txt",
+        "ir_datasets": "https://ir-datasets.com/cord19.html#cord19/trec-covid/round5",
+        "trec_webpage": "https://ir.nist.gov/trec-covid/data.html",
+        "other": {
+            "Data page at allenai.org": "https://allenai.org/data/cord-19",
+            "GitHub (CORD-19)": "https://github.com/allenai/cord19",
+            "List of valid doc-ids": "https://ir.nist.gov/trec-covid/data/docids-rnd5.txt",
+            "Qrels page for round 5 at ir.nist.gov": "https://ir.nist.gov/trec-covid/qrels5.html",
+            "Round 5 changed id map": "https://ir.nist.gov/trec-covid/data/changedIds-Jul16.csv",
+            "Cumulative qrels for Round 5 documents and judgments": "https://ir.nist.gov/trec-covid/data/qrels-covid_d5_j0.5-5.txt",
+            "Chronological qrels for Round 5 documents and topics": "https://ir.nist.gov/trec-covid/data/qrels-covid_d5_j0.5-5.txt"
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "adhoc": {
+        "corpus": "https://trec.nist.gov/data/cd45/index.html",
+        "topics": "https://trec.nist.gov/data/topics_eng/topics.401-450.gz",
+        "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.trec8.adhoc.parts1-5.tar.gz",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {}
+    },
+    "filtering": {
+        "corpus": "https://trec.nist.gov/data/cd45/index.html",
+        "topics": "https://trec.nist.gov/data/topics_eng/topics.351-400.gz",
+        "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.trec8.filtering.gz",
+        "ir_datasets": "https://ir-datasets.com/disks45.html#disks45/nocr/trec8",
+        "trec_webpage": "",
+        "other": {}
+    },
+    "web": {
+        "corpus": "http://ir.dcs.gla.ac.uk/test_collections/access_to_data.html",
+        "topics": "https://trec.nist.gov/data/topics_eng/topics.401-450.gz",
+        "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.trec8.small_web.gz",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/t8.web.html",
+        "other": {}
+    },
+    "query": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/t8_query.html",
+        "other": {}
+    },
+    "qa": {
+        "corpus": "https://trec.nist.gov/data/cd45/index.html",
+        "topics": "https://trec.nist.gov/data/topics_eng/topics.qa_questions.txt",
+        "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.trec8.qa.gz",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/qa/t8_qadata.html",
+        "other": {}
+    },
+    "sdr": {
+        "corpus": "https://catalog.ldc.upenn.edu/LDC98T25",
+        "topics": "ftp://jaguar.ncsl.nist.gov/sdr99/SDR99-topics.sgml",
+        "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.trec8.sdr.gz",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/sdr1999.html",
+        "other": {}
+    },
+    "xlingual": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {}
+    },
+    "girt": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {}
+    },
+    "interactive": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/t8i/t8i.html",
+        "other": {}
+    }
+}

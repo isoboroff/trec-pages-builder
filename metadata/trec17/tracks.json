@@ -1,0 +1,60 @@
+{
+    "blog": {
+        "fullname": "Blog",
+        "tasks": {
+            "baseline": "Baseline adhoc (blog post) retrieval",
+            "opinion": "Opinion-finding (blog post) retrieval ",
+            "polarity": "Polarity opinion-finding (blog post) retrieval",
+            "feed": "Blog (feed) distillation"
+        },
+        "webpage": "https://www.dcs.gla.ac.uk/wiki/TREC-BLOG",
+        "coordinators": "I. Ounis, University of Glasgow:C. Macdonald, University of Glasgow:I. Soboroff, National Institute of Standards and Technology (NIST)",
+        "description": "The Blog track explores the information seeking behaviour in the blogosphere. The track was introduced in 2006, with a main pilot search task, namely the opinion-finding task. In TREC 2007, the track investigated two main tasks inspired by the analysis of a commercial blog-search query log: the opinion-finding task (i.e. \u201cWhat do people think about X?\u201d) and the blog distillation task (i.e. \u201cFind me a blog with a principal, recurring interest in X.\u201d).",
+        "year": 2008
+    },
+    "million-query": {
+        "fullname": "Million Query",
+        "tasks": "",
+        "webpage": "https://web.archive.org/web/20090311232726/http://ciir.cs.umass.edu/research/million/",
+        "coordinators": "J. Allan, University of Massachusetts:J. A. Aslam, Northeastern University:V. Pavlu, Northeastern University:E. Kanoulas, Northeastern University:B. Carterette, University of Delaware",
+        "description": "The Million Query (1MQ) track ran for the second time in TREC 2008. The track is designed to serve two purposes: first, it is an exploration of ad-hoc retrieval over a large set of queries and a large collection of documents; second, it investigates questions of system evaluation, in particular whether it is better to evaluate using many shallow judgments or fewer thorough judgments.",
+        "year": 2008
+    },
+    "enterprise": {
+        "fullname": "Enterprise",
+        "tasks": {
+            "document": "Document Search",
+            "expert": "Expert Search"
+        },
+        "webpage": "https://trec.nist.gov/data/enterprise.html",
+        "coordinators": "K. Balog, University of Amsterdam:I. Soboroff, National Institute of Standards and Technology (NIST):P. Thomas, CSIRO:P. Bailey, Microsoft:N. Craswell, Microsoft:A. de Vries, CWI",
+        "description": "The goal of the enterprise track is to conduct experiments with enterprise data that reflect the experiences of users in real organizations. This year, we continued with the CERC collection introduced in TREC 2007. Topics were developed in conjunction with CSIRO Enquiries, who field email and telephone questions about CSIRO research from the public.",
+        "year": 2008
+    },
+    "legal": {
+        "fullname": "Legal",
+        "tasks": {
+            "adhoc": "Adhoc",
+            "feedback": "Relevance Feedback",
+            "interactive": "Interactive"
+        },
+        "webpage": "http://trec-legal.umiacs.umd.edu/",
+        "coordinators": "D. W. Oard, University of Maryland, College Park:B. Hedin, H5:S. Tomlinson, Open Text Corporation:J. R. Baron, National Archives and Records Administration",
+        "description": "TREC 2008 was the third year of the Legal Track, which focuses on evaluation of search technology for discovery of electronically stored information in litigation and regulatory settings. The track included three tasks: Ad Hoc (i.e., single-pass automatic search), Relevance Feedback (two-pass search in a controlled setting with some relevant and nonrelevant documents manually marked after the first pass) and Interactive (in which real users could iteratively refine their queries and/or engage in multi-pass relevance feedback).",
+        "year": 2008
+    },
+    "relfdbk": {
+        "fullname": "Relevance Feedback",
+        "tasks": {
+            "A": "no relevance info (baseline retrieval)",
+            "B": "1 relevant document",
+            "C": "3 relevant documents and 3 non-relevant documents",
+            "D": "10 judged documents",
+            "E": "large amounts of judged documents"
+        },
+        "webpage": "https://trec.nist.gov/data/relevance.feedback08.html",
+        "coordinators": "C. Buckley, Sabir Research:S. Robertson, Microsoft",
+        "description": "There were 3 main goals for this track: 1. Target evaluating and comparing just the RF algorithm - all groups will work with exactly the same relevance judgments (for the most part).  (Next year, the relevance evidence groups can use will expand).  Hopefully compare both statistical and NLP-intensive use of relevance information (what makes a document relevant). 2. Establish good baseline RF results for multiple amounts of relevance info. 3. Try to establish, for these runs, the amount of improvement possible with more relevance info.",
+        "year": 2008
+    }
+}

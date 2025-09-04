@@ -1,0 +1,1409 @@
+{
+    "14144017ENSIuma": {
+        "pid": "14144017ENSIuma",
+        "organization": "Ecole Nationale des sciences de l'informatique",
+        "name": "ENSI",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "155": {
+        "pid": "155",
+        "organization": "AZAD university- Tonekabon - IRAN",
+        "name": "Sudabeh Shapoori",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "ACADEMIA": {
+        "pid": "ACADEMIA",
+        "organization": "DEPARTMENT OF LIBRARY AND INFORMATION SCIENCE, UNIVERSITY OF KASHMIR",
+        "name": "AABID HUSSAIN KHARADI",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "ARPANIS": {
+        "pid": "ARPANIS",
+        "organization": "BHILAI INSTITUTE OF TECHNOLOGY DURG",
+        "name": "Sarang Pitale",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "AmritaCREATE": {
+        "pid": "AmritaCREATE",
+        "organization": "AmritaCREATE",
+        "name": "Dr. Prema Nedungadi",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "BASELINE": {
+        "pid": "BASELINE",
+        "organization": "(Invited Baselines)",
+        "name": "Ellen Voorhees ",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "BJUT": {
+        "pid": "BJUT",
+        "organization": "Beijing University of Technology",
+        "name": "Zhen YANG",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "BiTeM": {
+        "pid": "BiTeM",
+        "organization": "SIB Text Mining Group",
+        "name": "Luc Mottin",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "BingUCL": {
+        "pid": "BingUCL",
+        "organization": "Bing and UCL",
+        "name": "Bhaskar Mitra",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "CCLAB_CBNU": {
+        "pid": "CCLAB_CBNU",
+        "organization": "Cognitive Computing at Chonbuk National University",
+        "name": "Seung-Hoon Na",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "CMU-Callan": {
+        "pid": "CMU-Callan",
+        "organization": "CMU Language Technologies Institute",
+        "name": "Jamie Callan",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "CMU-OAQA": {
+        "pid": "CMU-OAQA",
+        "organization": "CMU OAQA",
+        "name": "Di Wang",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "CMU-LiveMedQA": {
+        "pid": "CMU-LiveMedQA",
+        "organization": "CMU",
+        "name": "Yuan Yang",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "CREATE": {
+        "pid": "CREATE",
+        "organization": "AmritaCREATE",
+        "name": "vani chithra",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "CSCOUT": {
+        "pid": "CSCOUT",
+        "organization": "Context Scout",
+        "name": "alberto",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "CSEDU20": {
+        "pid": "CSEDU20",
+        "organization": "University of Dhaka",
+        "name": "Meem Arafat Manab",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "CSIRO": {
+        "pid": "CSIRO",
+        "organization": "CSIRO",
+        "name": "Bevan Koopman",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "CSIROmed": {
+        "pid": "CSIROmed",
+        "organization": "Commonwealth Science and Industry Research Organisation",
+        "name": "Sarvnaz Karimi",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "CUIS": {
+        "pid": "CUIS",
+        "organization": "The Chinese University of Hong Kong",
+        "name": "Wai Lam",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "DAC_UPC": {
+        "pid": "DAC_UPC",
+        "organization": "Universitat Polit\u00e8cnica Catalunya",
+        "name": "Joan Capdevila Pujol",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "DA_IICT": {
+        "pid": "DA_IICT",
+        "organization": "Dhirubhai Ambani Institute of Information and Communication Technology",
+        "name": "Prasenjit Majumder",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "DCU": {
+        "pid": "DCU",
+        "organization": "ADAPT, Dublin City University",
+        "name": "Piyush Arora",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "DLMSLab20170109": {
+        "pid": "DLMSLab20170109",
+        "organization": "Deep Learning and Media System Laboratory",
+        "name": "DLMSLab",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "DSP": {
+        "pid": "DSP",
+        "organization": "Philips DSP ",
+        "name": "Srikanth Mujjiga",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "DUTH": {
+        "pid": "DUTH",
+        "organization": "Democritus University of Thrace",
+        "name": "Avi Arampatzis",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "DUTIR": {
+        "pid": "DUTIR",
+        "organization": "Information Retrieval laboratory of Dalian University of Technology",
+        "name": "Bo Xu",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "DUTIRL": {
+        "pid": "DUTIRL",
+        "organization": "Information Retrieval Laboratory of Dalian University of Technology",
+        "name": "Zhihao Yang",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "DWS": {
+        "pid": "DWS",
+        "organization": "University of Mannheim",
+        "name": "Federico Nanni",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "DalTREC": {
+        "pid": "DalTREC",
+        "organization": "DNLP Group, Dalhousie University",
+        "name": "Vlado Keselj",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "DartHLT": {
+        "pid": "DartHLT",
+        "organization": "Dartmouth College",
+        "name": "Paul Thompson",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "Deep_Insights": {
+        "pid": "Deep_Insights",
+        "organization": "Intel Corporation",
+        "name": "John \"jdm\" Miller",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "Dr.SSK_JNTUH": {
+        "pid": "Dr.SSK_JNTUH",
+        "organization": "Jawaharlal Nehru Technological University college of Engg Jagtial",
+        "name": "Dr S Suresh Kumar",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "ECNU": {
+        "pid": "ECNU",
+        "organization": "East China Normal University",
+        "name": "Lan Man",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "ECNUica": {
+        "pid": "ECNUica",
+        "organization": "East China Normal University",
+        "name": "ECNU",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "ETH": {
+        "pid": "ETH",
+        "organization": "ETH Zurich",
+        "name": "Carsten Eickhoff",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "ExPoSe": {
+        "pid": "ExPoSe",
+        "organization": "University of Amsterdam",
+        "name": "Mostafa Dehghani",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "FCI.CU": {
+        "pid": "FCI.CU",
+        "organization": "Faculty of Computers and Information",
+        "name": "Iman Saleh",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "FDUDMIIP": {
+        "pid": "FDUDMIIP",
+        "organization": "School of Computer Science, Fudan University",
+        "name": "Shanfeng Zhu",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "FEUP": {
+        "pid": "FEUP",
+        "organization": "Faculdade de Engenharia da Universidade do Porto",
+        "name": "Jos\u00e9 Lu\u00eds da Silva Devezas",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "GU_IRLAB": {
+        "pid": "GU_IRLAB",
+        "organization": "Information Retrieval Lab, Georgetown University",
+        "name": "Luca Soldaini",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "GravityWave": {
+        "pid": "GravityWave",
+        "organization": "GravityWave Technologies",
+        "name": "Tahir Dar",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "HAUT": {
+        "pid": "HAUT",
+        "organization": "Henan University of Technology",
+        "name": "Baoli Li",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "HLJIT": {
+        "pid": "HLJIT",
+        "organization": "Heilongjiang Institute of Technology",
+        "name": "HLJIT",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "HPI": {
+        "pid": "HPI",
+        "organization": "Hasso Plattner Institute",
+        "name": "Mariana Neves",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "Hipocrates2017": {
+        "pid": "Hipocrates2017",
+        "organization": "California State University San Marcos",
+        "name": "Rocio Guillen",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "HokieGo": {
+        "pid": "HokieGo",
+        "organization": "Virginia Tech",
+        "name": "Junyan Wu",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "IBIUPFteam": {
+        "pid": "IBIUPFteam",
+        "organization": "Integrative Biomedical Informatics Group, IMIM-UPF",
+        "name": "Francesco Ronzano",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "ICTNET": {
+        "pid": "ICTNET",
+        "organization": "Institute of Computing Technology, Chinese Academy of Sciences",
+        "name": "Yue Liu",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "IITP": {
+        "pid": "IITP",
+        "organization": "Indian Institute of Technology Patna, India",
+        "name": "Deepak Gupta",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "IKM": {
+        "pid": "IKM",
+        "organization": "CSIE, National Cheng Kung University",
+        "name": "Hung-Yu Kao",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "IR-Cologne": {
+        "pid": "IR-Cologne",
+        "organization": "TH Koeln (University of Applied Sciences)",
+        "name": "Philipp Schaer",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "IR.SFSU.2017": {
+        "pid": "IR.SFSU.2017",
+        "organization": "San Francisco State University",
+        "name": "Anagha Kulkarni",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "IR1000": {
+        "pid": "IR1000",
+        "organization": "Department of Library and Information Science, University of Kashmir",
+        "name": "AABID HUSSAIN",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "IRIT": {
+        "pid": "IRIT",
+        "organization": "Institut de Recherche en Informatique de Toulouse",
+        "name": "Mohand Boughanem",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "IRLAB_DAIICT": {
+        "pid": "IRLAB_DAIICT",
+        "organization": "Dhirubhai Ambani Institute of Information and Communication Technology",
+        "name": "Sandip Modha",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "IRLAB_IITBHU": {
+        "pid": "IRLAB_IITBHU",
+        "organization": "Indian Institute of Technology (BHU)",
+        "name": "Ravindranath Chowdary",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "IRLAB_ISI": {
+        "pid": "IRLAB_ISI",
+        "organization": "Indian Statistical Institute, Kolkata",
+        "name": "Suraj Agrawal",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "IRLabISI": {
+        "pid": "IRLabISI",
+        "organization": "Indian Statistical Institute",
+        "name": "Mandar Mitra",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "ISIKol": {
+        "pid": "ISIKol",
+        "organization": "Indian Statistical Institute Kolkata",
+        "name": "Ayan Bandyopadhyay",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "IntelSaffron": {
+        "pid": "IntelSaffron",
+        "organization": "Intel",
+        "name": "Sergio Cherskov",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "JNTU_HYD": {
+        "pid": "JNTU_HYD",
+        "organization": "Jawaharlal Technological University Hyderabad",
+        "name": "Naveen Kumar Laskari",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "KISTI": {
+        "pid": "KISTI",
+        "organization": "Korea Institute of Science and Technology Information",
+        "name": "Heung-Seon Oh",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "KSU-KDD": {
+        "pid": "KSU-KDD",
+        "organization": "Kansas State University",
+        "name": "Surya Kallumadi",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "Kira": {
+        "pid": "Kira",
+        "organization": "Kira Systems",
+        "name": "Adam Roegiest",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "LIA": {
+        "pid": "LIA",
+        "organization": "Avignon University (LIA)",
+        "name": "\u00c9ric SANJUAN",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "MCDO": {
+        "pid": "MCDO",
+        "organization": "Merck KGaA - Chief Digital Office",
+        "name": "Daniel St\u00f6ckel",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "MED4D": {
+        "pid": "MED4D",
+        "organization": "MED4D Computer Systems S.A.E.",
+        "name": "Ahmed Hatem",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "MERCKKGAA": {
+        "pid": "MERCKKGAA",
+        "organization": "Merck KGaA",
+        "name": "Harsha Gurulingappa",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "MIPG_HIT": {
+        "pid": "MIPG_HIT",
+        "organization": "Medical Information Processing Group of Harbin Institute of Technology",
+        "name": "Jiankang Hou",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "MPIID5": {
+        "pid": "MPIID5",
+        "organization": "Max Planck Institute for Informatics",
+        "name": "Kai Hui",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "MRG_UWaterloo": {
+        "pid": "MRG_UWaterloo",
+        "organization": "University of Waterloo",
+        "name": "Maura R. Grossman",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "MSOE_MCW": {
+        "pid": "MSOE_MCW",
+        "organization": "Milwaukee School of Engineering and Medical College of Wisconsin",
+        "name": "Jay Urbain",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "MayoNLPTeam": {
+        "pid": "MayoNLPTeam",
+        "organization": "Mayo Clinic",
+        "name": "Yanshan Wang",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "MedDUTh": {
+        "pid": "MedDUTh",
+        "organization": "School of Medicine, Democritus University of Thrace",
+        "name": "George Drosatos",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "NITW_IR": {
+        "pid": "NITW_IR",
+        "organization": "National Institute of Technology Warangal",
+        "name": "akshay ",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "NKU": {
+        "pid": "NKU",
+        "organization": "Nankai University",
+        "name": "Hualong Zhang",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "NLP-NITMZ": {
+        "pid": "NLP-NITMZ",
+        "organization": "National Institute of Technology Mizoram",
+        "name": "Partha Pakray",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "NLPFEVER": {
+        "pid": "NLPFEVER",
+        "organization": "Guru Nanak Institutions Technical campus",
+        "name": "Thayyaba Khatoon",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "NLP_VCU": {
+        "pid": "NLP_VCU",
+        "organization": "Virginia Commonwealth University",
+        "name": "Sam Henry",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "NOVASearch": {
+        "pid": "NOVASearch",
+        "organization": "Universidade NOVA Lisboa",
+        "name": "Joao Magalhaes",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "NUDT_681": {
+        "pid": "NUDT_681",
+        "organization": "School of Computer, NUDT",
+        "name": "Zhonghe He",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "NYUDL": {
+        "pid": "NYUDL",
+        "organization": "New York University",
+        "name": "Rodrigo Frassetto Nogueira",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "NaCTeM": {
+        "pid": "NaCTeM",
+        "organization": "University of Manchester",
+        "name": "Axel Soto",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "NashApp": {
+        "pid": "NashApp",
+        "organization": "VUMC Applications Development",
+        "name": "Apperson Johnson",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "Normas17": {
+        "pid": "Normas17",
+        "organization": "University of Turin",
+        "name": "Adebayo Kolawole John",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "Normas17a": {
+        "pid": "Normas17a",
+        "organization": "University of Turin",
+        "name": "Adebayo Kolawole John",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "Novella": {
+        "pid": "Novella",
+        "organization": "Novella LLC",
+        "name": "Zhengrong Ma",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "OHSU": {
+        "pid": "OHSU",
+        "organization": "Oregon Health & Science University",
+        "name": "William Hersh",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "OZU": {
+        "pid": "OZU",
+        "organization": "Ozyegin University",
+        "name": "Reyyan Yeniterzi",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "PKUICST": {
+        "pid": "PKUICST",
+        "organization": "Institute of Computer Science and Technology, Peking University",
+        "name": "PKUICST",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "POSTECH_KLE": {
+        "pid": "POSTECH_KLE",
+        "organization": "KLE, Pohang University of Science and Technology",
+        "name": "Woosang Song",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "POZNAN_SEMMED": {
+        "pid": "POZNAN_SEMMED",
+        "organization": "Poznan University of Technology",
+        "name": "Czeslaw Jedrzejek",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "PolyUCOMP": {
+        "pid": "PolyUCOMP",
+        "organization": "The Hong Kong Polytechnic University",
+        "name": "Wenjie Li",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "QU": {
+        "pid": "QU",
+        "organization": "Qatar University",
+        "name": "Tamer Elsayed",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "RMIT": {
+        "pid": "RMIT",
+        "organization": "RMIT University",
+        "name": "Shane Culpepper",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "RU-INFOSEEKING": {
+        "pid": "RU-INFOSEEKING",
+        "organization": "Rutgers University",
+        "name": "Matthew Mitsui",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "RUT_TASK2017": {
+        "pid": "RUT_TASK2017",
+        "organization": "School of Communication & Information, Rutgers University",
+        "name": "Nicholas Belkin",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "S.T": {
+        "pid": "S.T",
+        "organization": "Shanghai Normal University",
+        "name": "Xiong Junjie",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "SAS-Search": {
+        "pid": "SAS-Search",
+        "organization": "SAS Institute Inc.",
+        "name": "Xu Yang",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "SDSFU": {
+        "pid": "SDSFU",
+        "organization": "School of Data Science,Fudan University",
+        "name": "Yunfan Gu",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "SNU_MEDINFO": {
+        "pid": "SNU_MEDINFO",
+        "organization": "Seoul National University",
+        "name": "Jeongeun Lee",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "SOIC": {
+        "pid": "SOIC",
+        "organization": "Indiana University Bloomington",
+        "name": "Zheng Gao",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "SOOTHSAYER": {
+        "pid": "SOOTHSAYER",
+        "organization": "SOOTHSAYER ANALYTICS LLC",
+        "name": "XANDEEP VARGHESE ALEXANDER",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "SSK_JNTUH": {
+        "pid": "SSK_JNTUH",
+        "organization": "Jawaharlal Nehru Technological University",
+        "name": "Dr S Suresh Kumar",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "Sabir": {
+        "pid": "Sabir",
+        "organization": "Sabir Research",
+        "name": "Chris Buckley",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "SienaCLTeam": {
+        "pid": "SienaCLTeam",
+        "organization": "Siena College Institute for AI",
+        "name": "Sharon Small",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "SmartDSS": {
+        "pid": "SmartDSS",
+        "organization": "Kyung Hee University",
+        "name": "Muhammad Afzal",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "TACC": {
+        "pid": "TACC",
+        "organization": "Texas Advanced Computing Center",
+        "name": "Josue Balandrano Coronel",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "TECH_IR_IEM": {
+        "pid": "TECH_IR_IEM",
+        "organization": "Technion - Israeli Institute of Technology ",
+        "name": "Oren Kurland",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "TREC_UB": {
+        "pid": "TREC_UB",
+        "organization": "University at Buffalo",
+        "name": "TREC_UB",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "TREMA-UNH": {
+        "pid": "TREMA-UNH",
+        "organization": "TREMA Lab at University of New Hampshire",
+        "name": "Laura Dietz",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "TUCIS": {
+        "pid": "TUCIS",
+        "organization": "Temple University",
+        "name": "Shanshan Zhang",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "TUW": {
+        "pid": "TUW",
+        "organization": "Vienna University of Technology",
+        "name": "Joao Palotti",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "UA-UZA": {
+        "pid": "UA-UZA",
+        "organization": "University of Antwerp / Antwerp University Hospital",
+        "name": "Simon Suster",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "UALC": {
+        "pid": "UALC",
+        "organization": "University of Alicante",
+        "name": "Fernando Llopis",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "UAmsterdam": {
+        "pid": "UAmsterdam",
+        "organization": "University of Amsterdam",
+        "name": "Jaap Kamps",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "UCAS": {
+        "pid": "UCAS",
+        "organization": "University of Chinese Academy of Sciences",
+        "name": "Ben He",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "UCL_MediaFuture": {
+        "pid": "UCL_MediaFuture",
+        "organization": "University College London",
+        "name": "Rishabh Mehrotra",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "UD_GU_BioTM": {
+        "pid": "UD_GU_BioTM",
+        "organization": "University of Delaware, Georgetown University",
+        "name": "A S M Ashique Mahmood",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "UFRO": {
+        "pid": "UFRO",
+        "organization": "Universidad de La Frontera",
+        "name": "David Torres",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "UIT_DANGNT-NLP": {
+        "pid": "UIT_DANGNT-NLP",
+        "organization": "Dang Tuan Nguyen's Research Group on Natural Language Processing",
+        "name": "Dang Tuan Nguyen",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "UIT_DANGNT-NLPG": {
+        "pid": "UIT_DANGNT-NLPG",
+        "organization": "Dang Tuan Nguyen's Research Group on Natural Language Processing",
+        "name": "Dang Tuan Nguyen",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "UIT_NTDANG-NLP": {
+        "pid": "UIT_NTDANG-NLP",
+        "organization": "University of Information Technology, VNU-HCM, Vietnam",
+        "name": "Dang Tuan Nguyen",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "UIUC_iSchool": {
+        "pid": "UIUC_iSchool",
+        "organization": "UIUC iSchool",
+        "name": "Jodi Schneider",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "UIowaS": {
+        "pid": "UIowaS",
+        "organization": "University of Iowa",
+        "name": "Padmini Srinivasan",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "UKNLP": {
+        "pid": "UKNLP",
+        "organization": "University of Kentucky",
+        "name": "Ramakanth Kavuluru",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "UMBD": {
+        "pid": "UMBD",
+        "organization": "None (participating as an individual)",
+        "name": "Hua Li",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "UMD_CLIP": {
+        "pid": "UMD_CLIP",
+        "organization": "University of Maryland, College Park",
+        "name": "Dr. Doug Oard",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "UMass": {
+        "pid": "UMass",
+        "organization": "University of Massachusetts Amherst",
+        "name": "Hamed Zamani",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "MedIER": {
+        "pid": "MedIER",
+        "organization": "U. Michigan / U. Cincinnati",
+        "name": "V.G.Vinod Vydiswaran",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "UNCC-TXT-LAB": {
+        "pid": "UNCC-TXT-LAB",
+        "organization": "University of North Carolina at Charlotte",
+        "name": "Walid Shalaby",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "UNC_SILS": {
+        "pid": "UNC_SILS",
+        "organization": "School of Information and Library Science, UNC Chapel Hill",
+        "name": "Jaime Arguello",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "UNTIIA": {
+        "pid": "UNTIIA",
+        "organization": "University of North Texas",
+        "name": "Jiangping Chen",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "UPennHLP": {
+        "pid": "UPennHLP",
+        "organization": "University of Pennsylvania",
+        "name": "Graciela Gonzalez-Hernandez",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "UTDHLTRI": {
+        "pid": "UTDHLTRI",
+        "organization": "University of Texas at Dallas",
+        "name": "Sanda Harabagiu",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "UTR": {
+        "pid": "UTR",
+        "organization": "Trier University",
+        "name": "Ralf Schenkel",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "UW": {
+        "pid": "UW",
+        "organization": "University of Washington",
+        "name": "Meliha Yetisgen",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "UWMSOIS": {
+        "pid": "UWMSOIS",
+        "organization": "University of Wisconsin-Milwaukee",
+        "name": "Xiangming Mu",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "UWaterlooMDS": {
+        "pid": "UWaterlooMDS",
+        "organization": "University of Waterloo - Management Sciences - Smucker IR Group",
+        "name": "Mark D. Smucker",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "UWaterloo_OV": {
+        "pid": "UWaterloo_OV",
+        "organization": "University of Waterloo",
+        "name": "Olga Vechtomova",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "UoM": {
+        "pid": "UoM",
+        "organization": "University of Malta",
+        "name": "Joel Azzopardi",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "UvA.ILPS": {
+        "pid": "UvA.ILPS",
+        "organization": "Informatics Institute, University of Amsterdam",
+        "name": "Evangelos Kanoulas",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "WUWien": {
+        "pid": "WUWien",
+        "organization": "Vienna University of Economics and Business",
+        "name": "Svitlana Vakulenko",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "WaterlooCormack": {
+        "pid": "WaterlooCormack",
+        "organization": "University of Waterloo",
+        "name": "Gordon V. COrmack",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "Webis": {
+        "pid": "Webis",
+        "organization": "Webis team at Bauhaus-Universitat Weimar",
+        "name": "Matthias Hagen",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "WiseMan": {
+        "pid": "WiseMan",
+        "organization": "WiseMan",
+        "name": "zeng",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "WiseMen": {
+        "pid": "WiseMen",
+        "organization": "WiseMen",
+        "name": "zeng",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "XHSZ": {
+        "pid": "XHSZ",
+        "organization": "Hunan Xinghan Data and AI Technology Co,. Ltd",
+        "name": "Zhongcheng Zhou ",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "XRCE": {
+        "pid": "XRCE",
+        "organization": "Xerox Research Centre Europe",
+        "name": "Jean-Michel Renders",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "YorkU": {
+        "pid": "YorkU",
+        "organization": "York University",
+        "name": "Afshin Deroie",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "advanse_lirmm": {
+        "pid": "advanse_lirmm",
+        "organization": "LIRMM",
+        "name": "Bilel Moulahi",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "bBridge": {
+        "pid": "bBridge",
+        "organization": "National University of Singapore",
+        "name": "Lab of Media Search",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "cbnu": {
+        "pid": "cbnu",
+        "organization": "Chonbuk National University ",
+        "name": "Kyung Soon Lee",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "congfin_ibmin": {
+        "pid": "congfin_ibmin",
+        "organization": "IBM Research",
+        "name": "Arvind Agarwal",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "deeperQA": {
+        "pid": "deeperQA",
+        "organization": "IBM India Research Lab",
+        "name": "Balaji Ganesan",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "diffeo": {
+        "pid": "diffeo",
+        "organization": "Diffeo",
+        "name": "John Frank",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "eClub-CVUT": {
+        "pid": "eClub-CVUT",
+        "organization": "Czech Technical University in Prague, FEE",
+        "name": "Jan Pichl",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "georgetown": {
+        "pid": "georgetown",
+        "organization": "Georgetown university",
+        "name": "Grace Hui Yang",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "girumas": {
+        "pid": "girumas",
+        "organization": "Self",
+        "name": "Girum Asnake",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "grey_matter": {
+        "pid": "grey_matter",
+        "organization": "Daffodil International University",
+        "name": "Shaon Bhatta Shuvo",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "ielab-CSIRO-QUT": {
+        "pid": "ielab-CSIRO-QUT",
+        "organization": "CSIRO and Queensland University of Technology",
+        "name": "Bevan Koopman",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "imi_mug": {
+        "pid": "imi_mug",
+        "organization": "Medical University of Graz",
+        "name": "Pablo Lopez-Garcia",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "ims-core": {
+        "pid": "ims-core",
+        "organization": "University of Padua",
+        "name": "Nicola Ferro",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "ims_unipd": {
+        "pid": "ims_unipd",
+        "organization": "Information Management Systems (IMS) Group",
+        "name": "Giorgio Maria Di Nunzio",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "infoseeking": {
+        "pid": "infoseeking",
+        "organization": "InfoSeeking Lab - Rutgers University",
+        "name": "Jonathan Pulliza",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "insight-ucd": {
+        "pid": "insight-ucd",
+        "organization": "Insight Centre for Data Analytics, UCD",
+        "name": "Arjumand Younus",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "iris": {
+        "pid": "iris",
+        "organization": "University of Pittsburgh",
+        "name": "danchen zhang",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "jinagtian1530": {
+        "pid": "jinagtian1530",
+        "organization": "Lilian Information Technology Company",
+        "name": "SHLL",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "kaist-kse": {
+        "pid": "kaist-kse",
+        "organization": "KAIST Knowledge Service Engineering",
+        "name": "Christine Balili",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "kaist_irnlp": {
+        "pid": "kaist_irnlp",
+        "organization": "Korea Advanced Institute of Science and Technology (KAIST)",
+        "name": "Kyoung-Rok Jang",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "kmt81": {
+        "pid": "kmt81",
+        "organization": "University of Pittsburgh",
+        "name": "Khushboo Thaker",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "kxlab": {
+        "pid": "kxlab",
+        "organization": "Beijing University of Posts and Telecommunications",
+        "name": "Fu Qunchao",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "kykimintellicon": {
+        "pid": "kykimintellicon",
+        "organization": "intellicon",
+        "name": "KiyounKim",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "matrix": {
+        "pid": "matrix",
+        "organization": "Weidian",
+        "name": "Jing Wang",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "medsieve": {
+        "pid": "medsieve",
+        "organization": "IBM Almaden Research Center",
+        "name": "Chaitanya Shivade",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "mindlab": {
+        "pid": "mindlab",
+        "organization": "Universidad Nacional de Colombia",
+        "name": "Andres Rosso",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "nch_risi": {
+        "pid": "nch_risi",
+        "organization": "Nationwide Children's Hospital",
+        "name": "Wei Chen",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "nckuikmlab2": {
+        "pid": "nckuikmlab2",
+        "organization": "National Cheng Kung University",
+        "name": "Hsu shiang chi",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "nckuikmlab": {
+        "pid": "nckuikmlab",
+        "organization": "National Cheng Kung University",
+        "name": "Hsu shiang chi",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "ot": {
+        "pid": "ot",
+        "organization": "OpenText",
+        "name": "Stephen Tomlinson",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "ousia": {
+        "pid": "ousia",
+        "organization": "Studio Ousia Inc.",
+        "name": "Ikuya Yamada",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "patent_search": {
+        "pid": "patent_search",
+        "organization": "Patent Prior Art Search",
+        "name": "Michael Henderson",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "prna-mit-suny": {
+        "pid": "prna-mit-suny",
+        "organization": "Philips Research North America-MIT-SUNY",
+        "name": "Sadid A. Hasan",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "prna": {
+        "pid": "prna",
+        "organization": "Philips Research North America",
+        "name": "Sadid A. Hasan",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "puuuuurfect": {
+        "pid": "puuuuurfect",
+        "organization": "National University of Defensive and Technology",
+        "name": "Lucas Wang",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "surukam": {
+        "pid": "surukam",
+        "organization": "Surukam Analytics",
+        "name": "Sree Harsha Ramesh",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "team6666": {
+        "pid": "team6666",
+        "organization": "ict_team6666",
+        "name": "ict_name6666",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "team666": {
+        "pid": "team666",
+        "organization": "Institute of Computing Technology of the Chinese Academy of Science",
+        "name": "ICT",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "teckro": {
+        "pid": "teckro",
+        "organization": "teckro",
+        "name": "Johannes Leveling",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "tgncorp": {
+        "pid": "tgncorp",
+        "organization": "Tarragon Consulting Corporation",
+        "name": "Richard Tong",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "ucscir": {
+        "pid": "ucscir",
+        "organization": "IRKM Lab, University of California Santa Cruz",
+        "name": "Yi Zhang",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "udel": {
+        "pid": "udel",
+        "organization": "University of Delaware",
+        "name": "Ben Carterette",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "udel_fang": {
+        "pid": "udel_fang",
+        "organization": "InfoLab at Universitiy of Delaware",
+        "name": "Hui Fang",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "ufmg": {
+        "pid": "ufmg",
+        "organization": "Universidade Federal de Minas Gerais",
+        "name": "Rodrygo L. T. Santos",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "umd-hcil": {
+        "pid": "umd-hcil",
+        "organization": "University of Maryland, Human-Computer Interaction Lab",
+        "name": "Cody Buntain",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "uogTr": {
+        "pid": "uogTr",
+        "organization": "University of Glasgow",
+        "name": "Richard McCreadie",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "wistud": {
+        "pid": "wistud",
+        "organization": "Delft University of Technology",
+        "name": "Claudia Hauff",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "wsu-ir": {
+        "pid": "wsu-ir",
+        "organization": "Wayne State University",
+        "name": "Alexander Kotov",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "xibulu": {
+        "pid": "xibulu",
+        "organization": "National University of Defence Technology",
+        "name": "Crossword",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "york17": {
+        "pid": "york17",
+        "organization": "York University, Toronto, Canada ",
+        "name": "Jimmy Huang",
+        "trec": "trec26",
+        "year": 2017
+    },
+    "yu": {
+        "pid": "yu",
+        "organization": "yf",
+        "name": "yufeng",
+        "trec": "trec26",
+        "year": 2017
+    }
+}

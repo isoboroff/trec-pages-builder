@@ -1,0 +1,499 @@
+{
+    "\n": {
+        "pid": "\n",
+        "organization": null,
+        "name": null,
+        "trec": "trec33",
+        "year": 2024
+    },
+    "CERTH-ITI": {
+        "pid": "CERTH-ITI",
+        "organization": "Centre for Research and Technology Hellas",
+        "name": "Konstantinos Gkountakos",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "softbank-meisei": {
+        "pid": "softbank-meisei",
+        "organization": "SoftBank Corp. and Meisei University",
+        "name": "Kazuya Ueki",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "NII_UIT": {
+        "pid": "NII_UIT",
+        "organization": "National Institute of Informatics (NII), HCM-UIT",
+        "name": "Tien Do",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "WHU-NERCMS": {
+        "pid": "WHU-NERCMS",
+        "organization": "WHU-NERCMS, Wuhan, China",
+        "name": "Chao Liang",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "ruc_aim3": {
+        "pid": "ruc_aim3",
+        "organization": "Renmin University of China, AIM3 Laboratory",
+        "name": "Liang Zhang",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "PolySmart": {
+        "pid": "PolySmart",
+        "organization": "The Hong Kong Polytechnic University",
+        "name": "Xiaoyong WEI",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "RUCMM": {
+        "pid": "RUCMM",
+        "organization": "Renmin University of China",
+        "name": "Xirong Li",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "h2oloo": {
+        "pid": "h2oloo",
+        "organization": "University of Waterloo",
+        "name": "Jimmy Lin",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "IRLab-Amsterdam": {
+        "pid": "IRLab-Amsterdam",
+        "organization": "University of Amsterdam, Informatics Institute",
+        "name": "Evangelos Kanoulas",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "ur-iw": {
+        "pid": "ur-iw",
+        "organization": "University of Regensburg",
+        "name": "Samy Ateia",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "ii_research": {
+        "pid": "ii_research",
+        "organization": "II-Lab, University of Tsukuba",
+        "name": "Haitao Yu",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "webis": {
+        "pid": "webis",
+        "organization": "Webis @ Jena, Leipzig, Weimar",
+        "name": "Alexander Bondarenko",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "ielab": {
+        "pid": "ielab",
+        "organization": "IElab at The University of Queensland & CSIRO",
+        "name": "Guido Zuccon",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "coordinators": {
+        "pid": "coordinators",
+        "organization": "Track Coordinators",
+        "name": "Ian Soboroff",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "rali lab": {
+        "pid": "rali lab",
+        "organization": "Applied research in computational liguistics",
+        "name": "Jian-Yun Nie",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "uva": {
+        "pid": "uva",
+        "organization": "University of Amsterdam",
+        "name": "Simon Lupart",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "infosenselab": {
+        "pid": "infosenselab",
+        "organization": "Georgetown University InfoSense Lab",
+        "name": "Victor De Lima",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "nii": {
+        "pid": "nii",
+        "organization": "National Institute of Informatics",
+        "name": "Xiao Fu",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "DCU-ADAPT": {
+        "pid": "DCU-ADAPT",
+        "organization": "Dublin City University",
+        "name": "Praveen Acharya",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "ksu": {
+        "pid": "ksu",
+        "organization": "Kyoto Sangyo University",
+        "name": "Keito Fukuoka",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "WaterlooClarke": {
+        "pid": "WaterlooClarke",
+        "organization": "University of Waterloo (Clarke)",
+        "name": "Charles Clarke",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "porties": {
+        "pid": "porties",
+        "organization": "Instituto Superior Tecnico",
+        "name": "Flavio Martins",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "TMU_Toronto": {
+        "pid": "TMU_Toronto",
+        "organization": "Toronto Metropolitan University",
+        "name": "Tabassum Sultana",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "TJUMI": {
+        "pid": "TJUMI",
+        "organization": "TJUMI of Tianjin University",
+        "name": "ZIbo Xu",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "NCSU": {
+        "pid": "NCSU",
+        "organization": "North Carolina State University",
+        "name": "kerun chen",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "NCstate": {
+        "pid": "NCstate",
+        "organization": "North Carolina State University",
+        "name": "Penglin Jiang",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "UNCW": {
+        "pid": "UNCW",
+        "organization": "University of North Carolina Wilmington",
+        "name": "Gulustan Dogan",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "UNCC": {
+        "pid": "UNCC",
+        "organization": "University of North Carolina Charlotte",
+        "name": "Hilmi Demirhan",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "DoshishaUzlDfki": {
+        "pid": "DoshishaUzlDfki",
+        "organization": "Doshisha Univ., Univ. of Luebeck and DFKI",
+        "name": "Kimiaki Shirahama",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "ISI": {
+        "pid": "ISI",
+        "organization": "Information Sciences Institute",
+        "name": "Joel Barry",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "hltcoe": {
+        "pid": "hltcoe",
+        "organization": "Human Lang Tech COE at Johns Hopkins University",
+        "name": "Dawn Lawrie",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "IDACCS": {
+        "pid": "IDACCS",
+        "organization": "IDA Center for Computing Sciences",
+        "name": "John Conroy",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "plaba": {
+        "pid": "plaba",
+        "organization": "Plain Language Adaptation of Biomedical Abstracts",
+        "name": "Brian Ondov",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "CLAC": {
+        "pid": "CLAC",
+        "organization": "Computational Linguistic at Concordia University",
+        "name": "Alejandra Zambrano",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "BU": {
+        "pid": "BU",
+        "organization": "State University of New York at Binghamton",
+        "name": "Adeola Adegbemijo",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "ntu_nlp": {
+        "pid": "ntu_nlp",
+        "organization": "National Taiwan University",
+        "name": "Ting-Wei Chang",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "IIITH": {
+        "pid": "IIITH",
+        "organization": "Int. institute of Information Technology hyderabad",
+        "name": "Aaradhya Gupta",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "UM": {
+        "pid": "UM",
+        "organization": "The University of Manchester",
+        "name": "Lifeng Han",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "Yseop": {
+        "pid": "Yseop",
+        "organization": "Yseop",
+        "name": "Dominique Mariko",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "UAmsterdam": {
+        "pid": "UAmsterdam",
+        "organization": "University of Amsterdam",
+        "name": "Jaap Kamps",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "um_fhs": {
+        "pid": "um_fhs",
+        "organization": "University of Maribor, Faculty of Health Sciences",
+        "name": "Primoz Kocbek",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "SIB": {
+        "pid": "SIB",
+        "organization": "Swiss Institute of Bioinformatics",
+        "name": "Luc Mottin",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "Lowes-DS": {
+        "pid": "Lowes-DS",
+        "organization": "Lowes Companies, Inc.",
+        "name": "Hrishikesh Kulkarni",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "jbnu": {
+        "pid": "jbnu",
+        "organization": "Jeonbuk National University",
+        "name": "Kyung Soon Lee",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "stktest": {
+        "pid": "stktest",
+        "organization": "surya test",
+        "name": "Surya K",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "wish": {
+        "pid": "wish",
+        "organization": "Wish",
+        "name": "Di Wang",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "kd": {
+        "pid": "kd",
+        "organization": "Emory University",
+        "name": "Kaustubh Dhole",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "neu": {
+        "pid": "neu",
+        "organization": "Northeastern University",
+        "name": "Sen Mei",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "ncsu-las": {
+        "pid": "ncsu-las",
+        "organization": "NCSU LAS",
+        "name": "Elizabeth Richerson",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "KML": {
+        "pid": "KML",
+        "organization": "Kumoan Machine Learning",
+        "name": "KAMLESH KARKI",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "grilllab": {
+        "pid": "grilllab",
+        "organization": "GRILL Lab",
+        "name": "Paul Owoicho",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "citi": {
+        "pid": "citi",
+        "organization": "academia sinica",
+        "name": "TZU-SHUO WEI",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "buw": {
+        "pid": "buw",
+        "organization": "Bauhaus University Weimar",
+        "name": "Cem Erturkan",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "IITD-IRL": {
+        "pid": "IITD-IRL",
+        "organization": "Indian Institute of Technology, Delhi",
+        "name": "Shivani Choudhary",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "SGU": {
+        "pid": "SGU",
+        "organization": "Saigon University",
+        "name": "Dang Nguyen",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "TLSE3": {
+        "pid": "TLSE3",
+        "organization": "Universit\u00e9 Toulouse 3 Paul Sabatier",
+        "name": "Jonah Turner",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "InfoLab": {
+        "pid": "InfoLab",
+        "organization": "University of Delaware",
+        "name": "Damian Martinez",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "ldisnu": {
+        "pid": "ldisnu",
+        "organization": "Language & Data Intelligence, Seoul National Uni.",
+        "name": "Jongyoon Kim",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "IIIA-UNIPD": {
+        "pid": "IIIA-UNIPD",
+        "organization": "University of Padua",
+        "name": "Nicola Ferro",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "IRIT": {
+        "pid": "IRIT",
+        "organization": "Institut de Recherche en Informatique de Toulouse",
+        "name": "Hanane Djedal",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "TREMA-UNH": {
+        "pid": "TREMA-UNH",
+        "organization": "TREMA lab at the University of New Hampshire",
+        "name": "Laura Dietz",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "uis-iai": {
+        "pid": "uis-iai",
+        "organization": "University of Stavanger",
+        "name": "Krisztian Balog",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "CIR": {
+        "pid": "CIR",
+        "organization": "TH K\u00f6ln \u2013 University of Applied Sciences",
+        "name": "J\u00fcri Keller",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "uog-tht": {
+        "pid": "uog-tht",
+        "organization": "University of Glasgow",
+        "name": "Huu Tri Tran",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "Ruc01": {
+        "pid": "Ruc01",
+        "organization": "Renmin University of China Gaoling School",
+        "name": "shengjie ma",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "yalenlp": {
+        "pid": "yalenlp",
+        "organization": "Yale University - NLP Lab",
+        "name": "Rohan Phanse",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "IISER-K": {
+        "pid": "IISER-K",
+        "organization": "Indian Institute of Science Education and Research",
+        "name": "Subinay Adhikary",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "SUNY-BingU": {
+        "pid": "SUNY-BingU",
+        "organization": "Binghamton University",
+        "name": "Shuai Yang",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "BUPT_MCPRL": {
+        "pid": "BUPT_MCPRL",
+        "organization": "Beijing University of Posts and Telecommunications",
+        "name": "Zhe Cui",
+        "trec": "trec33",
+        "year": 2024
+    },
+    "kslab": {
+        "pid": "kslab",
+        "organization": "Nagaoka University of Technology",
+        "name": "Shungo Kubosaka",
+        "trec": "trec33",
+        "year": 2024
+    }
+}

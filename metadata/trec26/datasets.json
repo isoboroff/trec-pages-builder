@@ -1,0 +1,109 @@
+{
+    "core": {
+        "corpus": "https://catalog.ldc.upenn.edu/LDC2008T19",
+        "topics": {
+            "Complete set of test topics": "https://trec.nist.gov/data/core/core_crowd.txt",
+            "50 test topics that were assessed by NIST assessors": "https://trec.nist.gov/data/core/core_nist.txt"
+        },
+        "qrels": "https://trec.nist.gov/data/core/qrels.txt",
+        "ir_datasets": "https://ir-datasets.com/nyt.html",
+        "trec_webpage": "https://trec.nist.gov/data/core2017.html",
+        "other": {}
+    },
+    "pm": {
+        "corpus": {
+            "medline_xml.part1.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/medline_xml.part1.tar.gz",
+            "medline_xml.part2.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/medline_xml.part2.tar.gz",
+            "medline_xml.part3.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/medline_xml.part3.tar.gz",
+            "medline_xml.part4.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/medline_xml.part4.tar.gz",
+            "medline_xml.part5.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/medline_xml.part5.tar.gz",
+            "medline_txt.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/medline_txt.tar.gz",
+            "extra_abstracts.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/extra_abstracts.tar.gz",
+            "clinicaltrials_xml.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/clinicaltrials_xml.tar.gz",
+            "clinicaltrials_txt.tar.gz": "https://bionlp.nlm.nih.gov/trec2017precisionmedicine/clinicaltrials_txt.tar.gz"
+        },
+        "topics": "https://trec.nist.gov/data/precmed/topics2017.xml",
+        "qrels": {
+            "Relevance judgment file suitable for trec_eval for Scientific Abstracts task": "https://trec.nist.gov/data/precmed/qrels-final-abstracts.txt",
+            "Relevance judgment file suitable for computing inferred measures for Scientific Abstracts task": "https://trec.nist.gov/data/precmed/sample-qrels-final-abstracts.txt",
+            "Raw judgments for Scientific Abstracts task": "https://trec.nist.gov/data/precmed/abstracts.judgments.2017.csv",
+            "Relevance judgment file suitable for trec_eval for Clinical Trials task": "https://trec.nist.gov/data/precmed/qrels-final-trials.txt",
+            "Raw judgments for Clinical Trials task": "https://trec.nist.gov/data/precmed/clinical_trials.judgments.2017.csv"
+        },
+        "ir_datasets": "https://ir-datasets.com/clinicaltrials.html",
+        "trec_webpage": "https://trec.nist.gov/data/precmed2017.html",
+        "other": {
+            "Evaluation script for computing inferred measures": "https://trec.nist.gov/data/clinical/sample_eval.pl"
+        }
+    },
+    "qa": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/qa/2017_LiveQA.html",
+        "other": {
+            "Description of the data released here": "https://trec.nist.gov/data/qa/2017_LiveQA/README.txt",
+            "Non-medical questions used in TREC 2017 test set": "https://trec.nist.gov/data/qa/2017_LiveQA/questions.txt",
+            "Mapping between Yahoo question ids and NIST-assigned ids": "https://trec.nist.gov/data/qa/2017_LiveQA/qids.txt",
+            "Assessors' succint paraphrase of each question": "https://trec.nist.gov/data/qa/2017_LiveQA/questionParaphrases.xml",
+            "2017 judgments": "https://trec.nist.gov/data/qa/2017_LiveQA/anon-qrels.txt.gz",
+            "Medical questions with their reference answers": "https://trec.nist.gov/data/qa/2017_LiveQA/med-qs-and-reference-answers.xml",
+            "Relevance judgments for medical questions": "https://trec.nist.gov/data/qa/2017_LiveQA/med-anon-qrels.txt",
+            "Assessors' paraphrases of the medical questions": "https://trec.nist.gov/data/qa/2017_LiveQA/med-interpretations.xml"
+        }
+    },
+    "rts": {
+        "corpus": "",
+        "topics": "https://trec.nist.gov/data/rts/TREC2017-RTS-topics-final.json",
+        "qrels": "https://trec.nist.gov/data/rts/rts2017-batch-qrels.txt",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/rts2017.html",
+        "other": {
+            "Clusters of equivalent relevant tweets": "https://trec.nist.gov/data/rts/rts2017-batch-clusters.json",
+            "Batch eval epoch time file": "https://trec.nist.gov/data/rts/rts2017-batch-tweets2dayepoch.txt",
+            "Mobile assessor judgments": "https://trec.nist.gov/data/rts/rts2017-mobile-qrels.txt",
+            "Mobile eval epoch time file": "https://trec.nist.gov/data/rts/rts2017-batch-tweets2dayepoch.txt",
+            "Evaluation script for Scenario A, Batch evaluation": "https://trec.nist.gov/data/rts/rts2017-batchA-eval.py",
+            "Evaluation script for Scenario B, Batch evaluation": "https://trec.nist.gov/data/rts/rts2017-batchB-eval.py",
+            "Evaluation script for Mobile evaluation": "https://trec.nist.gov/data/rts/rts2017-mobile-eval.py"
+        }
+    },
+    "car": {
+        "corpus": "https://trec-car.cs.unh.edu/datareleases/v1.5-release.html",
+        "topics": "https://trec-car.cs.unh.edu/datareleases/v1.5-release.html",
+        "qrels": "https://trec-car.cs.unh.edu/datareleases/v1.5-release.html",
+        "ir_datasets": "https://ir-datasets.com/car.html",
+        "trec_webpage": "https://trec-car.cs.unh.edu/",
+        "other": {}
+    },
+    "task": {
+        "corpus": "http://www.cs.ucl.ac.uk/tasks-track-2017/data.html",
+        "topics": {
+            "Test queries": "https://trec.nist.gov/data/tasks/Task-Queries-2017.xml",
+            "Elaborated topics (with subtasks)": "https://trec.nist.gov/data/tasks/2017-subtasks.txt"
+        },
+        "qrels": "https://trec.nist.gov/data/tasks/2017-qrels-keywords.txt",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/tasks2017.html",
+        "other": {}
+    },
+    "domain": {
+        "corpus": "https://catalog.ldc.upenn.edu/LDC2008T19",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/domain2017.html",
+        "other": {
+            "Truth Data": "https://trec.nist.gov/data/domain/2017/truth_data_nyt_2017_v2.3.xml"
+        }
+    },
+    "open": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {}
+    }
+}

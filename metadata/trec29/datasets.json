@@ -1,0 +1,106 @@
+{
+    "news": {
+        "corpus": "https://trec.nist.gov/data/wapost/",
+        "topics": "https://trec.nist.gov/data/news/2020/newsir20-topics.txt",
+        "qrels": {
+            "Background Linking": "https://trec.nist.gov/data/news/2020/qrels.background",
+            "Wikification": "https://trec.nist.gov/data/news/2020/qrels.wikification"
+        },
+        "ir_datasets": "https://ir-datasets.com/wapo.html",
+        "trec_webpage": "https://trec.nist.gov/data/news2020.html",
+        "other": {}
+    },
+    "deep": {
+        "corpus": {
+            "Passage Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2020#passage-ranking-dataset",
+            "Document Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2020#document-ranking-dataset"
+        },
+        "topics": {
+            "Passage Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2020#passage-ranking-dataset",
+            "Document Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2020#document-ranking-dataset"
+        },
+        "qrels": {
+            "Passage Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2020#passage-ranking-dataset",
+            "Document Ranking": "https://microsoft.github.io/msmarco/TREC-Deep-Learning-2020#document-ranking-dataset"
+        },
+        "ir_datasets": {
+            "Passage Ranking": "https://ir-datasets.com/msmarco-passage-v2.html#msmarco-passage-v2/trec-dl-2020",
+            "Document Ranking": "https://ir-datasets.com/msmarco-document-v2.html#msmarco-document-v2/trec-dl-2020"
+        },
+        "trec_webpage": "https://trec.nist.gov/data/deep2020.html",
+        "other": {
+            "Paper": "https://arxiv.org/abs/1611.09268",
+            "NIST judgments for the Document Ranking task": "https://trec.nist.gov/data/deep/2020qrels-docs.txt",
+            "NIST judgments for the Passage Ranking task": "https://trec.nist.gov/data/deep/2020qrels-pass.txt"
+        }
+    },
+    "incident": {
+        "corpus": "https://www.dcs.gla.ac.uk/~richardm/TREC_IS/",
+        "topics": "https://www.dcs.gla.ac.uk/~richardm/TREC_IS/",
+        "qrels": "https://www.dcs.gla.ac.uk/~richardm/TREC_IS/",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/incident.html",
+        "other": {}
+    },
+    "misinfo": {
+        "corpus": "https://trec-health-misinfo.github.io/",
+        "topics": "https://trec.nist.gov/data/misinfo/2020resources.tar.gz",
+        "qrels": "https://trec.nist.gov/data/misinfo/2020resources.tar.gz",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/misinfo2020.html",
+        "other": {}
+    },
+    "cast": {
+        "corpus": {
+            "MS MARCO Passage Ranking collection": "https://msmarco.blob.core.windows.net/msmarcoranking/collection.tar.gz",
+            "TREC CAR paragraph collection v2.0": "http://trec-car.cs.unh.edu/datareleases/v2.0/paragraphCorpus.v2.0.tar.xz"
+        },
+        "topics": "https://github.com/daltonj/treccastweb/tree/master/2020",
+        "qrels": "https://trec.nist.gov/data/cast/2020qrels.txt",
+        "ir_datasets": "https://ir-datasets.com/trec-cast.html",
+        "trec_webpage": "https://trec.nist.gov/data/cast2020.html",
+        "other": {
+            "BM25 + BERT baseline": "https://github.com/daltonj/treccastweb/tree/master/2020/baselines",
+            "Interactive web UI": "http://boston.lti.cs.cmu.edu/boston-2-25/"
+        }
+    },
+    "pm": {
+        "corpus": "https://www.trec-cds.org/2020.html#documents",
+        "topics": "https://trec.nist.gov/data/precmed/topics2020.xml",
+        "qrels": {
+            "Qrels file suitable for use with treceval For Phase 1 eval": "https://trec.nist.gov/data/precmed/qrels-reduced-phase1-treceval-2020.txt",
+            "Qrels file suitable for use with sampleval for Phase 1 eval": "https://trec.nist.gov/data/precmed/qrels-reduced-phase1-sample-2020.txt",
+            "Qrels file for Phase 2, with exponential gain values as judgment": "https://trec.nist.gov/data/precmed/qrels-expgains-phase2.txt"
+        },
+        "ir_datasets": "https://ir-datasets.com/clinicaltrials.html",
+        "trec_webpage": "https://trec.nist.gov/data/precmed2020.html",
+        "other": {
+            "Evaluation script for computing inferred measures": "https://trec.nist.gov/data/clinical/sample_eval.pl"
+        }
+    },
+    "podcast": {
+        "corpus": "https://podcastsdataset.byspotify.com/",
+        "topics": {
+            "Training topics for Segment Retrieval task": "https://trec.nist.gov/data/podcast/podcasts_2020_topics_train.xml",
+            "Test topics for Segment Retrieval task": "https://trec.nist.gov/data/podcast/podcasts_2020_topics_test.xml"
+        },
+        "qrels": {
+            "Judgment file for training topics for Segment Retrieval task": "https://trec.nist.gov/data/podcast/podcasts_2020_train.1-8.qrels",
+            "Judgment file for test topics for Segment Retrieval task": "https://trec.nist.gov/data/podcast/podcasts_2020_test.qrels"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/podcast2020.html"
+    },
+    "fair": {
+        "corpus": "https://fair-trec.github.io/2020/index.html",
+        "topics": "https://fair-trec.github.io/2020/index.html",
+        "qrels": "https://fair-trec.github.io/2020/index.html",
+        "ir_datasets": "https://ir-datasets.com/trec-fair.html",
+        "trec_webpage": "https://trec.nist.gov/data/fair2020.html",
+        "other": {
+            "Test set evaluation sequences": "https://trec.nist.gov/data/fair/2020-eval-seq.csv",
+            "Document annotations": "https://trec.nist.gov/data/fair/2020-doc-annotations.csv",
+            "Full meta-data per document": "https://trec.nist.gov/data/fair/2020-merged-annotations.json"
+        }
+    }
+}

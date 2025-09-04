@@ -1,0 +1,70 @@
+{
+    "genomics": {
+        "fullname": "Genomics",
+        "tasks": {
+            "adhoc": "Adhoc Retrieval",
+            "triage": "Triage Subtask",
+            "ann": "Annotation Subtask"
+        },
+        "webpage": "https://dmice.ohsu.edu/trec-gen/",
+        "coordinators": "W.R. Hersh, Oregon Health & Science University:R.T. Bhuptiraju, Oregon Health & Science University:L. Ross, Oregon Health & Science University:A.M. Cohen, Oregon Health & Science University:D.F. Kraemer, Oregon Health & Science University:P. Johnson, Biogen Idec Corporation",
+        "description": "The TREC 2004 Genomics Track consisted of two tasks. The first task was a standard ad hoc retrieval task using topics obtained from real biomedical research scientists and documents from a large subset of the MEDLINE bibliographic database. The second task focused on categorization of full-text documents, simulating the task of curators of the Mouse Genome Informatics (MGI) system and consisting of three subtasks. One subtask focused on the triage of articles likely to have experimental evidence warranting the assignment of GO terms, while the other two subtasks focused on the assignment of the three top-level GO categories.",
+        "year": 2004
+    },
+    "HARD": {
+        "fullname": "HARD",
+        "tasks": "",
+        "webpage": "https://web.archive.org/web/20051201144933/https://ciir.cs.umass.edu/research/hard/guidelines.html/",
+        "coordinators": "J.Allan, University of Massachusetts Amherst",
+        "description": "The HARD track of TREC 2004 aims to improve the accuracy of information retrieval through the use of three techniques: (1) query metadata that better describes the information need, (2) focused and time-limited interaction with the searcher through \u201cclarification forms\u201d, and (3) incorporation of passage-level relevance judgments and retrieval. Participation in all three aspects of the track was excellent this year with about 10 groups trying something in each area. No group was able to achieve huge gains in effectiveness using these techniques, but some improvements were found and enthusiasm for the clarification forms (in particular) remains high.",
+        "year": 2004
+    },
+    "novelty": {
+        "fullname": "Novelty",
+        "tasks": {
+            "task1": "Task 1",
+            "task2": "Task 2",
+            "task3": "Task 3",
+            "task4": "Task 4"
+        },
+        "webpage": "https://trec.nist.gov/data/t13_novelty/novelty04.guidelines.html",
+        "coordinators": "I. Soboroff, National Institute of Standards and Technology (NIST)",
+        "description": "The Novelty Track is designed to investigate systems' abilities to locate relevant AND new information within a set of documents relevant to a TREC topic. Systems are given the topic and a set of relevant documents ordered by date, and must identify sentences containing relevant and/or new information in those documents.",
+        "year": 2004
+    },
+    "qa": {
+        "fullname": "Question Answering",
+        "tasks": "",
+        "webpage": "https://trec.nist.gov/data/qamain.html",
+        "coordinators": "E.M. Voorhees, National Institute of Standards and Technology (NIST)",
+        "description": "The TREC 2004 Question Answering track contained a single task in which question series were used to define a set of targets. Each series contained factoid and list questions and related to a single target. The final question in the series was an \u201cOther\u201d question that asked for additional information about the target that was not covered by previous questions in the series. Each question type was evaluated separately with the final score a weighted average of the different component scores. Applying the combined measure on a per-series basis produces a QA task evaluation that more closely mimics classic document retrieval evaluation.",
+        "year": 2004
+    },
+    "robust": {
+        "fullname": "Robust",
+        "tasks": "",
+        "webpage": "https://trec.nist.gov/data/robust/04.guidelines.html",
+        "coordinators": "E.M. Voorhees, National Institute of Standards and Technology (NIST)",
+        "description": "The goal of the Robust track is to improve the consistency of retrieval technology by focusing on poorly performing topics. In addition, the track brings back a classic, ad hoc retrieval task in TREC that provides a natural home for new participants. An ad hoc task in TREC investigates the performance of systems that search a static set of documents using previously-unseen topics. For each topic, participants create a query and submit a ranking of the top 1000 documents for that topic.",
+        "year": 2004
+    },
+    "terabyte": {
+        "fullname": "Terabyte",
+        "tasks": "",
+        "webpage": "https://trec.nist.gov/data/terabyte/04/04.guidelines.html",
+        "coordinators": "C. Clarke, University of Waterloo:N. Craswell, Microsoft Research:I. Soboroff, National Institute of Standards and Technology (NIST)",
+        "description": "The goal of the Terabyte Track is to develop an evaluation methodology for terabyte-scale document collections. This year's track uses a 426GB collection of Web data from the .gov domain. While this collection is less than a full terabyte in size, it is considerably larger than the collections used in previous TREC tracks. In future years, we plan to expand the collection using data from other sources.",
+        "year": 2004
+    },
+    "web": {
+        "fullname": "Web",
+        "tasks": {
+            "mixed": "Mixed query",
+            "classification": "Query classification"
+        },
+        "webpage": "https://trec.nist.gov/data/t13.web.html",
+        "coordinators": "N. Craswell, MSR Cambridge:D. Hawking, CSIRO",
+        "description": "This year's main experiment involved processing a mixed query stream, with an even mix of each query type studied in TREC-2003: 75 homepage finding queries, 75 named page finding queries and 75 topic distillation queries. The goal was to find ranking approaches which work well over the 225 queries, without access to query type labels.",
+        "year": 2004
+    }
+}

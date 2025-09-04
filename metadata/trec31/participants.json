@@ -1,0 +1,933 @@
+{
+    "20220211": {
+        "pid": "20220211",
+        "organization": "UESTC",
+        "name": "Kakarot",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "AFITENGNLP22": {
+        "pid": "AFITENGNLP22",
+        "organization": "Air Force Institute of Technology / Dept Of Elect & Comp Eng / NLP",
+        "name": "Mark Duncan",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "AI2": {
+        "pid": "AI2",
+        "organization": "Allen Institute for Artificial Intelligence",
+        "name": "Jon Saad-Falcon",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "Ali": {
+        "pid": "Ali",
+        "organization": "Alibaba",
+        "name": "GongChang",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "Antiplagiat": {
+        "pid": "Antiplagiat",
+        "organization": "LLP Antiplagiat.Kazakhstan",
+        "name": "Andrey Grabovoy",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "BL.Research": {
+        "pid": "BL.Research",
+        "organization": "Berger-Levrault",
+        "name": "Mokhtar Boumedyen BILLAMI",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "BROWN": {
+        "pid": "BROWN",
+        "organization": "Brown University",
+        "name": "Carsten Eickhoff",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "Bigeye": {
+        "pid": "Bigeye",
+        "organization": "Tsinghua University",
+        "name": "Xintong Yu",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "CERTH_ITI_M4D": {
+        "pid": "CERTH_ITI_M4D",
+        "organization": "Information Technologies Institute CERTH ",
+        "name": "Stefanos Vrochidis",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "CFDA_CLIP": {
+        "pid": "CFDA_CLIP",
+        "organization": "Academia Sinica",
+        "name": "Dylan Jia-Huei Ju",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "CIP": {
+        "pid": "CIP",
+        "organization": "Chinese Information Processing Lab",
+        "name": "Ben He",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "CMU-LTI": {
+        "pid": "CMU-LTI",
+        "organization": "Carnegie Mellon University Language Technologies Institute",
+        "name": "Jamie Callan",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "CNR": {
+        "pid": "CNR",
+        "organization": "CNR",
+        "name": "Ida Mele",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "CREATE": {
+        "pid": "CREATE",
+        "organization": "Amrit CREATE",
+        "name": "Dr.PremaNedungadi",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "CSIROmed": {
+        "pid": "CSIROmed",
+        "organization": "The Commonwealth Scientific and Industrial Research Organisation",
+        "name": "Sarvnaz Karimi",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "CSUI-25": {
+        "pid": "CSUI-25",
+        "organization": "IR-NLP Lab Faculty of Computer Science, Universitas Indonesia",
+        "name": "Theresia Veronika Rampisela",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "Cache": {
+        "pid": "Cache",
+        "organization": "LDRP - Institute of Technology & Research",
+        "name": "Aanchal Malukani ",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "CamfordBio": {
+        "pid": "CamfordBio",
+        "organization": "Camford Capital",
+        "name": "Pedram Hosseini",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "Castorini": {
+        "pid": "Castorini",
+        "organization": "University of Waterloo, Waterloo Canada",
+        "name": "Ogundepo Odunayo",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "CiTIUS": {
+        "pid": "CiTIUS",
+        "organization": "University of Santiago de Compostela",
+        "name": "Marcos Fernndez-Pichel",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "ClinAI": {
+        "pid": "ClinAI",
+        "organization": "ClinAI",
+        "name": "Michael Wornow",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "DANGNT-SGU": {
+        "pid": "DANGNT-SGU",
+        "organization": "Saigon University",
+        "name": "Dang Tuan Nguyen",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "DOSSIER": {
+        "pid": "DOSSIER",
+        "organization": "TU Vienna",
+        "name": "Sophia Althammer",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "DS4DH": {
+        "pid": "DS4DH",
+        "organization": "University of Geneva",
+        "name": "Boya Zhang",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "DUTH": {
+        "pid": "DUTH",
+        "organization": "Democritus University of Thrace",
+        "name": "Avi Arampatzis",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "DalTREC": {
+        "pid": "DalTREC",
+        "organization": "Dalhousie University",
+        "name": "Vlado Keselj",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "ELUCIDATA_ML": {
+        "pid": "ELUCIDATA_ML",
+        "organization": "ELUCIDATA DATA CONSULTING PVT LTD",
+        "name": "Sumit Pandey",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "F4": {
+        "pid": "F4",
+        "organization": "Hunan University of Science and Technology",
+        "name": "Dong Zhou",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "FAST_MT": {
+        "pid": "FAST_MT",
+        "organization": "National University of Computer and Emerging Sciences (FAST-NU)",
+        "name": "FARHAN",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "FictionFS": {
+        "pid": "FictionFS",
+        "organization": "Fiction Formulations & Services",
+        "name": "Ben Bruno Nkapbela",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "GU_BioMed": {
+        "pid": "GU_BioMed",
+        "organization": "Gonzaga University",
+        "name": "Yanqing Ji",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "HEATWAVE": {
+        "pid": "HEATWAVE",
+        "organization": "University of Cambridge Speech Group",
+        "name": "Adian Liusie",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "Hippopotamus2": {
+        "pid": "Hippopotamus2",
+        "organization": "Amador",
+        "name": "Paul Tomas Amador",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "ICTNET": {
+        "pid": "ICTNET",
+        "organization": "Institute of Computing Technology, Chinese Academy of Sciences",
+        "name": "Yue Liu",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "IDACCS": {
+        "pid": "IDACCS",
+        "organization": "Institute for Defense Analyses, Center for Computing Sciences",
+        "name": "John M. Conroy",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "II-DLCA": {
+        "pid": "II-DLCA",
+        "organization": "Information Intelligence Lab, University of Tsukuba",
+        "name": "ZHENG LINGZHEN",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "II-DLIR": {
+        "pid": "II-DLIR",
+        "organization": "Information Intelligence Lab, University of Tsukuba",
+        "name": "Tan Haonan",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "II-HealthIR": {
+        "pid": "II-HealthIR",
+        "organization": "Information Intelligence Lab, University of Tsukuba",
+        "name": "KAIYU YANG",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "IISER22": {
+        "pid": "IISER22",
+        "organization": "Indian Institutes of Science Education and Research, Kolkata",
+        "name": "SUBINAY ADHIKARY",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "IRIT_IRIS": {
+        "pid": "IRIT_IRIS",
+        "organization": "IRIT - Institut de Recherche en Informatique de Toulouse",
+        "name": "Karen Pinel-Sauvagnat",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "IRLAB_IITBHU": {
+        "pid": "IRLAB_IITBHU",
+        "organization": "IRlab@iitbhu",
+        "name": "Bhukya Rahul Nayak",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "IRLab-Amsterdam": {
+        "pid": "IRLab-Amsterdam",
+        "organization": "University of Amsterdam",
+        "name": "Evangelos Kanoulas",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "IRLab_KU": {
+        "pid": "IRLab_KU",
+        "organization": "University of Copenhagen",
+        "name": "Maria Maistro",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "InfoSense": {
+        "pid": "InfoSense",
+        "organization": "Georgetown University InfoSense",
+        "name": "Grace Hui Yang",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "KASYS": {
+        "pid": "KASYS",
+        "organization": "University of Tsukuba",
+        "name": "Makoto P. Kato",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "MLIA-DAC": {
+        "pid": "MLIA-DAC",
+        "organization": "MLIA-DAC",
+        "name": "Laure Soulier",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "MacEwan": {
+        "pid": "MacEwan",
+        "organization": "MacEwan University School of Business",
+        "name": "Brian Almquist",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "NLE": {
+        "pid": "NLE",
+        "organization": "Naver Labs Europe",
+        "name": "Stephane CLINCHANT",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "PA": {
+        "pid": "PA",
+        "organization": "pingan tec",
+        "name": "zhouenguo",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "PASH": {
+        "pid": "PASH",
+        "organization": "Ping An Smart Health",
+        "name": "Yixuan Qiao",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "PA_Tech": {
+        "pid": "PA_Tech",
+        "organization": "PA_Tech",
+        "name": "Huifeng Ling",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "POZNAN": {
+        "pid": "POZNAN",
+        "organization": "Politechnika Poznan",
+        "name": "Jakub Dutkiewicz",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "Pathfinder": {
+        "pid": "Pathfinder",
+        "organization": "Bristol Myers Squibb",
+        "name": "Md Shamsuzzaman",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "RCV": {
+        "pid": "RCV",
+        "organization": "Individual",
+        "name": "Rishav Chandra Varma",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "RIET": {
+        "pid": "RIET",
+        "organization": "University of Connecticut",
+        "name": "Michael Shliselberg",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "SASNLP": {
+        "pid": "SASNLP",
+        "organization": "SAS",
+        "name": "SAS",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "SEMS": {
+        "pid": "SEMS",
+        "organization": "Semantic Systems Group, Informatics Department, University of Hamburg",
+        "name": "Junbo Huang",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "SU-NLP": {
+        "pid": "SU-NLP",
+        "organization": "Sabanci University",
+        "name": "Reyyan Yeniterzi",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "SanjayLab_UMBC": {
+        "pid": "SanjayLab_UMBC",
+        "organization": "University of Maryland Baltimore County",
+        "name": "Sanjay Purushotham",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "ShivIITD": {
+        "pid": "ShivIITD",
+        "organization": "Indian Institute of Technology, Delhi",
+        "name": "Shivani Choudhary",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "SiPEO": {
+        "pid": "SiPEO",
+        "organization": "Technical University of Munich, Data Science in Earth Observation",
+        "name": "Anna Kruspe",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "Siena-Crisis": {
+        "pid": "Siena-Crisis",
+        "organization": "Siena College",
+        "name": "Ira Goldstein",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "SienaCLTeam": {
+        "pid": "SienaCLTeam",
+        "organization": "Siena College Institute for Artificial Intelligence",
+        "name": "Sharon G Small",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "SienaCaST": {
+        "pid": "SienaCaST",
+        "organization": "Siena College",
+        "name": "Ting Liu",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "TCD_IR": {
+        "pid": "TCD_IR",
+        "organization": "Trinity College Dublin, The University of Dublin",
+        "name": "Colin Daly",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "TCS_WITM": {
+        "pid": "TCS_WITM",
+        "organization": "Tata Consultancy Services",
+        "name": "Tirthankar Dasgupta",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "TDMINER": {
+        "pid": "TDMINER",
+        "organization": "KAISER PERMANENTE",
+        "name": "CHENGYI ZHENG",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "THU_YuLab": {
+        "pid": "THU_YuLab",
+        "organization": "Tsinghua University",
+        "name": "Zhengyun Zhao",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "TIMAN": {
+        "pid": "TIMAN",
+        "organization": "TIMAN Group at the University of Illinois at Urbana-Champaign",
+        "name": "ChengXiang Zhai",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "TING": {
+        "pid": "TING",
+        "organization": "Independent participant",
+        "name": "Ting Su",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "TREMA-UNH": {
+        "pid": "TREMA-UNH",
+        "organization": "TREMA lab at the University of New Hampshire",
+        "name": "Laura Dietz",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "TUG-WebScience": {
+        "pid": "TUG-WebScience",
+        "organization": "Graz University of Technology",
+        "name": "Thorsten Ruprechter",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "TU_Vienna": {
+        "pid": "TU_Vienna",
+        "organization": "TU Vienna",
+        "name": "Sebastian Hofsttter",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "UAmsterdam": {
+        "pid": "UAmsterdam",
+        "organization": "University of Amsterdam",
+        "name": "Jaap Kamps",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "UGA": {
+        "pid": "UGA",
+        "organization": "Grenoble Alpes University",
+        "name": "Petra Galuscakova",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "UNICAMP-DL": {
+        "pid": "UNICAMP-DL",
+        "organization": "State University of Campinas (Nogueira)",
+        "name": "Rodrigo Nogueira",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "UNIMIB": {
+        "pid": "UNIMIB",
+        "organization": "University of Milano-Bicocca, Department of Informatics",
+        "name": "Georgios Peikos",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "UOFG2381793w": {
+        "pid": "UOFG2381793w",
+        "organization": "The Glasgow University of Glasgow",
+        "name": "Nathan Welsh",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "UR_IW": {
+        "pid": "UR_IW",
+        "organization": "University of Regensburg",
+        "name": "Hoai Nam Tran",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "UWCLMS": {
+        "pid": "UWCLMS",
+        "organization": "University of Washington",
+        "name": "Michael Henderson",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "UWaterlooMDS": {
+        "pid": "UWaterlooMDS",
+        "organization": "University of Waterloo, Smucker Research Group",
+        "name": "Mark Smucker",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "UiS": {
+        "pid": "UiS",
+        "organization": "University of Stavanger",
+        "name": "Krisztian Balog",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "UniHei-DaSys": {
+        "pid": "UniHei-DaSys",
+        "organization": "University of Heidelberg",
+        "name": "Ashish Chouhan",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "UoE_KG": {
+        "pid": "UoE_KG",
+        "organization": "University of Edinburgh",
+        "name": "Jie Xu",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "UoGTr": {
+        "pid": "UoGTr",
+        "organization": "University of Glasgow",
+        "name": "Iadh Ounis",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "UofG-DG": {
+        "pid": "UofG-DG",
+        "organization": "University of Glasgow",
+        "name": "Debasis Ganguly",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "V-Ryerson": {
+        "pid": "V-Ryerson",
+        "organization": "Ryerson University",
+        "name": "Qinmin Vivian Hu",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "WaterlooClarke": {
+        "pid": "WaterlooClarke",
+        "organization": "School of Computer Science, University of Waterloo",
+        "name": "Charles Clarke",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "Webis": {
+        "pid": "Webis",
+        "organization": "Webis @ Halle, Leipzig, Weimar",
+        "name": "Alexander Bondarenko",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "Winky_Dang": {
+        "pid": "Winky_Dang",
+        "organization": "KUST",
+        "name": "Winky",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "aau-team": {
+        "pid": "aau-team",
+        "organization": "Aalborg University",
+        "name": "Dario Garigliotti",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "alseeger1234": {
+        "pid": "alseeger1234",
+        "organization": "headquarters",
+        "name": "david peck",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "apteam": {
+        "pid": "apteam",
+        "organization": "Antiplagiat Company",
+        "name": "Aleksandr Ogaltsov",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "ayahsoufan": {
+        "pid": "ayahsoufan",
+        "organization": "University of Strathclyde",
+        "name": "Ayah Soufan",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "cactus": {
+        "pid": "cactus",
+        "organization": "University of Leipzig",
+        "name": "Alonso Palomino",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "clarifai": {
+        "pid": "clarifai",
+        "organization": "Clarifai",
+        "name": "Isaac Chung",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "eXSum22": {
+        "pid": "eXSum22",
+        "organization": "L3S Research Center",
+        "name": "Thi Huyen Nguyen",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "els_dshs": {
+        "pid": "els_dshs",
+        "organization": "Elsevier Data Science Health Sciences",
+        "name": "Drahomira Herrmannova",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "h2oloo": {
+        "pid": "h2oloo",
+        "organization": "University of Waterloo",
+        "name": "Jimmy Lin",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "hltcoe-jhu": {
+        "pid": "hltcoe-jhu",
+        "organization": "Human Language Technology Center of Excellence, Johns Hopkins Uni.",
+        "name": "Eugene Yang",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "huaweimtl": {
+        "pid": "huaweimtl",
+        "organization": "Huawei Noah's Ark Lab Montreal",
+        "name": "Ehsan Kamalloo",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "ielab": {
+        "pid": "ielab",
+        "organization": "IElab, The University of Queensland",
+        "name": "Guido Zuccon",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "iiia-unipd": {
+        "pid": "iiia-unipd",
+        "organization": "University of Padua",
+        "name": "Nicola Ferro",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "jackwang196531": {
+        "pid": "jackwang196531",
+        "organization": "NA",
+        "name": "Zhengxiang Wang",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "jbnu": {
+        "pid": "jbnu",
+        "organization": "Jeonbuk National University ",
+        "name": "Kyung Soon Lee",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "jhu.mcnamee": {
+        "pid": "jhu.mcnamee",
+        "organization": "JHU Human Language Technology Center of Excellence",
+        "name": "Paul McNamee",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "kbai": {
+        "pid": "kbai",
+        "organization": "kookmin bank",
+        "name": "donggyu kim",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "leaner_ranking": {
+        "pid": "leaner_ranking",
+        "organization": "JustEat Takeaway.com",
+        "name": "Sumit Sidana",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "may22CLEMENTINE": {
+        "pid": "may22CLEMENTINE",
+        "organization": "The Erdos Institute",
+        "name": "Jimin Kim",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "mila_nlp": {
+        "pid": "mila_nlp",
+        "organization": "McGill University, Mila",
+        "name": "Vaibhav Adlakha",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "mlia": {
+        "pid": "mlia",
+        "organization": "MLIA, ISIR, Sorbonne Universit",
+        "name": "Benjamin Piwowarski",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "nova-search": {
+        "pid": "nova-search",
+        "organization": "Universidade NOVA de Lisboa",
+        "name": "Joao Magalhaes",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "oduneski": {
+        "pid": "oduneski",
+        "organization": "University of Waterloo",
+        "name": "Ogundepo Odunayo",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "ohm_kiz": {
+        "pid": "ohm_kiz",
+        "organization": "Center for Artificial Intelligence, Technische Hochschule Nrnberg",
+        "name": "Korbinian Riedhammer",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "phi_lab": {
+        "pid": "phi_lab",
+        "organization": "King's College London",
+        "name": "Ho Chung Wu",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "ptec_brickMover": {
+        "pid": "ptec_brickMover",
+        "organization": "winOrwin",
+        "name": "wangfan",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "rmit_cidda_ir": {
+        "pid": "rmit_cidda_ir",
+        "organization": "RMIT University",
+        "name": "Damiano Spina",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "sfe123456": {
+        "pid": "sfe123456",
+        "organization": "PAN-SFE",
+        "name": "dfsj",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "srchvrs": {
+        "pid": "srchvrs",
+        "organization": "srchvrs",
+        "name": "Leonid Boytsov",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "taln-ls2n": {
+        "pid": "taln-ls2n",
+        "organization": "LS2N, Nantes Universit",
+        "name": "Florian Boudin",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "tangzhy": {
+        "pid": "tangzhy",
+        "organization": "Tencent",
+        "name": "Zhengyang Tang",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "udel_fang": {
+        "pid": "udel_fang",
+        "organization": "InfoLab at University of Delaware",
+        "name": "Hui Fang",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "umcp": {
+        "pid": "umcp",
+        "organization": "University of Maryland",
+        "name": "Suraj Nair",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "NM.unicamp": {
+        "pid": "NM.unicamp",
+        "organization": "State University of Campinas (Amancio)",
+        "name": "Vitor Amancio Jeronymo",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "uofm333": {
+        "pid": "uofm333",
+        "organization": "University of Memphis",
+        "name": "Xiaolei Huang",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "uog_mis": {
+        "pid": "uog_mis",
+        "organization": "University of Glasgow",
+        "name": "Jesus Alberto Rodriguez Perez",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "upstage": {
+        "pid": "upstage",
+        "organization": "Upstage",
+        "name": "Lucy Park",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "waseda": {
+        "pid": "waseda",
+        "organization": "Waseda University",
+        "name": "Qianyu Zhou",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "whuir_fairtrack": {
+        "pid": "whuir_fairtrack",
+        "organization": "Wuhan University",
+        "name": "Zhu Liang",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "wispermedtxt": {
+        "pid": "wispermedtxt",
+        "organization": "University of Applied Sciences and Arts Dortmund",
+        "name": "Ahmad Idrissi-Yaghir",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "xhs-000": {
+        "pid": "xhs-000",
+        "organization": "xinhua",
+        "name": "lizekui",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "yorku22": {
+        "pid": "yorku22",
+        "organization": "York University ",
+        "name": "Jimmy Huang",
+        "trec": "trec31",
+        "year": 2022
+    },
+    "zjgsu-yin": {
+        "pid": "zjgsu-yin",
+        "organization": "zjgsu-404",
+        "name": "Yin",
+        "trec": "trec31",
+        "year": 2022
+    }
+}

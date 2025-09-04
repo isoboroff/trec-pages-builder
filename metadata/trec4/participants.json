@@ -1,0 +1,254 @@
+{
+    "nsa": {
+        "pid": "nsa",
+        "organization": "National Security Agency",
+        "name": null,
+        "trec": "trec4",
+        "year": 1995
+    },
+    "berkeley": {
+        "pid": "berkeley",
+        "organization": "University of California",
+        "name": "Fredric C. Gey",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "clarit": {
+        "pid": "clarit",
+        "organization": "Claritech Corporation",
+        "name": "David A. Evans",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "excalibur": {
+        "pid": "excalibur",
+        "organization": "Excalibur Technologies (ConQuest Group)",
+        "name": "Paul Nelson",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "cornell": {
+        "pid": "cornell",
+        "organization": "Cornell University",
+        "name": "Chris Buckley",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "dublin": {
+        "pid": "dublin",
+        "organization": "Dublin City University",
+        "name": "Alan Smeaton",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "umass": {
+        "pid": "umass",
+        "organization": "University of Massachusetts",
+        "name": "W. B. Croft",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "intext": {
+        "pid": "intext",
+        "organization": "Intext Systems",
+        "name": "Richard L. Jones",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "citri": {
+        "pid": "citri",
+        "organization": "Royal Melbourne Institute of Technology",
+        "name": "Justin Zobel",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "city": {
+        "pid": "city",
+        "organization": "City University",
+        "name": "S. E. Robertson",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "fs": {
+        "pid": "fs",
+        "organization": "FS Consulting",
+        "name": "Francois Schiettecatte",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "gmu": {
+        "pid": "gmu",
+        "organization": "George Mason University",
+        "name": "David Grossman",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "iss": {
+        "pid": "iss",
+        "organization": "National University of Singapore",
+        "name": "Mun-Kew Leong",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "nyuge": {
+        "pid": "nyuge",
+        "organization": "GE/NYU",
+        "name": "Tomek Strzalkowski",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "hawking": {
+        "pid": "hawking",
+        "organization": "Australian National University",
+        "name": "David Hawking",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "queens": {
+        "pid": "queens",
+        "organization": "Queens College CUNY",
+        "name": "K. L. Kwok",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "siemens": {
+        "pid": "siemens",
+        "organization": "Siemens Corporate Research Inc.",
+        "name": "Ellen Voorhees",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "uwaterloo": {
+        "pid": "uwaterloo",
+        "organization": "University of Waterloo ",
+        "name": "Charles Clarke",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "nec": {
+        "pid": "nec",
+        "organization": "NEC Corporation",
+        "name": "Akitoshi Okumura",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "ukansas": {
+        "pid": "ukansas",
+        "organization": "University of Kansas",
+        "name": "Susan Gauch",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "unine": {
+        "pid": "unine",
+        "organization": "Universite de Neuchatel",
+        "name": "Jacques Savoy",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "uva": {
+        "pid": "uva",
+        "organization": "University of Virginia ",
+        "name": "James C. French",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "glasgow": {
+        "pid": "glasgow",
+        "organization": "The University of Glasgow ",
+        "name": "Mark Sanderson",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "hnc": {
+        "pid": "hnc",
+        "organization": "HNC Inc. ",
+        "name": "Bill Caid",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "oracle": {
+        "pid": "oracle",
+        "organization": "Oracle Corporation ",
+        "name": "Amjad Daoud",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "ucf": {
+        "pid": "ucf",
+        "organization": "University of Central Florida",
+        "name": "James R. Driscoll",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "iti": {
+        "pid": "iti",
+        "organization": "Information Technology Institute",
+        "name": "Kok Fung Lai",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "logicon": {
+        "pid": "logicon",
+        "organization": "Logicon Operating Systems",
+        "name": "Julian A. Yochum",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "xerox": {
+        "pid": "xerox",
+        "organization": "Xerox Palo Alto Research Center ",
+        "name": "Jan Pedersen",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "rutgers.kantor": {
+        "pid": "rutgers.kantor",
+        "organization": "Rutgers University ",
+        "name": "Paul B. Kantor",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "eth": {
+        "pid": "eth",
+        "organization": "Informationssysteme (ETH)",
+        "name": "Peter Schauble",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "lnbool": {
+        "pid": "lnbool",
+        "organization": "Lexis-Nexis",
+        "name": "Allan Lu",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "utoronto": {
+        "pid": "utoronto",
+        "organization": "University of Toronto",
+        "name": "Mark Chignell",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "gatin": {
+        "pid": "gatin",
+        "organization": "Georgia Institute of Technology ",
+        "name": "Aravindan Veerasamy",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "rutgers.belkin": {
+        "pid": "rutgers.belkin",
+        "organization": "Rutgers University ",
+        "name": "Nicholas J. Belkin",
+        "trec": "trec4",
+        "year": 1995
+    },
+    "nsmu": {
+        "pid": "nsmu",
+        "organization": "New Mexico State University ",
+        "name": "Mark W. Davis",
+        "trec": "trec4",
+        "year": 1995
+    }
+}

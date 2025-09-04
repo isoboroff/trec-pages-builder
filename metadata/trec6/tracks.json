@@ -1,0 +1,100 @@
+{
+    "adhoc": {
+        "fullname": "Adhoc",
+        "tasks": {
+            "A": "Category A",
+            "B": "Category B"
+        },
+        "webpage": "https://trec.nist.gov/data/test_coll.html",
+        "coordinators": "Ellen Voorhees, National Institute of Standards and Technology (NIST):D. Harman, National Institute of Standards and Technology (NIST)",
+        "description": "The ad hoc task investigates the performance of systems that search a static set of documents using new topics. This task is similar to how a researcher might use a library-the collection is known but the questions likely to be asked are not known.",
+        "year": 1997
+    },
+    "routing": {
+        "fullname": "Routing",
+        "tasks": {
+            "A": "Category A",
+            "B": "Category B"
+        },
+        "webpage": "",
+        "coordinators": "E. Voorhees, National Institute of Standards and Technology (NIST):D. Harman, National Institute of Standards and Technology (NIST)",
+        "description": "The routing task in the TREC workshops investigates the performance of systems that use standing queries to search new streams of documents. These searches are similar to those required by news clipping services and library profiling systems. A true routing environment is simulated in TREC by using topics that have known relevant documents and testing on a completely new document set.",
+        "year": 1997
+    },
+    "chinese": {
+        "fullname": "Chinese",
+        "tasks": "",
+        "webpage": "",
+        "coordinators": "R. Wilkinson, CSIRO",
+        "description": "The TREC-6 conference was the fourth year in which document retrieval in a language other than English was carried out. In TREC-3, 4 groups participated in an ad hoc retrieval task on a collection of 208 Mbytes of Mexican newspaper text in the Spanish language. In TREC-4 there were 10 groups who participated, once again in an ad hoc document retrieval task on the same Mexican newspaper texts but with new topics. In TREC-5 there was a change of document corpus and new topics for the Spanish ad hoc retrieval task and a corpus of documents and topics to support ad hoc retrieval in the Chinese language was introduced for the first time. In TREC-6 there was two tracks in which languages other than English were explored. In the Chinese track, a second set of topics were evaluated against the existing corpus. In the cross-lingual track experiments were conducted where queries in one language were used against a document corpus in another language.",
+        "year": 1997
+    },
+    "clir": {
+        "fullname": "Cross-Language",
+        "tasks": {
+            "French-French": "French-French",
+            "German-German": "German-German",
+            "German-English": "German-English",
+            "German-French": "German-French",
+            "English-German": "English-German",
+            "English-English": "English-English",
+            "French-German": "French-German",
+            "French-English": "French-English",
+            "Dutch-English": "Dutch-English",
+            "Spanish-English": "Spanish-English",
+            "English-French": "English-French"
+        },
+        "webpage": "",
+        "coordinators": "P. Sch\u00e4uble, Swiss Federal Institute of Technology (ETH):P. Sheridan, Swiss Federal Institute of Technology (ETH)",
+        "description": "Cross-Language Information Retrieval (CLIR) was a new task in the TREC-6 evaluation. In contrast to the multilingual track included in previous TREC evaluations, which was concerned with information retrieval in Spanish or Chi-nese, the cross-language retrieval track focuses on the retrieval situation where the documents are written in a language which is different than the language used to specify the queries. The TREC-6 track used documents in English, French and German and queries in English, French, German, Spanish and Dutch.",
+        "year": 1997
+    },
+    "filtering": {
+        "fullname": "Filtering",
+        "tasks": "",
+        "webpage": "",
+        "coordinators": "D.A. Hull, Xerox Research Centre Europe",
+        "description": "Given a topic description and a large collection of documents, a sample of which have been evaluated as relevant or not relevant for that topic, construct a query profile and a routing function which will score and rank new documents according to their likelihood of relevance.",
+        "year": 1997
+    },
+    "hp": {
+        "fullname": "High-Precision",
+        "tasks": "",
+        "webpage": "",
+        "coordinators": "C. Buckley, SabIR Research Inc.",
+        "description": "The High-Precision Track is a new track for TREC. It has a very simple short description: for each query, a user should find the best 10 documents possible within 5 minutes clock time. One realistic scenario corresponding to this task might be that your boss asks you for a quick report on some area and you need to find some information on the area fast.",
+        "year": 1997
+    },
+    "interactive": {
+        "fullname": "Interactive",
+        "tasks": "",
+        "webpage": "https://trec.nist.gov/data/t6i/t6i.html",
+        "coordinators": "P. Over, National Institute of Standards and Technology (NIST)",
+        "description": "The high-level goal of the TREC-6 Interactive Track was the investigation of searching as an interactive information retrieval (IR) task by examining the process as well as the outcome. To these ends the track specification provided for two levels of experimentation.",
+        "year": 1997
+    },
+    "nlp": {
+        "fullname": "NLP",
+        "tasks": "",
+        "webpage": "",
+        "coordinators": "Ellen Voorhees, National Institute of Standards and Technology (NIST):D. Harman, National Institute of Standards and Technology (NIST)",
+        "description": "The NLP track was initiated to explore whether the natural language processing (NLP) techniques available today are mature enough to have an impact on IR, and specifically whether they can offer an advantage over purely quantitative retrieval methods. The track used the 50 ad hoc topics and the Financial Times document set.",
+        "year": 1997
+    },
+    "sdr": {
+        "fullname": "Spoken Document Retrieval",
+        "tasks": "",
+        "webpage": "",
+        "coordinators": "J. Garofolo, National Institute of Standards and Technology (NIST):E. Voorhees, National Institute of Standards and Technology (NIST):V. Stanford, National Institute of Standards and Technology (NIST):K. Sparck Jones, Cambridge University",
+        "description": "Spoken Document Retrieval (SDR) involves the retrieval of excerpts from recordings of speech using a combination of automatic speech recognition and information retrieval techniques. In performing SDR, a speech recognition engine is applied to an audio input stream and generates a time-marked textual representation (transcription) of the speech. The transcription is then indexed and may be searched using an Information Retrieval engine.",
+        "year": 1997
+    },
+    "vlc": {
+        "fullname": "Very Large Corpus",
+        "tasks": "",
+        "webpage": "",
+        "coordinators": "D. Hawking, Australian National University:P. Thistlewaite, Australian National University",
+        "description": "The emergence of real world applications for text collections orders of magnitude larger than the TREC collection has motivated the introduction of a Very Large Collection track within the TREC framework.",
+        "year": 1997
+    }
+}

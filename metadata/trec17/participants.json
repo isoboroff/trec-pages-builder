@@ -1,0 +1,429 @@
+{
+    "\n": {
+        "pid": "\n",
+        "organization": null,
+        "name": null,
+        "trec": "trec17",
+        "year": 2008
+    },
+    "BJUT": {
+        "pid": "BJUT",
+        "organization": "*DROPOUT-10/3/08*Beijing University of Technology",
+        "name": "Zhen YANG",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "BUPT_pris_": {
+        "pid": "BUPT_pris_",
+        "organization": " Bejiing University of Posts and Telecommunications",
+        "name": "Du Lei",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "Brown_University": {
+        "pid": "Brown_University",
+        "organization": "Brown University",
+        "name": "Matthew Lease",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "WIR": {
+        "pid": "WIR",
+        "organization": "CNIPA - Centro Nazionale per l'Informatica nella",
+        "name": "Mauro Draoli",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "I3S_Group_of_ICT": {
+        "pid": "I3S_Group_of_ICT",
+        "organization": "Chinese Academy of Sciences",
+        "name": "Liu Yue",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "CMU-LTI-DIR": {
+        "pid": "CMU-LTI-DIR",
+        "organization": "Carnegie Mellon University",
+        "name": "Jamie Callan",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "Clearwell": {
+        "pid": "Clearwell",
+        "organization": "Clearwell Systems Inc.",
+        "name": null,
+        "trec": "trec17",
+        "year": 2008
+    },
+    "CSIRO": {
+        "pid": "CSIRO",
+        "organization": "CSIRO ICT Centre",
+        "name": null,
+        "trec": "trec17",
+        "year": 2008
+    },
+    "DUTIR": {
+        "pid": "DUTIR",
+        "organization": " Dalian University of Technology",
+        "name": " Zhihao Yang",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "aic-dcu": {
+        "pid": "aic-dcu",
+        "organization": " Dublin City University",
+        "name": " Adam Bermingham",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "fub": {
+        "pid": "fub",
+        "organization": "Fondazione Ugo Bordoni",
+        "name": null,
+        "trec": "trec17",
+        "year": 2008
+    },
+    "wim-lab.fudan": {
+        "pid": "wim-lab.fudan",
+        "organization": "Fudan Univ.",
+        "name": "Junyu Niu",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "H5_2008": {
+        "pid": "H5_2008",
+        "organization": "H5",
+        "name": null,
+        "trec": "trec17",
+        "year": 2008
+    },
+    "HIT2": {
+        "pid": "HIT2",
+        "organization": "Heilongjiang Institute of Technology",
+        "name": "Haoliang Qi",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "HKPU": {
+        "pid": "HKPU",
+        "organization": "The Hong Kong Polytechnic University, UMASS, Queen's College, City University of New York, The Chinese University of Hong Kong",
+        "name": "Robert Wing Pong LUK",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "ibm-haifa": {
+        "pid": "ibm-haifa",
+        "organization": " IBM Research Lab",
+        "name": " David Carmel",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "iitkgp": {
+        "pid": "iitkgp",
+        "organization": " Indian Institute of Technology, Kharagpur",
+        "name": " Sudeshna Sarkar",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "IU-SLIS": {
+        "pid": "IU-SLIS",
+        "organization": "Indiana University",
+        "name": "Kiduk Yang",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "inria": {
+        "pid": "inria",
+        "organization": " INRIA Sophia Antipolis - Mediterrannee",
+        "name": null,
+        "trec": "trec17",
+        "year": 2008
+    },
+    "POSTECH-KLE": {
+        "pid": "POSTECH-KLE",
+        "organization": "POSTECH-KLE",
+        "name": null,
+        "trec": "trec17",
+        "year": 2008
+    },
+    "KobeU-Seki": {
+        "pid": "KobeU-Seki",
+        "organization": "Kobe University",
+        "name": "Kazuhiro Seki",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "KU": {
+        "pid": "KU",
+        "organization": "Korea University Natural Language Processing Lab.",
+        "name": null,
+        "trec": "trec17",
+        "year": 2008
+    },
+    "mpi-d5": {
+        "pid": "mpi-d5",
+        "organization": "Max-Planck-Institut Informatik",
+        "name": " Ralf Schenkel",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "msrc": {
+        "pid": "msrc",
+        "organization": "Microsoft Research Cambridge Ltd",
+        "name": null,
+        "trec": "trec17",
+        "year": 2008
+    },
+    "DERI_IR_GROUP": {
+        "pid": "DERI_IR_GROUP",
+        "organization": "National Univeristy of Ireland, Galway",
+        "name": "Ronan Cummins",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "neu": {
+        "pid": "neu",
+        "organization": "Northeastern University",
+        "name": "Javed A. Aslam",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "ot": {
+        "pid": "ot",
+        "organization": "Open Text Corporation",
+        "name": null,
+        "trec": "trec17",
+        "year": 2008
+    },
+    "UCL": {
+        "pid": "UCL",
+        "organization": "University College, London",
+        "name": "Jianhan Zhu",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "OHSU": {
+        "pid": "OHSU",
+        "organization": "Oregon Health & Science University",
+        "name": null,
+        "trec": "trec17",
+        "year": 2008
+    },
+    "rmit": {
+        "pid": "rmit",
+        "organization": "RMIT University",
+        "name": "Falk Scholer",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "sabir.buckley": {
+        "pid": "sabir.buckley",
+        "organization": "Sabir Research",
+        "name": null,
+        "trec": "trec17",
+        "year": 2008
+    },
+    "sebir": {
+        "pid": "sebir",
+        "organization": "SEBIR",
+        "name": null,
+        "trec": "trec17",
+        "year": 2008
+    },
+    "st.petersburg": {
+        "pid": "st.petersburg",
+        "organization": " St.Petersburg State University",
+        "name": null,
+        "trec": "trec17",
+        "year": 2008
+    },
+    "SUNY_Buffalo": {
+        "pid": "SUNY_Buffalo",
+        "organization": "State University of New York at Buffalo",
+        "name": null,
+        "trec": "trec17",
+        "year": 2008
+    },
+    "tno": {
+        "pid": "tno",
+        "organization": "TNO ICT",
+        "name": " Wessel Kraaij",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "THUIR": {
+        "pid": "THUIR",
+        "organization": "Tsinghua University",
+        "name": "Min Zhang",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "ARSC08": {
+        "pid": "ARSC08",
+        "organization": "University of Alaska Fairbanks",
+        "name": "Chris Fallen",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "UAmsterdam": {
+        "pid": "UAmsterdam",
+        "organization": "University of Amsterdam (Kamps)",
+        "name": null,
+        "trec": "trec17",
+        "year": 2008
+    },
+    "UAms_De_Rijke": {
+        "pid": "UAms_De_Rijke",
+        "organization": "University of Amsterdam (De Rijke)",
+        "name": "Maarten de Rijke",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "UALR": {
+        "pid": "UALR",
+        "organization": "University  of Arkansas at Little Rock",
+        "name": "Srini Ramaswamy",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "feup_irlab": {
+        "pid": "feup_irlab",
+        "organization": "Universidade do Porto",
+        "name": "Srgio Sobral Nunes",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "lia-talne": {
+        "pid": "lia-talne",
+        "organization": "Universit d'Avignon et des Pays de Vaucluse",
+        "name": " Eric SANJUAN",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "UoGtr": {
+        "pid": "UoGtr",
+        "organization": " University of Glasgow",
+        "name": " Iadh Ounis",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "UIC_IR_Group": {
+        "pid": "UIC_IR_Group",
+        "organization": "University of Illinois at Chicago",
+        "name": "Lifeng Jia",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "UIUC": {
+        "pid": "UIUC",
+        "organization": "University of Illinois at Urbana-Champaign",
+        "name": "ChengXiang Zhai",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "UI-ICTS": {
+        "pid": "UI-ICTS",
+        "organization": "University of Iowa",
+        "name": "David Eichmann",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "UIowa-Srinivasan": {
+        "pid": "UIowa-Srinivasan",
+        "organization": "University of Iowa",
+        "name": "Padmini Srinivasan",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "USI": {
+        "pid": "USI",
+        "organization": "University of Lugano",
+        "name": null,
+        "trec": "trec17",
+        "year": 2008
+    },
+    "UMCP": {
+        "pid": "UMCP",
+        "organization": "University of Maryland, College Park",
+        "name": "Douglas W. Oard",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "uMass": {
+        "pid": "uMass",
+        "organization": "University of Massachusetts",
+        "name": "James Allan",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "UMKCSCE": {
+        "pid": "UMKCSCE",
+        "organization": "University of Missouri-Kansas City",
+        "name": "Charlie Zhao",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "UniNE": {
+        "pid": "UniNE",
+        "organization": "University of Neuchatel",
+        "name": "Jacques Savoy, Claire Fautsch",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "twentedb": {
+        "pid": "twentedb",
+        "organization": "University of Twente",
+        "name": null,
+        "trec": "trec17",
+        "year": 2008
+    },
+    "UTD_SLP_Lab": {
+        "pid": "UTD_SLP_Lab",
+        "organization": "University of Texas at Dallas (MS EC31)",
+        "name": null,
+        "trec": "trec17",
+        "year": 2008
+    },
+    "UWIR": {
+        "pid": "UWIR",
+        "organization": "University of Waterloo",
+        "name": "Charles Clarke",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "UWaterlooEng": {
+        "pid": "UWaterlooEng",
+        "organization": "University of Waterloo",
+        "name": "Olga Vechtomova",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "Ursinus_College": {
+        "pid": "Ursinus_College",
+        "organization": "Ursinus College",
+        "name": "April Kontostathis",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "WHU": {
+        "pid": "WHU",
+        "organization": "Wuhan University",
+        "name": "Wei Lu",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "york": {
+        "pid": "york",
+        "organization": "York University",
+        "name": "Jimmy Huang",
+        "trec": "trec17",
+        "year": 2008
+    },
+    "Pitt_IR_Team": {
+        "pid": "Pitt_IR_Team",
+        "organization": "University of Pittsburgh",
+        "name": null,
+        "trec": "trec17",
+        "year": 2008
+    }
+}

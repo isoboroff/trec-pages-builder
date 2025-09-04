@@ -1,0 +1,646 @@
+{
+    "IRIT_markers": {
+        "pid": "IRIT_markers",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "smith": {
+        "pid": "smith",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "RMITB": {
+        "pid": "RMITB",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "PITTSCI": {
+        "pid": "PITTSCI",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "UB_NLP": {
+        "pid": "UB_NLP",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "NTU_NMLab": {
+        "pid": "NTU_NMLab",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "IRIT_LSIS_FR": {
+        "pid": "IRIT_LSIS_FR",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "IRC": {
+        "pid": "IRC",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "Technion": {
+        "pid": "Technion",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "BITEM": {
+        "pid": "BITEM",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "ixa": {
+        "pid": "ixa",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "OHSU": {
+        "pid": "OHSU",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "columbia_university_dbmi": {
+        "pid": "columbia_university_dbmi",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "CincyMedIR": {
+        "pid": "CincyMedIR",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "NI_CCHMC": {
+        "pid": "NI_CCHMC",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "uogTr": {
+        "pid": "uogTr",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "covidex": {
+        "pid": "covidex",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "TM_IR_HITZ": {
+        "pid": "TM_IR_HITZ",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "BioinformaticsUA": {
+        "pid": "BioinformaticsUA",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "SavantX": {
+        "pid": "SavantX",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "sabir": {
+        "pid": "sabir",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "azimiv": {
+        "pid": "azimiv",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "GUIR_S2": {
+        "pid": "GUIR_S2",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "UIowaS": {
+        "pid": "UIowaS",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "udel_fang": {
+        "pid": "udel_fang",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "IRLabKU": {
+        "pid": "IRLabKU",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "UIUC_DMG": {
+        "pid": "UIUC_DMG",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "IR_COVID19_CLE": {
+        "pid": "IR_COVID19_CLE",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "xj4wang": {
+        "pid": "xj4wang",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "abccaba": {
+        "pid": "abccaba",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "UB_BW": {
+        "pid": "UB_BW",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "tcs_ilabs_gg": {
+        "pid": "tcs_ilabs_gg",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "SFDC": {
+        "pid": "SFDC",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "BBGhelani": {
+        "pid": "BBGhelani",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "BRPHJ_NLP": {
+        "pid": "BRPHJ_NLP",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "KAROTENE_SYNAPTIQ_UMBC": {
+        "pid": "KAROTENE_SYNAPTIQ_UMBC",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "unipd.it": {
+        "pid": "unipd.it",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "TU_Vienna": {
+        "pid": "TU_Vienna",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "cord19.vespa.ai": {
+        "pid": "cord19.vespa.ai",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "unique_ptr": {
+        "pid": "unique_ptr",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "CSIROmed": {
+        "pid": "CSIROmed",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "Elhuyar_NLP_team": {
+        "pid": "Elhuyar_NLP_team",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "Factum": {
+        "pid": "Factum",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "wistud": {
+        "pid": "wistud",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "Sinequa": {
+        "pid": "Sinequa",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "VirginiaTechHAT": {
+        "pid": "VirginiaTechHAT",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "POZNAN": {
+        "pid": "POZNAN",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "DA_IICT": {
+        "pid": "DA_IICT",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "UMASS_CIIR": {
+        "pid": "UMASS_CIIR",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "TMACC_SeTA": {
+        "pid": "TMACC_SeTA",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "RUIR": {
+        "pid": "RUIR",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "julielab": {
+        "pid": "julielab",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "THUMSR": {
+        "pid": "THUMSR",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "ielab": {
+        "pid": "ielab",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "KoreaUniversity_DMIS": {
+        "pid": "KoreaUniversity_DMIS",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "Sinequa2": {
+        "pid": "Sinequa2",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "CogIR": {
+        "pid": "CogIR",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "AUEB_NLP_GROUP": {
+        "pid": "AUEB_NLP_GROUP",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "anserini": {
+        "pid": "anserini",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "mpiid5": {
+        "pid": "mpiid5",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "PITT": {
+        "pid": "PITT",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "ims_unipd": {
+        "pid": "ims_unipd",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "MedDUTH_AthenaRC": {
+        "pid": "MedDUTH_AthenaRC",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "cuni": {
+        "pid": "cuni",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "UCD_CS": {
+        "pid": "UCD_CS",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "Emory_IRLab": {
+        "pid": "Emory_IRLab",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "req_rec": {
+        "pid": "req_rec",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "Random": {
+        "pid": "Random",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "ASU_biomedical": {
+        "pid": "ASU_biomedical",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "DY_XD": {
+        "pid": "DY_XD",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "risklick": {
+        "pid": "risklick",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "CovidSearch": {
+        "pid": "CovidSearch",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "whitej_relevance": {
+        "pid": "whitej_relevance",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "HKPU": {
+        "pid": "HKPU",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "shamra": {
+        "pid": "shamra",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "CMT": {
+        "pid": "CMT",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "LTR_ESB_TEAM": {
+        "pid": "LTR_ESB_TEAM",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "UH_UAQ": {
+        "pid": "UH_UAQ",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "0_214_wyb": {
+        "pid": "0_214_wyb",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "CIR": {
+        "pid": "CIR",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "VATech": {
+        "pid": "VATech",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "Marouane": {
+        "pid": "Marouane",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "UAlbertaSearch": {
+        "pid": "UAlbertaSearch",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "test_uma": {
+        "pid": "test_uma",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "ILPS_UvA": {
+        "pid": "ILPS_UvA",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "UWMadison_iSchool": {
+        "pid": "UWMadison_iSchool",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "fcavalier": {
+        "pid": "fcavalier",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "WiscIRLab": {
+        "pid": "WiscIRLab",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "reSearch2vec": {
+        "pid": "reSearch2vec",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "BRPHJ": {
+        "pid": "BRPHJ",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "ruir": {
+        "pid": "ruir",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    },
+    "MacEwan_Business": {
+        "pid": "MacEwan_Business",
+        "organization": null,
+        "name": null,
+        "trec": "trec-covid",
+        "year": 2020
+    }
+}

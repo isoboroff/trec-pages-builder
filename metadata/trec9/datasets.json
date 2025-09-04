@@ -1,0 +1,66 @@
+{
+    "web": {
+        "corpus": "http://ir.dcs.gla.ac.uk/test_collections/wt10g.html",
+        "topics": "https://trec.nist.gov/data/topics_eng/topics.451-500.gz",
+        "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.trec9.main_web.gz",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/t9.web.html",
+        "other": {}
+    },
+    "sdr": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {}
+    },
+    "qa": {
+        "corpus": "",
+        "topics": "https://trec.nist.gov/data/topics_eng/qa_questions_201-893",
+        "qrels": "https://trec.nist.gov/data/qrels_eng/qrels.trec9.qa.gz",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/qa/t9_qadata.html",
+        "other": {
+            "TREC-9 question and answer variant map ": "https://trec.nist.gov/data/topics_eng/variants.qnumbers"
+        }
+    },
+    "xlingual": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {}
+    },
+    "filtering": {
+        "corpus": "https://trec.nist.gov/data/filtering/t9.filtering.tar.gz",
+        "topics": "https://trec.nist.gov/data/filtering/t9.filtering.tar.gz",
+        "qrels": "https://trec.nist.gov/data/filtering/t9.filtering.tar.gz",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/t9_filtering.html",
+        "other": {
+            "ohsu-trec.tar.gz": "https://trec.nist.gov/data/filtering/t9.ohsu-trec.tar.gz",
+            "ohsumed88.tar.gz": "https://trec.nist.gov/data/filtering/t9.ohsumed88.tar.gz",
+            "ohsumed89.tar.gz": "https://trec.nist.gov/data/filtering/t9.ohsumed89.tar.gz",
+            "ohsumed90.tar.gz": "https://trec.nist.gov/data/filtering/t9.ohsumed90.tar.gz",
+            "ohsumed91.tar.gz": "https://trec.nist.gov/data/filtering/t9.ohsumed91.tar.gz"
+        }
+    },
+    "query": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {}
+    },
+    "interactive": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/t9i/t9i.html",
+        "other": {}
+    }
+}

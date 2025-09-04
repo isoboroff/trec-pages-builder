@@ -1,0 +1,299 @@
+{
+    "crisis": {
+        "DBLP:conf/trec/BuntainHMHIP23": {
+            "file": "Overview_crisis",
+            "pid": "overview",
+            "abstract": "This paper describes the second and final edition of CrisisFACTS, run for TREC 2023. In this edition, we transitioned from a two-phases of manual assessment (fact identification followed by fact matching) to a single-phase approach where facts are manually identified from analysis of the output of the pooled systems and that output is matched to facts as a single step. We also introduced fact quality ratings, allowing us to distinguish between Useful, Poor, Redundant and Lagged (out-of-date) facts. We experimented with replacing the manual matching of participant outputs to facts with automatic matching techniques (both exact and semantic matching). And we added 7 new crisis events. For evaluation, we compared results from standard similarity-based summarization techniques to manual assessments and, while we show some similarity in rankings across methods, we point to paths for improving similarity-based summarization, as these methods are likely to be increasingly needed in the face of generative models.",
+            "key": "DBLP:conf/trec/BuntainHMHIP23"
+        },
+        "DBLP:conf/trec/PereiraNL23": {
+            "file": "NM.F",
+            "pid": "NM",
+            "abstract": "The exponential increase of information during crisis events necessitates efficient and real-time summarizationtechniques to aid emergency response and coordination. To this end, this study leverages the power of largelanguage models (LLMs) to summarize social media content in the context of crisis management. We introduce anovel method that combines advanced search algorithms with state-of-the-art LLMs to generate concise, relevantsummaries based on user queries. Specifically, we utilize the BM25 algorithm and the monoT5 reranker to filterthe most pertinent documents, which are then summarized using OpenAI\u2019s GPT-3.5-turbo and GPT-4 models.Our submission to the TREC CrisisFACTS Track 2023 demonstrates that integrating the monoT5 reranker withGPT-3.5-turbo significantly reduces redundancy and enhances the comprehensiveness of summaries. This progressindicates a substantial advancement over our previous year\u2019s efforts, reflecting the rapid evolution in the fieldof natural language processing. The capacity of the latest models to process larger contextual inputs withoutextensive data underpins their utility in streamlining the summarization process, which is vital for effective crisiscommunication.",
+            "key": "DBLP:conf/trec/PereiraNL23"
+        },
+        "DBLP:conf/trec/SalemiSSGP23": {
+            "file": "Human_Info_Lab.F",
+            "pid": "Human_Info_Lab",
+            "abstract": "Extracting informative content from different sources of data like social media and news web-sites and summarizing it is critical for disaster response agencies during crises. This paper describesour proposed system to extract and rank facts from online data sources for summarizing crisis-related events in the TREC 2023 CrisisFACTS track. First, our system leverages establishedmethods such as REBEL or ClausIE to extract relevant facts from the input data stream. Then,since the summary should reflect the information needed by the response agencies, our systemfilters the extracted facts using an extended set of indicative terms used by those agencies. Wethen employ an integrated content-graph analysis to capture the similarity of facts to each other,facts to queries, and facts to indicative terms to score the importance of extracted facts. We eval-uate and compare the performance of our proposed system by utilizing two extractive methods toextract facts from the multi-stream data and score them for summarizing the crisis-related events.",
+            "key": "DBLP:conf/trec/SalemiSSGP23"
+        },
+        "DBLP:conf/trec/SeebergerR23": {
+            "file": "OHM.F",
+            "pid": "OHM",
+            "abstract": "Automatic summarization of mass-emergencyevents plays a critical role in disaster man-agement. The second edition of CrisisFACTSaims to advance disaster summarization basedon multi-stream fact-finding with a focus onweb sources such as Twitter, Reddit, Facebook,and Webnews. Here, participants are askedto develop systems that can extract key factsfrom several disaster-related events, which ul-timately serve as a summary. This paper de-scribes our method to tackle this challeng-ing task. We follow previous work and pro-pose to use a combination of retrieval, rerank-ing, and an embarrassingly simple instruction-following summarization. The two-stage re-trieval pipeline relies on BM25 and MonoT5,while the summarizer module is based on theopen-source Large Language Model (LLM)LLaMA-13b. For summarization, we explore aQuestion Answering (QA)-motivated prompt-ing approach and find the evidence useful forextracting query-relevant facts. The automaticmetrics and human evaluation show strong re-sults but also highlight the gap between open-source and proprietary systems.",
+            "key": "DBLP:conf/trec/SeebergerR23"
+        },
+        "DBLP:conf/trec/BurbankCLMY23": {
+            "file": "IDACCS.F",
+            "pid": "IDACCS",
+            "abstract": "The CrisisFACTS task seeks to find relevant, non-redundant informa-tion for an ongoing natural disaster. The task this year allowed bothextractive and abstractive summaries. This notebook describes our threesubmissions: an extractive approach using the occams summarizer andtwo abstractive approaches using GPT-3.5. Of the two abstractive sub-missions, one used GPT-3.5 on a high-scoring subset of the data, whilethe second was a hybrid, a paraphrase of an occams extractive summary.",
+            "key": "DBLP:conf/trec/BurbankCLMY23"
+        },
+        "DBLP:conf/trec/TheamtunY23": {
+            "file": "nut-kslab.F",
+            "pid": "nut-kslab",
+            "abstract": "This notebook is the summary of our approach for the TREC CrisisFACTS 2023.  Our approach will be presented in Section 2, and our run and results will be discussed in Section 3. With run discussion and problem we faced led to our future work in Sections 4 and 5.",
+            "key": "DBLP:conf/trec/TheamtunY23"
+        },
+        "DBLP:conf/trec/YadavP23": {
+            "file": "IRLAB_IIT_BHU.F",
+            "pid": "IRLAB_IIT_BHU",
+            "abstract": "The CrisisFACTS Track tackles the challenges of gathering crucial facts from diversedisaster-related events through multi-stream fact-finding. This paper presents our innovativemethod for summarizing crisis events in the TREC 2023 CrisisFACTS track. Our approachinvolves a two-step summarization process utilizing retrieval and ranking techniques. Initially,a sparse retrieval framework treats content from various online streams as a document corpus.It uses term matching to retrieve relevant contents, termed \u201cfacts\u201d, based on specific event dayqueries. Subsequently, pre-trained models assess the semantic similarity between query-factand fact-fact pairs. These similarities are used to score and rank the facts, forming the basisfor extracting daily event summaries. Relevant data are first retrieved using the IR techniquefrom pyTerrier and then re-ranked. Top-k (k=32) posts are finally used to create summaries.Our model is not able to create good summaries for the event on a specific day. But Weare confident that this approach holds potential for yielding promising results with \u201cBM25 +DFReeKLIM\u201d model, especially for labels with limited resources.",
+            "key": "DBLP:conf/trec/YadavP23"
+        },
+        "DBLP:conf/trec/ChevertonSL23": {
+            "file": "SienaCLTeam.F",
+            "pid": "SienaCLTeam",
+            "abstract": "This paper discusses our work and participation in the Text RetrievalConference (TREC) CrisisFacts Track (CFT) of 2023. Social mediasystems can be a valuable source of information for emergencyresponders during a crisis event if harnessed properly. The task ofextracting relevant information as a crisis event is unfolding is a uniqueinformation retrieval task, such that it is attempting to detect postsrelative to a specific event that is ongoing and evolving in real time. TheCFT is in its second year of fostering research in this area. The CFT teamhas supplied multi-stream datasets from several disasters, coveringTwitter, Reddit, Facebook, and online news sources (from the NELANews Collection1). We will report on our query expansion work that weimplement to participate in the CFT.1. IntroductionThe Incident Streams Track (Buntain et al., 2020), first run in 2018, is a program in theText Retrieval Conference (TREC) (Voorhees 2007). TREC is a program co-sponsored bythe National Institute of Standards and Technology (NIST) and the U.S. Department ofDefense and it focuses on supporting research in information retrieval and extraction, andto increase availability of appropriate evaluation techniques. The CFT (McCreadie &Buntain 2022) evolved from the Incident Streams Track and was run for its secondconsecutive year in 2023.Public Information Officers are tasked with monitoring social media streams inorder to identify any requests for help. There are currently no satisfactory tools to aid themin this process and it becomes mostly manual. Given that it is quite obvious thatinformation may not be provided to incident commanders in a timely fashion.The CFT is in its second year of fostering research in this area. The CFT team hassupplied multi-stream datasets from several disasters, covering Twitter, Reddit, Facebook,and online news sources (from the NELA News Collection). We had a team of twoundergraduate researchers work for 6 weeks to generate explore ideas that we believedcould potentially boost performance for this type of task. This paper discusses our workand participation in the TREC CrisisFacts Track of 2023.",
+            "key": "DBLP:conf/trec/ChevertonSL23"
+        }
+    },
+    "ikat": {
+        "DBLP:conf/trec/AliannejadiACDA23": {
+            "file": "Overview_ikat",
+            "pid": "overview",
+            "abstract": "Conversational Information Seeking has evolved rapidly in thelast few years with the development of Large Language Modelsproviding the basis for interpreting and responding in a natural-istic manner to user requests. iKAT emphasizes the creation andresearch of conversational search agents that adapt responses basedon the user\u2019s prior interactions and present context. This meansthat the same question might yield varied answers, contingent onthe user\u2019s profile and preferences. The challenge lies in enablingConversational Search Agents (CSA) to incorporate personalizedcontext to effectively guide users through the relevant informationto them. iKAT\u2019s first year attracted seven teams and a total of 24runs. Most of the runs leveraged Large Language Models (LLMs)in their pipelines, with a few focusing on a generate-then-retrieveapproach.",
+            "key": "DBLP:conf/trec/AliannejadiACDA23"
+        },
+        "DBLP:conf/trec/AbbasiantaebMRKRA23": {
+            "file": "IRLab-Amsterdam.K",
+            "pid": "IRLab-Amsterdam",
+            "abstract": "The interactive Knowledge Assistant Track (iKAT) aims to developpersonalized conversational assistants. In this task, the persona ofthe user is provided to the system before the conversation. iKATconsists of three main tasks including, Personal Textual KnowledgeBase (PTKB) statement ranking, passage ranking, and responsegeneration. We proposed two different pipelines to approach thetask, namely, retrieve-then-generate and generate-then-retrieve. Wesubmitted three runs based on the retrieve-then-generate pipelineusing the Llama model and one run based on the generate-then-retrieve pipeline. The automatic run based on generate-then-retrievepipeline outperformed the other automatic runs in the passageranking task. This run achieved comparable results to the manualrun based on the retrieve-then-generate pipeline. For the PTKB state-ment ranking task, we proposed two approaches including rankingPTKB statements using (MiniLM12) model and using the GPT-4model as a zero-shot learner for classifying the PTKB statements asrelevant or non-relevant. The ranking approach using (MiniLM12)model achieved better performance than the classification modelapproach.",
+            "key": "DBLP:conf/trec/AbbasiantaebMRKRA23"
+        },
+        "DBLP:conf/trec/ChoudharyCS23": {
+            "file": "IITD.K",
+            "pid": "IITD",
+            "abstract": "Conventional information retrieval procedurestypically entail multiple stages, encompassinginformation retrieval and subsequent responsegeneration. The quality of the response derivedfrom the retrieved content significantly influ-ences the overall efficacy of the retrieval pro-cess. With the advent of large language models,it is possible to utilize larger contexts to gener-ate more cogent summaries for users. To ensurethe production of contextually grounded andpertinent responses, particularly in conversa-tional models, a good retrieval mechanism actsas a keystone. This study aims to develop a con-versational engine adept at extracting relevantdocuments and generating pertinent responsesby summarizing key passages, leveraging vari-ous types of language models.",
+            "key": "DBLP:conf/trec/ChoudharyCS23"
+        },
+        "DBLP:conf/trec/ZhengYYFJ23": {
+            "file": "uot-yahoo.K",
+            "pid": "uot-yj",
+            "abstract": "In this paper, we present our approach employed in the four automatic submission runs for the TREC 2023 Interactive Knowledge Assistance Track. This track comprises three subtasks: passage ranking, response genera- tion, and Personal Text Knowledge Base (PTKB) statement ranking. Our comprehensive multi-stage pipeline for this task encompasses query rewriting, PTKB statement ranking, passage retrieval and re-ranking, and response generation. In particular, we employed fine-tuned pre-trained T5-CANARD for query rewriting, a combination of BERT, RankGPT, and MonoT5 for PTKB statement ranking, and Large Language Models (LLMs), RankGPT, and MonoT5 separately for passage re-ranking in four submission runs. For response generation, we adopted \"mrm8488/t5-base-finetuned-summarize-news\" from HuggingFace, which is a Text-to-Text Transfer Transformer (T5) based model that specially fine-tuned for summarization tasks.",
+            "key": "DBLP:conf/trec/ZhengYYFJ23"
+        },
+        "DBLP:conf/trec/PatwardhanY23": {
+            "file": "InfoSense.K",
+            "pid": "InfoSense",
+            "abstract": "The Text Retrieval Conference (TREC)\u2019s Interactive KnowledgeAssistance (iKAT) Track has the goal of combining conversationaland personalizable elements with existing information retrieval(IR) technologies to facilitate information-seeking. To accomplishthis, an iKAT system is given two pieces of information from theuser: 1) a Personal Textual Knowledge Base (PTKB), which is apersistent set of a handful of factual statements about the user (like\"I am lactose intolerant\" or \"I am afraid of roller coasters\") thatlasts throughout a conversation, and 2) the user utterance, whichis usually written from an information-seeking standpoint. In anautomatic run, the system must find both the PTKBs relevant toeach utterance and provide relevant responses to both the currentutterance and the conversation history. Answers must be generatedbased on passages retrieved from the ClueWeb 22B Corpus.This paper contains what the Georgetown InfoSense group hasdone in regard to solving the challenges presented by TREC iKAT2023. Our submitted runs outperform the median runs by a sig-nificant margin, exhibiting superior performance in nDCG acrossvarious cut numbers and in overall success rate. Our approach uses aGenerate-Retrieve-Generate method, which we\u2019ve found to greatlyoutpace Retrieve-Then-Generate approaches for the purposes ofiKAT. Our solution involves the use of Large Language Models(LLMs) for initial answers, answer grounding by BM25, passagequality filtering by logistic regression, and answer generation byLLMs again. We leverage several purpose-built Language Models,including BERT, Chat-based, and text-to-transfer-based models, fortext understanding, classification, generation, and summarization.The official results of the TREC evaluation contradict our initialself-evaluation, which may suggest that a decrease in the relianceon our retrieval and classification methods is better. Nonetheless,our findings suggest that the sequence of involving these differentcomponents matters, where we see an essentiality of using LLMsbefore using search engines.",
+            "key": "DBLP:conf/trec/PatwardhanY23"
+        },
+        "DBLP:conf/trec/MoYN23": {
+            "file": "RALI.K",
+            "pid": "RALI",
+            "abstract": "The Recherche Appliqu\u00e9e en Linguistique Informatique (RALI)team has participated in the 2023 TREC Interactive KnowledgeAssistance Track (iKAT). This paper introduces our approaches andreports our results on the passage ranking task. The most challeng-ing in conversational information seeking is to reveal the user\u2019sreal search intent. To tackle these challenges, we employ a com-bination of query rewriting and query expansion techniques torephrase conversational queries using generative language modelsin both supervised and zero-shot manner. Furthermore, to establisha connection between query reformulation and the retrieval pro-cess, we implement a knowledge infusion mechanism to enhanceboth procedures during training. The outcome of our efforts yieldsimpressive results, with an nDCG@5 score of 16.24% and an MRRof 32.75% in our best-performing experiments. Besides, we alsoexplore the impact of personal information on the search resultsbased on GPT-4, showing that not all query turns are associatedwith personalized information needs.",
+            "key": "DBLP:conf/trec/MoYN23"
+        }
+    },
+    "deep": {
+        "DBLP:conf/trec/CraswellMYRCLVS23": {
+            "file": "Overview_deep",
+            "pid": "overview",
+            "abstract": "This is the fifth year of the TREC Deep Learning track. As in previous years, we leverage the MSMARCO datasets that made hundreds of thousands of human-annotated training labels availablefor both passage and document ranking tasks. We mostly repeated last year\u2019s design, to get anothermatching test set, based on the larger, cleaner, less-biased v2 passage and document set, with passageranking as primary and document ranking as a secondary task (using labels inferred from passage).As we did last year, we sample from MS MARCO queries that were completely held out, unusedin corpus construction, unlike the test queries in the first three years. This approach yields a moredifficult test with more headroom for improvement. Alongside the usual MS MARCO (human)queries from MS MARCO, this year we generated synthetic queries using a fine-tuned T5 modeland using a GPT-4 prompt.The new headline result this year is that runs using Large Language Model (LLM) prompting insome way outperformed runs that use the \u201cnnlm\u201d approach, which was the best approach in theprevious four years. Since this is the last year of the track, future iterations of prompt-based rankingcan happen in other tracks. Human relevance assessments were applied to all query types, notjust human MS MARCO queries. Evaluation using synthetic queries gave similar results to humanqueries, with system ordering agreement of \u03c4 = 0.8487. However, human effort was needed toselect a subset of the synthetic queries that were usable. We did not see clear evidence of bias,where runs using GPT-4 were favored when evaluated using synthetic GPT-4 queries, or where runsusing T5 were favored when evaluated on synthetic T5 queries.",
+            "key": "DBLP:conf/trec/CraswellMYRCLVS23"
+        },
+        "DBLP:conf/trec/LassancePL23": {
+            "file": "h2oloo.DN",
+            "pid": "h2oloo",
+            "abstract": "In this notebook, we outline the architecture and evaluation of our TREC 2023submissions, which employ a sophisticated cascading multi-stage ranking frame-work comprising four distinct steps. Through experimentation across multipleconfigurations, we validate the efficacy of each stage within this hierarchy. Ourfindings demonstrate the high effectiveness of our pipeline, consistently outper-forming median benchmarks and approaching the maximal aggregate scores. No-tably, reproducibility is a key outcome of our methodology. Nevertheless, thereproducibility of the final component, termed \u201clisto\u201d, is contingent upon interac-tions with the proprietary and inherently non-deterministic GPT4, raising salientquestions about its consistency and reliability in a research context.",
+            "key": "DBLP:conf/trec/LassancePL23"
+        },
+        "DBLP:conf/trec/Zhang23": {
+            "file": "UWaterlooMDS.DT",
+            "pid": "UWaterlooMDS",
+            "abstract": "Our submissions to the TREC 2023 Deep LearningTrack and the Tip-of-the-Tongue Track utilized thepower of language models. For the Deep Learningtrack, we prompted a Large Language Model (LLM)to generate more queries for BM25 retrieval, whichdid not yield better performance than the BM25 base-line. We also tried to prompt the model to per-form passage assessments similar to human asses-sors, which effectively improved the ranking of thebaseline. For the Tip-of-the-Tongue track, we useda general-purpose text embedding model to performdense retrieval, achieving better performance thanthe dense retrieval baseline with a high recall. Whenwe instructed an LLM to assess whether a Wikipediapage matches a user\u2019s description, the model did notseem to produce accurate assessments.",
+            "key": "DBLP:conf/trec/Zhang23"
+        },
+        "DBLP:conf/trec/YangZYFJ23": {
+            "file": "uot-yahoo.D",
+            "pid": "uot-yj",
+            "abstract": "This paper describes the approaches used in three automatic submission runs for the TREC 2023 deep learning track specifically for the passage re-ranking task. We tested three different approaches using GPT-3.5-turbo, GPT-4, and a combination of multiple LLMs to explore effective methods for this task and demonstrated a variable performance of these methods, where none did better than the average results from the other participants in the track. These findings indicate a potential area for further exploration into how current LLMs re-rank search results, highlighting the need for careful prompt creation and model selection in information retrieval. Our work is an initial attempt to understand what LLMs can achieve and where they could be improved, offering some direction for future research in this area.",
+            "key": "DBLP:conf/trec/YangZYFJ23"
+        },
+        "DBLP:conf/trec/KashyapiD23": {
+            "file": "TREMA-UNH.D",
+            "pid": "TREMA-UNH",
+            "abstract": "This notebook describes the submission from the TREMA-UNHteam to the TREC 2023 deep learning track. Conventional DPRsystems use dense vector representations from large language mod-els such as BERT to measure how similar queries are to candidatepassages. For effective open-domain question-answering, it\u2019s cru-cial for the embedding model to grasp both high-level topics andtheir detailed subtopics. While recent DPR systems implicitly learntopic similarities, explicitly integrating topic taxonomies wouldbe beneficial. Vital article category scheme from Wikipedia is uti-lized to establish an overarching topic framework, and a hyperbolicembedding space is used to gain insights into topic hierarchies.When integrated into a DPR system, the entire topic landscape isconsidered while responding to a query. The resulting DPR systemis utilized to produce runs for the reranking task of TREC 2023deep learning track.",
+            "key": "DBLP:conf/trec/KashyapiD23"
+        },
+        "DBLP:conf/trec/ChenHSS23": {
+            "file": "CIP.D",
+            "pid": "CIP",
+            "abstract": "This study presents the strategies and experimental results employed by the CIP team in the Passage Ranking task of the 2023 TREC Deep Learning Track. In the full-ranking task, we incorporated sparse retrieval methods such as Unicoil [4] and DocT5Query [6], cross- attention mechanism (MonoT5 [8]), and the recent advancements in large language models (LLM) to achieve improved sorting effectiveness. Ad- ditionally, we utilized a multi-round iterative optimization strategy for deep ranking of selected candidate documents. The experimental data suggests that by harnessing the power of existing resources, our approach has yielded favorable results in this task, without necessitating any ad- ditional training.",
+            "key": "DBLP:conf/trec/CraswellMYRCLVS23"
+        },
+        "DBLP:conf/trec/ParryJMO23": {
+            "file": "uogTr.D",
+            "pid": "uogTr",
+            "abstract": "This paper describes our participation in the TREC 2023 DeepLearning Track. We submitted runs that apply generative relevancefeedback from a large language model in both a zero-shot andpseudo-relevance feedback setting over two sparse retrieval ap-proaches, namely BM25 and SPLADE. We couple this first stagewith adaptive re-ranking over a BM25 corpus graph scored using amonoELECTRA cross-encoder. We investigate the efficacy of thesegenerative approaches for different query types in first-stage re-trieval. In re-ranking, we investigate operating points of adaptivere-ranking with different first stages to find the point in graphtraversal where the first stage no longer has an effect on the perfor-mance of the overall retrieval pipeline. We find some performancegains from the application of generative query reformulation. How-ever, our strongest run in terms of P@10 and nDCG@10 appliedboth adaptive re-ranking and generative pseudo-relevance feed-back, namely uogtr_b_grf_e_gb.",
+            "key": "DBLP:conf/trec/ParryJMO23"
+        }
+    },
+    "atomic": {
+        "DBLP:conf/trec/YangLRSRCL23": {
+            "pid": "overview",
+            "file": "Overview_atomic",
+            "abstract": "This paper presents an exploration of evaluating image\u2013text re-trieval tasks designed for multimedia content creation, with a par-ticular focus on the dynamic interplay among various modalities,including text and images. The study highlights the pivotal roleof visual-textual multimodality, where elements such as photos,graphics, and diagrams are not merely ornamental but significantlyaugment, complement, or even reshape the meaning conveyed bytextual content. This integration of multiple modalities is central tocrafting immersive and captivating multimedia experiences. In thecontext of detailing the TREC initiative\u2019s evaluation process for theyear, the paper introduces the AToMiC test collection, which servesas the foundational framework for evaluation. The authors delveinto the distinctive task design, elucidating the specific challengesand objectives that characterize this year\u2019s evaluation. The paperfurther outlines the evaluation protocols, encompassing method-ologies such as pooling dependencies and the criteria employed forrelevance judgments. This overview offers valuable insights intothe intricate process of evaluating multimedia retrieval systems,underscoring the evolving complexity and interdisciplinary natureof this field.",
+            "key": "DBLP:conf/trec/YangLRSRCL23"
+        },
+        "DBLP:conf/trec/NguyenHY23": {
+            "file": "UAmsterdam.A",
+            "pid": "UAmsterdam",
+            "abstract": "Learned Sparse Retrieval (LSR) is a group of neural methods de-signed to encode queries and documents into sparse lexical vectors.These vectors can be efficiently indexed and retrieved using aninverted index. While LSR has shown promise in text retrieval,its potential in multi-modal retrieval remains largely unexplored.Motivated by this, in this work we explore the application of LSRin the multi-modal domain, i.e., we focus on Multi-Modal LearnedSparse Retrieval (MLSR). We conduct experiments using severalMLSR model configurations and evaluate the performance on theimage suggestion task. We find that solving the task solely basedon the image content is challenging. Enriching the image contentwith its caption improves the model\u2019s performance significantly,implying the importance of image captions to provide fine-grainedconcepts and context information of images. Our approach presentsa practical and effective solution for training LSR retrieval modelsin multi-modal settings.ACM Reference Format:Nguyen, Hendriksen, Yates. 2023. Multimodal Learned Sparse Retrieval forImage Suggestion Task. In Proceedings of (TREC 2023). ACM, New York, NY,USA, 5 pages.",
+            "key": "DBLP:conf/trec/NguyenHY23"
+        }
+    },
+    "tot": {
+        "DBLP:conf/trec/ArguelloBDKM23": {
+            "file": "Overview_tot",
+            "pid": "overview",
+            "abstract": "Tip-of-the-tongue (ToT) known-item retrieval involves supporting searchers interested in refindinga previously encountered item for which they are unable to reliably recall an identifier. ToT requeststend to be verbose and include several complex phenomena, making them especially difficult for ex-isting information retrieval systems. The TREC 2023 ToT track focused on a single ad-hoc retrievaltask in the movie domain. Requests were sampled from an existing ToT dataset and the documentcorpus consisted of a subset of Wikipedia pages associated with the \u201caudiovisual works\u201d category.This year 11 groups submitted a total of 33 runs. Consistent with earlier findings, there is a negativecorrelation between query length and retrieval performance. We found that successful teams wereable to leverage large external datasets to substantially improve performance. While a closed largelanguage model managed to beat 26 participant runs, it did so with much lower recall.Track website: https://trec-tot.github.io",
+            "key": "DBLP:conf/trec/ArguelloBDKM23"
+        },
+        "DBLP:conf/trec/BorgesCM23": {
+            "file": "CMU-LTI.T",
+            "pid": "CMU-LTI",
+            "abstract": "This paper describes our submissions to the 2023 TREC Tip- of-the-Tongue (ToT) track. We opted for the common retrieval method- ology of a Recall oriented first-stage retrieval, followed by the use of a more accurate re-ranker model. For first-stage retrieval, we considered a DPR retriever either aggregating the passages from the documents, or matching different parts of the queries against the abstract sections of the Wikipedia articles that describe the movies. Re-ranking was dele- gated to a Large Language Model (LLM) in a zero-shot setting, taking as input the movie titles from the first stage of retrieval. Results attest to the effectiveness of the proposed approach with the best run achieving an NDCG@1000 of 0.55.",
+            "key": "DBLP:conf/trec/BorgesCM23"
+        },
+        "DBLP:conf/trec/FrobeBKSH23": {
+            "file": "Webis.T",
+            "pid": "Webis",
+            "abstract": "In this paper, we describe the Webis Group\u2019s participation in theTREC 2023 Tip-of-the-Tongue track. Our runs focus on improvingthe retrieval effectiveness via query relaxation (i.e., leaving outterms that likely reduce the retrieval effectiveness). We combineBERT- or ChatGPT-based query relaxation with BM25- or monoT5-based retrieval and also experiment with reciprocal rank fusion.",
+            "key": "DBLP:conf/trec/FrobeBKSH23"
+        },
+        "DBLP:conf/trec/YoshikoshiS23": {
+            "file": "RSLTOT.T",
+            "pid": "RSLTOT",
+            "abstract": "In this study, we focused on the situation that a user can recall only the movie\u2019s synopsis, character features, etc., but not the movie\u2019s title. In our experiment, we introduced systems based on TF\u2013 IDF and BERT. The results showed that our TF\u2013IDF vectorizer is better than our BERT model if they are used individually. In addition, as each system showed different tendencies in the results, we tried a hybrid model combining these two systems. The results showed that combining these models outperformed the two component models.",
+            "key": "DBLP:conf/trec/Zhang23"
+        },
+        "DBLP:conf/trec/FeildA23": {
+            "file": "endicott-unc.T",
+            "pid": "endicott-unc",
+            "abstract": "Tip-of-the-tongue (ToT) known-item retrieval involves retrievinga previously encountered item for which the searcher is unableto reliably recall an identifier. The TREC 2023 ToT track focusedon an ad-hoc retrieval task in the movie identification domain.The Endicott and UNC team submitted four runs to the track. Ourbaseline run used BM25, while our three experimental runs used a\u201cboosted\u201d version of BM25 that weighed query-terms differently. AllToT queries used in the track had sentence-level annotations basedon the topics and language phenomena found in the sentence. Ourthree experimental runs weighed query-terms depending on thesentence-level categories associated with the sentence from whicheach query-term originated. One experimental run weighed query-terms using gold-standard sentence-level categories. The other twoused predicted categories. Across all metrics considered, our threeexperimental runs outperformed our baseline run by a statisticallysignificant margin. Differences between experimental runs werenot statistically significant across metrics. Our results suggest thatsentence-level categories were predicted with sufficient accuracyto inform the re-weighing of query-terms to improve retrievalperformance.",
+            "key": "DBLP:conf/trec/FeildA23"
+        },
+        "DBLP:conf/trec/LimaS23": {
+            "file": "ufmg.T",
+            "pid": "ufmg",
+            "abstract": "In the TREC 2023 Tip of the Tongue (ToT)track, we address the challenge of movieretrieval from queries laden with impre-cise or incorrect natural language. In par-ticular, the Movie Identification Task aimsto produce a well-ranked list of movies,identified by Wikipedia page IDs, in re-sponse to a set of queries in Tip of theTongue (TOT) format. In our participa-tion, we experiment with reranking tech-niques, leveraging both sparse and denseretrieval approaches to refine the returnedresults. Additionally, we incorporate termfiltering heuristics for both queries anddocuments, enhancing the overall effec-tiveness of our approach.",
+            "key": "DBLP:conf/trec/LimaS23"
+        },
+        "DBLP:conf/trec/KimHH23": {
+            "file": "snuldilab.T",
+            "pid": "snuldilab",
+            "abstract": "This paper describes our participation in theTREC 2023 Tip-of-the-Tongue (ToT) Track.Our first contribution involves formulating theproblem as a retrieval, of finding a relevantdocument with a much shorter query. Inspiredby a self-supervised learning approach, we ex-tract ToT query surrogates from the corpus andpair them with the document. These pairs areused for self-supervised training and then en-riching document representations to handle in-sufficiency. Second, we augment ToT querieswith cropping and adversarial perturbation. Ourresults in the ToT benchmark show that ourmodel outperforms state-of-the-art methods in-cluding GPT-4 and performs competitively inthe TREC-ToT competition.",
+            "key": "DBLP:conf/trec/KimHH23"
+        },
+        "DBLP:conf/trec/Zhang23": {
+            "file": "UWaterlooMDS.DT",
+            "pid": "UWaterlooMDS",
+            "abstract": "Our submissions to the TREC 2023 Deep LearningTrack and the Tip-of-the-Tongue Track utilized thepower of language models. For the Deep Learningtrack, we prompted a Large Language Model (LLM)to generate more queries for BM25 retrieval, whichdid not yield better performance than the BM25 base-line. We also tried to prompt the model to per-form passage assessments similar to human asses-sors, which effectively improved the ranking of thebaseline. For the Tip-of-the-Tongue track, we useda general-purpose text embedding model to performdense retrieval, achieving better performance thanthe dense retrieval baseline with a high recall. Whenwe instructed an LLM to assess whether a Wikipediapage matches a user\u2019s description, the model did notseem to produce accurate assessments.",
+            "key": "DBLP:conf/trec/Zhang23"
+        }
+    },
+    "neuclir": {
+        "DBLP:conf/trec/LawrieMMMOSY23": {
+            "file": "Overview_neuclir",
+            "pid": "overview",
+            "abstract": "The principal goal of the TREC Neural Cross-Language Informa-tion Retrieval (NeuCLIR) track is to study the impact of neuralapproaches to cross-language information retrieval. The track hascreated four collections, large collections of Chinese, Persian, andRussian newswire and a smaller collection of Chinese scientificabstracts. The principal tasks are ranked retrieval of news in one ofthe three languages, using English topics. Results for a multilingualtask, also with English topics but with documents from all threenewswire collections, are also reported. New in this second yearof the track is a pilot technical documents CLIR task for rankedretrieval of Chinese technical documents using English topics. Atotal of 220 runs across all tasks were submitted by six participatingteams and, as baselines, by track coordinators. Task descriptionsand results are presented.",
+            "key": "DBLP:conf/trec/LawrieMMMOSY23"
+        },
+        "DBLP:conf/trec/LassancePL23": {
+            "file": "h2oloo.DN",
+            "pid": "h2oloo",
+            "abstract": "In this notebook, we outline the architecture and evaluation of our TREC 2023submissions, which employ a sophisticated cascading multi-stage ranking frame-work comprising four distinct steps. Through experimentation across multipleconfigurations, we validate the efficacy of each stage within this hierarchy. Ourfindings demonstrate the high effectiveness of our pipeline, consistently outper-forming median benchmarks and approaching the maximal aggregate scores. No-tably, reproducibility is a key outcome of our methodology. Nevertheless, thereproducibility of the final component, termed \u201clisto\u201d, is contingent upon interac-tions with the proprietary and inherently non-deterministic GPT4, raising salientquestions about its consistency and reliability in a research context.",
+            "key": "DBLP:conf/trec/LassancePL23"
+        },
+        "DBLP:conf/trec/MillerAB23": {
+            "file": "ISI_SEARCHER.N",
+            "pid": "ISI_SEARCHER",
+            "abstract": "This overviews the University of Massachusetts\u2019s efforts in cross-lingual retrieval run submissions for the TREC 2023 NeuCLIR Track. In this cross-lingual information retrieval (CLIR) task, the search queries are written in English, and three target collections are in Chinese, Persian, and Russian. We focus on building strong ensembles of initial ranking models, including dense and sparse retrievers."
+        },
+        "DBLP:conf/trec/HuangYA23": {
+            "file": "CIIR.N",
+            "pid": "CIIR",
+            "abstract": "This overviews the University of Massachusetts\u2019s efforts in cross-lingual retrieval run submissions for the TREC 2023 NeuCLIR Track. In this cross-lingual information retrieval (CLIR) task, the search queries are written in English, and three target collections are in Chinese, Persian, and Russian. We focus on building strong ensembles of initial ranking models, including dense and sparse retrievers."
+        },
+        "DBLP:conf/trec/YangLM23": {
+            "file": "hltcoe.N",
+            "pid": "hltcoe",
+            "abstract": "The HLTCOE team applied PLAID, an mT5 reranker, and docu-ment translation to the TREC 2023 NeuCLIR track. For PLAID weincluded a variety of models and training techniques \u2013 the Englishmodel released with ColBERT v2, translate-train (TT), TranslateDistill (TD) and multilingual translate-train (MTT). TT trains aColBERT model with English queries and passages automaticallytranslated into the document language from the MS-MARCO v1collection. This results in three cross-language models for the track,one per language. MTT creates a single model for all three doc-ument languages by combining the translations of MS-MARCOpassages in all three languages into mixed-language batches. Thusthe model learns about matching queries to passages simultane-ously in all languages. Distillation uses scores from the mT5 modelover non-English translated document pairs to learn how to scorequery-document pairs. The team submitted runs to all NeuCLIRtasks: the CLIR and MLIR news task as well as the technical docu-ments task.",
+            "key": "DBLP:conf/trec/YangLM23"
+        },
+        "DBLP:conf/trec/NairO23": {
+            "pid": "umd_hcil",
+            "abstract": "The University of Maryland submitted three runs to the Ad Hoc CLIR Task of the TREC 2023NeuCLIR track. This paper describes three systems that cross the language barrier using a learnedsparse retrieval model using bilingual embeddings.",
+            "key": "DBLP:conf/trec/NairO23"
+        }
+    },
+    "trials": {
+        "DBLP:conf/trec/Peikos23": {
+            "file": "UNIMIB_IKR3.C",
+            "pid": "UNIMIB_IKR3",
+            "abstract": "This notebook summarizes our participation as the UNIMIB team in the TREC 2023 Clinical Trials Track. Our research evaluates the efficacy of Large Language Models (LLMs) in assessing patient eligibility for clinical trials. For this purpose, we integrated GPT-3.5 as the final stage in our retrieval pipeline. The results indicate that GPT-3.5 may enhance the performance of retrieval tasks in this context. Nonetheless, comparable results may be attained with less complex retrieval systems that utilize BM25."
+        },
+        "DBLP:conf/trec/KusaSSMH23": {
+            "file": "DoSSIER.C",
+            "pid": "DoSSIER",
+            "abstract": "This paper describes the experimental setup and results of the DoSSIER team\u2019s participation in the Clinical Trials Track at TREC 2023. The primary objective of this track was to identify clinical trials for which patients meet the eligibility criteria. Our approach uses pipeline-based models, including large language models (LLMs) for query expansion and entity extraction techniques to augment both queries and documents. In our pipelines, we tested two different first-stage retrieval models, followed by a neural re-ranking framework that leverages topical relevance and eligibility criteria. We add to the pipeline a GPT-3.5-based question-answering post-processing step. Our findings demonstrate that the neural re-ranking and subsequent LLM post-processing notably enhanced performance. Future research will focus on a comprehensive assess- ment of the impact of query and document representation strategies on retrieval efficacy."
+        },
+        "DBLP:conf/trec/SaeidiJDKM23": {
+            "file": "EMA3.C",
+            "pid": "EMA3",
+            "abstract": "This paper describes the submissions of the EMA31 team from the MALNIS2 lab to the TREC 2023 Clinical Trials Track. In our ap- proach to the TREC clinical trial matching problem, we use a two-stage process for effec- tively ranking and re-ranking clinical trials per- taining to a specific disorder. First, we identify candidate trials by matching normalized medi- cal terms and non-negated inclusion/exclusion criteria to the disorder. Then, we rank the can- didates using weighted relevance scores based on cosine similarity between contextual embed- dings of the disorder and trial criteria. We use three different weighting schemes to compute a matching score. The unique aspect of our approach lies in the innovative use of these cri- teria to filter clinical trials and in the weighted relevance scoring, which reflects the varying importance of inclusion and exclusion crite- ria. Once we have computed the weighted rel- evance score for each candidate clinical trial, we rank the clinical trials by their score. Our submission performs better in terms of Preci- sion@10 and NDCG-cut-10 than the median scores of the TREC 2023 Clinical trials track."
+        },
+        "DBLP:conf/trec/ZhuangKZ23": {
+            "file": "CSIRO-UQ-ielab.C",
+            "pid": "CSIRO-UQ-ielab",
+            "abstract": "We describe team ielab from CSIRO and The University of Queensland\u2019s approach to the 2023 TREC Clinical Trials Track. Our approach was to use neural rankers but to utilise Large Language Models to overcome the issue of lack of training data for such rankers. Specifically, we employ ChatGPT to generate relevant patient descriptions for randomly selected clinical trials from the corpus. This synthetic dataset, combined with human-annotated training data from previous years, is used to train both dense and sparse retrievers based on PubmedBERT. Additionally, a cross-encoder re-ranker is integrated into the system. To further enhance the effectiveness of our approach, we prompting GPT-4 as a TREC annotator to provide judgments on our run files. These judgments are subsequently employed to re-rank the results. This architecture tightly integrates strong PubmedBERT-based rankers with the aid of SOTA Large Language Models, demonstrating a new approach to clinical trial retrieval.",
+            "key": "DBLP:conf/trec/ZhuangKZ23"
+        },
+        "DBLP:conf/trec/RybinskiK23": {
+            "file": "CSIROmed.C",
+            "pid": "CSIROmed",
+            "abstract": "To assist with finding eligible participants for clinical trials,the TREC 2023 Clinical Trials track sets a task where patientdata, in the form of patient questionnaires, can be used tomatch eligible patients to a relevant clinical trial. We exploreseveral query expansion and reranking methods using largelanguage models. Our best method uses query expansionwith GPT 3.5-turbo and reranking with a fine-tuned versionof the same model.CCS CONCEPTS\u2022 Information systems \u2192 Retrieval models and ranking;Language models; Decision support systems; \u2022 Applied comput-ing \u2192 Health informatics.",
+            "key": "DBLP:conf/trec/RybinskiK23"
+        },
+        "DBLP:conf/trec/RichmondD23": {
+            "file": "MU_CS.C",
+            "pid": "MU_CS",
+            "abstract": "This paper briefly discusses our submission to the TREC 2023 Clinical Records Track.  The track challenged participants to match patient details with medical research trials based on whether the patients were believed to be a good fit. Our method utilized OpenAI\u2019s Ada model, a market solution for finding similarity based on given strings. By using a prebuilt solution, we sought to produce a solution that gave results better than random guessing with both low design cost and low overall monetary cost.",
+            "key": "DBLP:conf/trec/RichmondD23"
+        },
+        "DBLP:conf/trec/LahiriHHD23": {
+            "file": "V-TorontoMU.C",
+            "pid": "V-TorontoMU",
+            "abstract": "This paper describes Toronto Metropolitan University\u2019s participation in the TREC Clinical Trials Track for 2023. As part of the tasks, we utilize ad- vanced natural language processing techniques and neural language models in our experiments to retrieve the most relevant clinical trials. We illustrate the overall methodology, experimental settings, and results of our implementation for the run submission as part of (Team - V-Ryerson)."
+        }
+    },
+    "product": {
+        "DBLP:conf/trec/AnCPL23": {
+            "file": "jbnu.P",
+            "pid": "jbnu",
+            "abstract": "This paper describes the participation of the JBNU team for TREC 2023 Product Search Track. Ourprimary focus revolves around tackling the issue of performance degradation in queries. We categorizequeries into specific and abstract types, leveraging the power of the DeBERTa deep learning model forreranking. This enhancement involves the incorporation of nine specialized tokens, such as brand, material,category, and others, and is specifically applied to queries of the specific type.1. IntroductionThe TREC 2023 Product Search Track [1] centers on information retrieval within the domain of productsearch, aiming to assist users in locating the products they desire by aligning with their objectives andintentions. Our team, JBNU, has participated in the Product Ranking Task and Product Retrieval Task.In the context of product search, we have observed the frequent occurrence of common errors in queries.Traditional typo correction methods often led to incorrect corrections for words that are not commonlyfound in dictionaries, such as product names, brand names, and author names in product search queries. Totackle this challenge, we have created a specialized dictionary designed to refine and correct product searchqueries.For all tasks, the queries undergo the following preprocessing steps:- Translation of multilingual queries to English utilizing Googletrans [4].- Typo correction in queries using a dedicated product search dictionary for Pyspellchecker [5].- Replacement of product codes (ASIN) in queries with the corresponding product titles.Furthermore, we observed a common occurrence of product attributes within queries. We pinpointedattributes from the product information that held notable relevance to the queries and integrated nine specialtokens within our deep learning methodology to ensure the attribute information substantially influencesthe learning and inference processes.We categorize queries into specific and abstract types, and our reranking process with a deep learningmodel is specifically targeted at the specific query types. These specific query types are characterized bythe inclusion of one of nine special tokens, such as brand name, color, material, and more.",
+            "key": "DBLP:conf/trec/AnCPL23"
+        },
+        "DBLP:conf/trec/YangL23": {
+            "file": "h2oloo.P",
+            "pid": "h2oloo",
+            "abstract": "This paper presents the submitted runs for the TREC 2023 Product Search track,offering insights into our multi-stage retrieval systems designed for both end-to-end retrieval and reranking tasks. In our approach, we employed a sparsefirst-stage ranker that leveraged textual information, complemented by a densefirst-stage ranker tailored for processing visual data. Additionally, we evaluatethe effectiveness of utilizing a large-language model within the context of productsearch, shedding light on its capabilities and contributions to improving retrievalperformance. Our findings contribute to the ongoing discourse on enhancingproduct search techniques, showcasing the potential of combining various retrievalstrategies and advanced language models for enhanced search accuracy.",
+            "key": "DBLP:conf/trec/YangL23"
+        },
+        "DBLP:conf/trec/CamposKRZM23": {
+            "file": "trackorg.P",
+            "pid": "overview",
+            "abstract": "This is the first year of the TREC Product search track. The focus this year was the creation ofa reusable collection and evaluation of the impact of the use of metadata and multi-modal data onretrieval accuracy. This year we leverage the new product search corpus, which includes contextualmetadata. Our analysis shows that in the product search domain, traditional retrieval systems arehighly effective and commonly outperform general-purpose pretrained embedding models. Ouranalysis also evaluates the impact of using simplified and metadata-enhanced collections, finding noclear trend in the impact of the expanded collection. We also see some surprising outcomes; despitetheir widespread adoption and competitive performance on other tasks, we find single-stage denseretrieval runs can commonly be noncompetitive or generate low-quality results both in the zero-shotand fine-tuned domain.",
+            "key": "DBLP:conf/trec/CamposKRZM23"
+        },
+        "DBLP:conf/trec/JuLLLHCTW23": {
+            "file": "CFDA_CLIP.P",
+            "pid": "CFDA_CLIP",
+            "abstract": "In this notebook, we present our pipeline approach for the prod-uct search track. We utilize both product textual data and imagesto enhance retrieval diversity. Our experiments also demonstratethe good generalization capability of a few off-the-shelf retrievalmodels. Additionally, we adopt retrieval fusion and consider it anefficient method to integrate text and images for product search.",
+            "key": "DBLP:conf/trec/JuLLLHCTW23"
+        }
+    }
+}

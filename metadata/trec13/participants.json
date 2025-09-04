@@ -1,0 +1,730 @@
+{
+    "alias-i": {
+        "pid": "alias-i",
+        "organization": "Alias-i, Inc.",
+        "name": "Bob Carpenter",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "arizona.state.u": {
+        "pid": "arizona.state.u",
+        "organization": "Arizona State University",
+        "name": "Dmitri Roussinov",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "bbn.xu": {
+        "pid": "bbn.xu",
+        "organization": "BBN",
+        "name": "Jinxi Xu",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.sanmarcos": {
+        "pid": "u.sanmarcos",
+        "organization": "California State University San Marcos",
+        "name": "Rocio Guillen",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "cas.ict.wang": {
+        "pid": "cas.ict.wang",
+        "organization": "Chinese Academy of Sciences (CAS-ICT)",
+        "name": "Dr. Wang Bin",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "cas.sun": {
+        "pid": "cas.sun",
+        "organization": "Chinese Academy of Sciences (Sun)",
+        "name": "Le Sun",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "cas.nlpr": {
+        "pid": "cas.nlpr",
+        "organization": "Chinese Academy of Sciences (CAS-NLPR)",
+        "name": "Xu Jin",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "clairvoyance": {
+        "pid": "clairvoyance",
+        "organization": "Clairvoyance Corporation",
+        "name": "David A. Evans",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "clresearch": {
+        "pid": "clresearch",
+        "organization": "CL Research",
+        "name": "Ken Litkowski",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "cmu.dir.callan": {
+        "pid": "cmu.dir.callan",
+        "organization": "Carnegie Mellon University, Distributed IR group (CMU-DIR)",
+        "name": "Jamie Callan",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "chinese.u.hongkong": {
+        "pid": "chinese.u.hongkong",
+        "organization": "Chinese University of Hong Kong",
+        "name": "Dr. Wai Lam",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "columbia.u.schiffman": {
+        "pid": "columbia.u.schiffman",
+        "organization": "Columbia University",
+        "name": " Barry Schiffman",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "converspeech": {
+        "pid": "converspeech",
+        "organization": "ConverSpeech LLC and Stanford SGD",
+        "name": "Colleen Crangle",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "CSIRO": {
+        "pid": "CSIRO",
+        "organization": "CSIRO",
+        "name": "David Hawking",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "dalhousie.u": {
+        "pid": "dalhousie.u",
+        "organization": "Dalhousie University",
+        "name": "Dr. Vlado Keselj",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "dubblincity.u": {
+        "pid": "dubblincity.u",
+        "organization": "Dublin City University",
+        "name": "Dr Gareth Jones",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "etymon": {
+        "pid": "etymon",
+        "organization": "Etymon",
+        "name": "Nassib Nassar",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "fub.amati": {
+        "pid": "fub.amati",
+        "organization": "Fondazione Ugo Bordoni",
+        "name": "Gianni Amati",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "fudan.niu": {
+        "pid": "fudan.niu",
+        "organization": "Fudan University (Niu)",
+        "name": "Junyu Niu",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "fudan.wu": {
+        "pid": "fudan.wu",
+        "organization": "Fudan University (Wu)",
+        "name": "Lide Wu",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "german.u.cairo": {
+        "pid": "german.u.cairo",
+        "organization": "German University in Cairo",
+        "name": "Kareem Darwish",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "hkpu.luk": {
+        "pid": "hkpu.luk",
+        "organization": "Hong Kong Polytechnic University",
+        "name": "Robert Luk",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "hummingbird": {
+        "pid": "hummingbird",
+        "organization": "Hummingbird",
+        "name": "Stephen Tomlinson",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "ibm.haifa.carmel": {
+        "pid": "ibm.haifa.carmel",
+        "organization": "IBM Research Lab",
+        "name": "David Carmel",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "ibm.india": {
+        "pid": "ibm.india",
+        "organization": "IBM India Research Lab",
+        "name": "Sougata Mukherjea",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "ibm.prager": {
+        "pid": "ibm.prager",
+        "organization": "IBM T.J. Watson Research Center (Prager)",
+        "name": "John M. Prager",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "ida.ccs.nsa": {
+        "pid": "ida.ccs.nsa",
+        "organization": "IDA/CCS/NSA",
+        "name": "John Conroy",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "iit": {
+        "pid": "iit",
+        "organization": "IIT Information Retrieval Lab",
+        "name": "David Grossman",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "indiana.u.seki": {
+        "pid": "indiana.u.seki",
+        "organization": "Indiana University (Seki)",
+        "name": "Kazuhiro Seki",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "indiana.u.yang": {
+        "pid": "indiana.u.yang",
+        "organization": "Indiana University (Yang)",
+        "name": "Kiduk Yang",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "irit.sig.boughanem": {
+        "pid": "irit.sig.boughanem",
+        "organization": "Institut de Recherche en Informatique de Toulouse ( IRIT / SIG)",
+        "name": "Mohand Boughanem",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "itc.irst.tanev": {
+        "pid": "itc.irst.tanev",
+        "organization": "ITC-irst",
+        "name": "Hristo Tanev",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "jhu.apl.mcnamee": {
+        "pid": "jhu.apl.mcnamee",
+        "organization": "Johns Hopkins University",
+        "name": "Paul McNamee",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "korea.u": {
+        "pid": "korea.u",
+        "organization": "Korea University",
+        "name": "Hae-Chang Rim",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "lamsade": {
+        "pid": "lamsade",
+        "organization": "Decision Aid team  - LAMSADE",
+        "name": "Mohamed FARAH",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "lcc.harabagiu": {
+        "pid": "lcc.harabagiu",
+        "organization": "Language Computer Corporation",
+        "name": "Sanda Harabagiu",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "lexiclone.geller": {
+        "pid": "lexiclone.geller",
+        "organization": "LexiClone",
+        "name": "Ilya Geller",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "macquarie.u": {
+        "pid": "macquarie.u",
+        "organization": "Macquarie University",
+        "name": "Diego Molla",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "max-planck.theobald": {
+        "pid": "max-planck.theobald",
+        "organization": "Max-Planck-Institute for Computer Science",
+        "name": "Martin Theobald",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "mit.lin": {
+        "pid": "mit.lin",
+        "organization": "Massachusetts Institute of Technology (MIT)",
+        "name": "Jimmy Lin",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "meiji.u": {
+        "pid": "meiji.u",
+        "organization": "Meiji University",
+        "name": "Tomohiro Takagi",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "microsoft.asia": {
+        "pid": "microsoft.asia",
+        "organization": "Microsoft Research Asia",
+        "name": "Ji-Rong Wen",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "microsoft.robertson": {
+        "pid": "microsoft.robertson",
+        "organization": "Microsoft Research Ltd",
+        "name": "Stephen Robertson",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "mitre.burger": {
+        "pid": "mitre.burger",
+        "organization": "The MITRE Corporation",
+        "name": "John D. Burger",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "monashu": {
+        "pid": "monashu",
+        "organization": "Monash University",
+        "name": "Ingrid Zukerman",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "ncu-taiwan": {
+        "pid": "ncu-taiwan",
+        "organization": "National Central University",
+        "name": "Chia-Hui Chang",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "nlm.umd.ul": {
+        "pid": "nlm.umd.ul",
+        "organization": "NLM-UMaryland Team",
+        "name": "Alan Aronson",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "ntu.chen": {
+        "pid": "ntu.chen",
+        "organization": "National Taiwan University",
+        "name": "Hsin-Hsi Chen",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "nsa.schone": {
+        "pid": "nsa.schone",
+        "organization": "National Security Agency (NSA)",
+        "name": "Patrick Schone",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "mlg.nus": {
+        "pid": "mlg.nus",
+        "organization": "National U. of Singapore and Singapore-MIT Alliance",
+        "name": "Dell Zhang",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "nus.yang": {
+        "pid": "nus.yang",
+        "organization": "National University of Singapore (Chua)",
+        "name": "Hang Cui",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "ohsu.hersh": {
+        "pid": "ohsu.hersh",
+        "organization": "Oregon Health and Science University",
+        "name": "William Hersh",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "patolis.fujita": {
+        "pid": "patolis.fujita",
+        "organization": "PATOLIS CORPORATION",
+        "name": "Sumio FUJITA",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "peking.u": {
+        "pid": "peking.u",
+        "organization": "Peking University",
+        "name": "Bing Swen",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "queens.college.kwok": {
+        "pid": "queens.college.kwok",
+        "organization": "Queens College, CUNY",
+        "name": "K.L. Kwok",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "robert.gordon.u": {
+        "pid": "robert.gordon.u",
+        "organization": "The Robert Gordon University",
+        "name": "David J. Harper",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "rmit.scholer": {
+        "pid": "rmit.scholer",
+        "organization": "RMIT University",
+        "name": "Falk Scholer",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "rutgers.belkin": {
+        "pid": "rutgers.belkin",
+        "organization": "Rutgers University (Belkin)",
+        "name": "Nicholas J. Belkin",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "rutgers.dayanik": {
+        "pid": "rutgers.dayanik",
+        "organization": "Rutgers University (Dayanik)",
+        "name": "Aynur Dayanik",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "sabir.buckley": {
+        "pid": "sabir.buckley",
+        "organization": "Sabir Research, Inc.",
+        "name": "Chris Buckley",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "saarland.u": {
+        "pid": "saarland.u",
+        "organization": "Saarland University",
+        "name": "Michael Kaisser",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "shanghai.u.fanyuan": {
+        "pid": "shanghai.u.fanyuan",
+        "organization": "Shanghai JiaoTong University",
+        "name": "Ma Fanyuan",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "suny.buffalo": {
+        "pid": "suny.buffalo",
+        "organization": "SUNY at Buffalo",
+        "name": "Michael Ruiz",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "tarragon": {
+        "pid": "tarragon",
+        "organization": "Tarragon Consulting Corporation",
+        "name": "Richard Tong",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "tno.kraaij": {
+        "pid": "tno.kraaij",
+        "organization": "TNO and Erasmus MC",
+        "name": "Wessel Kraaij",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "tsinghua.keg": {
+        "pid": "tsinghua.keg",
+        "organization": "Tsinghua University, Knowledge Engineering Group",
+        "name": "Tang Jie",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "tsinghua.ma": {
+        "pid": "tsinghua.ma",
+        "organization": "Tsinghua University",
+        "name": "Shaoping MA",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.alaska": {
+        "pid": "u.alaska",
+        "organization": "University of Alaska Fairbanks",
+        "name": "Greg Newby",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.alberta": {
+        "pid": "u.alberta",
+        "organization": "University of Alberta",
+        "name": "Christopher Pinchak",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.amsterdam.lit": {
+        "pid": "u.amsterdam.lit",
+        "organization": "University of Amsterdam, Informatics Institute",
+        "name": "Gilad Mishne",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "upc.ferres": {
+        "pid": "upc.ferres",
+        "organization": "Universitat Politcnica de Catalunya (UPC)",
+        "name": "Daniel Ferrs",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.cberkeley.hearst": {
+        "pid": "u.cberkeley.hearst",
+        "organization": "UC Berkeley SIMS",
+        "name": "Marti Hearst",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.chicago": {
+        "pid": "u.chicago",
+        "organization": "University of Chicago",
+        "name": "Gina-Anne Levow",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.cincinnati": {
+        "pid": "u.cincinnati",
+        "organization": "University of Cincinnati",
+        "name": "Svetlana Strunjas",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.edinburgh.sinclair": {
+        "pid": "u.edinburgh.sinclair",
+        "organization": "University of Edinburgh",
+        "name": "Gail Sinclair",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.edinburgh.sydney": {
+        "pid": "u.edinburgh.sydney",
+        "organization": "University of Edinburgh and Sydney",
+        "name": "Johan Bos",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.glasgow": {
+        "pid": "u.glasgow",
+        "organization": "University of Glasgow",
+        "name": "Iadh Ounis",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.hospital.geneva": {
+        "pid": "u.hospital.geneva",
+        "organization": "University Hospital of Geneva and Swiss Federal Inst. of Technology",
+        "name": "Patrick Ruch",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.illinois.chicago": {
+        "pid": "u.illinois.chicago",
+        "organization": "University of Illinois at Chicago",
+        "name": "Shuang Liu",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.illinois.uc": {
+        "pid": "u.illinois.uc",
+        "organization": "University of Illinois at Urbana-Champaign",
+        "name": "ChengXiang Zhai",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.iowa": {
+        "pid": "u.iowa",
+        "organization": "University of Iowa",
+        "name": "David Eichmann",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.lethbridge": {
+        "pid": "u.lethbridge",
+        "organization": "University of Lethbridge",
+        "name": "Yllias Chali",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.limerick": {
+        "pid": "u.limerick",
+        "organization": "University of Limerick",
+        "name": "Richard Sutcliffe",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.lisboa.tumba": {
+        "pid": "u.lisboa.tumba",
+        "organization": "Universidade de Lisboa Campo Grande",
+        "name": "Nuno Cardoso",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.md.best.umiacs": {
+        "pid": "u.md.best.umiacs",
+        "organization": "University of Maryland UMIACS",
+        "name": "Denise Best",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.mass": {
+        "pid": "u.mass",
+        "organization": "University of Massachusetts",
+        "name": "James Allan",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.melbourne": {
+        "pid": "u.melbourne",
+        "organization": "The University of Melbourne",
+        "name": "Alistair Moffat",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.michigan": {
+        "pid": "u.michigan",
+        "organization": "University of Michigan",
+        "name": "Dragomir R. Radev",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.northcarolina": {
+        "pid": "u.northcarolina",
+        "organization": "University of North Carolina",
+        "name": "Diane Kelly",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.northtexas": {
+        "pid": "u.northtexas",
+        "organization": "University of North Texas",
+        "name": "Jiangping Chen",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.padova": {
+        "pid": "u.padova",
+        "organization": "University of Padova (Italy)",
+        "name": "Massimo Melucci",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.paris.lri": {
+        "pid": "u.paris.lri",
+        "organization": "Universit Paris Sud",
+        "name": "Jerome Aze",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "upisa.attardi": {
+        "pid": "upisa.attardi",
+        "organization": "University of Pisa",
+        "name": "Giuseppe Attardi",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.sheffield.gaizauskas": {
+        "pid": "u.sheffield.gaizauskas",
+        "organization": "University of Sheffield",
+        "name": "R. Gaizauskas",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "usc.isi.kim": {
+        "pid": "usc.isi.kim",
+        "organization": "University of Southern California Information Sciences Institute",
+        "name": "Soo-Min Kim",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.tampere": {
+        "pid": "u.tampere",
+        "organization": "University of Tampere",
+        "name": "Ari Pirkola",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.tokyo": {
+        "pid": "u.tokyo",
+        "organization": "University of Tokyo",
+        "name": "Yasunori Mammon",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "utwente": {
+        "pid": "utwente",
+        "organization": "University of Twente",
+        "name": "Djoerd Hiemstra",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.wales.bangor": {
+        "pid": "u.wales.bangor",
+        "organization": "University of Wales, Bangor",
+        "name": "Bill Teahan",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.waterloo.clarke": {
+        "pid": "u.waterloo.clarke",
+        "organization": "University of Waterloo (MultiText)",
+        "name": "Charles Clarke",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.waterloo.vechtomova": {
+        "pid": "u.waterloo.vechtomova",
+        "organization": "University of Waterloo (Vechtomova)",
+        "name": "Olga Vechtomova",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "u.wisconsin": {
+        "pid": "u.wisconsin",
+        "organization": "University of Wisconsin",
+        "name": "Mark Craven",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "virginia.tech": {
+        "pid": "virginia.tech",
+        "organization": "Virginia Tech",
+        "name": "Wensi Xi",
+        "trec": "trec13",
+        "year": 2004
+    },
+    "york.u": {
+        "pid": "york.u",
+        "organization": "York University",
+        "name": "Jimmy Huang",
+        "trec": "trec13",
+        "year": 2004
+    }
+}

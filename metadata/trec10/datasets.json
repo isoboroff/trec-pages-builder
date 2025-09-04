@@ -1,0 +1,70 @@
+{
+    "web": {
+        "corpus": "http://ir.dcs.gla.ac.uk/test_collections/wt10g.html",
+        "topics": {
+            "Adhoc": "https://trec.nist.gov/data/topics_eng/topics.501-550.txt",
+            "Homepage finding": "https://trec.nist.gov/data/topics_eng/entry_page_topics.1-145.txt"
+        },
+        "qrels": {
+            "Adhoc": "https://trec.nist.gov/data/qrels_eng/adhoc_qrels.txt",
+            "Homepage finding": "https://trec.nist.gov/data/qrels_eng/homepage_qrels.txt"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/t10.web.html",
+        "other": {}
+    },
+    "qa": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/qa/t2001_qadata.html",
+        "other": {
+            "TREC 2001 main task test questions": "https://trec.nist.gov/data/qa/2001_qadata/main_task_QAdata/qa_main.894-1393.txt",
+            "TREC 2001 main task top docs ranked list": "https://trec.nist.gov/data/qa/2001_qadata/main_task_QAdata/qa_main.894-1393.txt",
+            "TREC 2001 main task judgment set": "https://trec.nist.gov/data/qa/2001_qadata/main_task_QAdata/main_qrels.txt",
+            "TREC 2001 main task pattern set": "https://trec.nist.gov/data/qa/2001_qadata/main_task_QAdata/patterns.trec10",
+            "TREC 2001 main task original answers": "https://trec.nist.gov/data/qa/2001_qadata/main_task_QAdata/original_answers",
+            "TREC 2001 list task test questions": "https://trec.nist.gov/data/qa/2001_qadata/list_task_QAdata/qa_list.1-25.txt",
+            "TREC 2001 list task top docs ranked list": "https://trec.nist.gov/data/qa/2001_qadata/list_task_QAdata/list.ranked_list.gz",
+            "TREC 2001 list task original answers": "https://trec.nist.gov/data/qa/2001_qadata/list_task_QAdata/assessor_lists"
+        }
+    },
+    "xlingual": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {}
+    },
+    "filtering": {
+        "corpus": "",
+        "topics": "https://trec.nist.gov/data/filtering/T10-filtering-data.tar.gz",
+        "qrels": {
+            "The main rels for the adaptive filtering test set": "https://trec.nist.gov/data/filtering/T10-f-qrels.test.tar.gz",
+            "Revised qrels for training for batch filtering": "https://trec.nist.gov/data/filtering/qrels.train.batch"
+        },
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/t2001_filtering.html",
+        "other": {
+            "List of document id's in date/id order": "https://trec.nist.gov/data/filtering/T10-f-document-order.tar.gz"
+        }
+    },
+    "video": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "",
+        "other": {}
+    },
+    "interactive": {
+        "corpus": "",
+        "topics": "",
+        "qrels": "",
+        "ir_datasets": "",
+        "trec_webpage": "https://trec.nist.gov/data/t10i/t10i.html",
+        "other": {}
+    }
+}
