@@ -97,6 +97,16 @@ def trec_sort_key(x):
         return (0, 0)  # Highest priority
     match = re.search(r'(\d+)', x)
     return (1, -int(match.group(1)) if match else float('-inf'))  # Reverse numeric sort
+
+def is_empty(x):
+    """Check if a cell value should be considered empty."""
+    if x is None or (isinstance(x, float) and np.isnan(x)):
+        return True
+    if isinstance(x, str) and x.strip() == "":
+        return True
+    if isinstance(x, dict) and len(x) == 0:
+        return True
+    return False
 # ---> end: utility functions <---
 
 # ---> begin: table loaders <---
@@ -443,17 +453,16 @@ class PageBuilder:
 
 
     def _init_missing_data(self) -> List[Tuple[str, str]]:
-        no_data = []
-        nd = self.datasets[
-            self.datasets[['corpus', 'topics', 'qrels', 'ir_datasets', 'trec_webpage', 'other']].isna().all(axis=1)
-        ]
+        cols = ['corpus', 'topics', 'qrels', 'ir_datasets', 'trec_webpage', 'other']
+        mask = self.datasets[cols].map(is_empty).all(axis=1)   
+        nd = self.datasets[mask]
         no_data = [(row.trec, row.track) for row in nd.itertuples(index=False)]
         return no_data
 
 
     def _init_missing_summary(self) -> List[Tuple[str, str]]:
 
-        missing_summaries = {('trec1', 'adhoc'), ('trec1', 'routing')}
+        missing_summaries = {('trec1', 'adhoc'), ('trec1', 'routing'), ('trec4', 'filtering'), ('trec6', 'vlc')}
 
         merged = self.runs.merge(
             self.results[['trec', 'track']], 
