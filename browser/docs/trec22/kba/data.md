@@ -1,0 +1,10 @@
+# Data - Knowledge Base Acceleration 2013
+
+:fontawesome-solid-globe: **`trec.nist.gov`**: [`https://trec.nist.gov/data/kba.html`](https://trec.nist.gov/data/kba.html)
+
+---
+
+- :material-database: **Corpus**: [`https://s3.amazonaws.com/aws-publicdatasets/trec/kba/index.html`](https://s3.amazonaws.com/aws-publicdatasets/trec/kba/index.html)
+
+---
+
