@@ -2,10 +2,10 @@
 
 ## overview
 
-`resources/input/` - All resources to create the JSON-formatted metadata are located here.
-`browser/` - Markdown (`docs`) and HTML (`site`) files of the browser can be found here.
-`metadata/` - JSON-formatted metadata
-`scripts/` - The build scripts can be found here. 
+- `resources/input/`: All resources to create the JSON-formatted metadata are located here.
+- `browser/`: Markdown (`docs`) and HTML (`site`) files of the browser can be found here.
+- `metadata/`: JSON-formatted metadata
+- `scripts/`: The build scripts can be found here. 
 
 ## steps to build the browser pages
 
