@@ -381,7 +381,7 @@ class DBBuilder:
 
 
 class PageBuilder:
-    def __init__(self, base_path: Path = Path("./metadata"), build_path: Path = Path("./browser/src/docs")):
+    def __init__(self, base_path: Path = Path("./metadata"), build_path: Path = Path("./browser/docs")):
         self.base_path=base_path
         self.build_path=build_path
 
@@ -1290,7 +1290,7 @@ class PageBuilder:
             'data': self.no_data,
         }
 
-        trec_path = os.path.join('.', 'browser', 'src', 'docs', trec)
+        trec_path = os.path.join('.', 'browser', 'docs', trec)
         os.makedirs(trec_path, exist_ok=True)
 
         # Always write overview page

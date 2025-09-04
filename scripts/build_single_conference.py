@@ -3,7 +3,7 @@ from builders import PageBuilder
 
 
 base_path = Path("./metadata")
-build_path = Path("./browser/src/docs/")
+build_path = Path("./browser/docs")
 trec = 'trec8'
 
 
