@@ -101,11 +101,11 @@ theme: forest
 ---
 
 flowchart LR
-	A@{ shape: docs, label: "**resources/input/**"}	
-    A -->|metadata_to_json.py| B@{ shape: docs, label: "**JSON files** <br> in metadata/"}
-    B -->|build_all_conferences.py <br> or <br> build_single_conference.py| C@{ shape: docs, label: "**Markdown files**"}
+	A@{ shape: docs, label: "**Input files** <br> in ./resources/input/"}	
+    A -->|metadata_to_json.py| B@{ shape: docs, label: "**JSON files** <br> in ./metadata/"}
+    B -->|build_all_conferences.py <br> or <br> build_single_conference.py| C@{ shape: docs, label: "**Markdown files** <br> in ./browser/"}
 	B -->|create_db_from_json.py| D[(**SQLite database** <br> trec.sqlite)]
-    C -->|mkdocs build| E@{ shape: docs, label: "**HTML files**"}
+    C -->|mkdocs build| E@{ shape: docs, label: "**HTML files** <br> in ./browser/"}
 ```
 
 ### Setup of the Python environment
