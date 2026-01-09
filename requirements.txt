@@ -3,3 +3,6 @@ numpy==2.3.1
 pandas==2.3.0
 pylatexenc==2.10
 SQLAlchemy==2.0.41
+tqdm==4.67.1
+pyaml==25.7.0
+markdown==3.10
