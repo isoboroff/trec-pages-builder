@@ -80,12 +80,16 @@ python scripts/build_single_conference.py
 
 Once the files in browser/docs/ are generated, run the following command to build the HTML files. 
 ```
-cd browser/src/ && mkdocs build 
+cd browser && mkdocs build 
 ```
 
 Optionally, you can run the browser locally to double-check the results:
 ```
 mkdocs serve
+```
+or
+```
+cd site && python -m http.server
 ```
 
 Finally, commit the HTML files to the [`nist-pages`](https://github.com/usnistgov/trec-browser/tree/nist-pages) branch of the [`trec-browser`](https://github.com/usnistgov/trec-browser) repository.
