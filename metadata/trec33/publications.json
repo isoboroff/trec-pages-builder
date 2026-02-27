@@ -1,444 +1,476 @@
 {
-    "ikat": {
-        "infosenselab-trec2024-papers-proc-1": {
-            "file": "infosenselab.ikat.pdf",
-            "pid": "infosenselab",
-            "title": "Passage Query Methods for Retrieval and Reranking in Conversational Agents",
-            "author": "Victor De Lima,  Grace Hui Yang",
-            "abstract": "This paper presents our approach to the TREC Interactive Knowledge Assistance Track (iKAT), which focuses on improving conversational information-seeking (CIS) systems. While recent advancements in CIS have improved conversational agents' ability to assist users, significant challenges remain in understanding context and retrieving relevant documents across domains and dialogue turns. To address these issues, we extend the Generate-Retrieve-Generate pipeline by developing passage queries (PQs) that align with the target document's expected format to improve query-document matching during retrieval. We propose two variations of this approach: Weighted Reranking and Short and Long Passages. Each method leverages a Meta Llama model for context understanding and generating queries and responses. Passage ranking evaluation results show that the Short and Long Passages approach outperformed the organizers' baselines, performed best among Llama-based systems in the track, and achieved results comparable to GPT-4-based systems. These results indicate that the method effectively balances efficiency and performance. Findings suggest that PQs improve semantic alignment with target documents and demonstrate their potential to improve multi-turn dialogue systems.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/infosenselab.ikat.pdf",
-            "key": "infosenselab-trec2024-papers-proc-1",
-            "bibtex": "@inproceedings{infosenselab-trec2024-papers-proc-1,\n\ttitle = {Passage Query Methods for Retrieval and Reranking in Conversational Agents},\n\tauthor = {Victor De Lima and Grace Hui Yang},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+    "neuclir": {
+        "IRLab-Amsterdam-trec2024-papers-proc-1": {
+            "file": "IRLab-Amsterdam.neuclir.pdf",
+            "pid": "IRLab-Amsterdam",
+            "key": "IRLab-Amsterdam-trec2024-papers-proc-1",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/IRLab-Amsterdam.neuclir.pdf",
+            "title": "IRLab-AMS at TREC\u201924 NeuCLIR Track",
+            "author": "Andrew Yates,  Jia-Huei Ju",
+            "abstract": "In this notebook paper, we describe our participation as IRLab-AMS in the NeuCLIR. Our submitted results for two tasks, multi-lingual information retrieval (MLIR) and cross-language report generation (ReportGen). For MLIR, we explore the learned sparse representations with multi-lingual retrieval settings. For ReportGen, we experiment with several pipelines for generating long-form reports, including standard retrieval-augmented generation (RAG) and post-hoc citation methods. Additionally, we add an extra retrieval augmentation module to handle the limitation of ad-hoc retriever. The module can serve as distinct purposes, including relevance ranking, novelty ranking, and summarization, or by combining them.",
+            "bibtex": "@inproceedings{IRLab-Amsterdam-trec2024-papers-proc-1,\n\ttitle = {IRLab-AMS at TREC\u201924 NeuCLIR Track},\n\tauthor = {Andrew Yates and Jia-Huei Ju},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
         },
-        "nii-trec2024-papers-proc-1": {
-            "file": "nii.ikat.pdf",
-            "pid": "nii",
-            "title": "NII@TREC IKAT 2024:LLM-Based Pipelines for Personalized Conversational Information Seeking",
-            "author": "Noriko Kando,  Praveen Acharya,  Navdeep Singh Bedi,  Xiao Fu",
-            "abstract": "In this paper, we propose two novel pipelines\u2014Retrieve-then-Generate (RtG) and Generate-then-Retrieve (GtR)\u2014to enhance conversational information seeking (CIS) systems, evaluated within the TREC iKAT 2023 framework. The RtG pipeline emphasizes brevity in rewriting user utterances and generates multiple query groups to maximize the retrieval of relevant documents. This approach leads to improved recall in the final results compared to the best submission in 2023. Additionally, it incorporates a chain-of-thought methodology through a two-stage response generation process. In a zero-shot setting, the GtR pipeline introduces a hybrid approach by ensembling state-of-the-art Large Language Models (LLMs), specifically GPT-4o and Claude-3-opus. By leveraging the strengths of multiple LLMs, the GtR pipeline achieves high recall while maintaining competitive precision and ranking performance in both document retrieval and Personal Task Knowledge Base (PTKB) statement classification tasks. Our experimental results demonstrate that both pipelines significantly enhance retrieval effectiveness, offering robust solutions for future CIS systems.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/nii.ikat.pdf",
-            "key": "nii-trec2024-papers-proc-1",
-            "bibtex": "@inproceedings{nii-trec2024-papers-proc-1,\n\ttitle = {NII@TREC IKAT 2024:LLM-Based Pipelines for Personalized Conversational Information Seeking},\n\tauthor = {Noriko Kando and Praveen Acharya and Navdeep Singh Bedi and Xiao Fu},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        "hltcoe-trec2024-papers-proc-2": {
+            "file": "hltcoe.neuclir.pdf",
+            "pid": "hltcoe",
+            "key": "hltcoe-trec2024-papers-proc-2",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/hltcoe.neuclir.pdf",
+            "title": "Overview of the TREC 2024 NeuCLIR Track",
+            "author": "Dawn Lawrie,  Sean MacAvaney,  James Mayfield,  Paul McNamee,  Douglas W. Oard,  Luca Soldaini,  Eugene Yang",
+            "abstract": "The principal goal of the TREC Neural Cross-Language Information Retrieval (NeuCLIR) track is to study the effect of neural approaches on cross-language information access. The track has created test collections containing Chinese, Persian, and Russian news stories and Chinese academic abstracts. NeuCLIR includes four task types: Cross-Language Information Retrieval (CLIR) from news, Multilingual Information Retrieval (MLIR) from news, Report Generation from news, and CLIR from technical documents. A total of 274 runs were submitted by five participating teams (and as baselines by the track coordinators) for eight tasks across these four task types. Task descriptions and the available results are presented.",
+            "bibtex": "@inproceedings{hltcoe-trec2024-papers-proc-2,\n\ttitle = {Overview of the TREC 2024 NeuCLIR Track},\n\tauthor = {Dawn Lawrie and Sean MacAvaney and James Mayfield and Paul McNamee and Douglas W. Oard and Luca Soldaini and Eugene Yang},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
         },
-        "ii_research-trec2024-papers-proc-1": {
-            "file": "ii_research.ikat.pdf",
-            "pid": "ii_research",
-            "title": "IIUoT at TREC 2024 Interactive Knowledge Assistance Track",
-            "author": "YATING ZHANG,  HAITAO YU",
-            "abstract": "In conversational information-seeking (CIS), the ability to tailor responses to individual user contexts is essential for enhancing relevance and accuracy. The TREC Interactive Knowledge Assistance Track addresses this need by advancing research in personalized conversational agents that adapt dynamically to user-specific details and preferences. Our study aligns with this framework, which involves three core tasks: personal textual knowledge base (PTKB) statement ranking, passage ranking, and response generation. To address these tasks, we propose a comprehensive framework that incorporates user context at each stage. For PTKB statement ranking, we integrate embedding models with large language models (LLMs) to optimize relevance-based ranking precision, allowing for more nuanced alignment of user characteristics with retrieved information. In the passage ranking stage, our adaptive retrieval strategy combines BM25 with iterative contextual refinement, enhancing the relevance and accuracy of retrieved passages. Finally, our response generation module leverages a Retrieval-Augmented Generation (RAG) model that dynamically synthesizes user-specific context and external knowledge, producing responses that are both precise and contextually relevant. Experimental results demonstrate that our framework effectively addresses the complexities of personalized CIS, achieving notable improvements over traditional static retrieval methods.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/ii_research.ikat.pdf",
-            "key": "ii_research-trec2024-papers-proc-1",
-            "bibtex": "@inproceedings{ii_research-trec2024-papers-proc-1,\n\ttitle = {IIUoT at TREC 2024 Interactive Knowledge Assistance Track},\n\tauthor = {YATING ZHANG and HAITAO YU},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
-        },
-        "DCU-ADAPT-trec2024-papers-proc-1": {
-            "file": "DCU-ADAPT.ikat.pdf",
-            "pid": "DCU-ADAPT",
-            "title": "DCU-ADAPT@TREC iKAT 2024: Incorporating Retrieved Knowledge for Enhanced Conversational Search",
-            "author": "Praveen Acharya,  Xiao Fu,  Noriko Kando,  Gareth J. F. Jones",
-            "abstract": "Users of search applications often encounter difficulties in expressing their information needs effectively. Conversational search (CS) can potentially support users in creating effective queries by enabling a multi-turn, iterative dialogue between a User and the search System. These dialogues help users to refine and build their understanding of their information need through a series of query-response exchanges. However, current CS systems generally do not accumulate knowledge about the user's information needs or the content with which they have engaged during this dialogue. This limitation can hinder the system's ability to support users effectively. To address this issue, we propose an approach that seeks to model and utilize knowledge gained from each interaction to enhance future user queries. Our method focuses on incorporating knowledge from retrieved documents to enrich subsequent user queries, ultimately improving query comprehension and retrieval outcomes. We test the effectiveness of our proposed approach in our TREC iKAT 2024 participation.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/DCU-ADAPT.ikat.pdf",
-            "key": "DCU-ADAPT-trec2024-papers-proc-1",
-            "bibtex": "@inproceedings{DCU-ADAPT-trec2024-papers-proc-1,\n\ttitle = {DCU-ADAPT@TREC iKAT 2024: Incorporating Retrieved Knowledge for Enhanced Conversational Search},\n\tauthor = {Praveen Acharya and Xiao Fu and Noriko Kando and Gareth J. F. Jones},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
-        },
-        "coordinators-trec2024-papers-proc-4": {
-            "file": "Overview_ikat.pdf",
-            "pid": "overview",
-            "title": "TREC iKAT 2024: The Interactive Knowledge Assistance Track Overview",
-            "author": "Mohammad Aliannejadi,  Zahra Abbasiantaeb,  Simon Lupart,  Shubham Chatterjee,  Jeffrey Dalton,  Leif Azzopardi",
-            "abstract": "Conversational information seeking has evolved rapidly in the last few years with the development of large language models (LLMs) providing the basis for interpreting and responding in a naturalistic manner to user requests. iKAT emphasizes the creation and research of conversational search agents that adapt responses based on the user's prior interactions and present context, maintaining a long-term memory of user-system interactions. This means that the same question might yield varied answers, contingent on the user\u2019s profile and preferences. The challenge lies in enabling conversational search agents (CSA) to incorporate personalized context to guide users through the relevant information effectively. iKAT's second year attracted seven teams and a total of 31 runs. Most of the runs leveraged LLMs in their pipelines with some LLMs to do a single query rewrite, while others leveraged LLMs to do multiple query rewrites.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/Overview_ikat.pdf",
-            "key": "coordinators-trec2024-papers-proc-4",
-            "bibtex": "@inproceedings{coordinators-trec2024-papers-proc-4,\n\ttitle = {TREC iKAT 2024: The Interactive Knowledge Assistance Track Overview},\n\tauthor = {Mohammad Aliannejadi and Zahra Abbasiantaeb and Simon Lupart and Shubham Chatterjee and Jeffrey Dalton and Leif Azzopardi},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
-        },
-        "uva-trec2024-papers-proc-1": {
-            "file": "uva.ikat.pdf",
-            "pid": "uva",
-            "title": "IRLab@iKAT24: Learned Sparse Retrieval with Multi-aspect LLM Query Generation for Conversational Search",
-            "author": "Simon Lupart,  Zahra Abbasiantaeb,  Mohammad Aliannejadi",
-            "abstract": "The Interactive Knowledge Assistant Track (iKAT) 2024 focuses on advancing conversational assistants, able to adapt their interaction and responses from personalized user knowledge. The track incorporates a Personal Textual Knowledge Base (PTKB) alongside Conversational AI tasks, such as passage ranking and response generation. Query Rewrite being an effective approach for resolving conversational context, we explore Large Language Models (LLMs), as query rewriters. Specifically, our submitted runs explore multi-aspect query generation using the MQ4CS framework, which we further enhance with Learned Sparse Retrieval via the SPLADE architecture, coupled with robust cross-encoder models. We also propose an alternative to the previous interleaving strategy, aggregating multiple aspects during the reranking phase. Our findings indicate that multi-aspect query generation is effective in enhancing performance when integrated with advanced retrieval and reranking models. Our results also lead the way for better personalization in Conversational Search, relying on LLMs to integrate personalization within query rewrite, and outperforming human rewrite performance.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/uva.ikat.pdf",
-            "key": "uva-trec2024-papers-proc-1",
-            "bibtex": "@inproceedings{uva-trec2024-papers-proc-1,\n\ttitle = {IRLab@iKAT24: Learned Sparse Retrieval with Multi-aspect LLM Query Generation for Conversational Search},\n\tauthor = {Simon Lupart and Zahra Abbasiantaeb and Mohammad Aliannejadi},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        "hltcoe-trec2024-papers-proc-1": {
+            "file": "hltcoe.neuclir.pdf",
+            "pid": "hltcoe",
+            "key": "hltcoe-trec2024-papers-proc-1",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/hltcoe.neuclir.pdf",
+            "title": "HLTCOE at TREC 2024 NeuCLIR Track",
+            "author": "Eugene Yang,  Dawn Lawrie,  Orion Weller,  James Mayfield",
+            "abstract": "The HLTCOE team applied PLAID, an mT5 reranker, GPT-4 reranker, score fusion, and document translation to the TREC 2024 NeuCLIR track. For PLAID we included a variety of models and training techniques \u2013 Translate Distill (TD), Generate Distill (GD) and multi-lingual translate-distill (MTD). TD uses scores from the mT5 model over English MS MARCO query-document pairs to learn how to score query-document pairs where the documents are translated to match the CLIR setting. GD follows TD but uses passages from the collection and queries generated by an LLM for training examples. MTD uses MS MARCO translated into multiple languages, allowing experiments on how to batch the data during training. Finally, for report generation we experimented with system combination over different runs. One family of systems used either GPT-4o or Claude-3.5-Sonnet to summarize the retrieved results from a series of decomposed sub-questions. Another system took the output from those two models and verified/combined them with Claude-3.5-Sonnet. The other family used GPT4o and GPT3.5Turbo to extract and group relevant facts from the retrieved documents based on the decomposed queries. The resulting submissions directly concatenate the grouped facts to form the report and their documents of origin as the citations. The team submitted runs to all NeuCLIR tasks: CLIR and MLIR news tasks as well as the technical documents task and the report generation task.",
+            "bibtex": "@inproceedings{hltcoe-trec2024-papers-proc-1,\n\ttitle = {HLTCOE at TREC 2024 NeuCLIR Track},\n\tauthor = {Eugene Yang and Dawn Lawrie and Orion Weller and James Mayfield},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
         }
     },
-    "medvidqa": {
-        "DoshishaUzlDfki-trec2024-papers-proc-1": {
-            "file": "DoshishaUzlDfki.medvidqa.pdf",
-            "pid": "DoshishaUzlDfki",
-            "title": "Doshisha University, Universit\u00e4t zu L\u00fcbeck and German Research Center for Artificial Intelligence at TRECVID 2024: QFISC Task",
-            "author": "Zihao Chen,  Falco Lentzsch,  Nele S. Br\u00fcgge,  Fr\u00e9d\u00e9ric Li,  Miho Ohsaki,  Heinz Handels,  Marcin Grzegorzek,  Kimiaki Shirahama",
-            "abstract": "This paper presents the approaches proposed by the DoshishaUzlDfki team to address the Query-Focused Instructional Step Captioning (QFISC) task of TRECVID 2024. Given some RGB videos containing stepwise instructions, we explored several techniques to automatically identify the boundaries of each step, and provide a caption to it. More specifically, two different types of methods were investigated for temporal video segmentation. The first uses the CoSeg approach proposed by Wang et al. [9] based on Event Segmentation Theory, which hypothesises that video frames at the boundaries of steps are harder to predict since they tend to contain more significant visual changes. In detail, CoSeg detects event boundaries in the RGB video stream by finding the local maxima in the reconstruction error of a model trained to reconstruct the temporal contrastive embeddings of video snippets. The second type of approaches we tested exclusively relies on the audio modality, and is based on the hypothesis that information about step transitions is often semantically contained in the verbal transcripts of the videos. In detail, we used the WhisperX model [3] that isolates speech parts in the audio tracks of the videos, and converts them into timestamped text transcripts. The latter were then sent as input of a Large Language Model (LLM) with a carefully designed prompt requesting the LLM to identify step boundaries. Once the temporal video segmentation performed, we\r\nsent the WhisperX transcripts corresponding to the video segments determined by both methods to a LLM instructed to caption them. The GPT4o and Mistral Large 2 LLMs were employed in our experiments for both segmentation and captioning. Our results show that the temporal segmentation methods based on audioprocessing significantly outperform the video-based one. More specifically, the best performances we obtained are yielded by our approach using GPT4o with zero-shot prompting for temporal segmentation. It achieves the top global performances of all runs submitted to the QFISC task in all evaluation metrics, except for precision whose best performance is obtained by our run using Mistral Large 2 with chain-of-thoughts prompting.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/DoshishaUzlDfki.medvidqa.pdf",
-            "key": "DoshishaUzlDfki-trec2024-papers-proc-1",
-            "bibtex": "@inproceedings{DoshishaUzlDfki-trec2024-papers-proc-1,\n\ttitle = {Doshisha University, Universit\u00e4t zu L\u00fcbeck and German Research Center for Artificial Intelligence at TRECVID 2024: QFISC Task},\n\tauthor = {Zihao Chen and Falco Lentzsch and Nele S. Br\u00fcgge and Fr\u00e9d\u00e9ric Li and Miho Ohsaki and Heinz Handels and Marcin Grzegorzek and Kimiaki Shirahama},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+    "plaba": {
+        "SIB-trec2024-papers-proc-7": {
+            "file": "SIB.plaba.pdf",
+            "pid": "SIB",
+            "key": "SIB-trec2024-papers-proc-7",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/SIB.plaba.pdf",
+            "title": "SIB Text-Mining at TREC PLABA 2024",
+            "author": "Luc Mottin,  Ana\u00c3\u008ds Mottaz,  Julien Knafou,  Alexandre Flament,  Julien Gobeill,  Patrick Ruch",
+            "abstract": "The comprehension of health information by patients has a real influence on the efficacy of their treatment. However, while more health resources are increasingly available to the public, the use of medical jargon and complex syntax makes them difficult to understand. Recent advances in machine translation and text simplification may help to make these resources more accessible by adapting biomedical text into plain language. In this context, the TREC 2024 Plain Language Adaptation of Biomedical Abstracts track sought to develop specialized algorithms able to adapt biomedical abstracts into plain language for the general public. The SIB Text Mining group participated in the \u201cComplete Abstract Adaptation\u201d subtask. Our first approach examines how a specific prompting using a state-of-the-art Large Language Model performs in the global adaptation of biomedical documents, with the intention of proposing a baseline with no technical improvements to compare more advanced strategies. The second approach investigates how the fine tuning of the transformer handles the task, and the third approach integrates a Retrieval Augmented Generation function to help generate a new document based on information from relevant sources.",
+            "bibtex": "@inproceedings{SIB-trec2024-papers-proc-7,\n\ttitle = {SIB Text-Mining at TREC PLABA 2024},\n\tauthor = {Luc Mottin and Ana\u00c3\u008ds Mottaz and Julien Knafou and Alexandre Flament and Julien Gobeill and Patrick Ruch},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
         },
-        "coordinators-trec2024-papers-proc-2": {
-            "file": "Overview_medvidqa.pdf",
-            "pid": "overview",
-            "title": "Overview of TREC 2024 Medical Video Question Answering (MedVidQA) Track",
-            "author": "Deepak Gupta,  Dina Demner-Fushman",
-            "abstract": "One of the key goals of artificial intelligence (AI) is the development of a multimodal system that facilitates communication with the visual world (image and video) using a natural language query. Earlier works on medical question answering primarily focused on textual and visual (image) modalities, which may be inefficient in answering questions requiring demonstration. In recent years, significant progress has been achieved due to the introduction of large-scale language-vision datasets and the development of efficient deep neural techniques that bridge the gap between language and visual understanding. Improvements have been made in numerous vision-and-language tasks, such as visual captioning visual question answering, and natural language video localization. Most of the existing work on language vision focused on creating datasets and developing solutions for open-domain applications. We believe medical videos may provide the best possible answers to many first aid, medical emergency, and medical education questions. With increasing interest in AI to support clinical decision-making and improve patient engagement, there is a need to explore such challenges and develop efficient algorithms for medical language-video understanding and generation. Toward this, we introduced new tasks to foster research toward designing systems that can understand medical videos to provide visual answers to natural language questions, and are equipped with multimodal capability to generate instruction steps from the medical video. These tasks have the potential to support the development of sophisticated downstream applications that can benefit the public and medical professionals.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/Overview_medvidqa.pdf",
-            "key": "coordinators-trec2024-papers-proc-2",
-            "bibtex": "@inproceedings{coordinators-trec2024-papers-proc-2,\n\ttitle = {Overview of TREC 2024 Medical Video Question Answering (MedVidQA) Track},\n\tauthor = {Deepak Gupta and Dina Demner-Fushman},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
-        }
-    },
-    "rag": {
-        "TREMA-UNH-trec2024-papers-proc-1": {
-            "file": "TREMA-UNH.rag.pdf",
-            "pid": "TREMA-UNH",
-            "title": "TREMA-UNH at TREC: RAG Systems and RUBRIC-style Evaluation",
-            "author": "Naghmeh Farzi,  Laura Dietz",
-            "abstract": "The TREMA-UNH team participated in the TREC Retrieval-Augmented Genera-\r\ntion track (RAG). In Part 1 we describe the RAG systems submitted to the Augmented\r\nGeneration Task (AG) and the Retrieval-Augmented Generation Task (RAG), the lat-\r\nter using a BM25 retrieval model. In Part 2 we describe an alternative LLM-based\r\nevaluation method for this track using the RUBRIC Autograder Workbench approach,\r\nwhich won the SIGIR\u201924 best paper award.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/TREMA-UNH.rag.pdf",
-            "key": "TREMA-UNH-trec2024-papers-proc-1",
-            "bibtex": "@inproceedings{TREMA-UNH-trec2024-papers-proc-1,\n\ttitle = {TREMA-UNH at TREC: RAG Systems and RUBRIC-style Evaluation},\n\tauthor = {Naghmeh Farzi and Laura Dietz},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        "UAmsterdam-trec2024-papers-proc-2": {
+            "file": "UAmsterdam.plaba.pdf",
+            "pid": "UAmsterdam",
+            "key": "UAmsterdam-trec2024-papers-proc-2",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/UAmsterdam.plaba.pdf",
+            "title": "Biomedical Text Simplification Models Trained on Aligned Abstracts and Lay Summaries",
+            "author": "Jan Bakker,  Taiki Papandreou-Lazos,  Jaap Kamps",
+            "abstract": "This paper documents the University of Amsterdam\u2019s participation in the TREC 2024 Plain Language Adaptation of Biomedical Abstracts (PLABA) Track. We investigated the effectiveness of text simplification models trained on aligned pairs of sentences in biomedical abstracts and plain language summaries. We participated in Task 2 on Complete Abstract Adaptation and conducted post-submission experiments in Task 1 on Term Replacement.",
+            "bibtex": "@inproceedings{UAmsterdam-trec2024-papers-proc-2,\n\ttitle = {Biomedical Text Simplification Models Trained on Aligned Abstracts and Lay Summaries},\n\tauthor = {Jan Bakker and Taiki Papandreou-Lazos and Jaap Kamps},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
         },
-        "CIR-trec2024-papers-proc-1": {
-            "file": "CIR.rag.pdf",
-            "pid": "CIR",
-            "title": "CIR at TREC 2024 RAG: Task 2 - Augmented Generation with Diversified Segments and Knowledge Adaption",
-            "author": "J\u00fcri Keller,  Bj\u00f6rn Engelmann,  Fabian Haak,  Philipp Schaer,  Hermann Kroll,  Christin Katharina Kreutz",
-            "abstract": "This paper describes the CIR team\u2019s participation in the TREC 2024 RAG track for task 2, augmented generation. With our approach, we intended to explore the effects of diversification of the segments that are considered in the generation as well as variations in the depths of users\u2019 knowledge on a query topic. We describe a two-step approach that first reranks input segments such that they are as similar as possible to a query while also being as dissimilar as possible from higher ranked relevant segments. In the second step, these reranked segments are relayed to an LLM, which uses them to generate an answer to the query while referencing the segments that have contributed to specific parts of the answer. The LLM considers the varying background knowledge of potential users through our prompts.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/CIR.rag.pdf",
-            "key": "CIR-trec2024-papers-proc-1",
-            "bibtex": "@inproceedings{CIR-trec2024-papers-proc-1,\n\ttitle = {CIR at TREC 2024 RAG: Task 2 - Augmented Generation with Diversified Segments and Knowledge Adaption},\n\tauthor = {J\u00fcri Keller and Bj\u00f6rn Engelmann and Fabian Haak and Philipp Schaer and Hermann Kroll and Christin Katharina Kreutz},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        "UM-trec2024-papers-proc-3": {
+            "file": "UM.plaba.pdf",
+            "pid": "UM",
+            "key": "UM-trec2024-papers-proc-3",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/UM.plaba.pdf",
+            "title": "MALEI at the PLABA Track of TREC 2024: RoBERTa for Term Replacement \u2013 LLaMA3.1 and GPT-4o for Complete Abstract Adaptation",
+            "author": "Zhidong Ling,  Zihao Li,  Pablo Romero,  Lifeng Han,  Goran Nenadic",
+            "abstract": "Health literacy, or the ability of individuals to comprehend and apply health information for informed decision-making, is one of the central focuses of the Healthy People 2030 framework in the US. Even though biomedical information is highly accessible online, patients and caregivers often struggle with language barriers, even when the content is presented in their native language. The shared task PLABA aims to harness advances in deep learning to empower the automatic simplification of complex scientific texts into language that is more understandable for patients and caregivers. Despite substantial obstacles to effective implementation, the goal of the PLABA track is to improve health literacy by translating biomedical abstracts into plain language, making them more accessible and understandable to the general public 1. Following our participation on the PLABA-2023 shared task using large language models (LLMs) such as ChatGPT, BioGPT, and Flan-T5, and Control Mechanisms (Li et al., 2024), in this work, we introduce our system participation to the PLABA-2024. Instead of end-to-end biomedical abstract simplification as in PLABA-2023, in this year, PLABA-2024 introduced more granular-steps, including Term Replacement for Task-1 and Complete Abstract Adaption for Task-2, which we will describe in detail for our methodologies via fine-tuning RoBERTa-Base model for Task-1 and prompting LLMs (LLaMa-3.1-70B and GPT4o) for Task-2.",
+            "bibtex": "@inproceedings{UM-trec2024-papers-proc-3,\n\ttitle = {MALEI at the PLABA Track of TREC 2024: RoBERTa for Term Replacement \u2013 LLaMA3.1 and GPT-4o for Complete Abstract Adaptation},\n\tauthor = {Zhidong Ling and Zihao Li and Pablo Romero and Lifeng Han and Goran Nenadic},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
         },
-        "WaterlooClarke-trec2024-papers-proc-1": {
-            "file": "WaterlooClarke.lateral.rag.pdf",
-            "pid": "WaterlooClarke",
-            "title": "Monster Ranking",
-            "author": "Charles L. A. Clarke,  Siqing Huo,  Negar Arabzadeh",
-            "abstract": "Participating as the UWClarke group, we focused on the RAG track; we also submitted runs for the Lateral Reading Track. For the retrieval task (R) of the RAG Track, we attempted what we have come to call \u201cmonster ranking\u201d. Largely ignoring cost and computational resources, monster ranking attempts to determine the best possible ranked list for a query by whatever means possible, including explicit LLM-based relevance judgments, both pointwise and pairwise. While a monster ranker could never be deployed in a production environment, its output may be valuable for evaluating cheaper and faster rankers. For the full retrieval augmented generation (RAG) task we explored two general approaches, depending on if generation happens first or second: 1) Generate an Answer and support with Retrieved Evidence (GARE). 2) Retrieve And Generate with Evidence (RAGE).",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/WaterlooClarke.lateral.rag.pdf",
-            "key": "WaterlooClarke-trec2024-papers-proc-1",
-            "bibtex": "@inproceedings{WaterlooClarke-trec2024-papers-proc-1,\n\ttitle = {Monster Ranking},\n\tauthor = {Charles L. A. Clarke and Siqing Huo and Negar Arabzadeh},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        "um_fhs-trec2024-papers-proc-1": {
+            "file": "um_fhs.plaba.pdf",
+            "pid": "um_fhs",
+            "key": "um_fhs-trec2024-papers-proc-1",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/um_fhs.plaba.pdf",
+            "title": "UM_FHS at TREC 2024 PLABA: Exploration of Fine-tuning and AI agent approach for plain language adaptations of biomedical text",
+            "author": "Primoz Kocbek,  Leon Kopitar,  Zhihong Zhang,  Emirhan Ayd\u0131n,  Maxim Topaz,  Gregor Stiglic",
+            "abstract": "This paper describes our submissions to the TREC 2024 PLABA track with the aim to simplify biomedical abstracts for a K8-level audience (13\u201314 years old students). We tested three approaches using OpenAI\u2019s gpt-4o and gpt-4o-mini models: baseline prompt engineering, a two-AI agent approach, and fine-tuning. Adaptations were evaluated using qualitative metrics (5-point Likert scales for simplicity, accuracy, completeness, and brevity) and quantitative readability scores (Flesch-Kincaid grade level, SMOG Index). Results indicated that the two-agent approach and baseline prompt engineering with gpt-4o-mini models showed superior qualitative performance, while fine-tuned models excelled in accuracy and completeness but were less simple.",
+            "bibtex": "@inproceedings{um_fhs-trec2024-papers-proc-1,\n\ttitle = {UM\\_FHS at TREC 2024 PLABA: Exploration of Fine-tuning and AI agent approach for plain language adaptations of biomedical text},\n\tauthor = {Primoz Kocbek and Leon Kopitar and Zhihong Zhang and Emirhan Ayd\u0131n and Maxim Topaz and Gregor Stiglic},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
         },
-        "softbank-meisei-trec2024-papers-proc-2": {
-            "file": "softbank-meisei.rag.pdf",
-            "pid": "softbank-meisei",
-            "title": "Softbank-Meisei at TREC 2024",
-            "author": "Kazuya Ueki,  Yuma Suzuki,  Hiroki Takushima,  Haruki Sato,  Takumi Takada,  Aiswariya Manoj Kumar,  Hayato Tanoue,  Hiroki Nishihara,  Yuki Shibata,  Takayuki Hori",
-            "abstract": "The SoftBank-Meisei team participated in the Retrieval (R), Augmented Generation (AG), and Retrieval Augmented Generation (RAG) tasks at TREC RAG 2024. In the retrieval task, we employed the hierarchical retrieval process of combining the sparse and dense retrieval methods. We submitted two runs for the task; one with the baseline implementation with additional preprocessing on the topic list and the other with the hierarchical retrieval results.\r\nIn the Augmented Generation task, we used the GPT-4o API, as well as the LLama3-70b model along with our custom prompt for the generation. As for the Retrieval Augmented Generation task, we submitted two runs same as the R-task. The prompt used for the AG-task was used for the generation stage of the RAG-task too.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/softbank-meisei.rag.pdf",
-            "key": "softbank-meisei-trec2024-papers-proc-2",
-            "bibtex": "@inproceedings{softbank-meisei-trec2024-papers-proc-2,\n\ttitle = {Softbank-Meisei at TREC 2024},\n\tauthor = {Kazuya Ueki and Yuma Suzuki and Hiroki Takushima and Haruki Sato and Takumi Takada and Aiswariya Manoj Kumar and Hayato Tanoue and Hiroki Nishihara and Yuki Shibata and Takayuki Hori},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        "UM-trec2024-papers-proc-2": {
+            "file": "UM.plaba.pdf",
+            "pid": "UM",
+            "key": "UM-trec2024-papers-proc-2",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/UM.plaba.pdf",
+            "title": "MALEI at the PLABA Track of TAC-2024: RoBERTa for Task 1 \u2013 LLaMA3.1 and GPT-4o for Task 2",
+            "author": "Zhidong Ling,  Zihao Li,  Pablo Romero,  Lifeng Han,  Goran Nenadic",
+            "abstract": "Health literacy, or the ability of individuals to comprehend and apply health information for informed decision-making, is one of the central focuses of the Healthy People 2030 framework in the US. Even though biomedical information is highly accessible online, patients and caregivers often struggle with language barriers, even when the content is presented in their native language. The shared task PLABA aims to harness advances in deep learning to empower the automatic simplification of complex scientific texts into language that is more understandable for patients and caregivers. Despite substantial obstacles to effective implementation, the goal of the PLABA track is to improve health literacy by translating biomedical abstracts into plain language, making them more accessible and understandable to the general public 1. Following our participation on the PLABA-2023 shared task using large language models (LLMs) such as ChatGPT, BioGPT, and Flan-T5, and Control Mechanisms (Li et al., 2024), in this work, we introduce our system participation to the PLABA-2024. Instead of end-to-end biomedical abstract simplification as in PLABA-2023, in this year, PLABA-2024 introduced more granular-steps, including Term Replacement for Task-1 and Complete Abstract Adaption for Task-2, which we will describe in detail for our methodologies via fine-tuning RoBERTa-Base model for Task-1 and prompting LLMs (LLaMa-3.1-70B and GPT4o) for Task-2.",
+            "bibtex": "@inproceedings{UM-trec2024-papers-proc-2,\n\ttitle = {MALEI at the PLABA Track of TAC-2024: RoBERTa for Task 1 \u2013 LLaMA3.1 and GPT-4o for Task 2},\n\tauthor = {Zhidong Ling and Zihao Li and Pablo Romero and Lifeng Han and Goran Nenadic},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
         },
-        "ncsu-las-trec2024-papers-proc-1": {
-            "file": "ncsu-las.rag.pdf",
-            "pid": "ncsu-las",
-            "title": "Laboratory for Analytic Sciences in TREC 2024 Retrieval Augmented Generation Track",
-            "author": "Yue Wang,  John M. Conroy,  Neil Molino,  Julia Yang,  Mike Green",
-            "abstract": "We report on our approach to the NIST TREC 2024 retrieval-augmented generation (RAG) track. The goal of this track was to build and evaluate systems that can answer complex questions by 1) retrieving excerpts of webpages from a large text collection (hundreds of millions of excerpts taken from tens of millions of webpages); 2) summarizing relevant information within retrieved excerpts into an answer containing up to 400 words; 3) attributing each sentence in the generated summary to one or more retrieved excerpts. We participated in the retrieval (R) task and retrieval augmented generation (RAG) task.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/ncsu-las.rag.pdf",
-            "key": "ncsu-las-trec2024-papers-proc-1",
-            "bibtex": "@inproceedings{ncsu-las-trec2024-papers-proc-1,\n\ttitle = {Laboratory for Analytic Sciences in TREC 2024 Retrieval Augmented Generation Track},\n\tauthor = {Yue Wang and John M. Conroy and Neil Molino and Julia Yang and Mike Green},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
-        },
-        "uis-iai-trec2024-papers-proc-1": {
-            "file": "uis-iai.rag.pdf",
-            "pid": "uis-iai",
-            "title": "The University of Stavanger (IAI) at the TREC 2024 Retrieval-Augmented Generation Track",
-            "author": "Weronika Lajewska,  Krisztian Balog",
-            "abstract": "This paper describes the participation of the IAI group at the University of Stavanger in the TREC 2024 Retrieval-Augmented Generation track. We employ a modular pipeline for Grounded Information Nugget-based GEneration of Conversational Information-Seeking Responses (GINGER) to ensure factual correctness and source attribution. The multistage process includes detecting, clustering, and ranking information nuggets, summarizing top clusters, and generating follow-up questions based on uncovered subspaces of relevant information. In our runs, we experiment with different length of the responses and different number of input passages. Preliminary results indicate that ours was one of the top performing systems in the augmented generation task.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/uis-iai.rag.pdf",
-            "key": "uis-iai-trec2024-papers-proc-1",
-            "bibtex": "@inproceedings{uis-iai-trec2024-papers-proc-1,\n\ttitle = {The University of Stavanger (IAI) at the TREC 2024 Retrieval-Augmented Generation Track},\n\tauthor = {Weronika Lajewska and Krisztian Balog},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
-        },
-        "webis-trec2024-papers-proc-1": {
-            "file": "webis.biogen.rag.tot.pdf",
-            "pid": "webis",
-            "title": "Webis at TREC 2024: Biomedical Generative Retrieval, Retrieval-Augmented Generation, and Tip-of-the-Tongue Tracks",
-            "author": "Lukas Gienapp,  Maik Fr\u00f6be,  Jan Heinrich Merker,  Harrisen Scells,  Eric Oliver Schmidt,  Matti Wiegmann,  Martin Potthast,  Matthias Hagen",
-            "abstract": "In this paper, we describe the Webis Group's participation in the 2024~edition of TREC. We participated in the Biomedical Generative Retrieval track, the Retrieval-Augmented Generation track, and the Tip-of-the-Tongue track. For the biomedical track, we applied different paradigms of retrieval-augmented generation with open- and closed-source LLMs. For the Retrieval-Augmented Generation track, we aimed to contrast manual response submissions with fully-automated responses. For the Tip-of-the-Tongue track, we employed query relaxation as in our last year's submission (i.e., leaving out terms that likely reduce the retrieval effectiveness) that we combine with a new cross-encoder that we trained on an enriched version of the TOMT-KIS dataset.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/webis.biogen.rag.tot.pdf",
-            "key": "webis-trec2024-papers-proc-1",
-            "bibtex": "@inproceedings{webis-trec2024-papers-proc-1,\n\ttitle = {Webis at TREC 2024: Biomedical Generative Retrieval, Retrieval-Augmented Generation, and Tip-of-the-Tongue Tracks},\n\tauthor = {Lukas Gienapp and Maik Fr\u00f6be and Jan Heinrich Merker and Harrisen Scells and Eric Oliver Schmidt and Matti Wiegmann and Martin Potthast and Matthias Hagen},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
-        }
-    },
-    "biogen": {
-        "coordinators-trec2024-papers-proc-1": {
-            "file": "Overview_biogen.pdf",
-            "pid": "overview",
-            "title": "Overview of TREC 2024 Biomedical Generative Retrieval (BioGen) Track",
-            "author": "Deepak Gupta,  Dina Demner-Fushman,  William Hersh,  Steven Bedrick,  Kirk Roberts",
-            "abstract": "With the advancement of large language models (LLMs), the biomedical domain has seen significant progress and improvement in multiple tasks such as biomedical question answering, lay language summarization of the biomedical literature, clinical note summarization, etc. However, hallucinations or confabulations remain one of the key challenges when using LLMs in the biomedical and other domains. Inaccuracies may be particularly harmful in high-risk situations, such as making clinical decisions or appraising biomedical research. Studies on the evaluation of the LLMs' abilities to ground generated statements in verifiable sources have shown that models perform significantly worse on lay-user generated questions, and often fail to reference relevant sources. This can be problematic when those seeking information want evidence from studies to back up the claims from LLMs[3]. Unsupported statements are a major barrier to using LLMs in any applications that may affect health. Methods for grounding generated statements in reliable sources along with practical evaluation approaches are needed to overcome this barrier. Towards this, in our pilot task organized at TREC 2024, we introduced the task of reference attribution as a means to mitigate the generation of false statements by LLMs answering biomedical questions.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/Overview_biogen.pdf",
-            "key": "coordinators-trec2024-papers-proc-1",
-            "bibtex": "@inproceedings{coordinators-trec2024-papers-proc-1,\n\ttitle = {Overview of TREC 2024 Biomedical Generative Retrieval (BioGen) Track},\n\tauthor = {Deepak Gupta and Dina Demner-Fushman and William Hersh and Steven Bedrick and Kirk Roberts},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
-        },
-        "ur-iw-trec2024-papers-proc-1": {
-            "file": "ur-iw.biogen.pdf",
-            "pid": "ur-iw",
-            "title": "Exploring the Few-Shot Performance of Low-Cost Proprietary Models in the 2024 TREC BioGen Track",
-            "author": "Samy Ateia,  Udo Kruschwitz",
-            "abstract": "For the 2024 TREC Biomedical Generative Retrieval (BioGen) Track, we evaluated proprietary low-cost large language models (LLMs) in few-shot and zero-shot settings for biomedical question answering. Building upon our prior competitive approach from the CLEF 2024 BioASQ challenge, we adapted our methods to the BioGen task. We reused few-shot examples from BioASQ and generated additional ones from the test set for the BioGen specific answer format, by using an LLM judge to select examples. Our approach involved query expansion, BM25-based retrieval using Elasticsearch, snippet extraction, reranking, and answer generation both with and without 10-shot learning and additional relevant context from Wikipedia. The results are in line with our findings at BioASQ, indicating that additional Wikipedia context did not improve the results, while 10-shot learning did. An interactive reference implementation that showcases Google's Gemini-1.5-flash performance with 3-shot learning is available online and the source code of this demo is available on GitHub.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/ur-iw.biogen.pdf",
-            "key": "ur-iw-trec2024-papers-proc-1",
-            "bibtex": "@inproceedings{ur-iw-trec2024-papers-proc-1,\n\ttitle = {Exploring the Few-Shot Performance of Low-Cost Proprietary Models in the 2024 TREC BioGen Track},\n\tauthor = {Samy Ateia and Udo Kruschwitz},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
-        },
-        "webis-trec2024-papers-proc-1": {
-            "file": "webis.biogen.rag.tot.pdf",
-            "pid": "webis",
-            "title": "Webis at TREC 2024: Biomedical Generative Retrieval, Retrieval-Augmented Generation, and Tip-of-the-Tongue Tracks",
-            "author": "Lukas Gienapp,  Maik Fr\u00f6be,  Jan Heinrich Merker,  Harrisen Scells,  Eric Oliver Schmidt,  Matti Wiegmann,  Martin Potthast,  Matthias Hagen",
-            "abstract": "In this paper, we describe the Webis Group's participation in the 2024~edition of TREC. We participated in the Biomedical Generative Retrieval track, the Retrieval-Augmented Generation track, and the Tip-of-the-Tongue track. For the biomedical track, we applied different paradigms of retrieval-augmented generation with open- and closed-source LLMs. For the Retrieval-Augmented Generation track, we aimed to contrast manual response submissions with fully-automated responses. For the Tip-of-the-Tongue track, we employed query relaxation as in our last year's submission (i.e., leaving out terms that likely reduce the retrieval effectiveness) that we combine with a new cross-encoder that we trained on an enriched version of the TOMT-KIS dataset.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/webis.biogen.rag.tot.pdf",
-            "key": "webis-trec2024-papers-proc-1",
-            "bibtex": "@inproceedings{webis-trec2024-papers-proc-1,\n\ttitle = {Webis at TREC 2024: Biomedical Generative Retrieval, Retrieval-Augmented Generation, and Tip-of-the-Tongue Tracks},\n\tauthor = {Lukas Gienapp and Maik Fr\u00f6be and Jan Heinrich Merker and Harrisen Scells and Eric Oliver Schmidt and Matti Wiegmann and Martin Potthast and Matthias Hagen},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        "ntu_nlp-trec2024-papers-proc-1": {
+            "file": "ntu_nlp.plaba.pdf",
+            "pid": "ntu_nlp",
+            "key": "ntu_nlp-trec2024-papers-proc-1",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/ntu_nlp.plaba.pdf",
+            "title": "Enhancing Accessibility of Medical Texts through Large Language Model-Driven Plain Language Adaptation",
+            "author": "Ting-Wei Chang,  Hen-Hsen Huang,  Hsin-Hsi Chen",
+            "abstract": "This paper addresses the challenge of making complex healthcare information more accessible through automated Plain Language Adaptation (PLA). PLA aims to simplify technical medical language, bridging a critical gap between the complexity of healthcare texts and patients\u2019 reading comprehension. Recent advances in Large Language Models (LLMs), such as GPT and BART, have opened new possibilities for PLA, especially in zero-shot and few-shot learning contexts where task-specific data is limited. In this work, we leverage the capabilities of LLMs such as GPT-4o-mini, Gemini-1.5-pro, and LLaMA for text simplification. Additionally, we incorporate Mixture-of-Agents (MoA) techniques to enhance adaptability and robustness in PLA tasks. Key contributions include a comparative analysis of prompting strategies, finetuning with QLoRA on different LLMs, and the integration of MoA technique. Our findings demonstrate the effectiveness of LLM-driven PLA, showcasing its potential in making healthcare information more comprehensible while preserving essential content.",
+            "bibtex": "@inproceedings{ntu_nlp-trec2024-papers-proc-1,\n\ttitle = {Enhancing Accessibility of Medical Texts through Large Language Model-Driven Plain Language Adaptation},\n\tauthor = {Ting-Wei Chang and Hen-Hsen Huang and Hsin-Hsi Chen},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
         }
     },
     "avs": {
-        "WHU-NERCMS-trec2024-papers-proc-1": {
-            "file": "WHU-NERCMS.avs.pdf",
-            "pid": "WHU-NERCMS",
-            "title": "WHU-NERCMS AT TRECVID2024: AD-HOC VIDEO SEARCH TASK",
-            "author": "Heng Liu,  Jiangshan He,  Zeyuan Zhang,  Yuanyuan Xu,  Chao Liang",
-            "abstract": "The WHU-NERCMS team participated in the ad-hoc video search (AVS) task of TRECVID 2024. In this year\u2019s AVS task, we continued to use multiple visual semantic embedding methods, combined with interactive feedback-guided ranking aggregation techniques to integrate different models and their outputs to generate the final ranked video shot list. We submitted 4 runs each for automatic and interactive tasks, along with one attempt for a manual assistance task. Table 1 shows our results forthis year.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/WHU-NERCMS.avs.pdf",
-            "key": "WHU-NERCMS-trec2024-papers-proc-1",
-            "bibtex": "@inproceedings{WHU-NERCMS-trec2024-papers-proc-1,\n\ttitle = {WHU-NERCMS AT TRECVID2024: AD-HOC VIDEO SEARCH TASK},\n\tauthor = {Heng Liu and Jiangshan He and Zeyuan Zhang and Yuanyuan Xu and Chao Liang},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
-        },
-        "CERTH-ITI-trec2024-papers-proc-1": {
-            "file": "CERTH-ITI.avs.actev.pdf",
-            "pid": "CERTH-ITI",
-            "title": "ITI-CERTH participation in ActEV and AVS Tracks of TRECVID 2024",
-            "author": "Konstantinos Gkountakos,  Damianos Galanopoulos,  Antonios Leventakis,  Georgios Tsionkis,  Klearchos Stavrothanasopoulos,  Konstantinos Ioannidis,  Stefanos Vrochidis,  Vasileios Mezaris,  Ioannis Kompatsiaris",
-            "abstract": "This report presents the overview of the runs related to Ad-hoc Video Search (AVS) and Activities in Extended Video (ActEV) tasks on behalf of the ITI-CERTH team. Our participation in the AVS task involves a collection of five cross-modal deep network architectures and numerous pre-trained models, which are used to calculate the similarities between video shots and queries. These calculated similarities serve as input to a trainable neural network that effectively combines them. During the retrieval stage, we also introduce a normalization step that utilizes both the current and previous AVS queries for revising the combined video shot-query similarities. For the ActEV task, we adapt our framework to support a rule-based classification to overcome the challenges of detecting and recognizing activities in a multi-label manner while experimenting with two separate activity classifiers.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/CERTH-ITI.avs.actev.pdf",
-            "key": "CERTH-ITI-trec2024-papers-proc-1",
-            "bibtex": "@inproceedings{CERTH-ITI-trec2024-papers-proc-1,\n\ttitle = {ITI-CERTH participation in ActEV and AVS Tracks of TRECVID 2024},\n\tauthor = {Konstantinos Gkountakos and Damianos Galanopoulos and Antonios Leventakis and Georgios Tsionkis and Klearchos Stavrothanasopoulos and Konstantinos Ioannidis and Stefanos Vrochidis and Vasileios Mezaris and Ioannis Kompatsiaris},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
-        },
-        "ruc_aim3-trec2024-papers-proc-1": {
-            "file": "ruc_aim3.avs.pdf",
-            "pid": "ruc_aim3",
-            "title": "RUC_AIM3 at TRECVID 2024: Ad-hoc Video Search",
-            "author": "Xueyan Wang,  Yang Du,  Yuqi Liu,  Qin Jin",
-            "abstract": "This report presents our solution for the Ad-hoc Video Search (AVS) task of TRECVID 2024. Based on our baseline AVS model in TRECVID 2023, we further improve the searching performance by integrating multiple visual-embedding models, performing video captioning to be used for topic-to-caption searches, and applying a re-ranking strategy for top candidate search selection. Our submissions from our improved AVS model rank the 3rd in TRECVID AVS 2024 on mean average precision (mAP) in the main task, achieving the best run of 36.8.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/ruc_aim3.avs.pdf",
-            "key": "ruc_aim3-trec2024-papers-proc-1",
-            "bibtex": "@inproceedings{ruc_aim3-trec2024-papers-proc-1,\n\ttitle = {RUC\\_AIM3 at TRECVID 2024: Ad-hoc Video Search},\n\tauthor = {Xueyan Wang and Yang Du and Yuqi Liu and Qin Jin},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        "coordinators-trec2024-papers-proc-6": {
+            "file": "Overview_avs.pdf",
+            "pid": "overview",
+            "key": "coordinators-trec2024-papers-proc-6",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/Overview_avs.pdf",
+            "title": "TRECVID 2024 - Evaluating video search, captioning, and activity recognition",
+            "author": "George Awad,  Jonathan Fiscus,  Afzal Godil,  Lukas Diduch,  Yvette Graham,  Georges Qu\u00e9not",
+            "abstract": "The TREC Video Retrieval Evaluation (TRECVID) is a TREC-style video analysis and retrieval evaluation with the goal of promoting progress in research and development of content-based exploitation and retrieval of information from digital video via open, tasks-based evaluation supported by metrology.",
+            "bibtex": "@inproceedings{coordinators-trec2024-papers-proc-6,\n\ttitle = {TRECVID 2024 - Evaluating video search, captioning, and activity recognition},\n\tauthor = {George Awad and Jonathan Fiscus and Afzal Godil and Lukas Diduch and Yvette Graham and Georges Qu\u00e9not},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
         },
         "softbank-meisei-trec2024-papers-proc-2": {
             "file": "softbank-meisei.avs.vtt.pdf",
             "pid": "softbank-meisei",
+            "key": "softbank-meisei-trec2024-papers-proc-2",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/softbank-meisei.avs.vtt.pdf",
             "title": "Softbank-Meisei at TREC 2024",
             "author": "Kazuya Ueki,  Yuma Suzuki,  Hiroki Takushima,  Haruki Sato,  Takumi Takada,  Aiswariya Manoj Kumar,  Hayato Tanoue,  Hiroki Nishihara,  Yuki Shibata,  Takayuki Hori",
-            "abstract": "The Softbank-Meisei team participated in the ad-hoc video search (AVS) and video-to-text (VTT) tasks at TREC 2024. In this year's AVS task, we submitted four fully automatic systems for both the main and progress tasks. Our systems utilized pre-trained vision and language models, including CLIP, BLIP, and BLIP-2, along with several other advanced models. We also expanded the original query texts using text generation and image generation techniques to enhance data diversity. The integration ratios of these models were optimized based on results from previous benchmark test datasets. In this year's VTT, as last year, we submitted four main task methods using multiple model captioning, reranking, and generative AI for summarization. For the subtasks, we submitted three methods using the output of each model. Last year's test data for the main task showed improvements of about 0.04 points in CIDEr-D and about 0.03 points in SPICE, based on the indices we had on hand.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/softbank-meisei.avs.vtt.pdf",
-            "key": "softbank-meisei-trec2024-papers-proc-2",
+            "abstract": "The Softbank-Meisei team participated in the ad-hoc video search (AVS) and video-to-text (VTT) tasks at TREC 2024. In this year\u2019s AVS task, we submitted four fully automatic systems for both the main and progress tasks. Our systems utilized pre-trained vision and language models, including CLIP, BLIP, and BLIP-2, along with several other advanced models. We also expanded the original query texts using text generation and image generation techniques to enhance data diversity. The integration ratios of these models were optimized based on results from previous benchmark test datasets. In this year\u2019s VTT, as last year, we submitted four main task methods using multiple model captioning, reranking, and generative AI for summarization. For the subtasks, we submitted three methods using the output of each model. Last year\u2019s test data for the main task showed improvements of about 0.04 points in CIDEr-D and about 0.03 points in SPICE, based on the indices we had on hand.",
             "bibtex": "@inproceedings{softbank-meisei-trec2024-papers-proc-2,\n\ttitle = {Softbank-Meisei at TREC 2024},\n\tauthor = {Kazuya Ueki and Yuma Suzuki and Hiroki Takushima and Haruki Sato and Takumi Takada and Aiswariya Manoj Kumar and Hayato Tanoue and Hiroki Nishihara and Yuki Shibata and Takayuki Hori},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
         },
         "softbank-meisei-trec2024-papers-proc-3": {
             "file": "softbank-meisei.avs.vtt.pdf",
             "pid": "softbank-meisei",
+            "key": "softbank-meisei-trec2024-papers-proc-3",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/softbank-meisei.avs.vtt.pdf",
             "title": "Softbank-Meisei at TREC 2024 Ad-hoc Video Search and Video to Text Tasks",
             "author": "Kazuya Ueki,  Yuma Suzuki,  Hiroki Takushima,  Haruki Sato,  Takumi Takada,  Aiswariya Manoj Kumar,  Hayato Tanoue,  Hiroki Nishihara,  Yuki Shibata,  Takayuki Hori",
-            "abstract": "The Softbank-Meisei team participated in the ad-hoc video search (AVS) and video-to-text (VTT) tasks at TREC 2024. In this year's AVS task, we submitted four fully automatic systems for both the main and progress tasks. Our systems utilized pre-trained vision and language models, including CLIP, BLIP, and BLIP-2, along with several other advanced models. We also expanded the original query texts using text generation and image generation techniques to enhance data diversity. The integration ratios of these models were optimized based on results from previous benchmark test datasets. In this year's VTT, as last year, we submitted four main task methods using multiple model captioning, reranking, and generative AI for summarization. For the subtasks, we submitted three methods using the output of each model. Last year's test data for the main task showed improvements of about 0.04 points in CIDEr-D and about 0.03 points in SPICE, based on the indices we had on hand.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/softbank-meisei.avs.vtt.pdf",
-            "key": "softbank-meisei-trec2024-papers-proc-3",
+            "abstract": "The Softbank-Meisei team participated in the ad-hoc video search (AVS) and video-to-text (VTT) tasks at TREC 2024. In this year\u2019s AVS task, we submitted four fully automatic systems for both the main and progress tasks. Our systems utilized pre-trained vision and language models, including CLIP, BLIP, and BLIP-2, along with several other advanced models. We also expanded the original query texts using text generation and image generation techniques to enhance data diversity. The integration ratios of these models were optimized based on results from previous benchmark test datasets. In this year\u2019s VTT, as last year, we submitted four main task methods using multiple model captioning, reranking, and generative AI for summarization. For the subtasks, we submitted three methods using the output of each model. Last year\u2019s test data for the main task showed improvements of about 0.04 points in CIDEr-D and about 0.03 points in SPICE, based on the indices we had on hand.",
             "bibtex": "@inproceedings{softbank-meisei-trec2024-papers-proc-3,\n\ttitle = {Softbank-Meisei at TREC 2024 Ad-hoc Video Search and Video to Text Tasks},\n\tauthor = {Kazuya Ueki and Yuma Suzuki and Hiroki Takushima and Haruki Sato and Takumi Takada and Aiswariya Manoj Kumar and Hayato Tanoue and Hiroki Nishihara and Yuki Shibata and Takayuki Hori},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
         },
-        "coordinators-trec2024-papers-proc-6": {
-            "file": "Overview_avs.vtt.actev.pdf",
-            "pid": "overview",
-            "title": "TRECVID 2024 - Evaluating video search, captioning, and activity recognition",
-            "author": "George Awad,  Jonathan Fiscus,  Afzal Godil,  Lukas Diduch,  Yvette Graham,  Georges Qu\u00e9not",
-            "abstract": "The TREC Video Retrieval Evaluation (TRECVID) is a TREC-style video analysis and retrieval evaluation with the goal of promoting progress in research and development of content-based exploitation and retrieval of information from digital video via open, tasks-based evaluation supported by metrology.\r\nOver the last two decades, this effort has yielded a better understanding of how systems can effectively accomplish such processing and how one can reliably benchmark their performance. TRECVID has been funded by NIST (National Institute of Standards and Technology) and other US government agencies. In addition, many organizations and individuals world-wide contribute significant time and effort. This year TRECVID has been merged back to TREC (Text Retrieval Conference1) and planned the following four tracks:\r\n1. Ad-hoc Video Search (AVS)\r\n2. Video to Text (VTT)\r\n3. Activities in Extended Video (ActEV)\r\n4. Medical Video Question Answering (Med-VidQA)",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/Overview_avs.vtt.actev.pdf",
-            "key": "coordinators-trec2024-papers-proc-6",
-            "bibtex": "@inproceedings{coordinators-trec2024-papers-proc-6,\n\ttitle = {TRECVID 2024 - Evaluating video search, captioning, and activity recognition},\n\tauthor = {George Awad and Jonathan Fiscus and Afzal Godil and Lukas Diduch and Yvette Graham and Georges Qu\u00e9not},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
-        }
-    },
-    "lateral": {
-        "WaterlooClarke-trec2024-papers-proc-1": {
-            "file": "WaterlooClarke.lateral.rag.pdf",
-            "pid": "WaterlooClarke",
-            "title": "Monster Ranking",
-            "author": "Charles L. A. Clarke,  Siqing Huo,  Negar Arabzadeh",
-            "abstract": "Participating as the UWClarke group, we focused on the RAG track; we also submitted runs for the Lateral Reading Track. For the retrieval task (R) of the RAG Track, we attempted what we have come to call \u201cmonster ranking\u201d. Largely ignoring cost and computational resources, monster ranking attempts to determine the best possible ranked list for a query by whatever means possible, including explicit LLM-based relevance judgments, both pointwise and pairwise. While a monster ranker could never be deployed in a production environment, its output may be valuable for evaluating cheaper and faster rankers. For the full retrieval augmented generation (RAG) task we explored two general approaches, depending on if generation happens first or second: 1) Generate an Answer and support with Retrieved Evidence (GARE). 2) Retrieve And Generate with Evidence (RAGE).",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/WaterlooClarke.lateral.rag.pdf",
-            "key": "WaterlooClarke-trec2024-papers-proc-1",
-            "bibtex": "@inproceedings{WaterlooClarke-trec2024-papers-proc-1,\n\ttitle = {Monster Ranking},\n\tauthor = {Charles L. A. Clarke and Siqing Huo and Negar Arabzadeh},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        "ruc_aim3-trec2024-papers-proc-1": {
+            "file": "ruc_aim3.avs.pdf",
+            "pid": "ruc_aim3",
+            "key": "ruc_aim3-trec2024-papers-proc-1",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/ruc_aim3.avs.pdf",
+            "title": "RUC_AIM3 at TRECVID 2024: Ad-hoc Video Search",
+            "author": "Xueyan Wang,  Yang Du,  Yuqi Liu,  Qin Jin",
+            "abstract": "This report presents our solution for the Ad-hoc Video Search (AVS) task of TRECVID 2024. Based on our baseline AVS model in TRECVID 2023, we further improve the searching performance by integrating multiple visual-embedding models, performing video captioning to be used for topic-to-caption searches, and applying a re-ranking strategy for top candidate search selection. Our submissions from our improved AVS model rank the 3rd in TRECVID AVS 2024 on mean average precision (mAP) in the main task, achieving the best run of 36.8.",
+            "bibtex": "@inproceedings{ruc_aim3-trec2024-papers-proc-1,\n\ttitle = {RUC\\_AIM3 at TRECVID 2024: Ad-hoc Video Search},\n\tauthor = {Xueyan Wang and Yang Du and Yuqi Liu and Qin Jin},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
         },
-        "coordinators-trec2024-papers-proc-5": {
-            "file": "Overview_lateral.pdf",
-            "pid": "overview",
-            "title": "Overview of the TREC 2024 Lateral Reading Track",
-            "author": "Dake Zhang,  Mark D. Smucker,  Charles L. A. Clarke",
-            "abstract": "The current web landscape, characterized by abundant information and widespread misinformation, highlights the pressing need for people to evaluate the trustworthiness of online content effectively. However, this remains a daunting challenge for many internet users. The TREC 2024 Lateral Reading Track seeks to address this issue by supporting the use of lateral reading, a proven strategy used by professional fact-checkers, to help users evaluate news articles more effectively and efficiently. In its first year, the track had two tasks: (1) generating questions that readers should consider when assessing the trustworthiness of the given news articles, and (2) retrieving documents to help answer these questions. This paper presents an overview of the track, including its objectives, methodologies, resources, and evaluation results. Our evaluation of the submitted runs shows the significant challenges these tasks pose to existing approaches, including state-of-the-art large language models. Further details on this track can be found on its website: https://trec-dragun.github.io/.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/Overview_lateral.pdf",
-            "key": "coordinators-trec2024-papers-proc-5",
-            "bibtex": "@inproceedings{coordinators-trec2024-papers-proc-5,\n\ttitle = {Overview of the TREC 2024 Lateral Reading Track},\n\tauthor = {Dake Zhang and Mark D. Smucker and Charles L. A. Clarke},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
-        }
-    },
-    "actev": {
         "CERTH-ITI-trec2024-papers-proc-1": {
             "file": "CERTH-ITI.avs.actev.pdf",
             "pid": "CERTH-ITI",
+            "key": "CERTH-ITI-trec2024-papers-proc-1",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/CERTH-ITI.avs.actev.pdf",
             "title": "ITI-CERTH participation in ActEV and AVS Tracks of TRECVID 2024",
             "author": "Konstantinos Gkountakos,  Damianos Galanopoulos,  Antonios Leventakis,  Georgios Tsionkis,  Klearchos Stavrothanasopoulos,  Konstantinos Ioannidis,  Stefanos Vrochidis,  Vasileios Mezaris,  Ioannis Kompatsiaris",
             "abstract": "This report presents the overview of the runs related to Ad-hoc Video Search (AVS) and Activities in Extended Video (ActEV) tasks on behalf of the ITI-CERTH team. Our participation in the AVS task involves a collection of five cross-modal deep network architectures and numerous pre-trained models, which are used to calculate the similarities between video shots and queries. These calculated similarities serve as input to a trainable neural network that effectively combines them. During the retrieval stage, we also introduce a normalization step that utilizes both the current and previous AVS queries for revising the combined video shot-query similarities. For the ActEV task, we adapt our framework to support a rule-based classification to overcome the challenges of detecting and recognizing activities in a multi-label manner while experimenting with two separate activity classifiers.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/CERTH-ITI.avs.actev.pdf",
-            "key": "CERTH-ITI-trec2024-papers-proc-1",
             "bibtex": "@inproceedings{CERTH-ITI-trec2024-papers-proc-1,\n\ttitle = {ITI-CERTH participation in ActEV and AVS Tracks of TRECVID 2024},\n\tauthor = {Konstantinos Gkountakos and Damianos Galanopoulos and Antonios Leventakis and Georgios Tsionkis and Klearchos Stavrothanasopoulos and Konstantinos Ioannidis and Stefanos Vrochidis and Vasileios Mezaris and Ioannis Kompatsiaris},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
         },
+        "WHU-NERCMS-trec2024-papers-proc-1": {
+            "file": "WHU-NERCMS.avs.pdf",
+            "pid": "WHU-NERCMS",
+            "key": "WHU-NERCMS-trec2024-papers-proc-1",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/WHU-NERCMS.avs.pdf",
+            "title": "WHU-NERCMS AT TRECVID2024: AD-HOC VIDEO SEARCH TASK",
+            "author": "Heng Liu,  Jiangshan He,  Zeyuan Zhang,  Yuanyuan Xu,  Chao Liang",
+            "abstract": "The WHU-NERCMS team participated in the ad-hoc video search (AVS) task of TRECVID 2024. In this year\u2019s AVS task, we continued to use multiple visual semantic embedding methods, combined with interactive feedback-guided ranking aggregation techniques to integrate different models and their outputs to generate the final ranked video shot list. We submitted 4 runs each for automatic and interactive tasks, along with one attempt for a manual assistance task. Table 1 shows our results for this year.",
+            "bibtex": "@inproceedings{WHU-NERCMS-trec2024-papers-proc-1,\n\ttitle = {WHU-NERCMS AT TRECVID2024: AD-HOC VIDEO SEARCH TASK},\n\tauthor = {Heng Liu and Jiangshan He and Zeyuan Zhang and Yuanyuan Xu and Chao Liang},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        }
+    },
+    "vtt": {
         "coordinators-trec2024-papers-proc-6": {
-            "file": "Overview_avs.vtt.actev.pdf",
+            "file": "Overview_avs.pdf",
             "pid": "overview",
+            "key": "coordinators-trec2024-papers-proc-6",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/Overview_avs.pdf",
             "title": "TRECVID 2024 - Evaluating video search, captioning, and activity recognition",
             "author": "George Awad,  Jonathan Fiscus,  Afzal Godil,  Lukas Diduch,  Yvette Graham,  Georges Qu\u00e9not",
-            "abstract": "The TREC Video Retrieval Evaluation (TRECVID) is a TREC-style video analysis and retrieval evaluation with the goal of promoting progress in research and development of content-based exploitation and retrieval of information from digital video via open, tasks-based evaluation supported by metrology.\r\nOver the last two decades, this effort has yielded a better understanding of how systems can effectively accomplish such processing and how one can reliably benchmark their performance. TRECVID has been funded by NIST (National Institute of Standards and Technology) and other US government agencies. In addition, many organizations and individuals world-wide contribute significant time and effort. This year TRECVID has been merged back to TREC (Text Retrieval Conference1) and planned the following four tracks:\r\n1. Ad-hoc Video Search (AVS)\r\n2. Video to Text (VTT)\r\n3. Activities in Extended Video (ActEV)\r\n4. Medical Video Question Answering (Med-VidQA)",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/Overview_avs.vtt.actev.pdf",
-            "key": "coordinators-trec2024-papers-proc-6",
+            "abstract": "The TREC Video Retrieval Evaluation (TRECVID) is a TREC-style video analysis and retrieval evaluation with the goal of promoting progress in research and development of content-based exploitation and retrieval of information from digital video via open, tasks-based evaluation supported by metrology.",
             "bibtex": "@inproceedings{coordinators-trec2024-papers-proc-6,\n\ttitle = {TRECVID 2024 - Evaluating video search, captioning, and activity recognition},\n\tauthor = {George Awad and Jonathan Fiscus and Afzal Godil and Lukas Diduch and Yvette Graham and Georges Qu\u00e9not},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        },
+        "softbank-meisei-trec2024-papers-proc-2": {
+            "file": "softbank-meisei.avs.vtt.pdf",
+            "pid": "softbank-meisei",
+            "key": "softbank-meisei-trec2024-papers-proc-2",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/softbank-meisei.avs.vtt.pdf",
+            "title": "Softbank-Meisei at TREC 2024",
+            "author": "Kazuya Ueki,  Yuma Suzuki,  Hiroki Takushima,  Haruki Sato,  Takumi Takada,  Aiswariya Manoj Kumar,  Hayato Tanoue,  Hiroki Nishihara,  Yuki Shibata,  Takayuki Hori",
+            "abstract": "The Softbank-Meisei team participated in the ad-hoc video search (AVS) and video-to-text (VTT) tasks at TREC 2024. In this year\u2019s AVS task, we submitted four fully automatic systems for both the main and progress tasks. Our systems utilized pre-trained vision and language models, including CLIP, BLIP, and BLIP-2, along with several other advanced models. We also expanded the original query texts using text generation and image generation techniques to enhance data diversity. The integration ratios of these models were optimized based on results from previous benchmark test datasets. In this year\u2019s VTT, as last year, we submitted four main task methods using multiple model captioning, reranking, and generative AI for summarization. For the subtasks, we submitted three methods using the output of each model. Last year\u2019s test data for the main task showed improvements of about 0.04 points in CIDEr-D and about 0.03 points in SPICE, based on the indices we had on hand.",
+            "bibtex": "@inproceedings{softbank-meisei-trec2024-papers-proc-2,\n\ttitle = {Softbank-Meisei at TREC 2024},\n\tauthor = {Kazuya Ueki and Yuma Suzuki and Hiroki Takushima and Haruki Sato and Takumi Takada and Aiswariya Manoj Kumar and Hayato Tanoue and Hiroki Nishihara and Yuki Shibata and Takayuki Hori},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        },
+        "softbank-meisei-trec2024-papers-proc-3": {
+            "file": "softbank-meisei.avs.vtt.pdf",
+            "pid": "softbank-meisei",
+            "key": "softbank-meisei-trec2024-papers-proc-3",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/softbank-meisei.avs.vtt.pdf",
+            "title": "Softbank-Meisei at TREC 2024 Ad-hoc Video Search and Video to Text Tasks",
+            "author": "Kazuya Ueki,  Yuma Suzuki,  Hiroki Takushima,  Haruki Sato,  Takumi Takada,  Aiswariya Manoj Kumar,  Hayato Tanoue,  Hiroki Nishihara,  Yuki Shibata,  Takayuki Hori",
+            "abstract": "The Softbank-Meisei team participated in the ad-hoc video search (AVS) and video-to-text (VTT) tasks at TREC 2024. In this year\u2019s AVS task, we submitted four fully automatic systems for both the main and progress tasks. Our systems utilized pre-trained vision and language models, including CLIP, BLIP, and BLIP-2, along with several other advanced models. We also expanded the original query texts using text generation and image generation techniques to enhance data diversity. The integration ratios of these models were optimized based on results from previous benchmark test datasets. In this year\u2019s VTT, as last year, we submitted four main task methods using multiple model captioning, reranking, and generative AI for summarization. For the subtasks, we submitted three methods using the output of each model. Last year\u2019s test data for the main task showed improvements of about 0.04 points in CIDEr-D and about 0.03 points in SPICE, based on the indices we had on hand.",
+            "bibtex": "@inproceedings{softbank-meisei-trec2024-papers-proc-3,\n\ttitle = {Softbank-Meisei at TREC 2024 Ad-hoc Video Search and Video to Text Tasks},\n\tauthor = {Kazuya Ueki and Yuma Suzuki and Hiroki Takushima and Haruki Sato and Takumi Takada and Aiswariya Manoj Kumar and Hayato Tanoue and Hiroki Nishihara and Yuki Shibata and Takayuki Hori},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        }
+    },
+    "actev": {
+        "coordinators-trec2024-papers-proc-6": {
+            "file": "Overview_avs.pdf",
+            "pid": "overview",
+            "key": "coordinators-trec2024-papers-proc-6",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/Overview_avs.pdf",
+            "title": "TRECVID 2024 - Evaluating video search, captioning, and activity recognition",
+            "author": "George Awad,  Jonathan Fiscus,  Afzal Godil,  Lukas Diduch,  Yvette Graham,  Georges Qu\u00e9not",
+            "abstract": "The TREC Video Retrieval Evaluation (TRECVID) is a TREC-style video analysis and retrieval evaluation with the goal of promoting progress in research and development of content-based exploitation and retrieval of information from digital video via open, tasks-based evaluation supported by metrology.",
+            "bibtex": "@inproceedings{coordinators-trec2024-papers-proc-6,\n\ttitle = {TRECVID 2024 - Evaluating video search, captioning, and activity recognition},\n\tauthor = {George Awad and Jonathan Fiscus and Afzal Godil and Lukas Diduch and Yvette Graham and Georges Qu\u00e9not},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        },
+        "CERTH-ITI-trec2024-papers-proc-1": {
+            "file": "CERTH-ITI.avs.actev.pdf",
+            "pid": "CERTH-ITI",
+            "key": "CERTH-ITI-trec2024-papers-proc-1",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/CERTH-ITI.avs.actev.pdf",
+            "title": "ITI-CERTH participation in ActEV and AVS Tracks of TRECVID 2024",
+            "author": "Konstantinos Gkountakos,  Damianos Galanopoulos,  Antonios Leventakis,  Georgios Tsionkis,  Klearchos Stavrothanasopoulos,  Konstantinos Ioannidis,  Stefanos Vrochidis,  Vasileios Mezaris,  Ioannis Kompatsiaris",
+            "abstract": "This report presents the overview of the runs related to Ad-hoc Video Search (AVS) and Activities in Extended Video (ActEV) tasks on behalf of the ITI-CERTH team. Our participation in the AVS task involves a collection of five cross-modal deep network architectures and numerous pre-trained models, which are used to calculate the similarities between video shots and queries. These calculated similarities serve as input to a trainable neural network that effectively combines them. During the retrieval stage, we also introduce a normalization step that utilizes both the current and previous AVS queries for revising the combined video shot-query similarities. For the ActEV task, we adapt our framework to support a rule-based classification to overcome the challenges of detecting and recognizing activities in a multi-label manner while experimenting with two separate activity classifiers.",
+            "bibtex": "@inproceedings{CERTH-ITI-trec2024-papers-proc-1,\n\ttitle = {ITI-CERTH participation in ActEV and AVS Tracks of TRECVID 2024},\n\tauthor = {Konstantinos Gkountakos and Damianos Galanopoulos and Antonios Leventakis and Georgios Tsionkis and Klearchos Stavrothanasopoulos and Konstantinos Ioannidis and Stefanos Vrochidis and Vasileios Mezaris and Ioannis Kompatsiaris},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        }
+    },
+    "lateral": {
+        "coordinators-trec2024-papers-proc-5": {
+            "file": "Overview_lateral.pdf",
+            "pid": "overview",
+            "key": "coordinators-trec2024-papers-proc-5",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/Overview_lateral.pdf",
+            "title": "Overview of the TREC 2024 Lateral Reading Track",
+            "author": "Dake Zhang,  Mark D. Smucker,  Charles L. A. Clarke",
+            "abstract": "The current web landscape, characterized by abundant information and widespread misinformation, highlights the pressing need for people to evaluate the trustworthiness of online content effectively. However, this remains a daunting challenge for many internet users. The TREC 2024 Lateral Reading Track seeks to address this issue by supporting the use of lateral reading, a proven strategy used by professional fact-checkers, to help users evaluate news articles more effectively and efficiently. In its first year, the track had two tasks: (1) generating questions that readers should consider when assessing the trustworthiness of the given news articles, and (2) retrieving documents to help answer these questions. This paper presents an overview of the track, including its objectives, methodologies, resources, and evaluation results. Our evaluation of the submitted runs shows the significant challenges these tasks pose to existing approaches, including state-of-the-art large language models. Further details on this track can be found on its website: https://trec-dragun.github.io/. ",
+            "bibtex": "@inproceedings{coordinators-trec2024-papers-proc-5,\n\ttitle = {Overview of the TREC 2024 Lateral Reading Track},\n\tauthor = {Dake Zhang and Mark D. Smucker and Charles L. A. Clarke},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        },
+        "WaterlooClarke-trec2024-papers-proc-1": {
+            "file": "WaterlooClarke.lateral.rag.pdf",
+            "pid": "WaterlooClarke",
+            "key": "WaterlooClarke-trec2024-papers-proc-1",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/WaterlooClarke.lateral.rag.pdf",
+            "title": "Monster Ranking",
+            "author": "Charles L. A. Clarke,  Siqing Huo,  Negar Arabzadeh",
+            "abstract": "",
+            "bibtex": "@inproceedings{WaterlooClarke-trec2024-papers-proc-1,\n\ttitle = {Monster Ranking},\n\tauthor = {Charles L. A. Clarke and Siqing Huo and Negar Arabzadeh},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        }
+    },
+    "ikat": {
+        "coordinators-trec2024-papers-proc-4": {
+            "file": "Overview_ikat.pdf",
+            "pid": "overview",
+            "key": "coordinators-trec2024-papers-proc-4",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/Overview_ikat.pdf",
+            "title": "TREC iKAT 2024: The Interactive Knowledge Assistance Track Overview",
+            "author": "Mohammad Aliannejadi,  Zahra Abbasiantaeb,  Simon Lupart,  Shubham Chatterjee,  Jeffrey Dalton,  Leif Azzopardi",
+            "abstract": "Conversational information seeking has evolved rapidly in the last few years with the development of large language models (LLMs) providing the basis for interpreting and responding in a naturalistic manner to user requests. iKAT emphasizes the creation and research of conversational search agents that adapt responses based on the user\u2019s prior interactions and present context, maintaining a long-term memory of user-system interactions. This means that the same question might yield varied answers, contingent on the user\u2019s profile and preferences. The challenge lies in enabling conversational search agents (CSA) to incorporate personalized context to guide users through the relevant information effectively. iKAT\u2019s second year attracted seven teams and a total of 31 runs. Most of the runs leveraged LLMs in their pipelines with some LLMs to do a single query rewrite, while others leveraged LLMs to do multiple query rewrites.",
+            "bibtex": "@inproceedings{coordinators-trec2024-papers-proc-4,\n\ttitle = {TREC iKAT 2024: The Interactive Knowledge Assistance Track Overview},\n\tauthor = {Mohammad Aliannejadi and Zahra Abbasiantaeb and Simon Lupart and Shubham Chatterjee and Jeffrey Dalton and Leif Azzopardi},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        },
+        "uva-trec2024-papers-proc-1": {
+            "file": "uva.ikat.pdf",
+            "pid": "uva",
+            "key": "uva-trec2024-papers-proc-1",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/uva.ikat.pdf",
+            "title": "IRLab@iKAT24: Learned Sparse Retrieval with Multi-aspect LLM Query Generation for Conversational Search",
+            "author": "Simon Lupart,  Zahra Abbasiantaeb,  Mohammad Aliannejadi",
+            "abstract": "The Interactive Knowledge Assistant Track (iKAT) 2024 focuses on advancing conversational assistants, able to adapt their interaction and responses from personalized user knowledge. The track incorporates a Personal Textual Knowledge Base (PTKB) alongside Conversational AI tasks, such as passage ranking and response generation. Query Rewrite being an effective approach for resolving conversational context, we explore Large Language Models (LLMs), as query rewriters. Specifically, our submitted runs explore multi-aspect query generation using the MQ4CS framework, which we further enhance with Learned Sparse Retrieval via the SPLADE architecture, coupled with robust cross-encoder models. We also propose an alternative to the previous interleaving strategy, aggregating multiple aspects during the reranking phase. Our findings indicate that multi-aspect query generation is effective in enhancing performance when integrated with advanced retrieval and reranking models. Our results also lead the way for better personalization in Conversational Search, relying on LLMs to integrate personalization within query rewrite, and outperforming human rewrite performance.",
+            "bibtex": "@inproceedings{uva-trec2024-papers-proc-1,\n\ttitle = {IRLab@iKAT24: Learned Sparse Retrieval with Multi-aspect LLM Query Generation for Conversational Search},\n\tauthor = {Simon Lupart and Zahra Abbasiantaeb and Mohammad Aliannejadi},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        },
+        "DCU-ADAPT-trec2024-papers-proc-1": {
+            "file": "DCU-ADAPT.ikat.pdf",
+            "pid": "DCU-ADAPT",
+            "key": "DCU-ADAPT-trec2024-papers-proc-1",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/DCU-ADAPT.ikat.pdf",
+            "title": "DCU-ADAPT@TREC iKAT 2024: Incorporating Retrieved Knowledge for Enhanced Conversational Search",
+            "author": "Praveen Acharya,  Xiao Fu,  Noriko Kando,  Gareth J. F. Jones",
+            "abstract": "Users of search applications often encounter difficulties in expressing their information needs effectively. Conversational search (CS) can potentially support users in creating effective queries by enabling a multi-turn, iterative dialogue between a User and the search Systems. These dialogues help users to refine and build their understanding of their information need through a series of query-response exchanges. However, current CS systems generally do not accumulate knowledge about the user\u2019s information needs or the content with which they have engaged during this dialogue. This limitation can hinder the system\u2019s ability to support users effectively. To address this issue, we propose an approach that seeks to model and utilize knowledge gained from each interaction to enhance future user queries. Our method focuses on incorporating knowledge from retrieved documents to enrich subsequent user queries, ultimately improving query comprehension and retrieval outcomes. We test the effectiveness of our proposed approach in our TREC iKAT 2024 participation.",
+            "bibtex": "@inproceedings{DCU-ADAPT-trec2024-papers-proc-1,\n\ttitle = {DCU-ADAPT@TREC iKAT 2024: Incorporating Retrieved Knowledge for Enhanced Conversational Search},\n\tauthor = {Praveen Acharya and Xiao Fu and Noriko Kando and Gareth J. F. Jones},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        },
+        "ii_research-trec2024-papers-proc-1": {
+            "file": "ii_research.ikat.pdf",
+            "pid": "ii_research",
+            "key": "ii_research-trec2024-papers-proc-1",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/ii_research.ikat.pdf",
+            "title": "IIUoT at TREC 2024 Interactive Knowledge Assistance Track",
+            "author": "YATING ZHANG,  HAITAO YU",
+            "abstract": "In conversational information-seeking (CIS), the ability to tailor responses to individual user contexts is essential for enhancing relevance and accuracy. The TREC Interactive Knowledge Assistance Track addresses this need by advancing research in personalized conversational agents that adapt dynamically to user-specific details and preferences. Our study aligns with this framework, which involves three core tasks: personal textual knowledge base (PTKB) statement ranking, passage ranking, and response generation. To address these tasks, we propose a comprehensive framework that incorporates user context at each stage. For PTKB statement ranking, we integrate embedding models with large language models (LLMs) to optimize relevance-based ranking precision, allowing for more nuanced alignment of user characteristics with retrieved information. In the passage ranking stage, our adaptive retrieval strategy combines BM25 with iterative contextual refinement, enhancing the relevance and accuracy of retrieved passages. Finally, our response generation module leverages a Retrieval-Augmented Generation (RAG) model that dynamically synthesizes user-specific context and external knowledge, producing responses that are both precise and contextually relevant. Experimental results demonstrate that our framework effectively addresses the complexities of personalized CIS, achieving notable improvements over traditional static retrieval methods.",
+            "bibtex": "@inproceedings{ii_research-trec2024-papers-proc-1,\n\ttitle = {IIUoT at TREC 2024 Interactive Knowledge Assistance Track},\n\tauthor = {YATING ZHANG and HAITAO YU},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        },
+        "rali lab-trec2024-papers-proc-1": {
+            "file": "rali lab.ikat.pdf",
+            "pid": "rali lab",
+            "key": "rali lab-trec2024-papers-proc-1",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/rali lab.ikat.pdf",
+            "title": "RALI@TREC iKAT 2024: Achieving Personalization via Retrieval Fusion in Conversational Search",
+            "author": "Yuchen Hui,  Fengran Mo,  Milan Mao,  Jian-Yun Nie",
+            "abstract": "The Recherche Appliqu\u00e9e en Linguistique Informatique (RALI) team participated in the 2024 TREC Interactive Knowledge Assistance (iKAT) Track. In personalized conversational search, effectively capturing a user\u2019s complex search intent requires incorporating both contextual information and key elements from the user profile into query reformulation. The user profile often contains many relevant pieces, and each could potentially complement the user\u2019s information needs. It is difficult to disregard any of them, whereas introducing an excessive number of these pieces risks drifting from the original query and hinders search performance. This is a challenge we denote as over-personalization. In this paper, we tackle the problem via employing different strategies based on fusing ranking lists generated from the queries with different levels of personalization.",
+            "bibtex": "@inproceedings{rali lab-trec2024-papers-proc-1,\n\ttitle = {RALI@TREC iKAT 2024: Achieving Personalization via Retrieval Fusion in Conversational Search},\n\tauthor = {Yuchen Hui and Fengran Mo and Milan Mao and Jian-Yun Nie},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        },
+        "nii-trec2024-papers-proc-1": {
+            "file": "nii.ikat.pdf",
+            "pid": "nii",
+            "key": "nii-trec2024-papers-proc-1",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/nii.ikat.pdf",
+            "title": "NII@TREC IKAT 2024:LLM-Based Pipelines for Personalized Conversational Information Seeking",
+            "author": "Noriko Kando,  Praveen Acharya,  Navdeep Singh Bedi,  Xiao Fu",
+            "abstract": "In this paper, we propose two novel pipelines\u2014Retrieve-then-Generate (RtG) and Generate-then-Retrieve (GtR)\u2014to enhance conversational information seeking (CIS) systems, evaluated within the TREC iKAT 2023 framework. The RtG pipeline emphasizes brevity in rewriting user utterances and generates multiple query groups to maximize the retrieval of relevant documents. This approach leads to improved recall in the final results compared to the best submission in 2023. Additionally, it incorporates a chain-of-thought methodology through a two-stage response generation process. In a zero-shot setting, the GtR pipeline introduces a hybrid approach by ensembling state-of-the-art Large Language Models (LLMs), specifically GPT-4o and Claude-3-opus. By leveraging the strengths of multiple LLMs, the GtR pipeline achieves high recall while maintaining competitive precision and ranking performance in both document retrieval and Personal Task Knowledge Base (PTKB) statement classification tasks. Our experimental results demonstrate that both pipelines significantly enhance retrieval effectiveness, offering robust solutions for future CIS systems.",
+            "bibtex": "@inproceedings{nii-trec2024-papers-proc-1,\n\ttitle = {NII@TREC IKAT 2024:LLM-Based Pipelines for Personalized Conversational Information Seeking},\n\tauthor = {Noriko Kando and Praveen Acharya and Navdeep Singh Bedi and Xiao Fu},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        },
+        "infosenselab-trec2024-papers-proc-1": {
+            "file": "infosenselab.ikat.pdf",
+            "pid": "infosenselab",
+            "key": "infosenselab-trec2024-papers-proc-1",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/infosenselab.ikat.pdf",
+            "title": "Passage Query Methods for Retrieval and Reranking in Conversational Agents",
+            "author": "Victor De Lima,  Grace Hui Yang",
+            "abstract": "This paper presents our approach to the TREC Interactive Knowledge Assistance Track (iKAT), which focuses on improving conversational information-seeking (CIS) systems. While recent advancements in CIS have improved conversational agents' ability to assist users, significant challenges remain in understanding context and retrieving relevant documents across domains and dialogue turns. To address these issues, we extend the Generate-Retrieve-Generate pipeline by developing passage queries (PQs) that align with the target document's expected format to improve query-document matching during retrieval. We propose two variations of this approach: Weighted Reranking and Short and Long Passages. Each method leverages a Meta Llama model for context understanding and generating queries and responses. Passage ranking evaluation results show that the Short and Long Passages approach outperformed the organizers' baselines, performed best among Llama-based systems in the track, and achieved results comparable to GPT-4-based systems. These results indicate that the method effectively balances efficiency and performance. Findings suggest that PQs improve semantic alignment with target documents and demonstrate their potential to improve multi-turn dialogue systems.",
+            "bibtex": "@inproceedings{infosenselab-trec2024-papers-proc-1,\n\ttitle = {Passage Query Methods for Retrieval and Reranking in Conversational Agents},\n\tauthor = {Victor De Lima and Grace Hui Yang},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        }
+    },
+    "tot": {
+        "yalenlp-trec2024-papers-proc-1": {
+            "file": "yalenlp.tot.pdf",
+            "pid": "yalenlp",
+            "key": "yalenlp-trec2024-papers-proc-1",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/yalenlp.tot.pdf",
+            "title": "Yale NLP at TREC 2024: Tip-of-the-Tongue Track",
+            "author": "Rohan Phanse,  Gabrielle Kaili-May Liu,  Arman Cohan",
+            "abstract": "After preparing training sets for each domain, we trained a single \u201cgeneral\u201d DPR model to handle queries from all domains and used it in our first two runs. In addition, we developed an approach to route queries to multiple single-domain \u201cexpert\u201d DPR models for our third run. We used GPT-4o mini to rerank the results retrieved by our DPR models. We developed an initial pointwise reranking stage that we used along with Borges et al.\u2019s [3] list-wise round-robin approach in our first run. We only performed listwise reranking in our other two runs to measure the specific contribution of our proposed pointwise reranking stage to overall performance.",
+            "bibtex": "@inproceedings{yalenlp-trec2024-papers-proc-1,\n\ttitle = {Yale NLP at TREC 2024: Tip-of-the-Tongue Track},\n\tauthor = {Rohan Phanse and Gabrielle Kaili-May Liu and Arman Cohan},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        },
+        "webis-trec2024-papers-proc-1": {
+            "file": "webis.biogen.rag.tot.pdf",
+            "pid": "webis",
+            "key": "webis-trec2024-papers-proc-1",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/webis.biogen.rag.tot.pdf",
+            "title": "Webis at TREC 2024: Biomedical Generative Retrieval, Retrieval-Augmented Generation, and Tip-of-the-Tongue Tracks",
+            "author": "Lukas Gienapp,  Maik Fr\u00f6be,  Jan Heinrich Merker,  Harrisen Scells,  Eric Oliver Schmidt,  Matti Wiegmann,  Martin Potthast,  Matthias Hagen",
+            "abstract": "In this paper, we describe the Webis Group\u2019s participation in the 2024 edition of TREC. We participated in the Biomedical Generative Retrieval track, the Retrieval-Augmented Generation track, and the Tip-of-the-Tongue track. For the biomedical track, we applied different paradigms of retrieval-augmented generation with open- and closed-source LLMs. For the Retrieval-Augmented Generation track, we aimed to contrast manual response submissions with fully-automated responses. For the Tip-of-the-Tongue track, we employed query relaxation as in our last year\u2019s submission (i.e., leaving out terms that likely reduce the retrieval effectiveness) that we combine with a new cross-encoder that we trained on an enriched version of the TOMT-KIS dataset.",
+            "bibtex": "@inproceedings{webis-trec2024-papers-proc-1,\n\ttitle = {Webis at TREC 2024: Biomedical Generative Retrieval, Retrieval-Augmented Generation, and Tip-of-the-Tongue Tracks},\n\tauthor = {Lukas Gienapp and Maik Fr\u00f6be and Jan Heinrich Merker and Harrisen Scells and Eric Oliver Schmidt and Matti Wiegmann and Martin Potthast and Matthias Hagen},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        },
+        "coordinators-trec2024-papers-proc-3": {
+            "file": "Overview_tot.pdf",
+            "pid": "overview",
+            "key": "coordinators-trec2024-papers-proc-3",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/Overview_tot.pdf",
+            "title": "OVERVIEW OF THE TREC 2024 TIP-OF-THE-TONGUE TRACK",
+            "author": "Jaime Arguello,  Samarth Bhargav,  Fernando Diaz,  To Eun Kim,  Yifan He,  Evangelos Kanoulas,  Bhaskar Mitra",
+            "abstract": "Tip-of-the-tongue (ToT) known-item retrieval involves re-finding an item for which the searcher does not reliably recall an identifier. ToT information requests (or queries) are verbose and tend to include several complex phenomena, making them especially difficult for existing information retrieval systems. The TREC 2024 ToT track focused on a single ad-hoc retrieval task. Participants were provided with training and development data in the movie domain. Conversely, systems were tested on data that combined three domains: movies, celebrities, and landmarks. This year, 6 groups (including the track coordinators) submitted 18 runs.",
+            "bibtex": "@inproceedings{coordinators-trec2024-papers-proc-3,\n\ttitle = {OVERVIEW OF THE TREC 2024 TIP-OF-THE-TONGUE TRACK},\n\tauthor = {Jaime Arguello and Samarth Bhargav and Fernando Diaz and To Eun Kim and Yifan He and Evangelos Kanoulas and Bhaskar Mitra},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        },
+        "IISER-K-trec2024-papers-proc-1": {
+            "file": "IISER-K.tot.pdf",
+            "pid": "IISER-K",
+            "key": "IISER-K-trec2024-papers-proc-1",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/IISER-K.tot.pdf",
+            "title": "IISERK@ToT_2024: Query Reformulation and Layered Retrieval for Tip-of-Tongue Items",
+            "author": "Subinay Adhikary,  Shuvam Banerji Seal,  Soumyadeep Sar,  Dwaipayan Roy",
+            "abstract": "In this study, we explore various approaches for known-item retrieval, referred to as \u201cTip-of-the-Tongue\u201d (ToT). The TREC 2024 ToT track involves retrieving previously encountered items, such as movie names or landmarks when the searcher struggles to recall their exact identifiers. In this paper, we (ThinkIR) focus on four different approaches to retrieve the correct item for each query, including BM25 with optimized parameters and leveraging Large Language Models (LLMs) to reformulate the queries. Subsequently, we utilize these reformulated queries during retrieval using the BM25 model for each method. The four-step query reformulation technique, combined with two-layer retrieval, has enhanced retrieval performance in terms of NDCG and Recall. Eventually, two-layer retrieval achieves the best performance among all the runs, with a Recall@1000 of 0.8067.",
+            "bibtex": "@inproceedings{IISER-K-trec2024-papers-proc-1,\n\ttitle = {IISERK@ToT\\_2024: Query Reformulation and Layered Retrieval for Tip-of-Tongue Items},\n\tauthor = {Subinay Adhikary and Shuvam Banerji Seal and Soumyadeep Sar and Dwaipayan Roy},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        }
+    },
+    "biogen": {
+        "webis-trec2024-papers-proc-1": {
+            "file": "webis.biogen.rag.tot.pdf",
+            "pid": "webis",
+            "key": "webis-trec2024-papers-proc-1",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/webis.biogen.rag.tot.pdf",
+            "title": "Webis at TREC 2024: Biomedical Generative Retrieval, Retrieval-Augmented Generation, and Tip-of-the-Tongue Tracks",
+            "author": "Lukas Gienapp,  Maik Fr\u00f6be,  Jan Heinrich Merker,  Harrisen Scells,  Eric Oliver Schmidt,  Matti Wiegmann,  Martin Potthast,  Matthias Hagen",
+            "abstract": "In this paper, we describe the Webis Group\u2019s participation in the 2024 edition of TREC. We participated in the Biomedical Generative Retrieval track, the Retrieval-Augmented Generation track, and the Tip-of-the-Tongue track. For the biomedical track, we applied different paradigms of retrieval-augmented generation with open- and closed-source LLMs. For the Retrieval-Augmented Generation track, we aimed to contrast manual response submissions with fully-automated responses. For the Tip-of-the-Tongue track, we employed query relaxation as in our last year\u2019s submission (i.e., leaving out terms that likely reduce the retrieval effectiveness) that we combine with a new cross-encoder that we trained on an enriched version of the TOMT-KIS dataset.",
+            "bibtex": "@inproceedings{webis-trec2024-papers-proc-1,\n\ttitle = {Webis at TREC 2024: Biomedical Generative Retrieval, Retrieval-Augmented Generation, and Tip-of-the-Tongue Tracks},\n\tauthor = {Lukas Gienapp and Maik Fr\u00f6be and Jan Heinrich Merker and Harrisen Scells and Eric Oliver Schmidt and Matti Wiegmann and Martin Potthast and Matthias Hagen},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        },
+        "ur-iw-trec2024-papers-proc-1": {
+            "file": "ur-iw.biogen.pdf",
+            "pid": "ur-iw",
+            "key": "ur-iw-trec2024-papers-proc-1",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/ur-iw.biogen.pdf",
+            "title": "Exploring the Few-Shot Performance of Low-Cost Proprietary Models in the 2024 TREC BioGen Track",
+            "author": "Samy Ateia,  Udo Kruschwitz",
+            "abstract": "For the 2024 TREC Biomedical Generative Retrieval (BioGen) Track, we evaluated proprietary low-cost large language models (LLMs) in few-shot and zero-shot settings for biomedical question answering. Building upon our prior competitive approach from the CLEF 2024 BioASQ challenge, we adapted our methods to the BioGen task. We reused few-shot examples from BioASQ and generated additional ones from the test set for the BioGen specific answer format, by using an LLM judge to select examples. Our approach involved query expansion, BM25-based retrieval using Elasticsearch, snippet extraction, reranking, and answer generation both with and without 10-shot learning and additional relevant context from Wikipedia. The results are in line with our findings at BioASQ, indicating that additional Wikipedia context did not improve the results, while 10-shot learning did. An interactive reference implementation that showcases Google\u2019s Gemini-1.5-flash performance with 3-shot learning is available online and the source code of this demo is available on GitHub.",
+            "bibtex": "@inproceedings{ur-iw-trec2024-papers-proc-1,\n\ttitle = {Exploring the Few-Shot Performance of Low-Cost Proprietary Models in the 2024 TREC BioGen Track},\n\tauthor = {Samy Ateia and Udo Kruschwitz},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        },
+        "coordinators-trec2024-papers-proc-1": {
+            "file": "Overview_biogen.pdf",
+            "pid": "overview",
+            "key": "coordinators-trec2024-papers-proc-1",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/Overview_biogen.pdf",
+            "title": "Overview of TREC 2024 Biomedical Generative Retrieval (BioGen) Track",
+            "author": "Deepak Gupta,  Dina Demner-Fushman,  William Hersh,  Steven Bedrick,  Kirk Roberts",
+            "abstract": "With the advancement of large language models (LLMs), the biomedical domain has seen significant progress and improvement in multiple tasks such as biomedical question answering, lay language summarization of the biomedical literature, clinical note summarization, etc. However, hallucinations or confabulations remain one of the key challenges when using LLMs in the biomedical and other domains.",
+            "bibtex": "@inproceedings{coordinators-trec2024-papers-proc-1,\n\ttitle = {Overview of TREC 2024 Biomedical Generative Retrieval (BioGen) Track},\n\tauthor = {Deepak Gupta and Dina Demner-Fushman and William Hersh and Steven Bedrick and Kirk Roberts},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        }
+    },
+    "rag": {
+        "webis-trec2024-papers-proc-1": {
+            "file": "webis.biogen.rag.tot.pdf",
+            "pid": "webis",
+            "key": "webis-trec2024-papers-proc-1",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/webis.biogen.rag.tot.pdf",
+            "title": "Webis at TREC 2024: Biomedical Generative Retrieval, Retrieval-Augmented Generation, and Tip-of-the-Tongue Tracks",
+            "author": "Lukas Gienapp,  Maik Fr\u00f6be,  Jan Heinrich Merker,  Harrisen Scells,  Eric Oliver Schmidt,  Matti Wiegmann,  Martin Potthast,  Matthias Hagen",
+            "abstract": "In this paper, we describe the Webis Group\u2019s participation in the 2024 edition of TREC. We participated in the Biomedical Generative Retrieval track, the Retrieval-Augmented Generation track, and the Tip-of-the-Tongue track. For the biomedical track, we applied different paradigms of retrieval-augmented generation with open- and closed-source LLMs. For the Retrieval-Augmented Generation track, we aimed to contrast manual response submissions with fully-automated responses. For the Tip-of-the-Tongue track, we employed query relaxation as in our last year\u2019s submission (i.e., leaving out terms that likely reduce the retrieval effectiveness) that we combine with a new cross-encoder that we trained on an enriched version of the TOMT-KIS dataset.",
+            "bibtex": "@inproceedings{webis-trec2024-papers-proc-1,\n\ttitle = {Webis at TREC 2024: Biomedical Generative Retrieval, Retrieval-Augmented Generation, and Tip-of-the-Tongue Tracks},\n\tauthor = {Lukas Gienapp and Maik Fr\u00f6be and Jan Heinrich Merker and Harrisen Scells and Eric Oliver Schmidt and Matti Wiegmann and Martin Potthast and Matthias Hagen},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        },
+        "uis-iai-trec2024-papers-proc-1": {
+            "file": "uis-iai.rag.pdf",
+            "pid": "uis-iai",
+            "key": "uis-iai-trec2024-papers-proc-1",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/uis-iai.rag.pdf",
+            "title": "The University of Stavanger (IAI) at the TREC 2024 Retrieval-Augmented Generation Track",
+            "author": "Weronika Lajewska,  Krisztian Balog",
+            "abstract": "This paper describes the participation of the IAI group at the University of Stavanger in the TREC 2024 Retrieval-Augmented Generation track. We employ a modular pipeline for Grounded Information Nugget-based GEneration of Conversational Information-Seeking Responses (GINGER) to ensure factual correctness and source attribution. The multistage process includes detecting, clustering, and ranking information nuggets, summarizing top clusters, and generating follow-up questions based on uncovered subspaces of relevant information. In our runs, we experiment with different length of the responses and different number of input passages. Preliminary results indicate that ours was one of the top performing systems in the augmented generation task.",
+            "bibtex": "@inproceedings{uis-iai-trec2024-papers-proc-1,\n\ttitle = {The University of Stavanger (IAI) at the TREC 2024 Retrieval-Augmented Generation Track},\n\tauthor = {Weronika Lajewska and Krisztian Balog},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        },
+        "ncsu-las-trec2024-papers-proc-1": {
+            "file": "ncsu-las.rag.pdf",
+            "pid": "ncsu-las",
+            "key": "ncsu-las-trec2024-papers-proc-1",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/ncsu-las.rag.pdf",
+            "title": "Laboratory for Analytic Sciences in TREC 2024 Retrieval Augmented Generation Track",
+            "author": "Yue Wang,  John M. Conroy,  Neil Molino,  Julia Yang,  Mike Green",
+            "abstract": "We report on our approach to the NIST TREC 2024 retrieval-augmented generation (RAG) track. The goal of this track was to build and evaluate systems that can answer complex questions by 1) retrieving excerpts of webpages from a large text collection (hundreds of millions of excerpts taken from tens of millions of webpages); 2) summarizing relevant information within retrieved excerpts into an answer containing up to 400 words; 3) attributing each sentence in the generated summary to one or more retrieved excerpts. We participated in the retrieval (R) task and retrieval augmented generation (RAG) task.",
+            "bibtex": "@inproceedings{ncsu-las-trec2024-papers-proc-1,\n\ttitle = {Laboratory for Analytic Sciences in TREC 2024 Retrieval Augmented Generation Track},\n\tauthor = {Yue Wang and John M. Conroy and Neil Molino and Julia Yang and Mike Green},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        },
+        "WaterlooClarke-trec2024-papers-proc-1": {
+            "file": "WaterlooClarke.lateral.rag.pdf",
+            "pid": "WaterlooClarke",
+            "key": "WaterlooClarke-trec2024-papers-proc-1",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/WaterlooClarke.lateral.rag.pdf",
+            "title": "Monster Ranking",
+            "author": "Charles L. A. Clarke,  Siqing Huo,  Negar Arabzadeh",
+            "abstract": "",
+            "bibtex": "@inproceedings{WaterlooClarke-trec2024-papers-proc-1,\n\ttitle = {Monster Ranking},\n\tauthor = {Charles L. A. Clarke and Siqing Huo and Negar Arabzadeh},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        },
+        "CIR-trec2024-papers-proc-1": {
+            "file": "CIR.rag.pdf",
+            "pid": "CIR",
+            "key": "CIR-trec2024-papers-proc-1",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/CIR.rag.pdf",
+            "title": "CIR at TREC 2024 RAG: Task 2 - Augmented Generation with Diversified Segments and Knowledge Adaption",
+            "author": "J\u00fcri Keller,  Bj\u00f6rn Engelmann,  Fabian Haak,  Philipp Schaer,  Hermann Kroll,  Christin Katharina Kreutz",
+            "abstract": "This paper describes the CIR team\u2019s participation in the TREC 2024 RAG track for task 2, augmented generation. With our approach, we intended to explore the effects of diversification of the segments that are considered in the generation as well as variations in the depths of users\u2019 knowledge on a query topic. We describe a two-step approach that first reranks input segments such that they are as similar as possible to a query while also being as dissimilar as possible from higher ranked relevant segments. In the second step, these reranked segments are relayed to an LLM, which uses them to generate an answer to the query while referencing the segments that have contributed to specific parts of the answer. The LLM considers the varying background knowledge of potential users through our prompts.",
+            "bibtex": "@inproceedings{CIR-trec2024-papers-proc-1,\n\ttitle = {CIR at TREC 2024 RAG: Task 2 - Augmented Generation with Diversified Segments and Knowledge Adaption},\n\tauthor = {J\u00fcri Keller and Bj\u00f6rn Engelmann and Fabian Haak and Philipp Schaer and Hermann Kroll and Christin Katharina Kreutz},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        },
+        "TREMA-UNH-trec2024-papers-proc-1": {
+            "file": "TREMA-UNH.rag.pdf",
+            "pid": "TREMA-UNH",
+            "key": "TREMA-UNH-trec2024-papers-proc-1",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/TREMA-UNH.rag.pdf",
+            "title": "TREMA-UNH at TREC: RAG Systems and RUBRIC-style Evaluation",
+            "author": "Naghmeh Farzi,  Laura Dietz",
+            "abstract": "The TREMA-UNH team participated in the TREC Retrieval-Augmented Generation track (RAG). In Part 1 we describe the RAG systems submitted to the Augmented Generation Task (AG) and the Retrieval-Augmented Generation Task (RAG), the latter using a BM25 retrieval model. In Part 2 we describe an alternative LLM-based evaluation method for this track using the RUBRIC Autograder Workbench approach, which won the SIGIR\u201924 best paper award.",
+            "bibtex": "@inproceedings{TREMA-UNH-trec2024-papers-proc-1,\n\ttitle = {TREMA-UNH at TREC: RAG Systems and RUBRIC-style Evaluation},\n\tauthor = {Naghmeh Farzi and Laura Dietz},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
         }
     },
     "product": {
         "jbnu-trec2024-papers-proc-1": {
             "file": "jbnu.product.pdf",
             "pid": "jbnu",
+            "key": "jbnu-trec2024-papers-proc-1",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/jbnu.product.pdf",
             "title": "JBNU at TREC 2024 Product Search Track",
             "author": "Gi-taek An,  Seong-Hyuk Yim,  Jun-Yong Park,  Woo-Seok Choi,  Kyung-Soon Lee",
-            "abstract": "This paper describes the participation of the jbnu team in the TREC 2024 Product Search Track. This study addresses two key challenges in product search related to sparse and dense retrieval models. For sparse retrieval models, we propose modifying the activation function to GELU to filter out products that, despite being retrieved due to token expansion, are irrelevant for recommendation based on the scoring mechanism. For dense retrieval models, product search document indexing data was generated using the generative model T5 to address input token limitations. Experimental results demonstrate that both proposed methods yield performance improvements over baseline models.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/jbnu.product.pdf",
-            "key": "jbnu-trec2024-papers-proc-1",
+            "abstract": "This paper describes the participation of the jbnu team in the TREC 2024 Product Search Track. This study  addresses two  key  challenges  in  product  search  related to  sparse  and  dense  retrieval  models.  For sparse retrieval models, we propose modifying the activation function to GELU to filter out products that, despite being retrieved due to token expansion, are irrelevant for recommendation based on the scoring mechanism. For dense retrieval models, product search document indexing data was generated using the generative  model  T5  to  address  input  token  limitations.  Experimental  results  demonstrate  that  both proposed methods yield performance improvements over baseline models.",
             "bibtex": "@inproceedings{jbnu-trec2024-papers-proc-1,\n\ttitle = {JBNU at TREC 2024 Product Search Track},\n\tauthor = {Gi-taek An and Seong-Hyuk Yim and Jun-Yong Park and Woo-Seok Choi and Kyung-Soon Lee},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
         }
     },
-    "tot": {
-        "IISER-K-trec2024-papers-proc-1": {
-            "file": "IISER-K.tot.pdf",
-            "pid": "IISER-K",
-            "title": "IISERK@ToT_2024: Query Reformulation and Layered Retrieval for Tip-of-Tongue Items",
-            "author": "Subinay Adhikary,  Shuvam Banerji Seal,  Soumyadeep Sar,  Dwaipayan Roy",
-            "abstract": "In this study, we explore various approaches for known-item retrieval, referred to as ``Tip-of-the-Tongue\" (ToT). The TREC 2024 ToT track involves retrieving previously encountered items, such as movie names or landmarks when the searcher struggles to recall their exact identifiers. In this paper, we (ThinkIR) focus on four different approaches to retrieve the correct item for each query, including BM25 with optimized parameters and leveraging Large Language Models (LLMs) to reformulate the queries. Subsequently, we utilize these reformulated queries during retrieval using the BM25 model for each method. The four-step query reformulation technique, combined with two-layer retrieval, has enhanced retrieval performance in terms of NDCG and Recall. Eventually,  two-layer retrieval achieves the best performance among all the runs, with a Recall@1000 of 0.8067.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/IISER-K.tot.pdf",
-            "key": "IISER-K-trec2024-papers-proc-1",
-            "bibtex": "@inproceedings{IISER-K-trec2024-papers-proc-1,\n\ttitle = {IISERK@ToT\\_2024: Query Reformulation and Layered Retrieval for Tip-of-Tongue Items},\n\tauthor = {Subinay Adhikary and Shuvam Banerji Seal and Soumyadeep Sar and Dwaipayan Roy},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
-        },
-        "yalenlp-trec2024-papers-proc-1": {
-            "file": "yalenlp.tot.pdf",
-            "pid": "yalenlp",
-            "title": "Yale NLP at TREC 2024: Tip-of-the-Tongue Track",
-            "author": "Rohan Phanse,  Gabrielle Kaili-May Liu,  Arman Cohan",
-            "abstract": "This paper describes our submissions to the TREC 2024 Tip-of-the-Tongue (ToT) track. We use a two-stage pipeline consisting of DPR-based retrieval followed by reranking with GPT-4o mini to answer ToT queries across three domains: movies, celebrities, and landmarks. Two of our runs performed retrieval using a \"general\" DPR model trained to handle queries from all domains. For our third run, we developed an approach to route queries to multiple \"expert\" DPR models each trained on a single domain. To build training sets for our DPR models, we collected existing ToT queries and generated over 100k synthetic queries using few-shot prompting with LLMs. After retrieval, results were reranked either listwise or using a combined pointwise and listwise approach. Our results demonstrate the efficacy of our three submitted approaches, which achieved NDCG@1000 scores ranging from 0.51 to 0.60.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/yalenlp.tot.pdf",
-            "key": "yalenlp-trec2024-papers-proc-1",
-            "bibtex": "@inproceedings{yalenlp-trec2024-papers-proc-1,\n\ttitle = {Yale NLP at TREC 2024: Tip-of-the-Tongue Track},\n\tauthor = {Rohan Phanse and Gabrielle Kaili-May Liu and Arman Cohan},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
-        },
-        "webis-trec2024-papers-proc-1": {
-            "file": "webis.biogen.rag.tot.pdf",
-            "pid": "webis",
-            "title": "Webis at TREC 2024: Biomedical Generative Retrieval, Retrieval-Augmented Generation, and Tip-of-the-Tongue Tracks",
-            "author": "Lukas Gienapp,  Maik Fr\u00f6be,  Jan Heinrich Merker,  Harrisen Scells,  Eric Oliver Schmidt,  Matti Wiegmann,  Martin Potthast,  Matthias Hagen",
-            "abstract": "In this paper, we describe the Webis Group's participation in the 2024~edition of TREC. We participated in the Biomedical Generative Retrieval track, the Retrieval-Augmented Generation track, and the Tip-of-the-Tongue track. For the biomedical track, we applied different paradigms of retrieval-augmented generation with open- and closed-source LLMs. For the Retrieval-Augmented Generation track, we aimed to contrast manual response submissions with fully-automated responses. For the Tip-of-the-Tongue track, we employed query relaxation as in our last year's submission (i.e., leaving out terms that likely reduce the retrieval effectiveness) that we combine with a new cross-encoder that we trained on an enriched version of the TOMT-KIS dataset.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/webis.biogen.rag.tot.pdf",
-            "key": "webis-trec2024-papers-proc-1",
-            "bibtex": "@inproceedings{webis-trec2024-papers-proc-1,\n\ttitle = {Webis at TREC 2024: Biomedical Generative Retrieval, Retrieval-Augmented Generation, and Tip-of-the-Tongue Tracks},\n\tauthor = {Lukas Gienapp and Maik Fr\u00f6be and Jan Heinrich Merker and Harrisen Scells and Eric Oliver Schmidt and Matti Wiegmann and Martin Potthast and Matthias Hagen},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
-        },
-        "coordinators-trec2024-papers-proc-3": {
-            "file": "Overview_tot.pdf",
+    "medvidqa": {
+        "coordinators-trec2024-papers-proc-2": {
+            "file": "Overview_medvidqa.pdf",
             "pid": "overview",
-            "title": "OVERVIEW OF THE TREC 2024 TIP-OF-THE-TONGUE TRACK",
-            "author": "Jaime Arguello,  Samarth Bhargav,  Fernando Diaz,  To Eun Kim,  Yifan He,  Evangelos Kanoulas,  Bhaskar Mitra",
-            "abstract": "Tip-of-the-tongue (ToT) known-item retrieval involves re-finding an item for which the searcher does not reliably recall an identifier. ToT information requests (or queries) are verbose and tend to include several complex phenomena, making them especially difficult for existing information retrieval systems.  The TREC 2024 ToT track focused on a single ad-hoc retrieval task.  Participants were provided with training and development data in the movie domain.  Conversely, systems were tested on data that combined three domains: movies, celebrities, and landmarks.  This year, 6 groups (including the track coordinators) submitted 18 runs.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/Overview_tot.pdf",
-            "key": "coordinators-trec2024-papers-proc-3",
-            "bibtex": "@inproceedings{coordinators-trec2024-papers-proc-3,\n\ttitle = {OVERVIEW OF THE TREC 2024 TIP-OF-THE-TONGUE TRACK},\n\tauthor = {Jaime Arguello and Samarth Bhargav and Fernando Diaz and To Eun Kim and Yifan He and Evangelos Kanoulas and Bhaskar Mitra},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
-        }
-    },
-    "plaba": {
-        "ntu_nlp-trec2024-papers-proc-1": {
-            "file": "ntu_nlp.plaba.pdf",
-            "pid": "ntu_nlp",
-            "title": "Enhancing Accessibility of Medical Texts through Large Language Model-Driven Plain Language Adaptation",
-            "author": "Ting-Wei Chang,  Hen-Hsen Huang,  Hsin-Hsi Chen",
-            "abstract": "This paper addresses the challenge of making complex healthcare information more accessible through automated Plain Language Adaptation (PLA). PLA aims to simplify technical medical language, bridging a critical gap between the complexity of healthcare texts and patients\u2019 reading comprehension. Recent advances in Large Language Models (LLMs), such as GPT and BART, have opened new possibilities for PLA, especially in zero-shot and few-shot learning contexts where task-specific data is limited. In this work, we leverage the capabilities of LLMs such as GPT-4o-mini, Gemini-1.5-pro, and LLaMA for text simplification. Additionally, we incorporate Mixture-of-Agents (MoA) techniques to enhance adaptability and robustness in PLA tasks. Key contributions include a comparative analysis of prompting strategies, finetuning with QLoRA on different LLMs, and the integration of MoA technique. Our findings demonstrate the effectiveness of LLM-driven PLA, showcasing its potential in making healthcare information more comprehensible while preserving essential content.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/ntu_nlp.plaba.pdf",
-            "key": "ntu_nlp-trec2024-papers-proc-1",
-            "bibtex": "@inproceedings{ntu_nlp-trec2024-papers-proc-1,\n\ttitle = {Enhancing Accessibility of Medical Texts through Large Language Model-Driven Plain Language Adaptation},\n\tauthor = {Ting-Wei Chang and Hen-Hsen Huang and Hsin-Hsi Chen},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+            "key": "coordinators-trec2024-papers-proc-2",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/Overview_medvidqa.pdf",
+            "title": "Overview of TREC 2024 Medical Video Question Answering (MedVidQA) Track",
+            "author": "Deepak Gupta,  Dina Demner-Fushman",
+            "abstract": "One of the key goals of artificial intelligence (AI) is the development of a multimodal system that facilitates communication with the visual world (image and video) using a natural language query. Earlier works on medical question answering primarily focused on textual and visual (image) modalities, which may be inefficient in answering questions requiring demonstration. In recent years, significant progress has been achieved due to the introduction of large-scale language-vision datasets and the development of efficient deep neural techniques that bridge the gap between language and visual understanding.",
+            "bibtex": "@inproceedings{coordinators-trec2024-papers-proc-2,\n\ttitle = {Overview of TREC 2024 Medical Video Question Answering (MedVidQA) Track},\n\tauthor = {Deepak Gupta and Dina Demner-Fushman},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
         },
-        "UM-trec2024-papers-proc-2": {
-            "file": "UM.plaba.pdf",
-            "pid": "UM",
-            "title": "MALEI at the PLABA Track of TAC-2024: RoBERTa for Task 1 \u2013 LLaMA3.1 and GPT-4o for Task 2",
-            "author": "Zhidong Ling,  Zihao Li,  Pablo Romero,  Lifeng Han,  Goran Nenadic",
-            "abstract": "This report is the system description of the \\textsc{MaLei} team (\\textbf{Manchester} and \\textbf{Leiden}) for shared task Plain Language Adaptation of Biomedical Abstracts (PLABA) 2024 (we had an earlier name BeeManc following last year). \r\nThis report contains two sections corresponding to the two sub-tasks in PLABA-2024. \r\nIn task one, we applied fine-tuned ReBERTa-Base models to identify and classify the difficult terms, jargon and acronyms in the biomedical abstracts and reported the F1 score. \r\nDue to time constraints, we didn't finish the replacement task. \r\nIn task two, we leveraged Llamma3.1-70B-Instruct and GPT-4o with the one-shot prompts to complete the abstract adaptation and reported the scores in BLEU, SARI, BERTScore, LENS, and SALSA.\r\nFrom the official Evaluation from PLABA-2024 on Task 1A and 1B, our \\textbf{much smaller fine-tuned RoBERTa-Base} model ranked 3rd and 2nd respectively on the two sub-tasks, and the \\textbf{1st on averaged F1 scores across the two tasks} from 9 evaluated systems. Our LLaMA-3.1-70B-instructed model achieved the \\textbf{highest Completeness} score for Task-2.\r\nWe share our source codes, fine-tuned models, and related resources at \\url{https://github.com/HECTA-UoM/PLABA2024}",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/UM.plaba.pdf",
-            "key": "UM-trec2024-papers-proc-2",
-            "bibtex": "@inproceedings{UM-trec2024-papers-proc-2,\n\ttitle = {MALEI at the PLABA Track of TAC-2024: RoBERTa for Task 1 \u2013 LLaMA3.1 and GPT-4o for Task 2},\n\tauthor = {Zhidong Ling and Zihao Li and Pablo Romero and Lifeng Han and Goran Nenadic},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
-        },
-        "um_fhs-trec2024-papers-proc-1": {
-            "file": "um_fhs.plaba.pdf",
-            "pid": "um_fhs",
-            "title": "UM_FHS at TREC 2024 PLABA: Exploration of Fine-tuning and AI agent approach for plain language adaptations of biomedical text",
-            "author": "Primoz Kocbek,  Leon Kopitar,  Zhihong Zhang,  Emirhan Ayd\u0131n,  Maxim Topaz,  Gregor Stiglic",
-            "abstract": "This paper describes our submissions to the TREC 2024 PLABA track with the aim to simplify biomedical abstracts for a K8-level audience (13\u201314 years old students). We tested three approaches using OpenAI\u2019s gpt-4o and gpt-4o-mini models: baseline prompt engineering, a two-AI agent approach, and fine-tuning. Adaptations were evaluated using qualitative metrics (5-point Likert scales for simplicity, accuracy, completeness, and brevity) and quantitative readability scores (Flesch-Kincaid grade level, SMOG Index). Results indicated that the two-agent approach and baseline prompt engineering with gpt-4o-mini models show superior qualitative performance, while fine-tuned models excelled in accuracy and completeness but were less simple. The evaluation results demonstrated that prompt engineering with gpt-4o-mini outperforms iterative improvement strategies via two-agent approach as well as fine-tuning with gpt-4o. We intend to expand our investigation of the results and explore advanced evaluations.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/um_fhs.plaba.pdf",
-            "key": "um_fhs-trec2024-papers-proc-1",
-            "bibtex": "@inproceedings{um_fhs-trec2024-papers-proc-1,\n\ttitle = {UM\\_FHS at TREC 2024 PLABA: Exploration of Fine-tuning and AI agent approach for plain language adaptations of biomedical text},\n\tauthor = {Primoz Kocbek and Leon Kopitar and Zhihong Zhang and Emirhan Ayd\u0131n and Maxim Topaz and Gregor Stiglic},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
-        },
-        "UM-trec2024-papers-proc-3": {
-            "file": "UM.plaba.pdf",
-            "pid": "UM",
-            "title": "MALEI at the PLABA Track of TREC 2024: RoBERTa for Term Replacement \u2013 LLaMA3.1 and GPT-4o for Complete Abstract Adaptation",
-            "author": "Zhidong Ling,  Zihao Li,  Pablo Romero,  Lifeng Han,  Goran Nenadic",
-            "abstract": "This report is the system description of the \\textsc{MaLei} team (\\textbf{Manchester} and \\textbf{Leiden}) for shared task Plain Language Adaptation of Biomedical Abstracts (PLABA) 2024 (we had an earlier name BeeManc following last year). \r\nThis report contains two sections corresponding to the two sub-tasks in PLABA-2024. \r\nIn task one, we applied fine-tuned ReBERTa-Base models to identify and classify the difficult terms, jargon and acronyms in the biomedical abstracts and reported the F1 score. \r\nDue to time constraints, we didn't finish the replacement task. \r\nIn task two, we leveraged Llamma3.1-70B-Instruct and GPT-4o with the one-shot prompts to complete the abstract adaptation and reported the scores in BLEU, SARI, BERTScore, LENS, and SALSA.\r\nFrom the official Evaluation from PLABA-2024 on Task 1A and 1B, our \\textbf{much smaller fine-tuned RoBERTa-Base} model ranked 3rd and 2nd respectively on the two sub-tasks, and the \\textbf{1st on averaged F1 scores across the two tasks} from 9 evaluated systems. Our LLaMA-3.1-70B-instructed model achieved the \\textbf{highest Completeness} score for Task-2.\r\nWe share our source codes, fine-tuned models, and related resources at \\url{https://github.com/HECTA-UoM/PLABA2024}",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/UM.plaba.pdf",
-            "key": "UM-trec2024-papers-proc-3",
-            "bibtex": "@inproceedings{UM-trec2024-papers-proc-3,\n\ttitle = {MALEI at the PLABA Track of TREC 2024: RoBERTa for Term Replacement \u2013 LLaMA3.1 and GPT-4o for Complete Abstract Adaptation},\n\tauthor = {Zhidong Ling and Zihao Li and Pablo Romero and Lifeng Han and Goran Nenadic},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
-        },
-        "UAmsterdam-trec2024-papers-proc-2": {
-            "file": "UAmsterdam.plaba.pdf",
-            "pid": "UAmsterdam",
-            "title": "Biomedical Text Simplification Models Trained on Aligned Abstracts and Lay Summaries",
-            "author": "Jan Bakker,  Taiki Papandreou-Lazos,  Jaap Kamps",
-            "abstract": "This paper documents the University of Amsterdam\u2019s participation in the TREC 2024 Plain Language Adaptation of Biomedical Abstracts (PLABA) Track. We investigated the effectiveness of text simplification models trained on aligned pairs of sentences in biomedical abstracts and plain language summaries. We participated in Task 2 on Complete Abstract Adaptation and conducted post-submission experiments in Task 1 on Term Replacement. Our main findings are the following. First, we used text simplification models trained on aligned real-world scientific abstracts and plain language summaries. We observed better performance for the context-aware model relative to the sentence-level model. Second, our experiments show the value of training on external corpora and demonstrate very reasonable out-of-domain performance on the PLABA data. Third, more generally, our models are conservative and cautious in gratuitous edits or information insertions. This approach ensures the fidelity of the generated output and limits the risk of overgeneration or hallucination.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/UAmsterdam.plaba.pdf",
-            "key": "UAmsterdam-trec2024-papers-proc-2",
-            "bibtex": "@inproceedings{UAmsterdam-trec2024-papers-proc-2,\n\ttitle = {Biomedical Text Simplification Models Trained on Aligned Abstracts and Lay Summaries},\n\tauthor = {Jan Bakker and Taiki Papandreou-Lazos and Jaap Kamps},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
-        },
-        "SIB-trec2024-papers-proc-7": {
-            "file": "SIB.plaba.pdf",
-            "pid": "SIB",
-            "title": "SIB Text-Mining at TREC PLABA 2024",
-            "author": "Luc Mottin,  Ana\u00c3\u008ds Mottaz,  Julien Knafou,  Alexandre Flament,  Julien Gobeill,  Patrick Ruch",
-            "abstract": "The comprehension of health information by patients has a real influence on the efficacy of their treatment. However,while more health resources are increasingly available to the public, the use of medical jargon and complex syntaxmakes them difficult to understand. Recent advances in machine translation and text simplification may help to makethese resources more accessible by adapting biomedical text into plain language. In this context, the TREC 2024 PlainLanguage Adaptation of Biomedical Abstracts track sought to develop specialized algorithms able to adapt biomedicalabstracts into plain language for the general public. The SIB Text Mining group participated in the \u201cComplete AbstractAdaptation\u201d subtask. Our first approach examines how a specific prompting using a state-of-the-art Large LanguageModel performs in the global adaptation of biomedical documents, with the intention of proposing a baseline with notechnical improvements to compare more advanced strategies. The second approach investigates how the fine tuningof the transformer handles the task, and the third approach integrates a Retrieval Augmented Generation function tohelp generate a new document based on information from relevant sources.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/SIB.plaba.pdf",
-            "key": "SIB-trec2024-papers-proc-7",
-            "bibtex": "@inproceedings{SIB-trec2024-papers-proc-7,\n\ttitle = {SIB Text-Mining at TREC PLABA 2024},\n\tauthor = {Luc Mottin and Ana\u00c3\u008ds Mottaz and Julien Knafou and Alexandre Flament and Julien Gobeill and Patrick Ruch},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
-        }
-    },
-    "vtt": {
-        "softbank-meisei-trec2024-papers-proc-2": {
-            "file": "softbank-meisei.avs.vtt.pdf",
-            "pid": "softbank-meisei",
-            "title": "Softbank-Meisei at TREC 2024",
-            "author": "Kazuya Ueki,  Yuma Suzuki,  Hiroki Takushima,  Haruki Sato,  Takumi Takada,  Aiswariya Manoj Kumar,  Hayato Tanoue,  Hiroki Nishihara,  Yuki Shibata,  Takayuki Hori",
-            "abstract": "The Softbank-Meisei team participated in the ad-hoc video search (AVS) and video-to-text (VTT) tasks at TREC 2024. In this year's AVS task, we submitted four fully automatic systems for both the main and progress tasks. Our systems utilized pre-trained vision and language models, including CLIP, BLIP, and BLIP-2, along with several other advanced models. We also expanded the original query texts using text generation and image generation techniques to enhance data diversity. The integration ratios of these models were optimized based on results from previous benchmark test datasets. In this year's VTT, as last year, we submitted four main task methods using multiple model captioning, reranking, and generative AI for summarization. For the subtasks, we submitted three methods using the output of each model. Last year's test data for the main task showed improvements of about 0.04 points in CIDEr-D and about 0.03 points in SPICE, based on the indices we had on hand.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/softbank-meisei.avs.vtt.pdf",
-            "key": "softbank-meisei-trec2024-papers-proc-2",
-            "bibtex": "@inproceedings{softbank-meisei-trec2024-papers-proc-2,\n\ttitle = {Softbank-Meisei at TREC 2024},\n\tauthor = {Kazuya Ueki and Yuma Suzuki and Hiroki Takushima and Haruki Sato and Takumi Takada and Aiswariya Manoj Kumar and Hayato Tanoue and Hiroki Nishihara and Yuki Shibata and Takayuki Hori},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
-        },
-        "softbank-meisei-trec2024-papers-proc-3": {
-            "file": "softbank-meisei.avs.vtt.pdf",
-            "pid": "softbank-meisei",
-            "title": "Softbank-Meisei at TREC 2024 Ad-hoc Video Search and Video to Text Tasks",
-            "author": "Kazuya Ueki,  Yuma Suzuki,  Hiroki Takushima,  Haruki Sato,  Takumi Takada,  Aiswariya Manoj Kumar,  Hayato Tanoue,  Hiroki Nishihara,  Yuki Shibata,  Takayuki Hori",
-            "abstract": "The Softbank-Meisei team participated in the ad-hoc video search (AVS) and video-to-text (VTT) tasks at TREC 2024. In this year's AVS task, we submitted four fully automatic systems for both the main and progress tasks. Our systems utilized pre-trained vision and language models, including CLIP, BLIP, and BLIP-2, along with several other advanced models. We also expanded the original query texts using text generation and image generation techniques to enhance data diversity. The integration ratios of these models were optimized based on results from previous benchmark test datasets. In this year's VTT, as last year, we submitted four main task methods using multiple model captioning, reranking, and generative AI for summarization. For the subtasks, we submitted three methods using the output of each model. Last year's test data for the main task showed improvements of about 0.04 points in CIDEr-D and about 0.03 points in SPICE, based on the indices we had on hand.",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/softbank-meisei.avs.vtt.pdf",
-            "key": "softbank-meisei-trec2024-papers-proc-3",
-            "bibtex": "@inproceedings{softbank-meisei-trec2024-papers-proc-3,\n\ttitle = {Softbank-Meisei at TREC 2024 Ad-hoc Video Search and Video to Text Tasks},\n\tauthor = {Kazuya Ueki and Yuma Suzuki and Hiroki Takushima and Haruki Sato and Takumi Takada and Aiswariya Manoj Kumar and Hayato Tanoue and Hiroki Nishihara and Yuki Shibata and Takayuki Hori},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
-        },
-        "coordinators-trec2024-papers-proc-6": {
-            "file": "Overview_avs.vtt.actev.pdf",
-            "pid": "overview",
-            "title": "TRECVID 2024 - Evaluating video search, captioning, and activity recognition",
-            "author": "George Awad,  Jonathan Fiscus,  Afzal Godil,  Lukas Diduch,  Yvette Graham,  Georges Qu\u00e9not",
-            "abstract": "The TREC Video Retrieval Evaluation (TRECVID) is a TREC-style video analysis and retrieval evaluation with the goal of promoting progress in research and development of content-based exploitation and retrieval of information from digital video via open, tasks-based evaluation supported by metrology.\r\nOver the last two decades, this effort has yielded a better understanding of how systems can effectively accomplish such processing and how one can reliably benchmark their performance. TRECVID has been funded by NIST (National Institute of Standards and Technology) and other US government agencies. In addition, many organizations and individuals world-wide contribute significant time and effort. This year TRECVID has been merged back to TREC (Text Retrieval Conference1) and planned the following four tracks:\r\n1. Ad-hoc Video Search (AVS)\r\n2. Video to Text (VTT)\r\n3. Activities in Extended Video (ActEV)\r\n4. Medical Video Question Answering (Med-VidQA)",
-            "url": "https://trec.nist.gov/pubs/trec33/papers/Overview_avs.vtt.actev.pdf",
-            "key": "coordinators-trec2024-papers-proc-6",
-            "bibtex": "@inproceedings{coordinators-trec2024-papers-proc-6,\n\ttitle = {TRECVID 2024 - Evaluating video search, captioning, and activity recognition},\n\tauthor = {George Awad and Jonathan Fiscus and Afzal Godil and Lukas Diduch and Yvette Graham and Georges Qu\u00e9not},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
+        "DoshishaUzlDfki-trec2024-papers-proc-1": {
+            "file": "DoshishaUzlDfki.medvidqa.pdf",
+            "pid": "DoshishaUzlDfki",
+            "key": "DoshishaUzlDfki-trec2024-papers-proc-1",
+            "url": "https://trec.nist.gov/pubs/trec33/papers/DoshishaUzlDfki.medvidqa.pdf",
+            "title": "Doshisha University, Universit\u00e4t zu L\u00fcbeck and German Research Center for Artificial Intelligence at TRECVID 2024: QFISC Task",
+            "author": "Zihao Chen,  Falco Lentzsch,  Nele S. Br\u00fcgge,  Fr\u00e9d\u00e9ric Li,  Miho Ohsaki,  Heinz Handels,  Marcin Grzegorzek,  Kimiaki Shirahama",
+            "abstract": "This paper presents the approaches proposed by the DoshishaUzlDfki team to address the Query-Focused Instructional Step Captioning (QFISC) task of TRECVID 2024. Given some RGB videos containing stepwise instructions, we explored several techniques to automatically identify the boundaries of each step, and provide a caption to it. More specifically, two different types of methods were investigated for temporal video segmentation. The first uses the CoSeg approach proposed by Wang et al. [9] based on Event Segmentation Theory, which hypothesises that video frames at the boundaries of steps are harder to predict since they tend to contain more significant visual changes. In detail, CoSeg detects event boundaries in the RGB video stream by finding the local maxima in the reconstruction error of a model trained to reconstruct the temporal contrastive embeddings of video snippets. The second type of approaches we tested exclusively relies on the audio modality, and is based on the hypothesis that information about step transitions is often semantically contained in the verbal transcripts of the videos. In detail, we used the WhisperX model [3] that isolates speech parts in the audio tracks of the videos, and converts them into timestamped text transcripts. The latter were then sent as input of a Large Language Model (LLM) with a carefully designed prompt requesting the LLM to identify step boundaries. Once the temporal video segmentation performed, we sent the WhisperX transcripts corresponding to the video segments determined by both methods to a LLM instructed to caption them. The GPT4o and Mistral Large 2 LLMs were employed in our experiments for both segmentation and captioning. Our results show that the temporal segmentation methods based on audio-processing significantly outperform the video-based one. More specifically, the best performances we obtained are yielded by our approach using GPT4o with zero-shot prompting for temporal segmentation. It achieves the top global performances of all runs submitted to the QFISC task in all evaluation metrics, except for precision whose best performance is obtained by our run using Mistral Large 2 with chain-of-thoughts prompting.",
+            "bibtex": "@inproceedings{DoshishaUzlDfki-trec2024-papers-proc-1,\n\ttitle = {Doshisha University, Universit\u00e4t zu L\u00fcbeck and German Research Center for Artificial Intelligence at TRECVID 2024: QFISC Task},\n\tauthor = {Zihao Chen and Falco Lentzsch and Nele S. Br\u00fcgge and Fr\u00e9d\u00e9ric Li and Miho Ohsaki and Heinz Handels and Marcin Grzegorzek and Kimiaki Shirahama},\n\tbooktitle = {Proceedings of the 33th Text {REtrieval} Conference (TREC 2024)},\n\tyear = {2024},\n\taddress = {Gaithersburg, Maryland},\n\tseries = {NIST SP 1329}\n}\n"
         }
     }
 }

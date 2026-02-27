@@ -121,6 +121,7 @@ nav:
     - Data: trec33/neuclir/data.md
     - Participants: trec33/neuclir/participants.md
     - Runs: trec33/neuclir/runs.md
+    - Proceedings: trec33/neuclir/proceedings.md
   - Plain-Language Adaptation of Biomedical Abstracts:
     - Overview: trec33/plaba/overview.md
     - Data: trec33/plaba/data.md
