@@ -75,10 +75,11 @@ To build the Markdown files for all conferences that are contained within the `m
 python scripts/build_all_conferences.py
 ```
 
-Alternatively, you can build Markdown files for a specific conference. Note that you have to update the `trec` variable in `build_single_conference.py`:
+Alternatively, you can build Markdown files for a specific conference.
 ```
-python scripts/build_single_conference.py
+python scripts/build_single_conference.py trec8
 ```
+(substitute the conference you are building for `trec8`.)
 
 ### Build the HTML files 
 
