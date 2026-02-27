@@ -64,6 +64,10 @@ Each conference has a separte folder, e.g., `trec8`. Within that directory, ther
 > 2. Additionally, add the BibTeX data to `resources/input/bibtext/trec.bib`. The BibTeX identifier is used to associate the entries in `abstracts.json` with the full BibTeX data. Note that  `abstracts.json` is only required to generate `publications.json`, it won't be used for building the Markdown files.  
 > 3. Finally, run `python scripts/parse_publications.py` and `publications.json` should be created in the directory of the conference.
 
+You then need to assemble the master input JSON files:
+> 1. run `python scripts/assemble_json.py metadata abstracts.json resources/input/json/abstracts.json`
+> 2. run `python scripts/assemble_json.py metadata publications.json resources/input/json/publications.json`
+
 ### Build the Markdown files 
 
 To build the Markdown files for all conferences that are contained within the `metadata/` directory run `build_all_conferences.py`. Note that it is not required to rebuild all Markdown files as they are contained in this repository for past conferences.
@@ -82,6 +86,8 @@ Once the files in browser/docs/ are generated, run the following command to buil
 ```
 cd browser && mkdocs build 
 ```
+
+If you have added a new conference, or a section (like runs or proceedings) to an existing conference, you need to update the navigation in the mkdocs.yml file.
 
 Optionally, you can run the browser locally to double-check the results:
 ```
