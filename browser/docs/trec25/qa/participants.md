@@ -1,39 +1,14 @@
 # Participants - LiveQA 2016
 
-#### NUDT681
-- :fontawesome-solid-user-group: **Name:** ZhongCheng Zhou
-- :octicons-organization-16: **Organization:** National University of Defense Technology
-- :material-file-search: **Runs:** [NUDT681](./runs.md#nudt681) | [NUDT681__](./runs.md#nudt681__) | [NUDT681_2](./runs.md#nudt681_2) | [NUDT681_3](./runs.md#nudt681_3)
+#### CLIP
+- :fontawesome-solid-user-group: **Name:** Mossaab Bagdouri
+- :octicons-organization-16: **Organization:** University of Maryland
+- :material-file-search: **Runs:** [CLIP-YA](./runs.md#clip-ya)
 
 ---
-#### ECNU
-- :fontawesome-solid-user-group: **Name:** ECNU
-- :octicons-organization-16: **Organization:** East China Normal University
-- :material-file-search: **Runs:** [ECNU](./runs.md#ecnu)
-
----
-#### WaterlooClarke
-- :fontawesome-solid-user-group: **Name:** Charles Clarke
-- :octicons-organization-16: **Organization:** University of Waterloo
-- :material-file-search: **Runs:** [UWL](./runs.md#uwl)
-
----
-#### dfkiqa
-- :fontawesome-solid-user-group: **Name:** Guenter Neumann
-- :octicons-organization-16: **Organization:** German Research Centre for Artificial Intelligence (DFKI GmbH)
-- :material-file-search: **Runs:** [DFKI](./runs.md#dfki)
-
----
-#### QU
-- :fontawesome-solid-user-group: **Name:** Tamer Elsayed
-- :octicons-organization-16: **Organization:** Qatar University
-- :material-file-search: **Runs:** [QU](./runs.md#qu) | [QU2](./runs.md#qu2) | [QU3](./runs.md#qu3)
-
----
-#### AKSW
-- :fontawesome-solid-user-group: **Name:** Edgard Marx
-- :octicons-organization-16: **Organization:** Leipzig University / AKSW
-- :material-file-search: **Runs:** [SMART](./runs.md#smart)
+#### BJUT
+- :fontawesome-solid-user-group: **Name:** Zhen Yang
+- :octicons-organization-16: **Organization:** Beijing University of Technology
 
 ---
 #### prna
@@ -42,22 +17,16 @@
 - :material-file-search: **Runs:** [prna](./runs.md#prna)
 
 ---
-#### JBC-TREC2016
-- :fontawesome-solid-user-group: **Name:** Josue Balandrano Coronel
-- :octicons-organization-16: **Organization:** Texas Advanced Computer Center
-- :material-file-search: **Runs:** [UTRGV](./runs.md#utrgv)
-
----
-#### ecnucs
-- :fontawesome-solid-user-group: **Name:** Lan Man
-- :octicons-organization-16: **Organization:** East China Normal University
-- :material-file-search: **Runs:** [EastChinaNormalUniversity](./runs.md#eastchinanormaluniversity)
-
----
 #### NUDTMDP
 - :fontawesome-solid-user-group: **Name:** Chao An
 - :octicons-organization-16: **Organization:** College of Computer, National University of Defense Technology
 - :material-file-search: **Runs:** [NUDTMDP1](./runs.md#nudtmdp1) | [NUDTMDP2](./runs.md#nudtmdp2)
+
+---
+#### NUDT681
+- :fontawesome-solid-user-group: **Name:** ZhongCheng Zhou
+- :octicons-organization-16: **Organization:** National University of Defense Technology
+- :material-file-search: **Runs:** [NUDT681](./runs.md#nudt681) | [NUDT681__](./runs.md#nudt681__) | [NUDT681_2](./runs.md#nudt681_2) | [NUDT681_3](./runs.md#nudt681_3)
 
 ---
 #### RMIT
@@ -66,28 +35,34 @@
 - :material-file-search: **Runs:** [RMIT-11](./runs.md#rmit-11) | [RMIT-12](./runs.md#rmit-12) | [RMIT-1](./runs.md#rmit-1) | [RMIT-2](./runs.md#rmit-2)
 
 ---
+#### ecnucs
+- :fontawesome-solid-user-group: **Name:** Lan Man
+- :octicons-organization-16: **Organization:** East China Normal University
+- :material-file-search: **Runs:** [EastChinaNormalUniversity](./runs.md#eastchinanormaluniversity)
+
+---
+#### QU
+- :fontawesome-solid-user-group: **Name:** Tamer Elsayed
+- :octicons-organization-16: **Organization:** Qatar University
+- :material-file-search: **Runs:** [QU](./runs.md#qu) | [QU2](./runs.md#qu2) | [QU3](./runs.md#qu3)
+
+---
+#### WaterlooClarke
+- :fontawesome-solid-user-group: **Name:** Charles Clarke
+- :octicons-organization-16: **Organization:** University of Waterloo
+- :material-file-search: **Runs:** [UWL](./runs.md#uwl)
+
+---
+#### ECNU
+- :fontawesome-solid-user-group: **Name:** ECNU
+- :octicons-organization-16: **Organization:** East China Normal University
+- :material-file-search: **Runs:** [ECNU](./runs.md#ecnu)
+
+---
 #### CMU-OAQA
 - :fontawesome-solid-user-group: **Name:** Di Wang
 - :octicons-organization-16: **Organization:** Carnegie Mellon University
 - :material-file-search: **Runs:** [CMU](./runs.md#cmu)
-
----
-#### CLIP
-- :fontawesome-solid-user-group: **Name:** Mossaab Bagdouri
-- :octicons-organization-16: **Organization:** University of Maryland
-- :material-file-search: **Runs:** [CLIP-YA](./runs.md#clip-ya)
-
----
-#### Yahoo-Exp2
-- :fontawesome-solid-user-group: **Name:** Alexander Nus
-- :octicons-organization-16: **Organization:** YAHOO
-- :material-file-search: **Runs:** [Q2A](./runs.md#q2a)
-
----
-#### EmoryIrLab
-- :fontawesome-solid-user-group: **Name:** Denis Savenkov
-- :octicons-organization-16: **Organization:** Emory University
-- :material-file-search: **Runs:** [EmoryCrowd](./runs.md#emorycrowd) | [OutOfmEmory](./runs.md#outofmemory)
 
 ---
 #### IR.SFSU.2016
@@ -96,8 +71,33 @@
 - :material-file-search: **Runs:** [IRSFSU](./runs.md#irsfsu)
 
 ---
-#### BJUT
-- :fontawesome-solid-user-group: **Name:** Zhen Yang
-- :octicons-organization-16: **Organization:** Beijing University of Technology
+#### AKSW
+- :fontawesome-solid-user-group: **Name:** Edgard Marx
+- :octicons-organization-16: **Organization:** Leipzig University / AKSW
+- :material-file-search: **Runs:** [SMART](./runs.md#smart)
+
+---
+#### JBC-TREC2016
+- :fontawesome-solid-user-group: **Name:** Josue Balandrano Coronel
+- :octicons-organization-16: **Organization:** Texas Advanced Computer Center
+- :material-file-search: **Runs:** [UTRGV](./runs.md#utrgv)
+
+---
+#### Yahoo-Exp2
+- :fontawesome-solid-user-group: **Name:** Alexander Nus
+- :octicons-organization-16: **Organization:** YAHOO
+- :material-file-search: **Runs:** [Q2A](./runs.md#q2a)
+
+---
+#### dfkiqa
+- :fontawesome-solid-user-group: **Name:** Guenter Neumann
+- :octicons-organization-16: **Organization:** German Research Centre for Artificial Intelligence (DFKI GmbH)
+- :material-file-search: **Runs:** [DFKI](./runs.md#dfki)
+
+---
+#### EmoryIrLab
+- :fontawesome-solid-user-group: **Name:** Denis Savenkov
+- :octicons-organization-16: **Organization:** Emory University
+- :material-file-search: **Runs:** [EmoryCrowd](./runs.md#emorycrowd) | [OutOfmEmory](./runs.md#outofmemory)
 
 ---

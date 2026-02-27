@@ -1,5 +1,35 @@
 # Participants - Health Misinformation 2021
 
+#### CiTIUS
+- :fontawesome-solid-user-group: **Name:** Marcos Fernndez-Pichel
+- :octicons-organization-16: **Organization:** University of Santiago de Compostela
+- :material-file-search: **Runs:** [citius.r1](./runs.md#citiusr1) | [citius.r2](./runs.md#citiusr2) | [citius.r3](./runs.md#citiusr3) | [citius.r4](./runs.md#citiusr4) | [citius.r5](./runs.md#citiusr5) | [citius.r6](./runs.md#citiusr6) | [citius.r9](./runs.md#citiusr9) | [citius.r10](./runs.md#citiusr10) | [citius.r7](./runs.md#citiusr7) | [citius.r8](./runs.md#citiusr8)
+
+---
+#### Webis
+- :fontawesome-solid-user-group: **Name:** Alexander Bondarenko
+- :octicons-organization-16: **Organization:** Webis@Halle, Leipzig, Weimar
+- :material-file-search: **Runs:** [webis-bm25](./runs.md#webis-bm25) | [webis-t5](./runs.md#webis-t5) | [webis-bm25-ax1](./runs.md#webis-bm25-ax1) | [webis-bm25-ax3](./runs.md#webis-bm25-ax3) | [webis-t5-ax1](./runs.md#webis-t5-ax1) | [webis-t5-ax3](./runs.md#webis-t5-ax3)
+
+---
+#### Waterloo_Cormack
+- :fontawesome-solid-user-group: **Name:** Gordon Cormack
+- :octicons-organization-16: **Organization:** University of Waterloo
+- :material-file-search: **Runs:** [watrrfall](./runs.md#watrrfall) | [watrrfg](./runs.md#watrrfg) | [watrrfnp](./runs.md#watrrfnp) | [watbm25](./runs.md#watbm25) | [watbm25p](./runs.md#watbm25p) | [watgoog](./runs.md#watgoog) | [watgoogp](./runs.md#watgoogp) | [watmed](./runs.md#watmed) | [watrrfm](./runs.md#watrrfm)
+
+---
+#### h2oloo
+- :fontawesome-solid-user-group: **Name:** Jimmy Lin
+- :octicons-organization-16: **Organization:** University of Waterloo
+- :material-file-search: **Runs:** [bm25](./runs.md#bm25) | [mt5](./runs.md#mt5) | [vera_mdt5_0.95](./runs.md#vera_mdt5_095) | [mdt5_r](./runs.md#mdt5_r) | [vera0](./runs.md#vera0) | [mt5_r](./runs.md#mt5_r) | [mdt5](./runs.md#mdt5) | [vera_mt5_0.95](./runs.md#vera_mt5_095) | [vera_mdt5_0.5](./runs.md#vera_mdt5_05) | [vera_mt5_0.5](./runs.md#vera_mt5_05)
+
+---
+#### DigiLab
+- :fontawesome-solid-user-group: **Name:** Boya Zhang
+- :octicons-organization-16: **Organization:** University of Geneva
+- :material-file-search: **Runs:** [bow_sup_cred](./runs.md#bow_sup_cred) | [mlm_sup_cred](./runs.md#mlm_sup_cred) | [lin_use_sup_rf](./runs.md#lin_use_sup_rf) | [all_use_sup_cre](./runs.md#all_use_sup_cre) | [use_sup_cred](./runs.md#use_sup_cred) | [use_rob_cred](./runs.md#use_rob_cred) | [bm25_rob_rf](./runs.md#bm25_rob_rf)
+
+---
 #### UWaterlooMDS
 - :fontawesome-solid-user-group: **Name:** Mark Smucker
 - :octicons-organization-16: **Organization:** Smucker Group, Univ. of Waterloo
@@ -10,35 +40,5 @@
 - :fontawesome-solid-user-group: **Name:** Ipek Baris Schlicht
 - :octicons-organization-16: **Organization:** Technical University of Valencia
 - :material-file-search: **Runs:** [upv_bm25](./runs.md#upv_bm25) | [upv_fuse_2](./runs.md#upv_fuse_2) | [upv_fuse_3](./runs.md#upv_fuse_3) | [upv_fuse_4](./runs.md#upv_fuse_4) | [upv_fuse_5](./runs.md#upv_fuse_5) | [upv_fuse_6](./runs.md#upv_fuse_6) | [upv_fuse_7](./runs.md#upv_fuse_7) | [upv_fuse_8](./runs.md#upv_fuse_8) | [upv_fuse_9](./runs.md#upv_fuse_9) | [upv_fuse_10](./runs.md#upv_fuse_10)
-
----
-#### h2oloo
-- :fontawesome-solid-user-group: **Name:** Jimmy Lin
-- :octicons-organization-16: **Organization:** University of Waterloo
-- :material-file-search: **Runs:** [bm25](./runs.md#bm25) | [mt5](./runs.md#mt5) | [vera_mdt5_0.95](./runs.md#vera_mdt5_095) | [mdt5_r](./runs.md#mdt5_r) | [vera0](./runs.md#vera0) | [mt5_r](./runs.md#mt5_r) | [mdt5](./runs.md#mdt5) | [vera_mt5_0.95](./runs.md#vera_mt5_095) | [vera_mdt5_0.5](./runs.md#vera_mdt5_05) | [vera_mt5_0.5](./runs.md#vera_mt5_05)
-
----
-#### Waterloo_Cormack
-- :fontawesome-solid-user-group: **Name:** Gordon Cormack
-- :octicons-organization-16: **Organization:** University of Waterloo
-- :material-file-search: **Runs:** [watrrfall](./runs.md#watrrfall) | [watrrfg](./runs.md#watrrfg) | [watrrfnp](./runs.md#watrrfnp) | [watbm25](./runs.md#watbm25) | [watbm25p](./runs.md#watbm25p) | [watgoog](./runs.md#watgoog) | [watgoogp](./runs.md#watgoogp) | [watmed](./runs.md#watmed) | [watrrfm](./runs.md#watrrfm)
-
----
-#### CiTIUS
-- :fontawesome-solid-user-group: **Name:** Marcos Fernndez-Pichel
-- :octicons-organization-16: **Organization:** University of Santiago de Compostela
-- :material-file-search: **Runs:** [citius.r1](./runs.md#citiusr1) | [citius.r2](./runs.md#citiusr2) | [citius.r3](./runs.md#citiusr3) | [citius.r4](./runs.md#citiusr4) | [citius.r5](./runs.md#citiusr5) | [citius.r6](./runs.md#citiusr6) | [citius.r9](./runs.md#citiusr9) | [citius.r10](./runs.md#citiusr10) | [citius.r7](./runs.md#citiusr7) | [citius.r8](./runs.md#citiusr8)
-
----
-#### DigiLab
-- :fontawesome-solid-user-group: **Name:** Boya Zhang
-- :octicons-organization-16: **Organization:** University of Geneva
-- :material-file-search: **Runs:** [bow_sup_cred](./runs.md#bow_sup_cred) | [mlm_sup_cred](./runs.md#mlm_sup_cred) | [lin_use_sup_rf](./runs.md#lin_use_sup_rf) | [all_use_sup_cre](./runs.md#all_use_sup_cre) | [use_sup_cred](./runs.md#use_sup_cred) | [use_rob_cred](./runs.md#use_rob_cred) | [bm25_rob_rf](./runs.md#bm25_rob_rf)
-
----
-#### Webis
-- :fontawesome-solid-user-group: **Name:** Alexander Bondarenko
-- :octicons-organization-16: **Organization:** Webis@Halle, Leipzig, Weimar
-- :material-file-search: **Runs:** [webis-bm25](./runs.md#webis-bm25) | [webis-t5](./runs.md#webis-t5) | [webis-bm25-ax1](./runs.md#webis-bm25-ax1) | [webis-bm25-ax3](./runs.md#webis-bm25-ax3) | [webis-t5-ax1](./runs.md#webis-t5-ax1) | [webis-t5-ax3](./runs.md#webis-t5-ax3)
 
 ---

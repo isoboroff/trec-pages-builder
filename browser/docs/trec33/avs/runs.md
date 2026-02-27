@@ -621,7 +621,7 @@
 
 ---
 #### SoftbankMeisei - Main Run 1  
-[**`Participants`**](./participants.md#softbank-meisei) | [**`Proceedings`**](./proceedings.md#softbank-meisei-trec2024-papers-proc-2) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-avs-main.html)  
+[**`Participants`**](./participants.md#softbank-meisei) | [**`Proceedings`**](./proceedings.md#softbank-meisei-at-trec-2024) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-avs-main.html)  
 
 - :material-rename: **Run ID:** SoftbankMeisei - Main Run 1  
 - :fontawesome-solid-user-group: **Participant:** softbank-meisei  
@@ -633,7 +633,7 @@
 
 ---
 #### SoftbankMeisei - Main Run 2  
-[**`Participants`**](./participants.md#softbank-meisei) | [**`Proceedings`**](./proceedings.md#softbank-meisei-trec2024-papers-proc-2) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-avs-main.html)  
+[**`Participants`**](./participants.md#softbank-meisei) | [**`Proceedings`**](./proceedings.md#softbank-meisei-at-trec-2024) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-avs-main.html)  
 
 - :material-rename: **Run ID:** SoftbankMeisei - Main Run 2  
 - :fontawesome-solid-user-group: **Participant:** softbank-meisei  
@@ -645,7 +645,7 @@
 
 ---
 #### SoftbankMeisei - Main Run 3  
-[**`Participants`**](./participants.md#softbank-meisei) | [**`Proceedings`**](./proceedings.md#softbank-meisei-trec2024-papers-proc-2) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-avs-main.html)  
+[**`Participants`**](./participants.md#softbank-meisei) | [**`Proceedings`**](./proceedings.md#softbank-meisei-at-trec-2024) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-avs-main.html)  
 
 - :material-rename: **Run ID:** SoftbankMeisei - Main Run 3  
 - :fontawesome-solid-user-group: **Participant:** softbank-meisei  
@@ -657,7 +657,7 @@
 
 ---
 #### SoftbankMeisei - Main Run 4  
-[**`Participants`**](./participants.md#softbank-meisei) | [**`Proceedings`**](./proceedings.md#softbank-meisei-trec2024-papers-proc-2) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-avs-main.html)  
+[**`Participants`**](./participants.md#softbank-meisei) | [**`Proceedings`**](./proceedings.md#softbank-meisei-at-trec-2024) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-avs-main.html)  
 
 - :material-rename: **Run ID:** SoftbankMeisei - Main Run 4  
 - :fontawesome-solid-user-group: **Participant:** softbank-meisei  
@@ -669,7 +669,7 @@
 
 ---
 #### SoftbankMeisei - Progress Run 1  
-[**`Participants`**](./participants.md#softbank-meisei) | [**`Proceedings`**](./proceedings.md#softbank-meisei-trec2024-papers-proc-2) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-avs-progress.html)  
+[**`Participants`**](./participants.md#softbank-meisei) | [**`Proceedings`**](./proceedings.md#softbank-meisei-at-trec-2024) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-avs-progress.html)  
 
 - :material-rename: **Run ID:** SoftbankMeisei - Progress Run 1  
 - :fontawesome-solid-user-group: **Participant:** softbank-meisei  
@@ -681,7 +681,7 @@
 
 ---
 #### SoftbankMeisei - Progress Run 2  
-[**`Participants`**](./participants.md#softbank-meisei) | [**`Proceedings`**](./proceedings.md#softbank-meisei-trec2024-papers-proc-2) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-avs-progress.html)  
+[**`Participants`**](./participants.md#softbank-meisei) | [**`Proceedings`**](./proceedings.md#softbank-meisei-at-trec-2024) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-avs-progress.html)  
 
 - :material-rename: **Run ID:** SoftbankMeisei - Progress Run 2  
 - :fontawesome-solid-user-group: **Participant:** softbank-meisei  
@@ -693,7 +693,7 @@
 
 ---
 #### SoftbankMeisei - Progress Run 3  
-[**`Participants`**](./participants.md#softbank-meisei) | [**`Proceedings`**](./proceedings.md#softbank-meisei-trec2024-papers-proc-2) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-avs-progress.html)  
+[**`Participants`**](./participants.md#softbank-meisei) | [**`Proceedings`**](./proceedings.md#softbank-meisei-at-trec-2024) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-avs-progress.html)  
 
 - :material-rename: **Run ID:** SoftbankMeisei - Progress Run 3  
 - :fontawesome-solid-user-group: **Participant:** softbank-meisei  
@@ -705,7 +705,7 @@
 
 ---
 #### SoftbankMeisei - Progress Run 4  
-[**`Participants`**](./participants.md#softbank-meisei) | [**`Proceedings`**](./proceedings.md#softbank-meisei-trec2024-papers-proc-2) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-avs-progress.html)  
+[**`Participants`**](./participants.md#softbank-meisei) | [**`Proceedings`**](./proceedings.md#softbank-meisei-at-trec-2024) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-avs-progress.html)  
 
 - :material-rename: **Run ID:** SoftbankMeisei - Progress Run 4  
 - :fontawesome-solid-user-group: **Participant:** softbank-meisei  

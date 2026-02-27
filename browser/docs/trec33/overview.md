@@ -125,7 +125,7 @@ The recent surge in the availability of online videos has changed the way of acq
 
 ## NeuCLIR
 
-[`Overview`](./neuclir/overview.md) | [`Data`](./neuclir/data.md) | [`Runs`](./neuclir/runs.md) | [`Participants`](./neuclir/participants.md)
+[`Overview`](./neuclir/overview.md) | [`Proceedings`](./neuclir/proceedings.md) | [`Data`](./neuclir/data.md) | [`Runs`](./neuclir/runs.md) | [`Participants`](./neuclir/participants.md)
 
 {==
 

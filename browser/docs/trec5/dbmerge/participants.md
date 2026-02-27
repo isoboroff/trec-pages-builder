@@ -1,13 +1,13 @@
 # Participants - Database Merging 1996
 
+#### FS Consulting
+- :material-file-search: **Runs:** [fsclt3m](./runs.md#fsclt3m)
+
+---
 #### Neuchatel
 - :fontawesome-solid-user-group: **Name:** Jacques Savoy
 - :octicons-organization-16: **Organization:** Universite de Neuchatel
 - :material-file-search: **Runs:** [UniNE9](./runs.md#unine9) | [UniNE0](./runs.md#unine0)
-
----
-#### FS Consulting
-- :material-file-search: **Runs:** [fsclt3m](./runs.md#fsclt3m)
 
 ---
 #### ANU

@@ -1,21 +1,9 @@
 # Participants - Video 2002
 
-#### amsterdam_isis
-- :fontawesome-solid-user-group: **Name:** Marcel Worring
-- :octicons-organization-16: **Organization:** University of Amsterdam-Worring
-- :material-file-search: **Runs:** [Vworring](./runs.md#vworring)
-
----
-#### RMIT
-- :fontawesome-solid-user-group: **Name:** Hugh Williams
-- :octicons-organization-16: **Organization:** RMIT University
-- :material-file-search: **Runs:** [VRMIT](./runs.md#vrmit)
-
----
-#### ubremen
-- :fontawesome-solid-user-group: **Name:** Otthein Herzog
-- :octicons-organization-16: **Organization:** Univ. of Bremen
-- :material-file-search: **Runs:** [VBremen](./runs.md#vbremen)
+#### singapre_hui
+- :fontawesome-solid-user-group: **Name:** Yang Hui
+- :octicons-organization-16: **Organization:** National University of Singapore-Hui
+- :material-file-search: **Runs:** [VNUS](./runs.md#vnus)
 
 ---
 #### tno_tpd
@@ -36,70 +24,16 @@
 - :material-file-search: **Runs:** [Vclips](./runs.md#vclips)
 
 ---
-#### singapre_hui
-- :fontawesome-solid-user-group: **Name:** Yang Hui
-- :octicons-organization-16: **Organization:** National University of Singapore-Hui
-- :material-file-search: **Runs:** [VNUS](./runs.md#vnus)
-
----
-#### oulu
-- :fontawesome-solid-user-group: **Name:** Timo Ojala
-- :octicons-organization-16: **Organization:** University of Oulu
-- :material-file-search: **Runs:** [VOulu](./runs.md#voulu)
-
----
 #### prous
 - :fontawesome-solid-user-group: **Name:** Jesus Salillas
 - :octicons-organization-16: **Organization:** Prous Science
 - :material-file-search: **Runs:** [Vprous](./runs.md#vprous)
 
 ---
-#### cwi
-- :fontawesome-solid-user-group: **Name:** Arjen P. de Vries
-- :octicons-organization-16: **Organization:** CWI
-- :material-file-search: **Runs:** [VCWI](./runs.md#vcwi)
-
----
-#### imperial
-- :fontawesome-solid-user-group: **Name:** Stefan Rueger
-- :octicons-organization-16: **Organization:** Imperial College of Science, Technology and Medicine
-- :material-file-search: **Runs:** [VImperial](./runs.md#vimperial)
-
----
-#### umd_oard
-- :fontawesome-solid-user-group: **Name:** Doug Oard
-- :octicons-organization-16: **Organization:** University of Maryland-Oard
-- :material-file-search: **Runs:** [VUMD](./runs.md#vumd)
-
----
-#### cmu-Hauptmann-video
-- :fontawesome-solid-user-group: **Name:** Alexander Hauptmann
-- :octicons-organization-16: **Organization:** Carnegie Mellon University-Hauptmann
-- :material-file-search: **Runs:** [VCMU](./runs.md#vcmu)
-
----
-#### ibm-video
-- :fontawesome-solid-user-group: **Name:** John R. Smith
-- :octicons-organization-16: **Organization:** IBM T. J. Watson Research Center-video
-- :material-file-search: **Runs:** [VIBM](./runs.md#vibm)
-
----
-#### Fudan
-- :fontawesome-solid-user-group: **Name:** Wu Lide
-- :octicons-organization-16: **Organization:** Fudan University
-- :material-file-search: **Runs:** [VFudan](./runs.md#vfudan)
-
----
-#### eurecom
-- :fontawesome-solid-user-group: **Name:** Bernard Merialdo
-- :octicons-organization-16: **Organization:** Institut EURECOM
-- :material-file-search: **Runs:** [Veurecom](./runs.md#veurecom)
-
----
-#### dublin
-- :fontawesome-solid-user-group: **Name:** Alan Smeaton
-- :octicons-organization-16: **Organization:** Dublin City University
-- :material-file-search: **Runs:** [VDublin](./runs.md#vdublin)
+#### amsterdam_isis
+- :fontawesome-solid-user-group: **Name:** Marcel Worring
+- :octicons-organization-16: **Organization:** University of Amsterdam-Worring
+- :material-file-search: **Runs:** [Vworring](./runs.md#vworring)
 
 ---
 #### microsoft_video
@@ -108,9 +42,75 @@
 - :material-file-search: **Runs:** [Vmicrosoft](./runs.md#vmicrosoft)
 
 ---
+#### Fudan
+- :fontawesome-solid-user-group: **Name:** Wu Lide
+- :octicons-organization-16: **Organization:** Fudan University
+- :material-file-search: **Runs:** [VFudan](./runs.md#vfudan)
+
+---
+#### ubremen
+- :fontawesome-solid-user-group: **Name:** Otthein Herzog
+- :octicons-organization-16: **Organization:** Univ. of Bremen
+- :material-file-search: **Runs:** [VBremen](./runs.md#vbremen)
+
+---
+#### eurecom
+- :fontawesome-solid-user-group: **Name:** Bernard Merialdo
+- :octicons-organization-16: **Organization:** Institut EURECOM
+- :material-file-search: **Runs:** [Veurecom](./runs.md#veurecom)
+
+---
+#### RMIT
+- :fontawesome-solid-user-group: **Name:** Hugh Williams
+- :octicons-organization-16: **Organization:** RMIT University
+- :material-file-search: **Runs:** [VRMIT](./runs.md#vrmit)
+
+---
+#### ibm-video
+- :fontawesome-solid-user-group: **Name:** John R. Smith
+- :octicons-organization-16: **Organization:** IBM T. J. Watson Research Center-video
+- :material-file-search: **Runs:** [VIBM](./runs.md#vibm)
+
+---
+#### cmu-Hauptmann-video
+- :fontawesome-solid-user-group: **Name:** Alexander Hauptmann
+- :octicons-organization-16: **Organization:** Carnegie Mellon University-Hauptmann
+- :material-file-search: **Runs:** [VCMU](./runs.md#vcmu)
+
+---
 #### indiana
 - :fontawesome-solid-user-group: **Name:** Javed Mostafa
 - :octicons-organization-16: **Organization:** Indiana University
 - :material-file-search: **Runs:** [VIndiana](./runs.md#vindiana)
+
+---
+#### oulu
+- :fontawesome-solid-user-group: **Name:** Timo Ojala
+- :octicons-organization-16: **Organization:** University of Oulu
+- :material-file-search: **Runs:** [VOulu](./runs.md#voulu)
+
+---
+#### imperial
+- :fontawesome-solid-user-group: **Name:** Stefan Rueger
+- :octicons-organization-16: **Organization:** Imperial College of Science, Technology and Medicine
+- :material-file-search: **Runs:** [VImperial](./runs.md#vimperial)
+
+---
+#### dublin
+- :fontawesome-solid-user-group: **Name:** Alan Smeaton
+- :octicons-organization-16: **Organization:** Dublin City University
+- :material-file-search: **Runs:** [VDublin](./runs.md#vdublin)
+
+---
+#### umd_oard
+- :fontawesome-solid-user-group: **Name:** Doug Oard
+- :octicons-organization-16: **Organization:** University of Maryland-Oard
+- :material-file-search: **Runs:** [VUMD](./runs.md#vumd)
+
+---
+#### cwi
+- :fontawesome-solid-user-group: **Name:** Arjen P. de Vries
+- :octicons-organization-16: **Organization:** CWI
+- :material-file-search: **Runs:** [VCWI](./runs.md#vcwi)
 
 ---

@@ -1,11 +1,5 @@
 # Participants - Confusion 1996
 
-#### RutgersK
-- :fontawesome-solid-user-group: **Name:** Paul Kantor
-- :octicons-organization-16: **Organization:** Rutgers University
-- :material-file-search: **Runs:** [rutcf1](./runs.md#rutcf1) | [rutcf2](./runs.md#rutcf2)
-
----
 #### ETH
 - :fontawesome-solid-user-group: **Name:** Elke Mittendorf
 - :octicons-organization-16: **Organization:** Swiss Federal Institute of Technology (ETH)
@@ -22,6 +16,12 @@
 - :fontawesome-solid-user-group: **Name:** David Hawking
 - :octicons-organization-16: **Organization:** Australian National University
 - :material-file-search: **Runs:** [anu5con0](./runs.md#anu5con0) | [anu5con1](./runs.md#anu5con1)
+
+---
+#### RutgersK
+- :fontawesome-solid-user-group: **Name:** Paul Kantor
+- :octicons-organization-16: **Organization:** Rutgers University
+- :material-file-search: **Runs:** [rutcf1](./runs.md#rutcf1) | [rutcf2](./runs.md#rutcf2)
 
 ---
 #### GMU

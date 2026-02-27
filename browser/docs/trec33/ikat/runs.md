@@ -386,7 +386,7 @@
 
 ---
 #### RALI_gpt4o_fusion_norerank  
-[**`Participants`**](./participants.md#rali-lab) | [**`Input`**](https://trec.nist.gov/results/trec33/ikat/input.RALI_gpt4o_fusion_norerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/ikat/summary.RALI_gpt4o_fusion_norerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-ikat-main.html)  
+[**`Participants`**](./participants.md#rali-lab) | [**`Proceedings`**](./proceedings.md#ralitrec-ikat-2024-achieving-personalization-via-retrieval-fusion-in-conversational-search) | [**`Input`**](https://trec.nist.gov/results/trec33/ikat/input.RALI_gpt4o_fusion_norerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/ikat/summary.RALI_gpt4o_fusion_norerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-ikat-main.html)  
 
 - :material-rename: **Run ID:** RALI_gpt4o_fusion_norerank  
 - :fontawesome-solid-user-group: **Participant:** rali lab  
@@ -397,7 +397,7 @@
 
 ---
 #### RALI_gpt4o_fusion_rerank  
-[**`Participants`**](./participants.md#rali-lab) | [**`Input`**](https://trec.nist.gov/results/trec33/ikat/input.RALI_gpt4o_fusion_rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/ikat/summary.RALI_gpt4o_fusion_rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-ikat-main.html)  
+[**`Participants`**](./participants.md#rali-lab) | [**`Proceedings`**](./proceedings.md#ralitrec-ikat-2024-achieving-personalization-via-retrieval-fusion-in-conversational-search) | [**`Input`**](https://trec.nist.gov/results/trec33/ikat/input.RALI_gpt4o_fusion_rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/ikat/summary.RALI_gpt4o_fusion_rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-ikat-main.html)  
 
 - :material-rename: **Run ID:** RALI_gpt4o_fusion_rerank  
 - :fontawesome-solid-user-group: **Participant:** rali lab  
@@ -408,7 +408,7 @@
 
 ---
 #### RALI_gpt4o_no_personalize_fusion_norerank  
-[**`Participants`**](./participants.md#rali-lab) | [**`Input`**](https://trec.nist.gov/results/trec33/ikat/input.RALI_gpt4o_no_personalize_fusion_norerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/ikat/summary.RALI_gpt4o_no_personalize_fusion_norerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-ikat-main.html)  
+[**`Participants`**](./participants.md#rali-lab) | [**`Proceedings`**](./proceedings.md#ralitrec-ikat-2024-achieving-personalization-via-retrieval-fusion-in-conversational-search) | [**`Input`**](https://trec.nist.gov/results/trec33/ikat/input.RALI_gpt4o_no_personalize_fusion_norerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/ikat/summary.RALI_gpt4o_no_personalize_fusion_norerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-ikat-main.html)  
 
 - :material-rename: **Run ID:** RALI_gpt4o_no_personalize_fusion_norerank  
 - :fontawesome-solid-user-group: **Participant:** rali lab  
@@ -419,7 +419,7 @@
 
 ---
 #### RALI_gpt4o_no_personalize_fusion_rerank  
-[**`Participants`**](./participants.md#rali-lab) | [**`Input`**](https://trec.nist.gov/results/trec33/ikat/input.RALI_gpt4o_no_personalize_fusion_rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/ikat/summary.RALI_gpt4o_no_personalize_fusion_rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-ikat-main.html)  
+[**`Participants`**](./participants.md#rali-lab) | [**`Proceedings`**](./proceedings.md#ralitrec-ikat-2024-achieving-personalization-via-retrieval-fusion-in-conversational-search) | [**`Input`**](https://trec.nist.gov/results/trec33/ikat/input.RALI_gpt4o_no_personalize_fusion_rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/ikat/summary.RALI_gpt4o_no_personalize_fusion_rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-ikat-main.html)  
 
 - :material-rename: **Run ID:** RALI_gpt4o_no_personalize_fusion_rerank  
 - :fontawesome-solid-user-group: **Participant:** rali lab  
@@ -430,7 +430,7 @@
 
 ---
 #### RALI_manual_monot5  
-[**`Participants`**](./participants.md#rali-lab) | [**`Input`**](https://trec.nist.gov/results/trec33/ikat/input.RALI_manual_monot5.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/ikat/summary.RALI_manual_monot5) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-ikat-manual.html)  
+[**`Participants`**](./participants.md#rali-lab) | [**`Proceedings`**](./proceedings.md#ralitrec-ikat-2024-achieving-personalization-via-retrieval-fusion-in-conversational-search) | [**`Input`**](https://trec.nist.gov/results/trec33/ikat/input.RALI_manual_monot5.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/ikat/summary.RALI_manual_monot5) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-ikat-manual.html)  
 
 - :material-rename: **Run ID:** RALI_manual_monot5  
 - :fontawesome-solid-user-group: **Participant:** rali lab  
@@ -441,7 +441,7 @@
 
 ---
 #### RALI_manual_rankllama  
-[**`Participants`**](./participants.md#rali-lab) | [**`Input`**](https://trec.nist.gov/results/trec33/ikat/input.RALI_manual_rankllama.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/ikat/summary.RALI_manual_rankllama) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-ikat-manual.html)  
+[**`Participants`**](./participants.md#rali-lab) | [**`Proceedings`**](./proceedings.md#ralitrec-ikat-2024-achieving-personalization-via-retrieval-fusion-in-conversational-search) | [**`Input`**](https://trec.nist.gov/results/trec33/ikat/input.RALI_manual_rankllama.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/ikat/summary.RALI_manual_rankllama) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-ikat-manual.html)  
 
 - :material-rename: **Run ID:** RALI_manual_rankllama  
 - :fontawesome-solid-user-group: **Participant:** rali lab  

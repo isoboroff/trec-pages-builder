@@ -1,15 +1,15 @@
 # Participants - Million Query 2008
 
-#### uMass
-- :fontawesome-solid-user-group: **Name:** James Allan
-- :octicons-organization-16: **Organization:** University of Massachusetts
-- :material-file-search: **Runs:** [indriQLST08](./runs.md#indriqlst08) | [indriLowMu08](./runs.md#indrilowmu08) | [ind25QLnST08](./runs.md#ind25qlnst08) | [indri25DM08](./runs.md#indri25dm08)
-
----
 #### ibm-haifa
 - :fontawesome-solid-user-group: **Name:**  David Carmel
 - :octicons-organization-16: **Organization:**  IBM Research Lab
 - :material-file-search: **Runs:** [LucLpTfS](./runs.md#luclptfs) | [LucDeflt](./runs.md#lucdeflt)
+
+---
+#### mpi-d5
+- :fontawesome-solid-user-group: **Name:**  Ralf Schenkel
+- :octicons-organization-16: **Organization:** Max-Planck-Institut Informatik
+- :material-file-search: **Runs:** [mpiimq0801](./runs.md#mpiimq0801)
 
 ---
 #### I3S_Group_of_ICT
@@ -18,16 +18,16 @@
 - :material-file-search: **Runs:** [dxrun](./runs.md#dxrun) | [txrun](./runs.md#txrun)
 
 ---
+#### uMass
+- :fontawesome-solid-user-group: **Name:** James Allan
+- :octicons-organization-16: **Organization:** University of Massachusetts
+- :material-file-search: **Runs:** [indriQLST08](./runs.md#indriqlst08) | [indriLowMu08](./runs.md#indrilowmu08) | [ind25QLnST08](./runs.md#ind25qlnst08) | [indri25DM08](./runs.md#indri25dm08)
+
+---
 #### ARSC08
 - :fontawesome-solid-user-group: **Name:** Chris Fallen
 - :octicons-organization-16: **Organization:** University of Alaska Fairbanks
 - :material-file-search: **Runs:** [lsi150stat](./runs.md#lsi150stat) | [vsmstat](./runs.md#vsmstat) | [vsmstat07](./runs.md#vsmstat07) | [lsi150dyn](./runs.md#lsi150dyn) | [vsmdyn](./runs.md#vsmdyn)
-
----
-#### mpi-d5
-- :fontawesome-solid-user-group: **Name:**  Ralf Schenkel
-- :octicons-organization-16: **Organization:** Max-Planck-Institut Informatik
-- :material-file-search: **Runs:** [mpiimq0801](./runs.md#mpiimq0801)
 
 ---
 #### sabir.buckley

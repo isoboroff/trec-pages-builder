@@ -1,15 +1,15 @@
 # Participants - Contextual Suggestion 2014
 
-#### UJA
-- :fontawesome-solid-user-group: **Name:** Arturo Montejo-Ráez
-- :octicons-organization-16: **Organization:** University of Jaen
-- :material-file-search: **Runs:** [gw1](./runs.md#gw1)
+#### BJUT
+- :fontawesome-solid-user-group: **Name:** Zhen YANG
+- :octicons-organization-16: **Organization:** Beijing University of Technology
+- :material-file-search: **Runs:** [BJUTa](./runs.md#bjuta) | [BJUTb](./runs.md#bjutb)
 
 ---
-#### RAMA
-- :fontawesome-solid-user-group: **Name:** Hua Li
-- :octicons-organization-16: **Organization:** Leidos
-- :material-file-search: **Runs:** [RUN1](./runs.md#run1) | [RAMARUN2](./runs.md#ramarun2)
+#### waterloo_clarke
+- :fontawesome-solid-user-group: **Name:** Charles Clarke
+- :octicons-organization-16: **Organization:** University of Waterloo
+- :material-file-search: **Runs:** [waterlooA](./runs.md#waterlooa) | [waterlooB](./runs.md#waterloob)
 
 ---
 #### CWI
@@ -18,10 +18,10 @@
 - :material-file-search: **Runs:** [CWI_CW12_Full](./runs.md#cwi_cw12_full) | [CWI_CW12.MapWeb](./runs.md#cwi_cw12mapweb)
 
 ---
-#### udel_fang
-- :fontawesome-solid-user-group: **Name:** Hui Fang
-- :octicons-organization-16: **Organization:** InfoLab Group at University of Delaware
-- :material-file-search: **Runs:** [UDInfoCS2014_1](./runs.md#udinfocs2014_1) | [UDInfoCS2014_2](./runs.md#udinfocs2014_2)
+#### RAMA
+- :fontawesome-solid-user-group: **Name:** Hua Li
+- :octicons-organization-16: **Organization:** Leidos
+- :material-file-search: **Runs:** [RUN1](./runs.md#run1) | [RAMARUN2](./runs.md#ramarun2)
 
 ---
 #### TJU_CS_IR
@@ -30,16 +30,10 @@
 - :material-file-search: **Runs:** [runB](./runs.md#runb) | [runA](./runs.md#runa)
 
 ---
-#### eindhoven
-- :fontawesome-solid-user-group: **Name:** Julia Kiseleva
-- :octicons-organization-16: **Organization:** Eindhoven University of Technology
-- :material-file-search: **Runs:** [tueRforest](./runs.md#tuerforest) | [tueNet](./runs.md#tuenet)
-
----
-#### UAmsterdam
-- :fontawesome-solid-user-group: **Name:** Jaap Kamps
-- :octicons-organization-16: **Organization:** University of Amsterdam
-- :material-file-search: **Runs:** [Model1](./runs.md#model1) | [Model0](./runs.md#model0)
+#### UJA
+- :fontawesome-solid-user-group: **Name:** Arturo Montejo-Ráez
+- :octicons-organization-16: **Organization:** University of Jaen
+- :material-file-search: **Runs:** [gw1](./runs.md#gw1)
 
 ---
 #### ULugano
@@ -48,22 +42,22 @@
 - :material-file-search: **Runs:** [simpleScore](./runs.md#simplescore) | [simpleScoreImp](./runs.md#simplescoreimp)
 
 ---
-#### IRIT
-- :fontawesome-solid-user-group: **Name:** IRIT
-- :octicons-organization-16: **Organization:** Institut de Recherche en Informatque de Toulouse
-- :material-file-search: **Runs:** [choqrun](./runs.md#choqrun)
+#### udel_fang
+- :fontawesome-solid-user-group: **Name:** Hui Fang
+- :octicons-organization-16: **Organization:** InfoLab Group at University of Delaware
+- :material-file-search: **Runs:** [UDInfoCS2014_1](./runs.md#udinfocs2014_1) | [UDInfoCS2014_2](./runs.md#udinfocs2014_2)
+
+---
+#### BUW
+- :fontawesome-solid-user-group: **Name:** Matthias Hagen
+- :octicons-organization-16: **Organization:** Bauhaus-Universitat Weimar
+- :material-file-search: **Runs:** [webis_1](./runs.md#webis_1) | [webis_2](./runs.md#webis_2)
 
 ---
 #### Group.Xu
 - :fontawesome-solid-user-group: **Name:** Di Xu
 - :octicons-organization-16: **Organization:** Carnegie Mellon University
 - :material-file-search: **Runs:** [dixlticmu](./runs.md#dixlticmu)
-
----
-#### ICTNET
-- :fontawesome-solid-user-group: **Name:** Yue Liu
-- :octicons-organization-16: **Organization:** Institute of Computing Technology, Chinese Academy of Sciences
-- :material-file-search: **Runs:** [lda](./runs.md#lda) | [cat](./runs.md#cat)
 
 ---
 #### uogTr
@@ -78,27 +72,33 @@
 - :material-file-search: **Runs:** [run_DwD](./runs.md#run_dwd) | [run_FDwD](./runs.md#run_fdwd)
 
 ---
-#### BJUT
-- :fontawesome-solid-user-group: **Name:** Zhen YANG
-- :octicons-organization-16: **Organization:** Beijing University of Technology
-- :material-file-search: **Runs:** [BJUTa](./runs.md#bjuta) | [BJUTb](./runs.md#bjutb)
+#### eindhoven
+- :fontawesome-solid-user-group: **Name:** Julia Kiseleva
+- :octicons-organization-16: **Organization:** Eindhoven University of Technology
+- :material-file-search: **Runs:** [tueRforest](./runs.md#tuerforest) | [tueNet](./runs.md#tuenet)
 
 ---
-#### waterloo_clarke
-- :fontawesome-solid-user-group: **Name:** Charles Clarke
-- :octicons-organization-16: **Organization:** University of Waterloo
-- :material-file-search: **Runs:** [waterlooA](./runs.md#waterlooa) | [waterlooB](./runs.md#waterloob)
+#### UAmsterdam
+- :fontawesome-solid-user-group: **Name:** Jaap Kamps
+- :octicons-organization-16: **Organization:** University of Amsterdam
+- :material-file-search: **Runs:** [Model1](./runs.md#model1) | [Model0](./runs.md#model0)
 
 ---
-#### BUW
-- :fontawesome-solid-user-group: **Name:** Matthias Hagen
-- :octicons-organization-16: **Organization:** Bauhaus-Universitat Weimar
-- :material-file-search: **Runs:** [webis_1](./runs.md#webis_1) | [webis_2](./runs.md#webis_2)
+#### IRIT
+- :fontawesome-solid-user-group: **Name:** IRIT
+- :octicons-organization-16: **Organization:** Institut de Recherche en Informatque de Toulouse
+- :material-file-search: **Runs:** [choqrun](./runs.md#choqrun)
 
 ---
 #### BUPT_PRIS
 - :fontawesome-solid-user-group: **Name:** Yuanyuan Qi
 - :octicons-organization-16: **Organization:** Pattern Recognition & Intelligent System Laboratory
 - :material-file-search: **Runs:** [BUPT_PRIS_02](./runs.md#bupt_pris_02) | [BUPT_PRIS_01](./runs.md#bupt_pris_01)
+
+---
+#### ICTNET
+- :fontawesome-solid-user-group: **Name:** Yue Liu
+- :octicons-organization-16: **Organization:** Institute of Computing Technology, Chinese Academy of Sciences
+- :material-file-search: **Runs:** [lda](./runs.md#lda) | [cat](./runs.md#cat)
 
 ---

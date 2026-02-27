@@ -16,28 +16,22 @@
 - :material-file-search: **Runs:** [Irutgers](./runs.md#irutgers)
 
 ---
-#### NMSU-C
-- :fontawesome-solid-user-group: **Name:** Jim Cowie
-- :octicons-organization-16: **Organization:** New Mexico State University
-- :material-file-search: **Runs:** [Inmsu](./runs.md#inmsu)
-
----
-#### UMass
-- :fontawesome-solid-user-group: **Name:** Jamie Callan
-- :octicons-organization-16: **Organization:** University of Massachusetts, Amherst
-- :material-file-search: **Runs:** [Iumass](./runs.md#iumass)
-
----
 #### UNC-S
 - :fontawesome-solid-user-group: **Name:** Robert G. Sumner, Jr.
 - :octicons-organization-16: **Organization:** University of North Carolina
 - :material-file-search: **Runs:** [Iunc](./runs.md#iunc)
 
 ---
-#### Berkeley
-- :fontawesome-solid-user-group: **Name:** Fredric C. Gey
-- :octicons-organization-16: **Organization:** University of California, Berkeley
-- :material-file-search: **Runs:** [Iberkeley](./runs.md#iberkeley)
+#### City
+- :fontawesome-solid-user-group: **Name:** Stephen E. Robertson
+- :octicons-organization-16: **Organization:** City University
+- :material-file-search: **Runs:** [Icity](./runs.md#icity)
+
+---
+#### NMSU-C
+- :fontawesome-solid-user-group: **Name:** Jim Cowie
+- :octicons-organization-16: **Organization:** New Mexico State University
+- :material-file-search: **Runs:** [Inmsu](./runs.md#inmsu)
 
 ---
 #### MDS
@@ -46,9 +40,15 @@
 - :material-file-search: **Runs:** [Irmit](./runs.md#irmit)
 
 ---
-#### City
-- :fontawesome-solid-user-group: **Name:** Stephen E. Robertson
-- :octicons-organization-16: **Organization:** City University
-- :material-file-search: **Runs:** [Icity](./runs.md#icity)
+#### Berkeley
+- :fontawesome-solid-user-group: **Name:** Fredric C. Gey
+- :octicons-organization-16: **Organization:** University of California, Berkeley
+- :material-file-search: **Runs:** [Iberkeley](./runs.md#iberkeley)
+
+---
+#### UMass
+- :fontawesome-solid-user-group: **Name:** Jamie Callan
+- :octicons-organization-16: **Organization:** University of Massachusetts, Amherst
+- :material-file-search: **Runs:** [Iumass](./runs.md#iumass)
 
 ---

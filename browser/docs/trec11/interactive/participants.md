@@ -12,10 +12,10 @@
 - :material-file-search: **Runs:** [IOHSU](./runs.md#iohsu)
 
 ---
-#### toronto
-- :fontawesome-solid-user-group: **Name:** Elaine Toms
-- :octicons-organization-16: **Organization:** University of Toronto
-- :material-file-search: **Runs:** [IToronto](./runs.md#itoronto)
+#### uncNewby
+- :fontawesome-solid-user-group: **Name:** Greg Newby
+- :octicons-organization-16: **Organization:** UNC Chapel Hill
+- :material-file-search: **Runs:** [IUNC](./runs.md#iunc)
 
 ---
 #### uwashington
@@ -24,10 +24,10 @@
 - :material-file-search: **Runs:** [IUWashington](./runs.md#iuwashington)
 
 ---
-#### uncNewby
-- :fontawesome-solid-user-group: **Name:** Greg Newby
-- :octicons-organization-16: **Organization:** UNC Chapel Hill
-- :material-file-search: **Runs:** [IUNC](./runs.md#iunc)
+#### rutgers_belkin
+- :fontawesome-solid-user-group: **Name:** Nicholas Belkin
+- :octicons-organization-16: **Organization:** Rutgers University-Belkin
+- :material-file-search: **Runs:** [IRutgers](./runs.md#irutgers)
 
 ---
 #### glasgow
@@ -35,9 +35,9 @@
 - :octicons-organization-16: **Organization:** University of Glasgow
 
 ---
-#### rutgers_belkin
-- :fontawesome-solid-user-group: **Name:** Nicholas Belkin
-- :octicons-organization-16: **Organization:** Rutgers University-Belkin
-- :material-file-search: **Runs:** [IRutgers](./runs.md#irutgers)
+#### toronto
+- :fontawesome-solid-user-group: **Name:** Elaine Toms
+- :octicons-organization-16: **Organization:** University of Toronto
+- :material-file-search: **Runs:** [IToronto](./runs.md#itoronto)
 
 ---

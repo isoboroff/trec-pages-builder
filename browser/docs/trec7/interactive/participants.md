@@ -6,34 +6,10 @@
 - :material-file-search: **Runs:** [J24-ZP](./runs.md#j24-zp)
 
 ---
-#### okapi
-- :fontawesome-solid-user-group: **Name:** Stephen Robertson
-- :octicons-organization-16: **Organization:** City University/Univ. of Sheffield/Microsoft
-- :material-file-search: **Runs:** [ok_noRF-zp_noRF](./runs.md#ok_norf-zp_norf) | [ok_noRF-ok_withRF](./runs.md#ok_norf-ok_withrf)
-
----
 #### ohsu
 - :fontawesome-solid-user-group: **Name:** William Hersh
 - :octicons-organization-16: **Organization:** Oregon Health Sciences University
 - :material-file-search: **Runs:** [MB-MR](./runs.md#mb-mr)
-
----
-#### belkin
-- :fontawesome-solid-user-group: **Name:** Nicholas Belkin
-- :octicons-organization-16: **Organization:** Rutgers University
-- :material-file-search: **Runs:** [RUINQ_G-RUINQ_R](./runs.md#ruinq_g-ruinq_r)
-
----
-#### UNC-N
-- :fontawesome-solid-user-group: **Name:** Gregory Newby
-- :octicons-organization-16: **Organization:** UNC Chapel Hill
-- :material-file-search: **Runs:** [irisa-iriss](./runs.md#irisa-iriss) | [irisp-iriss](./runs.md#irisp-iriss)
-
----
-#### toronto
-- :fontawesome-solid-user-group: **Name:** Mark Chignell
-- :octicons-organization-16: **Organization:** University of Toronto
-- :material-file-search: **Runs:** [a-b](./runs.md#a-b)
 
 ---
 #### RMIT
@@ -42,9 +18,33 @@
 - :material-file-search: **Runs:** [clus-list](./runs.md#clus-list)
 
 ---
+#### okapi
+- :fontawesome-solid-user-group: **Name:** Stephen Robertson
+- :octicons-organization-16: **Organization:** City University/Univ. of Sheffield/Microsoft
+- :material-file-search: **Runs:** [ok_noRF-zp_noRF](./runs.md#ok_norf-zp_norf) | [ok_noRF-ok_withRF](./runs.md#ok_norf-ok_withrf)
+
+---
 #### Berkeley
 - :fontawesome-solid-user-group: **Name:** Fredric Gey
 - :octicons-organization-16: **Organization:** University of California
 - :material-file-search: **Runs:** [C-Z](./runs.md#c-z)
+
+---
+#### UNC-N
+- :fontawesome-solid-user-group: **Name:** Gregory Newby
+- :octicons-organization-16: **Organization:** UNC Chapel Hill
+- :material-file-search: **Runs:** [irisa-iriss](./runs.md#irisa-iriss) | [irisp-iriss](./runs.md#irisp-iriss)
+
+---
+#### belkin
+- :fontawesome-solid-user-group: **Name:** Nicholas Belkin
+- :octicons-organization-16: **Organization:** Rutgers University
+- :material-file-search: **Runs:** [RUINQ_G-RUINQ_R](./runs.md#ruinq_g-ruinq_r)
+
+---
+#### toronto
+- :fontawesome-solid-user-group: **Name:** Mark Chignell
+- :octicons-organization-16: **Organization:** University of Toronto
+- :material-file-search: **Runs:** [a-b](./runs.md#a-b)
 
 ---

@@ -1,15 +1,9 @@
 # Participants - Incident Streams 2021
 
-#### uog_trec_team
-- :fontawesome-solid-user-group: **Name:** Jesus Alberto Rodriguez Perez
-- :octicons-organization-16: **Organization:** University of Glasgow
-- :material-file-search: **Runs:** [uogTr-01-pw](./runs.md#uogtr-01-pw) | [uogTr-02-pwcoocc](./runs.md#uogtr-02-pwcoocc) | [uogTr-04-coocc](./runs.md#uogtr-04-coocc)
-
----
-#### njit
-- :fontawesome-solid-user-group: **Name:** Cody Buntain
-- :octicons-organization-16: **Organization:** New Jersey Institute of Technology
-- :material-file-search: **Runs:** [njit_bert](./runs.md#njit_bert) | [njit_roberta](./runs.md#njit_roberta) | [njit.roberta](./runs.md#njitroberta) | [njit-semi.sup](./runs.md#njit-semisup) | [njit-label.prop](./runs.md#njit-labelprop) | [njit-semi_sup_cat2prior](./runs.md#njit-semi_sup_cat2prior) | [njit.label.prop.cat2prior](./runs.md#njitlabelpropcat2prior) | [njit.augly.v2](./runs.md#njitauglyv2) | [njit-EDA](./runs.md#njit-eda) | [njit.deberta](./runs.md#njitdeberta) | [njit-debly](./runs.md#njit-debly)
+#### SienaCLTeam
+- :fontawesome-solid-user-group: **Name:** Sharon G Small
+- :octicons-organization-16: **Organization:** Siena College Institute for Artificial Intelligence
+- :material-file-search: **Runs:** [Siena2021A](./runs.md#siena2021a)
 
 ---
 #### UCD-CS
@@ -24,9 +18,15 @@
 - :material-file-search: **Runs:** [RB_2Tx2_TTH_280](./runs.md#rb_2tx2_tth_280) | [RB_2T_TTH_256_LR5](./runs.md#rb_2t_tth_256_lr5) | [RB_2T_TT_280_SVM](./runs.md#rb_2t_tt_280_svm) | [RB_2T_MT_H_280](./runs.md#rb_2t_mt_h_280) | [l3i-ttxth](./runs.md#l3i-ttxth) | [l3i-ttxth.combined](./runs.md#l3i-ttxthcombined)
 
 ---
-#### SienaCLTeam
-- :fontawesome-solid-user-group: **Name:** Sharon G Small
-- :octicons-organization-16: **Organization:** Siena College Institute for Artificial Intelligence
-- :material-file-search: **Runs:** [Siena2021A](./runs.md#siena2021a)
+#### njit
+- :fontawesome-solid-user-group: **Name:** Cody Buntain
+- :octicons-organization-16: **Organization:** New Jersey Institute of Technology
+- :material-file-search: **Runs:** [njit_bert](./runs.md#njit_bert) | [njit_roberta](./runs.md#njit_roberta) | [njit.roberta](./runs.md#njitroberta) | [njit-semi.sup](./runs.md#njit-semisup) | [njit-label.prop](./runs.md#njit-labelprop) | [njit-semi_sup_cat2prior](./runs.md#njit-semi_sup_cat2prior) | [njit.label.prop.cat2prior](./runs.md#njitlabelpropcat2prior) | [njit.augly.v2](./runs.md#njitauglyv2) | [njit-EDA](./runs.md#njit-eda) | [njit.deberta](./runs.md#njitdeberta) | [njit-debly](./runs.md#njit-debly)
+
+---
+#### uog_trec_team
+- :fontawesome-solid-user-group: **Name:** Jesus Alberto Rodriguez Perez
+- :octicons-organization-16: **Organization:** University of Glasgow
+- :material-file-search: **Runs:** [uogTr-01-pw](./runs.md#uogtr-01-pw) | [uogTr-02-pwcoocc](./runs.md#uogtr-02-pwcoocc) | [uogTr-04-coocc](./runs.md#uogtr-04-coocc)
 
 ---

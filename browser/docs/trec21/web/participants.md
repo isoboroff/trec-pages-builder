@@ -1,6 +1,27 @@
 # Participants - Web 2012
 
-#### irra
+#### IRRA
+- :fontawesome-solid-user-group: **Name:** Bekir Taner Dincer
+- :octicons-organization-16: **Organization:** Mugla University
+- :material-file-search: **Runs:** [irra12a](./runs.md#irra12a) | [irra12b](./runs.md#irra12b) | [irra12c](./runs.md#irra12c)
+
+---
+#### BudapestAcad
+- :fontawesome-solid-user-group: **Name:** David Mark Nemeskey
+- :octicons-organization-16: **Organization:** Institute for Computer Science and Automation, Hungarian Academy of Sciences
+- :material-file-search: **Runs:** [2012bpacad4](./runs.md#2012bpacad4) | [2012bpacad8](./runs.md#2012bpacad8) | [2012bpacad4h](./runs.md#2012bpacad4h)
+
+---
+#### QUT_Para
+- :fontawesome-solid-user-group: **Name:** Mike Symonds
+- :octicons-organization-16: **Organization:** Queensland University of Technology (QUT_Para)
+- :material-file-search: **Runs:** [QUTparaTQEg1](./runs.md#qutparatqeg1) | [QUTparaBline](./runs.md#qutparabline)
+
+---
+#### uottawa
+- :fontawesome-solid-user-group: **Name:** Diana Inkpen
+- :octicons-organization-16: **Organization:** University of Ottawa
+- :material-file-search: **Runs:** [DFalah121A](./runs.md#dfalah121a) | [DFalah121D](./runs.md#dfalah121d) | [DFalah120A](./runs.md#dfalah120a) | [DFalah120D](./runs.md#dfalah120d)
 
 ---
 #### utwente
@@ -15,22 +36,7 @@
 - :material-file-search: **Runs:** [UDInfoDivSt](./runs.md#udinfodivst) | [UDInfoDivC1](./runs.md#udinfodivc1) | [UDInfoDivC2](./runs.md#udinfodivc2)
 
 ---
-#### IRRA
-- :fontawesome-solid-user-group: **Name:** Bekir Taner Dincer
-- :octicons-organization-16: **Organization:** Mugla University
-- :material-file-search: **Runs:** [irra12a](./runs.md#irra12a) | [irra12b](./runs.md#irra12b) | [irra12c](./runs.md#irra12c)
-
----
-#### BudapestAcad
-- :fontawesome-solid-user-group: **Name:** David Mark Nemeskey
-- :octicons-organization-16: **Organization:** Institute for Computer Science and Automation, Hungarian Academy of Sciences
-- :material-file-search: **Runs:** [2012bpacad4](./runs.md#2012bpacad4) | [2012bpacad8](./runs.md#2012bpacad8) | [2012bpacad4h](./runs.md#2012bpacad4h)
-
----
-#### uottawa
-- :fontawesome-solid-user-group: **Name:** Diana Inkpen
-- :octicons-organization-16: **Organization:** University of Ottawa
-- :material-file-search: **Runs:** [DFalah121A](./runs.md#dfalah121a) | [DFalah121D](./runs.md#dfalah121d) | [DFalah120A](./runs.md#dfalah120a) | [DFalah120D](./runs.md#dfalah120d)
+#### irra
 
 ---
 #### uogTr
@@ -39,16 +45,10 @@
 - :material-file-search: **Runs:** [uogTrA44s9](./runs.md#uogtra44s9) | [uogTrA44xi](./runs.md#uogtra44xi) | [uogTrA44xu](./runs.md#uogtra44xu) | [uogTrA44xl](./runs.md#uogtra44xl) | [uogTrB44xu](./runs.md#uogtrb44xu) | [uogTrB45aIs](./runs.md#uogtrb45ais)
 
 ---
-#### QUT_Para
-- :fontawesome-solid-user-group: **Name:** Mike Symonds
-- :octicons-organization-16: **Organization:** Queensland University of Technology (QUT_Para)
-- :material-file-search: **Runs:** [QUTparaTQEg1](./runs.md#qutparatqeg1) | [QUTparaBline](./runs.md#qutparabline)
-
----
-#### ICTNET
-- :fontawesome-solid-user-group: **Name:** Liu Yue
-- :octicons-organization-16: **Organization:** Institute of Computing Technology,Chinese Academy of Sciences
-- :material-file-search: **Runs:** [ICTNET12ADR1](./runs.md#ictnet12adr1) | [ICTNET12DVR1](./runs.md#ictnet12dvr1) | [ICTNET12DVR2](./runs.md#ictnet12dvr2) | [ICTNET12ADR2](./runs.md#ictnet12adr2) | [ICTNET12DVR3](./runs.md#ictnet12dvr3) | [ICTNET12ADR3](./runs.md#ictnet12adr3)
+#### srchvrs
+- :fontawesome-solid-user-group: **Name:** Leonid Boytsov
+- :octicons-organization-16: **Organization:** Srchvrs
+- :material-file-search: **Runs:** [srchvrs12c10](./runs.md#srchvrs12c10) | [srchvrs12c09](./runs.md#srchvrs12c09) | [srchvrs12c00](./runs.md#srchvrs12c00)
 
 ---
 #### udel
@@ -69,9 +69,9 @@
 - :material-file-search: **Runs:** [lcmweb](./runs.md#lcmweb) | [lcmweb10p](./runs.md#lcmweb10p) | [lcmwebnoW](./runs.md#lcmwebnow) | [lcm4res](./runs.md#lcm4res)
 
 ---
-#### srchvrs
-- :fontawesome-solid-user-group: **Name:** Leonid Boytsov
-- :octicons-organization-16: **Organization:** Srchvrs
-- :material-file-search: **Runs:** [srchvrs12c10](./runs.md#srchvrs12c10) | [srchvrs12c09](./runs.md#srchvrs12c09) | [srchvrs12c00](./runs.md#srchvrs12c00)
+#### ICTNET
+- :fontawesome-solid-user-group: **Name:** Liu Yue
+- :octicons-organization-16: **Organization:** Institute of Computing Technology,Chinese Academy of Sciences
+- :material-file-search: **Runs:** [ICTNET12ADR1](./runs.md#ictnet12adr1) | [ICTNET12DVR1](./runs.md#ictnet12dvr1) | [ICTNET12DVR2](./runs.md#ictnet12dvr2) | [ICTNET12ADR2](./runs.md#ictnet12adr2) | [ICTNET12DVR3](./runs.md#ictnet12dvr3) | [ICTNET12ADR3](./runs.md#ictnet12adr3)
 
 ---

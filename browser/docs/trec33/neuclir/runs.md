@@ -277,7 +277,7 @@
 
 ---
 #### fas-hltcoe-eugene-gpt35turbo  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-eugene-gpt35turbo.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-eugene-gpt35turbo) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-eugene-gpt35turbo.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-eugene-gpt35turbo) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** fas-hltcoe-eugene-gpt35turbo  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -289,7 +289,7 @@
 
 ---
 #### fas-hltcoe-eugene-gpt4o  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-eugene-gpt4o.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-eugene-gpt4o) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-eugene-gpt4o.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-eugene-gpt4o) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** fas-hltcoe-eugene-gpt4o  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -301,7 +301,7 @@
 
 ---
 #### fas-hltcoe-MNED-plaid_distill_engeng_zs2engfas  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-MNED-plaid_distill_engeng_zs2engfas.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-MNED-plaid_distill_engeng_zs2engfas) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-MNED-plaid_distill_engeng_zs2engfas.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-MNED-plaid_distill_engeng_zs2engfas) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** fas-hltcoe-MNED-plaid_distill_engeng_zs2engfas  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -313,7 +313,7 @@
 
 ---
 #### fas-hltcoe-MNED-plaid_distill_engeng_zs2fasfas  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-MNED-plaid_distill_engeng_zs2fasfas.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-MNED-plaid_distill_engeng_zs2fasfas) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-MNED-plaid_distill_engeng_zs2fasfas.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-MNED-plaid_distill_engeng_zs2fasfas) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** fas-hltcoe-MNED-plaid_distill_engeng_zs2fasfas  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -325,7 +325,7 @@
 
 ---
 #### fas-hltcoe-MNED-plaid_distill_engfas  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-MNED-plaid_distill_engfas.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-MNED-plaid_distill_engfas) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-MNED-plaid_distill_engfas.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-MNED-plaid_distill_engfas) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** fas-hltcoe-MNED-plaid_distill_engfas  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -337,7 +337,7 @@
 
 ---
 #### fas-hltcoe-MNED-plaid_distill_engfas.mt5rerank  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-MNED-plaid_distill_engfas.mt5rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-MNED-plaid_distill_engfas.mt5rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-MNED-plaid_distill_engfas.mt5rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-MNED-plaid_distill_engfas.mt5rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** fas-hltcoe-MNED-plaid_distill_engfas.mt5rerank  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -349,7 +349,7 @@
 
 ---
 #### fas-hltcoe-MNED-plaid_distill_engfas.mt5rerank.gpt4rerank  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-MNED-plaid_distill_engfas.mt5rerank.gpt4rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-MNED-plaid_distill_engfas.mt5rerank.gpt4rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-MNED-plaid_distill_engfas.mt5rerank.gpt4rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-MNED-plaid_distill_engfas.mt5rerank.gpt4rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** fas-hltcoe-MNED-plaid_distill_engfas.mt5rerank.gpt4rerank  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -361,7 +361,7 @@
 
 ---
 #### fas-hltcoe-MNED-plaid_distill_engfas_450p  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-MNED-plaid_distill_engfas_450p.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-MNED-plaid_distill_engfas_450p) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-MNED-plaid_distill_engfas_450p.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-MNED-plaid_distill_engfas_450p) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** fas-hltcoe-MNED-plaid_distill_engfas_450p  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -373,7 +373,7 @@
 
 ---
 #### fas-hltcoe-MNED-plaid_distill_engfas_termpool2  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-MNED-plaid_distill_engfas_termpool2.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-MNED-plaid_distill_engfas_termpool2) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-MNED-plaid_distill_engfas_termpool2.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-MNED-plaid_distill_engfas_termpool2) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** fas-hltcoe-MNED-plaid_distill_engfas_termpool2  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -385,7 +385,7 @@
 
 ---
 #### fas-hltcoe-MNED-plaid_distill_engmlir  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-MNED-plaid_distill_engmlir.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-MNED-plaid_distill_engmlir) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-MNED-plaid_distill_engmlir.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-MNED-plaid_distill_engmlir) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** fas-hltcoe-MNED-plaid_distill_engmlir  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -397,7 +397,7 @@
 
 ---
 #### fas-hltcoe-MNED-plaid_distill_mono_fasfas  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-MNED-plaid_distill_mono_fasfas.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-MNED-plaid_distill_mono_fasfas) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-MNED-plaid_distill_mono_fasfas.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-MNED-plaid_distill_mono_fasfas) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** fas-hltcoe-MNED-plaid_distill_mono_fasfas  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -409,7 +409,7 @@
 
 ---
 #### fas-hltcoe-MNED-plaid_eqsynms_distill_engfas  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-MNED-plaid_eqsynms_distill_engfas.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-MNED-plaid_eqsynms_distill_engfas) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-MNED-plaid_eqsynms_distill_engfas.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-MNED-plaid_eqsynms_distill_engfas) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** fas-hltcoe-MNED-plaid_eqsynms_distill_engfas  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -421,7 +421,7 @@
 
 ---
 #### fas-hltcoe-MNED-plaid_syn_distill_engfas  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-MNED-plaid_syn_distill_engfas.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-MNED-plaid_syn_distill_engfas) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-MNED-plaid_syn_distill_engfas.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-MNED-plaid_syn_distill_engfas) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** fas-hltcoe-MNED-plaid_syn_distill_engfas  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -433,7 +433,7 @@
 
 ---
 #### fas-hltcoe-MNTEH-kitchen_rankfuse  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-MNTEH-kitchen_rankfuse.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-MNTEH-kitchen_rankfuse) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-MNTEH-kitchen_rankfuse.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-MNTEH-kitchen_rankfuse) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** fas-hltcoe-MNTEH-kitchen_rankfuse  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -445,7 +445,7 @@
 
 ---
 #### fas-hltcoe-MNTEH-kitchen_rankfuse,mt5rerank  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-MNTEH-kitchen_rankfuse,mt5rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-MNTEH-kitchen_rankfuse,mt5rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-MNTEH-kitchen_rankfuse,mt5rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-MNTEH-kitchen_rankfuse,mt5rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** fas-hltcoe-MNTEH-kitchen_rankfuse,mt5rerank  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -457,7 +457,7 @@
 
 ---
 #### fas-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.gpt4rerank  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.gpt4rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.gpt4rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.gpt4rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.gpt4rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** fas-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.gpt4rerank  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -469,7 +469,7 @@
 
 ---
 #### fas-hltcoe-MTED-plaid_distill_engeng  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-MTED-plaid_distill_engeng.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-MTED-plaid_distill_engeng) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-hltcoe-MTED-plaid_distill_engeng.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-hltcoe-MTED-plaid_distill_engeng) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** fas-hltcoe-MTED-plaid_distill_engeng  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -493,7 +493,7 @@
 
 ---
 #### fas-jhu-orion-aggregated-w-claude  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-jhu-orion-aggregated-w-claude.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-jhu-orion-aggregated-w-claude) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-jhu-orion-aggregated-w-claude.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-jhu-orion-aggregated-w-claude) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** fas-jhu-orion-aggregated-w-claude  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -505,7 +505,7 @@
 
 ---
 #### fas-jhu-orion-aggregated-w-gpt4o  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-jhu-orion-aggregated-w-gpt4o.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-jhu-orion-aggregated-w-gpt4o) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas-jhu-orion-aggregated-w-gpt4o.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas-jhu-orion-aggregated-w-gpt4o) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** fas-jhu-orion-aggregated-w-gpt4o  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -517,7 +517,7 @@
 
 ---
 #### fas_irlab-ams-postcite  
-[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas_irlab-ams-postcite.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas_irlab-ams-postcite) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Proceedings`**](./proceedings.md#irlab-ams-at-trec24-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas_irlab-ams-postcite.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas_irlab-ams-postcite) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** fas_irlab-ams-postcite  
 - :fontawesome-solid-user-group: **Participant:** IRLab-Amsterdam  
@@ -529,7 +529,7 @@
 
 ---
 #### fas_irlab-ams-postcite-v  
-[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas_irlab-ams-postcite-v.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas_irlab-ams-postcite-v) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Proceedings`**](./proceedings.md#irlab-ams-at-trec24-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas_irlab-ams-postcite-v.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas_irlab-ams-postcite-v) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** fas_irlab-ams-postcite-v  
 - :fontawesome-solid-user-group: **Participant:** IRLab-Amsterdam  
@@ -541,7 +541,7 @@
 
 ---
 #### fas_irlab-ams-std-mdcomp-330-translate-llama-8B  
-[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas_irlab-ams-std-mdcomp-330-translate-llama-8B.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas_irlab-ams-std-mdcomp-330-translate-llama-8B) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Proceedings`**](./proceedings.md#irlab-ams-at-trec24-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas_irlab-ams-std-mdcomp-330-translate-llama-8B.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas_irlab-ams-std-mdcomp-330-translate-llama-8B) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** fas_irlab-ams-std-mdcomp-330-translate-llama-8B  
 - :fontawesome-solid-user-group: **Participant:** IRLab-Amsterdam  
@@ -553,7 +553,7 @@
 
 ---
 #### fas_irlab-ams-std-mdcomp-331-translate-llama-8B  
-[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas_irlab-ams-std-mdcomp-331-translate-llama-8B.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas_irlab-ams-std-mdcomp-331-translate-llama-8B) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Proceedings`**](./proceedings.md#irlab-ams-at-trec24-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas_irlab-ams-std-mdcomp-331-translate-llama-8B.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas_irlab-ams-std-mdcomp-331-translate-llama-8B) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** fas_irlab-ams-std-mdcomp-331-translate-llama-8B  
 - :fontawesome-solid-user-group: **Participant:** IRLab-Amsterdam  
@@ -565,7 +565,7 @@
 
 ---
 #### fas_irlab-ams-std-recomp-llama-8B  
-[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas_irlab-ams-std-recomp-llama-8B.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas_irlab-ams-std-recomp-llama-8B) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Proceedings`**](./proceedings.md#irlab-ams-at-trec24-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas_irlab-ams-std-recomp-llama-8B.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas_irlab-ams-std-recomp-llama-8B) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** fas_irlab-ams-std-recomp-llama-8B  
 - :fontawesome-solid-user-group: **Participant:** IRLab-Amsterdam  
@@ -577,7 +577,7 @@
 
 ---
 #### fas_irlab-ams-std-translate-llama-70B-api  
-[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas_irlab-ams-std-translate-llama-70B-api.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas_irlab-ams-std-translate-llama-70B-api) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Proceedings`**](./proceedings.md#irlab-ams-at-trec24-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas_irlab-ams-std-translate-llama-70B-api.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas_irlab-ams-std-translate-llama-70B-api) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** fas_irlab-ams-std-translate-llama-70B-api  
 - :fontawesome-solid-user-group: **Participant:** IRLab-Amsterdam  
@@ -589,7 +589,7 @@
 
 ---
 #### fas_irlab-ams-std-translate-llama-8B  
-[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas_irlab-ams-std-translate-llama-8B.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas_irlab-ams-std-translate-llama-8B) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Proceedings`**](./proceedings.md#irlab-ams-at-trec24-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.fas_irlab-ams-std-translate-llama-8B.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.fas_irlab-ams-std-translate-llama-8B) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** fas_irlab-ams-std-translate-llama-8B  
 - :fontawesome-solid-user-group: **Participant:** IRLab-Amsterdam  
@@ -1381,7 +1381,7 @@
 
 ---
 #### mlir-hltcoe-MNED-plaid_distill_clir.mt5rerank.scorefuse  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.mlir-hltcoe-MNED-plaid_distill_clir.mt5rerank.scorefuse.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.mlir-hltcoe-MNED-plaid_distill_clir.mt5rerank.scorefuse) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-mlir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.mlir-hltcoe-MNED-plaid_distill_clir.mt5rerank.scorefuse.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.mlir-hltcoe-MNED-plaid_distill_clir.mt5rerank.scorefuse) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-mlir.html)  
 
 - :material-rename: **Run ID:** mlir-hltcoe-MNED-plaid_distill_clir.mt5rerank.scorefuse  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -1393,7 +1393,7 @@
 
 ---
 #### mlir-hltcoe-MNED-plaid_distill_clir.mt5rerank.scorefuse.gpt4rerank  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.mlir-hltcoe-MNED-plaid_distill_clir.mt5rerank.scorefuse.gpt4rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.mlir-hltcoe-MNED-plaid_distill_clir.mt5rerank.scorefuse.gpt4rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-mlir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.mlir-hltcoe-MNED-plaid_distill_clir.mt5rerank.scorefuse.gpt4rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.mlir-hltcoe-MNED-plaid_distill_clir.mt5rerank.scorefuse.gpt4rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-mlir.html)  
 
 - :material-rename: **Run ID:** mlir-hltcoe-MNED-plaid_distill_clir.mt5rerank.scorefuse.gpt4rerank  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -1405,7 +1405,7 @@
 
 ---
 #### mlir-hltcoe-MNED-plaid_distill_clir_scorefuse  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.mlir-hltcoe-MNED-plaid_distill_clir_scorefuse.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.mlir-hltcoe-MNED-plaid_distill_clir_scorefuse) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-mlir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.mlir-hltcoe-MNED-plaid_distill_clir_scorefuse.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.mlir-hltcoe-MNED-plaid_distill_clir_scorefuse) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-mlir.html)  
 
 - :material-rename: **Run ID:** mlir-hltcoe-MNED-plaid_distill_clir_scorefuse  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -1417,7 +1417,7 @@
 
 ---
 #### mlir-hltcoe-MNED-plaid_distill_engeng_zs  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.mlir-hltcoe-MNED-plaid_distill_engeng_zs.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.mlir-hltcoe-MNED-plaid_distill_engeng_zs) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-mlir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.mlir-hltcoe-MNED-plaid_distill_engeng_zs.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.mlir-hltcoe-MNED-plaid_distill_engeng_zs) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-mlir.html)  
 
 - :material-rename: **Run ID:** mlir-hltcoe-MNED-plaid_distill_engeng_zs  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -1429,7 +1429,7 @@
 
 ---
 #### mlir-hltcoe-MNED-plaid_distill_mlir_bycoll_scorefuse  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.mlir-hltcoe-MNED-plaid_distill_mlir_bycoll_scorefuse.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.mlir-hltcoe-MNED-plaid_distill_mlir_bycoll_scorefuse) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-mlir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.mlir-hltcoe-MNED-plaid_distill_mlir_bycoll_scorefuse.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.mlir-hltcoe-MNED-plaid_distill_mlir_bycoll_scorefuse) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-mlir.html)  
 
 - :material-rename: **Run ID:** mlir-hltcoe-MNED-plaid_distill_mlir_bycoll_scorefuse  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -1441,7 +1441,7 @@
 
 ---
 #### mlir-hltcoe-MNED-plaid_distill_mlir_mixedentry  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.mlir-hltcoe-MNED-plaid_distill_mlir_mixedentry.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.mlir-hltcoe-MNED-plaid_distill_mlir_mixedentry) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-mlir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.mlir-hltcoe-MNED-plaid_distill_mlir_mixedentry.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.mlir-hltcoe-MNED-plaid_distill_mlir_mixedentry) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-mlir.html)  
 
 - :material-rename: **Run ID:** mlir-hltcoe-MNED-plaid_distill_mlir_mixedentry  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -1453,7 +1453,7 @@
 
 ---
 #### mlir-hltcoe-MNED-plaid_distill_mlir_mixedentry_termpool2  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.mlir-hltcoe-MNED-plaid_distill_mlir_mixedentry_termpool2.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.mlir-hltcoe-MNED-plaid_distill_mlir_mixedentry_termpool2) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-mlir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.mlir-hltcoe-MNED-plaid_distill_mlir_mixedentry_termpool2.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.mlir-hltcoe-MNED-plaid_distill_mlir_mixedentry_termpool2) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-mlir.html)  
 
 - :material-rename: **Run ID:** mlir-hltcoe-MNED-plaid_distill_mlir_mixedentry_termpool2  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -1465,7 +1465,7 @@
 
 ---
 #### mlir-hltcoe-MNED-plaid_distill_mlir_mixedpass  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.mlir-hltcoe-MNED-plaid_distill_mlir_mixedpass.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.mlir-hltcoe-MNED-plaid_distill_mlir_mixedpass) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-mlir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.mlir-hltcoe-MNED-plaid_distill_mlir_mixedpass.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.mlir-hltcoe-MNED-plaid_distill_mlir_mixedpass) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-mlir.html)  
 
 - :material-rename: **Run ID:** mlir-hltcoe-MNED-plaid_distill_mlir_mixedpass  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -1477,7 +1477,7 @@
 
 ---
 #### mlir-hltcoe-MNED-plaid_distill_mlir_rr  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.mlir-hltcoe-MNED-plaid_distill_mlir_rr.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.mlir-hltcoe-MNED-plaid_distill_mlir_rr) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-mlir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.mlir-hltcoe-MNED-plaid_distill_mlir_rr.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.mlir-hltcoe-MNED-plaid_distill_mlir_rr) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-mlir.html)  
 
 - :material-rename: **Run ID:** mlir-hltcoe-MNED-plaid_distill_mlir_rr  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -1489,7 +1489,7 @@
 
 ---
 #### mlir-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.scorefuse  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.mlir-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.scorefuse.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.mlir-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.scorefuse) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-mlir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.mlir-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.scorefuse.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.mlir-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.scorefuse) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-mlir.html)  
 
 - :material-rename: **Run ID:** mlir-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.scorefuse  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -1501,7 +1501,7 @@
 
 ---
 #### mlir-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.scorefuse.gpt4rerank  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.mlir-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.scorefuse.gpt4rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.mlir-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.scorefuse.gpt4rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-mlir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.mlir-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.scorefuse.gpt4rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.mlir-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.scorefuse.gpt4rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-mlir.html)  
 
 - :material-rename: **Run ID:** mlir-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.scorefuse.gpt4rerank  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -1513,7 +1513,7 @@
 
 ---
 #### mlir-hltcoe-MTED-plaid_distill_engeng  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.mlir-hltcoe-MTED-plaid_distill_engeng.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.mlir-hltcoe-MTED-plaid_distill_engeng) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-mlir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.mlir-hltcoe-MTED-plaid_distill_engeng.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.mlir-hltcoe-MTED-plaid_distill_engeng) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-mlir.html)  
 
 - :material-rename: **Run ID:** mlir-hltcoe-MTED-plaid_distill_engeng  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -1525,7 +1525,7 @@
 
 ---
 #### mlir-IRLabAmsterdam-ANEL-desc  
-[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.mlir-IRLabAmsterdam-ANEL-desc.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.mlir-IRLabAmsterdam-ANEL-desc) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-mlir.html)  
+[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Proceedings`**](./proceedings.md#irlab-ams-at-trec24-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.mlir-IRLabAmsterdam-ANEL-desc.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.mlir-IRLabAmsterdam-ANEL-desc) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-mlir.html)  
 
 - :material-rename: **Run ID:** mlir-IRLabAmsterdam-ANEL-desc  
 - :fontawesome-solid-user-group: **Participant:** IRLab-Amsterdam  
@@ -1537,7 +1537,7 @@
 
 ---
 #### mlir-IRLabAmsterdam-ANEL-title  
-[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.mlir-IRLabAmsterdam-ANEL-title.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.mlir-IRLabAmsterdam-ANEL-title) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-mlir.html)  
+[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Proceedings`**](./proceedings.md#irlab-ams-at-trec24-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.mlir-IRLabAmsterdam-ANEL-title.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.mlir-IRLabAmsterdam-ANEL-title) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-mlir.html)  
 
 - :material-rename: **Run ID:** mlir-IRLabAmsterdam-ANEL-title  
 - :fontawesome-solid-user-group: **Participant:** IRLab-Amsterdam  
@@ -1549,7 +1549,7 @@
 
 ---
 #### mlir-IRLabAmsterdam-ANEL-titledesc  
-[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.mlir-IRLabAmsterdam-ANEL-titledesc.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.mlir-IRLabAmsterdam-ANEL-titledesc) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-mlir.html)  
+[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Proceedings`**](./proceedings.md#irlab-ams-at-trec24-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.mlir-IRLabAmsterdam-ANEL-titledesc.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.mlir-IRLabAmsterdam-ANEL-titledesc) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-mlir.html)  
 
 - :material-rename: **Run ID:** mlir-IRLabAmsterdam-ANEL-titledesc  
 - :fontawesome-solid-user-group: **Participant:** IRLab-Amsterdam  
@@ -1969,7 +1969,7 @@
 
 ---
 #### rus-hltcoe-eugene-gpt35turbo  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-eugene-gpt35turbo.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-eugene-gpt35turbo) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-eugene-gpt35turbo.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-eugene-gpt35turbo) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** rus-hltcoe-eugene-gpt35turbo  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -1981,7 +1981,7 @@
 
 ---
 #### rus-hltcoe-eugene-gpt4o  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-eugene-gpt4o.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-eugene-gpt4o) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-eugene-gpt4o.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-eugene-gpt4o) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** rus-hltcoe-eugene-gpt4o  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -1993,7 +1993,7 @@
 
 ---
 #### rus-hltcoe-MNED-plaid_distill_engeng_zs2engrus  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-MNED-plaid_distill_engeng_zs2engrus.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-MNED-plaid_distill_engeng_zs2engrus) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-MNED-plaid_distill_engeng_zs2engrus.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-MNED-plaid_distill_engeng_zs2engrus) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** rus-hltcoe-MNED-plaid_distill_engeng_zs2engrus  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -2005,7 +2005,7 @@
 
 ---
 #### rus-hltcoe-MNED-plaid_distill_engeng_zs2rusrus  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-MNED-plaid_distill_engeng_zs2rusrus.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-MNED-plaid_distill_engeng_zs2rusrus) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-MNED-plaid_distill_engeng_zs2rusrus.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-MNED-plaid_distill_engeng_zs2rusrus) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** rus-hltcoe-MNED-plaid_distill_engeng_zs2rusrus  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -2017,7 +2017,7 @@
 
 ---
 #### rus-hltcoe-MNED-plaid_distill_engmlir  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-MNED-plaid_distill_engmlir.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-MNED-plaid_distill_engmlir) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-MNED-plaid_distill_engmlir.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-MNED-plaid_distill_engmlir) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** rus-hltcoe-MNED-plaid_distill_engmlir  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -2029,7 +2029,7 @@
 
 ---
 #### rus-hltcoe-MNED-plaid_distill_engrus  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-MNED-plaid_distill_engrus.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-MNED-plaid_distill_engrus) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-MNED-plaid_distill_engrus.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-MNED-plaid_distill_engrus) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** rus-hltcoe-MNED-plaid_distill_engrus  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -2041,7 +2041,7 @@
 
 ---
 #### rus-hltcoe-MNED-plaid_distill_engrus.mt5rerank  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-MNED-plaid_distill_engrus.mt5rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-MNED-plaid_distill_engrus.mt5rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-MNED-plaid_distill_engrus.mt5rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-MNED-plaid_distill_engrus.mt5rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** rus-hltcoe-MNED-plaid_distill_engrus.mt5rerank  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -2053,7 +2053,7 @@
 
 ---
 #### rus-hltcoe-MNED-plaid_distill_engrus.mt5rerank.gpt4rerank  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-MNED-plaid_distill_engrus.mt5rerank.gpt4rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-MNED-plaid_distill_engrus.mt5rerank.gpt4rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-MNED-plaid_distill_engrus.mt5rerank.gpt4rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-MNED-plaid_distill_engrus.mt5rerank.gpt4rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** rus-hltcoe-MNED-plaid_distill_engrus.mt5rerank.gpt4rerank  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -2065,7 +2065,7 @@
 
 ---
 #### rus-hltcoe-MNED-plaid_distill_engrus_450p  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-MNED-plaid_distill_engrus_450p.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-MNED-plaid_distill_engrus_450p) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-MNED-plaid_distill_engrus_450p.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-MNED-plaid_distill_engrus_450p) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** rus-hltcoe-MNED-plaid_distill_engrus_450p  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -2077,7 +2077,7 @@
 
 ---
 #### rus-hltcoe-MNED-plaid_distill_engrus_termpool2  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-MNED-plaid_distill_engrus_termpool2.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-MNED-plaid_distill_engrus_termpool2) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-MNED-plaid_distill_engrus_termpool2.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-MNED-plaid_distill_engrus_termpool2) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** rus-hltcoe-MNED-plaid_distill_engrus_termpool2  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -2089,7 +2089,7 @@
 
 ---
 #### rus-hltcoe-MNED-plaid_distill_mono_rusrus  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-MNED-plaid_distill_mono_rusrus.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-MNED-plaid_distill_mono_rusrus) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-MNED-plaid_distill_mono_rusrus.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-MNED-plaid_distill_mono_rusrus) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** rus-hltcoe-MNED-plaid_distill_mono_rusrus  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -2101,7 +2101,7 @@
 
 ---
 #### rus-hltcoe-MNED-plaid_eqsynms_distill_engrus  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-MNED-plaid_eqsynms_distill_engrus.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-MNED-plaid_eqsynms_distill_engrus) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-MNED-plaid_eqsynms_distill_engrus.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-MNED-plaid_eqsynms_distill_engrus) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** rus-hltcoe-MNED-plaid_eqsynms_distill_engrus  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -2113,7 +2113,7 @@
 
 ---
 #### rus-hltcoe-MNED-plaid_syn_distill_engrus  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-MNED-plaid_syn_distill_engrus.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-MNED-plaid_syn_distill_engrus) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-MNED-plaid_syn_distill_engrus.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-MNED-plaid_syn_distill_engrus) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** rus-hltcoe-MNED-plaid_syn_distill_engrus  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -2125,7 +2125,7 @@
 
 ---
 #### rus-hltcoe-MNTEH-kitchen_rankfuse  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-MNTEH-kitchen_rankfuse.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-MNTEH-kitchen_rankfuse) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-MNTEH-kitchen_rankfuse.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-MNTEH-kitchen_rankfuse) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** rus-hltcoe-MNTEH-kitchen_rankfuse  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -2137,7 +2137,7 @@
 
 ---
 #### rus-hltcoe-MNTEH-kitchen_rankfuse,mt5rerank  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-MNTEH-kitchen_rankfuse,mt5rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-MNTEH-kitchen_rankfuse,mt5rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-MNTEH-kitchen_rankfuse,mt5rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-MNTEH-kitchen_rankfuse,mt5rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** rus-hltcoe-MNTEH-kitchen_rankfuse,mt5rerank  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -2149,7 +2149,7 @@
 
 ---
 #### rus-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.gpt4rerank  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.gpt4rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.gpt4rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.gpt4rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.gpt4rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** rus-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.gpt4rerank  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -2161,7 +2161,7 @@
 
 ---
 #### rus-hltcoe-MTED-plaid_distill_engeng  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-MTED-plaid_distill_engeng.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-MTED-plaid_distill_engeng) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-hltcoe-MTED-plaid_distill_engeng.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-hltcoe-MTED-plaid_distill_engeng) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** rus-hltcoe-MTED-plaid_distill_engeng  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -2185,7 +2185,7 @@
 
 ---
 #### rus-jhu-orion-aggregated-w-claude  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-jhu-orion-aggregated-w-claude.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-jhu-orion-aggregated-w-claude) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-jhu-orion-aggregated-w-claude.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-jhu-orion-aggregated-w-claude) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** rus-jhu-orion-aggregated-w-claude  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -2197,7 +2197,7 @@
 
 ---
 #### rus-jhu-orion-aggregated-w-gpt4o  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-jhu-orion-aggregated-w-gpt4o.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-jhu-orion-aggregated-w-gpt4o) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus-jhu-orion-aggregated-w-gpt4o.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus-jhu-orion-aggregated-w-gpt4o) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** rus-jhu-orion-aggregated-w-gpt4o  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -2209,7 +2209,7 @@
 
 ---
 #### rus_irlab-ams-postcite  
-[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus_irlab-ams-postcite.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus_irlab-ams-postcite) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Proceedings`**](./proceedings.md#irlab-ams-at-trec24-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus_irlab-ams-postcite.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus_irlab-ams-postcite) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** rus_irlab-ams-postcite  
 - :fontawesome-solid-user-group: **Participant:** IRLab-Amsterdam  
@@ -2221,7 +2221,7 @@
 
 ---
 #### rus_irlab-ams-postcite-v  
-[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus_irlab-ams-postcite-v.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus_irlab-ams-postcite-v) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Proceedings`**](./proceedings.md#irlab-ams-at-trec24-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus_irlab-ams-postcite-v.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus_irlab-ams-postcite-v) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** rus_irlab-ams-postcite-v  
 - :fontawesome-solid-user-group: **Participant:** IRLab-Amsterdam  
@@ -2233,7 +2233,7 @@
 
 ---
 #### rus_irlab-ams-std-mdcomp-330-translate-llama-8B  
-[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus_irlab-ams-std-mdcomp-330-translate-llama-8B.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus_irlab-ams-std-mdcomp-330-translate-llama-8B) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Proceedings`**](./proceedings.md#irlab-ams-at-trec24-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus_irlab-ams-std-mdcomp-330-translate-llama-8B.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus_irlab-ams-std-mdcomp-330-translate-llama-8B) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** rus_irlab-ams-std-mdcomp-330-translate-llama-8B  
 - :fontawesome-solid-user-group: **Participant:** IRLab-Amsterdam  
@@ -2245,7 +2245,7 @@
 
 ---
 #### rus_irlab-ams-std-mdcomp-331-translate-llama-8B  
-[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus_irlab-ams-std-mdcomp-331-translate-llama-8B.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus_irlab-ams-std-mdcomp-331-translate-llama-8B) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Proceedings`**](./proceedings.md#irlab-ams-at-trec24-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus_irlab-ams-std-mdcomp-331-translate-llama-8B.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus_irlab-ams-std-mdcomp-331-translate-llama-8B) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** rus_irlab-ams-std-mdcomp-331-translate-llama-8B  
 - :fontawesome-solid-user-group: **Participant:** IRLab-Amsterdam  
@@ -2257,7 +2257,7 @@
 
 ---
 #### rus_irlab-ams-std-recomp-llama-8B  
-[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus_irlab-ams-std-recomp-llama-8B.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus_irlab-ams-std-recomp-llama-8B) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Proceedings`**](./proceedings.md#irlab-ams-at-trec24-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus_irlab-ams-std-recomp-llama-8B.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus_irlab-ams-std-recomp-llama-8B) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** rus_irlab-ams-std-recomp-llama-8B  
 - :fontawesome-solid-user-group: **Participant:** IRLab-Amsterdam  
@@ -2269,7 +2269,7 @@
 
 ---
 #### rus_irlab-ams-std-translate-llama-70B-api  
-[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus_irlab-ams-std-translate-llama-70B-api.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus_irlab-ams-std-translate-llama-70B-api) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Proceedings`**](./proceedings.md#irlab-ams-at-trec24-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus_irlab-ams-std-translate-llama-70B-api.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus_irlab-ams-std-translate-llama-70B-api) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** rus_irlab-ams-std-translate-llama-70B-api  
 - :fontawesome-solid-user-group: **Participant:** IRLab-Amsterdam  
@@ -2281,7 +2281,7 @@
 
 ---
 #### rus_irlab-ams-std-translate-llama-8B  
-[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus_irlab-ams-std-translate-llama-8B.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus_irlab-ams-std-translate-llama-8B) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Proceedings`**](./proceedings.md#irlab-ams-at-trec24-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.rus_irlab-ams-std-translate-llama-8B.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.rus_irlab-ams-std-translate-llama-8B) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** rus_irlab-ams-std-translate-llama-8B  
 - :fontawesome-solid-user-group: **Participant:** IRLab-Amsterdam  
@@ -2545,7 +2545,7 @@
 
 ---
 #### tech-hltcoe-MNED-plaid_distill_engeng_zs2engzho  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.tech-hltcoe-MNED-plaid_distill_engeng_zs2engzho.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.tech-hltcoe-MNED-plaid_distill_engeng_zs2engzho) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-tech.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.tech-hltcoe-MNED-plaid_distill_engeng_zs2engzho.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.tech-hltcoe-MNED-plaid_distill_engeng_zs2engzho) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-tech.html)  
 
 - :material-rename: **Run ID:** tech-hltcoe-MNED-plaid_distill_engeng_zs2engzho  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -2557,7 +2557,7 @@
 
 ---
 #### tech-hltcoe-MNED-plaid_distill_engeng_zs2zhozho  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.tech-hltcoe-MNED-plaid_distill_engeng_zs2zhozho.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.tech-hltcoe-MNED-plaid_distill_engeng_zs2zhozho) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-tech.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.tech-hltcoe-MNED-plaid_distill_engeng_zs2zhozho.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.tech-hltcoe-MNED-plaid_distill_engeng_zs2zhozho) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-tech.html)  
 
 - :material-rename: **Run ID:** tech-hltcoe-MNED-plaid_distill_engeng_zs2zhozho  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -2569,7 +2569,7 @@
 
 ---
 #### tech-hltcoe-MNED-plaid_distill_engzho  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.tech-hltcoe-MNED-plaid_distill_engzho.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.tech-hltcoe-MNED-plaid_distill_engzho) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-tech.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.tech-hltcoe-MNED-plaid_distill_engzho.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.tech-hltcoe-MNED-plaid_distill_engzho) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-tech.html)  
 
 - :material-rename: **Run ID:** tech-hltcoe-MNED-plaid_distill_engzho  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -2605,7 +2605,7 @@
 
 ---
 #### tech-hltcoe-MNED-plaid_distill_zhozho  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.tech-hltcoe-MNED-plaid_distill_zhozho.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.tech-hltcoe-MNED-plaid_distill_zhozho) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-tech.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.tech-hltcoe-MNED-plaid_distill_zhozho.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.tech-hltcoe-MNED-plaid_distill_zhozho) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-tech.html)  
 
 - :material-rename: **Run ID:** tech-hltcoe-MNED-plaid_distill_zhozho  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -2617,7 +2617,7 @@
 
 ---
 #### tech-hltcoe-MNED-plaid_eqsynms_distill_engzho  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.tech-hltcoe-MNED-plaid_eqsynms_distill_engzho.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.tech-hltcoe-MNED-plaid_eqsynms_distill_engzho) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-tech.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.tech-hltcoe-MNED-plaid_eqsynms_distill_engzho.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.tech-hltcoe-MNED-plaid_eqsynms_distill_engzho) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-tech.html)  
 
 - :material-rename: **Run ID:** tech-hltcoe-MNED-plaid_eqsynms_distill_engzho  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -2629,7 +2629,7 @@
 
 ---
 #### tech-hltcoe-MNED-plaid_syn_distill_engzho  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.tech-hltcoe-MNED-plaid_syn_distill_engzho.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.tech-hltcoe-MNED-plaid_syn_distill_engzho) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-tech.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.tech-hltcoe-MNED-plaid_syn_distill_engzho.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.tech-hltcoe-MNED-plaid_syn_distill_engzho) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-tech.html)  
 
 - :material-rename: **Run ID:** tech-hltcoe-MNED-plaid_syn_distill_engzho  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -2641,7 +2641,7 @@
 
 ---
 #### tech-hltcoe-MNTEH-kitchen_rankfuse  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.tech-hltcoe-MNTEH-kitchen_rankfuse.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.tech-hltcoe-MNTEH-kitchen_rankfuse) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-tech.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.tech-hltcoe-MNTEH-kitchen_rankfuse.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.tech-hltcoe-MNTEH-kitchen_rankfuse) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-tech.html)  
 
 - :material-rename: **Run ID:** tech-hltcoe-MNTEH-kitchen_rankfuse  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -2653,7 +2653,7 @@
 
 ---
 #### tech-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.tech-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.tech-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-tech.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.tech-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.tech-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-tech.html)  
 
 - :material-rename: **Run ID:** tech-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -2665,7 +2665,7 @@
 
 ---
 #### tech-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.gpt4rerank  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.tech-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.gpt4rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.tech-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.gpt4rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-tech.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.tech-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.gpt4rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.tech-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.gpt4rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-tech.html)  
 
 - :material-rename: **Run ID:** tech-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.gpt4rerank  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -2677,7 +2677,7 @@
 
 ---
 #### tech-hltcoe-MTED-plaid_distill_engeng  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.tech-hltcoe-MTED-plaid_distill_engeng.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.tech-hltcoe-MTED-plaid_distill_engeng) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-tech.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.tech-hltcoe-MTED-plaid_distill_engeng.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.tech-hltcoe-MTED-plaid_distill_engeng) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-tech.html)  
 
 - :material-rename: **Run ID:** tech-hltcoe-MTED-plaid_distill_engeng  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -2965,7 +2965,7 @@
 
 ---
 #### zho-hltcoe-eugene-gpt35turbo  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-eugene-gpt35turbo.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-eugene-gpt35turbo) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-eugene-gpt35turbo.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-eugene-gpt35turbo) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** zho-hltcoe-eugene-gpt35turbo  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -2977,7 +2977,7 @@
 
 ---
 #### zho-hltcoe-eugene-gpt4o-fixed  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-eugene-gpt4o-fixed.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-eugene-gpt4o-fixed) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-eugene-gpt4o-fixed.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-eugene-gpt4o-fixed) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** zho-hltcoe-eugene-gpt4o-fixed  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -2989,7 +2989,7 @@
 
 ---
 #### zho-hltcoe-MNED-plaid_distill_engeng_zs2engzho  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-MNED-plaid_distill_engeng_zs2engzho.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-MNED-plaid_distill_engeng_zs2engzho) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-MNED-plaid_distill_engeng_zs2engzho.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-MNED-plaid_distill_engeng_zs2engzho) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** zho-hltcoe-MNED-plaid_distill_engeng_zs2engzho  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -3001,7 +3001,7 @@
 
 ---
 #### zho-hltcoe-MNED-plaid_distill_engeng_zs2zhozho  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-MNED-plaid_distill_engeng_zs2zhozho.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-MNED-plaid_distill_engeng_zs2zhozho) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-MNED-plaid_distill_engeng_zs2zhozho.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-MNED-plaid_distill_engeng_zs2zhozho) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** zho-hltcoe-MNED-plaid_distill_engeng_zs2zhozho  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -3013,7 +3013,7 @@
 
 ---
 #### zho-hltcoe-MNED-plaid_distill_engmlir  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-MNED-plaid_distill_engmlir.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-MNED-plaid_distill_engmlir) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-MNED-plaid_distill_engmlir.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-MNED-plaid_distill_engmlir) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** zho-hltcoe-MNED-plaid_distill_engmlir  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -3025,7 +3025,7 @@
 
 ---
 #### zho-hltcoe-MNED-plaid_distill_engzho  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-MNED-plaid_distill_engzho.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-MNED-plaid_distill_engzho) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-MNED-plaid_distill_engzho.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-MNED-plaid_distill_engzho) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** zho-hltcoe-MNED-plaid_distill_engzho  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -3037,7 +3037,7 @@
 
 ---
 #### zho-hltcoe-MNED-plaid_distill_engzho.mt5rerank  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-MNED-plaid_distill_engzho.mt5rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-MNED-plaid_distill_engzho.mt5rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-MNED-plaid_distill_engzho.mt5rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-MNED-plaid_distill_engzho.mt5rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** zho-hltcoe-MNED-plaid_distill_engzho.mt5rerank  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -3049,7 +3049,7 @@
 
 ---
 #### zho-hltcoe-MNED-plaid_distill_engzho.mt5rerank.gpt4rerank  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-MNED-plaid_distill_engzho.mt5rerank.gpt4rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-MNED-plaid_distill_engzho.mt5rerank.gpt4rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-MNED-plaid_distill_engzho.mt5rerank.gpt4rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-MNED-plaid_distill_engzho.mt5rerank.gpt4rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** zho-hltcoe-MNED-plaid_distill_engzho.mt5rerank.gpt4rerank  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -3061,7 +3061,7 @@
 
 ---
 #### zho-hltcoe-MNED-plaid_distill_engzho_450p  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-MNED-plaid_distill_engzho_450p.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-MNED-plaid_distill_engzho_450p) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-MNED-plaid_distill_engzho_450p.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-MNED-plaid_distill_engzho_450p) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** zho-hltcoe-MNED-plaid_distill_engzho_450p  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -3073,7 +3073,7 @@
 
 ---
 #### zho-hltcoe-MNED-plaid_distill_engzho_termpool2  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-MNED-plaid_distill_engzho_termpool2.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-MNED-plaid_distill_engzho_termpool2) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-MNED-plaid_distill_engzho_termpool2.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-MNED-plaid_distill_engzho_termpool2) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** zho-hltcoe-MNED-plaid_distill_engzho_termpool2  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -3085,7 +3085,7 @@
 
 ---
 #### zho-hltcoe-MNED-plaid_distill_mono_zhozho  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-MNED-plaid_distill_mono_zhozho.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-MNED-plaid_distill_mono_zhozho) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-MNED-plaid_distill_mono_zhozho.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-MNED-plaid_distill_mono_zhozho) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** zho-hltcoe-MNED-plaid_distill_mono_zhozho  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -3097,7 +3097,7 @@
 
 ---
 #### zho-hltcoe-MNED-plaid_eqsynms_distill_engzho  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-MNED-plaid_eqsynms_distill_engzho.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-MNED-plaid_eqsynms_distill_engzho) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-MNED-plaid_eqsynms_distill_engzho.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-MNED-plaid_eqsynms_distill_engzho) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** zho-hltcoe-MNED-plaid_eqsynms_distill_engzho  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -3109,7 +3109,7 @@
 
 ---
 #### zho-hltcoe-MNED-plaid_syn_distill_engzho  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-MNED-plaid_syn_distill_engzho.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-MNED-plaid_syn_distill_engzho) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-MNED-plaid_syn_distill_engzho.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-MNED-plaid_syn_distill_engzho) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** zho-hltcoe-MNED-plaid_syn_distill_engzho  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -3121,7 +3121,7 @@
 
 ---
 #### zho-hltcoe-MNTEH-kitchen_rankfuse  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-MNTEH-kitchen_rankfuse.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-MNTEH-kitchen_rankfuse) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-MNTEH-kitchen_rankfuse.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-MNTEH-kitchen_rankfuse) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** zho-hltcoe-MNTEH-kitchen_rankfuse  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -3133,7 +3133,7 @@
 
 ---
 #### zho-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** zho-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -3145,7 +3145,7 @@
 
 ---
 #### zho-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.gpt4rerank  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.gpt4rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.gpt4rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.gpt4rerank.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.gpt4rerank) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** zho-hltcoe-MNTEH-kitchen_rankfuse.mt5rerank.gpt4rerank  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -3157,7 +3157,7 @@
 
 ---
 #### zho-hltcoe-MTED-plaid_distill_engeng  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-MTED-plaid_distill_engeng.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-MTED-plaid_distill_engeng) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-hltcoe-MTED-plaid_distill_engeng.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-hltcoe-MTED-plaid_distill_engeng) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-clir.html)  
 
 - :material-rename: **Run ID:** zho-hltcoe-MTED-plaid_distill_engeng  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -3181,7 +3181,7 @@
 
 ---
 #### zho-jhu-orion-aggregated-w-claude  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-jhu-orion-aggregated-w-claude.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-jhu-orion-aggregated-w-claude) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-jhu-orion-aggregated-w-claude.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-jhu-orion-aggregated-w-claude) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** zho-jhu-orion-aggregated-w-claude  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -3193,7 +3193,7 @@
 
 ---
 #### zho-jhu-orion-aggregated-w-gpt4o  
-[**`Participants`**](./participants.md#hltcoe) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-jhu-orion-aggregated-w-gpt4o.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-jhu-orion-aggregated-w-gpt4o) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#hltcoe) | [**`Proceedings`**](./proceedings.md#overview-of-the-trec-2024-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho-jhu-orion-aggregated-w-gpt4o.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho-jhu-orion-aggregated-w-gpt4o) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** zho-jhu-orion-aggregated-w-gpt4o  
 - :fontawesome-solid-user-group: **Participant:** hltcoe  
@@ -3205,7 +3205,7 @@
 
 ---
 #### zho_irlab-ams-postcite  
-[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho_irlab-ams-postcite.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho_irlab-ams-postcite) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Proceedings`**](./proceedings.md#irlab-ams-at-trec24-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho_irlab-ams-postcite.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho_irlab-ams-postcite) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** zho_irlab-ams-postcite  
 - :fontawesome-solid-user-group: **Participant:** IRLab-Amsterdam  
@@ -3217,7 +3217,7 @@
 
 ---
 #### zho_irlab-ams-postcite-v  
-[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho_irlab-ams-postcite-v.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho_irlab-ams-postcite-v) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Proceedings`**](./proceedings.md#irlab-ams-at-trec24-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho_irlab-ams-postcite-v.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho_irlab-ams-postcite-v) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** zho_irlab-ams-postcite-v  
 - :fontawesome-solid-user-group: **Participant:** IRLab-Amsterdam  
@@ -3229,7 +3229,7 @@
 
 ---
 #### zho_irlab-ams-std-mdcomp-330-translate-llama-8B  
-[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho_irlab-ams-std-mdcomp-330-translate-llama-8B.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho_irlab-ams-std-mdcomp-330-translate-llama-8B) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Proceedings`**](./proceedings.md#irlab-ams-at-trec24-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho_irlab-ams-std-mdcomp-330-translate-llama-8B.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho_irlab-ams-std-mdcomp-330-translate-llama-8B) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** zho_irlab-ams-std-mdcomp-330-translate-llama-8B  
 - :fontawesome-solid-user-group: **Participant:** IRLab-Amsterdam  
@@ -3241,7 +3241,7 @@
 
 ---
 #### zho_irlab-ams-std-mdcomp-331-translate-llama-8B  
-[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho_irlab-ams-std-mdcomp-331-translate-llama-8B.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho_irlab-ams-std-mdcomp-331-translate-llama-8B) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Proceedings`**](./proceedings.md#irlab-ams-at-trec24-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho_irlab-ams-std-mdcomp-331-translate-llama-8B.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho_irlab-ams-std-mdcomp-331-translate-llama-8B) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** zho_irlab-ams-std-mdcomp-331-translate-llama-8B  
 - :fontawesome-solid-user-group: **Participant:** IRLab-Amsterdam  
@@ -3253,7 +3253,7 @@
 
 ---
 #### zho_irlab-ams-std-recomp-llama-8B  
-[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho_irlab-ams-std-recomp-llama-8B.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho_irlab-ams-std-recomp-llama-8B) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Proceedings`**](./proceedings.md#irlab-ams-at-trec24-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho_irlab-ams-std-recomp-llama-8B.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho_irlab-ams-std-recomp-llama-8B) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** zho_irlab-ams-std-recomp-llama-8B  
 - :fontawesome-solid-user-group: **Participant:** IRLab-Amsterdam  
@@ -3265,7 +3265,7 @@
 
 ---
 #### zho_irlab-ams-std-translate-llama-70B-api  
-[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho_irlab-ams-std-translate-llama-70B-api.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho_irlab-ams-std-translate-llama-70B-api) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Proceedings`**](./proceedings.md#irlab-ams-at-trec24-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho_irlab-ams-std-translate-llama-70B-api.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho_irlab-ams-std-translate-llama-70B-api) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** zho_irlab-ams-std-translate-llama-70B-api  
 - :fontawesome-solid-user-group: **Participant:** IRLab-Amsterdam  
@@ -3277,7 +3277,7 @@
 
 ---
 #### zho_irlab-ams-std-translate-llama-8B  
-[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho_irlab-ams-std-translate-llama-8B.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho_irlab-ams-std-translate-llama-8B) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
+[**`Participants`**](./participants.md#irlab-amsterdam) | [**`Proceedings`**](./proceedings.md#irlab-ams-at-trec24-neuclir-track) | [**`Input`**](https://trec.nist.gov/results/trec33/neuclir/input.zho_irlab-ams-std-translate-llama-8B.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/neuclir/summary.zho_irlab-ams-std-translate-llama-8B) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-neuclir-repgen.html)  
 
 - :material-rename: **Run ID:** zho_irlab-ams-std-translate-llama-8B  
 - :fontawesome-solid-user-group: **Participant:** IRLab-Amsterdam  

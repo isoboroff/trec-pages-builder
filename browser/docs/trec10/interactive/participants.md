@@ -6,28 +6,10 @@
 - :material-file-search: **Runs:** [csiroI](./runs.md#csiroi)
 
 ---
-#### rutgers-belkin
-- :fontawesome-solid-user-group: **Name:** Nicholas J. Belkin
-- :octicons-organization-16: **Organization:** Rutgers University (Belkin)
-- :material-file-search: **Runs:** [rutgersI](./runs.md#rutgersi)
-
----
 #### OHSU
 - :fontawesome-solid-user-group: **Name:** William Hersh
 - :octicons-organization-16: **Organization:** Oregon Health Sciences University
 - :material-file-search: **Runs:** [ohsuI](./runs.md#ohsui)
-
----
-#### robertgordonu
-- :fontawesome-solid-user-group: **Name:** Ayse Goker
-- :octicons-organization-16: **Organization:** Robert Gordon University
-- :material-file-search: **Runs:** [rguI](./runs.md#rgui)
-
----
-#### toronto
-- :fontawesome-solid-user-group: **Name:** Elaine Toms
-- :octicons-organization-16: **Organization:** University of Toronto
-- :material-file-search: **Runs:** [torontoI](./runs.md#torontoi)
 
 ---
 #### oslo
@@ -42,6 +24,18 @@
 - :material-file-search: **Runs:** [newbyI](./runs.md#newbyi)
 
 ---
+#### robertgordonu
+- :fontawesome-solid-user-group: **Name:** Ayse Goker
+- :octicons-organization-16: **Organization:** Robert Gordon University
+- :material-file-search: **Runs:** [rguI](./runs.md#rgui)
+
+---
+#### rutgers-belkin
+- :fontawesome-solid-user-group: **Name:** Nicholas J. Belkin
+- :octicons-organization-16: **Organization:** Rutgers University (Belkin)
+- :material-file-search: **Runs:** [rutgersI](./runs.md#rutgersi)
+
+---
 #### glasgow
 - :fontawesome-solid-user-group: **Name:** Ian Ruthven
 - :octicons-organization-16: **Organization:** University of Glasgow
@@ -52,5 +46,11 @@
 - :fontawesome-solid-user-group: **Name:** Suresh Bhavnani
 - :octicons-organization-16: **Organization:** University of Michigan
 - :material-file-search: **Runs:** [michiganI](./runs.md#michigani)
+
+---
+#### toronto
+- :fontawesome-solid-user-group: **Name:** Elaine Toms
+- :octicons-organization-16: **Organization:** University of Toronto
+- :material-file-search: **Runs:** [torontoI](./runs.md#torontoi)
 
 ---

@@ -1,5 +1,17 @@
 # Participants - Spanish 1996
 
+#### NMSU-D
+- :fontawesome-solid-user-group: **Name:** Mark Davis
+- :octicons-organization-16: **Organization:** New Mexico State University
+- :material-file-search: **Runs:** [nmsuc1](./runs.md#nmsuc1) | [nmsuc2](./runs.md#nmsuc2) | [nmsuc3](./runs.md#nmsuc3)
+
+---
+#### Berkeley
+- :fontawesome-solid-user-group: **Name:** Fredric C. Gey
+- :octicons-organization-16: **Organization:** University of California, Berkeley
+- :material-file-search: **Runs:** [BrklySP5](./runs.md#brklysp5) | [BrklySP6](./runs.md#brklysp6)
+
+---
 #### Xerox
 - :fontawesome-solid-user-group: **Name:** Jan Pedersen
 - :octicons-organization-16: **Organization:** Xerox
@@ -12,28 +24,10 @@
 - :material-file-search: **Runs:** [DCU965](./runs.md#dcu965) | [DCU966](./runs.md#dcu966) | [DCU967](./runs.md#dcu967)
 
 ---
-#### NMSU-D
-- :fontawesome-solid-user-group: **Name:** Mark Davis
-- :octicons-organization-16: **Organization:** New Mexico State University
-- :material-file-search: **Runs:** [nmsuc1](./runs.md#nmsuc1) | [nmsuc2](./runs.md#nmsuc2) | [nmsuc3](./runs.md#nmsuc3)
-
----
 #### UMass
 - :fontawesome-solid-user-group: **Name:** James P. Callan
 - :octicons-organization-16: **Organization:** University of Massachusetts
 - :material-file-search: **Runs:** [SIN300](./runs.md#sin300) | [SIN301](./runs.md#sin301)
-
----
-#### GMU
-- :fontawesome-solid-user-group: **Name:** David Grossman
-- :octicons-organization-16: **Organization:** George Mason University
-- :material-file-search: **Runs:** [gmu96sp1](./runs.md#gmu96sp1) | [gmu96sp2](./runs.md#gmu96sp2)
-
----
-#### Berkeley
-- :fontawesome-solid-user-group: **Name:** Fredric C. Gey
-- :octicons-organization-16: **Organization:** University of California, Berkeley
-- :material-file-search: **Runs:** [BrklySP5](./runs.md#brklysp5) | [BrklySP6](./runs.md#brklysp6)
 
 ---
 #### Cornell
@@ -45,5 +39,11 @@
 #### UMd
 - :fontawesome-solid-user-group: **Name:** Douglas Oard
 - :octicons-organization-16: **Organization:** University of Maryland
+
+---
+#### GMU
+- :fontawesome-solid-user-group: **Name:** David Grossman
+- :octicons-organization-16: **Organization:** George Mason University
+- :material-file-search: **Runs:** [gmu96sp1](./runs.md#gmu96sp1) | [gmu96sp2](./runs.md#gmu96sp2)
 
 ---

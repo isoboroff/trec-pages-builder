@@ -78,7 +78,7 @@
 
 ---
 #### GPT  
-[**`Participants`**](./participants.md#um) | [**`Proceedings`**](./proceedings.md#malei-at-the-plaba-track-of-tac-2024-roberta-for-task-1-llama31-and-gpt-4o-for-task-2) | [**`Input`**](https://trec.nist.gov/results/trec33/plaba/input.GPT.gz) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-plaba-adapt.html)  
+[**`Participants`**](./participants.md#um) | [**`Proceedings`**](./proceedings.md#malei-at-the-plaba-track-of-trec-2024-roberta-for-term-replacement-llama31-and-gpt-4o-for-complete-abstract-adaptation) | [**`Input`**](https://trec.nist.gov/results/trec33/plaba/input.GPT.gz) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-plaba-adapt.html)  
 
 - :material-rename: **Run ID:** GPT  
 - :fontawesome-solid-user-group: **Participant:** UM  
@@ -122,7 +122,7 @@
 
 ---
 #### LLaMa 3.1 70B instruction (2nd run)  
-[**`Participants`**](./participants.md#um) | [**`Proceedings`**](./proceedings.md#malei-at-the-plaba-track-of-tac-2024-roberta-for-task-1-llama31-and-gpt-4o-for-task-2) | [**`Input`**](https://trec.nist.gov/results/trec33/plaba/input.LLaMa 3.1 70B instruction (2nd run).gz) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-plaba-adapt.html)  
+[**`Participants`**](./participants.md#um) | [**`Proceedings`**](./proceedings.md#malei-at-the-plaba-track-of-trec-2024-roberta-for-term-replacement-llama31-and-gpt-4o-for-complete-abstract-adaptation) | [**`Input`**](https://trec.nist.gov/results/trec33/plaba/input.LLaMa 3.1 70B instruction (2nd run).gz) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-plaba-adapt.html)  
 
 - :material-rename: **Run ID:** LLaMa 3.1 70B instruction (2nd run)  
 - :fontawesome-solid-user-group: **Participant:** UM  
@@ -221,7 +221,7 @@
 
 ---
 #### Roberta-base  
-[**`Participants`**](./participants.md#um) | [**`Proceedings`**](./proceedings.md#malei-at-the-plaba-track-of-tac-2024-roberta-for-task-1-llama31-and-gpt-4o-for-task-2) | [**`Input`**](https://trec.nist.gov/results/trec33/plaba/input.Roberta-base.gz) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-plaba-term.html)  
+[**`Participants`**](./participants.md#um) | [**`Proceedings`**](./proceedings.md#malei-at-the-plaba-track-of-trec-2024-roberta-for-term-replacement-llama31-and-gpt-4o-for-complete-abstract-adaptation) | [**`Input`**](https://trec.nist.gov/results/trec33/plaba/input.Roberta-base.gz) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-plaba-term.html)  
 
 - :material-rename: **Run ID:** Roberta-base  
 - :fontawesome-solid-user-group: **Participant:** UM  

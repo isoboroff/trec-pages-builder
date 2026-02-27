@@ -6,22 +6,22 @@
 - :material-file-search: **Runs:** [MayoLucene](./runs.md#mayolucene) | [MayoMetaData](./runs.md#mayometadata) | [MayoPayload](./runs.md#mayopayload) | [MayoExpanded](./runs.md#mayoexpanded)
 
 ---
-#### AEHRC
-- :fontawesome-solid-user-group: **Name:** Bevan Koopman
-- :octicons-organization-16: **Organization:** Australian e-Health Research Centre
-- :material-file-search: **Runs:** [AEHRClvl0](./runs.md#aehrclvl0) | [AEHRClvl1](./runs.md#aehrclvl1) | [AEHRClvl2](./runs.md#aehrclvl2) | [AEHRCsub](./runs.md#aehrcsub)
+#### BMIUOU
+- :fontawesome-solid-user-group: **Name:** Duy Bui
+- :octicons-organization-16: **Organization:** University Of Utah
+- :material-file-search: **Runs:** [BMIUOUsyn](./runs.md#bmiuousyn) | [BMIUOUbase](./runs.md#bmiuoubase) | [BMIUOUens](./runs.md#bmiuouens) | [BMIUOUensneg](./runs.md#bmiuouensneg)
 
 ---
-#### RMIT
-- :fontawesome-solid-user-group: **Name:** Falk Scholer
-- :octicons-organization-16: **Organization:** RMIT University
-- :material-file-search: **Runs:** [APRel1](./runs.md#aprel1) | [GE4](./runs.md#ge4) | [APRel2](./runs.md#aprel2) | [RAPRel2](./runs.md#raprel2)
+#### NICTA
+- :fontawesome-solid-user-group: **Name:** David Martinez
+- :octicons-organization-16: **Organization:** NICTA (National ICT Australia)
+- :material-file-search: **Runs:** [NICTAUBC1](./runs.md#nictaubc1) | [NICTAUBC2](./runs.md#nictaubc2) | [NICTAUBC4](./runs.md#nictaubc4) | [NICTAUBC6](./runs.md#nictaubc6)
 
 ---
-#### qutir12
-- :fontawesome-solid-user-group: **Name:** Timothy Chappell
-- :octicons-organization-16: **Organization:** Queensland University of Technology (qutir12)
-- :material-file-search: **Runs:** [quta](./runs.md#quta) | [qutb](./runs.md#qutb) | [qutc](./runs.md#qutc)
+#### udel
+- :fontawesome-solid-user-group: **Name:** Ben Carterette
+- :octicons-organization-16: **Organization:** University of Delaware (udel)
+- :material-file-search: **Runs:** [udelMNZ](./runs.md#udelmnz) | [udelSUM](./runs.md#udelsum) | [udelMRF](./runs.md#udelmrf) | [udelMED](./runs.md#udelmed)
 
 ---
 #### IKMLAB
@@ -36,16 +36,40 @@
 - :material-file-search: **Runs:** [DCU21](./runs.md#dcu21) | [DCU22](./runs.md#dcu22) | [DCU23b](./runs.md#dcu23b) | [DCU24b](./runs.md#dcu24b)
 
 ---
-#### SNU_BME
-- :fontawesome-solid-user-group: **Name:** Jeong-eun Lee
-- :octicons-organization-16: **Organization:** Medical Informatics Laboratory, Seoul National University
-- :material-file-search: **Runs:** [SNUBME2](./runs.md#snubme2) | [SNUBME4](./runs.md#snubme4) | [SNUBME1](./runs.md#snubme1) | [SNUBME3](./runs.md#snubme3)
+#### USF_ISDS
+- :fontawesome-solid-user-group: **Name:** Harvey Hyman
+- :octicons-organization-16: **Organization:** University of South Florida
+- :material-file-search: **Runs:** [USFISDS1](./runs.md#usfisds1) | [USFISDS2](./runs.md#usfisds2)
 
 ---
 #### PRIS
 - :fontawesome-solid-user-group: **Name:** Yan Li
 - :octicons-organization-16: **Organization:** Pattern Recognition and Intelligence System Lab
 - :material-file-search: **Runs:** [buptprisBase](./runs.md#buptprisbase) | [buptprisInt](./runs.md#buptprisint) | [buptprisCscr](./runs.md#buptpriscscr) | [buptprisLrnk](./runs.md#buptprislrnk)
+
+---
+#### udel_fang
+- :fontawesome-solid-user-group: **Name:** Hui Fang
+- :octicons-organization-16: **Organization:** University of Delaware, InfoLab (udel_fang)
+- :material-file-search: **Runs:** [UDInfoMed123](./runs.md#udinfomed123) | [UDInfoMed12](./runs.md#udinfomed12) | [UDInfoMed1](./runs.md#udinfomed1)
+
+---
+#### sennamed
+- :fontawesome-solid-user-group: **Name:** Pierre-Francois Laquerre
+- :octicons-organization-16: **Organization:** NEC Laboratories America
+- :material-file-search: **Runs:** [sennamedlsi](./runs.md#sennamedlsi) | [sennamed1](./runs.md#sennamed1) | [sennamed2](./runs.md#sennamed2) | [sennamed3](./runs.md#sennamed3)
+
+---
+#### AEHRC
+- :fontawesome-solid-user-group: **Name:** Bevan Koopman
+- :octicons-organization-16: **Organization:** Australian e-Health Research Centre
+- :material-file-search: **Runs:** [AEHRClvl0](./runs.md#aehrclvl0) | [AEHRClvl1](./runs.md#aehrclvl1) | [AEHRClvl2](./runs.md#aehrclvl2) | [AEHRCsub](./runs.md#aehrcsub)
+
+---
+#### RMIT
+- :fontawesome-solid-user-group: **Name:** Falk Scholer
+- :octicons-organization-16: **Organization:** RMIT University
+- :material-file-search: **Runs:** [APRel1](./runs.md#aprel1) | [GE4](./runs.md#ge4) | [APRel2](./runs.md#aprel2) | [RAPRel2](./runs.md#raprel2)
 
 ---
 #### UCD_CSI
@@ -60,28 +84,10 @@
 - :material-file-search: **Runs:** [atigeo0](./runs.md#atigeo0) | [atigeo1](./runs.md#atigeo1) | [atigeo2](./runs.md#atigeo2) | [atigeo3](./runs.md#atigeo3)
 
 ---
-#### USF_ISDS
-- :fontawesome-solid-user-group: **Name:** Harvey Hyman
-- :octicons-organization-16: **Organization:** University of South Florida
-- :material-file-search: **Runs:** [USFISDS1](./runs.md#usfisds1) | [USFISDS2](./runs.md#usfisds2)
-
----
 #### uogTr
 - :fontawesome-solid-user-group: **Name:** Iadh Ounis
 - :octicons-organization-16: **Organization:** University of Glasgow (Terrier Team)
 - :material-file-search: **Runs:** [uogTrMConQ](./runs.md#uogtrmconq) | [uogTrMConQRa](./runs.md#uogtrmconqra) | [uogTrMConQRd](./runs.md#uogtrmconqrd) | [uogTrMConQT](./runs.md#uogtrmconqt)
-
----
-#### udel
-- :fontawesome-solid-user-group: **Name:** Ben Carterette
-- :octicons-organization-16: **Organization:** University of Delaware (udel)
-- :material-file-search: **Runs:** [udelMNZ](./runs.md#udelmnz) | [udelSUM](./runs.md#udelsum) | [udelMRF](./runs.md#udelmrf) | [udelMED](./runs.md#udelmed)
-
----
-#### SCIAITeam
-- :fontawesome-solid-user-group: **Name:** Dr. Sharon G. Small
-- :octicons-organization-16: **Organization:** The Siena College Institute for Artificial Intelligence
-- :material-file-search: **Runs:** [Siena1](./runs.md#siena1) | [Siena2](./runs.md#siena2) | [Siena3](./runs.md#siena3)
 
 ---
 #### NIL_UCM
@@ -90,16 +96,28 @@
 - :material-file-search: **Runs:** [ucm4](./runs.md#ucm4) | [ucm5](./runs.md#ucm5) | [ucm3](./runs.md#ucm3) | [ucm1](./runs.md#ucm1)
 
 ---
+#### qutir12
+- :fontawesome-solid-user-group: **Name:** Timothy Chappell
+- :octicons-organization-16: **Organization:** Queensland University of Technology (qutir12)
+- :material-file-search: **Runs:** [quta](./runs.md#quta) | [qutb](./runs.md#qutb) | [qutc](./runs.md#qutc)
+
+---
+#### NLM
+- :fontawesome-solid-user-group: **Name:** Alan R Aronson
+- :octicons-organization-16: **Organization:** US National Library of Medicine
+- :material-file-search: **Runs:** [NLMManual](./runs.md#nlmmanual) | [NLMLuceneExp](./runs.md#nlmluceneexp) | [EssieAuto](./runs.md#essieauto) | [NLMLuceneSec](./runs.md#nlmlucenesec)
+
+---
+#### SNU_BME
+- :fontawesome-solid-user-group: **Name:** Jeong-eun Lee
+- :octicons-organization-16: **Organization:** Medical Informatics Laboratory, Seoul National University
+- :material-file-search: **Runs:** [SNUBME2](./runs.md#snubme2) | [SNUBME4](./runs.md#snubme4) | [SNUBME1](./runs.md#snubme1) | [SNUBME3](./runs.md#snubme3)
+
+---
 #### LSIS
 - :fontawesome-solid-user-group: **Name:** Patrice BELLOT
 - :octicons-organization-16: **Organization:** LSIS - Aix-Marseille University
 - :material-file-search: **Runs:** [LSIS1](./runs.md#lsis1) | [LSIS2](./runs.md#lsis2) | [LSIS3](./runs.md#lsis3)
-
----
-#### NICTA
-- :fontawesome-solid-user-group: **Name:** David Martinez
-- :octicons-organization-16: **Organization:** NICTA (National ICT Australia)
-- :material-file-search: **Runs:** [NICTAUBC1](./runs.md#nictaubc1) | [NICTAUBC2](./runs.md#nictaubc2) | [NICTAUBC4](./runs.md#nictaubc4) | [NICTAUBC6](./runs.md#nictaubc6)
 
 ---
 #### OHSU
@@ -120,27 +138,9 @@
 - :material-file-search: **Runs:** [YorkUMB1](./runs.md#yorkumb1) | [YorkUMC2](./runs.md#yorkumc2) | [YorkUMQ3](./runs.md#yorkumq3) | [YorkUMP4](./runs.md#yorkump4)
 
 ---
-#### sennamed
-- :fontawesome-solid-user-group: **Name:** Pierre-Francois Laquerre
-- :octicons-organization-16: **Organization:** NEC Laboratories America
-- :material-file-search: **Runs:** [sennamedlsi](./runs.md#sennamedlsi) | [sennamed1](./runs.md#sennamed1) | [sennamed2](./runs.md#sennamed2) | [sennamed3](./runs.md#sennamed3)
-
----
-#### udel_fang
-- :fontawesome-solid-user-group: **Name:** Hui Fang
-- :octicons-organization-16: **Organization:** University of Delaware, InfoLab (udel_fang)
-- :material-file-search: **Runs:** [UDInfoMed123](./runs.md#udinfomed123) | [UDInfoMed12](./runs.md#udinfomed12) | [UDInfoMed1](./runs.md#udinfomed1)
-
----
-#### NLM
-- :fontawesome-solid-user-group: **Name:** Alan R Aronson
-- :octicons-organization-16: **Organization:** US National Library of Medicine
-- :material-file-search: **Runs:** [NLMManual](./runs.md#nlmmanual) | [NLMLuceneExp](./runs.md#nlmluceneexp) | [EssieAuto](./runs.md#essieauto) | [NLMLuceneSec](./runs.md#nlmlucenesec)
-
----
-#### BMIUOU
-- :fontawesome-solid-user-group: **Name:** Duy Bui
-- :octicons-organization-16: **Organization:** University Of Utah
-- :material-file-search: **Runs:** [BMIUOUsyn](./runs.md#bmiuousyn) | [BMIUOUbase](./runs.md#bmiuoubase) | [BMIUOUens](./runs.md#bmiuouens) | [BMIUOUensneg](./runs.md#bmiuouensneg)
+#### SCIAITeam
+- :fontawesome-solid-user-group: **Name:** Dr. Sharon G. Small
+- :octicons-organization-16: **Organization:** The Siena College Institute for Artificial Intelligence
+- :material-file-search: **Runs:** [Siena1](./runs.md#siena1) | [Siena2](./runs.md#siena2) | [Siena3](./runs.md#siena3)
 
 ---

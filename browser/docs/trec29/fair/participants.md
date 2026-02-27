@@ -1,5 +1,11 @@
 # Participants - Fair Ranking 2020
 
+#### UMD_IR
+- :fontawesome-solid-user-group: **Name:** Petra Galuscakova
+- :octicons-organization-16: **Organization:** University of Maryland, College Park
+- :material-file-search: **Runs:** [umd_relfair_ltr](./runs.md#umd_relfair_ltr)
+
+---
 #### NLE
 - :fontawesome-solid-user-group: **Name:** Jean-Michel RENDERS
 - :octicons-organization-16: **Organization:** Naver Labs Europe
@@ -22,12 +28,6 @@
 - :fontawesome-solid-user-group: **Name:** Iadh Ounis
 - :octicons-organization-16: **Organization:** University of Glasgow
 - :material-file-search: **Runs:** [UoGTrBComRel](./runs.md#uogtrbcomrel) | [UoGTrBComPro](./runs.md#uogtrbcompro) | [UoGTrBRel](./runs.md#uogtrbrel) | [UoGTrComRel](./runs.md#uogtrcomrel) | [UoGTrBComFu](./runs.md#uogtrbcomfu)
-
----
-#### UMD_IR
-- :fontawesome-solid-user-group: **Name:** Petra Galuscakova
-- :octicons-organization-16: **Organization:** University of Maryland, College Park
-- :material-file-search: **Runs:** [umd_relfair_ltr](./runs.md#umd_relfair_ltr)
 
 ---
 #### MacEwan_Biz

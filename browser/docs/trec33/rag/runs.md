@@ -67,7 +67,7 @@
 
 ---
 #### agtask-bm25-colbert_faiss-gpt4o-llama70b  
-[**`Participants`**](./participants.md#softbank-meisei) | [**`Proceedings`**](./proceedings.md#softbank-meisei-trec2024-papers-proc-2) | [**`Input`**](https://trec.nist.gov/results/trec33/rag/input.agtask-bm25-colbert_faiss-gpt4o-llama70b.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/rag/summary.agtask-bm25-colbert_faiss-gpt4o-llama70b) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-rag-auggen.html)  
+[**`Participants`**](./participants.md#softbank-meisei) | [**`Input`**](https://trec.nist.gov/results/trec33/rag/input.agtask-bm25-colbert_faiss-gpt4o-llama70b.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/rag/summary.agtask-bm25-colbert_faiss-gpt4o-llama70b) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-rag-auggen.html)  
 
 - :material-rename: **Run ID:** agtask-bm25-colbert_faiss-gpt4o-llama70b  
 - :fontawesome-solid-user-group: **Participant:** softbank-meisei  
@@ -1618,7 +1618,7 @@
 
 ---
 #### rag_bm25-colbert_faiss-gpt4o-llama70b  
-[**`Participants`**](./participants.md#softbank-meisei) | [**`Proceedings`**](./proceedings.md#softbank-meisei-trec2024-papers-proc-2) | [**`Input`**](https://trec.nist.gov/results/trec33/rag/input.rag_bm25-colbert_faiss-gpt4o-llama70b.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/rag/summary.rag_bm25-colbert_faiss-gpt4o-llama70b) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-rag-gen.html)  
+[**`Participants`**](./participants.md#softbank-meisei) | [**`Input`**](https://trec.nist.gov/results/trec33/rag/input.rag_bm25-colbert_faiss-gpt4o-llama70b.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/rag/summary.rag_bm25-colbert_faiss-gpt4o-llama70b) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-rag-gen.html)  
 
 - :material-rename: **Run ID:** rag_bm25-colbert_faiss-gpt4o-llama70b  
 - :fontawesome-solid-user-group: **Participant:** softbank-meisei  
@@ -1629,7 +1629,7 @@
 
 ---
 #### ragtask-bm25-rank_zephyr-gpt4o-llama70b  
-[**`Participants`**](./participants.md#softbank-meisei) | [**`Proceedings`**](./proceedings.md#softbank-meisei-trec2024-papers-proc-2) | [**`Input`**](https://trec.nist.gov/results/trec33/rag/input.ragtask-bm25-rank_zephyr-gpt4o-llama70b.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/rag/summary.ragtask-bm25-rank_zephyr-gpt4o-llama70b) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-rag-gen.html)  
+[**`Participants`**](./participants.md#softbank-meisei) | [**`Input`**](https://trec.nist.gov/results/trec33/rag/input.ragtask-bm25-rank_zephyr-gpt4o-llama70b.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/rag/summary.ragtask-bm25-rank_zephyr-gpt4o-llama70b) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-rag-gen.html)  
 
 - :material-rename: **Run ID:** ragtask-bm25-rank_zephyr-gpt4o-llama70b  
 - :fontawesome-solid-user-group: **Participant:** softbank-meisei  
@@ -1662,7 +1662,7 @@
 
 ---
 #### rtask-bm25-colbert_faiss  
-[**`Participants`**](./participants.md#softbank-meisei) | [**`Proceedings`**](./proceedings.md#softbank-meisei-trec2024-papers-proc-2) | [**`Input`**](https://trec.nist.gov/results/trec33/rag/input.rtask-bm25-colbert_faiss.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/rag/summary.rtask-bm25-colbert_faiss) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-rag-retrieval.html)  
+[**`Participants`**](./participants.md#softbank-meisei) | [**`Input`**](https://trec.nist.gov/results/trec33/rag/input.rtask-bm25-colbert_faiss.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/rag/summary.rtask-bm25-colbert_faiss) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-rag-retrieval.html)  
 
 - :material-rename: **Run ID:** rtask-bm25-colbert_faiss  
 - :fontawesome-solid-user-group: **Participant:** softbank-meisei  
@@ -1673,7 +1673,7 @@
 
 ---
 #### rtask-bm25-rank_zephyr  
-[**`Participants`**](./participants.md#softbank-meisei) | [**`Proceedings`**](./proceedings.md#softbank-meisei-trec2024-papers-proc-2) | [**`Input`**](https://trec.nist.gov/results/trec33/rag/input.rtask-bm25-rank_zephyr.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/rag/summary.rtask-bm25-rank_zephyr) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-rag-retrieval.html)  
+[**`Participants`**](./participants.md#softbank-meisei) | [**`Input`**](https://trec.nist.gov/results/trec33/rag/input.rtask-bm25-rank_zephyr.gz) | [**`Summary`**](https://trec.nist.gov/results/trec33/rag/summary.rtask-bm25-rank_zephyr) | [**`Appendix`**](https://trec.nist.gov/pubs/trec33/appendices/trec2024-rag-retrieval.html)  
 
 - :material-rename: **Run ID:** rtask-bm25-rank_zephyr  
 - :fontawesome-solid-user-group: **Participant:** softbank-meisei  
