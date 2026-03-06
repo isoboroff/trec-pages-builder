@@ -18,7 +18,7 @@
 > To add new data, e.g., from last year's conference, it is not required to re-run the entire pipeline (see below). Adding new data is basically a four step process:
 > 1. Add JSON-formatted metadata to the `metadata/` directory.
 > 2. Run either the build script `build_all_conferences.py` or `build_single_conference.py`.
-> 3. Build the HTML files with `mkdocs build`.
+> 3. Build the HTML files with `zensical build` (or `mkdocs build`).
 > 4. Commit the HTML files to the [`nist-pages`](https://github.com/usnistgov/trec-browser/tree/nist-pages) branch of the [`trec-browser`](https://github.com/usnistgov/trec-browser) repository.
 
 ```mermaid
@@ -29,7 +29,7 @@ theme: forest
 flowchart LR
     B@{ shape: docs, label: "**JSON files** <br> in ./metadata/"}	
     B -->|build_single_conference.py| C@{ shape: docs, label: "**Markdown files** <br> in ./browser/"}
-    C -->|mkdocs build| E@{ shape: docs, label: "**HTML files** <br> in ./browser/"}
+    C -->|zensical build| E@{ shape: docs, label: "**HTML files** <br> in ./browser/"}
 ```
 
 ### Setup of the Python environment
@@ -83,16 +83,16 @@ python scripts/build_single_conference.py trec8
 
 ### Build the HTML files 
 
-Once the files in browser/docs/ are generated, run the following command to build the HTML files. 
+Once the files in browser/docs/ are generated, run the following command to build the HTML files. If you prefer [MkDocs](https://www.mkdocs.org/) instead of [Zensical](https://zensical.org/), replace `zensical` with `mkdocs`:
 ```
-cd browser && mkdocs build 
+cd browser && zensical build 
 ```
 
 If you have added a new conference, or a section (like runs or proceedings) to an existing conference, you need to update the navigation in the mkdocs.yml file.
 
 Optionally, you can run the browser locally to double-check the results:
 ```
-mkdocs serve
+zensical serve
 ```
 or
 ```
@@ -116,7 +116,7 @@ flowchart LR
     A -->|metadata_to_json.py| B@{ shape: docs, label: "**JSON files** <br> in ./metadata/"}
     B -->|build_all_conferences.py <br> or <br> build_single_conference.py| C@{ shape: docs, label: "**Markdown files** <br> in ./browser/"}
 	B -->|create_db_from_json.py| D[(**SQLite database** <br> trec.sqlite)]
-    C -->|mkdocs build| E@{ shape: docs, label: "**HTML files** <br> in ./browser/"}
+    C -->|zensical build| E@{ shape: docs, label: "**HTML files** <br> in ./browser/"}
 ```
 
 ### Setup of the Python environment
@@ -152,14 +152,14 @@ python scripts/build_single_conference.py
 
 ### Build the HTML files 
 
-Once the files in browser/docs/ are generated, run the following command to build the HTML files. 
+Once the files in browser/docs/ are generated, run the following command to build the HTML files. If you prefer [MkDocs](https://www.mkdocs.org/) instead of [Zensical](https://zensical.org/), replace `zensical` with `mkdocs`.
 ```
-cd browser/src/ && mkdocs build 
+cd browser/src/ && zensical build 
 ```
 
 Optionally, you can run the browser locally to double-check the results:
 ```
-mkdocs serve
+zensical serve
 ```
 
 The browser HTML files can then be pushed to [https://github.com/usnistgov/trec-browser](https://github.com/usnistgov/trec-browser).
