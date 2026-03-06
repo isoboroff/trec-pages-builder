@@ -1103,7 +1103,7 @@ class PageBuilder:
             ref_link = f"[`{ref_label}`]({overview_path})"
 
             # Append the link to the appropriate track
-            track_overview.setdefault(fullname, []).append(ref_link)
+            track_overview.setdefault(fullname, []).append((trec_year(trec), ref_link))
 
         # Sort tracks alphabetically (case-insensitive)
         sorted_tracks = dict(sorted(track_overview.items(), key=lambda item: item[0].lower()))
@@ -1111,7 +1111,9 @@ class PageBuilder:
         # Build markdown content for each track
         track_sections = []
         for track_name, trec_links in sorted_tracks.items():
-            links = ' | '.join(trec_links)
+            # Sort links by year in descending order
+            sorted_links = sorted(trec_links, key=lambda x: x[0], reverse=True)
+            links = ' | '.join([link for _, link in sorted_links])
             section = f"#### {track_name}\n{links}\n"
             track_sections.append(section)
 
