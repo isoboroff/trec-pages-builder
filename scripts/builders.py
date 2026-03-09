@@ -184,13 +184,12 @@ def load_all_results(base_path):
 
 
 class MetadataWriter:
-    def __init__(self, base_path, json_input, db_input, bibtex_input):
+    def __init__(self, base_path, bibtex_input, db_input, json_input):
         self.base_path = base_path
         self.bib_dict = self.load_bibtex_files(
             Path(bibtex_input) / 'trec-with-doi.bib', 
             Path(bibtex_input) / 'trec.bib')
         self.engine = create_engine(f"sqlite:///{db_input}")
-        self.abstracts = load_json(Path(json_input) / 'abstracts.json')
         self.json_input = json_input
 
 
@@ -223,13 +222,18 @@ class MetadataWriter:
         
         return bib_dict
 
-
+   
     def parse_publications(self):
         """Parse bibliographic metadata from BibTeX files."""
 
         latex_to_text = LatexNodes2Text()
 
-        for trec, tracks in self.abstracts.items():
+        abstracts = {}
+        for trec_dir in Path(self.base_path).glob('trec*/abstracts.json'):
+            trec = trec_dir.parent.name
+            abstracts[trec] = load_json(trec_dir)
+
+        for trec, tracks in abstracts.items():
             
             metadata_dict = {}
             
