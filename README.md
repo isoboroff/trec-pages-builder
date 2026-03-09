@@ -60,8 +60,8 @@ Each conference has a separte folder, e.g., `trec8`. Within that directory, ther
 
 > [!IMPORTANT]
 > **Adding publication metadata:** `publications.json` contains the metadata of the publications including different fields and also the BibTeX data. You can compile `publications.json` as follows:
-> 1. Create an `abstracts.json` file in the directory of the conference that is added. For each track, single papers have the BibTeX identifier as key and contains key-value pairs of the participant identifier `pid` and the abstract of the publication (cf. [this example](.metadata/trec8/abstracts.json)).  
-> 2. Additionally, add the BibTeX data to `resources/input/bibtext/trec.bib`. The BibTeX identifier is used to associate the entries in `abstracts.json` with the full BibTeX data. Note that  `abstracts.json` is only required to generate `publications.json`, it won't be used for building the Markdown files.  
+> 1. Create an `abstracts.json` file in the directory of the conference that is added. For each track, single papers have the BibTeX identifier as key and contains key-value pairs of the participant identifier `pid` and the abstract of the publication (cf. [this example](metadata/trec8/abstracts.json)).  
+> 2. Additionally, add the BibTeX data to `resources/input/bibtex/trec.bib`. The BibTeX identifier is used to associate the entries in `abstracts.json` with the full BibTeX data. Note that  `abstracts.json` is only required to generate `publications.json`, it won't be used for building the Markdown files.  
 > 3. Finally, run `python scripts/parse_publications.py` and `publications.json` should be created in the directory of the conference.
 
 You then need to assemble the master input JSON files:
